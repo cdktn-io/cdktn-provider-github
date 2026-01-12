@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 actionsrunnergroup.NewActionsRunnerGroup(scope Construct, id *string, config ActionsRunnerGroupConfig) ActionsRunnerGroup
 ```
@@ -406,7 +406,7 @@ func ResetSelectedWorkflows()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 actionsrunnergroup.ActionsRunnerGroup_IsConstruct(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 actionsrunnergroup.ActionsRunnerGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ actionsrunnergroup.ActionsRunnerGroup_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 actionsrunnergroup.ActionsRunnerGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ actionsrunnergroup.ActionsRunnerGroup_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 actionsrunnergroup.ActionsRunnerGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -893,7 +893,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsRunnerGroup.ActionsRunnerGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/actionsrunnergroup"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsrunnergroup"
 
 &actionsrunnergroup.ActionsRunnerGroupConfig {
 	Connection: interface{},

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 organizationrepositoryrole.NewOrganizationRepositoryRole(scope Construct, id *string, config OrganizationRepositoryRoleConfig) OrganizationRepositoryRole
 ```
@@ -392,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 organizationrepositoryrole.OrganizationRepositoryRole_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 organizationrepositoryrole.OrganizationRepositoryRole_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ organizationrepositoryrole.OrganizationRepositoryRole_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 organizationrepositoryrole.OrganizationRepositoryRole_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ organizationrepositoryrole.OrganizationRepositoryRole_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRole.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 organizationrepositoryrole.OrganizationRepositoryRole_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationRepositoryRole.OrganizationRepositoryRoleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationrepositoryrole"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationrepositoryrole"
 
 &organizationrepositoryrole.OrganizationRepositoryRoleConfig {
 	Connection: interface{},

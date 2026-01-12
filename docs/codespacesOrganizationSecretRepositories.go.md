@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 codespacesorganizationsecretrepositories.NewCodespacesOrganizationSecretRepositories(scope Construct, id *string, config CodespacesOrganizationSecretRepositoriesConfig) CodespacesOrganizationSecretRepositories
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositories_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositories_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositorie
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositories.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositories_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositorie
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -740,7 +740,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.codespacesOrganizationSecretRepositories.CodespacesOrganizationSecretRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/codespacesorganizationsecretrepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/codespacesorganizationsecretrepositories"
 
 &codespacesorganizationsecretrepositories.CodespacesOrganizationSecretRepositoriesConfig {
 	Connection: interface{},

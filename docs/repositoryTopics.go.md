@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryTopics.RepositoryTopics.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 repositorytopics.NewRepositoryTopics(scope Construct, id *string, config RepositoryTopicsConfig) RepositoryTopics
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repositoryTopics.RepositoryTopics.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 repositorytopics.RepositoryTopics_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repositoryTopics.RepositoryTopics.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 repositorytopics.RepositoryTopics_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ repositorytopics.RepositoryTopics_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repositoryTopics.RepositoryTopics.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 repositorytopics.RepositoryTopics_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ repositorytopics.RepositoryTopics_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repositoryTopics.RepositoryTopics.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 repositorytopics.RepositoryTopics_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -740,7 +740,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryTopics.RepositoryTopicsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/repositorytopics"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repositorytopics"
 
 &repositorytopics.RepositoryTopicsConfig {
 	Connection: interface{},

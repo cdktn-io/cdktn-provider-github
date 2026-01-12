@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamRepository.TeamRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 teamrepository.NewTeamRepository(scope Construct, id *string, config TeamRepositoryConfig) TeamRepository
 ```
@@ -392,7 +392,7 @@ func ResetPermission()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.teamRepository.TeamRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 teamrepository.TeamRepository_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.teamRepository.TeamRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 teamrepository.TeamRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ teamrepository.TeamRepository_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.teamRepository.TeamRepository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 teamrepository.TeamRepository_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ teamrepository.TeamRepository_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.teamRepository.TeamRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 teamrepository.TeamRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -780,7 +780,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.teamRepository.TeamRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/teamrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/teamrepository"
 
 &teamrepository.TeamRepositoryConfig {
 	Connection: interface{},

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 emugroupmapping.NewEmuGroupMapping(scope Construct, id *string, config EmuGroupMappingConfig) EmuGroupMapping
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 emugroupmapping.EmuGroupMapping_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 emugroupmapping.EmuGroupMapping_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ emugroupmapping.EmuGroupMapping_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 emugroupmapping.EmuGroupMapping_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ emugroupmapping.EmuGroupMapping_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 emugroupmapping.EmuGroupMapping_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -751,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/emugroupmapping"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 
 &emugroupmapping.EmuGroupMappingConfig {
 	Connection: interface{},

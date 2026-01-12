@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 datagithubapp.NewDataGithubApp(scope Construct, id *string, config DataGithubAppConfig) DataGithubApp
 ```
@@ -283,7 +283,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 datagithubapp.DataGithubApp_IsConstruct(x interface{}) *bool
 ```
@@ -315,7 +315,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 datagithubapp.DataGithubApp_IsTerraformElement(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ datagithubapp.DataGithubApp_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 datagithubapp.DataGithubApp_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagithubapp.DataGithubApp_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 datagithubapp.DataGithubApp_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -627,7 +627,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubapp"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubapp"
 
 &datagithubapp.DataGithubAppConfig {
 	Connection: interface{},

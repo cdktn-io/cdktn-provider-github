@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.NewDataGithubCollaborators(scope Construct, id *string, config DataGithubCollaboratorsConfig) DataGithubCollaborators
 ```
@@ -297,7 +297,7 @@ func ResetPermission()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.DataGithubCollaborators_IsConstruct(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.DataGithubCollaborators_IsTerraformElement(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagithubcollaborators.DataGithubCollaborators_IsTerraformElement(x interface{}
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.DataGithubCollaborators_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -357,7 +357,7 @@ datagithubcollaborators.DataGithubCollaborators_IsTerraformDataSource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaborators.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.DataGithubCollaborators_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -685,7 +685,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaborator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 &datagithubcollaborators.DataGithubCollaboratorsCollaborator {
 
@@ -698,7 +698,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborat
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 &datagithubcollaborators.DataGithubCollaboratorsConfig {
 	Connection: interface{},
@@ -875,7 +875,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.NewDataGithubCollaboratorsCollaboratorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubCollaboratorsCollaboratorList
 ```
@@ -1024,7 +1024,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubCollaborators.DataGithubCollaboratorsCollaboratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubcollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubcollaborators"
 
 datagithubcollaborators.NewDataGithubCollaboratorsCollaboratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubCollaboratorsCollaboratorOutputReference
 ```

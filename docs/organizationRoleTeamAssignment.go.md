@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 organizationroleteamassignment.NewOrganizationRoleTeamAssignment(scope Construct, id *string, config OrganizationRoleTeamAssignmentConfig) OrganizationRoleTeamAssignment
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 organizationroleteamassignment.OrganizationRoleTeamAssignment_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 organizationroleteamassignment.OrganizationRoleTeamAssignment_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ organizationroleteamassignment.OrganizationRoleTeamAssignment_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 organizationroleteamassignment.OrganizationRoleTeamAssignment_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ organizationroleteamassignment.OrganizationRoleTeamAssignment_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 organizationroleteamassignment.OrganizationRoleTeamAssignment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -740,7 +740,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationroleteamassignment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationroleteamassignment"
 
 &organizationroleteamassignment.OrganizationRoleTeamAssignmentConfig {
 	Connection: interface{},

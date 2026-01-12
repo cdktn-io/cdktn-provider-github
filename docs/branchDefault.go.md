@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchDefault.BranchDefault.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 branchdefault.NewBranchDefault(scope Construct, id *string, config BranchDefaultConfig) BranchDefault
 ```
@@ -399,7 +399,7 @@ func ResetRename()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.branchDefault.BranchDefault.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 branchdefault.BranchDefault_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.branchDefault.BranchDefault.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 branchdefault.BranchDefault_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ branchdefault.BranchDefault_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.branchDefault.BranchDefault.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 branchdefault.BranchDefault_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ branchdefault.BranchDefault_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.branchDefault.BranchDefault.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 branchdefault.BranchDefault_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -798,7 +798,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchDefault.BranchDefaultConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/branchdefault"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/branchdefault"
 
 &branchdefault.BranchDefaultConfig {
 	Connection: interface{},

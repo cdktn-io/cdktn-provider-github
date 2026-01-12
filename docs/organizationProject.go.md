@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationProject.OrganizationProject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 organizationproject.NewOrganizationProject(scope Construct, id *string, config OrganizationProjectConfig) OrganizationProject
 ```
@@ -392,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.organizationProject.OrganizationProject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 organizationproject.OrganizationProject_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.organizationProject.OrganizationProject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 organizationproject.OrganizationProject_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ organizationproject.OrganizationProject_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.organizationProject.OrganizationProject.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 organizationproject.OrganizationProject_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ organizationproject.OrganizationProject_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.organizationProject.OrganizationProject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 organizationproject.OrganizationProject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -769,7 +769,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationProject.OrganizationProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationproject"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/organizationproject"
 
 &organizationproject.OrganizationProjectConfig {
 	Connection: interface{},

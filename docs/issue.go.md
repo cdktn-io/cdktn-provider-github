@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.issue.Issue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 issue.NewIssue(scope Construct, id *string, config IssueConfig) Issue
 ```
@@ -413,7 +413,7 @@ func ResetMilestoneNumber()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.issue.Issue.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 issue.Issue_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.issue.Issue.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 issue.Issue_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ issue.Issue_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.issue.Issue.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 issue.Issue_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ issue.Issue_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.issue.Issue.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 issue.Issue_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -889,7 +889,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.issue.IssueConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/issue"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/issue"
 
 &issue.IssueConfig {
 	Connection: interface{},
