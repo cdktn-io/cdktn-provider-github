@@ -1,15 +1,15 @@
-# `release` Submodule <a name="`release` Submodule" id="@cdktf/provider-github.release"></a>
+# `release` Submodule <a name="`release` Submodule" id="@cdktn/provider-github.release"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Release <a name="Release" id="@cdktf/provider-github.release.Release"></a>
+### Release <a name="Release" id="@cdktn/provider-github.release.Release"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release github_release}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release github_release}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.release.Release.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.release.Release.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.Release(
   scope: Construct,
@@ -36,29 +36,29 @@ release.Release(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.repository">repository</a></code> | <code>str</code> | The name of the repository. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.tagName">tag_name</a></code> | <code>str</code> | The name of the tag. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.body">body</a></code> | <code>str</code> | Text describing the contents of the tag. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | If specified, a discussion of the specified category is created and linked to the release. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to create a published release. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to automatically generate the name and body for this release. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#id Release#id}. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the release. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to identify the release as a full release. |
-| <code><a href="#@cdktf/provider-github.release.Release.Initializer.parameter.targetCommitish">target_commitish</a></code> | <code>str</code> | The branch name or commit SHA the tag is created from. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.repository">repository</a></code> | <code>str</code> | The name of the repository. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.tagName">tag_name</a></code> | <code>str</code> | The name of the tag. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.body">body</a></code> | <code>str</code> | Text describing the contents of the tag. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | If specified, a discussion of the specified category is created and linked to the release. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to create a published release. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to automatically generate the name and body for this release. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#id Release#id}. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the release. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to identify the release as a full release. |
+| <code><a href="#@cdktn/provider-github.release.Release.Initializer.parameter.targetCommitish">target_commitish</a></code> | <code>str</code> | The branch name or commit SHA the tag is created from. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.release.Release.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.release.Release.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -66,7 +66,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.release.Release.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.release.Release.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -76,79 +76,79 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.release.Release.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.release.Release.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.release.Release.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.release.Release.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.release.Release.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.release.Release.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.release.Release.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.release.Release.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.release.Release.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.release.Release.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.release.Release.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.release.Release.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.release.Release.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.release.Release.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.release.Release.Initializer.parameter.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.release.Release.Initializer.parameter.repository"></a>
 
 - *Type:* str
 
 The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#repository Release#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#repository Release#repository}
 
 ---
 
-##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktf/provider-github.release.Release.Initializer.parameter.tagName"></a>
+##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktn/provider-github.release.Release.Initializer.parameter.tagName"></a>
 
 - *Type:* str
 
 The name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#tag_name Release#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#tag_name Release#tag_name}
 
 ---
 
-##### `body`<sup>Optional</sup> <a name="body" id="@cdktf/provider-github.release.Release.Initializer.parameter.body"></a>
+##### `body`<sup>Optional</sup> <a name="body" id="@cdktn/provider-github.release.Release.Initializer.parameter.body"></a>
 
 - *Type:* str
 
 Text describing the contents of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#body Release#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#body Release#body}
 
 ---
 
-##### `discussion_category_name`<sup>Optional</sup> <a name="discussion_category_name" id="@cdktf/provider-github.release.Release.Initializer.parameter.discussionCategoryName"></a>
+##### `discussion_category_name`<sup>Optional</sup> <a name="discussion_category_name" id="@cdktn/provider-github.release.Release.Initializer.parameter.discussionCategoryName"></a>
 
 - *Type:* str
 
@@ -156,21 +156,21 @@ If specified, a discussion of the specified category is created and linked to th
 
 The value must be a category that already exists in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#discussion_category_name Release#discussion_category_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#discussion_category_name Release#discussion_category_name}
 
 ---
 
-##### `draft`<sup>Optional</sup> <a name="draft" id="@cdktf/provider-github.release.Release.Initializer.parameter.draft"></a>
+##### `draft`<sup>Optional</sup> <a name="draft" id="@cdktn/provider-github.release.Release.Initializer.parameter.draft"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
 Set to 'false' to create a published release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#draft Release#draft}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#draft Release#draft}
 
 ---
 
-##### `generate_release_notes`<sup>Optional</sup> <a name="generate_release_notes" id="@cdktf/provider-github.release.Release.Initializer.parameter.generateReleaseNotes"></a>
+##### `generate_release_notes`<sup>Optional</sup> <a name="generate_release_notes" id="@cdktn/provider-github.release.Release.Initializer.parameter.generateReleaseNotes"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -178,48 +178,48 @@ Set to 'true' to automatically generate the name and body for this release.
 
 If 'name' is specified, the specified name will be used; otherwise, a name will be automatically generated. If 'body' is specified, the body will be pre-pended to the automatically generated notes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#generate_release_notes Release#generate_release_notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#generate_release_notes Release#generate_release_notes}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.release.Release.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.release.Release.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#id Release#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#id Release#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="@cdktf/provider-github.release.Release.Initializer.parameter.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-github.release.Release.Initializer.parameter.name"></a>
 
 - *Type:* str
 
 The name of the release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#name Release#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#name Release#name}
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="@cdktf/provider-github.release.Release.Initializer.parameter.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="@cdktn/provider-github.release.Release.Initializer.parameter.prerelease"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
 Set to 'false' to identify the release as a full release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#prerelease Release#prerelease}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#prerelease Release#prerelease}
 
 ---
 
-##### `target_commitish`<sup>Optional</sup> <a name="target_commitish" id="@cdktf/provider-github.release.Release.Initializer.parameter.targetCommitish"></a>
+##### `target_commitish`<sup>Optional</sup> <a name="target_commitish" id="@cdktn/provider-github.release.Release.Initializer.parameter.targetCommitish"></a>
 
 - *Type:* str
 
 The branch name or commit SHA the tag is created from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#target_commitish Release#target_commitish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#target_commitish Release#target_commitish}
 
 ---
 
@@ -227,41 +227,41 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.Release.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.release.Release.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.release.Release.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.release.Release.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.release.Release.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.release.Release.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.release.Release.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.release.Release.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.release.Release.resetBody">reset_body</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetDiscussionCategoryName">reset_discussion_category_name</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetDraft">reset_draft</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetGenerateReleaseNotes">reset_generate_release_notes</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetName">reset_name</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetPrerelease">reset_prerelease</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.resetTargetCommitish">reset_target_commitish</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.release.Release.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.release.Release.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.release.Release.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.release.Release.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.release.Release.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.release.Release.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.release.Release.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.release.Release.resetBody">reset_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetDiscussionCategoryName">reset_discussion_category_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetDraft">reset_draft</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetGenerateReleaseNotes">reset_generate_release_notes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetPrerelease">reset_prerelease</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.resetTargetCommitish">reset_target_commitish</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.release.Release.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.release.Release.toString"></a>
 
 ```python
 def to_string() -> str
@@ -269,7 +269,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.release.Release.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.release.Release.addOverride"></a>
 
 ```python
 def add_override(
@@ -278,19 +278,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.release.Release.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.release.Release.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.release.Release.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.release.Release.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.release.Release.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.release.Release.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -300,7 +300,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.release.Release.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.release.Release.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -308,7 +308,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.release.Release.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.release.Release.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -316,19 +316,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.release.Release.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.release.Release.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.release.Release.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.release.Release.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.release.Release.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.release.Release.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -336,7 +336,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.release.Release.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.release.Release.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -346,7 +346,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.release.Release.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.release.Release.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -354,7 +354,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.release.Release.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.release.Release.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -362,13 +362,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.release.Release.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.release.Release.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -376,13 +376,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.release.Release.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.release.Release.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -390,13 +390,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.release.Release.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.release.Release.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -404,13 +404,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.release.Release.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.release.Release.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -418,13 +418,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.release.Release.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.release.Release.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -432,13 +432,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.release.Release.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.release.Release.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -446,13 +446,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.release.Release.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.release.Release.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -460,13 +460,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.release.Release.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.release.Release.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -474,19 +474,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.release.Release.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.release.Release.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.release.Release.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.release.Release.importFrom"></a>
 
 ```python
 def import_from(
@@ -495,19 +495,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.release.Release.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.release.Release.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.release.Release.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.release.Release.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.release.Release.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.release.Release.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -515,13 +515,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.release.Release.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.release.Release.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.release.Release.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.release.Release.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -533,7 +533,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.release.Release.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.release.Release.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -541,7 +541,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.release.Release.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.release.Release.moveTo"></a>
 
 ```python
 def move_to(
@@ -552,7 +552,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.release.Release.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.release.Release.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -560,7 +560,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.release.Release.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.release.Release.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -568,7 +568,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.release.Release.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.release.Release.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -578,7 +578,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.release.Release.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.release.Release.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -586,49 +586,49 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_body` <a name="reset_body" id="@cdktf/provider-github.release.Release.resetBody"></a>
+##### `reset_body` <a name="reset_body" id="@cdktn/provider-github.release.Release.resetBody"></a>
 
 ```python
 def reset_body() -> None
 ```
 
-##### `reset_discussion_category_name` <a name="reset_discussion_category_name" id="@cdktf/provider-github.release.Release.resetDiscussionCategoryName"></a>
+##### `reset_discussion_category_name` <a name="reset_discussion_category_name" id="@cdktn/provider-github.release.Release.resetDiscussionCategoryName"></a>
 
 ```python
 def reset_discussion_category_name() -> None
 ```
 
-##### `reset_draft` <a name="reset_draft" id="@cdktf/provider-github.release.Release.resetDraft"></a>
+##### `reset_draft` <a name="reset_draft" id="@cdktn/provider-github.release.Release.resetDraft"></a>
 
 ```python
 def reset_draft() -> None
 ```
 
-##### `reset_generate_release_notes` <a name="reset_generate_release_notes" id="@cdktf/provider-github.release.Release.resetGenerateReleaseNotes"></a>
+##### `reset_generate_release_notes` <a name="reset_generate_release_notes" id="@cdktn/provider-github.release.Release.resetGenerateReleaseNotes"></a>
 
 ```python
 def reset_generate_release_notes() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.release.Release.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.release.Release.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_name` <a name="reset_name" id="@cdktf/provider-github.release.Release.resetName"></a>
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-github.release.Release.resetName"></a>
 
 ```python
 def reset_name() -> None
 ```
 
-##### `reset_prerelease` <a name="reset_prerelease" id="@cdktf/provider-github.release.Release.resetPrerelease"></a>
+##### `reset_prerelease` <a name="reset_prerelease" id="@cdktn/provider-github.release.Release.resetPrerelease"></a>
 
 ```python
 def reset_prerelease() -> None
 ```
 
-##### `reset_target_commitish` <a name="reset_target_commitish" id="@cdktf/provider-github.release.Release.resetTargetCommitish"></a>
+##### `reset_target_commitish` <a name="reset_target_commitish" id="@cdktn/provider-github.release.Release.resetTargetCommitish"></a>
 
 ```python
 def reset_target_commitish() -> None
@@ -638,17 +638,17 @@ def reset_target_commitish() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.Release.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.release.Release.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Release resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.release.Release.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.release.Release.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Release resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.release.Release.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.release.Release.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.Release.is_construct(
   x: typing.Any
@@ -671,7 +671,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.release.Release.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.release.Release.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -679,42 +679,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.release.Release.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.release.Release.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.Release.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.release.Release.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.release.Release.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.release.Release.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.release.Release.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.Release.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.release.Release.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.release.Release.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.release.Release.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.release.Release.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.Release.generate_config_for_import(
   scope: Construct,
@@ -726,7 +726,7 @@ release.Release.generate_config_for_import(
 
 Generates CDKTF code for importing a Release resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.release.Release.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.release.Release.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -734,7 +734,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.release.Release.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.release.Release.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -742,17 +742,17 @@ The construct id used in the generated config for the Release to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.release.Release.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.release.Release.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing Release that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.release.Release.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.release.Release.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -764,55 +764,55 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.Release.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.release.Release.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.assetsUrl">assets_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.etag">etag</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.htmlUrl">html_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.nodeId">node_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.publishedAt">published_at</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.releaseId">release_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.tarballUrl">tarball_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.uploadUrl">upload_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.url">url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.zipballUrl">zipball_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.discussionCategoryNameInput">discussion_category_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.draftInput">draft_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.generateReleaseNotesInput">generate_release_notes_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.prereleaseInput">prerelease_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.tagNameInput">tag_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.targetCommitishInput">target_commitish_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.body">body</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.repository">repository</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.tagName">tag_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.Release.property.targetCommitish">target_commitish</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.release.Release.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.assetsUrl">assets_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.etag">etag</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.htmlUrl">html_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.nodeId">node_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.publishedAt">published_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.releaseId">release_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.tarballUrl">tarball_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.uploadUrl">upload_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.url">url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.zipballUrl">zipball_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.discussionCategoryNameInput">discussion_category_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.draftInput">draft_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.generateReleaseNotesInput">generate_release_notes_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.prereleaseInput">prerelease_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.tagNameInput">tag_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.targetCommitishInput">target_commitish_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.body">body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.repository">repository</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.tagName">tag_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.targetCommitish">target_commitish</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.release.Release.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.release.Release.property.node"></a>
 
 ```python
 node: Node
@@ -824,7 +824,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.release.Release.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.release.Release.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -834,7 +834,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.release.Release.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.release.Release.property.fqn"></a>
 
 ```python
 fqn: str
@@ -844,7 +844,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.release.Release.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.release.Release.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -854,7 +854,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.release.Release.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.release.Release.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -864,7 +864,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.release.Release.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.release.Release.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -874,7 +874,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.release.Release.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.release.Release.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -884,7 +884,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.release.Release.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.release.Release.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -894,7 +894,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.release.Release.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.release.Release.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -904,7 +904,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.release.Release.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.release.Release.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -914,7 +914,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.release.Release.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.release.Release.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -924,7 +924,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.release.Release.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.release.Release.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -934,7 +934,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.release.Release.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.release.Release.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -944,7 +944,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.release.Release.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.release.Release.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -954,7 +954,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `assets_url`<sup>Required</sup> <a name="assets_url" id="@cdktf/provider-github.release.Release.property.assetsUrl"></a>
+##### `assets_url`<sup>Required</sup> <a name="assets_url" id="@cdktn/provider-github.release.Release.property.assetsUrl"></a>
 
 ```python
 assets_url: str
@@ -964,7 +964,7 @@ assets_url: str
 
 ---
 
-##### `created_at`<sup>Required</sup> <a name="created_at" id="@cdktf/provider-github.release.Release.property.createdAt"></a>
+##### `created_at`<sup>Required</sup> <a name="created_at" id="@cdktn/provider-github.release.Release.property.createdAt"></a>
 
 ```python
 created_at: str
@@ -974,7 +974,7 @@ created_at: str
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-github.release.Release.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-github.release.Release.property.etag"></a>
 
 ```python
 etag: str
@@ -984,7 +984,7 @@ etag: str
 
 ---
 
-##### `html_url`<sup>Required</sup> <a name="html_url" id="@cdktf/provider-github.release.Release.property.htmlUrl"></a>
+##### `html_url`<sup>Required</sup> <a name="html_url" id="@cdktn/provider-github.release.Release.property.htmlUrl"></a>
 
 ```python
 html_url: str
@@ -994,7 +994,7 @@ html_url: str
 
 ---
 
-##### `node_id`<sup>Required</sup> <a name="node_id" id="@cdktf/provider-github.release.Release.property.nodeId"></a>
+##### `node_id`<sup>Required</sup> <a name="node_id" id="@cdktn/provider-github.release.Release.property.nodeId"></a>
 
 ```python
 node_id: str
@@ -1004,7 +1004,7 @@ node_id: str
 
 ---
 
-##### `published_at`<sup>Required</sup> <a name="published_at" id="@cdktf/provider-github.release.Release.property.publishedAt"></a>
+##### `published_at`<sup>Required</sup> <a name="published_at" id="@cdktn/provider-github.release.Release.property.publishedAt"></a>
 
 ```python
 published_at: str
@@ -1014,7 +1014,7 @@ published_at: str
 
 ---
 
-##### `release_id`<sup>Required</sup> <a name="release_id" id="@cdktf/provider-github.release.Release.property.releaseId"></a>
+##### `release_id`<sup>Required</sup> <a name="release_id" id="@cdktn/provider-github.release.Release.property.releaseId"></a>
 
 ```python
 release_id: typing.Union[int, float]
@@ -1024,7 +1024,7 @@ release_id: typing.Union[int, float]
 
 ---
 
-##### `tarball_url`<sup>Required</sup> <a name="tarball_url" id="@cdktf/provider-github.release.Release.property.tarballUrl"></a>
+##### `tarball_url`<sup>Required</sup> <a name="tarball_url" id="@cdktn/provider-github.release.Release.property.tarballUrl"></a>
 
 ```python
 tarball_url: str
@@ -1034,7 +1034,7 @@ tarball_url: str
 
 ---
 
-##### `upload_url`<sup>Required</sup> <a name="upload_url" id="@cdktf/provider-github.release.Release.property.uploadUrl"></a>
+##### `upload_url`<sup>Required</sup> <a name="upload_url" id="@cdktn/provider-github.release.Release.property.uploadUrl"></a>
 
 ```python
 upload_url: str
@@ -1044,7 +1044,7 @@ upload_url: str
 
 ---
 
-##### `url`<sup>Required</sup> <a name="url" id="@cdktf/provider-github.release.Release.property.url"></a>
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-github.release.Release.property.url"></a>
 
 ```python
 url: str
@@ -1054,7 +1054,7 @@ url: str
 
 ---
 
-##### `zipball_url`<sup>Required</sup> <a name="zipball_url" id="@cdktf/provider-github.release.Release.property.zipballUrl"></a>
+##### `zipball_url`<sup>Required</sup> <a name="zipball_url" id="@cdktn/provider-github.release.Release.property.zipballUrl"></a>
 
 ```python
 zipball_url: str
@@ -1064,7 +1064,7 @@ zipball_url: str
 
 ---
 
-##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktf/provider-github.release.Release.property.bodyInput"></a>
+##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktn/provider-github.release.Release.property.bodyInput"></a>
 
 ```python
 body_input: str
@@ -1074,7 +1074,7 @@ body_input: str
 
 ---
 
-##### `discussion_category_name_input`<sup>Optional</sup> <a name="discussion_category_name_input" id="@cdktf/provider-github.release.Release.property.discussionCategoryNameInput"></a>
+##### `discussion_category_name_input`<sup>Optional</sup> <a name="discussion_category_name_input" id="@cdktn/provider-github.release.Release.property.discussionCategoryNameInput"></a>
 
 ```python
 discussion_category_name_input: str
@@ -1084,7 +1084,7 @@ discussion_category_name_input: str
 
 ---
 
-##### `draft_input`<sup>Optional</sup> <a name="draft_input" id="@cdktf/provider-github.release.Release.property.draftInput"></a>
+##### `draft_input`<sup>Optional</sup> <a name="draft_input" id="@cdktn/provider-github.release.Release.property.draftInput"></a>
 
 ```python
 draft_input: bool | IResolvable
@@ -1094,7 +1094,7 @@ draft_input: bool | IResolvable
 
 ---
 
-##### `generate_release_notes_input`<sup>Optional</sup> <a name="generate_release_notes_input" id="@cdktf/provider-github.release.Release.property.generateReleaseNotesInput"></a>
+##### `generate_release_notes_input`<sup>Optional</sup> <a name="generate_release_notes_input" id="@cdktn/provider-github.release.Release.property.generateReleaseNotesInput"></a>
 
 ```python
 generate_release_notes_input: bool | IResolvable
@@ -1104,7 +1104,7 @@ generate_release_notes_input: bool | IResolvable
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.release.Release.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.release.Release.property.idInput"></a>
 
 ```python
 id_input: str
@@ -1114,7 +1114,7 @@ id_input: str
 
 ---
 
-##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktf/provider-github.release.Release.property.nameInput"></a>
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-github.release.Release.property.nameInput"></a>
 
 ```python
 name_input: str
@@ -1124,7 +1124,7 @@ name_input: str
 
 ---
 
-##### `prerelease_input`<sup>Optional</sup> <a name="prerelease_input" id="@cdktf/provider-github.release.Release.property.prereleaseInput"></a>
+##### `prerelease_input`<sup>Optional</sup> <a name="prerelease_input" id="@cdktn/provider-github.release.Release.property.prereleaseInput"></a>
 
 ```python
 prerelease_input: bool | IResolvable
@@ -1134,7 +1134,7 @@ prerelease_input: bool | IResolvable
 
 ---
 
-##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktf/provider-github.release.Release.property.repositoryInput"></a>
+##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktn/provider-github.release.Release.property.repositoryInput"></a>
 
 ```python
 repository_input: str
@@ -1144,7 +1144,7 @@ repository_input: str
 
 ---
 
-##### `tag_name_input`<sup>Optional</sup> <a name="tag_name_input" id="@cdktf/provider-github.release.Release.property.tagNameInput"></a>
+##### `tag_name_input`<sup>Optional</sup> <a name="tag_name_input" id="@cdktn/provider-github.release.Release.property.tagNameInput"></a>
 
 ```python
 tag_name_input: str
@@ -1154,7 +1154,7 @@ tag_name_input: str
 
 ---
 
-##### `target_commitish_input`<sup>Optional</sup> <a name="target_commitish_input" id="@cdktf/provider-github.release.Release.property.targetCommitishInput"></a>
+##### `target_commitish_input`<sup>Optional</sup> <a name="target_commitish_input" id="@cdktn/provider-github.release.Release.property.targetCommitishInput"></a>
 
 ```python
 target_commitish_input: str
@@ -1164,7 +1164,7 @@ target_commitish_input: str
 
 ---
 
-##### `body`<sup>Required</sup> <a name="body" id="@cdktf/provider-github.release.Release.property.body"></a>
+##### `body`<sup>Required</sup> <a name="body" id="@cdktn/provider-github.release.Release.property.body"></a>
 
 ```python
 body: str
@@ -1174,7 +1174,7 @@ body: str
 
 ---
 
-##### `discussion_category_name`<sup>Required</sup> <a name="discussion_category_name" id="@cdktf/provider-github.release.Release.property.discussionCategoryName"></a>
+##### `discussion_category_name`<sup>Required</sup> <a name="discussion_category_name" id="@cdktn/provider-github.release.Release.property.discussionCategoryName"></a>
 
 ```python
 discussion_category_name: str
@@ -1184,7 +1184,7 @@ discussion_category_name: str
 
 ---
 
-##### `draft`<sup>Required</sup> <a name="draft" id="@cdktf/provider-github.release.Release.property.draft"></a>
+##### `draft`<sup>Required</sup> <a name="draft" id="@cdktn/provider-github.release.Release.property.draft"></a>
 
 ```python
 draft: bool | IResolvable
@@ -1194,7 +1194,7 @@ draft: bool | IResolvable
 
 ---
 
-##### `generate_release_notes`<sup>Required</sup> <a name="generate_release_notes" id="@cdktf/provider-github.release.Release.property.generateReleaseNotes"></a>
+##### `generate_release_notes`<sup>Required</sup> <a name="generate_release_notes" id="@cdktn/provider-github.release.Release.property.generateReleaseNotes"></a>
 
 ```python
 generate_release_notes: bool | IResolvable
@@ -1204,7 +1204,7 @@ generate_release_notes: bool | IResolvable
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.release.Release.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.release.Release.property.id"></a>
 
 ```python
 id: str
@@ -1214,7 +1214,7 @@ id: str
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-github.release.Release.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.release.Release.property.name"></a>
 
 ```python
 name: str
@@ -1224,7 +1224,7 @@ name: str
 
 ---
 
-##### `prerelease`<sup>Required</sup> <a name="prerelease" id="@cdktf/provider-github.release.Release.property.prerelease"></a>
+##### `prerelease`<sup>Required</sup> <a name="prerelease" id="@cdktn/provider-github.release.Release.property.prerelease"></a>
 
 ```python
 prerelease: bool | IResolvable
@@ -1234,7 +1234,7 @@ prerelease: bool | IResolvable
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.release.Release.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.release.Release.property.repository"></a>
 
 ```python
 repository: str
@@ -1244,7 +1244,7 @@ repository: str
 
 ---
 
-##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktf/provider-github.release.Release.property.tagName"></a>
+##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktn/provider-github.release.Release.property.tagName"></a>
 
 ```python
 tag_name: str
@@ -1254,7 +1254,7 @@ tag_name: str
 
 ---
 
-##### `target_commitish`<sup>Required</sup> <a name="target_commitish" id="@cdktf/provider-github.release.Release.property.targetCommitish"></a>
+##### `target_commitish`<sup>Required</sup> <a name="target_commitish" id="@cdktn/provider-github.release.Release.property.targetCommitish"></a>
 
 ```python
 target_commitish: str
@@ -1268,11 +1268,11 @@ target_commitish: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.Release.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.Release.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.release.Release.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.release.Release.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1284,12 +1284,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### ReleaseConfig <a name="ReleaseConfig" id="@cdktf/provider-github.release.ReleaseConfig"></a>
+### ReleaseConfig <a name="ReleaseConfig" id="@cdktn/provider-github.release.ReleaseConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.release.ReleaseConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.release.ReleaseConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import release
+from cdktn_provider_github import release
 
 release.ReleaseConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1316,27 +1316,27 @@ release.ReleaseConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.repository">repository</a></code> | <code>str</code> | The name of the repository. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.tagName">tag_name</a></code> | <code>str</code> | The name of the tag. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.body">body</a></code> | <code>str</code> | Text describing the contents of the tag. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | If specified, a discussion of the specified category is created and linked to the release. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to create a published release. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to automatically generate the name and body for this release. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#id Release#id}. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.name">name</a></code> | <code>str</code> | The name of the release. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to identify the release as a full release. |
-| <code><a href="#@cdktf/provider-github.release.ReleaseConfig.property.targetCommitish">target_commitish</a></code> | <code>str</code> | The branch name or commit SHA the tag is created from. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.repository">repository</a></code> | <code>str</code> | The name of the repository. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.tagName">tag_name</a></code> | <code>str</code> | The name of the tag. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.body">body</a></code> | <code>str</code> | Text describing the contents of the tag. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.discussionCategoryName">discussion_category_name</a></code> | <code>str</code> | If specified, a discussion of the specified category is created and linked to the release. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.draft">draft</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to create a published release. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.generateReleaseNotes">generate_release_notes</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to automatically generate the name and body for this release. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#id Release#id}. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.name">name</a></code> | <code>str</code> | The name of the release. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.prerelease">prerelease</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to identify the release as a full release. |
+| <code><a href="#@cdktn/provider-github.release.ReleaseConfig.property.targetCommitish">target_commitish</a></code> | <code>str</code> | The branch name or commit SHA the tag is created from. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.release.ReleaseConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.release.ReleaseConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1346,7 +1346,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.release.ReleaseConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.release.ReleaseConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1356,7 +1356,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.release.ReleaseConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.release.ReleaseConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1366,7 +1366,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.release.ReleaseConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.release.ReleaseConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1376,7 +1376,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.release.ReleaseConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.release.ReleaseConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1386,7 +1386,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.release.ReleaseConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.release.ReleaseConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1396,7 +1396,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.release.ReleaseConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.release.ReleaseConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1406,7 +1406,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.release.ReleaseConfig.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.release.ReleaseConfig.property.repository"></a>
 
 ```python
 repository: str
@@ -1416,11 +1416,11 @@ repository: str
 
 The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#repository Release#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#repository Release#repository}
 
 ---
 
-##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktf/provider-github.release.ReleaseConfig.property.tagName"></a>
+##### `tag_name`<sup>Required</sup> <a name="tag_name" id="@cdktn/provider-github.release.ReleaseConfig.property.tagName"></a>
 
 ```python
 tag_name: str
@@ -1430,11 +1430,11 @@ tag_name: str
 
 The name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#tag_name Release#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#tag_name Release#tag_name}
 
 ---
 
-##### `body`<sup>Optional</sup> <a name="body" id="@cdktf/provider-github.release.ReleaseConfig.property.body"></a>
+##### `body`<sup>Optional</sup> <a name="body" id="@cdktn/provider-github.release.ReleaseConfig.property.body"></a>
 
 ```python
 body: str
@@ -1444,11 +1444,11 @@ body: str
 
 Text describing the contents of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#body Release#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#body Release#body}
 
 ---
 
-##### `discussion_category_name`<sup>Optional</sup> <a name="discussion_category_name" id="@cdktf/provider-github.release.ReleaseConfig.property.discussionCategoryName"></a>
+##### `discussion_category_name`<sup>Optional</sup> <a name="discussion_category_name" id="@cdktn/provider-github.release.ReleaseConfig.property.discussionCategoryName"></a>
 
 ```python
 discussion_category_name: str
@@ -1460,11 +1460,11 @@ If specified, a discussion of the specified category is created and linked to th
 
 The value must be a category that already exists in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#discussion_category_name Release#discussion_category_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#discussion_category_name Release#discussion_category_name}
 
 ---
 
-##### `draft`<sup>Optional</sup> <a name="draft" id="@cdktf/provider-github.release.ReleaseConfig.property.draft"></a>
+##### `draft`<sup>Optional</sup> <a name="draft" id="@cdktn/provider-github.release.ReleaseConfig.property.draft"></a>
 
 ```python
 draft: bool | IResolvable
@@ -1474,11 +1474,11 @@ draft: bool | IResolvable
 
 Set to 'false' to create a published release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#draft Release#draft}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#draft Release#draft}
 
 ---
 
-##### `generate_release_notes`<sup>Optional</sup> <a name="generate_release_notes" id="@cdktf/provider-github.release.ReleaseConfig.property.generateReleaseNotes"></a>
+##### `generate_release_notes`<sup>Optional</sup> <a name="generate_release_notes" id="@cdktn/provider-github.release.ReleaseConfig.property.generateReleaseNotes"></a>
 
 ```python
 generate_release_notes: bool | IResolvable
@@ -1490,11 +1490,11 @@ Set to 'true' to automatically generate the name and body for this release.
 
 If 'name' is specified, the specified name will be used; otherwise, a name will be automatically generated. If 'body' is specified, the body will be pre-pended to the automatically generated notes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#generate_release_notes Release#generate_release_notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#generate_release_notes Release#generate_release_notes}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.release.ReleaseConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.release.ReleaseConfig.property.id"></a>
 
 ```python
 id: str
@@ -1502,14 +1502,14 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#id Release#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#id Release#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="@cdktf/provider-github.release.ReleaseConfig.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-github.release.ReleaseConfig.property.name"></a>
 
 ```python
 name: str
@@ -1519,11 +1519,11 @@ name: str
 
 The name of the release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#name Release#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#name Release#name}
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="@cdktf/provider-github.release.ReleaseConfig.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="@cdktn/provider-github.release.ReleaseConfig.property.prerelease"></a>
 
 ```python
 prerelease: bool | IResolvable
@@ -1533,11 +1533,11 @@ prerelease: bool | IResolvable
 
 Set to 'false' to identify the release as a full release.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#prerelease Release#prerelease}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#prerelease Release#prerelease}
 
 ---
 
-##### `target_commitish`<sup>Optional</sup> <a name="target_commitish" id="@cdktf/provider-github.release.ReleaseConfig.property.targetCommitish"></a>
+##### `target_commitish`<sup>Optional</sup> <a name="target_commitish" id="@cdktn/provider-github.release.ReleaseConfig.property.targetCommitish"></a>
 
 ```python
 target_commitish: str
@@ -1547,7 +1547,7 @@ target_commitish: str
 
 The branch name or commit SHA the tag is created from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/release#target_commitish Release#target_commitish}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/release#target_commitish Release#target_commitish}
 
 ---
 

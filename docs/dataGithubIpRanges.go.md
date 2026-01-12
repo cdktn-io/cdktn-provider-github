@@ -1,28 +1,28 @@
-# `dataGithubIpRanges` Submodule <a name="`dataGithubIpRanges` Submodule" id="@cdktf/provider-github.dataGithubIpRanges"></a>
+# `dataGithubIpRanges` Submodule <a name="`dataGithubIpRanges` Submodule" id="@cdktn/provider-github.dataGithubIpRanges"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataGithubIpRanges <a name="DataGithubIpRanges" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges"></a>
+### DataGithubIpRanges <a name="DataGithubIpRanges" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges github_ip_ranges}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges github_ip_ranges}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 datagithubipranges.NewDataGithubIpRanges(scope Construct, id *string, config DataGithubIpRangesConfig) DataGithubIpRanges
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig">DataGithubIpRangesConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig">DataGithubIpRangesConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Optional</sup> <a name="config" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.config"></a>
+##### `config`<sup>Optional</sup> <a name="config" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig">DataGithubIpRangesConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig">DataGithubIpRangesConfig</a>
 
 ---
 
@@ -50,28 +50,28 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId">ResetId</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString"></a>
 
 ```go
 func ToString() *string
@@ -79,25 +79,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -105,7 +105,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -113,7 +113,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -121,7 +121,7 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
@@ -129,13 +129,13 @@ func ToHclTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -143,127 +143,127 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId"></a>
 
 ```go
 func ResetId()
@@ -273,17 +273,17 @@ func ResetId()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 datagithubipranges.DataGithubIpRanges_IsConstruct(x interface{}) *bool
 ```
@@ -304,7 +304,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -312,45 +312,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 datagithubipranges.DataGithubIpRanges_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource"></a>
+##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 datagithubipranges.DataGithubIpRanges_IsTerraformDataSource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 datagithubipranges.DataGithubIpRanges_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -358,7 +358,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -366,17 +366,17 @@ The construct id used in the generated config for the DataGithubIpRanges to impo
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing DataGithubIpRanges that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -388,51 +388,51 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions">Actions</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4">ActionsIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6">ActionsIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api">Api</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4">ApiIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6">ApiIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot">Dependabot</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4">DependabotIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6">DependabotIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git">Git</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4">GitIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6">GitIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks">Hooks</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4">HooksIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6">HooksIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer">Importer</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4">ImporterIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6">ImporterIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages">Packages</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4">PackagesIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6">PackagesIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages">Pages</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4">PagesIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6">PagesIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web">Web</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4">WebIpv4</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6">WebIpv6</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions">Actions</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4">ActionsIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6">ActionsIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api">Api</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4">ApiIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6">ApiIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot">Dependabot</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4">DependabotIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6">DependabotIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git">Git</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4">GitIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6">GitIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks">Hooks</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4">HooksIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6">HooksIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer">Importer</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4">ImporterIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6">ImporterIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages">Packages</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4">PackagesIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6">PackagesIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages">Pages</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4">PagesIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6">PagesIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web">Web</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4">WebIpv4</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6">WebIpv6</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node"></a>
 
 ```go
 func Node() Node
@@ -444,7 +444,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -454,7 +454,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -464,7 +464,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -474,7 +474,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -484,7 +484,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -494,7 +494,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -504,7 +504,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -514,7 +514,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -524,7 +524,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -534,7 +534,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -544,7 +544,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -554,7 +554,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Actions`<sup>Required</sup> <a name="Actions" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions"></a>
+##### `Actions`<sup>Required</sup> <a name="Actions" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions"></a>
 
 ```go
 func Actions() *[]*string
@@ -564,7 +564,7 @@ func Actions() *[]*string
 
 ---
 
-##### `ActionsIpv4`<sup>Required</sup> <a name="ActionsIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4"></a>
+##### `ActionsIpv4`<sup>Required</sup> <a name="ActionsIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4"></a>
 
 ```go
 func ActionsIpv4() *[]*string
@@ -574,7 +574,7 @@ func ActionsIpv4() *[]*string
 
 ---
 
-##### `ActionsIpv6`<sup>Required</sup> <a name="ActionsIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6"></a>
+##### `ActionsIpv6`<sup>Required</sup> <a name="ActionsIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6"></a>
 
 ```go
 func ActionsIpv6() *[]*string
@@ -584,7 +584,7 @@ func ActionsIpv6() *[]*string
 
 ---
 
-##### `Api`<sup>Required</sup> <a name="Api" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api"></a>
+##### `Api`<sup>Required</sup> <a name="Api" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api"></a>
 
 ```go
 func Api() *[]*string
@@ -594,7 +594,7 @@ func Api() *[]*string
 
 ---
 
-##### `ApiIpv4`<sup>Required</sup> <a name="ApiIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4"></a>
+##### `ApiIpv4`<sup>Required</sup> <a name="ApiIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4"></a>
 
 ```go
 func ApiIpv4() *[]*string
@@ -604,7 +604,7 @@ func ApiIpv4() *[]*string
 
 ---
 
-##### `ApiIpv6`<sup>Required</sup> <a name="ApiIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6"></a>
+##### `ApiIpv6`<sup>Required</sup> <a name="ApiIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6"></a>
 
 ```go
 func ApiIpv6() *[]*string
@@ -614,7 +614,7 @@ func ApiIpv6() *[]*string
 
 ---
 
-##### `Dependabot`<sup>Required</sup> <a name="Dependabot" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot"></a>
+##### `Dependabot`<sup>Required</sup> <a name="Dependabot" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot"></a>
 
 ```go
 func Dependabot() *[]*string
@@ -624,7 +624,7 @@ func Dependabot() *[]*string
 
 ---
 
-##### `DependabotIpv4`<sup>Required</sup> <a name="DependabotIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4"></a>
+##### `DependabotIpv4`<sup>Required</sup> <a name="DependabotIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4"></a>
 
 ```go
 func DependabotIpv4() *[]*string
@@ -634,7 +634,7 @@ func DependabotIpv4() *[]*string
 
 ---
 
-##### `DependabotIpv6`<sup>Required</sup> <a name="DependabotIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6"></a>
+##### `DependabotIpv6`<sup>Required</sup> <a name="DependabotIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6"></a>
 
 ```go
 func DependabotIpv6() *[]*string
@@ -644,7 +644,7 @@ func DependabotIpv6() *[]*string
 
 ---
 
-##### `Git`<sup>Required</sup> <a name="Git" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git"></a>
+##### `Git`<sup>Required</sup> <a name="Git" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git"></a>
 
 ```go
 func Git() *[]*string
@@ -654,7 +654,7 @@ func Git() *[]*string
 
 ---
 
-##### `GitIpv4`<sup>Required</sup> <a name="GitIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4"></a>
+##### `GitIpv4`<sup>Required</sup> <a name="GitIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4"></a>
 
 ```go
 func GitIpv4() *[]*string
@@ -664,7 +664,7 @@ func GitIpv4() *[]*string
 
 ---
 
-##### `GitIpv6`<sup>Required</sup> <a name="GitIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6"></a>
+##### `GitIpv6`<sup>Required</sup> <a name="GitIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6"></a>
 
 ```go
 func GitIpv6() *[]*string
@@ -674,7 +674,7 @@ func GitIpv6() *[]*string
 
 ---
 
-##### `Hooks`<sup>Required</sup> <a name="Hooks" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks"></a>
+##### `Hooks`<sup>Required</sup> <a name="Hooks" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks"></a>
 
 ```go
 func Hooks() *[]*string
@@ -684,7 +684,7 @@ func Hooks() *[]*string
 
 ---
 
-##### `HooksIpv4`<sup>Required</sup> <a name="HooksIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4"></a>
+##### `HooksIpv4`<sup>Required</sup> <a name="HooksIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4"></a>
 
 ```go
 func HooksIpv4() *[]*string
@@ -694,7 +694,7 @@ func HooksIpv4() *[]*string
 
 ---
 
-##### `HooksIpv6`<sup>Required</sup> <a name="HooksIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6"></a>
+##### `HooksIpv6`<sup>Required</sup> <a name="HooksIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6"></a>
 
 ```go
 func HooksIpv6() *[]*string
@@ -704,7 +704,7 @@ func HooksIpv6() *[]*string
 
 ---
 
-##### `Importer`<sup>Required</sup> <a name="Importer" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer"></a>
+##### `Importer`<sup>Required</sup> <a name="Importer" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer"></a>
 
 ```go
 func Importer() *[]*string
@@ -714,7 +714,7 @@ func Importer() *[]*string
 
 ---
 
-##### `ImporterIpv4`<sup>Required</sup> <a name="ImporterIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4"></a>
+##### `ImporterIpv4`<sup>Required</sup> <a name="ImporterIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4"></a>
 
 ```go
 func ImporterIpv4() *[]*string
@@ -724,7 +724,7 @@ func ImporterIpv4() *[]*string
 
 ---
 
-##### `ImporterIpv6`<sup>Required</sup> <a name="ImporterIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6"></a>
+##### `ImporterIpv6`<sup>Required</sup> <a name="ImporterIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6"></a>
 
 ```go
 func ImporterIpv6() *[]*string
@@ -734,7 +734,7 @@ func ImporterIpv6() *[]*string
 
 ---
 
-##### `Packages`<sup>Required</sup> <a name="Packages" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages"></a>
+##### `Packages`<sup>Required</sup> <a name="Packages" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages"></a>
 
 ```go
 func Packages() *[]*string
@@ -744,7 +744,7 @@ func Packages() *[]*string
 
 ---
 
-##### `PackagesIpv4`<sup>Required</sup> <a name="PackagesIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4"></a>
+##### `PackagesIpv4`<sup>Required</sup> <a name="PackagesIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4"></a>
 
 ```go
 func PackagesIpv4() *[]*string
@@ -754,7 +754,7 @@ func PackagesIpv4() *[]*string
 
 ---
 
-##### `PackagesIpv6`<sup>Required</sup> <a name="PackagesIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6"></a>
+##### `PackagesIpv6`<sup>Required</sup> <a name="PackagesIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6"></a>
 
 ```go
 func PackagesIpv6() *[]*string
@@ -764,7 +764,7 @@ func PackagesIpv6() *[]*string
 
 ---
 
-##### `Pages`<sup>Required</sup> <a name="Pages" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages"></a>
+##### `Pages`<sup>Required</sup> <a name="Pages" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages"></a>
 
 ```go
 func Pages() *[]*string
@@ -774,7 +774,7 @@ func Pages() *[]*string
 
 ---
 
-##### `PagesIpv4`<sup>Required</sup> <a name="PagesIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4"></a>
+##### `PagesIpv4`<sup>Required</sup> <a name="PagesIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4"></a>
 
 ```go
 func PagesIpv4() *[]*string
@@ -784,7 +784,7 @@ func PagesIpv4() *[]*string
 
 ---
 
-##### `PagesIpv6`<sup>Required</sup> <a name="PagesIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6"></a>
+##### `PagesIpv6`<sup>Required</sup> <a name="PagesIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6"></a>
 
 ```go
 func PagesIpv6() *[]*string
@@ -794,7 +794,7 @@ func PagesIpv6() *[]*string
 
 ---
 
-##### `Web`<sup>Required</sup> <a name="Web" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web"></a>
+##### `Web`<sup>Required</sup> <a name="Web" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web"></a>
 
 ```go
 func Web() *[]*string
@@ -804,7 +804,7 @@ func Web() *[]*string
 
 ---
 
-##### `WebIpv4`<sup>Required</sup> <a name="WebIpv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4"></a>
+##### `WebIpv4`<sup>Required</sup> <a name="WebIpv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4"></a>
 
 ```go
 func WebIpv4() *[]*string
@@ -814,7 +814,7 @@ func WebIpv4() *[]*string
 
 ---
 
-##### `WebIpv6`<sup>Required</sup> <a name="WebIpv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6"></a>
+##### `WebIpv6`<sup>Required</sup> <a name="WebIpv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6"></a>
 
 ```go
 func WebIpv6() *[]*string
@@ -824,7 +824,7 @@ func WebIpv6() *[]*string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -834,7 +834,7 @@ func IdInput() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id"></a>
 
 ```go
 func Id() *string
@@ -848,11 +848,11 @@ func Id() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -864,12 +864,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataGithubIpRangesConfig <a name="DataGithubIpRangesConfig" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig"></a>
+### DataGithubIpRangesConfig <a name="DataGithubIpRangesConfig" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubipranges"
 
 &datagithubipranges.DataGithubIpRangesConfig {
 	Connection: interface{},
@@ -887,18 +887,18 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubipranges"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -908,7 +908,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -918,7 +918,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -928,7 +928,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -938,7 +938,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -948,7 +948,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -958,7 +958,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -968,7 +968,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id"></a>
 
 ```go
 Id *string
@@ -976,7 +976,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

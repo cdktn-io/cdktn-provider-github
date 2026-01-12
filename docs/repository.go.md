@@ -1,28 +1,28 @@
-# `repository` Submodule <a name="`repository` Submodule" id="@cdktf/provider-github.repository"></a>
+# `repository` Submodule <a name="`repository` Submodule" id="@cdktn/provider-github.repository"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Repository <a name="Repository" id="@cdktf/provider-github.repository.Repository"></a>
+### Repository <a name="Repository" id="@cdktn/provider-github.repository.Repository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository github_repository}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.Repository.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.Repository.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepository(scope Construct, id *string, config RepositoryConfig) Repository
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.Repository.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryConfig">RepositoryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig">RepositoryConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.repository.Repository.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repository.Repository.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.repository.Repository.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryConfig">RepositoryConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryConfig">RepositoryConfig</a>
 
 ---
 
@@ -50,74 +50,74 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.Repository.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.repository.Repository.putPages">PutPages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.putSecurityAndAnalysis">PutSecurityAndAnalysis</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.putTemplate">PutTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAllowAutoMerge">ResetAllowAutoMerge</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAllowMergeCommit">ResetAllowMergeCommit</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAllowRebaseMerge">ResetAllowRebaseMerge</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAllowSquashMerge">ResetAllowSquashMerge</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAllowUpdateBranch">ResetAllowUpdateBranch</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetArchived">ResetArchived</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetArchiveOnDestroy">ResetArchiveOnDestroy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetAutoInit">ResetAutoInit</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetDefaultBranch">ResetDefaultBranch</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetDeleteBranchOnMerge">ResetDeleteBranchOnMerge</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetDescription">ResetDescription</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetEtag">ResetEtag</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetFork">ResetFork</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetGitignoreTemplate">ResetGitignoreTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHasDiscussions">ResetHasDiscussions</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHasDownloads">ResetHasDownloads</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHasIssues">ResetHasIssues</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHasProjects">ResetHasProjects</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHasWiki">ResetHasWiki</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetHomepageUrl">ResetHomepageUrl</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetId">ResetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetIgnoreVulnerabilityAlertsDuringRead">ResetIgnoreVulnerabilityAlertsDuringRead</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetIsTemplate">ResetIsTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetLicenseTemplate">ResetLicenseTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetMergeCommitMessage">ResetMergeCommitMessage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetMergeCommitTitle">ResetMergeCommitTitle</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetPages">ResetPages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetPrivate">ResetPrivate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetSecurityAndAnalysis">ResetSecurityAndAnalysis</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetSourceOwner">ResetSourceOwner</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetSourceRepo">ResetSourceRepo</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetSquashMergeCommitMessage">ResetSquashMergeCommitMessage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetSquashMergeCommitTitle">ResetSquashMergeCommitTitle</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetTemplate">ResetTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetTopics">ResetTopics</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetVisibility">ResetVisibility</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetVulnerabilityAlerts">ResetVulnerabilityAlerts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.resetWebCommitSignoffRequired">ResetWebCommitSignoffRequired</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.repository.Repository.putPages">PutPages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.putSecurityAndAnalysis">PutSecurityAndAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.putTemplate">PutTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAllowAutoMerge">ResetAllowAutoMerge</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAllowMergeCommit">ResetAllowMergeCommit</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAllowRebaseMerge">ResetAllowRebaseMerge</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAllowSquashMerge">ResetAllowSquashMerge</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAllowUpdateBranch">ResetAllowUpdateBranch</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetArchived">ResetArchived</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetArchiveOnDestroy">ResetArchiveOnDestroy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetAutoInit">ResetAutoInit</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetDefaultBranch">ResetDefaultBranch</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetDeleteBranchOnMerge">ResetDeleteBranchOnMerge</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetEtag">ResetEtag</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetFork">ResetFork</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetGitignoreTemplate">ResetGitignoreTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHasDiscussions">ResetHasDiscussions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHasDownloads">ResetHasDownloads</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHasIssues">ResetHasIssues</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHasProjects">ResetHasProjects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHasWiki">ResetHasWiki</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetHomepageUrl">ResetHomepageUrl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetIgnoreVulnerabilityAlertsDuringRead">ResetIgnoreVulnerabilityAlertsDuringRead</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetIsTemplate">ResetIsTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetLicenseTemplate">ResetLicenseTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetMergeCommitMessage">ResetMergeCommitMessage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetMergeCommitTitle">ResetMergeCommitTitle</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetPages">ResetPages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetPrivate">ResetPrivate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetSecurityAndAnalysis">ResetSecurityAndAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetSourceOwner">ResetSourceOwner</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetSourceRepo">ResetSourceRepo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetSquashMergeCommitMessage">ResetSquashMergeCommitMessage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetSquashMergeCommitTitle">ResetSquashMergeCommitTitle</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetTemplate">ResetTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetTopics">ResetTopics</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetVisibility">ResetVisibility</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetVulnerabilityAlerts">ResetVulnerabilityAlerts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.resetWebCommitSignoffRequired">ResetWebCommitSignoffRequired</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.Repository.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.Repository.toString"></a>
 
 ```go
 func ToString() *string
@@ -125,25 +125,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.repository.Repository.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.repository.Repository.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.repository.Repository.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.repository.Repository.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.Repository.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.Repository.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.repository.Repository.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.repository.Repository.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -151,7 +151,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.repository.Repository.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.repository.Repository.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -159,7 +159,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.repository.Repository.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.repository.Repository.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -167,19 +167,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.repository.Repository.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.repository.Repository.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.repository.Repository.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.repository.Repository.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.repository.Repository.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.repository.Repository.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -187,7 +187,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-github.repository.Repository.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-github.repository.Repository.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -195,7 +195,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.repository.Repository.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.repository.Repository.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -203,151 +203,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.Repository.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.Repository.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.Repository.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.Repository.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.Repository.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.Repository.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.Repository.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.Repository.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.Repository.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.Repository.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.Repository.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.Repository.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.Repository.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.Repository.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.Repository.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.Repository.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.Repository.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.Repository.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-github.repository.Repository.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-github.repository.Repository.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-github.repository.Repository.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-github.repository.Repository.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repository.Repository.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repository.Repository.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repository.Repository.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repository.Repository.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.Repository.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.Repository.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.Repository.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.Repository.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-github.repository.Repository.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-github.repository.Repository.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -357,7 +357,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repository.Repository.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repository.Repository.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -365,7 +365,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-github.repository.Repository.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-github.repository.Repository.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -373,7 +373,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.repository.Repository.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.repository.Repository.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -381,7 +381,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.repository.Repository.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.repository.Repository.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -389,7 +389,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-github.repository.Repository.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-github.repository.Repository.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -397,7 +397,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repository.Repository.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repository.Repository.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -405,265 +405,265 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `PutPages` <a name="PutPages" id="@cdktf/provider-github.repository.Repository.putPages"></a>
+##### `PutPages` <a name="PutPages" id="@cdktn/provider-github.repository.Repository.putPages"></a>
 
 ```go
 func PutPages(value RepositoryPages)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.Repository.putPages.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.Repository.putPages.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a>
 
 ---
 
-##### `PutSecurityAndAnalysis` <a name="PutSecurityAndAnalysis" id="@cdktf/provider-github.repository.Repository.putSecurityAndAnalysis"></a>
+##### `PutSecurityAndAnalysis` <a name="PutSecurityAndAnalysis" id="@cdktn/provider-github.repository.Repository.putSecurityAndAnalysis"></a>
 
 ```go
 func PutSecurityAndAnalysis(value RepositorySecurityAndAnalysis)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.Repository.putSecurityAndAnalysis.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.Repository.putSecurityAndAnalysis.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
 
 ---
 
-##### `PutTemplate` <a name="PutTemplate" id="@cdktf/provider-github.repository.Repository.putTemplate"></a>
+##### `PutTemplate` <a name="PutTemplate" id="@cdktn/provider-github.repository.Repository.putTemplate"></a>
 
 ```go
 func PutTemplate(value RepositoryTemplate)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.Repository.putTemplate.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.Repository.putTemplate.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
 
 ---
 
-##### `ResetAllowAutoMerge` <a name="ResetAllowAutoMerge" id="@cdktf/provider-github.repository.Repository.resetAllowAutoMerge"></a>
+##### `ResetAllowAutoMerge` <a name="ResetAllowAutoMerge" id="@cdktn/provider-github.repository.Repository.resetAllowAutoMerge"></a>
 
 ```go
 func ResetAllowAutoMerge()
 ```
 
-##### `ResetAllowMergeCommit` <a name="ResetAllowMergeCommit" id="@cdktf/provider-github.repository.Repository.resetAllowMergeCommit"></a>
+##### `ResetAllowMergeCommit` <a name="ResetAllowMergeCommit" id="@cdktn/provider-github.repository.Repository.resetAllowMergeCommit"></a>
 
 ```go
 func ResetAllowMergeCommit()
 ```
 
-##### `ResetAllowRebaseMerge` <a name="ResetAllowRebaseMerge" id="@cdktf/provider-github.repository.Repository.resetAllowRebaseMerge"></a>
+##### `ResetAllowRebaseMerge` <a name="ResetAllowRebaseMerge" id="@cdktn/provider-github.repository.Repository.resetAllowRebaseMerge"></a>
 
 ```go
 func ResetAllowRebaseMerge()
 ```
 
-##### `ResetAllowSquashMerge` <a name="ResetAllowSquashMerge" id="@cdktf/provider-github.repository.Repository.resetAllowSquashMerge"></a>
+##### `ResetAllowSquashMerge` <a name="ResetAllowSquashMerge" id="@cdktn/provider-github.repository.Repository.resetAllowSquashMerge"></a>
 
 ```go
 func ResetAllowSquashMerge()
 ```
 
-##### `ResetAllowUpdateBranch` <a name="ResetAllowUpdateBranch" id="@cdktf/provider-github.repository.Repository.resetAllowUpdateBranch"></a>
+##### `ResetAllowUpdateBranch` <a name="ResetAllowUpdateBranch" id="@cdktn/provider-github.repository.Repository.resetAllowUpdateBranch"></a>
 
 ```go
 func ResetAllowUpdateBranch()
 ```
 
-##### `ResetArchived` <a name="ResetArchived" id="@cdktf/provider-github.repository.Repository.resetArchived"></a>
+##### `ResetArchived` <a name="ResetArchived" id="@cdktn/provider-github.repository.Repository.resetArchived"></a>
 
 ```go
 func ResetArchived()
 ```
 
-##### `ResetArchiveOnDestroy` <a name="ResetArchiveOnDestroy" id="@cdktf/provider-github.repository.Repository.resetArchiveOnDestroy"></a>
+##### `ResetArchiveOnDestroy` <a name="ResetArchiveOnDestroy" id="@cdktn/provider-github.repository.Repository.resetArchiveOnDestroy"></a>
 
 ```go
 func ResetArchiveOnDestroy()
 ```
 
-##### `ResetAutoInit` <a name="ResetAutoInit" id="@cdktf/provider-github.repository.Repository.resetAutoInit"></a>
+##### `ResetAutoInit` <a name="ResetAutoInit" id="@cdktn/provider-github.repository.Repository.resetAutoInit"></a>
 
 ```go
 func ResetAutoInit()
 ```
 
-##### `ResetDefaultBranch` <a name="ResetDefaultBranch" id="@cdktf/provider-github.repository.Repository.resetDefaultBranch"></a>
+##### `ResetDefaultBranch` <a name="ResetDefaultBranch" id="@cdktn/provider-github.repository.Repository.resetDefaultBranch"></a>
 
 ```go
 func ResetDefaultBranch()
 ```
 
-##### `ResetDeleteBranchOnMerge` <a name="ResetDeleteBranchOnMerge" id="@cdktf/provider-github.repository.Repository.resetDeleteBranchOnMerge"></a>
+##### `ResetDeleteBranchOnMerge` <a name="ResetDeleteBranchOnMerge" id="@cdktn/provider-github.repository.Repository.resetDeleteBranchOnMerge"></a>
 
 ```go
 func ResetDeleteBranchOnMerge()
 ```
 
-##### `ResetDescription` <a name="ResetDescription" id="@cdktf/provider-github.repository.Repository.resetDescription"></a>
+##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-github.repository.Repository.resetDescription"></a>
 
 ```go
 func ResetDescription()
 ```
 
-##### `ResetEtag` <a name="ResetEtag" id="@cdktf/provider-github.repository.Repository.resetEtag"></a>
+##### `ResetEtag` <a name="ResetEtag" id="@cdktn/provider-github.repository.Repository.resetEtag"></a>
 
 ```go
 func ResetEtag()
 ```
 
-##### `ResetFork` <a name="ResetFork" id="@cdktf/provider-github.repository.Repository.resetFork"></a>
+##### `ResetFork` <a name="ResetFork" id="@cdktn/provider-github.repository.Repository.resetFork"></a>
 
 ```go
 func ResetFork()
 ```
 
-##### `ResetGitignoreTemplate` <a name="ResetGitignoreTemplate" id="@cdktf/provider-github.repository.Repository.resetGitignoreTemplate"></a>
+##### `ResetGitignoreTemplate` <a name="ResetGitignoreTemplate" id="@cdktn/provider-github.repository.Repository.resetGitignoreTemplate"></a>
 
 ```go
 func ResetGitignoreTemplate()
 ```
 
-##### `ResetHasDiscussions` <a name="ResetHasDiscussions" id="@cdktf/provider-github.repository.Repository.resetHasDiscussions"></a>
+##### `ResetHasDiscussions` <a name="ResetHasDiscussions" id="@cdktn/provider-github.repository.Repository.resetHasDiscussions"></a>
 
 ```go
 func ResetHasDiscussions()
 ```
 
-##### `ResetHasDownloads` <a name="ResetHasDownloads" id="@cdktf/provider-github.repository.Repository.resetHasDownloads"></a>
+##### `ResetHasDownloads` <a name="ResetHasDownloads" id="@cdktn/provider-github.repository.Repository.resetHasDownloads"></a>
 
 ```go
 func ResetHasDownloads()
 ```
 
-##### `ResetHasIssues` <a name="ResetHasIssues" id="@cdktf/provider-github.repository.Repository.resetHasIssues"></a>
+##### `ResetHasIssues` <a name="ResetHasIssues" id="@cdktn/provider-github.repository.Repository.resetHasIssues"></a>
 
 ```go
 func ResetHasIssues()
 ```
 
-##### `ResetHasProjects` <a name="ResetHasProjects" id="@cdktf/provider-github.repository.Repository.resetHasProjects"></a>
+##### `ResetHasProjects` <a name="ResetHasProjects" id="@cdktn/provider-github.repository.Repository.resetHasProjects"></a>
 
 ```go
 func ResetHasProjects()
 ```
 
-##### `ResetHasWiki` <a name="ResetHasWiki" id="@cdktf/provider-github.repository.Repository.resetHasWiki"></a>
+##### `ResetHasWiki` <a name="ResetHasWiki" id="@cdktn/provider-github.repository.Repository.resetHasWiki"></a>
 
 ```go
 func ResetHasWiki()
 ```
 
-##### `ResetHomepageUrl` <a name="ResetHomepageUrl" id="@cdktf/provider-github.repository.Repository.resetHomepageUrl"></a>
+##### `ResetHomepageUrl` <a name="ResetHomepageUrl" id="@cdktn/provider-github.repository.Repository.resetHomepageUrl"></a>
 
 ```go
 func ResetHomepageUrl()
 ```
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.repository.Repository.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.repository.Repository.resetId"></a>
 
 ```go
 func ResetId()
 ```
 
-##### `ResetIgnoreVulnerabilityAlertsDuringRead` <a name="ResetIgnoreVulnerabilityAlertsDuringRead" id="@cdktf/provider-github.repository.Repository.resetIgnoreVulnerabilityAlertsDuringRead"></a>
+##### `ResetIgnoreVulnerabilityAlertsDuringRead` <a name="ResetIgnoreVulnerabilityAlertsDuringRead" id="@cdktn/provider-github.repository.Repository.resetIgnoreVulnerabilityAlertsDuringRead"></a>
 
 ```go
 func ResetIgnoreVulnerabilityAlertsDuringRead()
 ```
 
-##### `ResetIsTemplate` <a name="ResetIsTemplate" id="@cdktf/provider-github.repository.Repository.resetIsTemplate"></a>
+##### `ResetIsTemplate` <a name="ResetIsTemplate" id="@cdktn/provider-github.repository.Repository.resetIsTemplate"></a>
 
 ```go
 func ResetIsTemplate()
 ```
 
-##### `ResetLicenseTemplate` <a name="ResetLicenseTemplate" id="@cdktf/provider-github.repository.Repository.resetLicenseTemplate"></a>
+##### `ResetLicenseTemplate` <a name="ResetLicenseTemplate" id="@cdktn/provider-github.repository.Repository.resetLicenseTemplate"></a>
 
 ```go
 func ResetLicenseTemplate()
 ```
 
-##### `ResetMergeCommitMessage` <a name="ResetMergeCommitMessage" id="@cdktf/provider-github.repository.Repository.resetMergeCommitMessage"></a>
+##### `ResetMergeCommitMessage` <a name="ResetMergeCommitMessage" id="@cdktn/provider-github.repository.Repository.resetMergeCommitMessage"></a>
 
 ```go
 func ResetMergeCommitMessage()
 ```
 
-##### `ResetMergeCommitTitle` <a name="ResetMergeCommitTitle" id="@cdktf/provider-github.repository.Repository.resetMergeCommitTitle"></a>
+##### `ResetMergeCommitTitle` <a name="ResetMergeCommitTitle" id="@cdktn/provider-github.repository.Repository.resetMergeCommitTitle"></a>
 
 ```go
 func ResetMergeCommitTitle()
 ```
 
-##### `ResetPages` <a name="ResetPages" id="@cdktf/provider-github.repository.Repository.resetPages"></a>
+##### `ResetPages` <a name="ResetPages" id="@cdktn/provider-github.repository.Repository.resetPages"></a>
 
 ```go
 func ResetPages()
 ```
 
-##### `ResetPrivate` <a name="ResetPrivate" id="@cdktf/provider-github.repository.Repository.resetPrivate"></a>
+##### `ResetPrivate` <a name="ResetPrivate" id="@cdktn/provider-github.repository.Repository.resetPrivate"></a>
 
 ```go
 func ResetPrivate()
 ```
 
-##### `ResetSecurityAndAnalysis` <a name="ResetSecurityAndAnalysis" id="@cdktf/provider-github.repository.Repository.resetSecurityAndAnalysis"></a>
+##### `ResetSecurityAndAnalysis` <a name="ResetSecurityAndAnalysis" id="@cdktn/provider-github.repository.Repository.resetSecurityAndAnalysis"></a>
 
 ```go
 func ResetSecurityAndAnalysis()
 ```
 
-##### `ResetSourceOwner` <a name="ResetSourceOwner" id="@cdktf/provider-github.repository.Repository.resetSourceOwner"></a>
+##### `ResetSourceOwner` <a name="ResetSourceOwner" id="@cdktn/provider-github.repository.Repository.resetSourceOwner"></a>
 
 ```go
 func ResetSourceOwner()
 ```
 
-##### `ResetSourceRepo` <a name="ResetSourceRepo" id="@cdktf/provider-github.repository.Repository.resetSourceRepo"></a>
+##### `ResetSourceRepo` <a name="ResetSourceRepo" id="@cdktn/provider-github.repository.Repository.resetSourceRepo"></a>
 
 ```go
 func ResetSourceRepo()
 ```
 
-##### `ResetSquashMergeCommitMessage` <a name="ResetSquashMergeCommitMessage" id="@cdktf/provider-github.repository.Repository.resetSquashMergeCommitMessage"></a>
+##### `ResetSquashMergeCommitMessage` <a name="ResetSquashMergeCommitMessage" id="@cdktn/provider-github.repository.Repository.resetSquashMergeCommitMessage"></a>
 
 ```go
 func ResetSquashMergeCommitMessage()
 ```
 
-##### `ResetSquashMergeCommitTitle` <a name="ResetSquashMergeCommitTitle" id="@cdktf/provider-github.repository.Repository.resetSquashMergeCommitTitle"></a>
+##### `ResetSquashMergeCommitTitle` <a name="ResetSquashMergeCommitTitle" id="@cdktn/provider-github.repository.Repository.resetSquashMergeCommitTitle"></a>
 
 ```go
 func ResetSquashMergeCommitTitle()
 ```
 
-##### `ResetTemplate` <a name="ResetTemplate" id="@cdktf/provider-github.repository.Repository.resetTemplate"></a>
+##### `ResetTemplate` <a name="ResetTemplate" id="@cdktn/provider-github.repository.Repository.resetTemplate"></a>
 
 ```go
 func ResetTemplate()
 ```
 
-##### `ResetTopics` <a name="ResetTopics" id="@cdktf/provider-github.repository.Repository.resetTopics"></a>
+##### `ResetTopics` <a name="ResetTopics" id="@cdktn/provider-github.repository.Repository.resetTopics"></a>
 
 ```go
 func ResetTopics()
 ```
 
-##### `ResetVisibility` <a name="ResetVisibility" id="@cdktf/provider-github.repository.Repository.resetVisibility"></a>
+##### `ResetVisibility` <a name="ResetVisibility" id="@cdktn/provider-github.repository.Repository.resetVisibility"></a>
 
 ```go
 func ResetVisibility()
 ```
 
-##### `ResetVulnerabilityAlerts` <a name="ResetVulnerabilityAlerts" id="@cdktf/provider-github.repository.Repository.resetVulnerabilityAlerts"></a>
+##### `ResetVulnerabilityAlerts` <a name="ResetVulnerabilityAlerts" id="@cdktn/provider-github.repository.Repository.resetVulnerabilityAlerts"></a>
 
 ```go
 func ResetVulnerabilityAlerts()
 ```
 
-##### `ResetWebCommitSignoffRequired` <a name="ResetWebCommitSignoffRequired" id="@cdktf/provider-github.repository.Repository.resetWebCommitSignoffRequired"></a>
+##### `ResetWebCommitSignoffRequired` <a name="ResetWebCommitSignoffRequired" id="@cdktn/provider-github.repository.Repository.resetWebCommitSignoffRequired"></a>
 
 ```go
 func ResetWebCommitSignoffRequired()
@@ -673,17 +673,17 @@ func ResetWebCommitSignoffRequired()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.Repository.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repository.Repository.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.repository.Repository.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repository.Repository.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.Repository_IsConstruct(x interface{}) *bool
 ```
@@ -704,7 +704,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repository.Repository.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repository.Repository.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -712,45 +712,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.repository.Repository.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repository.Repository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.Repository_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repository.Repository.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repository.Repository.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-github.repository.Repository.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repository.Repository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.Repository_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repository.Repository.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repository.Repository.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.repository.Repository.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repository.Repository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.Repository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.repository.Repository.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -758,7 +758,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.repository.Repository.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -766,17 +766,17 @@ The construct id used in the generated config for the Repository to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.repository.Repository.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing Repository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repository.Repository.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -788,111 +788,111 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.fullName">FullName</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.gitCloneUrl">GitCloneUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.httpCloneUrl">HttpCloneUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.pages">Pages</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference">RepositoryPagesOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.primaryLanguage">PrimaryLanguage</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.repoId">RepoId</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.securityAndAnalysis">SecurityAndAnalysis</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference">RepositorySecurityAndAnalysisOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.sshCloneUrl">SshCloneUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.svnUrl">SvnUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.template">Template</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference">RepositoryTemplateOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowAutoMergeInput">AllowAutoMergeInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowMergeCommitInput">AllowMergeCommitInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowRebaseMergeInput">AllowRebaseMergeInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowSquashMergeInput">AllowSquashMergeInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowUpdateBranchInput">AllowUpdateBranchInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.archivedInput">ArchivedInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.archiveOnDestroyInput">ArchiveOnDestroyInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.autoInitInput">AutoInitInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.defaultBranchInput">DefaultBranchInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.deleteBranchOnMergeInput">DeleteBranchOnMergeInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.etagInput">EtagInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.forkInput">ForkInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.gitignoreTemplateInput">GitignoreTemplateInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasDiscussionsInput">HasDiscussionsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasDownloadsInput">HasDownloadsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasIssuesInput">HasIssuesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasProjectsInput">HasProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasWikiInput">HasWikiInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.homepageUrlInput">HomepageUrlInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput">IgnoreVulnerabilityAlertsDuringReadInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.isTemplateInput">IsTemplateInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.licenseTemplateInput">LicenseTemplateInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.mergeCommitMessageInput">MergeCommitMessageInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.mergeCommitTitleInput">MergeCommitTitleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.pagesInput">PagesInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.privateInput">PrivateInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.securityAndAnalysisInput">SecurityAndAnalysisInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.sourceOwnerInput">SourceOwnerInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.sourceRepoInput">SourceRepoInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.squashMergeCommitMessageInput">SquashMergeCommitMessageInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.squashMergeCommitTitleInput">SquashMergeCommitTitleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.templateInput">TemplateInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.topicsInput">TopicsInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.visibilityInput">VisibilityInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.vulnerabilityAlertsInput">VulnerabilityAlertsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.webCommitSignoffRequiredInput">WebCommitSignoffRequiredInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.archived">Archived</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.archiveOnDestroy">ArchiveOnDestroy</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.autoInit">AutoInit</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.defaultBranch">DefaultBranch</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.description">Description</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.fork">Fork</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.gitignoreTemplate">GitignoreTemplate</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasDiscussions">HasDiscussions</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasDownloads">HasDownloads</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasIssues">HasIssues</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasProjects">HasProjects</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.hasWiki">HasWiki</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.homepageUrl">HomepageUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead">IgnoreVulnerabilityAlertsDuringRead</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.isTemplate">IsTemplate</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.licenseTemplate">LicenseTemplate</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.mergeCommitMessage">MergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.mergeCommitTitle">MergeCommitTitle</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.name">Name</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.private">Private</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.sourceOwner">SourceOwner</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.sourceRepo">SourceRepo</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.squashMergeCommitMessage">SquashMergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.squashMergeCommitTitle">SquashMergeCommitTitle</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.topics">Topics</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.visibility">Visibility</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.vulnerabilityAlerts">VulnerabilityAlerts</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.fullName">FullName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.gitCloneUrl">GitCloneUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.httpCloneUrl">HttpCloneUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.pages">Pages</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference">RepositoryPagesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.primaryLanguage">PrimaryLanguage</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.repoId">RepoId</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.securityAndAnalysis">SecurityAndAnalysis</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference">RepositorySecurityAndAnalysisOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.sshCloneUrl">SshCloneUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.svnUrl">SvnUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.template">Template</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference">RepositoryTemplateOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMergeInput">AllowAutoMergeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommitInput">AllowMergeCommitInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMergeInput">AllowRebaseMergeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMergeInput">AllowSquashMergeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranchInput">AllowUpdateBranchInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archivedInput">ArchivedInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroyInput">ArchiveOnDestroyInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInitInput">AutoInitInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.defaultBranchInput">DefaultBranchInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMergeInput">DeleteBranchOnMergeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.etagInput">EtagInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.forkInput">ForkInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.gitignoreTemplateInput">GitignoreTemplateInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussionsInput">HasDiscussionsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloadsInput">HasDownloadsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssuesInput">HasIssuesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjectsInput">HasProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWikiInput">HasWikiInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.homepageUrlInput">HomepageUrlInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput">IgnoreVulnerabilityAlertsDuringReadInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplateInput">IsTemplateInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.licenseTemplateInput">LicenseTemplateInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitMessageInput">MergeCommitMessageInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitTitleInput">MergeCommitTitleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.pagesInput">PagesInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.privateInput">PrivateInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.securityAndAnalysisInput">SecurityAndAnalysisInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceOwnerInput">SourceOwnerInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceRepoInput">SourceRepoInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitMessageInput">SquashMergeCommitMessageInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitTitleInput">SquashMergeCommitTitleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.templateInput">TemplateInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.topicsInput">TopicsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.visibilityInput">VisibilityInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlertsInput">VulnerabilityAlertsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequiredInput">WebCommitSignoffRequiredInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archived">Archived</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroy">ArchiveOnDestroy</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInit">AutoInit</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.defaultBranch">DefaultBranch</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.fork">Fork</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.gitignoreTemplate">GitignoreTemplate</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussions">HasDiscussions</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloads">HasDownloads</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssues">HasIssues</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjects">HasProjects</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWiki">HasWiki</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.homepageUrl">HomepageUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead">IgnoreVulnerabilityAlertsDuringRead</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplate">IsTemplate</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.licenseTemplate">LicenseTemplate</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitMessage">MergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitTitle">MergeCommitTitle</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.private">Private</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceOwner">SourceOwner</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceRepo">SourceRepo</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitMessage">SquashMergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitTitle">SquashMergeCommitTitle</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.topics">Topics</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.visibility">Visibility</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlerts">VulnerabilityAlerts</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.repository.Repository.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.repository.Repository.property.node"></a>
 
 ```go
 func Node() Node
@@ -904,7 +904,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.repository.Repository.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.repository.Repository.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -914,7 +914,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.Repository.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.Repository.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -924,7 +924,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.repository.Repository.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.repository.Repository.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -934,7 +934,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.repository.Repository.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.repository.Repository.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -944,7 +944,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.repository.Repository.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.repository.Repository.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -954,7 +954,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.repository.Repository.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.repository.Repository.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -964,7 +964,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.repository.Repository.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.repository.Repository.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -974,7 +974,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.repository.Repository.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.repository.Repository.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -984,7 +984,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.repository.Repository.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.repository.Repository.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -994,7 +994,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.repository.Repository.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.repository.Repository.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -1004,7 +1004,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.repository.Repository.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.repository.Repository.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -1014,7 +1014,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.repository.Repository.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.repository.Repository.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -1024,7 +1024,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.repository.Repository.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.repository.Repository.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -1034,7 +1034,7 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `FullName`<sup>Required</sup> <a name="FullName" id="@cdktf/provider-github.repository.Repository.property.fullName"></a>
+##### `FullName`<sup>Required</sup> <a name="FullName" id="@cdktn/provider-github.repository.Repository.property.fullName"></a>
 
 ```go
 func FullName() *string
@@ -1044,7 +1044,7 @@ func FullName() *string
 
 ---
 
-##### `GitCloneUrl`<sup>Required</sup> <a name="GitCloneUrl" id="@cdktf/provider-github.repository.Repository.property.gitCloneUrl"></a>
+##### `GitCloneUrl`<sup>Required</sup> <a name="GitCloneUrl" id="@cdktn/provider-github.repository.Repository.property.gitCloneUrl"></a>
 
 ```go
 func GitCloneUrl() *string
@@ -1054,7 +1054,7 @@ func GitCloneUrl() *string
 
 ---
 
-##### `HtmlUrl`<sup>Required</sup> <a name="HtmlUrl" id="@cdktf/provider-github.repository.Repository.property.htmlUrl"></a>
+##### `HtmlUrl`<sup>Required</sup> <a name="HtmlUrl" id="@cdktn/provider-github.repository.Repository.property.htmlUrl"></a>
 
 ```go
 func HtmlUrl() *string
@@ -1064,7 +1064,7 @@ func HtmlUrl() *string
 
 ---
 
-##### `HttpCloneUrl`<sup>Required</sup> <a name="HttpCloneUrl" id="@cdktf/provider-github.repository.Repository.property.httpCloneUrl"></a>
+##### `HttpCloneUrl`<sup>Required</sup> <a name="HttpCloneUrl" id="@cdktn/provider-github.repository.Repository.property.httpCloneUrl"></a>
 
 ```go
 func HttpCloneUrl() *string
@@ -1074,7 +1074,7 @@ func HttpCloneUrl() *string
 
 ---
 
-##### `NodeId`<sup>Required</sup> <a name="NodeId" id="@cdktf/provider-github.repository.Repository.property.nodeId"></a>
+##### `NodeId`<sup>Required</sup> <a name="NodeId" id="@cdktn/provider-github.repository.Repository.property.nodeId"></a>
 
 ```go
 func NodeId() *string
@@ -1084,17 +1084,17 @@ func NodeId() *string
 
 ---
 
-##### `Pages`<sup>Required</sup> <a name="Pages" id="@cdktf/provider-github.repository.Repository.property.pages"></a>
+##### `Pages`<sup>Required</sup> <a name="Pages" id="@cdktn/provider-github.repository.Repository.property.pages"></a>
 
 ```go
 func Pages() RepositoryPagesOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference">RepositoryPagesOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference">RepositoryPagesOutputReference</a>
 
 ---
 
-##### `PrimaryLanguage`<sup>Required</sup> <a name="PrimaryLanguage" id="@cdktf/provider-github.repository.Repository.property.primaryLanguage"></a>
+##### `PrimaryLanguage`<sup>Required</sup> <a name="PrimaryLanguage" id="@cdktn/provider-github.repository.Repository.property.primaryLanguage"></a>
 
 ```go
 func PrimaryLanguage() *string
@@ -1104,7 +1104,7 @@ func PrimaryLanguage() *string
 
 ---
 
-##### `RepoId`<sup>Required</sup> <a name="RepoId" id="@cdktf/provider-github.repository.Repository.property.repoId"></a>
+##### `RepoId`<sup>Required</sup> <a name="RepoId" id="@cdktn/provider-github.repository.Repository.property.repoId"></a>
 
 ```go
 func RepoId() *f64
@@ -1114,17 +1114,17 @@ func RepoId() *f64
 
 ---
 
-##### `SecurityAndAnalysis`<sup>Required</sup> <a name="SecurityAndAnalysis" id="@cdktf/provider-github.repository.Repository.property.securityAndAnalysis"></a>
+##### `SecurityAndAnalysis`<sup>Required</sup> <a name="SecurityAndAnalysis" id="@cdktn/provider-github.repository.Repository.property.securityAndAnalysis"></a>
 
 ```go
 func SecurityAndAnalysis() RepositorySecurityAndAnalysisOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference">RepositorySecurityAndAnalysisOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference">RepositorySecurityAndAnalysisOutputReference</a>
 
 ---
 
-##### `SshCloneUrl`<sup>Required</sup> <a name="SshCloneUrl" id="@cdktf/provider-github.repository.Repository.property.sshCloneUrl"></a>
+##### `SshCloneUrl`<sup>Required</sup> <a name="SshCloneUrl" id="@cdktn/provider-github.repository.Repository.property.sshCloneUrl"></a>
 
 ```go
 func SshCloneUrl() *string
@@ -1134,7 +1134,7 @@ func SshCloneUrl() *string
 
 ---
 
-##### `SvnUrl`<sup>Required</sup> <a name="SvnUrl" id="@cdktf/provider-github.repository.Repository.property.svnUrl"></a>
+##### `SvnUrl`<sup>Required</sup> <a name="SvnUrl" id="@cdktn/provider-github.repository.Repository.property.svnUrl"></a>
 
 ```go
 func SvnUrl() *string
@@ -1144,17 +1144,17 @@ func SvnUrl() *string
 
 ---
 
-##### `Template`<sup>Required</sup> <a name="Template" id="@cdktf/provider-github.repository.Repository.property.template"></a>
+##### `Template`<sup>Required</sup> <a name="Template" id="@cdktn/provider-github.repository.Repository.property.template"></a>
 
 ```go
 func Template() RepositoryTemplateOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference">RepositoryTemplateOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference">RepositoryTemplateOutputReference</a>
 
 ---
 
-##### `AllowAutoMergeInput`<sup>Optional</sup> <a name="AllowAutoMergeInput" id="@cdktf/provider-github.repository.Repository.property.allowAutoMergeInput"></a>
+##### `AllowAutoMergeInput`<sup>Optional</sup> <a name="AllowAutoMergeInput" id="@cdktn/provider-github.repository.Repository.property.allowAutoMergeInput"></a>
 
 ```go
 func AllowAutoMergeInput() interface{}
@@ -1164,7 +1164,7 @@ func AllowAutoMergeInput() interface{}
 
 ---
 
-##### `AllowMergeCommitInput`<sup>Optional</sup> <a name="AllowMergeCommitInput" id="@cdktf/provider-github.repository.Repository.property.allowMergeCommitInput"></a>
+##### `AllowMergeCommitInput`<sup>Optional</sup> <a name="AllowMergeCommitInput" id="@cdktn/provider-github.repository.Repository.property.allowMergeCommitInput"></a>
 
 ```go
 func AllowMergeCommitInput() interface{}
@@ -1174,7 +1174,7 @@ func AllowMergeCommitInput() interface{}
 
 ---
 
-##### `AllowRebaseMergeInput`<sup>Optional</sup> <a name="AllowRebaseMergeInput" id="@cdktf/provider-github.repository.Repository.property.allowRebaseMergeInput"></a>
+##### `AllowRebaseMergeInput`<sup>Optional</sup> <a name="AllowRebaseMergeInput" id="@cdktn/provider-github.repository.Repository.property.allowRebaseMergeInput"></a>
 
 ```go
 func AllowRebaseMergeInput() interface{}
@@ -1184,7 +1184,7 @@ func AllowRebaseMergeInput() interface{}
 
 ---
 
-##### `AllowSquashMergeInput`<sup>Optional</sup> <a name="AllowSquashMergeInput" id="@cdktf/provider-github.repository.Repository.property.allowSquashMergeInput"></a>
+##### `AllowSquashMergeInput`<sup>Optional</sup> <a name="AllowSquashMergeInput" id="@cdktn/provider-github.repository.Repository.property.allowSquashMergeInput"></a>
 
 ```go
 func AllowSquashMergeInput() interface{}
@@ -1194,7 +1194,7 @@ func AllowSquashMergeInput() interface{}
 
 ---
 
-##### `AllowUpdateBranchInput`<sup>Optional</sup> <a name="AllowUpdateBranchInput" id="@cdktf/provider-github.repository.Repository.property.allowUpdateBranchInput"></a>
+##### `AllowUpdateBranchInput`<sup>Optional</sup> <a name="AllowUpdateBranchInput" id="@cdktn/provider-github.repository.Repository.property.allowUpdateBranchInput"></a>
 
 ```go
 func AllowUpdateBranchInput() interface{}
@@ -1204,7 +1204,7 @@ func AllowUpdateBranchInput() interface{}
 
 ---
 
-##### `ArchivedInput`<sup>Optional</sup> <a name="ArchivedInput" id="@cdktf/provider-github.repository.Repository.property.archivedInput"></a>
+##### `ArchivedInput`<sup>Optional</sup> <a name="ArchivedInput" id="@cdktn/provider-github.repository.Repository.property.archivedInput"></a>
 
 ```go
 func ArchivedInput() interface{}
@@ -1214,7 +1214,7 @@ func ArchivedInput() interface{}
 
 ---
 
-##### `ArchiveOnDestroyInput`<sup>Optional</sup> <a name="ArchiveOnDestroyInput" id="@cdktf/provider-github.repository.Repository.property.archiveOnDestroyInput"></a>
+##### `ArchiveOnDestroyInput`<sup>Optional</sup> <a name="ArchiveOnDestroyInput" id="@cdktn/provider-github.repository.Repository.property.archiveOnDestroyInput"></a>
 
 ```go
 func ArchiveOnDestroyInput() interface{}
@@ -1224,7 +1224,7 @@ func ArchiveOnDestroyInput() interface{}
 
 ---
 
-##### `AutoInitInput`<sup>Optional</sup> <a name="AutoInitInput" id="@cdktf/provider-github.repository.Repository.property.autoInitInput"></a>
+##### `AutoInitInput`<sup>Optional</sup> <a name="AutoInitInput" id="@cdktn/provider-github.repository.Repository.property.autoInitInput"></a>
 
 ```go
 func AutoInitInput() interface{}
@@ -1234,7 +1234,7 @@ func AutoInitInput() interface{}
 
 ---
 
-##### `DefaultBranchInput`<sup>Optional</sup> <a name="DefaultBranchInput" id="@cdktf/provider-github.repository.Repository.property.defaultBranchInput"></a>
+##### `DefaultBranchInput`<sup>Optional</sup> <a name="DefaultBranchInput" id="@cdktn/provider-github.repository.Repository.property.defaultBranchInput"></a>
 
 ```go
 func DefaultBranchInput() *string
@@ -1244,7 +1244,7 @@ func DefaultBranchInput() *string
 
 ---
 
-##### `DeleteBranchOnMergeInput`<sup>Optional</sup> <a name="DeleteBranchOnMergeInput" id="@cdktf/provider-github.repository.Repository.property.deleteBranchOnMergeInput"></a>
+##### `DeleteBranchOnMergeInput`<sup>Optional</sup> <a name="DeleteBranchOnMergeInput" id="@cdktn/provider-github.repository.Repository.property.deleteBranchOnMergeInput"></a>
 
 ```go
 func DeleteBranchOnMergeInput() interface{}
@@ -1254,7 +1254,7 @@ func DeleteBranchOnMergeInput() interface{}
 
 ---
 
-##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktf/provider-github.repository.Repository.property.descriptionInput"></a>
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-github.repository.Repository.property.descriptionInput"></a>
 
 ```go
 func DescriptionInput() *string
@@ -1264,7 +1264,7 @@ func DescriptionInput() *string
 
 ---
 
-##### `EtagInput`<sup>Optional</sup> <a name="EtagInput" id="@cdktf/provider-github.repository.Repository.property.etagInput"></a>
+##### `EtagInput`<sup>Optional</sup> <a name="EtagInput" id="@cdktn/provider-github.repository.Repository.property.etagInput"></a>
 
 ```go
 func EtagInput() *string
@@ -1274,7 +1274,7 @@ func EtagInput() *string
 
 ---
 
-##### `ForkInput`<sup>Optional</sup> <a name="ForkInput" id="@cdktf/provider-github.repository.Repository.property.forkInput"></a>
+##### `ForkInput`<sup>Optional</sup> <a name="ForkInput" id="@cdktn/provider-github.repository.Repository.property.forkInput"></a>
 
 ```go
 func ForkInput() *string
@@ -1284,7 +1284,7 @@ func ForkInput() *string
 
 ---
 
-##### `GitignoreTemplateInput`<sup>Optional</sup> <a name="GitignoreTemplateInput" id="@cdktf/provider-github.repository.Repository.property.gitignoreTemplateInput"></a>
+##### `GitignoreTemplateInput`<sup>Optional</sup> <a name="GitignoreTemplateInput" id="@cdktn/provider-github.repository.Repository.property.gitignoreTemplateInput"></a>
 
 ```go
 func GitignoreTemplateInput() *string
@@ -1294,7 +1294,7 @@ func GitignoreTemplateInput() *string
 
 ---
 
-##### `HasDiscussionsInput`<sup>Optional</sup> <a name="HasDiscussionsInput" id="@cdktf/provider-github.repository.Repository.property.hasDiscussionsInput"></a>
+##### `HasDiscussionsInput`<sup>Optional</sup> <a name="HasDiscussionsInput" id="@cdktn/provider-github.repository.Repository.property.hasDiscussionsInput"></a>
 
 ```go
 func HasDiscussionsInput() interface{}
@@ -1304,7 +1304,7 @@ func HasDiscussionsInput() interface{}
 
 ---
 
-##### `HasDownloadsInput`<sup>Optional</sup> <a name="HasDownloadsInput" id="@cdktf/provider-github.repository.Repository.property.hasDownloadsInput"></a>
+##### `HasDownloadsInput`<sup>Optional</sup> <a name="HasDownloadsInput" id="@cdktn/provider-github.repository.Repository.property.hasDownloadsInput"></a>
 
 ```go
 func HasDownloadsInput() interface{}
@@ -1314,7 +1314,7 @@ func HasDownloadsInput() interface{}
 
 ---
 
-##### `HasIssuesInput`<sup>Optional</sup> <a name="HasIssuesInput" id="@cdktf/provider-github.repository.Repository.property.hasIssuesInput"></a>
+##### `HasIssuesInput`<sup>Optional</sup> <a name="HasIssuesInput" id="@cdktn/provider-github.repository.Repository.property.hasIssuesInput"></a>
 
 ```go
 func HasIssuesInput() interface{}
@@ -1324,7 +1324,7 @@ func HasIssuesInput() interface{}
 
 ---
 
-##### `HasProjectsInput`<sup>Optional</sup> <a name="HasProjectsInput" id="@cdktf/provider-github.repository.Repository.property.hasProjectsInput"></a>
+##### `HasProjectsInput`<sup>Optional</sup> <a name="HasProjectsInput" id="@cdktn/provider-github.repository.Repository.property.hasProjectsInput"></a>
 
 ```go
 func HasProjectsInput() interface{}
@@ -1334,7 +1334,7 @@ func HasProjectsInput() interface{}
 
 ---
 
-##### `HasWikiInput`<sup>Optional</sup> <a name="HasWikiInput" id="@cdktf/provider-github.repository.Repository.property.hasWikiInput"></a>
+##### `HasWikiInput`<sup>Optional</sup> <a name="HasWikiInput" id="@cdktn/provider-github.repository.Repository.property.hasWikiInput"></a>
 
 ```go
 func HasWikiInput() interface{}
@@ -1344,7 +1344,7 @@ func HasWikiInput() interface{}
 
 ---
 
-##### `HomepageUrlInput`<sup>Optional</sup> <a name="HomepageUrlInput" id="@cdktf/provider-github.repository.Repository.property.homepageUrlInput"></a>
+##### `HomepageUrlInput`<sup>Optional</sup> <a name="HomepageUrlInput" id="@cdktn/provider-github.repository.Repository.property.homepageUrlInput"></a>
 
 ```go
 func HomepageUrlInput() *string
@@ -1354,7 +1354,7 @@ func HomepageUrlInput() *string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.repository.Repository.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.repository.Repository.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -1364,7 +1364,7 @@ func IdInput() *string
 
 ---
 
-##### `IgnoreVulnerabilityAlertsDuringReadInput`<sup>Optional</sup> <a name="IgnoreVulnerabilityAlertsDuringReadInput" id="@cdktf/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput"></a>
+##### `IgnoreVulnerabilityAlertsDuringReadInput`<sup>Optional</sup> <a name="IgnoreVulnerabilityAlertsDuringReadInput" id="@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput"></a>
 
 ```go
 func IgnoreVulnerabilityAlertsDuringReadInput() interface{}
@@ -1374,7 +1374,7 @@ func IgnoreVulnerabilityAlertsDuringReadInput() interface{}
 
 ---
 
-##### `IsTemplateInput`<sup>Optional</sup> <a name="IsTemplateInput" id="@cdktf/provider-github.repository.Repository.property.isTemplateInput"></a>
+##### `IsTemplateInput`<sup>Optional</sup> <a name="IsTemplateInput" id="@cdktn/provider-github.repository.Repository.property.isTemplateInput"></a>
 
 ```go
 func IsTemplateInput() interface{}
@@ -1384,7 +1384,7 @@ func IsTemplateInput() interface{}
 
 ---
 
-##### `LicenseTemplateInput`<sup>Optional</sup> <a name="LicenseTemplateInput" id="@cdktf/provider-github.repository.Repository.property.licenseTemplateInput"></a>
+##### `LicenseTemplateInput`<sup>Optional</sup> <a name="LicenseTemplateInput" id="@cdktn/provider-github.repository.Repository.property.licenseTemplateInput"></a>
 
 ```go
 func LicenseTemplateInput() *string
@@ -1394,7 +1394,7 @@ func LicenseTemplateInput() *string
 
 ---
 
-##### `MergeCommitMessageInput`<sup>Optional</sup> <a name="MergeCommitMessageInput" id="@cdktf/provider-github.repository.Repository.property.mergeCommitMessageInput"></a>
+##### `MergeCommitMessageInput`<sup>Optional</sup> <a name="MergeCommitMessageInput" id="@cdktn/provider-github.repository.Repository.property.mergeCommitMessageInput"></a>
 
 ```go
 func MergeCommitMessageInput() *string
@@ -1404,7 +1404,7 @@ func MergeCommitMessageInput() *string
 
 ---
 
-##### `MergeCommitTitleInput`<sup>Optional</sup> <a name="MergeCommitTitleInput" id="@cdktf/provider-github.repository.Repository.property.mergeCommitTitleInput"></a>
+##### `MergeCommitTitleInput`<sup>Optional</sup> <a name="MergeCommitTitleInput" id="@cdktn/provider-github.repository.Repository.property.mergeCommitTitleInput"></a>
 
 ```go
 func MergeCommitTitleInput() *string
@@ -1414,7 +1414,7 @@ func MergeCommitTitleInput() *string
 
 ---
 
-##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-github.repository.Repository.property.nameInput"></a>
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-github.repository.Repository.property.nameInput"></a>
 
 ```go
 func NameInput() *string
@@ -1424,17 +1424,17 @@ func NameInput() *string
 
 ---
 
-##### `PagesInput`<sup>Optional</sup> <a name="PagesInput" id="@cdktf/provider-github.repository.Repository.property.pagesInput"></a>
+##### `PagesInput`<sup>Optional</sup> <a name="PagesInput" id="@cdktn/provider-github.repository.Repository.property.pagesInput"></a>
 
 ```go
 func PagesInput() RepositoryPages
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a>
 
 ---
 
-##### `PrivateInput`<sup>Optional</sup> <a name="PrivateInput" id="@cdktf/provider-github.repository.Repository.property.privateInput"></a>
+##### `PrivateInput`<sup>Optional</sup> <a name="PrivateInput" id="@cdktn/provider-github.repository.Repository.property.privateInput"></a>
 
 ```go
 func PrivateInput() interface{}
@@ -1444,17 +1444,17 @@ func PrivateInput() interface{}
 
 ---
 
-##### `SecurityAndAnalysisInput`<sup>Optional</sup> <a name="SecurityAndAnalysisInput" id="@cdktf/provider-github.repository.Repository.property.securityAndAnalysisInput"></a>
+##### `SecurityAndAnalysisInput`<sup>Optional</sup> <a name="SecurityAndAnalysisInput" id="@cdktn/provider-github.repository.Repository.property.securityAndAnalysisInput"></a>
 
 ```go
 func SecurityAndAnalysisInput() RepositorySecurityAndAnalysis
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
 
 ---
 
-##### `SourceOwnerInput`<sup>Optional</sup> <a name="SourceOwnerInput" id="@cdktf/provider-github.repository.Repository.property.sourceOwnerInput"></a>
+##### `SourceOwnerInput`<sup>Optional</sup> <a name="SourceOwnerInput" id="@cdktn/provider-github.repository.Repository.property.sourceOwnerInput"></a>
 
 ```go
 func SourceOwnerInput() *string
@@ -1464,7 +1464,7 @@ func SourceOwnerInput() *string
 
 ---
 
-##### `SourceRepoInput`<sup>Optional</sup> <a name="SourceRepoInput" id="@cdktf/provider-github.repository.Repository.property.sourceRepoInput"></a>
+##### `SourceRepoInput`<sup>Optional</sup> <a name="SourceRepoInput" id="@cdktn/provider-github.repository.Repository.property.sourceRepoInput"></a>
 
 ```go
 func SourceRepoInput() *string
@@ -1474,7 +1474,7 @@ func SourceRepoInput() *string
 
 ---
 
-##### `SquashMergeCommitMessageInput`<sup>Optional</sup> <a name="SquashMergeCommitMessageInput" id="@cdktf/provider-github.repository.Repository.property.squashMergeCommitMessageInput"></a>
+##### `SquashMergeCommitMessageInput`<sup>Optional</sup> <a name="SquashMergeCommitMessageInput" id="@cdktn/provider-github.repository.Repository.property.squashMergeCommitMessageInput"></a>
 
 ```go
 func SquashMergeCommitMessageInput() *string
@@ -1484,7 +1484,7 @@ func SquashMergeCommitMessageInput() *string
 
 ---
 
-##### `SquashMergeCommitTitleInput`<sup>Optional</sup> <a name="SquashMergeCommitTitleInput" id="@cdktf/provider-github.repository.Repository.property.squashMergeCommitTitleInput"></a>
+##### `SquashMergeCommitTitleInput`<sup>Optional</sup> <a name="SquashMergeCommitTitleInput" id="@cdktn/provider-github.repository.Repository.property.squashMergeCommitTitleInput"></a>
 
 ```go
 func SquashMergeCommitTitleInput() *string
@@ -1494,17 +1494,17 @@ func SquashMergeCommitTitleInput() *string
 
 ---
 
-##### `TemplateInput`<sup>Optional</sup> <a name="TemplateInput" id="@cdktf/provider-github.repository.Repository.property.templateInput"></a>
+##### `TemplateInput`<sup>Optional</sup> <a name="TemplateInput" id="@cdktn/provider-github.repository.Repository.property.templateInput"></a>
 
 ```go
 func TemplateInput() RepositoryTemplate
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
 
 ---
 
-##### `TopicsInput`<sup>Optional</sup> <a name="TopicsInput" id="@cdktf/provider-github.repository.Repository.property.topicsInput"></a>
+##### `TopicsInput`<sup>Optional</sup> <a name="TopicsInput" id="@cdktn/provider-github.repository.Repository.property.topicsInput"></a>
 
 ```go
 func TopicsInput() *[]*string
@@ -1514,7 +1514,7 @@ func TopicsInput() *[]*string
 
 ---
 
-##### `VisibilityInput`<sup>Optional</sup> <a name="VisibilityInput" id="@cdktf/provider-github.repository.Repository.property.visibilityInput"></a>
+##### `VisibilityInput`<sup>Optional</sup> <a name="VisibilityInput" id="@cdktn/provider-github.repository.Repository.property.visibilityInput"></a>
 
 ```go
 func VisibilityInput() *string
@@ -1524,7 +1524,7 @@ func VisibilityInput() *string
 
 ---
 
-##### `VulnerabilityAlertsInput`<sup>Optional</sup> <a name="VulnerabilityAlertsInput" id="@cdktf/provider-github.repository.Repository.property.vulnerabilityAlertsInput"></a>
+##### `VulnerabilityAlertsInput`<sup>Optional</sup> <a name="VulnerabilityAlertsInput" id="@cdktn/provider-github.repository.Repository.property.vulnerabilityAlertsInput"></a>
 
 ```go
 func VulnerabilityAlertsInput() interface{}
@@ -1534,7 +1534,7 @@ func VulnerabilityAlertsInput() interface{}
 
 ---
 
-##### `WebCommitSignoffRequiredInput`<sup>Optional</sup> <a name="WebCommitSignoffRequiredInput" id="@cdktf/provider-github.repository.Repository.property.webCommitSignoffRequiredInput"></a>
+##### `WebCommitSignoffRequiredInput`<sup>Optional</sup> <a name="WebCommitSignoffRequiredInput" id="@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequiredInput"></a>
 
 ```go
 func WebCommitSignoffRequiredInput() interface{}
@@ -1544,7 +1544,7 @@ func WebCommitSignoffRequiredInput() interface{}
 
 ---
 
-##### `AllowAutoMerge`<sup>Required</sup> <a name="AllowAutoMerge" id="@cdktf/provider-github.repository.Repository.property.allowAutoMerge"></a>
+##### `AllowAutoMerge`<sup>Required</sup> <a name="AllowAutoMerge" id="@cdktn/provider-github.repository.Repository.property.allowAutoMerge"></a>
 
 ```go
 func AllowAutoMerge() interface{}
@@ -1554,7 +1554,7 @@ func AllowAutoMerge() interface{}
 
 ---
 
-##### `AllowMergeCommit`<sup>Required</sup> <a name="AllowMergeCommit" id="@cdktf/provider-github.repository.Repository.property.allowMergeCommit"></a>
+##### `AllowMergeCommit`<sup>Required</sup> <a name="AllowMergeCommit" id="@cdktn/provider-github.repository.Repository.property.allowMergeCommit"></a>
 
 ```go
 func AllowMergeCommit() interface{}
@@ -1564,7 +1564,7 @@ func AllowMergeCommit() interface{}
 
 ---
 
-##### `AllowRebaseMerge`<sup>Required</sup> <a name="AllowRebaseMerge" id="@cdktf/provider-github.repository.Repository.property.allowRebaseMerge"></a>
+##### `AllowRebaseMerge`<sup>Required</sup> <a name="AllowRebaseMerge" id="@cdktn/provider-github.repository.Repository.property.allowRebaseMerge"></a>
 
 ```go
 func AllowRebaseMerge() interface{}
@@ -1574,7 +1574,7 @@ func AllowRebaseMerge() interface{}
 
 ---
 
-##### `AllowSquashMerge`<sup>Required</sup> <a name="AllowSquashMerge" id="@cdktf/provider-github.repository.Repository.property.allowSquashMerge"></a>
+##### `AllowSquashMerge`<sup>Required</sup> <a name="AllowSquashMerge" id="@cdktn/provider-github.repository.Repository.property.allowSquashMerge"></a>
 
 ```go
 func AllowSquashMerge() interface{}
@@ -1584,7 +1584,7 @@ func AllowSquashMerge() interface{}
 
 ---
 
-##### `AllowUpdateBranch`<sup>Required</sup> <a name="AllowUpdateBranch" id="@cdktf/provider-github.repository.Repository.property.allowUpdateBranch"></a>
+##### `AllowUpdateBranch`<sup>Required</sup> <a name="AllowUpdateBranch" id="@cdktn/provider-github.repository.Repository.property.allowUpdateBranch"></a>
 
 ```go
 func AllowUpdateBranch() interface{}
@@ -1594,7 +1594,7 @@ func AllowUpdateBranch() interface{}
 
 ---
 
-##### `Archived`<sup>Required</sup> <a name="Archived" id="@cdktf/provider-github.repository.Repository.property.archived"></a>
+##### `Archived`<sup>Required</sup> <a name="Archived" id="@cdktn/provider-github.repository.Repository.property.archived"></a>
 
 ```go
 func Archived() interface{}
@@ -1604,7 +1604,7 @@ func Archived() interface{}
 
 ---
 
-##### `ArchiveOnDestroy`<sup>Required</sup> <a name="ArchiveOnDestroy" id="@cdktf/provider-github.repository.Repository.property.archiveOnDestroy"></a>
+##### `ArchiveOnDestroy`<sup>Required</sup> <a name="ArchiveOnDestroy" id="@cdktn/provider-github.repository.Repository.property.archiveOnDestroy"></a>
 
 ```go
 func ArchiveOnDestroy() interface{}
@@ -1614,7 +1614,7 @@ func ArchiveOnDestroy() interface{}
 
 ---
 
-##### `AutoInit`<sup>Required</sup> <a name="AutoInit" id="@cdktf/provider-github.repository.Repository.property.autoInit"></a>
+##### `AutoInit`<sup>Required</sup> <a name="AutoInit" id="@cdktn/provider-github.repository.Repository.property.autoInit"></a>
 
 ```go
 func AutoInit() interface{}
@@ -1624,7 +1624,7 @@ func AutoInit() interface{}
 
 ---
 
-##### `DefaultBranch`<sup>Required</sup> <a name="DefaultBranch" id="@cdktf/provider-github.repository.Repository.property.defaultBranch"></a>
+##### `DefaultBranch`<sup>Required</sup> <a name="DefaultBranch" id="@cdktn/provider-github.repository.Repository.property.defaultBranch"></a>
 
 ```go
 func DefaultBranch() *string
@@ -1634,7 +1634,7 @@ func DefaultBranch() *string
 
 ---
 
-##### `DeleteBranchOnMerge`<sup>Required</sup> <a name="DeleteBranchOnMerge" id="@cdktf/provider-github.repository.Repository.property.deleteBranchOnMerge"></a>
+##### `DeleteBranchOnMerge`<sup>Required</sup> <a name="DeleteBranchOnMerge" id="@cdktn/provider-github.repository.Repository.property.deleteBranchOnMerge"></a>
 
 ```go
 func DeleteBranchOnMerge() interface{}
@@ -1644,7 +1644,7 @@ func DeleteBranchOnMerge() interface{}
 
 ---
 
-##### `Description`<sup>Required</sup> <a name="Description" id="@cdktf/provider-github.repository.Repository.property.description"></a>
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-github.repository.Repository.property.description"></a>
 
 ```go
 func Description() *string
@@ -1654,7 +1654,7 @@ func Description() *string
 
 ---
 
-##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktf/provider-github.repository.Repository.property.etag"></a>
+##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktn/provider-github.repository.Repository.property.etag"></a>
 
 ```go
 func Etag() *string
@@ -1664,7 +1664,7 @@ func Etag() *string
 
 ---
 
-##### `Fork`<sup>Required</sup> <a name="Fork" id="@cdktf/provider-github.repository.Repository.property.fork"></a>
+##### `Fork`<sup>Required</sup> <a name="Fork" id="@cdktn/provider-github.repository.Repository.property.fork"></a>
 
 ```go
 func Fork() *string
@@ -1674,7 +1674,7 @@ func Fork() *string
 
 ---
 
-##### `GitignoreTemplate`<sup>Required</sup> <a name="GitignoreTemplate" id="@cdktf/provider-github.repository.Repository.property.gitignoreTemplate"></a>
+##### `GitignoreTemplate`<sup>Required</sup> <a name="GitignoreTemplate" id="@cdktn/provider-github.repository.Repository.property.gitignoreTemplate"></a>
 
 ```go
 func GitignoreTemplate() *string
@@ -1684,7 +1684,7 @@ func GitignoreTemplate() *string
 
 ---
 
-##### `HasDiscussions`<sup>Required</sup> <a name="HasDiscussions" id="@cdktf/provider-github.repository.Repository.property.hasDiscussions"></a>
+##### `HasDiscussions`<sup>Required</sup> <a name="HasDiscussions" id="@cdktn/provider-github.repository.Repository.property.hasDiscussions"></a>
 
 ```go
 func HasDiscussions() interface{}
@@ -1694,7 +1694,7 @@ func HasDiscussions() interface{}
 
 ---
 
-##### `HasDownloads`<sup>Required</sup> <a name="HasDownloads" id="@cdktf/provider-github.repository.Repository.property.hasDownloads"></a>
+##### `HasDownloads`<sup>Required</sup> <a name="HasDownloads" id="@cdktn/provider-github.repository.Repository.property.hasDownloads"></a>
 
 ```go
 func HasDownloads() interface{}
@@ -1704,7 +1704,7 @@ func HasDownloads() interface{}
 
 ---
 
-##### `HasIssues`<sup>Required</sup> <a name="HasIssues" id="@cdktf/provider-github.repository.Repository.property.hasIssues"></a>
+##### `HasIssues`<sup>Required</sup> <a name="HasIssues" id="@cdktn/provider-github.repository.Repository.property.hasIssues"></a>
 
 ```go
 func HasIssues() interface{}
@@ -1714,7 +1714,7 @@ func HasIssues() interface{}
 
 ---
 
-##### `HasProjects`<sup>Required</sup> <a name="HasProjects" id="@cdktf/provider-github.repository.Repository.property.hasProjects"></a>
+##### `HasProjects`<sup>Required</sup> <a name="HasProjects" id="@cdktn/provider-github.repository.Repository.property.hasProjects"></a>
 
 ```go
 func HasProjects() interface{}
@@ -1724,7 +1724,7 @@ func HasProjects() interface{}
 
 ---
 
-##### `HasWiki`<sup>Required</sup> <a name="HasWiki" id="@cdktf/provider-github.repository.Repository.property.hasWiki"></a>
+##### `HasWiki`<sup>Required</sup> <a name="HasWiki" id="@cdktn/provider-github.repository.Repository.property.hasWiki"></a>
 
 ```go
 func HasWiki() interface{}
@@ -1734,7 +1734,7 @@ func HasWiki() interface{}
 
 ---
 
-##### `HomepageUrl`<sup>Required</sup> <a name="HomepageUrl" id="@cdktf/provider-github.repository.Repository.property.homepageUrl"></a>
+##### `HomepageUrl`<sup>Required</sup> <a name="HomepageUrl" id="@cdktn/provider-github.repository.Repository.property.homepageUrl"></a>
 
 ```go
 func HomepageUrl() *string
@@ -1744,7 +1744,7 @@ func HomepageUrl() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.repository.Repository.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.repository.Repository.property.id"></a>
 
 ```go
 func Id() *string
@@ -1754,7 +1754,7 @@ func Id() *string
 
 ---
 
-##### `IgnoreVulnerabilityAlertsDuringRead`<sup>Required</sup> <a name="IgnoreVulnerabilityAlertsDuringRead" id="@cdktf/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead"></a>
+##### `IgnoreVulnerabilityAlertsDuringRead`<sup>Required</sup> <a name="IgnoreVulnerabilityAlertsDuringRead" id="@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead"></a>
 
 ```go
 func IgnoreVulnerabilityAlertsDuringRead() interface{}
@@ -1764,7 +1764,7 @@ func IgnoreVulnerabilityAlertsDuringRead() interface{}
 
 ---
 
-##### `IsTemplate`<sup>Required</sup> <a name="IsTemplate" id="@cdktf/provider-github.repository.Repository.property.isTemplate"></a>
+##### `IsTemplate`<sup>Required</sup> <a name="IsTemplate" id="@cdktn/provider-github.repository.Repository.property.isTemplate"></a>
 
 ```go
 func IsTemplate() interface{}
@@ -1774,7 +1774,7 @@ func IsTemplate() interface{}
 
 ---
 
-##### `LicenseTemplate`<sup>Required</sup> <a name="LicenseTemplate" id="@cdktf/provider-github.repository.Repository.property.licenseTemplate"></a>
+##### `LicenseTemplate`<sup>Required</sup> <a name="LicenseTemplate" id="@cdktn/provider-github.repository.Repository.property.licenseTemplate"></a>
 
 ```go
 func LicenseTemplate() *string
@@ -1784,7 +1784,7 @@ func LicenseTemplate() *string
 
 ---
 
-##### `MergeCommitMessage`<sup>Required</sup> <a name="MergeCommitMessage" id="@cdktf/provider-github.repository.Repository.property.mergeCommitMessage"></a>
+##### `MergeCommitMessage`<sup>Required</sup> <a name="MergeCommitMessage" id="@cdktn/provider-github.repository.Repository.property.mergeCommitMessage"></a>
 
 ```go
 func MergeCommitMessage() *string
@@ -1794,7 +1794,7 @@ func MergeCommitMessage() *string
 
 ---
 
-##### `MergeCommitTitle`<sup>Required</sup> <a name="MergeCommitTitle" id="@cdktf/provider-github.repository.Repository.property.mergeCommitTitle"></a>
+##### `MergeCommitTitle`<sup>Required</sup> <a name="MergeCommitTitle" id="@cdktn/provider-github.repository.Repository.property.mergeCommitTitle"></a>
 
 ```go
 func MergeCommitTitle() *string
@@ -1804,7 +1804,7 @@ func MergeCommitTitle() *string
 
 ---
 
-##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-github.repository.Repository.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-github.repository.Repository.property.name"></a>
 
 ```go
 func Name() *string
@@ -1814,7 +1814,7 @@ func Name() *string
 
 ---
 
-##### `Private`<sup>Required</sup> <a name="Private" id="@cdktf/provider-github.repository.Repository.property.private"></a>
+##### `Private`<sup>Required</sup> <a name="Private" id="@cdktn/provider-github.repository.Repository.property.private"></a>
 
 ```go
 func Private() interface{}
@@ -1824,7 +1824,7 @@ func Private() interface{}
 
 ---
 
-##### `SourceOwner`<sup>Required</sup> <a name="SourceOwner" id="@cdktf/provider-github.repository.Repository.property.sourceOwner"></a>
+##### `SourceOwner`<sup>Required</sup> <a name="SourceOwner" id="@cdktn/provider-github.repository.Repository.property.sourceOwner"></a>
 
 ```go
 func SourceOwner() *string
@@ -1834,7 +1834,7 @@ func SourceOwner() *string
 
 ---
 
-##### `SourceRepo`<sup>Required</sup> <a name="SourceRepo" id="@cdktf/provider-github.repository.Repository.property.sourceRepo"></a>
+##### `SourceRepo`<sup>Required</sup> <a name="SourceRepo" id="@cdktn/provider-github.repository.Repository.property.sourceRepo"></a>
 
 ```go
 func SourceRepo() *string
@@ -1844,7 +1844,7 @@ func SourceRepo() *string
 
 ---
 
-##### `SquashMergeCommitMessage`<sup>Required</sup> <a name="SquashMergeCommitMessage" id="@cdktf/provider-github.repository.Repository.property.squashMergeCommitMessage"></a>
+##### `SquashMergeCommitMessage`<sup>Required</sup> <a name="SquashMergeCommitMessage" id="@cdktn/provider-github.repository.Repository.property.squashMergeCommitMessage"></a>
 
 ```go
 func SquashMergeCommitMessage() *string
@@ -1854,7 +1854,7 @@ func SquashMergeCommitMessage() *string
 
 ---
 
-##### `SquashMergeCommitTitle`<sup>Required</sup> <a name="SquashMergeCommitTitle" id="@cdktf/provider-github.repository.Repository.property.squashMergeCommitTitle"></a>
+##### `SquashMergeCommitTitle`<sup>Required</sup> <a name="SquashMergeCommitTitle" id="@cdktn/provider-github.repository.Repository.property.squashMergeCommitTitle"></a>
 
 ```go
 func SquashMergeCommitTitle() *string
@@ -1864,7 +1864,7 @@ func SquashMergeCommitTitle() *string
 
 ---
 
-##### `Topics`<sup>Required</sup> <a name="Topics" id="@cdktf/provider-github.repository.Repository.property.topics"></a>
+##### `Topics`<sup>Required</sup> <a name="Topics" id="@cdktn/provider-github.repository.Repository.property.topics"></a>
 
 ```go
 func Topics() *[]*string
@@ -1874,7 +1874,7 @@ func Topics() *[]*string
 
 ---
 
-##### `Visibility`<sup>Required</sup> <a name="Visibility" id="@cdktf/provider-github.repository.Repository.property.visibility"></a>
+##### `Visibility`<sup>Required</sup> <a name="Visibility" id="@cdktn/provider-github.repository.Repository.property.visibility"></a>
 
 ```go
 func Visibility() *string
@@ -1884,7 +1884,7 @@ func Visibility() *string
 
 ---
 
-##### `VulnerabilityAlerts`<sup>Required</sup> <a name="VulnerabilityAlerts" id="@cdktf/provider-github.repository.Repository.property.vulnerabilityAlerts"></a>
+##### `VulnerabilityAlerts`<sup>Required</sup> <a name="VulnerabilityAlerts" id="@cdktn/provider-github.repository.Repository.property.vulnerabilityAlerts"></a>
 
 ```go
 func VulnerabilityAlerts() interface{}
@@ -1894,7 +1894,7 @@ func VulnerabilityAlerts() interface{}
 
 ---
 
-##### `WebCommitSignoffRequired`<sup>Required</sup> <a name="WebCommitSignoffRequired" id="@cdktf/provider-github.repository.Repository.property.webCommitSignoffRequired"></a>
+##### `WebCommitSignoffRequired`<sup>Required</sup> <a name="WebCommitSignoffRequired" id="@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequired"></a>
 
 ```go
 func WebCommitSignoffRequired() interface{}
@@ -1908,11 +1908,11 @@ func WebCommitSignoffRequired() interface{}
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.Repository.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.repository.Repository.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.repository.Repository.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -1924,12 +1924,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### RepositoryConfig <a name="RepositoryConfig" id="@cdktf/provider-github.repository.RepositoryConfig"></a>
+### RepositoryConfig <a name="RepositoryConfig" id="@cdktn/provider-github.repository.RepositoryConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositoryConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositoryConfig {
 	Connection: interface{},
@@ -1966,14 +1966,14 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 	LicenseTemplate: *string,
 	MergeCommitMessage: *string,
 	MergeCommitTitle: *string,
-	Pages: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositoryPages,
+	Pages: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositoryPages,
 	Private: interface{},
-	SecurityAndAnalysis: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysis,
+	SecurityAndAnalysis: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysis,
 	SourceOwner: *string,
 	SourceRepo: *string,
 	SquashMergeCommitMessage: *string,
 	SquashMergeCommitTitle: *string,
-	Template: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositoryTemplate,
+	Template: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositoryTemplate,
 	Topics: *[]*string,
 	Visibility: *string,
 	VulnerabilityAlerts: interface{},
@@ -1985,56 +1985,56 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.name">Name</a></code> | <code>*string</code> | The name of the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>interface{}</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>interface{}</code> | Set to 'false' to disable merge commits on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>interface{}</code> | Set to 'false' to disable rebase merges on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>interface{}</code> | Set to 'false' to disable squash merges on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>interface{}</code> | Set to 'true' to always suggest updating pull request branches. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.archived">Archived</a></code> | <code>interface{}</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.archiveOnDestroy">ArchiveOnDestroy</a></code> | <code>interface{}</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.autoInit">AutoInit</a></code> | <code>interface{}</code> | Set to 'true' to produce an initial commit in the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.defaultBranch">DefaultBranch</a></code> | <code>*string</code> | Can only be set after initial repository creation, and only if the target branch exists. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>interface{}</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.description">Description</a></code> | <code>*string</code> | A description of the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.etag">Etag</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#etag Repository#etag}. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.fork">Fork</a></code> | <code>*string</code> | Set to 'true' to fork an existing repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.gitignoreTemplate">GitignoreTemplate</a></code> | <code>*string</code> | Use the name of the template without the extension. For example, 'Haskell'. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.hasDiscussions">HasDiscussions</a></code> | <code>interface{}</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.hasDownloads">HasDownloads</a></code> | <code>interface{}</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.hasIssues">HasIssues</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.hasProjects">HasProjects</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.hasWiki">HasWiki</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.homepageUrl">HomepageUrl</a></code> | <code>*string</code> | URL of a page describing the project. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#id Repository#id}. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead">IgnoreVulnerabilityAlertsDuringRead</a></code> | <code>interface{}</code> | Set to true to not call the vulnerability alerts endpoint so the resource can also be used without admin permissions during read. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.isTemplate">IsTemplate</a></code> | <code>interface{}</code> | Set to 'true' to tell GitHub that this is a template repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.licenseTemplate">LicenseTemplate</a></code> | <code>*string</code> | Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.mergeCommitMessage">MergeCommitMessage</a></code> | <code>*string</code> | Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.mergeCommitTitle">MergeCommitTitle</a></code> | <code>*string</code> | Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.pages">Pages</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | pages block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.private">Private</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#private Repository#private}. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.securityAndAnalysis">SecurityAndAnalysis</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | security_and_analysis block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.sourceOwner">SourceOwner</a></code> | <code>*string</code> | The owner of the source repository to fork from. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.sourceRepo">SourceRepo</a></code> | <code>*string</code> | The name of the source repository to fork from. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.squashMergeCommitMessage">SquashMergeCommitMessage</a></code> | <code>*string</code> | Can be 'PR_BODY', 'COMMIT_MESSAGES', or 'BLANK' for a default squash merge commit message. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.squashMergeCommitTitle">SquashMergeCommitTitle</a></code> | <code>*string</code> | Can be 'PR_TITLE' or 'COMMIT_OR_PR_TITLE' for a default squash merge commit title. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.template">Template</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | template block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.topics">Topics</a></code> | <code>*[]*string</code> | The list of topics of the repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.visibility">Visibility</a></code> | <code>*string</code> | Can be 'public' or 'private'. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts">VulnerabilityAlerts</a></code> | <code>interface{}</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.name">Name</a></code> | <code>*string</code> | The name of the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>interface{}</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>interface{}</code> | Set to 'false' to disable merge commits on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>interface{}</code> | Set to 'false' to disable rebase merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>interface{}</code> | Set to 'false' to disable squash merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>interface{}</code> | Set to 'true' to always suggest updating pull request branches. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archived">Archived</a></code> | <code>interface{}</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archiveOnDestroy">ArchiveOnDestroy</a></code> | <code>interface{}</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.autoInit">AutoInit</a></code> | <code>interface{}</code> | Set to 'true' to produce an initial commit in the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.defaultBranch">DefaultBranch</a></code> | <code>*string</code> | Can only be set after initial repository creation, and only if the target branch exists. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>interface{}</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.description">Description</a></code> | <code>*string</code> | A description of the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.etag">Etag</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#etag Repository#etag}. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.fork">Fork</a></code> | <code>*string</code> | Set to 'true' to fork an existing repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.gitignoreTemplate">GitignoreTemplate</a></code> | <code>*string</code> | Use the name of the template without the extension. For example, 'Haskell'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDiscussions">HasDiscussions</a></code> | <code>interface{}</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDownloads">HasDownloads</a></code> | <code>interface{}</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasIssues">HasIssues</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasProjects">HasProjects</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasWiki">HasWiki</a></code> | <code>interface{}</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.homepageUrl">HomepageUrl</a></code> | <code>*string</code> | URL of a page describing the project. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#id Repository#id}. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead">IgnoreVulnerabilityAlertsDuringRead</a></code> | <code>interface{}</code> | Set to true to not call the vulnerability alerts endpoint so the resource can also be used without admin permissions during read. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.isTemplate">IsTemplate</a></code> | <code>interface{}</code> | Set to 'true' to tell GitHub that this is a template repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.licenseTemplate">LicenseTemplate</a></code> | <code>*string</code> | Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitMessage">MergeCommitMessage</a></code> | <code>*string</code> | Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitTitle">MergeCommitTitle</a></code> | <code>*string</code> | Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.pages">Pages</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | pages block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.private">Private</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#private Repository#private}. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.securityAndAnalysis">SecurityAndAnalysis</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | security_and_analysis block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.sourceOwner">SourceOwner</a></code> | <code>*string</code> | The owner of the source repository to fork from. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.sourceRepo">SourceRepo</a></code> | <code>*string</code> | The name of the source repository to fork from. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.squashMergeCommitMessage">SquashMergeCommitMessage</a></code> | <code>*string</code> | Can be 'PR_BODY', 'COMMIT_MESSAGES', or 'BLANK' for a default squash merge commit message. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.squashMergeCommitTitle">SquashMergeCommitTitle</a></code> | <code>*string</code> | Can be 'PR_TITLE' or 'COMMIT_OR_PR_TITLE' for a default squash merge commit title. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.template">Template</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | template block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.topics">Topics</a></code> | <code>*[]*string</code> | The list of topics of the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.visibility">Visibility</a></code> | <code>*string</code> | Can be 'public' or 'private'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts">VulnerabilityAlerts</a></code> | <code>interface{}</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.repository.RepositoryConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.repository.RepositoryConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -2044,7 +2044,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.repository.RepositoryConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.repository.RepositoryConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -2054,7 +2054,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.repository.RepositoryConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.repository.RepositoryConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -2064,7 +2064,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.repository.RepositoryConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.repository.RepositoryConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -2074,7 +2074,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.repository.RepositoryConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.repository.RepositoryConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -2084,7 +2084,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.repository.RepositoryConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.repository.RepositoryConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -2094,7 +2094,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.repository.RepositoryConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.repository.RepositoryConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -2104,7 +2104,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-github.repository.RepositoryConfig.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-github.repository.RepositoryConfig.property.name"></a>
 
 ```go
 Name *string
@@ -2114,11 +2114,11 @@ Name *string
 
 The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#name Repository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#name Repository#name}
 
 ---
 
-##### `AllowAutoMerge`<sup>Optional</sup> <a name="AllowAutoMerge" id="@cdktf/provider-github.repository.RepositoryConfig.property.allowAutoMerge"></a>
+##### `AllowAutoMerge`<sup>Optional</sup> <a name="AllowAutoMerge" id="@cdktn/provider-github.repository.RepositoryConfig.property.allowAutoMerge"></a>
 
 ```go
 AllowAutoMerge interface{}
@@ -2128,11 +2128,11 @@ AllowAutoMerge interface{}
 
 Set to 'true' to allow auto-merging pull requests on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#allow_auto_merge Repository#allow_auto_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_auto_merge Repository#allow_auto_merge}
 
 ---
 
-##### `AllowMergeCommit`<sup>Optional</sup> <a name="AllowMergeCommit" id="@cdktf/provider-github.repository.RepositoryConfig.property.allowMergeCommit"></a>
+##### `AllowMergeCommit`<sup>Optional</sup> <a name="AllowMergeCommit" id="@cdktn/provider-github.repository.RepositoryConfig.property.allowMergeCommit"></a>
 
 ```go
 AllowMergeCommit interface{}
@@ -2142,11 +2142,11 @@ AllowMergeCommit interface{}
 
 Set to 'false' to disable merge commits on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#allow_merge_commit Repository#allow_merge_commit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_merge_commit Repository#allow_merge_commit}
 
 ---
 
-##### `AllowRebaseMerge`<sup>Optional</sup> <a name="AllowRebaseMerge" id="@cdktf/provider-github.repository.RepositoryConfig.property.allowRebaseMerge"></a>
+##### `AllowRebaseMerge`<sup>Optional</sup> <a name="AllowRebaseMerge" id="@cdktn/provider-github.repository.RepositoryConfig.property.allowRebaseMerge"></a>
 
 ```go
 AllowRebaseMerge interface{}
@@ -2156,11 +2156,11 @@ AllowRebaseMerge interface{}
 
 Set to 'false' to disable rebase merges on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#allow_rebase_merge Repository#allow_rebase_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_rebase_merge Repository#allow_rebase_merge}
 
 ---
 
-##### `AllowSquashMerge`<sup>Optional</sup> <a name="AllowSquashMerge" id="@cdktf/provider-github.repository.RepositoryConfig.property.allowSquashMerge"></a>
+##### `AllowSquashMerge`<sup>Optional</sup> <a name="AllowSquashMerge" id="@cdktn/provider-github.repository.RepositoryConfig.property.allowSquashMerge"></a>
 
 ```go
 AllowSquashMerge interface{}
@@ -2170,11 +2170,11 @@ AllowSquashMerge interface{}
 
 Set to 'false' to disable squash merges on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#allow_squash_merge Repository#allow_squash_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_squash_merge Repository#allow_squash_merge}
 
 ---
 
-##### `AllowUpdateBranch`<sup>Optional</sup> <a name="AllowUpdateBranch" id="@cdktf/provider-github.repository.RepositoryConfig.property.allowUpdateBranch"></a>
+##### `AllowUpdateBranch`<sup>Optional</sup> <a name="AllowUpdateBranch" id="@cdktn/provider-github.repository.RepositoryConfig.property.allowUpdateBranch"></a>
 
 ```go
 AllowUpdateBranch interface{}
@@ -2184,11 +2184,11 @@ AllowUpdateBranch interface{}
 
 Set to 'true' to always suggest updating pull request branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#allow_update_branch Repository#allow_update_branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_update_branch Repository#allow_update_branch}
 
 ---
 
-##### `Archived`<sup>Optional</sup> <a name="Archived" id="@cdktf/provider-github.repository.RepositoryConfig.property.archived"></a>
+##### `Archived`<sup>Optional</sup> <a name="Archived" id="@cdktn/provider-github.repository.RepositoryConfig.property.archived"></a>
 
 ```go
 Archived interface{}
@@ -2198,11 +2198,11 @@ Archived interface{}
 
 Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#archived Repository#archived}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#archived Repository#archived}
 
 ---
 
-##### `ArchiveOnDestroy`<sup>Optional</sup> <a name="ArchiveOnDestroy" id="@cdktf/provider-github.repository.RepositoryConfig.property.archiveOnDestroy"></a>
+##### `ArchiveOnDestroy`<sup>Optional</sup> <a name="ArchiveOnDestroy" id="@cdktn/provider-github.repository.RepositoryConfig.property.archiveOnDestroy"></a>
 
 ```go
 ArchiveOnDestroy interface{}
@@ -2212,11 +2212,11 @@ ArchiveOnDestroy interface{}
 
 Set to 'true' to archive the repository instead of deleting on destroy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#archive_on_destroy Repository#archive_on_destroy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#archive_on_destroy Repository#archive_on_destroy}
 
 ---
 
-##### `AutoInit`<sup>Optional</sup> <a name="AutoInit" id="@cdktf/provider-github.repository.RepositoryConfig.property.autoInit"></a>
+##### `AutoInit`<sup>Optional</sup> <a name="AutoInit" id="@cdktn/provider-github.repository.RepositoryConfig.property.autoInit"></a>
 
 ```go
 AutoInit interface{}
@@ -2226,11 +2226,11 @@ AutoInit interface{}
 
 Set to 'true' to produce an initial commit in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#auto_init Repository#auto_init}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#auto_init Repository#auto_init}
 
 ---
 
-##### `DefaultBranch`<sup>Optional</sup> <a name="DefaultBranch" id="@cdktf/provider-github.repository.RepositoryConfig.property.defaultBranch"></a>
+##### `DefaultBranch`<sup>Optional</sup> <a name="DefaultBranch" id="@cdktn/provider-github.repository.RepositoryConfig.property.defaultBranch"></a>
 
 ```go
 DefaultBranch *string
@@ -2240,11 +2240,11 @@ DefaultBranch *string
 
 Can only be set after initial repository creation, and only if the target branch exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#default_branch Repository#default_branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#default_branch Repository#default_branch}
 
 ---
 
-##### `DeleteBranchOnMerge`<sup>Optional</sup> <a name="DeleteBranchOnMerge" id="@cdktf/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge"></a>
+##### `DeleteBranchOnMerge`<sup>Optional</sup> <a name="DeleteBranchOnMerge" id="@cdktn/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge"></a>
 
 ```go
 DeleteBranchOnMerge interface{}
@@ -2254,11 +2254,11 @@ DeleteBranchOnMerge interface{}
 
 Automatically delete head branch after a pull request is merged. Defaults to 'false'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#delete_branch_on_merge Repository#delete_branch_on_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#delete_branch_on_merge Repository#delete_branch_on_merge}
 
 ---
 
-##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktf/provider-github.repository.RepositoryConfig.property.description"></a>
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktn/provider-github.repository.RepositoryConfig.property.description"></a>
 
 ```go
 Description *string
@@ -2268,11 +2268,11 @@ Description *string
 
 A description of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#description Repository#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#description Repository#description}
 
 ---
 
-##### `Etag`<sup>Optional</sup> <a name="Etag" id="@cdktf/provider-github.repository.RepositoryConfig.property.etag"></a>
+##### `Etag`<sup>Optional</sup> <a name="Etag" id="@cdktn/provider-github.repository.RepositoryConfig.property.etag"></a>
 
 ```go
 Etag *string
@@ -2280,11 +2280,11 @@ Etag *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#etag Repository#etag}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#etag Repository#etag}.
 
 ---
 
-##### `Fork`<sup>Optional</sup> <a name="Fork" id="@cdktf/provider-github.repository.RepositoryConfig.property.fork"></a>
+##### `Fork`<sup>Optional</sup> <a name="Fork" id="@cdktn/provider-github.repository.RepositoryConfig.property.fork"></a>
 
 ```go
 Fork *string
@@ -2294,11 +2294,11 @@ Fork *string
 
 Set to 'true' to fork an existing repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#fork Repository#fork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#fork Repository#fork}
 
 ---
 
-##### `GitignoreTemplate`<sup>Optional</sup> <a name="GitignoreTemplate" id="@cdktf/provider-github.repository.RepositoryConfig.property.gitignoreTemplate"></a>
+##### `GitignoreTemplate`<sup>Optional</sup> <a name="GitignoreTemplate" id="@cdktn/provider-github.repository.RepositoryConfig.property.gitignoreTemplate"></a>
 
 ```go
 GitignoreTemplate *string
@@ -2308,11 +2308,11 @@ GitignoreTemplate *string
 
 Use the name of the template without the extension. For example, 'Haskell'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#gitignore_template Repository#gitignore_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#gitignore_template Repository#gitignore_template}
 
 ---
 
-##### `HasDiscussions`<sup>Optional</sup> <a name="HasDiscussions" id="@cdktf/provider-github.repository.RepositoryConfig.property.hasDiscussions"></a>
+##### `HasDiscussions`<sup>Optional</sup> <a name="HasDiscussions" id="@cdktn/provider-github.repository.RepositoryConfig.property.hasDiscussions"></a>
 
 ```go
 HasDiscussions interface{}
@@ -2322,11 +2322,11 @@ HasDiscussions interface{}
 
 Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#has_discussions Repository#has_discussions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_discussions Repository#has_discussions}
 
 ---
 
-##### `HasDownloads`<sup>Optional</sup> <a name="HasDownloads" id="@cdktf/provider-github.repository.RepositoryConfig.property.hasDownloads"></a>
+##### `HasDownloads`<sup>Optional</sup> <a name="HasDownloads" id="@cdktn/provider-github.repository.RepositoryConfig.property.hasDownloads"></a>
 
 ```go
 HasDownloads interface{}
@@ -2336,11 +2336,11 @@ HasDownloads interface{}
 
 Set to 'true' to enable the (deprecated) downloads features on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#has_downloads Repository#has_downloads}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_downloads Repository#has_downloads}
 
 ---
 
-##### `HasIssues`<sup>Optional</sup> <a name="HasIssues" id="@cdktf/provider-github.repository.RepositoryConfig.property.hasIssues"></a>
+##### `HasIssues`<sup>Optional</sup> <a name="HasIssues" id="@cdktn/provider-github.repository.RepositoryConfig.property.hasIssues"></a>
 
 ```go
 HasIssues interface{}
@@ -2350,11 +2350,11 @@ HasIssues interface{}
 
 Set to 'true' to enable the GitHub Issues features on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#has_issues Repository#has_issues}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_issues Repository#has_issues}
 
 ---
 
-##### `HasProjects`<sup>Optional</sup> <a name="HasProjects" id="@cdktf/provider-github.repository.RepositoryConfig.property.hasProjects"></a>
+##### `HasProjects`<sup>Optional</sup> <a name="HasProjects" id="@cdktn/provider-github.repository.RepositoryConfig.property.hasProjects"></a>
 
 ```go
 HasProjects interface{}
@@ -2366,11 +2366,11 @@ Set to 'true' to enable the GitHub Projects features on the repository.
 
 Per the GitHub documentation when in an organization that has disabled repository projects it will default to 'false' and will otherwise default to 'true'. If you specify 'true' when it has been disabled it will return an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#has_projects Repository#has_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_projects Repository#has_projects}
 
 ---
 
-##### `HasWiki`<sup>Optional</sup> <a name="HasWiki" id="@cdktf/provider-github.repository.RepositoryConfig.property.hasWiki"></a>
+##### `HasWiki`<sup>Optional</sup> <a name="HasWiki" id="@cdktn/provider-github.repository.RepositoryConfig.property.hasWiki"></a>
 
 ```go
 HasWiki interface{}
@@ -2380,11 +2380,11 @@ HasWiki interface{}
 
 Set to 'true' to enable the GitHub Wiki features on the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#has_wiki Repository#has_wiki}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_wiki Repository#has_wiki}
 
 ---
 
-##### `HomepageUrl`<sup>Optional</sup> <a name="HomepageUrl" id="@cdktf/provider-github.repository.RepositoryConfig.property.homepageUrl"></a>
+##### `HomepageUrl`<sup>Optional</sup> <a name="HomepageUrl" id="@cdktn/provider-github.repository.RepositoryConfig.property.homepageUrl"></a>
 
 ```go
 HomepageUrl *string
@@ -2394,11 +2394,11 @@ HomepageUrl *string
 
 URL of a page describing the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#homepage_url Repository#homepage_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#homepage_url Repository#homepage_url}
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.repository.RepositoryConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.repository.RepositoryConfig.property.id"></a>
 
 ```go
 Id *string
@@ -2406,14 +2406,14 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#id Repository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#id Repository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `IgnoreVulnerabilityAlertsDuringRead`<sup>Optional</sup> <a name="IgnoreVulnerabilityAlertsDuringRead" id="@cdktf/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead"></a>
+##### `IgnoreVulnerabilityAlertsDuringRead`<sup>Optional</sup> <a name="IgnoreVulnerabilityAlertsDuringRead" id="@cdktn/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead"></a>
 
 ```go
 IgnoreVulnerabilityAlertsDuringRead interface{}
@@ -2423,11 +2423,11 @@ IgnoreVulnerabilityAlertsDuringRead interface{}
 
 Set to true to not call the vulnerability alerts endpoint so the resource can also be used without admin permissions during read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}
 
 ---
 
-##### `IsTemplate`<sup>Optional</sup> <a name="IsTemplate" id="@cdktf/provider-github.repository.RepositoryConfig.property.isTemplate"></a>
+##### `IsTemplate`<sup>Optional</sup> <a name="IsTemplate" id="@cdktn/provider-github.repository.RepositoryConfig.property.isTemplate"></a>
 
 ```go
 IsTemplate interface{}
@@ -2437,11 +2437,11 @@ IsTemplate interface{}
 
 Set to 'true' to tell GitHub that this is a template repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#is_template Repository#is_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#is_template Repository#is_template}
 
 ---
 
-##### `LicenseTemplate`<sup>Optional</sup> <a name="LicenseTemplate" id="@cdktf/provider-github.repository.RepositoryConfig.property.licenseTemplate"></a>
+##### `LicenseTemplate`<sup>Optional</sup> <a name="LicenseTemplate" id="@cdktn/provider-github.repository.RepositoryConfig.property.licenseTemplate"></a>
 
 ```go
 LicenseTemplate *string
@@ -2451,11 +2451,11 @@ LicenseTemplate *string
 
 Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#license_template Repository#license_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#license_template Repository#license_template}
 
 ---
 
-##### `MergeCommitMessage`<sup>Optional</sup> <a name="MergeCommitMessage" id="@cdktf/provider-github.repository.RepositoryConfig.property.mergeCommitMessage"></a>
+##### `MergeCommitMessage`<sup>Optional</sup> <a name="MergeCommitMessage" id="@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitMessage"></a>
 
 ```go
 MergeCommitMessage *string
@@ -2465,11 +2465,11 @@ MergeCommitMessage *string
 
 Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#merge_commit_message Repository#merge_commit_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#merge_commit_message Repository#merge_commit_message}
 
 ---
 
-##### `MergeCommitTitle`<sup>Optional</sup> <a name="MergeCommitTitle" id="@cdktf/provider-github.repository.RepositoryConfig.property.mergeCommitTitle"></a>
+##### `MergeCommitTitle`<sup>Optional</sup> <a name="MergeCommitTitle" id="@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitTitle"></a>
 
 ```go
 MergeCommitTitle *string
@@ -2479,25 +2479,25 @@ MergeCommitTitle *string
 
 Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#merge_commit_title Repository#merge_commit_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#merge_commit_title Repository#merge_commit_title}
 
 ---
 
-##### `Pages`<sup>Optional</sup> <a name="Pages" id="@cdktf/provider-github.repository.RepositoryConfig.property.pages"></a>
+##### `Pages`<sup>Optional</sup> <a name="Pages" id="@cdktn/provider-github.repository.RepositoryConfig.property.pages"></a>
 
 ```go
 Pages RepositoryPages
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a>
 
 pages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#pages Repository#pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#pages Repository#pages}
 
 ---
 
-##### `Private`<sup>Optional</sup> <a name="Private" id="@cdktf/provider-github.repository.RepositoryConfig.property.private"></a>
+##### `Private`<sup>Optional</sup> <a name="Private" id="@cdktn/provider-github.repository.RepositoryConfig.property.private"></a>
 
 ```go
 Private interface{}
@@ -2505,25 +2505,25 @@ Private interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#private Repository#private}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#private Repository#private}.
 
 ---
 
-##### `SecurityAndAnalysis`<sup>Optional</sup> <a name="SecurityAndAnalysis" id="@cdktf/provider-github.repository.RepositoryConfig.property.securityAndAnalysis"></a>
+##### `SecurityAndAnalysis`<sup>Optional</sup> <a name="SecurityAndAnalysis" id="@cdktn/provider-github.repository.RepositoryConfig.property.securityAndAnalysis"></a>
 
 ```go
 SecurityAndAnalysis RepositorySecurityAndAnalysis
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
 
 security_and_analysis block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#security_and_analysis Repository#security_and_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#security_and_analysis Repository#security_and_analysis}
 
 ---
 
-##### `SourceOwner`<sup>Optional</sup> <a name="SourceOwner" id="@cdktf/provider-github.repository.RepositoryConfig.property.sourceOwner"></a>
+##### `SourceOwner`<sup>Optional</sup> <a name="SourceOwner" id="@cdktn/provider-github.repository.RepositoryConfig.property.sourceOwner"></a>
 
 ```go
 SourceOwner *string
@@ -2533,11 +2533,11 @@ SourceOwner *string
 
 The owner of the source repository to fork from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#source_owner Repository#source_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source_owner Repository#source_owner}
 
 ---
 
-##### `SourceRepo`<sup>Optional</sup> <a name="SourceRepo" id="@cdktf/provider-github.repository.RepositoryConfig.property.sourceRepo"></a>
+##### `SourceRepo`<sup>Optional</sup> <a name="SourceRepo" id="@cdktn/provider-github.repository.RepositoryConfig.property.sourceRepo"></a>
 
 ```go
 SourceRepo *string
@@ -2547,11 +2547,11 @@ SourceRepo *string
 
 The name of the source repository to fork from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#source_repo Repository#source_repo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source_repo Repository#source_repo}
 
 ---
 
-##### `SquashMergeCommitMessage`<sup>Optional</sup> <a name="SquashMergeCommitMessage" id="@cdktf/provider-github.repository.RepositoryConfig.property.squashMergeCommitMessage"></a>
+##### `SquashMergeCommitMessage`<sup>Optional</sup> <a name="SquashMergeCommitMessage" id="@cdktn/provider-github.repository.RepositoryConfig.property.squashMergeCommitMessage"></a>
 
 ```go
 SquashMergeCommitMessage *string
@@ -2561,11 +2561,11 @@ SquashMergeCommitMessage *string
 
 Can be 'PR_BODY', 'COMMIT_MESSAGES', or 'BLANK' for a default squash merge commit message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#squash_merge_commit_message Repository#squash_merge_commit_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#squash_merge_commit_message Repository#squash_merge_commit_message}
 
 ---
 
-##### `SquashMergeCommitTitle`<sup>Optional</sup> <a name="SquashMergeCommitTitle" id="@cdktf/provider-github.repository.RepositoryConfig.property.squashMergeCommitTitle"></a>
+##### `SquashMergeCommitTitle`<sup>Optional</sup> <a name="SquashMergeCommitTitle" id="@cdktn/provider-github.repository.RepositoryConfig.property.squashMergeCommitTitle"></a>
 
 ```go
 SquashMergeCommitTitle *string
@@ -2575,25 +2575,25 @@ SquashMergeCommitTitle *string
 
 Can be 'PR_TITLE' or 'COMMIT_OR_PR_TITLE' for a default squash merge commit title.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#squash_merge_commit_title Repository#squash_merge_commit_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#squash_merge_commit_title Repository#squash_merge_commit_title}
 
 ---
 
-##### `Template`<sup>Optional</sup> <a name="Template" id="@cdktf/provider-github.repository.RepositoryConfig.property.template"></a>
+##### `Template`<sup>Optional</sup> <a name="Template" id="@cdktn/provider-github.repository.RepositoryConfig.property.template"></a>
 
 ```go
 Template RepositoryTemplate
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
 
 template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#template Repository#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#template Repository#template}
 
 ---
 
-##### `Topics`<sup>Optional</sup> <a name="Topics" id="@cdktf/provider-github.repository.RepositoryConfig.property.topics"></a>
+##### `Topics`<sup>Optional</sup> <a name="Topics" id="@cdktn/provider-github.repository.RepositoryConfig.property.topics"></a>
 
 ```go
 Topics *[]*string
@@ -2603,11 +2603,11 @@ Topics *[]*string
 
 The list of topics of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#topics Repository#topics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#topics Repository#topics}
 
 ---
 
-##### `Visibility`<sup>Optional</sup> <a name="Visibility" id="@cdktf/provider-github.repository.RepositoryConfig.property.visibility"></a>
+##### `Visibility`<sup>Optional</sup> <a name="Visibility" id="@cdktn/provider-github.repository.RepositoryConfig.property.visibility"></a>
 
 ```go
 Visibility *string
@@ -2619,11 +2619,11 @@ Can be 'public' or 'private'.
 
 If your organization is associated with an enterprise account using GitHub Enterprise Cloud or GitHub Enterprise Server 2.20+, visibility can also be 'internal'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#visibility Repository#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#visibility Repository#visibility}
 
 ---
 
-##### `VulnerabilityAlerts`<sup>Optional</sup> <a name="VulnerabilityAlerts" id="@cdktf/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts"></a>
+##### `VulnerabilityAlerts`<sup>Optional</sup> <a name="VulnerabilityAlerts" id="@cdktn/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts"></a>
 
 ```go
 VulnerabilityAlerts interface{}
@@ -2633,13 +2633,13 @@ VulnerabilityAlerts interface{}
 
 Set to 'true' to enable security alerts for vulnerable dependencies.
 
-Enabling requires alerts to be enabled on the owner level. (Note for importing: GitHub enables the alerts on public repos but disables them on private repos by default). Note that vulnerability alerts have not been successfully tested on any GitHub Enterprise instance and may be unavailable in those settings.
+Enabling requires alerts to be enabled on the owner level. (Note for importing: GitHub enables the alerts on all repos by default). Note that vulnerability alerts have not been successfully tested on any GitHub Enterprise instance and may be unavailable in those settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#vulnerability_alerts Repository#vulnerability_alerts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#vulnerability_alerts Repository#vulnerability_alerts}
 
 ---
 
-##### `WebCommitSignoffRequired`<sup>Optional</sup> <a name="WebCommitSignoffRequired" id="@cdktf/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired"></a>
+##### `WebCommitSignoffRequired`<sup>Optional</sup> <a name="WebCommitSignoffRequired" id="@cdktn/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired"></a>
 
 ```go
 WebCommitSignoffRequired interface{}
@@ -2649,21 +2649,21 @@ WebCommitSignoffRequired interface{}
 
 Require contributors to sign off on web-based commits. Defaults to 'false'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#web_commit_signoff_required Repository#web_commit_signoff_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#web_commit_signoff_required Repository#web_commit_signoff_required}
 
 ---
 
-### RepositoryPages <a name="RepositoryPages" id="@cdktf/provider-github.repository.RepositoryPages"></a>
+### RepositoryPages <a name="RepositoryPages" id="@cdktn/provider-github.repository.RepositoryPages"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositoryPages.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositoryPages.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositoryPages {
 	BuildType: *string,
 	Cname: *string,
-	Source: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositoryPagesSource,
+	Source: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositoryPagesSource,
 }
 ```
 
@@ -2671,13 +2671,13 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPages.property.buildType">BuildType</a></code> | <code>*string</code> | The type the page should be sourced. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPages.property.cname">Cname</a></code> | <code>*string</code> | The custom domain for the repository. This can only be set after the repository has been created. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPages.property.source">Source</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | source block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPages.property.buildType">BuildType</a></code> | <code>*string</code> | The type the page should be sourced. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPages.property.cname">Cname</a></code> | <code>*string</code> | The custom domain for the repository. This can only be set after the repository has been created. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPages.property.source">Source</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | source block. |
 
 ---
 
-##### `BuildType`<sup>Optional</sup> <a name="BuildType" id="@cdktf/provider-github.repository.RepositoryPages.property.buildType"></a>
+##### `BuildType`<sup>Optional</sup> <a name="BuildType" id="@cdktn/provider-github.repository.RepositoryPages.property.buildType"></a>
 
 ```go
 BuildType *string
@@ -2687,11 +2687,11 @@ BuildType *string
 
 The type the page should be sourced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#build_type Repository#build_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#build_type Repository#build_type}
 
 ---
 
-##### `Cname`<sup>Optional</sup> <a name="Cname" id="@cdktf/provider-github.repository.RepositoryPages.property.cname"></a>
+##### `Cname`<sup>Optional</sup> <a name="Cname" id="@cdktn/provider-github.repository.RepositoryPages.property.cname"></a>
 
 ```go
 Cname *string
@@ -2701,30 +2701,30 @@ Cname *string
 
 The custom domain for the repository. This can only be set after the repository has been created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#cname Repository#cname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#cname Repository#cname}
 
 ---
 
-##### `Source`<sup>Optional</sup> <a name="Source" id="@cdktf/provider-github.repository.RepositoryPages.property.source"></a>
+##### `Source`<sup>Optional</sup> <a name="Source" id="@cdktn/provider-github.repository.RepositoryPages.property.source"></a>
 
 ```go
 Source RepositoryPagesSource
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#source Repository#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source Repository#source}
 
 ---
 
-### RepositoryPagesSource <a name="RepositoryPagesSource" id="@cdktf/provider-github.repository.RepositoryPagesSource"></a>
+### RepositoryPagesSource <a name="RepositoryPagesSource" id="@cdktn/provider-github.repository.RepositoryPagesSource"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositoryPagesSource.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositoryPagesSource.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositoryPagesSource {
 	Branch: *string,
@@ -2736,12 +2736,12 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSource.property.branch">Branch</a></code> | <code>*string</code> | The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages'). |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSource.property.path">Path</a></code> | <code>*string</code> | The repository directory from which the site publishes (Default: '/'). |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSource.property.branch">Branch</a></code> | <code>*string</code> | The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages'). |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSource.property.path">Path</a></code> | <code>*string</code> | The repository directory from which the site publishes (Default: '/'). |
 
 ---
 
-##### `Branch`<sup>Required</sup> <a name="Branch" id="@cdktf/provider-github.repository.RepositoryPagesSource.property.branch"></a>
+##### `Branch`<sup>Required</sup> <a name="Branch" id="@cdktn/provider-github.repository.RepositoryPagesSource.property.branch"></a>
 
 ```go
 Branch *string
@@ -2751,11 +2751,11 @@ Branch *string
 
 The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#branch Repository#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#branch Repository#branch}
 
 ---
 
-##### `Path`<sup>Optional</sup> <a name="Path" id="@cdktf/provider-github.repository.RepositoryPagesSource.property.path"></a>
+##### `Path`<sup>Optional</sup> <a name="Path" id="@cdktn/provider-github.repository.RepositoryPagesSource.property.path"></a>
 
 ```go
 Path *string
@@ -2765,24 +2765,24 @@ Path *string
 
 The repository directory from which the site publishes (Default: '/').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#path Repository#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#path Repository#path}
 
 ---
 
-### RepositorySecurityAndAnalysis <a name="RepositorySecurityAndAnalysis" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis"></a>
+### RepositorySecurityAndAnalysis <a name="RepositorySecurityAndAnalysis" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysis {
-	AdvancedSecurity: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisAdvancedSecurity,
-	CodeSecurity: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisCodeSecurity,
-	SecretScanning: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanning,
-	SecretScanningAiDetection: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection,
-	SecretScanningNonProviderPatterns: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns,
-	SecretScanningPushProtection: github.com/cdktf/cdktf-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection,
+	AdvancedSecurity: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisAdvancedSecurity,
+	CodeSecurity: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisCodeSecurity,
+	SecretScanning: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanning,
+	SecretScanningAiDetection: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection,
+	SecretScanningNonProviderPatterns: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns,
+	SecretScanningPushProtection: github.com/cdktn-io/cdktn-provider-github-go/github/v15.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection,
 }
 ```
 
@@ -2790,105 +2790,105 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.advancedSecurity">AdvancedSecurity</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | advanced_security block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.codeSecurity">CodeSecurity</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | code_security block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanning">SecretScanning</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | secret_scanning block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningAiDetection">SecretScanningAiDetection</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | secret_scanning_ai_detection block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningNonProviderPatterns">SecretScanningNonProviderPatterns</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | secret_scanning_non_provider_patterns block. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningPushProtection">SecretScanningPushProtection</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | secret_scanning_push_protection block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.advancedSecurity">AdvancedSecurity</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | advanced_security block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.codeSecurity">CodeSecurity</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | code_security block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanning">SecretScanning</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | secret_scanning block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningAiDetection">SecretScanningAiDetection</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | secret_scanning_ai_detection block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningNonProviderPatterns">SecretScanningNonProviderPatterns</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | secret_scanning_non_provider_patterns block. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningPushProtection">SecretScanningPushProtection</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | secret_scanning_push_protection block. |
 
 ---
 
-##### `AdvancedSecurity`<sup>Optional</sup> <a name="AdvancedSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.advancedSecurity"></a>
+##### `AdvancedSecurity`<sup>Optional</sup> <a name="AdvancedSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.advancedSecurity"></a>
 
 ```go
 AdvancedSecurity RepositorySecurityAndAnalysisAdvancedSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
 
 advanced_security block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#advanced_security Repository#advanced_security}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#advanced_security Repository#advanced_security}
 
 ---
 
-##### `CodeSecurity`<sup>Optional</sup> <a name="CodeSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.codeSecurity"></a>
+##### `CodeSecurity`<sup>Optional</sup> <a name="CodeSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.codeSecurity"></a>
 
 ```go
 CodeSecurity RepositorySecurityAndAnalysisCodeSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
 
 code_security block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#code_security Repository#code_security}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#code_security Repository#code_security}
 
 ---
 
-##### `SecretScanning`<sup>Optional</sup> <a name="SecretScanning" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanning"></a>
+##### `SecretScanning`<sup>Optional</sup> <a name="SecretScanning" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanning"></a>
 
 ```go
 SecretScanning RepositorySecurityAndAnalysisSecretScanning
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
 
 secret_scanning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#secret_scanning Repository#secret_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning Repository#secret_scanning}
 
 ---
 
-##### `SecretScanningAiDetection`<sup>Optional</sup> <a name="SecretScanningAiDetection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningAiDetection"></a>
+##### `SecretScanningAiDetection`<sup>Optional</sup> <a name="SecretScanningAiDetection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningAiDetection"></a>
 
 ```go
 SecretScanningAiDetection RepositorySecurityAndAnalysisSecretScanningAiDetection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
 
 secret_scanning_ai_detection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#secret_scanning_ai_detection Repository#secret_scanning_ai_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_ai_detection Repository#secret_scanning_ai_detection}
 
 ---
 
-##### `SecretScanningNonProviderPatterns`<sup>Optional</sup> <a name="SecretScanningNonProviderPatterns" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningNonProviderPatterns"></a>
+##### `SecretScanningNonProviderPatterns`<sup>Optional</sup> <a name="SecretScanningNonProviderPatterns" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningNonProviderPatterns"></a>
 
 ```go
 SecretScanningNonProviderPatterns RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
 
 secret_scanning_non_provider_patterns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#secret_scanning_non_provider_patterns Repository#secret_scanning_non_provider_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_non_provider_patterns Repository#secret_scanning_non_provider_patterns}
 
 ---
 
-##### `SecretScanningPushProtection`<sup>Optional</sup> <a name="SecretScanningPushProtection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningPushProtection"></a>
+##### `SecretScanningPushProtection`<sup>Optional</sup> <a name="SecretScanningPushProtection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysis.property.secretScanningPushProtection"></a>
 
 ```go
 SecretScanningPushProtection RepositorySecurityAndAnalysisSecretScanningPushProtection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
 
 secret_scanning_push_protection block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#secret_scanning_push_protection Repository#secret_scanning_push_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_push_protection Repository#secret_scanning_push_protection}
 
 ---
 
-### RepositorySecurityAndAnalysisAdvancedSecurity <a name="RepositorySecurityAndAnalysisAdvancedSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity"></a>
+### RepositorySecurityAndAnalysisAdvancedSecurity <a name="RepositorySecurityAndAnalysisAdvancedSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisAdvancedSecurity {
 	Status: *string,
@@ -2899,11 +2899,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable advanced security features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable advanced security features on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity.property.status"></a>
 
 ```go
 Status *string
@@ -2915,16 +2915,16 @@ Set to 'enabled' to enable advanced security features on the repository.
 
 Can be 'enabled' or 'disabled', This value being present when split licensing is enabled will error out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositorySecurityAndAnalysisCodeSecurity <a name="RepositorySecurityAndAnalysisCodeSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity"></a>
+### RepositorySecurityAndAnalysisCodeSecurity <a name="RepositorySecurityAndAnalysisCodeSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisCodeSecurity {
 	Status: *string,
@@ -2935,11 +2935,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable code security on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable code security on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity.property.status"></a>
 
 ```go
 Status *string
@@ -2951,16 +2951,16 @@ Set to 'enabled' to enable code security on the repository.
 
 Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositorySecurityAndAnalysisSecretScanning <a name="RepositorySecurityAndAnalysisSecretScanning" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning"></a>
+### RepositorySecurityAndAnalysisSecretScanning <a name="RepositorySecurityAndAnalysisSecretScanning" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisSecretScanning {
 	Status: *string,
@@ -2971,11 +2971,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning.property.status"></a>
 
 ```go
 Status *string
@@ -2987,16 +2987,16 @@ Set to 'enabled' to enable secret scanning on the repository.
 
 Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositorySecurityAndAnalysisSecretScanningAiDetection <a name="RepositorySecurityAndAnalysisSecretScanningAiDetection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection"></a>
+### RepositorySecurityAndAnalysisSecretScanningAiDetection <a name="RepositorySecurityAndAnalysisSecretScanningAiDetection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisSecretScanningAiDetection {
 	Status: *string,
@@ -3007,11 +3007,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning AI detection on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning AI detection on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection.property.status"></a>
 
 ```go
 Status *string
@@ -3023,16 +3023,16 @@ Set to 'enabled' to enable secret scanning AI detection on the repository.
 
 Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns <a name="RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns"></a>
+### RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns <a name="RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns {
 	Status: *string,
@@ -3043,11 +3043,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning non-provider patterns on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning non-provider patterns on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns.property.status"></a>
 
 ```go
 Status *string
@@ -3059,16 +3059,16 @@ Set to 'enabled' to enable secret scanning non-provider patterns on the reposito
 
 Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositorySecurityAndAnalysisSecretScanningPushProtection <a name="RepositorySecurityAndAnalysisSecretScanningPushProtection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection"></a>
+### RepositorySecurityAndAnalysisSecretScanningPushProtection <a name="RepositorySecurityAndAnalysisSecretScanningPushProtection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositorySecurityAndAnalysisSecretScanningPushProtection {
 	Status: *string,
@@ -3079,11 +3079,11 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning push protection on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.property.status">Status</a></code> | <code>*string</code> | Set to 'enabled' to enable secret scanning push protection on the repository. |
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection.property.status"></a>
 
 ```go
 Status *string
@@ -3095,16 +3095,16 @@ Set to 'enabled' to enable secret scanning push protection on the repository.
 
 Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#status Repository#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
 
 ---
 
-### RepositoryTemplate <a name="RepositoryTemplate" id="@cdktf/provider-github.repository.RepositoryTemplate"></a>
+### RepositoryTemplate <a name="RepositoryTemplate" id="@cdktn/provider-github.repository.RepositoryTemplate"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repository.RepositoryTemplate.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repository.RepositoryTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 &repository.RepositoryTemplate {
 	Owner: *string,
@@ -3117,13 +3117,13 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate.property.owner">Owner</a></code> | <code>*string</code> | The GitHub organization or user the template repository is owned by. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate.property.repository">Repository</a></code> | <code>*string</code> | The name of the template repository. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate.property.includeAllBranches">IncludeAllBranches</a></code> | <code>interface{}</code> | Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template). |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.owner">Owner</a></code> | <code>*string</code> | The GitHub organization or user the template repository is owned by. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.repository">Repository</a></code> | <code>*string</code> | The name of the template repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.includeAllBranches">IncludeAllBranches</a></code> | <code>interface{}</code> | Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template). |
 
 ---
 
-##### `Owner`<sup>Required</sup> <a name="Owner" id="@cdktf/provider-github.repository.RepositoryTemplate.property.owner"></a>
+##### `Owner`<sup>Required</sup> <a name="Owner" id="@cdktn/provider-github.repository.RepositoryTemplate.property.owner"></a>
 
 ```go
 Owner *string
@@ -3133,11 +3133,11 @@ Owner *string
 
 The GitHub organization or user the template repository is owned by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#owner Repository#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#owner Repository#owner}
 
 ---
 
-##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktf/provider-github.repository.RepositoryTemplate.property.repository"></a>
+##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktn/provider-github.repository.RepositoryTemplate.property.repository"></a>
 
 ```go
 Repository *string
@@ -3147,11 +3147,11 @@ Repository *string
 
 The name of the template repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#repository Repository#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#repository Repository#repository}
 
 ---
 
-##### `IncludeAllBranches`<sup>Optional</sup> <a name="IncludeAllBranches" id="@cdktf/provider-github.repository.RepositoryTemplate.property.includeAllBranches"></a>
+##### `IncludeAllBranches`<sup>Optional</sup> <a name="IncludeAllBranches" id="@cdktn/provider-github.repository.RepositoryTemplate.property.includeAllBranches"></a>
 
 ```go
 IncludeAllBranches interface{}
@@ -3161,30 +3161,30 @@ IncludeAllBranches interface{}
 
 Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository#include_all_branches Repository#include_all_branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#include_all_branches Repository#include_all_branches}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### RepositoryPagesOutputReference <a name="RepositoryPagesOutputReference" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference"></a>
+### RepositoryPagesOutputReference <a name="RepositoryPagesOutputReference" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositoryPagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryPagesOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -3192,7 +3192,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -3204,153 +3204,153 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.putSource">PutSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetBuildType">ResetBuildType</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetCname">ResetCname</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetSource">ResetSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.putSource">PutSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetBuildType">ResetBuildType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetCname">ResetCname</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetSource">ResetSource</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -3358,13 +3358,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -3374,31 +3374,31 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `PutSource` <a name="PutSource" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.putSource"></a>
+##### `PutSource` <a name="PutSource" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.putSource"></a>
 
 ```go
 func PutSource(value RepositoryPagesSource)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.putSource.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.putSource.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
 
 ---
 
-##### `ResetBuildType` <a name="ResetBuildType" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetBuildType"></a>
+##### `ResetBuildType` <a name="ResetBuildType" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetBuildType"></a>
 
 ```go
 func ResetBuildType()
 ```
 
-##### `ResetCname` <a name="ResetCname" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetCname"></a>
+##### `ResetCname` <a name="ResetCname" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetCname"></a>
 
 ```go
 func ResetCname()
 ```
 
-##### `ResetSource` <a name="ResetSource" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.resetSource"></a>
+##### `ResetSource` <a name="ResetSource" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resetSource"></a>
 
 ```go
 func ResetSource()
@@ -3409,23 +3409,23 @@ func ResetSource()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.custom404">Custom404</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.source">Source</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference">RepositoryPagesSourceOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.url">Url</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.buildTypeInput">BuildTypeInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.cnameInput">CnameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.sourceInput">SourceInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.buildType">BuildType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.cname">Cname</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.custom404">Custom404</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.source">Source</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference">RepositoryPagesSourceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.url">Url</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.buildTypeInput">BuildTypeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.cnameInput">CnameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.sourceInput">SourceInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.buildType">BuildType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.cname">Cname</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -3439,7 +3439,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -3449,7 +3449,7 @@ func Fqn() *string
 
 ---
 
-##### `Custom404`<sup>Required</sup> <a name="Custom404" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.custom404"></a>
+##### `Custom404`<sup>Required</sup> <a name="Custom404" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.custom404"></a>
 
 ```go
 func Custom404() IResolvable
@@ -3459,7 +3459,7 @@ func Custom404() IResolvable
 
 ---
 
-##### `HtmlUrl`<sup>Required</sup> <a name="HtmlUrl" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.htmlUrl"></a>
+##### `HtmlUrl`<sup>Required</sup> <a name="HtmlUrl" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.htmlUrl"></a>
 
 ```go
 func HtmlUrl() *string
@@ -3469,17 +3469,17 @@ func HtmlUrl() *string
 
 ---
 
-##### `Source`<sup>Required</sup> <a name="Source" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.source"></a>
+##### `Source`<sup>Required</sup> <a name="Source" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.source"></a>
 
 ```go
 func Source() RepositoryPagesSourceOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference">RepositoryPagesSourceOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference">RepositoryPagesSourceOutputReference</a>
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -3489,7 +3489,7 @@ func Status() *string
 
 ---
 
-##### `Url`<sup>Required</sup> <a name="Url" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.url"></a>
+##### `Url`<sup>Required</sup> <a name="Url" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.url"></a>
 
 ```go
 func Url() *string
@@ -3499,7 +3499,7 @@ func Url() *string
 
 ---
 
-##### `BuildTypeInput`<sup>Optional</sup> <a name="BuildTypeInput" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.buildTypeInput"></a>
+##### `BuildTypeInput`<sup>Optional</sup> <a name="BuildTypeInput" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.buildTypeInput"></a>
 
 ```go
 func BuildTypeInput() *string
@@ -3509,7 +3509,7 @@ func BuildTypeInput() *string
 
 ---
 
-##### `CnameInput`<sup>Optional</sup> <a name="CnameInput" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.cnameInput"></a>
+##### `CnameInput`<sup>Optional</sup> <a name="CnameInput" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.cnameInput"></a>
 
 ```go
 func CnameInput() *string
@@ -3519,17 +3519,17 @@ func CnameInput() *string
 
 ---
 
-##### `SourceInput`<sup>Optional</sup> <a name="SourceInput" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.sourceInput"></a>
+##### `SourceInput`<sup>Optional</sup> <a name="SourceInput" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.sourceInput"></a>
 
 ```go
 func SourceInput() RepositoryPagesSource
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
 
 ---
 
-##### `BuildType`<sup>Required</sup> <a name="BuildType" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.buildType"></a>
+##### `BuildType`<sup>Required</sup> <a name="BuildType" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.buildType"></a>
 
 ```go
 func BuildType() *string
@@ -3539,7 +3539,7 @@ func BuildType() *string
 
 ---
 
-##### `Cname`<sup>Required</sup> <a name="Cname" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.cname"></a>
+##### `Cname`<sup>Required</sup> <a name="Cname" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.cname"></a>
 
 ```go
 func Cname() *string
@@ -3549,35 +3549,35 @@ func Cname() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositoryPagesOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositoryPages
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPages">RepositoryPages</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a>
 
 ---
 
 
-### RepositoryPagesSourceOutputReference <a name="RepositoryPagesSourceOutputReference" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference"></a>
+### RepositoryPagesSourceOutputReference <a name="RepositoryPagesSourceOutputReference" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositoryPagesSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryPagesSourceOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -3585,7 +3585,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -3597,150 +3597,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.resetPath">ResetPath</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resetPath">ResetPath</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -3748,13 +3748,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -3764,7 +3764,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetPath` <a name="ResetPath" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.resetPath"></a>
+##### `ResetPath` <a name="ResetPath" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resetPath"></a>
 
 ```go
 func ResetPath()
@@ -3775,17 +3775,17 @@ func ResetPath()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.branchInput">BranchInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.pathInput">PathInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.branch">Branch</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.path">Path</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.branchInput">BranchInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.pathInput">PathInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.branch">Branch</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.path">Path</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -3799,7 +3799,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -3809,7 +3809,7 @@ func Fqn() *string
 
 ---
 
-##### `BranchInput`<sup>Optional</sup> <a name="BranchInput" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.branchInput"></a>
+##### `BranchInput`<sup>Optional</sup> <a name="BranchInput" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.branchInput"></a>
 
 ```go
 func BranchInput() *string
@@ -3819,7 +3819,7 @@ func BranchInput() *string
 
 ---
 
-##### `PathInput`<sup>Optional</sup> <a name="PathInput" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.pathInput"></a>
+##### `PathInput`<sup>Optional</sup> <a name="PathInput" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.pathInput"></a>
 
 ```go
 func PathInput() *string
@@ -3829,7 +3829,7 @@ func PathInput() *string
 
 ---
 
-##### `Branch`<sup>Required</sup> <a name="Branch" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.branch"></a>
+##### `Branch`<sup>Required</sup> <a name="Branch" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.branch"></a>
 
 ```go
 func Branch() *string
@@ -3839,7 +3839,7 @@ func Branch() *string
 
 ---
 
-##### `Path`<sup>Required</sup> <a name="Path" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.path"></a>
+##### `Path`<sup>Required</sup> <a name="Path" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.path"></a>
 
 ```go
 func Path() *string
@@ -3849,35 +3849,35 @@ func Path() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositoryPagesSourceOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositoryPagesSource
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryPagesSource">RepositoryPagesSource</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisAdvancedSecurityOutputReference <a name="RepositorySecurityAndAnalysisAdvancedSecurityOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference"></a>
+### RepositorySecurityAndAnalysisAdvancedSecurityOutputReference <a name="RepositorySecurityAndAnalysisAdvancedSecurityOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisAdvancedSecurityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisAdvancedSecurityOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -3885,7 +3885,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -3897,149 +3897,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -4047,13 +4047,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -4068,15 +4068,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -4090,7 +4090,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -4100,7 +4100,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -4110,7 +4110,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -4120,35 +4120,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisAdvancedSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisCodeSecurityOutputReference <a name="RepositorySecurityAndAnalysisCodeSecurityOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference"></a>
+### RepositorySecurityAndAnalysisCodeSecurityOutputReference <a name="RepositorySecurityAndAnalysisCodeSecurityOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisCodeSecurityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisCodeSecurityOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -4156,7 +4156,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -4168,149 +4168,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -4318,13 +4318,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -4339,15 +4339,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -4361,7 +4361,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -4371,7 +4371,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -4381,7 +4381,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -4391,35 +4391,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisCodeSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisOutputReference <a name="RepositorySecurityAndAnalysisOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference"></a>
+### RepositorySecurityAndAnalysisOutputReference <a name="RepositorySecurityAndAnalysisOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -4427,7 +4427,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -4439,161 +4439,161 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity">PutAdvancedSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity">PutCodeSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning">PutSecretScanning</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection">PutSecretScanningAiDetection</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns">PutSecretScanningNonProviderPatterns</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection">PutSecretScanningPushProtection</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetAdvancedSecurity">ResetAdvancedSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetCodeSecurity">ResetCodeSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanning">ResetSecretScanning</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningAiDetection">ResetSecretScanningAiDetection</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningNonProviderPatterns">ResetSecretScanningNonProviderPatterns</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningPushProtection">ResetSecretScanningPushProtection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity">PutAdvancedSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity">PutCodeSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning">PutSecretScanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection">PutSecretScanningAiDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns">PutSecretScanningNonProviderPatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection">PutSecretScanningPushProtection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetAdvancedSecurity">ResetAdvancedSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetCodeSecurity">ResetCodeSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanning">ResetSecretScanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningAiDetection">ResetSecretScanningAiDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningNonProviderPatterns">ResetSecretScanningNonProviderPatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningPushProtection">ResetSecretScanningPushProtection</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -4601,13 +4601,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -4617,109 +4617,109 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `PutAdvancedSecurity` <a name="PutAdvancedSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity"></a>
+##### `PutAdvancedSecurity` <a name="PutAdvancedSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity"></a>
 
 ```go
 func PutAdvancedSecurity(value RepositorySecurityAndAnalysisAdvancedSecurity)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putAdvancedSecurity.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
 
 ---
 
-##### `PutCodeSecurity` <a name="PutCodeSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity"></a>
+##### `PutCodeSecurity` <a name="PutCodeSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity"></a>
 
 ```go
 func PutCodeSecurity(value RepositorySecurityAndAnalysisCodeSecurity)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putCodeSecurity.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
 
 ---
 
-##### `PutSecretScanning` <a name="PutSecretScanning" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning"></a>
+##### `PutSecretScanning` <a name="PutSecretScanning" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning"></a>
 
 ```go
 func PutSecretScanning(value RepositorySecurityAndAnalysisSecretScanning)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanning.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
 
 ---
 
-##### `PutSecretScanningAiDetection` <a name="PutSecretScanningAiDetection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection"></a>
+##### `PutSecretScanningAiDetection` <a name="PutSecretScanningAiDetection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection"></a>
 
 ```go
 func PutSecretScanningAiDetection(value RepositorySecurityAndAnalysisSecretScanningAiDetection)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningAiDetection.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
 
 ---
 
-##### `PutSecretScanningNonProviderPatterns` <a name="PutSecretScanningNonProviderPatterns" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns"></a>
+##### `PutSecretScanningNonProviderPatterns` <a name="PutSecretScanningNonProviderPatterns" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns"></a>
 
 ```go
 func PutSecretScanningNonProviderPatterns(value RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningNonProviderPatterns.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
 
 ---
 
-##### `PutSecretScanningPushProtection` <a name="PutSecretScanningPushProtection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection"></a>
+##### `PutSecretScanningPushProtection` <a name="PutSecretScanningPushProtection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection"></a>
 
 ```go
 func PutSecretScanningPushProtection(value RepositorySecurityAndAnalysisSecretScanningPushProtection)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.putSecretScanningPushProtection.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
 
 ---
 
-##### `ResetAdvancedSecurity` <a name="ResetAdvancedSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetAdvancedSecurity"></a>
+##### `ResetAdvancedSecurity` <a name="ResetAdvancedSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetAdvancedSecurity"></a>
 
 ```go
 func ResetAdvancedSecurity()
 ```
 
-##### `ResetCodeSecurity` <a name="ResetCodeSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetCodeSecurity"></a>
+##### `ResetCodeSecurity` <a name="ResetCodeSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetCodeSecurity"></a>
 
 ```go
 func ResetCodeSecurity()
 ```
 
-##### `ResetSecretScanning` <a name="ResetSecretScanning" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanning"></a>
+##### `ResetSecretScanning` <a name="ResetSecretScanning" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanning"></a>
 
 ```go
 func ResetSecretScanning()
 ```
 
-##### `ResetSecretScanningAiDetection` <a name="ResetSecretScanningAiDetection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningAiDetection"></a>
+##### `ResetSecretScanningAiDetection` <a name="ResetSecretScanningAiDetection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningAiDetection"></a>
 
 ```go
 func ResetSecretScanningAiDetection()
 ```
 
-##### `ResetSecretScanningNonProviderPatterns` <a name="ResetSecretScanningNonProviderPatterns" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningNonProviderPatterns"></a>
+##### `ResetSecretScanningNonProviderPatterns` <a name="ResetSecretScanningNonProviderPatterns" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningNonProviderPatterns"></a>
 
 ```go
 func ResetSecretScanningNonProviderPatterns()
 ```
 
-##### `ResetSecretScanningPushProtection` <a name="ResetSecretScanningPushProtection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningPushProtection"></a>
+##### `ResetSecretScanningPushProtection` <a name="ResetSecretScanningPushProtection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resetSecretScanningPushProtection"></a>
 
 ```go
 func ResetSecretScanningPushProtection()
@@ -4730,25 +4730,25 @@ func ResetSecretScanningPushProtection()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurity">AdvancedSecurity</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference">RepositorySecurityAndAnalysisAdvancedSecurityOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurity">CodeSecurity</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference">RepositorySecurityAndAnalysisCodeSecurityOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanning">SecretScanning</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference">RepositorySecurityAndAnalysisSecretScanningOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetection">SecretScanningAiDetection</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference">RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatterns">SecretScanningNonProviderPatterns</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference">RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtection">SecretScanningPushProtection</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference">RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurityInput">AdvancedSecurityInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurityInput">CodeSecurityInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetectionInput">SecretScanningAiDetectionInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningInput">SecretScanningInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatternsInput">SecretScanningNonProviderPatternsInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtectionInput">SecretScanningPushProtectionInput</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurity">AdvancedSecurity</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference">RepositorySecurityAndAnalysisAdvancedSecurityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurity">CodeSecurity</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference">RepositorySecurityAndAnalysisCodeSecurityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanning">SecretScanning</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference">RepositorySecurityAndAnalysisSecretScanningOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetection">SecretScanningAiDetection</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference">RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatterns">SecretScanningNonProviderPatterns</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference">RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtection">SecretScanningPushProtection</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference">RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurityInput">AdvancedSecurityInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurityInput">CodeSecurityInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetectionInput">SecretScanningAiDetectionInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningInput">SecretScanningInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatternsInput">SecretScanningNonProviderPatternsInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtectionInput">SecretScanningPushProtectionInput</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -4762,7 +4762,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -4772,155 +4772,155 @@ func Fqn() *string
 
 ---
 
-##### `AdvancedSecurity`<sup>Required</sup> <a name="AdvancedSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurity"></a>
+##### `AdvancedSecurity`<sup>Required</sup> <a name="AdvancedSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurity"></a>
 
 ```go
 func AdvancedSecurity() RepositorySecurityAndAnalysisAdvancedSecurityOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference">RepositorySecurityAndAnalysisAdvancedSecurityOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference">RepositorySecurityAndAnalysisAdvancedSecurityOutputReference</a>
 
 ---
 
-##### `CodeSecurity`<sup>Required</sup> <a name="CodeSecurity" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurity"></a>
+##### `CodeSecurity`<sup>Required</sup> <a name="CodeSecurity" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurity"></a>
 
 ```go
 func CodeSecurity() RepositorySecurityAndAnalysisCodeSecurityOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference">RepositorySecurityAndAnalysisCodeSecurityOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference">RepositorySecurityAndAnalysisCodeSecurityOutputReference</a>
 
 ---
 
-##### `SecretScanning`<sup>Required</sup> <a name="SecretScanning" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanning"></a>
+##### `SecretScanning`<sup>Required</sup> <a name="SecretScanning" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanning"></a>
 
 ```go
 func SecretScanning() RepositorySecurityAndAnalysisSecretScanningOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference">RepositorySecurityAndAnalysisSecretScanningOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference">RepositorySecurityAndAnalysisSecretScanningOutputReference</a>
 
 ---
 
-##### `SecretScanningAiDetection`<sup>Required</sup> <a name="SecretScanningAiDetection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetection"></a>
+##### `SecretScanningAiDetection`<sup>Required</sup> <a name="SecretScanningAiDetection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetection"></a>
 
 ```go
 func SecretScanningAiDetection() RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference">RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference">RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference</a>
 
 ---
 
-##### `SecretScanningNonProviderPatterns`<sup>Required</sup> <a name="SecretScanningNonProviderPatterns" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatterns"></a>
+##### `SecretScanningNonProviderPatterns`<sup>Required</sup> <a name="SecretScanningNonProviderPatterns" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatterns"></a>
 
 ```go
 func SecretScanningNonProviderPatterns() RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference">RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference">RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference</a>
 
 ---
 
-##### `SecretScanningPushProtection`<sup>Required</sup> <a name="SecretScanningPushProtection" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtection"></a>
+##### `SecretScanningPushProtection`<sup>Required</sup> <a name="SecretScanningPushProtection" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtection"></a>
 
 ```go
 func SecretScanningPushProtection() RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference">RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference">RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference</a>
 
 ---
 
-##### `AdvancedSecurityInput`<sup>Optional</sup> <a name="AdvancedSecurityInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurityInput"></a>
+##### `AdvancedSecurityInput`<sup>Optional</sup> <a name="AdvancedSecurityInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.advancedSecurityInput"></a>
 
 ```go
 func AdvancedSecurityInput() RepositorySecurityAndAnalysisAdvancedSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurity">RepositorySecurityAndAnalysisAdvancedSecurity</a>
 
 ---
 
-##### `CodeSecurityInput`<sup>Optional</sup> <a name="CodeSecurityInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurityInput"></a>
+##### `CodeSecurityInput`<sup>Optional</sup> <a name="CodeSecurityInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.codeSecurityInput"></a>
 
 ```go
 func CodeSecurityInput() RepositorySecurityAndAnalysisCodeSecurity
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurity">RepositorySecurityAndAnalysisCodeSecurity</a>
 
 ---
 
-##### `SecretScanningAiDetectionInput`<sup>Optional</sup> <a name="SecretScanningAiDetectionInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetectionInput"></a>
+##### `SecretScanningAiDetectionInput`<sup>Optional</sup> <a name="SecretScanningAiDetectionInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningAiDetectionInput"></a>
 
 ```go
 func SecretScanningAiDetectionInput() RepositorySecurityAndAnalysisSecretScanningAiDetection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
 
 ---
 
-##### `SecretScanningInput`<sup>Optional</sup> <a name="SecretScanningInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningInput"></a>
+##### `SecretScanningInput`<sup>Optional</sup> <a name="SecretScanningInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningInput"></a>
 
 ```go
 func SecretScanningInput() RepositorySecurityAndAnalysisSecretScanning
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
 
 ---
 
-##### `SecretScanningNonProviderPatternsInput`<sup>Optional</sup> <a name="SecretScanningNonProviderPatternsInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatternsInput"></a>
+##### `SecretScanningNonProviderPatternsInput`<sup>Optional</sup> <a name="SecretScanningNonProviderPatternsInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningNonProviderPatternsInput"></a>
 
 ```go
 func SecretScanningNonProviderPatternsInput() RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
 
 ---
 
-##### `SecretScanningPushProtectionInput`<sup>Optional</sup> <a name="SecretScanningPushProtectionInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtectionInput"></a>
+##### `SecretScanningPushProtectionInput`<sup>Optional</sup> <a name="SecretScanningPushProtectionInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.secretScanningPushProtectionInput"></a>
 
 ```go
 func SecretScanningPushProtectionInput() RepositorySecurityAndAnalysisSecretScanningPushProtection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysis
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference"></a>
+### RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -4928,7 +4928,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -4940,149 +4940,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -5090,13 +5090,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -5111,15 +5111,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -5133,7 +5133,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -5143,7 +5143,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -5153,7 +5153,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -5163,35 +5163,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisSecretScanningAiDetection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetection">RepositorySecurityAndAnalysisSecretScanningAiDetection</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference"></a>
+### RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -5199,7 +5199,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -5211,149 +5211,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -5361,13 +5361,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -5382,15 +5382,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -5404,7 +5404,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -5414,7 +5414,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -5424,7 +5424,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -5434,35 +5434,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns">RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisSecretScanningOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference"></a>
+### RepositorySecurityAndAnalysisSecretScanningOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisSecretScanningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisSecretScanningOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -5470,7 +5470,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -5482,149 +5482,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -5632,13 +5632,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -5653,15 +5653,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -5675,7 +5675,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -5685,7 +5685,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -5695,7 +5695,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -5705,35 +5705,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisSecretScanning
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanning">RepositorySecurityAndAnalysisSecretScanning</a>
 
 ---
 
 
-### RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference"></a>
+### RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference <a name="RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -5741,7 +5741,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -5753,149 +5753,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -5903,13 +5903,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -5924,15 +5924,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.statusInput">StatusInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -5946,7 +5946,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -5956,7 +5956,7 @@ func Fqn() *string
 
 ---
 
-##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.statusInput"></a>
+##### `StatusInput`<sup>Optional</sup> <a name="StatusInput" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.statusInput"></a>
 
 ```go
 func StatusInput() *string
@@ -5966,7 +5966,7 @@ func StatusInput() *string
 
 ---
 
-##### `Status`<sup>Required</sup> <a name="Status" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.status"></a>
+##### `Status`<sup>Required</sup> <a name="Status" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.status"></a>
 
 ```go
 func Status() *string
@@ -5976,35 +5976,35 @@ func Status() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositorySecurityAndAnalysisSecretScanningPushProtection
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtection">RepositorySecurityAndAnalysisSecretScanningPushProtection</a>
 
 ---
 
 
-### RepositoryTemplateOutputReference <a name="RepositoryTemplateOutputReference" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference"></a>
+### RepositoryTemplateOutputReference <a name="RepositoryTemplateOutputReference" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/repository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/repository"
 
 repository.NewRepositoryTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryTemplateOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -6012,7 +6012,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -6024,150 +6024,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.resetIncludeAllBranches">ResetIncludeAllBranches</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resetIncludeAllBranches">ResetIncludeAllBranches</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -6175,13 +6175,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -6191,7 +6191,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetIncludeAllBranches` <a name="ResetIncludeAllBranches" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.resetIncludeAllBranches"></a>
+##### `ResetIncludeAllBranches` <a name="ResetIncludeAllBranches" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resetIncludeAllBranches"></a>
 
 ```go
 func ResetIncludeAllBranches()
@@ -6202,19 +6202,19 @@ func ResetIncludeAllBranches()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput">IncludeAllBranchesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.ownerInput">OwnerInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.repositoryInput">RepositoryInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches">IncludeAllBranches</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.owner">Owner</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.repository">Repository</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput">IncludeAllBranchesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.ownerInput">OwnerInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repositoryInput">RepositoryInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches">IncludeAllBranches</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.owner">Owner</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repository">Repository</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -6228,7 +6228,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -6238,7 +6238,7 @@ func Fqn() *string
 
 ---
 
-##### `IncludeAllBranchesInput`<sup>Optional</sup> <a name="IncludeAllBranchesInput" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput"></a>
+##### `IncludeAllBranchesInput`<sup>Optional</sup> <a name="IncludeAllBranchesInput" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput"></a>
 
 ```go
 func IncludeAllBranchesInput() interface{}
@@ -6248,7 +6248,7 @@ func IncludeAllBranchesInput() interface{}
 
 ---
 
-##### `OwnerInput`<sup>Optional</sup> <a name="OwnerInput" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.ownerInput"></a>
+##### `OwnerInput`<sup>Optional</sup> <a name="OwnerInput" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.ownerInput"></a>
 
 ```go
 func OwnerInput() *string
@@ -6258,7 +6258,7 @@ func OwnerInput() *string
 
 ---
 
-##### `RepositoryInput`<sup>Optional</sup> <a name="RepositoryInput" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.repositoryInput"></a>
+##### `RepositoryInput`<sup>Optional</sup> <a name="RepositoryInput" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repositoryInput"></a>
 
 ```go
 func RepositoryInput() *string
@@ -6268,7 +6268,7 @@ func RepositoryInput() *string
 
 ---
 
-##### `IncludeAllBranches`<sup>Required</sup> <a name="IncludeAllBranches" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches"></a>
+##### `IncludeAllBranches`<sup>Required</sup> <a name="IncludeAllBranches" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches"></a>
 
 ```go
 func IncludeAllBranches() interface{}
@@ -6278,7 +6278,7 @@ func IncludeAllBranches() interface{}
 
 ---
 
-##### `Owner`<sup>Required</sup> <a name="Owner" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.owner"></a>
+##### `Owner`<sup>Required</sup> <a name="Owner" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.owner"></a>
 
 ```go
 func Owner() *string
@@ -6288,7 +6288,7 @@ func Owner() *string
 
 ---
 
-##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.repository"></a>
+##### `Repository`<sup>Required</sup> <a name="Repository" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repository"></a>
 
 ```go
 func Repository() *string
@@ -6298,13 +6298,13 @@ func Repository() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.repository.RepositoryTemplateOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() RepositoryTemplate
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
+- *Type:* <a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a>
 
 ---
 

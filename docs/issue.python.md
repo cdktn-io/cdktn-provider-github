@@ -1,15 +1,15 @@
-# `issue` Submodule <a name="`issue` Submodule" id="@cdktf/provider-github.issue"></a>
+# `issue` Submodule <a name="`issue` Submodule" id="@cdktn/provider-github.issue"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Issue <a name="Issue" id="@cdktf/provider-github.issue.Issue"></a>
+### Issue <a name="Issue" id="@cdktn/provider-github.issue.Issue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue github_issue}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue github_issue}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.issue.Issue.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.issue.Issue.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.Issue(
   scope: Construct,
@@ -33,26 +33,26 @@ issue.Issue(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.repository">repository</a></code> | <code>str</code> | The GitHub repository name. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.title">title</a></code> | <code>str</code> | Title of the issue. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.assignees">assignees</a></code> | <code>typing.List[str]</code> | List of Logins to assign to the issue. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.body">body</a></code> | <code>str</code> | Body of the issue. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#id Issue#id}. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.labels">labels</a></code> | <code>typing.List[str]</code> | List of labels to attach to the issue. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.Initializer.parameter.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | Milestone number to assign to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.repository">repository</a></code> | <code>str</code> | The GitHub repository name. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.title">title</a></code> | <code>str</code> | Title of the issue. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.assignees">assignees</a></code> | <code>typing.List[str]</code> | List of Logins to assign to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.body">body</a></code> | <code>str</code> | Body of the issue. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#id Issue#id}. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.labels">labels</a></code> | <code>typing.List[str]</code> | List of labels to attach to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.Initializer.parameter.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | Milestone number to assign to the issue. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -60,7 +60,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -70,116 +70,116 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.repository"></a>
 
 - *Type:* str
 
 The GitHub repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#repository Issue#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#repository Issue#repository}
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.title"></a>
 
 - *Type:* str
 
 Title of the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#title Issue#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#title Issue#title}
 
 ---
 
-##### `assignees`<sup>Optional</sup> <a name="assignees" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.assignees"></a>
+##### `assignees`<sup>Optional</sup> <a name="assignees" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.assignees"></a>
 
 - *Type:* typing.List[str]
 
 List of Logins to assign to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#assignees Issue#assignees}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#assignees Issue#assignees}
 
 ---
 
-##### `body`<sup>Optional</sup> <a name="body" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.body"></a>
+##### `body`<sup>Optional</sup> <a name="body" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.body"></a>
 
 - *Type:* str
 
 Body of the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#body Issue#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#body Issue#body}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#id Issue#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#id Issue#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.labels"></a>
 
 - *Type:* typing.List[str]
 
 List of labels to attach to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#labels Issue#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#labels Issue#labels}
 
 ---
 
-##### `milestone_number`<sup>Optional</sup> <a name="milestone_number" id="@cdktf/provider-github.issue.Issue.Initializer.parameter.milestoneNumber"></a>
+##### `milestone_number`<sup>Optional</sup> <a name="milestone_number" id="@cdktn/provider-github.issue.Issue.Initializer.parameter.milestoneNumber"></a>
 
 - *Type:* typing.Union[int, float]
 
 Milestone number to assign to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#milestone_number Issue#milestone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#milestone_number Issue#milestone_number}
 
 ---
 
@@ -187,38 +187,38 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.Issue.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetAssignees">reset_assignees</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetBody">reset_body</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetLabels">reset_labels</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.resetMilestoneNumber">reset_milestone_number</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetAssignees">reset_assignees</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetBody">reset_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetLabels">reset_labels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.resetMilestoneNumber">reset_milestone_number</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.issue.Issue.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.issue.Issue.toString"></a>
 
 ```python
 def to_string() -> str
@@ -226,7 +226,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.issue.Issue.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.issue.Issue.addOverride"></a>
 
 ```python
 def add_override(
@@ -235,19 +235,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.issue.Issue.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.issue.Issue.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.issue.Issue.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.issue.Issue.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.issue.Issue.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.issue.Issue.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -257,7 +257,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.issue.Issue.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.issue.Issue.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -265,7 +265,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.issue.Issue.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.issue.Issue.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -273,19 +273,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.issue.Issue.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.issue.Issue.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.issue.Issue.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.issue.Issue.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.issue.Issue.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.issue.Issue.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -293,7 +293,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.issue.Issue.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.issue.Issue.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -303,7 +303,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.issue.Issue.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.issue.Issue.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -311,7 +311,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.issue.Issue.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.issue.Issue.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -319,13 +319,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.issue.Issue.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.issue.Issue.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -333,13 +333,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.issue.Issue.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.issue.Issue.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -347,13 +347,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.issue.Issue.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.issue.Issue.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -361,13 +361,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.issue.Issue.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.issue.Issue.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -375,13 +375,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.issue.Issue.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.issue.Issue.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -389,13 +389,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.issue.Issue.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.issue.Issue.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -403,13 +403,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.issue.Issue.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.issue.Issue.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -417,13 +417,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.issue.Issue.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.issue.Issue.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -431,19 +431,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.issue.Issue.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.issue.Issue.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.issue.Issue.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.issue.Issue.importFrom"></a>
 
 ```python
 def import_from(
@@ -452,19 +452,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.issue.Issue.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issue.Issue.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.issue.Issue.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.issue.Issue.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -472,13 +472,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.issue.Issue.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.issue.Issue.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.issue.Issue.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.issue.Issue.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -490,7 +490,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -498,7 +498,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.issue.Issue.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.issue.Issue.moveTo"></a>
 
 ```python
 def move_to(
@@ -509,7 +509,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.issue.Issue.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.issue.Issue.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -517,7 +517,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.issue.Issue.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.issue.Issue.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -525,7 +525,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.issue.Issue.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.issue.Issue.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -535,7 +535,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -543,31 +543,31 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_assignees` <a name="reset_assignees" id="@cdktf/provider-github.issue.Issue.resetAssignees"></a>
+##### `reset_assignees` <a name="reset_assignees" id="@cdktn/provider-github.issue.Issue.resetAssignees"></a>
 
 ```python
 def reset_assignees() -> None
 ```
 
-##### `reset_body` <a name="reset_body" id="@cdktf/provider-github.issue.Issue.resetBody"></a>
+##### `reset_body` <a name="reset_body" id="@cdktn/provider-github.issue.Issue.resetBody"></a>
 
 ```python
 def reset_body() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.issue.Issue.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.issue.Issue.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_labels` <a name="reset_labels" id="@cdktf/provider-github.issue.Issue.resetLabels"></a>
+##### `reset_labels` <a name="reset_labels" id="@cdktn/provider-github.issue.Issue.resetLabels"></a>
 
 ```python
 def reset_labels() -> None
 ```
 
-##### `reset_milestone_number` <a name="reset_milestone_number" id="@cdktf/provider-github.issue.Issue.resetMilestoneNumber"></a>
+##### `reset_milestone_number` <a name="reset_milestone_number" id="@cdktn/provider-github.issue.Issue.resetMilestoneNumber"></a>
 
 ```python
 def reset_milestone_number() -> None
@@ -577,17 +577,17 @@ def reset_milestone_number() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.Issue.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Issue resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.issue.Issue.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Issue resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.issue.Issue.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.issue.Issue.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.Issue.is_construct(
   x: typing.Any
@@ -610,7 +610,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.issue.Issue.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.issue.Issue.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -618,42 +618,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.issue.Issue.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.issue.Issue.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.Issue.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.issue.Issue.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.issue.Issue.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.issue.Issue.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.issue.Issue.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.Issue.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.issue.Issue.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.issue.Issue.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.issue.Issue.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.issue.Issue.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.Issue.generate_config_for_import(
   scope: Construct,
@@ -665,7 +665,7 @@ issue.Issue.generate_config_for_import(
 
 Generates CDKTF code for importing a Issue resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.issue.Issue.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.issue.Issue.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -673,7 +673,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.issue.Issue.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.issue.Issue.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -681,17 +681,17 @@ The construct id used in the generated config for the Issue to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.issue.Issue.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.issue.Issue.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing Issue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.issue.Issue.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issue.Issue.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -703,41 +703,41 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.etag">etag</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.issueId">issue_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.number">number</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.assigneesInput">assignees_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.labelsInput">labels_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.milestoneNumberInput">milestone_number_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.assignees">assignees</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.body">body</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.labels">labels</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.repository">repository</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.title">title</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.etag">etag</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.issueId">issue_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.number">number</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.assigneesInput">assignees_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.labelsInput">labels_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.milestoneNumberInput">milestone_number_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.assignees">assignees</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.body">body</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.labels">labels</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.repository">repository</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.title">title</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.issue.Issue.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.issue.Issue.property.node"></a>
 
 ```python
 node: Node
@@ -749,7 +749,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.issue.Issue.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.issue.Issue.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -759,7 +759,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.issue.Issue.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.issue.Issue.property.fqn"></a>
 
 ```python
 fqn: str
@@ -769,7 +769,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.issue.Issue.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.issue.Issue.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -779,7 +779,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.issue.Issue.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.issue.Issue.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -789,7 +789,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.issue.Issue.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.issue.Issue.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -799,7 +799,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.issue.Issue.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.issue.Issue.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -809,7 +809,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.issue.Issue.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.issue.Issue.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -819,7 +819,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.issue.Issue.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.issue.Issue.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -829,7 +829,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.issue.Issue.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.issue.Issue.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -839,7 +839,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.issue.Issue.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.issue.Issue.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -849,7 +849,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.issue.Issue.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.issue.Issue.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -859,7 +859,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.issue.Issue.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issue.Issue.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -869,7 +869,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.issue.Issue.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.issue.Issue.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -879,7 +879,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-github.issue.Issue.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-github.issue.Issue.property.etag"></a>
 
 ```python
 etag: str
@@ -889,7 +889,7 @@ etag: str
 
 ---
 
-##### `issue_id`<sup>Required</sup> <a name="issue_id" id="@cdktf/provider-github.issue.Issue.property.issueId"></a>
+##### `issue_id`<sup>Required</sup> <a name="issue_id" id="@cdktn/provider-github.issue.Issue.property.issueId"></a>
 
 ```python
 issue_id: typing.Union[int, float]
@@ -899,7 +899,7 @@ issue_id: typing.Union[int, float]
 
 ---
 
-##### `number`<sup>Required</sup> <a name="number" id="@cdktf/provider-github.issue.Issue.property.number"></a>
+##### `number`<sup>Required</sup> <a name="number" id="@cdktn/provider-github.issue.Issue.property.number"></a>
 
 ```python
 number: typing.Union[int, float]
@@ -909,7 +909,7 @@ number: typing.Union[int, float]
 
 ---
 
-##### `assignees_input`<sup>Optional</sup> <a name="assignees_input" id="@cdktf/provider-github.issue.Issue.property.assigneesInput"></a>
+##### `assignees_input`<sup>Optional</sup> <a name="assignees_input" id="@cdktn/provider-github.issue.Issue.property.assigneesInput"></a>
 
 ```python
 assignees_input: typing.List[str]
@@ -919,7 +919,7 @@ assignees_input: typing.List[str]
 
 ---
 
-##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktf/provider-github.issue.Issue.property.bodyInput"></a>
+##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktn/provider-github.issue.Issue.property.bodyInput"></a>
 
 ```python
 body_input: str
@@ -929,7 +929,7 @@ body_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.issue.Issue.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.issue.Issue.property.idInput"></a>
 
 ```python
 id_input: str
@@ -939,7 +939,7 @@ id_input: str
 
 ---
 
-##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktf/provider-github.issue.Issue.property.labelsInput"></a>
+##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktn/provider-github.issue.Issue.property.labelsInput"></a>
 
 ```python
 labels_input: typing.List[str]
@@ -949,7 +949,7 @@ labels_input: typing.List[str]
 
 ---
 
-##### `milestone_number_input`<sup>Optional</sup> <a name="milestone_number_input" id="@cdktf/provider-github.issue.Issue.property.milestoneNumberInput"></a>
+##### `milestone_number_input`<sup>Optional</sup> <a name="milestone_number_input" id="@cdktn/provider-github.issue.Issue.property.milestoneNumberInput"></a>
 
 ```python
 milestone_number_input: typing.Union[int, float]
@@ -959,7 +959,7 @@ milestone_number_input: typing.Union[int, float]
 
 ---
 
-##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktf/provider-github.issue.Issue.property.repositoryInput"></a>
+##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktn/provider-github.issue.Issue.property.repositoryInput"></a>
 
 ```python
 repository_input: str
@@ -969,7 +969,7 @@ repository_input: str
 
 ---
 
-##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktf/provider-github.issue.Issue.property.titleInput"></a>
+##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktn/provider-github.issue.Issue.property.titleInput"></a>
 
 ```python
 title_input: str
@@ -979,7 +979,7 @@ title_input: str
 
 ---
 
-##### `assignees`<sup>Required</sup> <a name="assignees" id="@cdktf/provider-github.issue.Issue.property.assignees"></a>
+##### `assignees`<sup>Required</sup> <a name="assignees" id="@cdktn/provider-github.issue.Issue.property.assignees"></a>
 
 ```python
 assignees: typing.List[str]
@@ -989,7 +989,7 @@ assignees: typing.List[str]
 
 ---
 
-##### `body`<sup>Required</sup> <a name="body" id="@cdktf/provider-github.issue.Issue.property.body"></a>
+##### `body`<sup>Required</sup> <a name="body" id="@cdktn/provider-github.issue.Issue.property.body"></a>
 
 ```python
 body: str
@@ -999,7 +999,7 @@ body: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.issue.Issue.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.issue.Issue.property.id"></a>
 
 ```python
 id: str
@@ -1009,7 +1009,7 @@ id: str
 
 ---
 
-##### `labels`<sup>Required</sup> <a name="labels" id="@cdktf/provider-github.issue.Issue.property.labels"></a>
+##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-github.issue.Issue.property.labels"></a>
 
 ```python
 labels: typing.List[str]
@@ -1019,7 +1019,7 @@ labels: typing.List[str]
 
 ---
 
-##### `milestone_number`<sup>Required</sup> <a name="milestone_number" id="@cdktf/provider-github.issue.Issue.property.milestoneNumber"></a>
+##### `milestone_number`<sup>Required</sup> <a name="milestone_number" id="@cdktn/provider-github.issue.Issue.property.milestoneNumber"></a>
 
 ```python
 milestone_number: typing.Union[int, float]
@@ -1029,7 +1029,7 @@ milestone_number: typing.Union[int, float]
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.issue.Issue.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.issue.Issue.property.repository"></a>
 
 ```python
 repository: str
@@ -1039,7 +1039,7 @@ repository: str
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-github.issue.Issue.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-github.issue.Issue.property.title"></a>
 
 ```python
 title: str
@@ -1053,11 +1053,11 @@ title: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.Issue.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.Issue.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.issue.Issue.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.issue.Issue.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1069,12 +1069,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### IssueConfig <a name="IssueConfig" id="@cdktf/provider-github.issue.IssueConfig"></a>
+### IssueConfig <a name="IssueConfig" id="@cdktn/provider-github.issue.IssueConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.issue.IssueConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.issue.IssueConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import issue
+from cdktn_provider_github import issue
 
 issue.IssueConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1098,24 +1098,24 @@ issue.IssueConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.repository">repository</a></code> | <code>str</code> | The GitHub repository name. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.title">title</a></code> | <code>str</code> | Title of the issue. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.assignees">assignees</a></code> | <code>typing.List[str]</code> | List of Logins to assign to the issue. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.body">body</a></code> | <code>str</code> | Body of the issue. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#id Issue#id}. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.labels">labels</a></code> | <code>typing.List[str]</code> | List of labels to attach to the issue. |
-| <code><a href="#@cdktf/provider-github.issue.IssueConfig.property.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | Milestone number to assign to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.repository">repository</a></code> | <code>str</code> | The GitHub repository name. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.title">title</a></code> | <code>str</code> | Title of the issue. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.assignees">assignees</a></code> | <code>typing.List[str]</code> | List of Logins to assign to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.body">body</a></code> | <code>str</code> | Body of the issue. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#id Issue#id}. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.labels">labels</a></code> | <code>typing.List[str]</code> | List of labels to attach to the issue. |
+| <code><a href="#@cdktn/provider-github.issue.IssueConfig.property.milestoneNumber">milestone_number</a></code> | <code>typing.Union[int, float]</code> | Milestone number to assign to the issue. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.issue.IssueConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.issue.IssueConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1125,7 +1125,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.issue.IssueConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.issue.IssueConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1135,7 +1135,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.issue.IssueConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.issue.IssueConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1145,7 +1145,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.issue.IssueConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.issue.IssueConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1155,7 +1155,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.issue.IssueConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.issue.IssueConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1165,7 +1165,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.issue.IssueConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issue.IssueConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1175,7 +1175,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.issue.IssueConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.issue.IssueConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1185,7 +1185,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.issue.IssueConfig.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.issue.IssueConfig.property.repository"></a>
 
 ```python
 repository: str
@@ -1195,11 +1195,11 @@ repository: str
 
 The GitHub repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#repository Issue#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#repository Issue#repository}
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-github.issue.IssueConfig.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-github.issue.IssueConfig.property.title"></a>
 
 ```python
 title: str
@@ -1209,11 +1209,11 @@ title: str
 
 Title of the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#title Issue#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#title Issue#title}
 
 ---
 
-##### `assignees`<sup>Optional</sup> <a name="assignees" id="@cdktf/provider-github.issue.IssueConfig.property.assignees"></a>
+##### `assignees`<sup>Optional</sup> <a name="assignees" id="@cdktn/provider-github.issue.IssueConfig.property.assignees"></a>
 
 ```python
 assignees: typing.List[str]
@@ -1223,11 +1223,11 @@ assignees: typing.List[str]
 
 List of Logins to assign to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#assignees Issue#assignees}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#assignees Issue#assignees}
 
 ---
 
-##### `body`<sup>Optional</sup> <a name="body" id="@cdktf/provider-github.issue.IssueConfig.property.body"></a>
+##### `body`<sup>Optional</sup> <a name="body" id="@cdktn/provider-github.issue.IssueConfig.property.body"></a>
 
 ```python
 body: str
@@ -1237,11 +1237,11 @@ body: str
 
 Body of the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#body Issue#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#body Issue#body}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.issue.IssueConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.issue.IssueConfig.property.id"></a>
 
 ```python
 id: str
@@ -1249,14 +1249,14 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#id Issue#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#id Issue#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-github.issue.IssueConfig.property.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-github.issue.IssueConfig.property.labels"></a>
 
 ```python
 labels: typing.List[str]
@@ -1266,11 +1266,11 @@ labels: typing.List[str]
 
 List of labels to attach to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#labels Issue#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#labels Issue#labels}
 
 ---
 
-##### `milestone_number`<sup>Optional</sup> <a name="milestone_number" id="@cdktf/provider-github.issue.IssueConfig.property.milestoneNumber"></a>
+##### `milestone_number`<sup>Optional</sup> <a name="milestone_number" id="@cdktn/provider-github.issue.IssueConfig.property.milestoneNumber"></a>
 
 ```python
 milestone_number: typing.Union[int, float]
@@ -1280,7 +1280,7 @@ milestone_number: typing.Union[int, float]
 
 Milestone number to assign to the issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/issue#milestone_number Issue#milestone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/issue#milestone_number Issue#milestone_number}
 
 ---
 

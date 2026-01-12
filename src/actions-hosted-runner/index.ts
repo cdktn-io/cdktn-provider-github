@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner
+// https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface ActionsHostedRunnerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Whether this runner should be used to generate custom images. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
   */
   readonly imageGen?: boolean | cdktf.IResolvable;
   /**
   * The version of the runner image to deploy. This is relevant only for runners using custom images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
   */
   readonly imageVersion?: string;
   /**
   * Maximum number of runners to scale up to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
   */
   readonly maximumRunners?: number;
   /**
   * Name of the hosted runner. Must be between 1 and 64 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
   */
   readonly name: string;
   /**
   * Whether to enable static public IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
   */
   readonly publicIpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The runner group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
   */
   readonly runnerGroupId: number;
   /**
   * Machine size (e.g., '4-core', '8-core'). Can be updated to scale the runner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
   */
   readonly size: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
   */
   readonly image: ActionsHostedRunnerImage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
   */
   readonly timeouts?: ActionsHostedRunnerTimeouts;
 }
@@ -246,7 +246,7 @@ export interface ActionsHostedRunnerImage {
   /**
   * The image ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -255,7 +255,7 @@ export interface ActionsHostedRunnerImage {
   /**
   * The image source (github, partner, or custom).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
   */
   readonly source?: string;
 }
@@ -370,7 +370,7 @@ export class ActionsHostedRunnerImageOutputReference extends cdktf.ComplexObject
 }
 export interface ActionsHostedRunnerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}
   */
   readonly delete?: string;
 }
@@ -464,7 +464,7 @@ export class ActionsHostedRunnerTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner github_actions_hosted_runner}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner}
 */
 export class ActionsHostedRunner extends cdktf.TerraformResource {
 
@@ -480,7 +480,7 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActionsHostedRunner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsHostedRunner to import
-  * @param importFromId The id of the existing ActionsHostedRunner that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActionsHostedRunner that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsHostedRunner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -492,7 +492,7 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,7 +503,7 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
       terraformResourceType: 'github_actions_hosted_runner',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.9.0',
+        providerVersion: '6.9.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

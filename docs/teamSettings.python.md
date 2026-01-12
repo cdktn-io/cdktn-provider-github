@@ -1,15 +1,15 @@
-# `teamSettings` Submodule <a name="`teamSettings` Submodule" id="@cdktf/provider-github.teamSettings"></a>
+# `teamSettings` Submodule <a name="`teamSettings` Submodule" id="@cdktn/provider-github.teamSettings"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### TeamSettings <a name="TeamSettings" id="@cdktf/provider-github.teamSettings.TeamSettings"></a>
+### TeamSettings <a name="TeamSettings" id="@cdktn/provider-github.teamSettings.TeamSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings github_team_settings}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings github_team_settings}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettings(
   scope: Construct,
@@ -29,22 +29,22 @@ teamSettings.TeamSettings(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.teamId">team_id</a></code> | <code>str</code> | The GitHub team id or the GitHub team slug. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#id TeamSettings#id}. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | review_request_delegation block. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.teamId">team_id</a></code> | <code>str</code> | The GitHub team id or the GitHub team slug. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#id TeamSettings#id}. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | review_request_delegation block. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -52,7 +52,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -62,76 +62,76 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.teamId"></a>
 
 - *Type:* str
 
 The GitHub team id or the GitHub team slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#team_id TeamSettings#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#team_id TeamSettings#team_id}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#id TeamSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#id TeamSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `review_request_delegation`<sup>Optional</sup> <a name="review_request_delegation" id="@cdktf/provider-github.teamSettings.TeamSettings.Initializer.parameter.reviewRequestDelegation"></a>
+##### `review_request_delegation`<sup>Optional</sup> <a name="review_request_delegation" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer.parameter.reviewRequestDelegation"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
+- *Type:* <a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
 
 review_request_delegation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
 
 ---
 
@@ -139,36 +139,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation">put_review_request_delegation</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation">reset_review_request_delegation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation">put_review_request_delegation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation">reset_review_request_delegation</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.teamSettings.TeamSettings.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.teamSettings.TeamSettings.toString"></a>
 
 ```python
 def to_string() -> str
@@ -176,7 +176,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.teamSettings.TeamSettings.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.teamSettings.TeamSettings.addOverride"></a>
 
 ```python
 def add_override(
@@ -185,19 +185,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.teamSettings.TeamSettings.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.teamSettings.TeamSettings.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.teamSettings.TeamSettings.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.teamSettings.TeamSettings.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.teamSettings.TeamSettings.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.teamSettings.TeamSettings.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -207,7 +207,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.teamSettings.TeamSettings.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.teamSettings.TeamSettings.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -215,7 +215,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.teamSettings.TeamSettings.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.teamSettings.TeamSettings.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -223,19 +223,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.teamSettings.TeamSettings.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.teamSettings.TeamSettings.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.teamSettings.TeamSettings.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.teamSettings.TeamSettings.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.teamSettings.TeamSettings.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.teamSettings.TeamSettings.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -243,7 +243,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.teamSettings.TeamSettings.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.teamSettings.TeamSettings.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -253,7 +253,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.teamSettings.TeamSettings.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.teamSettings.TeamSettings.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -261,7 +261,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -269,13 +269,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -283,13 +283,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -297,13 +297,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -311,13 +311,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -325,13 +325,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -339,13 +339,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -353,13 +353,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -367,13 +367,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -381,19 +381,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.teamSettings.TeamSettings.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.teamSettings.TeamSettings.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.teamSettings.TeamSettings.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.teamSettings.TeamSettings.importFrom"></a>
 
 ```python
 def import_from(
@@ -402,19 +402,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.teamSettings.TeamSettings.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamSettings.TeamSettings.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -422,13 +422,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettings.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettings.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.teamSettings.TeamSettings.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.teamSettings.TeamSettings.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -440,7 +440,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -448,7 +448,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.teamSettings.TeamSettings.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.teamSettings.TeamSettings.moveTo"></a>
 
 ```python
 def move_to(
@@ -459,7 +459,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.teamSettings.TeamSettings.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.teamSettings.TeamSettings.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -467,7 +467,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.teamSettings.TeamSettings.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.teamSettings.TeamSettings.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -475,7 +475,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.teamSettings.TeamSettings.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.teamSettings.TeamSettings.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -485,7 +485,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -493,7 +493,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `put_review_request_delegation` <a name="put_review_request_delegation" id="@cdktf/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation"></a>
+##### `put_review_request_delegation` <a name="put_review_request_delegation" id="@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation"></a>
 
 ```python
 def put_review_request_delegation(
@@ -503,43 +503,43 @@ def put_review_request_delegation(
 ) -> None
 ```
 
-###### `algorithm`<sup>Optional</sup> <a name="algorithm" id="@cdktf/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.algorithm"></a>
+###### `algorithm`<sup>Optional</sup> <a name="algorithm" id="@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.algorithm"></a>
 
 - *Type:* str
 
 The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#algorithm TeamSettings#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#algorithm TeamSettings#algorithm}
 
 ---
 
-###### `member_count`<sup>Optional</sup> <a name="member_count" id="@cdktf/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.memberCount"></a>
+###### `member_count`<sup>Optional</sup> <a name="member_count" id="@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.memberCount"></a>
 
 - *Type:* typing.Union[int, float]
 
 The number of team members to assign to a pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#member_count TeamSettings#member_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#member_count TeamSettings#member_count}
 
 ---
 
-###### `notify`<sup>Optional</sup> <a name="notify" id="@cdktf/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.notify"></a>
+###### `notify`<sup>Optional</sup> <a name="notify" id="@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation.parameter.notify"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
 whether to notify the entire team when at least one member is also assigned to the pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#notify TeamSettings#notify}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#notify TeamSettings#notify}
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.teamSettings.TeamSettings.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.teamSettings.TeamSettings.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_review_request_delegation` <a name="reset_review_request_delegation" id="@cdktf/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation"></a>
+##### `reset_review_request_delegation` <a name="reset_review_request_delegation" id="@cdktn/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation"></a>
 
 ```python
 def reset_review_request_delegation() -> None
@@ -549,17 +549,17 @@ def reset_review_request_delegation() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a TeamSettings resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a TeamSettings resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.teamSettings.TeamSettings.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.teamSettings.TeamSettings.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettings.is_construct(
   x: typing.Any
@@ -582,7 +582,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.teamSettings.TeamSettings.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.teamSettings.TeamSettings.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -590,42 +590,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.teamSettings.TeamSettings.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.teamSettings.TeamSettings.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettings.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.teamSettings.TeamSettings.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.teamSettings.TeamSettings.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.teamSettings.TeamSettings.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.teamSettings.TeamSettings.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettings.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.teamSettings.TeamSettings.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.teamSettings.TeamSettings.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettings.generate_config_for_import(
   scope: Construct,
@@ -637,7 +637,7 @@ teamSettings.TeamSettings.generate_config_for_import(
 
 Generates CDKTF code for importing a TeamSettings resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -645,7 +645,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -653,17 +653,17 @@ The construct id used in the generated config for the TeamSettings to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing TeamSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamSettings.TeamSettings.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -675,32 +675,32 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference">TeamSettingsReviewRequestDelegationOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.teamSlug">team_slug</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.teamUid">team_uid</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput">review_request_delegation_input</a></code> | <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference">TeamSettingsReviewRequestDelegationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamSlug">team_slug</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamUid">team_uid</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput">review_request_delegation_input</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.teamSettings.TeamSettings.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.teamSettings.TeamSettings.property.node"></a>
 
 ```python
 node: Node
@@ -712,7 +712,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.teamSettings.TeamSettings.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.teamSettings.TeamSettings.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -722,7 +722,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.teamSettings.TeamSettings.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.teamSettings.TeamSettings.property.fqn"></a>
 
 ```python
 fqn: str
@@ -732,7 +732,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.teamSettings.TeamSettings.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.teamSettings.TeamSettings.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -742,7 +742,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.teamSettings.TeamSettings.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.teamSettings.TeamSettings.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -752,7 +752,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.teamSettings.TeamSettings.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.teamSettings.TeamSettings.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -762,7 +762,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.teamSettings.TeamSettings.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.teamSettings.TeamSettings.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -772,7 +772,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.teamSettings.TeamSettings.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.teamSettings.TeamSettings.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -782,7 +782,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.teamSettings.TeamSettings.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.teamSettings.TeamSettings.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -792,7 +792,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.teamSettings.TeamSettings.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.teamSettings.TeamSettings.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -802,7 +802,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.teamSettings.TeamSettings.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.teamSettings.TeamSettings.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -812,7 +812,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.teamSettings.TeamSettings.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.teamSettings.TeamSettings.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -822,7 +822,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.teamSettings.TeamSettings.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamSettings.TeamSettings.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -832,7 +832,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.teamSettings.TeamSettings.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.teamSettings.TeamSettings.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -842,17 +842,17 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `review_request_delegation`<sup>Required</sup> <a name="review_request_delegation" id="@cdktf/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegation"></a>
+##### `review_request_delegation`<sup>Required</sup> <a name="review_request_delegation" id="@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegation"></a>
 
 ```python
 review_request_delegation: TeamSettingsReviewRequestDelegationOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference">TeamSettingsReviewRequestDelegationOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference">TeamSettingsReviewRequestDelegationOutputReference</a>
 
 ---
 
-##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktf/provider-github.teamSettings.TeamSettings.property.teamSlug"></a>
+##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktn/provider-github.teamSettings.TeamSettings.property.teamSlug"></a>
 
 ```python
 team_slug: str
@@ -862,7 +862,7 @@ team_slug: str
 
 ---
 
-##### `team_uid`<sup>Required</sup> <a name="team_uid" id="@cdktf/provider-github.teamSettings.TeamSettings.property.teamUid"></a>
+##### `team_uid`<sup>Required</sup> <a name="team_uid" id="@cdktn/provider-github.teamSettings.TeamSettings.property.teamUid"></a>
 
 ```python
 team_uid: str
@@ -872,7 +872,7 @@ team_uid: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.teamSettings.TeamSettings.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.teamSettings.TeamSettings.property.idInput"></a>
 
 ```python
 id_input: str
@@ -882,17 +882,17 @@ id_input: str
 
 ---
 
-##### `review_request_delegation_input`<sup>Optional</sup> <a name="review_request_delegation_input" id="@cdktf/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput"></a>
+##### `review_request_delegation_input`<sup>Optional</sup> <a name="review_request_delegation_input" id="@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput"></a>
 
 ```python
 review_request_delegation_input: TeamSettingsReviewRequestDelegation
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
+- *Type:* <a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
 
 ---
 
-##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktf/provider-github.teamSettings.TeamSettings.property.teamIdInput"></a>
+##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktn/provider-github.teamSettings.TeamSettings.property.teamIdInput"></a>
 
 ```python
 team_id_input: str
@@ -902,7 +902,7 @@ team_id_input: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettings.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettings.property.id"></a>
 
 ```python
 id: str
@@ -912,7 +912,7 @@ id: str
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.teamSettings.TeamSettings.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.teamSettings.TeamSettings.property.teamId"></a>
 
 ```python
 team_id: str
@@ -926,11 +926,11 @@ team_id: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettings.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.teamSettings.TeamSettings.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.teamSettings.TeamSettings.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -942,12 +942,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### TeamSettingsConfig <a name="TeamSettingsConfig" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig"></a>
+### TeamSettingsConfig <a name="TeamSettingsConfig" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettingsConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -967,20 +967,20 @@ teamSettings.TeamSettingsConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.teamId">team_id</a></code> | <code>str</code> | The GitHub team id or the GitHub team slug. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#id TeamSettings#id}. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | review_request_delegation block. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.teamId">team_id</a></code> | <code>str</code> | The GitHub team id or the GitHub team slug. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#id TeamSettings#id}. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.reviewRequestDelegation">review_request_delegation</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | review_request_delegation block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -990,7 +990,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1000,7 +1000,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1010,7 +1010,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1020,7 +1020,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1030,7 +1030,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1040,7 +1040,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1050,7 +1050,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.teamId"></a>
 
 ```python
 team_id: str
@@ -1060,11 +1060,11 @@ team_id: str
 
 The GitHub team id or the GitHub team slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#team_id TeamSettings#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#team_id TeamSettings#team_id}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.id"></a>
 
 ```python
 id: str
@@ -1072,33 +1072,33 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#id TeamSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#id TeamSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `review_request_delegation`<sup>Optional</sup> <a name="review_request_delegation" id="@cdktf/provider-github.teamSettings.TeamSettingsConfig.property.reviewRequestDelegation"></a>
+##### `review_request_delegation`<sup>Optional</sup> <a name="review_request_delegation" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.reviewRequestDelegation"></a>
 
 ```python
 review_request_delegation: TeamSettingsReviewRequestDelegation
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
+- *Type:* <a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
 
 review_request_delegation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
 
 ---
 
-### TeamSettingsReviewRequestDelegation <a name="TeamSettingsReviewRequestDelegation" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation"></a>
+### TeamSettingsReviewRequestDelegation <a name="TeamSettingsReviewRequestDelegation" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettingsReviewRequestDelegation(
   algorithm: str = None,
@@ -1111,13 +1111,13 @@ teamSettings.TeamSettingsReviewRequestDelegation(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm">algorithm</a></code> | <code>str</code> | The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.memberCount">member_count</a></code> | <code>typing.Union[int, float]</code> | The number of team members to assign to a pull request. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.notify">notify</a></code> | <code>bool \| cdktf.IResolvable</code> | whether to notify the entire team when at least one member is also assigned to the pull request. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm">algorithm</a></code> | <code>str</code> | The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.memberCount">member_count</a></code> | <code>typing.Union[int, float]</code> | The number of team members to assign to a pull request. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.notify">notify</a></code> | <code>bool \| cdktf.IResolvable</code> | whether to notify the entire team when at least one member is also assigned to the pull request. |
 
 ---
 
-##### `algorithm`<sup>Optional</sup> <a name="algorithm" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm"></a>
+##### `algorithm`<sup>Optional</sup> <a name="algorithm" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm"></a>
 
 ```python
 algorithm: str
@@ -1127,11 +1127,11 @@ algorithm: str
 
 The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#algorithm TeamSettings#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#algorithm TeamSettings#algorithm}
 
 ---
 
-##### `member_count`<sup>Optional</sup> <a name="member_count" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.memberCount"></a>
+##### `member_count`<sup>Optional</sup> <a name="member_count" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.memberCount"></a>
 
 ```python
 member_count: typing.Union[int, float]
@@ -1141,11 +1141,11 @@ member_count: typing.Union[int, float]
 
 The number of team members to assign to a pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#member_count TeamSettings#member_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#member_count TeamSettings#member_count}
 
 ---
 
-##### `notify`<sup>Optional</sup> <a name="notify" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.notify"></a>
+##### `notify`<sup>Optional</sup> <a name="notify" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.notify"></a>
 
 ```python
 notify: bool | IResolvable
@@ -1155,18 +1155,18 @@ notify: bool | IResolvable
 
 whether to notify the entire team when at least one member is also assigned to the pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team_settings#notify TeamSettings#notify}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team_settings#notify TeamSettings#notify}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### TeamSettingsReviewRequestDelegationOutputReference <a name="TeamSettingsReviewRequestDelegationOutputReference" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference"></a>
+### TeamSettingsReviewRequestDelegationOutputReference <a name="TeamSettingsReviewRequestDelegationOutputReference" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import team_settings
+from cdktn_provider_github import team_settings
 
 teamSettings.TeamSettingsReviewRequestDelegationOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -1176,12 +1176,12 @@ teamSettings.TeamSettingsReviewRequestDelegationOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1189,7 +1189,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1201,32 +1201,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetAlgorithm">reset_algorithm</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetMemberCount">reset_member_count</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetNotify">reset_notify</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetAlgorithm">reset_algorithm</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetMemberCount">reset_member_count</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetNotify">reset_notify</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -1234,13 +1234,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -1248,13 +1248,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -1262,13 +1262,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -1276,13 +1276,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -1290,13 +1290,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -1304,13 +1304,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -1318,13 +1318,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -1332,13 +1332,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -1346,13 +1346,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -1360,13 +1360,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -1376,13 +1376,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -1392,19 +1392,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_algorithm` <a name="reset_algorithm" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetAlgorithm"></a>
+##### `reset_algorithm` <a name="reset_algorithm" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetAlgorithm"></a>
 
 ```python
 def reset_algorithm() -> None
 ```
 
-##### `reset_member_count` <a name="reset_member_count" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetMemberCount"></a>
+##### `reset_member_count` <a name="reset_member_count" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetMemberCount"></a>
 
 ```python
 def reset_member_count() -> None
 ```
 
-##### `reset_notify` <a name="reset_notify" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetNotify"></a>
+##### `reset_notify` <a name="reset_notify" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.resetNotify"></a>
 
 ```python
 def reset_notify() -> None
@@ -1415,19 +1415,19 @@ def reset_notify() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithmInput">algorithm_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCountInput">member_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notifyInput">notify_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithm">algorithm</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCount">member_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notify">notify</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithmInput">algorithm_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCountInput">member_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notifyInput">notify_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithm">algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCount">member_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notify">notify</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -1441,7 +1441,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1451,7 +1451,7 @@ fqn: str
 
 ---
 
-##### `algorithm_input`<sup>Optional</sup> <a name="algorithm_input" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithmInput"></a>
+##### `algorithm_input`<sup>Optional</sup> <a name="algorithm_input" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithmInput"></a>
 
 ```python
 algorithm_input: str
@@ -1461,7 +1461,7 @@ algorithm_input: str
 
 ---
 
-##### `member_count_input`<sup>Optional</sup> <a name="member_count_input" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCountInput"></a>
+##### `member_count_input`<sup>Optional</sup> <a name="member_count_input" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCountInput"></a>
 
 ```python
 member_count_input: typing.Union[int, float]
@@ -1471,7 +1471,7 @@ member_count_input: typing.Union[int, float]
 
 ---
 
-##### `notify_input`<sup>Optional</sup> <a name="notify_input" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notifyInput"></a>
+##### `notify_input`<sup>Optional</sup> <a name="notify_input" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notifyInput"></a>
 
 ```python
 notify_input: bool | IResolvable
@@ -1481,7 +1481,7 @@ notify_input: bool | IResolvable
 
 ---
 
-##### `algorithm`<sup>Required</sup> <a name="algorithm" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithm"></a>
+##### `algorithm`<sup>Required</sup> <a name="algorithm" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.algorithm"></a>
 
 ```python
 algorithm: str
@@ -1491,7 +1491,7 @@ algorithm: str
 
 ---
 
-##### `member_count`<sup>Required</sup> <a name="member_count" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCount"></a>
+##### `member_count`<sup>Required</sup> <a name="member_count" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.memberCount"></a>
 
 ```python
 member_count: typing.Union[int, float]
@@ -1501,7 +1501,7 @@ member_count: typing.Union[int, float]
 
 ---
 
-##### `notify`<sup>Required</sup> <a name="notify" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notify"></a>
+##### `notify`<sup>Required</sup> <a name="notify" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.notify"></a>
 
 ```python
 notify: bool | IResolvable
@@ -1511,13 +1511,13 @@ notify: bool | IResolvable
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegationOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: TeamSettingsReviewRequestDelegation
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
+- *Type:* <a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a>
 
 ---
 

@@ -1,15 +1,15 @@
-# `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-github.provider"></a>
+# `provider` Submodule <a name="`provider` Submodule" id="@cdktn/provider-github.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GithubProvider <a name="GithubProvider" id="@cdktf/provider-github.provider.GithubProvider"></a>
+### GithubProvider <a name="GithubProvider" id="@cdktn/provider-github.provider.GithubProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs github}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs github}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.provider.GithubProvider.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.provider.GithubProvider.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProvider(
   scope: Construct,
@@ -33,26 +33,26 @@ provider.GithubProvider(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.alias">alias</a></code> | <code>str</code> | Alias name. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.appAuth">app_auth</a></code> | <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.baseUrl">base_url</a></code> | <code>str</code> | The GitHub Base API URL. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable `insecure` mode for testing purposes. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | Number of items per page for paginationDefaults to 100. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.organization">organization</a></code> | <code>str</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.owner">owner</a></code> | <code>str</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.token">token</a></code> | <code>str</code> | The OAuth token used to connect to GitHub. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between writes to GitHub API. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.alias">alias</a></code> | <code>str</code> | Alias name. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.appAuth">app_auth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.baseUrl">base_url</a></code> | <code>str</code> | The GitHub Base API URL. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable `insecure` mode for testing purposes. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | Number of items per page for paginationDefaults to 100. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.organization">organization</a></code> | <code>str</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.owner">owner</a></code> | <code>str</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.token">token</a></code> | <code>str</code> | The OAuth token used to connect to GitHub. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between writes to GitHub API. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -60,7 +60,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -70,87 +70,87 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.alias"></a>
+##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.alias"></a>
 
 - *Type:* str
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#alias GithubProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#alias GithubProvider#alias}
 
 ---
 
-##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.appAuth"></a>
+##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.appAuth"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
+- *Type:* <a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
 
 app_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#app_auth GithubProvider#app_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#app_auth GithubProvider#app_auth}
 
 ---
 
-##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.baseUrl"></a>
+##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.baseUrl"></a>
 
 - *Type:* str
 
 The GitHub Base API URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#base_url GithubProvider#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#base_url GithubProvider#base_url}
 
 ---
 
-##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.insecure"></a>
+##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.insecure"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
 Enable `insecure` mode for testing purposes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#insecure GithubProvider#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#insecure GithubProvider#insecure}
 
 ---
 
-##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.maxPerPage"></a>
+##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.maxPerPage"></a>
 
 - *Type:* typing.Union[int, float]
 
 Number of items per page for paginationDefaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#max_per_page GithubProvider#max_per_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#max_per_page GithubProvider#max_per_page}
 
 ---
 
-##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.maxRetries"></a>
+##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.maxRetries"></a>
 
 - *Type:* typing.Union[int, float]
 
 Number of times to retry a request after receiving an error status codeDefaults to 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#max_retries GithubProvider#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#max_retries GithubProvider#max_retries}
 
 ---
 
-##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.organization"></a>
+##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.organization"></a>
 
 - *Type:* str
 
 The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#organization GithubProvider#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#organization GithubProvider#organization}
 
 ---
 
-##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.owner"></a>
+##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.owner"></a>
 
 - *Type:* str
 
 The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#owner GithubProvider#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#owner GithubProvider#owner}
 
 ---
 
-##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.parallelRequests"></a>
+##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.parallelRequests"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -158,11 +158,11 @@ Allow the provider to make parallel API calls to GitHub.
 
 You may want to set it to true when you have a private Github Enterprise without strict rate limits. While it is possible to enable this setting on github.com, github.com's best practices recommend using serialization to avoid hitting abuse rate limitsDefaults to false if not set
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#parallel_requests GithubProvider#parallel_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#parallel_requests GithubProvider#parallel_requests}
 
 ---
 
-##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.readDelayMs"></a>
+##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.readDelayMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -170,21 +170,21 @@ Amount of time in milliseconds to sleep in between non-write requests to GitHub 
 
 Defaults to 0ms if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#read_delay_ms GithubProvider#read_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#read_delay_ms GithubProvider#read_delay_ms}
 
 ---
 
-##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.retryableErrors"></a>
+##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.retryableErrors"></a>
 
 - *Type:* typing.List[typing.Union[int, float]]
 
 Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#retryable_errors GithubProvider#retryable_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#retryable_errors GithubProvider#retryable_errors}
 
 ---
 
-##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.retryDelayMs"></a>
+##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.retryDelayMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -192,11 +192,11 @@ Amount of time in milliseconds to sleep in between requests to GitHub API after 
 
 Defaults to 1000ms or 1s if not set, the max_retries must be set to greater than zero.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#retry_delay_ms GithubProvider#retry_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#retry_delay_ms GithubProvider#retry_delay_ms}
 
 ---
 
-##### `token`<sup>Optional</sup> <a name="token" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.token"></a>
+##### `token`<sup>Optional</sup> <a name="token" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.token"></a>
 
 - *Type:* str
 
@@ -204,11 +204,11 @@ The OAuth token used to connect to GitHub.
 
 Anonymous mode is enabled if both `token` and `app_auth` are not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#token GithubProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#token GithubProvider#token}
 
 ---
 
-##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.Initializer.parameter.writeDelayMs"></a>
+##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.Initializer.parameter.writeDelayMs"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -216,7 +216,7 @@ Amount of time in milliseconds to sleep in between writes to GitHub API.
 
 Defaults to 1000ms or 1s if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#write_delay_ms GithubProvider#write_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#write_delay_ms GithubProvider#write_delay_ms}
 
 ---
 
@@ -224,31 +224,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetAlias">reset_alias</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetAppAuth">reset_app_auth</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetBaseUrl">reset_base_url</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetInsecure">reset_insecure</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetMaxPerPage">reset_max_per_page</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetMaxRetries">reset_max_retries</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetOrganization">reset_organization</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetOwner">reset_owner</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetParallelRequests">reset_parallel_requests</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetReadDelayMs">reset_read_delay_ms</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetRetryableErrors">reset_retryable_errors</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetRetryDelayMs">reset_retry_delay_ms</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetToken">reset_token</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.resetWriteDelayMs">reset_write_delay_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetAlias">reset_alias</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetAppAuth">reset_app_auth</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetBaseUrl">reset_base_url</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetInsecure">reset_insecure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetMaxPerPage">reset_max_per_page</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetMaxRetries">reset_max_retries</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetOrganization">reset_organization</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetOwner">reset_owner</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetParallelRequests">reset_parallel_requests</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetReadDelayMs">reset_read_delay_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetRetryableErrors">reset_retryable_errors</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetRetryDelayMs">reset_retry_delay_ms</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetToken">reset_token</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetWriteDelayMs">reset_write_delay_ms</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.provider.GithubProvider.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.provider.GithubProvider.toString"></a>
 
 ```python
 def to_string() -> str
@@ -256,7 +256,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.provider.GithubProvider.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.provider.GithubProvider.addOverride"></a>
 
 ```python
 def add_override(
@@ -265,19 +265,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.provider.GithubProvider.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.provider.GithubProvider.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.provider.GithubProvider.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.provider.GithubProvider.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.provider.GithubProvider.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.provider.GithubProvider.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -287,7 +287,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.provider.GithubProvider.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.provider.GithubProvider.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -295,7 +295,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.provider.GithubProvider.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.provider.GithubProvider.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -303,19 +303,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.provider.GithubProvider.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.provider.GithubProvider.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.provider.GithubProvider.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.provider.GithubProvider.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.provider.GithubProvider.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.provider.GithubProvider.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -323,85 +323,85 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `reset_alias` <a name="reset_alias" id="@cdktf/provider-github.provider.GithubProvider.resetAlias"></a>
+##### `reset_alias` <a name="reset_alias" id="@cdktn/provider-github.provider.GithubProvider.resetAlias"></a>
 
 ```python
 def reset_alias() -> None
 ```
 
-##### `reset_app_auth` <a name="reset_app_auth" id="@cdktf/provider-github.provider.GithubProvider.resetAppAuth"></a>
+##### `reset_app_auth` <a name="reset_app_auth" id="@cdktn/provider-github.provider.GithubProvider.resetAppAuth"></a>
 
 ```python
 def reset_app_auth() -> None
 ```
 
-##### `reset_base_url` <a name="reset_base_url" id="@cdktf/provider-github.provider.GithubProvider.resetBaseUrl"></a>
+##### `reset_base_url` <a name="reset_base_url" id="@cdktn/provider-github.provider.GithubProvider.resetBaseUrl"></a>
 
 ```python
 def reset_base_url() -> None
 ```
 
-##### `reset_insecure` <a name="reset_insecure" id="@cdktf/provider-github.provider.GithubProvider.resetInsecure"></a>
+##### `reset_insecure` <a name="reset_insecure" id="@cdktn/provider-github.provider.GithubProvider.resetInsecure"></a>
 
 ```python
 def reset_insecure() -> None
 ```
 
-##### `reset_max_per_page` <a name="reset_max_per_page" id="@cdktf/provider-github.provider.GithubProvider.resetMaxPerPage"></a>
+##### `reset_max_per_page` <a name="reset_max_per_page" id="@cdktn/provider-github.provider.GithubProvider.resetMaxPerPage"></a>
 
 ```python
 def reset_max_per_page() -> None
 ```
 
-##### `reset_max_retries` <a name="reset_max_retries" id="@cdktf/provider-github.provider.GithubProvider.resetMaxRetries"></a>
+##### `reset_max_retries` <a name="reset_max_retries" id="@cdktn/provider-github.provider.GithubProvider.resetMaxRetries"></a>
 
 ```python
 def reset_max_retries() -> None
 ```
 
-##### `reset_organization` <a name="reset_organization" id="@cdktf/provider-github.provider.GithubProvider.resetOrganization"></a>
+##### `reset_organization` <a name="reset_organization" id="@cdktn/provider-github.provider.GithubProvider.resetOrganization"></a>
 
 ```python
 def reset_organization() -> None
 ```
 
-##### `reset_owner` <a name="reset_owner" id="@cdktf/provider-github.provider.GithubProvider.resetOwner"></a>
+##### `reset_owner` <a name="reset_owner" id="@cdktn/provider-github.provider.GithubProvider.resetOwner"></a>
 
 ```python
 def reset_owner() -> None
 ```
 
-##### `reset_parallel_requests` <a name="reset_parallel_requests" id="@cdktf/provider-github.provider.GithubProvider.resetParallelRequests"></a>
+##### `reset_parallel_requests` <a name="reset_parallel_requests" id="@cdktn/provider-github.provider.GithubProvider.resetParallelRequests"></a>
 
 ```python
 def reset_parallel_requests() -> None
 ```
 
-##### `reset_read_delay_ms` <a name="reset_read_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.resetReadDelayMs"></a>
+##### `reset_read_delay_ms` <a name="reset_read_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.resetReadDelayMs"></a>
 
 ```python
 def reset_read_delay_ms() -> None
 ```
 
-##### `reset_retryable_errors` <a name="reset_retryable_errors" id="@cdktf/provider-github.provider.GithubProvider.resetRetryableErrors"></a>
+##### `reset_retryable_errors` <a name="reset_retryable_errors" id="@cdktn/provider-github.provider.GithubProvider.resetRetryableErrors"></a>
 
 ```python
 def reset_retryable_errors() -> None
 ```
 
-##### `reset_retry_delay_ms` <a name="reset_retry_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.resetRetryDelayMs"></a>
+##### `reset_retry_delay_ms` <a name="reset_retry_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.resetRetryDelayMs"></a>
 
 ```python
 def reset_retry_delay_ms() -> None
 ```
 
-##### `reset_token` <a name="reset_token" id="@cdktf/provider-github.provider.GithubProvider.resetToken"></a>
+##### `reset_token` <a name="reset_token" id="@cdktn/provider-github.provider.GithubProvider.resetToken"></a>
 
 ```python
 def reset_token() -> None
 ```
 
-##### `reset_write_delay_ms` <a name="reset_write_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.resetWriteDelayMs"></a>
+##### `reset_write_delay_ms` <a name="reset_write_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.resetWriteDelayMs"></a>
 
 ```python
 def reset_write_delay_ms() -> None
@@ -411,17 +411,17 @@ def reset_write_delay_ms() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.isTerraformProvider">is_terraform_provider</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.isTerraformProvider">is_terraform_provider</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.provider.GithubProvider.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.provider.GithubProvider.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProvider.is_construct(
   x: typing.Any
@@ -444,7 +444,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.provider.GithubProvider.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.provider.GithubProvider.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -452,42 +452,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.provider.GithubProvider.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.provider.GithubProvider.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProvider.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.provider.GithubProvider.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.provider.GithubProvider.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_provider` <a name="is_terraform_provider" id="@cdktf/provider-github.provider.GithubProvider.isTerraformProvider"></a>
+##### `is_terraform_provider` <a name="is_terraform_provider" id="@cdktn/provider-github.provider.GithubProvider.isTerraformProvider"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProvider.is_terraform_provider(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.provider.GithubProvider.isTerraformProvider.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.provider.GithubProvider.isTerraformProvider.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.provider.GithubProvider.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProvider.generate_config_for_import(
   scope: Construct,
@@ -499,7 +499,7 @@ provider.GithubProvider.generate_config_for_import(
 
 Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.provider.GithubProvider.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -507,7 +507,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.provider.GithubProvider.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -515,17 +515,17 @@ The construct id used in the generated config for the GithubProvider to import.
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.provider.GithubProvider.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing GithubProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.provider.GithubProvider.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -537,46 +537,46 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.metaAttributes">meta_attributes</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.terraformProviderSource">terraform_provider_source</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.alias">alias</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.aliasInput">alias_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.appAuthInput">app_auth_input</a></code> | <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.baseUrlInput">base_url_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.insecureInput">insecure_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.maxPerPageInput">max_per_page_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.maxRetriesInput">max_retries_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.organizationInput">organization_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.ownerInput">owner_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.parallelRequestsInput">parallel_requests_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.readDelayMsInput">read_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.retryableErrorsInput">retryable_errors_input</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.retryDelayMsInput">retry_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.tokenInput">token_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.writeDelayMsInput">write_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.appAuth">app_auth</a></code> | <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.baseUrl">base_url</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.organization">organization</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.owner">owner</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.token">token</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.metaAttributes">meta_attributes</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformProviderSource">terraform_provider_source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.alias">alias</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.aliasInput">alias_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuthInput">app_auth_input</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrlInput">base_url_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecureInput">insecure_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPageInput">max_per_page_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetriesInput">max_retries_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organizationInput">organization_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.ownerInput">owner_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequestsInput">parallel_requests_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.readDelayMsInput">read_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryableErrorsInput">retryable_errors_input</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryDelayMsInput">retry_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.tokenInput">token_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.writeDelayMsInput">write_delay_ms_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuth">app_auth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrl">base_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organization">organization</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.owner">owner</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.token">token</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.provider.GithubProvider.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.provider.GithubProvider.property.node"></a>
 
 ```python
 node: Node
@@ -588,7 +588,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.provider.GithubProvider.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.provider.GithubProvider.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -598,7 +598,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.provider.GithubProvider.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.provider.GithubProvider.property.fqn"></a>
 
 ```python
 fqn: str
@@ -608,7 +608,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.provider.GithubProvider.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.provider.GithubProvider.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -618,7 +618,7 @@ friendly_unique_id: str
 
 ---
 
-##### `meta_attributes`<sup>Required</sup> <a name="meta_attributes" id="@cdktf/provider-github.provider.GithubProvider.property.metaAttributes"></a>
+##### `meta_attributes`<sup>Required</sup> <a name="meta_attributes" id="@cdktn/provider-github.provider.GithubProvider.property.metaAttributes"></a>
 
 ```python
 meta_attributes: typing.Mapping[typing.Any]
@@ -628,7 +628,7 @@ meta_attributes: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.provider.GithubProvider.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.provider.GithubProvider.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -638,7 +638,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -648,7 +648,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `terraform_provider_source`<sup>Optional</sup> <a name="terraform_provider_source" id="@cdktf/provider-github.provider.GithubProvider.property.terraformProviderSource"></a>
+##### `terraform_provider_source`<sup>Optional</sup> <a name="terraform_provider_source" id="@cdktn/provider-github.provider.GithubProvider.property.terraformProviderSource"></a>
 
 ```python
 terraform_provider_source: str
@@ -658,7 +658,7 @@ terraform_provider_source: str
 
 ---
 
-##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktf/provider-github.provider.GithubProvider.property.alias"></a>
+##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktn/provider-github.provider.GithubProvider.property.alias"></a>
 
 ```python
 alias: str
@@ -668,7 +668,7 @@ alias: str
 
 ---
 
-##### `alias_input`<sup>Optional</sup> <a name="alias_input" id="@cdktf/provider-github.provider.GithubProvider.property.aliasInput"></a>
+##### `alias_input`<sup>Optional</sup> <a name="alias_input" id="@cdktn/provider-github.provider.GithubProvider.property.aliasInput"></a>
 
 ```python
 alias_input: str
@@ -678,17 +678,17 @@ alias_input: str
 
 ---
 
-##### `app_auth_input`<sup>Optional</sup> <a name="app_auth_input" id="@cdktf/provider-github.provider.GithubProvider.property.appAuthInput"></a>
+##### `app_auth_input`<sup>Optional</sup> <a name="app_auth_input" id="@cdktn/provider-github.provider.GithubProvider.property.appAuthInput"></a>
 
 ```python
 app_auth_input: GithubProviderAppAuth
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
+- *Type:* <a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
 
 ---
 
-##### `base_url_input`<sup>Optional</sup> <a name="base_url_input" id="@cdktf/provider-github.provider.GithubProvider.property.baseUrlInput"></a>
+##### `base_url_input`<sup>Optional</sup> <a name="base_url_input" id="@cdktn/provider-github.provider.GithubProvider.property.baseUrlInput"></a>
 
 ```python
 base_url_input: str
@@ -698,7 +698,7 @@ base_url_input: str
 
 ---
 
-##### `insecure_input`<sup>Optional</sup> <a name="insecure_input" id="@cdktf/provider-github.provider.GithubProvider.property.insecureInput"></a>
+##### `insecure_input`<sup>Optional</sup> <a name="insecure_input" id="@cdktn/provider-github.provider.GithubProvider.property.insecureInput"></a>
 
 ```python
 insecure_input: bool | IResolvable
@@ -708,7 +708,7 @@ insecure_input: bool | IResolvable
 
 ---
 
-##### `max_per_page_input`<sup>Optional</sup> <a name="max_per_page_input" id="@cdktf/provider-github.provider.GithubProvider.property.maxPerPageInput"></a>
+##### `max_per_page_input`<sup>Optional</sup> <a name="max_per_page_input" id="@cdktn/provider-github.provider.GithubProvider.property.maxPerPageInput"></a>
 
 ```python
 max_per_page_input: typing.Union[int, float]
@@ -718,7 +718,7 @@ max_per_page_input: typing.Union[int, float]
 
 ---
 
-##### `max_retries_input`<sup>Optional</sup> <a name="max_retries_input" id="@cdktf/provider-github.provider.GithubProvider.property.maxRetriesInput"></a>
+##### `max_retries_input`<sup>Optional</sup> <a name="max_retries_input" id="@cdktn/provider-github.provider.GithubProvider.property.maxRetriesInput"></a>
 
 ```python
 max_retries_input: typing.Union[int, float]
@@ -728,7 +728,7 @@ max_retries_input: typing.Union[int, float]
 
 ---
 
-##### `organization_input`<sup>Optional</sup> <a name="organization_input" id="@cdktf/provider-github.provider.GithubProvider.property.organizationInput"></a>
+##### `organization_input`<sup>Optional</sup> <a name="organization_input" id="@cdktn/provider-github.provider.GithubProvider.property.organizationInput"></a>
 
 ```python
 organization_input: str
@@ -738,7 +738,7 @@ organization_input: str
 
 ---
 
-##### `owner_input`<sup>Optional</sup> <a name="owner_input" id="@cdktf/provider-github.provider.GithubProvider.property.ownerInput"></a>
+##### `owner_input`<sup>Optional</sup> <a name="owner_input" id="@cdktn/provider-github.provider.GithubProvider.property.ownerInput"></a>
 
 ```python
 owner_input: str
@@ -748,7 +748,7 @@ owner_input: str
 
 ---
 
-##### `parallel_requests_input`<sup>Optional</sup> <a name="parallel_requests_input" id="@cdktf/provider-github.provider.GithubProvider.property.parallelRequestsInput"></a>
+##### `parallel_requests_input`<sup>Optional</sup> <a name="parallel_requests_input" id="@cdktn/provider-github.provider.GithubProvider.property.parallelRequestsInput"></a>
 
 ```python
 parallel_requests_input: bool | IResolvable
@@ -758,7 +758,7 @@ parallel_requests_input: bool | IResolvable
 
 ---
 
-##### `read_delay_ms_input`<sup>Optional</sup> <a name="read_delay_ms_input" id="@cdktf/provider-github.provider.GithubProvider.property.readDelayMsInput"></a>
+##### `read_delay_ms_input`<sup>Optional</sup> <a name="read_delay_ms_input" id="@cdktn/provider-github.provider.GithubProvider.property.readDelayMsInput"></a>
 
 ```python
 read_delay_ms_input: typing.Union[int, float]
@@ -768,7 +768,7 @@ read_delay_ms_input: typing.Union[int, float]
 
 ---
 
-##### `retryable_errors_input`<sup>Optional</sup> <a name="retryable_errors_input" id="@cdktf/provider-github.provider.GithubProvider.property.retryableErrorsInput"></a>
+##### `retryable_errors_input`<sup>Optional</sup> <a name="retryable_errors_input" id="@cdktn/provider-github.provider.GithubProvider.property.retryableErrorsInput"></a>
 
 ```python
 retryable_errors_input: typing.List[typing.Union[int, float]]
@@ -778,7 +778,7 @@ retryable_errors_input: typing.List[typing.Union[int, float]]
 
 ---
 
-##### `retry_delay_ms_input`<sup>Optional</sup> <a name="retry_delay_ms_input" id="@cdktf/provider-github.provider.GithubProvider.property.retryDelayMsInput"></a>
+##### `retry_delay_ms_input`<sup>Optional</sup> <a name="retry_delay_ms_input" id="@cdktn/provider-github.provider.GithubProvider.property.retryDelayMsInput"></a>
 
 ```python
 retry_delay_ms_input: typing.Union[int, float]
@@ -788,7 +788,7 @@ retry_delay_ms_input: typing.Union[int, float]
 
 ---
 
-##### `token_input`<sup>Optional</sup> <a name="token_input" id="@cdktf/provider-github.provider.GithubProvider.property.tokenInput"></a>
+##### `token_input`<sup>Optional</sup> <a name="token_input" id="@cdktn/provider-github.provider.GithubProvider.property.tokenInput"></a>
 
 ```python
 token_input: str
@@ -798,7 +798,7 @@ token_input: str
 
 ---
 
-##### `write_delay_ms_input`<sup>Optional</sup> <a name="write_delay_ms_input" id="@cdktf/provider-github.provider.GithubProvider.property.writeDelayMsInput"></a>
+##### `write_delay_ms_input`<sup>Optional</sup> <a name="write_delay_ms_input" id="@cdktn/provider-github.provider.GithubProvider.property.writeDelayMsInput"></a>
 
 ```python
 write_delay_ms_input: typing.Union[int, float]
@@ -808,17 +808,17 @@ write_delay_ms_input: typing.Union[int, float]
 
 ---
 
-##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktf/provider-github.provider.GithubProvider.property.appAuth"></a>
+##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktn/provider-github.provider.GithubProvider.property.appAuth"></a>
 
 ```python
 app_auth: GithubProviderAppAuth
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
+- *Type:* <a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
 
 ---
 
-##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktf/provider-github.provider.GithubProvider.property.baseUrl"></a>
+##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktn/provider-github.provider.GithubProvider.property.baseUrl"></a>
 
 ```python
 base_url: str
@@ -828,7 +828,7 @@ base_url: str
 
 ---
 
-##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktf/provider-github.provider.GithubProvider.property.insecure"></a>
+##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-github.provider.GithubProvider.property.insecure"></a>
 
 ```python
 insecure: bool | IResolvable
@@ -838,7 +838,7 @@ insecure: bool | IResolvable
 
 ---
 
-##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktf/provider-github.provider.GithubProvider.property.maxPerPage"></a>
+##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktn/provider-github.provider.GithubProvider.property.maxPerPage"></a>
 
 ```python
 max_per_page: typing.Union[int, float]
@@ -848,7 +848,7 @@ max_per_page: typing.Union[int, float]
 
 ---
 
-##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktf/provider-github.provider.GithubProvider.property.maxRetries"></a>
+##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktn/provider-github.provider.GithubProvider.property.maxRetries"></a>
 
 ```python
 max_retries: typing.Union[int, float]
@@ -858,7 +858,7 @@ max_retries: typing.Union[int, float]
 
 ---
 
-##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktf/provider-github.provider.GithubProvider.property.organization"></a>
+##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktn/provider-github.provider.GithubProvider.property.organization"></a>
 
 ```python
 organization: str
@@ -868,7 +868,7 @@ organization: str
 
 ---
 
-##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktf/provider-github.provider.GithubProvider.property.owner"></a>
+##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktn/provider-github.provider.GithubProvider.property.owner"></a>
 
 ```python
 owner: str
@@ -878,7 +878,7 @@ owner: str
 
 ---
 
-##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktf/provider-github.provider.GithubProvider.property.parallelRequests"></a>
+##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktn/provider-github.provider.GithubProvider.property.parallelRequests"></a>
 
 ```python
 parallel_requests: bool | IResolvable
@@ -888,7 +888,7 @@ parallel_requests: bool | IResolvable
 
 ---
 
-##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.property.readDelayMs"></a>
+##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.property.readDelayMs"></a>
 
 ```python
 read_delay_ms: typing.Union[int, float]
@@ -898,7 +898,7 @@ read_delay_ms: typing.Union[int, float]
 
 ---
 
-##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktf/provider-github.provider.GithubProvider.property.retryableErrors"></a>
+##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktn/provider-github.provider.GithubProvider.property.retryableErrors"></a>
 
 ```python
 retryable_errors: typing.List[typing.Union[int, float]]
@@ -908,7 +908,7 @@ retryable_errors: typing.List[typing.Union[int, float]]
 
 ---
 
-##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.property.retryDelayMs"></a>
+##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.property.retryDelayMs"></a>
 
 ```python
 retry_delay_ms: typing.Union[int, float]
@@ -918,7 +918,7 @@ retry_delay_ms: typing.Union[int, float]
 
 ---
 
-##### `token`<sup>Optional</sup> <a name="token" id="@cdktf/provider-github.provider.GithubProvider.property.token"></a>
+##### `token`<sup>Optional</sup> <a name="token" id="@cdktn/provider-github.provider.GithubProvider.property.token"></a>
 
 ```python
 token: str
@@ -928,7 +928,7 @@ token: str
 
 ---
 
-##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktf/provider-github.provider.GithubProvider.property.writeDelayMs"></a>
+##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktn/provider-github.provider.GithubProvider.property.writeDelayMs"></a>
 
 ```python
 write_delay_ms: typing.Union[int, float]
@@ -942,11 +942,11 @@ write_delay_ms: typing.Union[int, float]
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProvider.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.provider.GithubProvider.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.provider.GithubProvider.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -958,12 +958,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GithubProviderAppAuth <a name="GithubProviderAppAuth" id="@cdktf/provider-github.provider.GithubProviderAppAuth"></a>
+### GithubProviderAppAuth <a name="GithubProviderAppAuth" id="@cdktn/provider-github.provider.GithubProviderAppAuth"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.provider.GithubProviderAppAuth.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.provider.GithubProviderAppAuth.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProviderAppAuth(
   id: str,
@@ -976,13 +976,13 @@ provider.GithubProviderAppAuth(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth.property.id">id</a></code> | <code>str</code> | The GitHub App ID. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth.property.installationId">installation_id</a></code> | <code>str</code> | The GitHub App installation instance ID. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth.property.pemFile">pem_file</a></code> | <code>str</code> | The GitHub App PEM file contents. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.id">id</a></code> | <code>str</code> | The GitHub App ID. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.installationId">installation_id</a></code> | <code>str</code> | The GitHub App installation instance ID. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.pemFile">pem_file</a></code> | <code>str</code> | The GitHub App PEM file contents. |
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.provider.GithubProviderAppAuth.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.provider.GithubProviderAppAuth.property.id"></a>
 
 ```python
 id: str
@@ -992,14 +992,14 @@ id: str
 
 The GitHub App ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#id GithubProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#id GithubProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `installation_id`<sup>Required</sup> <a name="installation_id" id="@cdktf/provider-github.provider.GithubProviderAppAuth.property.installationId"></a>
+##### `installation_id`<sup>Required</sup> <a name="installation_id" id="@cdktn/provider-github.provider.GithubProviderAppAuth.property.installationId"></a>
 
 ```python
 installation_id: str
@@ -1009,11 +1009,11 @@ installation_id: str
 
 The GitHub App installation instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#installation_id GithubProvider#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#installation_id GithubProvider#installation_id}
 
 ---
 
-##### `pem_file`<sup>Required</sup> <a name="pem_file" id="@cdktf/provider-github.provider.GithubProviderAppAuth.property.pemFile"></a>
+##### `pem_file`<sup>Required</sup> <a name="pem_file" id="@cdktn/provider-github.provider.GithubProviderAppAuth.property.pemFile"></a>
 
 ```python
 pem_file: str
@@ -1023,16 +1023,16 @@ pem_file: str
 
 The GitHub App PEM file contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#pem_file GithubProvider#pem_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#pem_file GithubProvider#pem_file}
 
 ---
 
-### GithubProviderConfig <a name="GithubProviderConfig" id="@cdktf/provider-github.provider.GithubProviderConfig"></a>
+### GithubProviderConfig <a name="GithubProviderConfig" id="@cdktn/provider-github.provider.GithubProviderConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.provider.GithubProviderConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.provider.GithubProviderConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import provider
+from cdktn_provider_github import provider
 
 provider.GithubProviderConfig(
   alias: str = None,
@@ -1056,24 +1056,24 @@ provider.GithubProviderConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.alias">alias</a></code> | <code>str</code> | Alias name. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.appAuth">app_auth</a></code> | <code><a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.baseUrl">base_url</a></code> | <code>str</code> | The GitHub Base API URL. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable `insecure` mode for testing purposes. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | Number of items per page for paginationDefaults to 100. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.organization">organization</a></code> | <code>str</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.owner">owner</a></code> | <code>str</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.token">token</a></code> | <code>str</code> | The OAuth token used to connect to GitHub. |
-| <code><a href="#@cdktf/provider-github.provider.GithubProviderConfig.property.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between writes to GitHub API. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.alias">alias</a></code> | <code>str</code> | Alias name. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.appAuth">app_auth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.baseUrl">base_url</a></code> | <code>str</code> | The GitHub Base API URL. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable `insecure` mode for testing purposes. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxPerPage">max_per_page</a></code> | <code>typing.Union[int, float]</code> | Number of items per page for paginationDefaults to 100. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxRetries">max_retries</a></code> | <code>typing.Union[int, float]</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.organization">organization</a></code> | <code>str</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.owner">owner</a></code> | <code>str</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallel_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.readDelayMs">read_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryableErrors">retryable_errors</a></code> | <code>typing.List[typing.Union[int, float]]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryDelayMs">retry_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.token">token</a></code> | <code>str</code> | The OAuth token used to connect to GitHub. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.writeDelayMs">write_delay_ms</a></code> | <code>typing.Union[int, float]</code> | Amount of time in milliseconds to sleep in between writes to GitHub API. |
 
 ---
 
-##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktf/provider-github.provider.GithubProviderConfig.property.alias"></a>
+##### `alias`<sup>Optional</sup> <a name="alias" id="@cdktn/provider-github.provider.GithubProviderConfig.property.alias"></a>
 
 ```python
 alias: str
@@ -1083,25 +1083,25 @@ alias: str
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#alias GithubProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#alias GithubProvider#alias}
 
 ---
 
-##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktf/provider-github.provider.GithubProviderConfig.property.appAuth"></a>
+##### `app_auth`<sup>Optional</sup> <a name="app_auth" id="@cdktn/provider-github.provider.GithubProviderConfig.property.appAuth"></a>
 
 ```python
 app_auth: GithubProviderAppAuth
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
+- *Type:* <a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a>
 
 app_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#app_auth GithubProvider#app_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#app_auth GithubProvider#app_auth}
 
 ---
 
-##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktf/provider-github.provider.GithubProviderConfig.property.baseUrl"></a>
+##### `base_url`<sup>Optional</sup> <a name="base_url" id="@cdktn/provider-github.provider.GithubProviderConfig.property.baseUrl"></a>
 
 ```python
 base_url: str
@@ -1111,11 +1111,11 @@ base_url: str
 
 The GitHub Base API URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#base_url GithubProvider#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#base_url GithubProvider#base_url}
 
 ---
 
-##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktf/provider-github.provider.GithubProviderConfig.property.insecure"></a>
+##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-github.provider.GithubProviderConfig.property.insecure"></a>
 
 ```python
 insecure: bool | IResolvable
@@ -1125,11 +1125,11 @@ insecure: bool | IResolvable
 
 Enable `insecure` mode for testing purposes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#insecure GithubProvider#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#insecure GithubProvider#insecure}
 
 ---
 
-##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktf/provider-github.provider.GithubProviderConfig.property.maxPerPage"></a>
+##### `max_per_page`<sup>Optional</sup> <a name="max_per_page" id="@cdktn/provider-github.provider.GithubProviderConfig.property.maxPerPage"></a>
 
 ```python
 max_per_page: typing.Union[int, float]
@@ -1139,11 +1139,11 @@ max_per_page: typing.Union[int, float]
 
 Number of items per page for paginationDefaults to 100.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#max_per_page GithubProvider#max_per_page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#max_per_page GithubProvider#max_per_page}
 
 ---
 
-##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktf/provider-github.provider.GithubProviderConfig.property.maxRetries"></a>
+##### `max_retries`<sup>Optional</sup> <a name="max_retries" id="@cdktn/provider-github.provider.GithubProviderConfig.property.maxRetries"></a>
 
 ```python
 max_retries: typing.Union[int, float]
@@ -1153,11 +1153,11 @@ max_retries: typing.Union[int, float]
 
 Number of times to retry a request after receiving an error status codeDefaults to 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#max_retries GithubProvider#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#max_retries GithubProvider#max_retries}
 
 ---
 
-##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktf/provider-github.provider.GithubProviderConfig.property.organization"></a>
+##### `organization`<sup>Optional</sup> <a name="organization" id="@cdktn/provider-github.provider.GithubProviderConfig.property.organization"></a>
 
 ```python
 organization: str
@@ -1167,11 +1167,11 @@ organization: str
 
 The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#organization GithubProvider#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#organization GithubProvider#organization}
 
 ---
 
-##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktf/provider-github.provider.GithubProviderConfig.property.owner"></a>
+##### `owner`<sup>Optional</sup> <a name="owner" id="@cdktn/provider-github.provider.GithubProviderConfig.property.owner"></a>
 
 ```python
 owner: str
@@ -1181,11 +1181,11 @@ owner: str
 
 The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#owner GithubProvider#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#owner GithubProvider#owner}
 
 ---
 
-##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktf/provider-github.provider.GithubProviderConfig.property.parallelRequests"></a>
+##### `parallel_requests`<sup>Optional</sup> <a name="parallel_requests" id="@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests"></a>
 
 ```python
 parallel_requests: bool | IResolvable
@@ -1197,11 +1197,11 @@ Allow the provider to make parallel API calls to GitHub.
 
 You may want to set it to true when you have a private Github Enterprise without strict rate limits. While it is possible to enable this setting on github.com, github.com's best practices recommend using serialization to avoid hitting abuse rate limitsDefaults to false if not set
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#parallel_requests GithubProvider#parallel_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#parallel_requests GithubProvider#parallel_requests}
 
 ---
 
-##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktf/provider-github.provider.GithubProviderConfig.property.readDelayMs"></a>
+##### `read_delay_ms`<sup>Optional</sup> <a name="read_delay_ms" id="@cdktn/provider-github.provider.GithubProviderConfig.property.readDelayMs"></a>
 
 ```python
 read_delay_ms: typing.Union[int, float]
@@ -1213,11 +1213,11 @@ Amount of time in milliseconds to sleep in between non-write requests to GitHub 
 
 Defaults to 0ms if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#read_delay_ms GithubProvider#read_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#read_delay_ms GithubProvider#read_delay_ms}
 
 ---
 
-##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktf/provider-github.provider.GithubProviderConfig.property.retryableErrors"></a>
+##### `retryable_errors`<sup>Optional</sup> <a name="retryable_errors" id="@cdktn/provider-github.provider.GithubProviderConfig.property.retryableErrors"></a>
 
 ```python
 retryable_errors: typing.List[typing.Union[int, float]]
@@ -1227,11 +1227,11 @@ retryable_errors: typing.List[typing.Union[int, float]]
 
 Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#retryable_errors GithubProvider#retryable_errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#retryable_errors GithubProvider#retryable_errors}
 
 ---
 
-##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktf/provider-github.provider.GithubProviderConfig.property.retryDelayMs"></a>
+##### `retry_delay_ms`<sup>Optional</sup> <a name="retry_delay_ms" id="@cdktn/provider-github.provider.GithubProviderConfig.property.retryDelayMs"></a>
 
 ```python
 retry_delay_ms: typing.Union[int, float]
@@ -1243,11 +1243,11 @@ Amount of time in milliseconds to sleep in between requests to GitHub API after 
 
 Defaults to 1000ms or 1s if not set, the max_retries must be set to greater than zero.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#retry_delay_ms GithubProvider#retry_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#retry_delay_ms GithubProvider#retry_delay_ms}
 
 ---
 
-##### `token`<sup>Optional</sup> <a name="token" id="@cdktf/provider-github.provider.GithubProviderConfig.property.token"></a>
+##### `token`<sup>Optional</sup> <a name="token" id="@cdktn/provider-github.provider.GithubProviderConfig.property.token"></a>
 
 ```python
 token: str
@@ -1259,11 +1259,11 @@ The OAuth token used to connect to GitHub.
 
 Anonymous mode is enabled if both `token` and `app_auth` are not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#token GithubProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#token GithubProvider#token}
 
 ---
 
-##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktf/provider-github.provider.GithubProviderConfig.property.writeDelayMs"></a>
+##### `write_delay_ms`<sup>Optional</sup> <a name="write_delay_ms" id="@cdktn/provider-github.provider.GithubProviderConfig.property.writeDelayMs"></a>
 
 ```python
 write_delay_ms: typing.Union[int, float]
@@ -1275,7 +1275,7 @@ Amount of time in milliseconds to sleep in between writes to GitHub API.
 
 Defaults to 1000ms or 1s if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs#write_delay_ms GithubProvider#write_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs#write_delay_ms GithubProvider#write_delay_ms}
 
 ---
 

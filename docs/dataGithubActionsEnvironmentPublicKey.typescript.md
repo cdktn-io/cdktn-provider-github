@@ -1,28 +1,28 @@
-# `dataGithubActionsEnvironmentPublicKey` Submodule <a name="`dataGithubActionsEnvironmentPublicKey` Submodule" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey"></a>
+# `dataGithubActionsEnvironmentPublicKey` Submodule <a name="`dataGithubActionsEnvironmentPublicKey` Submodule" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataGithubActionsEnvironmentPublicKey <a name="DataGithubActionsEnvironmentPublicKey" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey"></a>
+### DataGithubActionsEnvironmentPublicKey <a name="DataGithubActionsEnvironmentPublicKey" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key github_actions_environment_public_key}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key github_actions_environment_public_key}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 new dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey(scope: Construct, id: string, config: DataGithubActionsEnvironmentPublicKeyConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig">DataGithubActionsEnvironmentPublicKeyConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig">DataGithubActionsEnvironmentPublicKeyConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig">DataGithubActionsEnvironmentPublicKeyConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig">DataGithubActionsEnvironmentPublicKeyConfig</a>
 
 ---
 
@@ -50,28 +50,28 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toHclTerraform">toHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toHclTerraform">toHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetId">resetId</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toString"></a>
 
 ```typescript
 public toString(): string
@@ -79,25 +79,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -105,7 +105,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -113,7 +113,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -121,7 +121,7 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
@@ -129,13 +129,13 @@ public toHclTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -143,127 +143,127 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.resetId"></a>
 
 ```typescript
 public resetId(): void
@@ -273,17 +273,17 @@ public resetId(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubActionsEnvironmentPublicKey resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubActionsEnvironmentPublicKey resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct(x: any)
 ```
@@ -304,7 +304,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -312,45 +312,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource"></a>
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a DataGithubActionsEnvironmentPublicKey resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -358,7 +358,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -366,17 +366,17 @@ The construct id used in the generated config for the DataGithubActionsEnvironme
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
 The id of the existing DataGithubActionsEnvironmentPublicKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -388,30 +388,30 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.key">key</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.keyId">keyId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environmentInput">environmentInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environment">environment</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repository">repository</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.keyId">keyId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environmentInput">environmentInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environment">environment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -423,7 +423,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -433,7 +433,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -443,7 +443,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -453,7 +453,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -463,7 +463,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -473,7 +473,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -483,7 +483,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -493,7 +493,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -503,7 +503,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -513,7 +513,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -523,7 +523,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -533,7 +533,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `key`<sup>Required</sup> <a name="key" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.key"></a>
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.key"></a>
 
 ```typescript
 public readonly key: string;
@@ -543,7 +543,7 @@ public readonly key: string;
 
 ---
 
-##### `keyId`<sup>Required</sup> <a name="keyId" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.keyId"></a>
+##### `keyId`<sup>Required</sup> <a name="keyId" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.keyId"></a>
 
 ```typescript
 public readonly keyId: string;
@@ -553,7 +553,7 @@ public readonly keyId: string;
 
 ---
 
-##### `environmentInput`<sup>Optional</sup> <a name="environmentInput" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environmentInput"></a>
+##### `environmentInput`<sup>Optional</sup> <a name="environmentInput" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environmentInput"></a>
 
 ```typescript
 public readonly environmentInput: string;
@@ -563,7 +563,7 @@ public readonly environmentInput: string;
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -573,7 +573,7 @@ public readonly idInput: string;
 
 ---
 
-##### `repositoryInput`<sup>Optional</sup> <a name="repositoryInput" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repositoryInput"></a>
+##### `repositoryInput`<sup>Optional</sup> <a name="repositoryInput" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repositoryInput"></a>
 
 ```typescript
 public readonly repositoryInput: string;
@@ -583,7 +583,7 @@ public readonly repositoryInput: string;
 
 ---
 
-##### `environment`<sup>Required</sup> <a name="environment" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environment"></a>
+##### `environment`<sup>Required</sup> <a name="environment" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.environment"></a>
 
 ```typescript
 public readonly environment: string;
@@ -593,7 +593,7 @@ public readonly environment: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -603,7 +603,7 @@ public readonly id: string;
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -617,11 +617,11 @@ public readonly repository: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKey.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -633,12 +633,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataGithubActionsEnvironmentPublicKeyConfig <a name="DataGithubActionsEnvironmentPublicKeyConfig" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig"></a>
+### DataGithubActionsEnvironmentPublicKeyConfig <a name="DataGithubActionsEnvironmentPublicKeyConfig" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.Initializer"></a>
 
 ```typescript
-import { dataGithubActionsEnvironmentPublicKey } from '@cdktf/provider-github'
+import { dataGithubActionsEnvironmentPublicKey } from '@cdktn/provider-github'
 
 const dataGithubActionsEnvironmentPublicKeyConfig: dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig = { ... }
 ```
@@ -647,20 +647,20 @@ const dataGithubActionsEnvironmentPublicKeyConfig: dataGithubActionsEnvironmentP
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.environment">environment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#environment DataGithubActionsEnvironmentPublicKey#environment}. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#repository DataGithubActionsEnvironmentPublicKey#repository}. |
-| <code><a href="#@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#id DataGithubActionsEnvironmentPublicKey#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.environment">environment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#environment DataGithubActionsEnvironmentPublicKey#environment}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#repository DataGithubActionsEnvironmentPublicKey#repository}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#id DataGithubActionsEnvironmentPublicKey#id}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -670,7 +670,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -680,7 +680,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -690,7 +690,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -700,7 +700,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -710,7 +710,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -720,7 +720,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -730,7 +730,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `environment`<sup>Required</sup> <a name="environment" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.environment"></a>
+##### `environment`<sup>Required</sup> <a name="environment" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.environment"></a>
 
 ```typescript
 public readonly environment: string;
@@ -738,11 +738,11 @@ public readonly environment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#environment DataGithubActionsEnvironmentPublicKey#environment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#environment DataGithubActionsEnvironmentPublicKey#environment}.
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -750,11 +750,11 @@ public readonly repository: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#repository DataGithubActionsEnvironmentPublicKey#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#repository DataGithubActionsEnvironmentPublicKey#repository}.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.dataGithubActionsEnvironmentPublicKey.DataGithubActionsEnvironmentPublicKeyConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -762,7 +762,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/actions_environment_public_key#id DataGithubActionsEnvironmentPublicKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/actions_environment_public_key#id DataGithubActionsEnvironmentPublicKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

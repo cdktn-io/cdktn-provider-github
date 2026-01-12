@@ -1,28 +1,28 @@
-# `organizationBlock` Submodule <a name="`organizationBlock` Submodule" id="@cdktf/provider-github.organizationBlock"></a>
+# `organizationBlock` Submodule <a name="`organizationBlock` Submodule" id="@cdktn/provider-github.organizationBlock"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### OrganizationBlock <a name="OrganizationBlock" id="@cdktf/provider-github.organizationBlock.OrganizationBlock"></a>
+### OrganizationBlock <a name="OrganizationBlock" id="@cdktn/provider-github.organizationBlock.OrganizationBlock"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_block github_organization_block}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_block github_organization_block}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 new organizationBlock.OrganizationBlock(scope: Construct, id: string, config: OrganizationBlockConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig">OrganizationBlockConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig">OrganizationBlockConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig">OrganizationBlockConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig">OrganizationBlockConfig</a>
 
 ---
 
@@ -50,34 +50,34 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.resetId">resetId</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.toString"></a>
 
 ```typescript
 public toString(): string
@@ -85,25 +85,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -111,7 +111,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -119,7 +119,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -127,19 +127,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -147,7 +147,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -155,7 +155,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -163,151 +163,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -317,7 +317,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -325,7 +325,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -333,7 +333,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -341,7 +341,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -349,7 +349,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -357,7 +357,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -365,7 +365,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.resetId"></a>
 
 ```typescript
 public resetId(): void
@@ -375,17 +375,17 @@ public resetId(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationBlock resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationBlock resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isConstruct"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 organizationBlock.OrganizationBlock.isConstruct(x: any)
 ```
@@ -406,7 +406,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -414,45 +414,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformElement"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 organizationBlock.OrganizationBlock.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformResource"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 organizationBlock.OrganizationBlock.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 organizationBlock.OrganizationBlock.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a OrganizationBlock resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -460,7 +460,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -468,17 +468,17 @@ The construct id used in the generated config for the OrganizationBlock to impor
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
 The id of the existing OrganizationBlock that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_block#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_block#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -490,29 +490,29 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.etag">etag</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.username">username</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.username">username</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -524,7 +524,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -534,7 +534,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -544,7 +544,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -554,7 +554,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -564,7 +564,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -574,7 +574,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -584,7 +584,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -594,7 +594,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -604,7 +604,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -614,7 +614,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -624,7 +624,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -634,7 +634,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -644,7 +644,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -654,7 +654,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.etag"></a>
 
 ```typescript
 public readonly etag: string;
@@ -664,7 +664,7 @@ public readonly etag: string;
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -674,7 +674,7 @@ public readonly idInput: string;
 
 ---
 
-##### `usernameInput`<sup>Optional</sup> <a name="usernameInput" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.usernameInput"></a>
+##### `usernameInput`<sup>Optional</sup> <a name="usernameInput" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.usernameInput"></a>
 
 ```typescript
 public readonly usernameInput: string;
@@ -684,7 +684,7 @@ public readonly usernameInput: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -694,7 +694,7 @@ public readonly id: string;
 
 ---
 
-##### `username`<sup>Required</sup> <a name="username" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.username"></a>
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.username"></a>
 
 ```typescript
 public readonly username: string;
@@ -708,11 +708,11 @@ public readonly username: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlock.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlock.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.organizationBlock.OrganizationBlock.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.organizationBlock.OrganizationBlock.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -724,12 +724,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### OrganizationBlockConfig <a name="OrganizationBlockConfig" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig"></a>
+### OrganizationBlockConfig <a name="OrganizationBlockConfig" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.Initializer"></a>
 
 ```typescript
-import { organizationBlock } from '@cdktf/provider-github'
+import { organizationBlock } from '@cdktn/provider-github'
 
 const organizationBlockConfig: organizationBlock.OrganizationBlockConfig = { ... }
 ```
@@ -738,19 +738,19 @@ const organizationBlockConfig: organizationBlock.OrganizationBlockConfig = { ...
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.username">username</a></code> | <code>string</code> | The name of the user to block. |
-| <code><a href="#@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_block#id OrganizationBlock#id}. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.username">username</a></code> | <code>string</code> | The name of the user to block. |
+| <code><a href="#@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_block#id OrganizationBlock#id}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -760,7 +760,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -770,7 +770,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -780,7 +780,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -790,7 +790,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -800,7 +800,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -810,7 +810,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -820,7 +820,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `username`<sup>Required</sup> <a name="username" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.username"></a>
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.username"></a>
 
 ```typescript
 public readonly username: string;
@@ -830,11 +830,11 @@ public readonly username: string;
 
 The name of the user to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_block#username OrganizationBlock#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_block#username OrganizationBlock#username}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.organizationBlock.OrganizationBlockConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.organizationBlock.OrganizationBlockConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -842,7 +842,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_block#id OrganizationBlock#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_block#id OrganizationBlock#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
