@@ -1,28 +1,28 @@
-# `dataGithubUser` Submodule <a name="`dataGithubUser` Submodule" id="@cdktf/provider-github.dataGithubUser"></a>
+# `dataGithubUser` Submodule <a name="`dataGithubUser` Submodule" id="@cdktn/provider-github.dataGithubUser"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataGithubUser <a name="DataGithubUser" id="@cdktf/provider-github.dataGithubUser.DataGithubUser"></a>
+### DataGithubUser <a name="DataGithubUser" id="@cdktn/provider-github.dataGithubUser.DataGithubUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user github_user}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user github_user}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 datagithubuser.NewDataGithubUser(scope Construct, id *string, config DataGithubUserConfig) DataGithubUser
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig">DataGithubUserConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig">DataGithubUserConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig">DataGithubUserConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig">DataGithubUserConfig</a>
 
 ---
 
@@ -50,28 +50,28 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.resetId">ResetId</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.toString"></a>
 
 ```go
 func ToString() *string
@@ -79,25 +79,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -105,7 +105,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -113,7 +113,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -121,7 +121,7 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
@@ -129,13 +129,13 @@ func ToHclTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -143,127 +143,127 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.resetId"></a>
 
 ```go
 func ResetId()
@@ -273,17 +273,17 @@ func ResetId()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubUser resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubUser resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 datagithubuser.DataGithubUser_IsConstruct(x interface{}) *bool
 ```
@@ -304,7 +304,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -312,45 +312,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 datagithubuser.DataGithubUser_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource"></a>
+##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 datagithubuser.DataGithubUser_IsTerraformDataSource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 datagithubuser.DataGithubUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a DataGithubUser resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -358,7 +358,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -366,17 +366,17 @@ The construct id used in the generated config for the DataGithubUser to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing DataGithubUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -388,46 +388,46 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.avatarUrl">AvatarUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.bio">Bio</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.blog">Blog</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.company">Company</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.email">Email</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.followers">Followers</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.following">Following</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.gpgKeys">GpgKeys</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.gravatarId">GravatarId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.location">Location</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.login">Login</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.name">Name</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.publicGists">PublicGists</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.publicRepos">PublicRepos</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin">SiteAdmin</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.sshKeys">SshKeys</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.suspendedAt">SuspendedAt</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.usernameInput">UsernameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.username">Username</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.avatarUrl">AvatarUrl</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.bio">Bio</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.blog">Blog</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.company">Company</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.email">Email</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.followers">Followers</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.following">Following</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.gpgKeys">GpgKeys</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.gravatarId">GravatarId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.location">Location</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.login">Login</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicGists">PublicGists</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicRepos">PublicRepos</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin">SiteAdmin</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.sshKeys">SshKeys</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.suspendedAt">SuspendedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.usernameInput">UsernameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.username">Username</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.node"></a>
 
 ```go
 func Node() Node
@@ -439,7 +439,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -449,7 +449,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -459,7 +459,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -469,7 +469,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -479,7 +479,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -489,7 +489,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -499,7 +499,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -509,7 +509,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -519,7 +519,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -529,7 +529,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -539,7 +539,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -549,7 +549,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `AvatarUrl`<sup>Required</sup> <a name="AvatarUrl" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.avatarUrl"></a>
+##### `AvatarUrl`<sup>Required</sup> <a name="AvatarUrl" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.avatarUrl"></a>
 
 ```go
 func AvatarUrl() *string
@@ -559,7 +559,7 @@ func AvatarUrl() *string
 
 ---
 
-##### `Bio`<sup>Required</sup> <a name="Bio" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.bio"></a>
+##### `Bio`<sup>Required</sup> <a name="Bio" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.bio"></a>
 
 ```go
 func Bio() *string
@@ -569,7 +569,7 @@ func Bio() *string
 
 ---
 
-##### `Blog`<sup>Required</sup> <a name="Blog" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.blog"></a>
+##### `Blog`<sup>Required</sup> <a name="Blog" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.blog"></a>
 
 ```go
 func Blog() *string
@@ -579,7 +579,7 @@ func Blog() *string
 
 ---
 
-##### `Company`<sup>Required</sup> <a name="Company" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.company"></a>
+##### `Company`<sup>Required</sup> <a name="Company" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.company"></a>
 
 ```go
 func Company() *string
@@ -589,7 +589,7 @@ func Company() *string
 
 ---
 
-##### `CreatedAt`<sup>Required</sup> <a name="CreatedAt" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.createdAt"></a>
+##### `CreatedAt`<sup>Required</sup> <a name="CreatedAt" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.createdAt"></a>
 
 ```go
 func CreatedAt() *string
@@ -599,7 +599,7 @@ func CreatedAt() *string
 
 ---
 
-##### `Email`<sup>Required</sup> <a name="Email" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.email"></a>
+##### `Email`<sup>Required</sup> <a name="Email" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.email"></a>
 
 ```go
 func Email() *string
@@ -609,7 +609,7 @@ func Email() *string
 
 ---
 
-##### `Followers`<sup>Required</sup> <a name="Followers" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.followers"></a>
+##### `Followers`<sup>Required</sup> <a name="Followers" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.followers"></a>
 
 ```go
 func Followers() *f64
@@ -619,7 +619,7 @@ func Followers() *f64
 
 ---
 
-##### `Following`<sup>Required</sup> <a name="Following" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.following"></a>
+##### `Following`<sup>Required</sup> <a name="Following" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.following"></a>
 
 ```go
 func Following() *f64
@@ -629,7 +629,7 @@ func Following() *f64
 
 ---
 
-##### `GpgKeys`<sup>Required</sup> <a name="GpgKeys" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.gpgKeys"></a>
+##### `GpgKeys`<sup>Required</sup> <a name="GpgKeys" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.gpgKeys"></a>
 
 ```go
 func GpgKeys() *[]*string
@@ -639,7 +639,7 @@ func GpgKeys() *[]*string
 
 ---
 
-##### `GravatarId`<sup>Required</sup> <a name="GravatarId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.gravatarId"></a>
+##### `GravatarId`<sup>Required</sup> <a name="GravatarId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.gravatarId"></a>
 
 ```go
 func GravatarId() *string
@@ -649,7 +649,7 @@ func GravatarId() *string
 
 ---
 
-##### `Location`<sup>Required</sup> <a name="Location" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.location"></a>
+##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.location"></a>
 
 ```go
 func Location() *string
@@ -659,7 +659,7 @@ func Location() *string
 
 ---
 
-##### `Login`<sup>Required</sup> <a name="Login" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.login"></a>
+##### `Login`<sup>Required</sup> <a name="Login" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.login"></a>
 
 ```go
 func Login() *string
@@ -669,7 +669,7 @@ func Login() *string
 
 ---
 
-##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.name"></a>
 
 ```go
 func Name() *string
@@ -679,7 +679,7 @@ func Name() *string
 
 ---
 
-##### `NodeId`<sup>Required</sup> <a name="NodeId" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.nodeId"></a>
+##### `NodeId`<sup>Required</sup> <a name="NodeId" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.nodeId"></a>
 
 ```go
 func NodeId() *string
@@ -689,7 +689,7 @@ func NodeId() *string
 
 ---
 
-##### `PublicGists`<sup>Required</sup> <a name="PublicGists" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.publicGists"></a>
+##### `PublicGists`<sup>Required</sup> <a name="PublicGists" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicGists"></a>
 
 ```go
 func PublicGists() *f64
@@ -699,7 +699,7 @@ func PublicGists() *f64
 
 ---
 
-##### `PublicRepos`<sup>Required</sup> <a name="PublicRepos" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.publicRepos"></a>
+##### `PublicRepos`<sup>Required</sup> <a name="PublicRepos" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicRepos"></a>
 
 ```go
 func PublicRepos() *f64
@@ -709,7 +709,7 @@ func PublicRepos() *f64
 
 ---
 
-##### `SiteAdmin`<sup>Required</sup> <a name="SiteAdmin" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin"></a>
+##### `SiteAdmin`<sup>Required</sup> <a name="SiteAdmin" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin"></a>
 
 ```go
 func SiteAdmin() IResolvable
@@ -719,7 +719,7 @@ func SiteAdmin() IResolvable
 
 ---
 
-##### `SshKeys`<sup>Required</sup> <a name="SshKeys" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.sshKeys"></a>
+##### `SshKeys`<sup>Required</sup> <a name="SshKeys" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.sshKeys"></a>
 
 ```go
 func SshKeys() *[]*string
@@ -729,7 +729,7 @@ func SshKeys() *[]*string
 
 ---
 
-##### `SuspendedAt`<sup>Required</sup> <a name="SuspendedAt" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.suspendedAt"></a>
+##### `SuspendedAt`<sup>Required</sup> <a name="SuspendedAt" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.suspendedAt"></a>
 
 ```go
 func SuspendedAt() *string
@@ -739,7 +739,7 @@ func SuspendedAt() *string
 
 ---
 
-##### `UpdatedAt`<sup>Required</sup> <a name="UpdatedAt" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.updatedAt"></a>
+##### `UpdatedAt`<sup>Required</sup> <a name="UpdatedAt" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.updatedAt"></a>
 
 ```go
 func UpdatedAt() *string
@@ -749,7 +749,7 @@ func UpdatedAt() *string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -759,7 +759,7 @@ func IdInput() *string
 
 ---
 
-##### `UsernameInput`<sup>Optional</sup> <a name="UsernameInput" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.usernameInput"></a>
+##### `UsernameInput`<sup>Optional</sup> <a name="UsernameInput" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.usernameInput"></a>
 
 ```go
 func UsernameInput() *string
@@ -769,7 +769,7 @@ func UsernameInput() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.id"></a>
 
 ```go
 func Id() *string
@@ -779,7 +779,7 @@ func Id() *string
 
 ---
 
-##### `Username`<sup>Required</sup> <a name="Username" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.username"></a>
+##### `Username`<sup>Required</sup> <a name="Username" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.username"></a>
 
 ```go
 func Username() *string
@@ -793,11 +793,11 @@ func Username() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUser.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.dataGithubUser.DataGithubUser.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -809,12 +809,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataGithubUserConfig <a name="DataGithubUserConfig" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig"></a>
+### DataGithubUserConfig <a name="DataGithubUserConfig" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/datagithubuser"
 
 &datagithubuser.DataGithubUserConfig {
 	Connection: interface{},
@@ -833,19 +833,19 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/datagithubuser"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user#username DataGithubUser#username}. |
-| <code><a href="#@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user#id DataGithubUser#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user#username DataGithubUser#username}. |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user#id DataGithubUser#id}. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -855,7 +855,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -865,7 +865,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -875,7 +875,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -885,7 +885,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -895,7 +895,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -905,7 +905,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -915,7 +915,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Username`<sup>Required</sup> <a name="Username" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.username"></a>
+##### `Username`<sup>Required</sup> <a name="Username" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.username"></a>
 
 ```go
 Username *string
@@ -923,11 +923,11 @@ Username *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user#username DataGithubUser#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user#username DataGithubUser#username}.
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.dataGithubUser.DataGithubUserConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.id"></a>
 
 ```go
 Id *string
@@ -935,7 +935,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/user#id DataGithubUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/user#id DataGithubUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

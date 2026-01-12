@@ -1,15 +1,15 @@
-# `dataGithubIpRanges` Submodule <a name="`dataGithubIpRanges` Submodule" id="@cdktf/provider-github.dataGithubIpRanges"></a>
+# `dataGithubIpRanges` Submodule <a name="`dataGithubIpRanges` Submodule" id="@cdktn/provider-github.dataGithubIpRanges"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### DataGithubIpRanges <a name="DataGithubIpRanges" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges"></a>
+### DataGithubIpRanges <a name="DataGithubIpRanges" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges github_ip_ranges}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges github_ip_ranges}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRanges(
   scope: Construct,
@@ -27,20 +27,20 @@ dataGithubIpRanges.DataGithubIpRanges(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -48,7 +48,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -58,53 +58,53 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,28 +115,28 @@ If you experience problems setting this value it might not be settable. Please t
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform">to_hcl_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId">reset_id</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toString"></a>
 
 ```python
 def to_string() -> str
@@ -144,7 +144,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride"></a>
 
 ```python
 def add_override(
@@ -153,19 +153,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -175,7 +175,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -183,7 +183,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -191,7 +191,7 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
@@ -199,13 +199,13 @@ def to_hcl_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -213,7 +213,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -221,13 +221,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -235,13 +235,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -249,13 +249,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -263,13 +263,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -277,13 +277,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -291,13 +291,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -305,13 +305,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -319,13 +319,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -333,13 +333,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -347,13 +347,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.resetId"></a>
 
 ```python
 def reset_id() -> None
@@ -363,17 +363,17 @@ def reset_id() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource">is_terraform_data_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRanges.is_construct(
   x: typing.Any
@@ -396,7 +396,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -404,42 +404,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRanges.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource"></a>
+##### `is_terraform_data_source` <a name="is_terraform_data_source" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRanges.is_terraform_data_source(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRanges.generate_config_for_import(
   scope: Construct,
@@ -451,7 +451,7 @@ dataGithubIpRanges.DataGithubIpRanges.generate_config_for_import(
 
 Generates CDKTF code for importing a DataGithubIpRanges resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -459,7 +459,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -467,17 +467,17 @@ The construct id used in the generated config for the DataGithubIpRanges to impo
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing DataGithubIpRanges that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -489,51 +489,51 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions">actions</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4">actions_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6">actions_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api">api</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4">api_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6">api_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot">dependabot</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4">dependabot_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6">dependabot_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git">git</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4">git_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6">git_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks">hooks</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4">hooks_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6">hooks_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer">importer</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4">importer_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6">importer_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages">packages</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4">packages_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6">packages_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages">pages</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4">pages_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6">pages_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web">web</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4">web_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6">web_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions">actions</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4">actions_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6">actions_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api">api</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4">api_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6">api_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot">dependabot</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4">dependabot_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6">dependabot_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git">git</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4">git_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6">git_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks">hooks</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4">hooks_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6">hooks_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer">importer</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4">importer_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6">importer_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages">packages</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4">packages_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6">packages_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages">pages</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4">pages_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6">pages_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web">web</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4">web_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6">web_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id">id</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.node"></a>
 
 ```python
 node: Node
@@ -545,7 +545,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -555,7 +555,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.fqn"></a>
 
 ```python
 fqn: str
@@ -565,7 +565,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -575,7 +575,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -585,7 +585,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -595,7 +595,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -605,7 +605,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -615,7 +615,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -625,7 +625,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -635,7 +635,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -645,7 +645,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -655,7 +655,7 @@ provider: TerraformProvider
 
 ---
 
-##### `actions`<sup>Required</sup> <a name="actions" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions"></a>
+##### `actions`<sup>Required</sup> <a name="actions" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions"></a>
 
 ```python
 actions: typing.List[str]
@@ -665,7 +665,7 @@ actions: typing.List[str]
 
 ---
 
-##### `actions_ipv4`<sup>Required</sup> <a name="actions_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4"></a>
+##### `actions_ipv4`<sup>Required</sup> <a name="actions_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4"></a>
 
 ```python
 actions_ipv4: typing.List[str]
@@ -675,7 +675,7 @@ actions_ipv4: typing.List[str]
 
 ---
 
-##### `actions_ipv6`<sup>Required</sup> <a name="actions_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6"></a>
+##### `actions_ipv6`<sup>Required</sup> <a name="actions_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6"></a>
 
 ```python
 actions_ipv6: typing.List[str]
@@ -685,7 +685,7 @@ actions_ipv6: typing.List[str]
 
 ---
 
-##### `api`<sup>Required</sup> <a name="api" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api"></a>
+##### `api`<sup>Required</sup> <a name="api" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api"></a>
 
 ```python
 api: typing.List[str]
@@ -695,7 +695,7 @@ api: typing.List[str]
 
 ---
 
-##### `api_ipv4`<sup>Required</sup> <a name="api_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4"></a>
+##### `api_ipv4`<sup>Required</sup> <a name="api_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4"></a>
 
 ```python
 api_ipv4: typing.List[str]
@@ -705,7 +705,7 @@ api_ipv4: typing.List[str]
 
 ---
 
-##### `api_ipv6`<sup>Required</sup> <a name="api_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6"></a>
+##### `api_ipv6`<sup>Required</sup> <a name="api_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6"></a>
 
 ```python
 api_ipv6: typing.List[str]
@@ -715,7 +715,7 @@ api_ipv6: typing.List[str]
 
 ---
 
-##### `dependabot`<sup>Required</sup> <a name="dependabot" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot"></a>
+##### `dependabot`<sup>Required</sup> <a name="dependabot" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabot"></a>
 
 ```python
 dependabot: typing.List[str]
@@ -725,7 +725,7 @@ dependabot: typing.List[str]
 
 ---
 
-##### `dependabot_ipv4`<sup>Required</sup> <a name="dependabot_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4"></a>
+##### `dependabot_ipv4`<sup>Required</sup> <a name="dependabot_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4"></a>
 
 ```python
 dependabot_ipv4: typing.List[str]
@@ -735,7 +735,7 @@ dependabot_ipv4: typing.List[str]
 
 ---
 
-##### `dependabot_ipv6`<sup>Required</sup> <a name="dependabot_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6"></a>
+##### `dependabot_ipv6`<sup>Required</sup> <a name="dependabot_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6"></a>
 
 ```python
 dependabot_ipv6: typing.List[str]
@@ -745,7 +745,7 @@ dependabot_ipv6: typing.List[str]
 
 ---
 
-##### `git`<sup>Required</sup> <a name="git" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git"></a>
+##### `git`<sup>Required</sup> <a name="git" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git"></a>
 
 ```python
 git: typing.List[str]
@@ -755,7 +755,7 @@ git: typing.List[str]
 
 ---
 
-##### `git_ipv4`<sup>Required</sup> <a name="git_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4"></a>
+##### `git_ipv4`<sup>Required</sup> <a name="git_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4"></a>
 
 ```python
 git_ipv4: typing.List[str]
@@ -765,7 +765,7 @@ git_ipv4: typing.List[str]
 
 ---
 
-##### `git_ipv6`<sup>Required</sup> <a name="git_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6"></a>
+##### `git_ipv6`<sup>Required</sup> <a name="git_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6"></a>
 
 ```python
 git_ipv6: typing.List[str]
@@ -775,7 +775,7 @@ git_ipv6: typing.List[str]
 
 ---
 
-##### `hooks`<sup>Required</sup> <a name="hooks" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks"></a>
+##### `hooks`<sup>Required</sup> <a name="hooks" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks"></a>
 
 ```python
 hooks: typing.List[str]
@@ -785,7 +785,7 @@ hooks: typing.List[str]
 
 ---
 
-##### `hooks_ipv4`<sup>Required</sup> <a name="hooks_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4"></a>
+##### `hooks_ipv4`<sup>Required</sup> <a name="hooks_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv4"></a>
 
 ```python
 hooks_ipv4: typing.List[str]
@@ -795,7 +795,7 @@ hooks_ipv4: typing.List[str]
 
 ---
 
-##### `hooks_ipv6`<sup>Required</sup> <a name="hooks_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6"></a>
+##### `hooks_ipv6`<sup>Required</sup> <a name="hooks_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooksIpv6"></a>
 
 ```python
 hooks_ipv6: typing.List[str]
@@ -805,7 +805,7 @@ hooks_ipv6: typing.List[str]
 
 ---
 
-##### `importer`<sup>Required</sup> <a name="importer" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer"></a>
+##### `importer`<sup>Required</sup> <a name="importer" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importer"></a>
 
 ```python
 importer: typing.List[str]
@@ -815,7 +815,7 @@ importer: typing.List[str]
 
 ---
 
-##### `importer_ipv4`<sup>Required</sup> <a name="importer_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4"></a>
+##### `importer_ipv4`<sup>Required</sup> <a name="importer_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv4"></a>
 
 ```python
 importer_ipv4: typing.List[str]
@@ -825,7 +825,7 @@ importer_ipv4: typing.List[str]
 
 ---
 
-##### `importer_ipv6`<sup>Required</sup> <a name="importer_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6"></a>
+##### `importer_ipv6`<sup>Required</sup> <a name="importer_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.importerIpv6"></a>
 
 ```python
 importer_ipv6: typing.List[str]
@@ -835,7 +835,7 @@ importer_ipv6: typing.List[str]
 
 ---
 
-##### `packages`<sup>Required</sup> <a name="packages" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages"></a>
+##### `packages`<sup>Required</sup> <a name="packages" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packages"></a>
 
 ```python
 packages: typing.List[str]
@@ -845,7 +845,7 @@ packages: typing.List[str]
 
 ---
 
-##### `packages_ipv4`<sup>Required</sup> <a name="packages_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4"></a>
+##### `packages_ipv4`<sup>Required</sup> <a name="packages_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv4"></a>
 
 ```python
 packages_ipv4: typing.List[str]
@@ -855,7 +855,7 @@ packages_ipv4: typing.List[str]
 
 ---
 
-##### `packages_ipv6`<sup>Required</sup> <a name="packages_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6"></a>
+##### `packages_ipv6`<sup>Required</sup> <a name="packages_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.packagesIpv6"></a>
 
 ```python
 packages_ipv6: typing.List[str]
@@ -865,7 +865,7 @@ packages_ipv6: typing.List[str]
 
 ---
 
-##### `pages`<sup>Required</sup> <a name="pages" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages"></a>
+##### `pages`<sup>Required</sup> <a name="pages" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pages"></a>
 
 ```python
 pages: typing.List[str]
@@ -875,7 +875,7 @@ pages: typing.List[str]
 
 ---
 
-##### `pages_ipv4`<sup>Required</sup> <a name="pages_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4"></a>
+##### `pages_ipv4`<sup>Required</sup> <a name="pages_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv4"></a>
 
 ```python
 pages_ipv4: typing.List[str]
@@ -885,7 +885,7 @@ pages_ipv4: typing.List[str]
 
 ---
 
-##### `pages_ipv6`<sup>Required</sup> <a name="pages_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6"></a>
+##### `pages_ipv6`<sup>Required</sup> <a name="pages_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.pagesIpv6"></a>
 
 ```python
 pages_ipv6: typing.List[str]
@@ -895,7 +895,7 @@ pages_ipv6: typing.List[str]
 
 ---
 
-##### `web`<sup>Required</sup> <a name="web" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web"></a>
+##### `web`<sup>Required</sup> <a name="web" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.web"></a>
 
 ```python
 web: typing.List[str]
@@ -905,7 +905,7 @@ web: typing.List[str]
 
 ---
 
-##### `web_ipv4`<sup>Required</sup> <a name="web_ipv4" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4"></a>
+##### `web_ipv4`<sup>Required</sup> <a name="web_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv4"></a>
 
 ```python
 web_ipv4: typing.List[str]
@@ -915,7 +915,7 @@ web_ipv4: typing.List[str]
 
 ---
 
-##### `web_ipv6`<sup>Required</sup> <a name="web_ipv6" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6"></a>
+##### `web_ipv6`<sup>Required</sup> <a name="web_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.webIpv6"></a>
 
 ```python
 web_ipv6: typing.List[str]
@@ -925,7 +925,7 @@ web_ipv6: typing.List[str]
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.idInput"></a>
 
 ```python
 id_input: str
@@ -935,7 +935,7 @@ id_input: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.id"></a>
 
 ```python
 id: str
@@ -949,11 +949,11 @@ id: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -965,12 +965,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### DataGithubIpRangesConfig <a name="DataGithubIpRangesConfig" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig"></a>
+### DataGithubIpRangesConfig <a name="DataGithubIpRangesConfig" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import data_github_ip_ranges
+from cdktn_provider_github import data_github_ip_ranges
 
 dataGithubIpRanges.DataGithubIpRangesConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -988,18 +988,18 @@ dataGithubIpRanges.DataGithubIpRangesConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1009,7 +1009,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1019,7 +1019,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1029,7 +1029,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1039,7 +1039,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1049,7 +1049,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1059,7 +1059,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1069,7 +1069,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id"></a>
 
 ```python
 id: str
@@ -1077,7 +1077,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

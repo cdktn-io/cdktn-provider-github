@@ -1,28 +1,28 @@
-# `userGpgKey` Submodule <a name="`userGpgKey` Submodule" id="@cdktf/provider-github.userGpgKey"></a>
+# `userGpgKey` Submodule <a name="`userGpgKey` Submodule" id="@cdktn/provider-github.userGpgKey"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### UserGpgKey <a name="UserGpgKey" id="@cdktf/provider-github.userGpgKey.UserGpgKey"></a>
+### UserGpgKey <a name="UserGpgKey" id="@cdktn/provider-github.userGpgKey.UserGpgKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_gpg_key github_user_gpg_key}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_gpg_key github_user_gpg_key}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 usergpgkey.NewUserGpgKey(scope Construct, id *string, config UserGpgKeyConfig) UserGpgKey
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig">UserGpgKeyConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig">UserGpgKeyConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.userGpgKey.UserGpgKey.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig">UserGpgKeyConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig">UserGpgKeyConfig</a>
 
 ---
 
@@ -50,34 +50,34 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.resetId">ResetId</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.userGpgKey.UserGpgKey.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.userGpgKey.UserGpgKey.toString"></a>
 
 ```go
 func ToString() *string
@@ -85,25 +85,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.userGpgKey.UserGpgKey.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.userGpgKey.UserGpgKey.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.userGpgKey.UserGpgKey.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.userGpgKey.UserGpgKey.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.userGpgKey.UserGpgKey.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.userGpgKey.UserGpgKey.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -111,7 +111,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -119,7 +119,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -127,19 +127,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.userGpgKey.UserGpgKey.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.userGpgKey.UserGpgKey.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.userGpgKey.UserGpgKey.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.userGpgKey.UserGpgKey.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.userGpgKey.UserGpgKey.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.userGpgKey.UserGpgKey.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -147,7 +147,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-github.userGpgKey.UserGpgKey.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-github.userGpgKey.UserGpgKey.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -155,7 +155,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.userGpgKey.UserGpgKey.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.userGpgKey.UserGpgKey.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -163,151 +163,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-github.userGpgKey.UserGpgKey.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-github.userGpgKey.UserGpgKey.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-github.userGpgKey.UserGpgKey.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-github.userGpgKey.UserGpgKey.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.userGpgKey.UserGpgKey.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.userGpgKey.UserGpgKey.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.userGpgKey.UserGpgKey.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.userGpgKey.UserGpgKey.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.userGpgKey.UserGpgKey.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -317,7 +317,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -325,7 +325,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -333,7 +333,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -341,7 +341,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -349,7 +349,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -357,7 +357,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.userGpgKey.UserGpgKey.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.userGpgKey.UserGpgKey.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -365,7 +365,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.resetId"></a>
 
 ```go
 func ResetId()
@@ -375,17 +375,17 @@ func ResetId()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a UserGpgKey resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a UserGpgKey resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 usergpgkey.UserGpgKey_IsConstruct(x interface{}) *bool
 ```
@@ -406,7 +406,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -414,45 +414,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 usergpgkey.UserGpgKey_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 usergpgkey.UserGpgKey_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.userGpgKey.UserGpgKey.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.userGpgKey.UserGpgKey.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 usergpgkey.UserGpgKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a UserGpgKey resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -460,7 +460,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -468,17 +468,17 @@ The construct id used in the generated config for the UserGpgKey to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing UserGpgKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_gpg_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_gpg_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.userGpgKey.UserGpgKey.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -490,30 +490,30 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.keyId">KeyId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKeyInput">ArmoredPublicKeyInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKey">ArmoredPublicKey</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.keyId">KeyId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKeyInput">ArmoredPublicKeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKey">ArmoredPublicKey</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.node"></a>
 
 ```go
 func Node() Node
@@ -525,7 +525,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -535,7 +535,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -545,7 +545,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -555,7 +555,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -565,7 +565,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -575,7 +575,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -585,7 +585,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -595,7 +595,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -605,7 +605,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -615,7 +615,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -625,7 +625,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -635,7 +635,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -645,7 +645,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -655,7 +655,7 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.etag"></a>
+##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.etag"></a>
 
 ```go
 func Etag() *string
@@ -665,7 +665,7 @@ func Etag() *string
 
 ---
 
-##### `KeyId`<sup>Required</sup> <a name="KeyId" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.keyId"></a>
+##### `KeyId`<sup>Required</sup> <a name="KeyId" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.keyId"></a>
 
 ```go
 func KeyId() *string
@@ -675,7 +675,7 @@ func KeyId() *string
 
 ---
 
-##### `ArmoredPublicKeyInput`<sup>Optional</sup> <a name="ArmoredPublicKeyInput" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKeyInput"></a>
+##### `ArmoredPublicKeyInput`<sup>Optional</sup> <a name="ArmoredPublicKeyInput" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKeyInput"></a>
 
 ```go
 func ArmoredPublicKeyInput() *string
@@ -685,7 +685,7 @@ func ArmoredPublicKeyInput() *string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -695,7 +695,7 @@ func IdInput() *string
 
 ---
 
-##### `ArmoredPublicKey`<sup>Required</sup> <a name="ArmoredPublicKey" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKey"></a>
+##### `ArmoredPublicKey`<sup>Required</sup> <a name="ArmoredPublicKey" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.armoredPublicKey"></a>
 
 ```go
 func ArmoredPublicKey() *string
@@ -705,7 +705,7 @@ func ArmoredPublicKey() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.id"></a>
 
 ```go
 func Id() *string
@@ -719,11 +719,11 @@ func Id() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKey.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKey.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.userGpgKey.UserGpgKey.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.userGpgKey.UserGpgKey.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -735,12 +735,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### UserGpgKeyConfig <a name="UserGpgKeyConfig" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig"></a>
+### UserGpgKeyConfig <a name="UserGpgKeyConfig" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/usergpgkey"
 
 &usergpgkey.UserGpgKeyConfig {
 	Connection: interface{},
@@ -759,19 +759,19 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/usergpgkey"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.armoredPublicKey">ArmoredPublicKey</a></code> | <code>*string</code> | Your public GPG key, generated in ASCII-armored format. |
-| <code><a href="#@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_gpg_key#id UserGpgKey#id}. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.armoredPublicKey">ArmoredPublicKey</a></code> | <code>*string</code> | Your public GPG key, generated in ASCII-armored format. |
+| <code><a href="#@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_gpg_key#id UserGpgKey#id}. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -781,7 +781,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -791,7 +791,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -801,7 +801,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -811,7 +811,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -821,7 +821,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -831,7 +831,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -841,7 +841,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `ArmoredPublicKey`<sup>Required</sup> <a name="ArmoredPublicKey" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.armoredPublicKey"></a>
+##### `ArmoredPublicKey`<sup>Required</sup> <a name="ArmoredPublicKey" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.armoredPublicKey"></a>
 
 ```go
 ArmoredPublicKey *string
@@ -851,11 +851,11 @@ ArmoredPublicKey *string
 
 Your public GPG key, generated in ASCII-armored format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_gpg_key#armored_public_key UserGpgKey#armored_public_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_gpg_key#armored_public_key UserGpgKey#armored_public_key}
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.userGpgKey.UserGpgKeyConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.userGpgKey.UserGpgKeyConfig.property.id"></a>
 
 ```go
 Id *string
@@ -863,7 +863,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/user_gpg_key#id UserGpgKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/user_gpg_key#id UserGpgKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

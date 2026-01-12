@@ -1,15 +1,15 @@
-# `organizationSecurityManager` Submodule <a name="`organizationSecurityManager` Submodule" id="@cdktf/provider-github.organizationSecurityManager"></a>
+# `organizationSecurityManager` Submodule <a name="`organizationSecurityManager` Submodule" id="@cdktn/provider-github.organizationSecurityManager"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### OrganizationSecurityManager <a name="OrganizationSecurityManager" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager"></a>
+### OrganizationSecurityManager <a name="OrganizationSecurityManager" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager github_organization_security_manager}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager github_organization_security_manager}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManager(
   scope: Construct,
@@ -28,21 +28,21 @@ organizationSecurityManager.OrganizationSecurityManager(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.teamSlug">team_slug</a></code> | <code>str</code> | The slug of the team to manage. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.teamSlug">team_slug</a></code> | <code>str</code> | The slug of the team to manage. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -50,7 +50,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -60,63 +60,63 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.teamSlug"></a>
+##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.teamSlug"></a>
 
 - *Type:* str
 
 The slug of the team to manage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#team_slug OrganizationSecurityManager#team_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#team_slug OrganizationSecurityManager#team_slug}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,34 +127,34 @@ If you experience problems setting this value it might not be settable. Please t
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetId">reset_id</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toString"></a>
 
 ```python
 def to_string() -> str
@@ -162,7 +162,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride"></a>
 
 ```python
 def add_override(
@@ -171,19 +171,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -193,7 +193,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -201,7 +201,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -209,19 +209,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -229,7 +229,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -239,7 +239,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -247,7 +247,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -255,13 +255,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -269,13 +269,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -283,13 +283,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -297,13 +297,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -311,13 +311,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -325,13 +325,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -339,13 +339,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -353,13 +353,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -367,19 +367,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom"></a>
 
 ```python
 def import_from(
@@ -388,19 +388,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -408,13 +408,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -426,7 +426,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -434,7 +434,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo"></a>
 
 ```python
 def move_to(
@@ -445,7 +445,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -453,7 +453,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -461,7 +461,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -471,7 +471,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -479,7 +479,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.resetId"></a>
 
 ```python
 def reset_id() -> None
@@ -489,17 +489,17 @@ def reset_id() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a OrganizationSecurityManager resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a OrganizationSecurityManager resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManager.is_construct(
   x: typing.Any
@@ -522,7 +522,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -530,42 +530,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManager.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManager.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManager.generate_config_for_import(
   scope: Construct,
@@ -577,7 +577,7 @@ organizationSecurityManager.OrganizationSecurityManager.generate_config_for_impo
 
 Generates CDKTF code for importing a OrganizationSecurityManager resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -585,7 +585,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -593,17 +593,17 @@ The construct id used in the generated config for the OrganizationSecurityManage
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing OrganizationSecurityManager that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -615,28 +615,28 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlugInput">team_slug_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlug">team_slug</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlugInput">team_slug_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlug">team_slug</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.node"></a>
 
 ```python
 node: Node
@@ -648,7 +648,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -658,7 +658,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.fqn"></a>
 
 ```python
 fqn: str
@@ -668,7 +668,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -678,7 +678,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -688,7 +688,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -698,7 +698,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -708,7 +708,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -718,7 +718,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -728,7 +728,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -738,7 +738,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -748,7 +748,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -758,7 +758,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -768,7 +768,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -778,7 +778,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.idInput"></a>
 
 ```python
 id_input: str
@@ -788,7 +788,7 @@ id_input: str
 
 ---
 
-##### `team_slug_input`<sup>Optional</sup> <a name="team_slug_input" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlugInput"></a>
+##### `team_slug_input`<sup>Optional</sup> <a name="team_slug_input" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlugInput"></a>
 
 ```python
 team_slug_input: str
@@ -798,7 +798,7 @@ team_slug_input: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.id"></a>
 
 ```python
 id: str
@@ -808,7 +808,7 @@ id: str
 
 ---
 
-##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlug"></a>
+##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.teamSlug"></a>
 
 ```python
 team_slug: str
@@ -822,11 +822,11 @@ team_slug: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManager.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -838,12 +838,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### OrganizationSecurityManagerConfig <a name="OrganizationSecurityManagerConfig" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig"></a>
+### OrganizationSecurityManagerConfig <a name="OrganizationSecurityManagerConfig" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_security_manager
+from cdktn_provider_github import organization_security_manager
 
 organizationSecurityManager.OrganizationSecurityManagerConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -862,19 +862,19 @@ organizationSecurityManager.OrganizationSecurityManagerConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.teamSlug">team_slug</a></code> | <code>str</code> | The slug of the team to manage. |
-| <code><a href="#@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.teamSlug">team_slug</a></code> | <code>str</code> | The slug of the team to manage. |
+| <code><a href="#@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -884,7 +884,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -894,7 +894,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -904,7 +904,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -914,7 +914,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -924,7 +924,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -934,7 +934,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -944,7 +944,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.teamSlug"></a>
+##### `team_slug`<sup>Required</sup> <a name="team_slug" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.teamSlug"></a>
 
 ```python
 team_slug: str
@@ -954,11 +954,11 @@ team_slug: str
 
 The slug of the team to manage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#team_slug OrganizationSecurityManager#team_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#team_slug OrganizationSecurityManager#team_slug}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.organizationSecurityManager.OrganizationSecurityManagerConfig.property.id"></a>
 
 ```python
 id: str
@@ -966,7 +966,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -1,15 +1,15 @@
-# `organizationCustomProperties` Submodule <a name="`organizationCustomProperties` Submodule" id="@cdktf/provider-github.organizationCustomProperties"></a>
+# `organizationCustomProperties` Submodule <a name="`organizationCustomProperties` Submodule" id="@cdktn/provider-github.organizationCustomProperties"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### OrganizationCustomProperties <a name="OrganizationCustomProperties" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties"></a>
+### OrganizationCustomProperties <a name="OrganizationCustomProperties" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties github_organization_custom_properties}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties github_organization_custom_properties}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomProperties(
   scope: Construct,
@@ -34,27 +34,27 @@ organizationCustomProperties.OrganizationCustomProperties(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.propertyName">property_name</a></code> | <code>str</code> | The name of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | The allowed values of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.defaultValue">default_value</a></code> | <code>str</code> | The default value of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the custom property is required. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | Who can edit the values of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valueType">value_type</a></code> | <code>str</code> | The type of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.propertyName">property_name</a></code> | <code>str</code> | The name of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | The allowed values of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.defaultValue">default_value</a></code> | <code>str</code> | The default value of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the custom property is required. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | Who can edit the values of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valueType">value_type</a></code> | <code>str</code> | The type of the custom property. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -62,7 +62,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -72,110 +72,110 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.propertyName"></a>
+##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.propertyName"></a>
 
 - *Type:* str
 
 The name of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#property_name OrganizationCustomProperties#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#property_name OrganizationCustomProperties#property_name}
 
 ---
 
-##### `allowed_values`<sup>Optional</sup> <a name="allowed_values" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.allowedValues"></a>
+##### `allowed_values`<sup>Optional</sup> <a name="allowed_values" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.allowedValues"></a>
 
 - *Type:* typing.List[str]
 
 The allowed values of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#allowed_values OrganizationCustomProperties#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#allowed_values OrganizationCustomProperties#allowed_values}
 
 ---
 
-##### `default_value`<sup>Optional</sup> <a name="default_value" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.defaultValue"></a>
+##### `default_value`<sup>Optional</sup> <a name="default_value" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.defaultValue"></a>
 
 - *Type:* str
 
 The default value of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#default_value OrganizationCustomProperties#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#default_value OrganizationCustomProperties#default_value}
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.description"></a>
 
 - *Type:* str
 
 The description of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#description OrganizationCustomProperties#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#description OrganizationCustomProperties#description}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `required`<sup>Optional</sup> <a name="required" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.required"></a>
+##### `required`<sup>Optional</sup> <a name="required" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.required"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
 Whether the custom property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#required OrganizationCustomProperties#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#required OrganizationCustomProperties#required}
 
 ---
 
-##### `values_editable_by`<sup>Optional</sup> <a name="values_editable_by" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valuesEditableBy"></a>
+##### `values_editable_by`<sup>Optional</sup> <a name="values_editable_by" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valuesEditableBy"></a>
 
 - *Type:* str
 
@@ -183,17 +183,17 @@ Who can edit the values of the custom property.
 
 Can be one of 'org_actors' or 'org_and_repo_actors'. If not specified, the default is 'org_actors' (only organization owners can edit values)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#values_editable_by OrganizationCustomProperties#values_editable_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#values_editable_by OrganizationCustomProperties#values_editable_by}
 
 ---
 
-##### `value_type`<sup>Optional</sup> <a name="value_type" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valueType"></a>
+##### `value_type`<sup>Optional</sup> <a name="value_type" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer.parameter.valueType"></a>
 
 - *Type:* str
 
 The type of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#value_type OrganizationCustomProperties#value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#value_type OrganizationCustomProperties#value_type}
 
 ---
 
@@ -201,40 +201,40 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetAllowedValues">reset_allowed_values</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDefaultValue">reset_default_value</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetRequired">reset_required</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValuesEditableBy">reset_values_editable_by</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValueType">reset_value_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetAllowedValues">reset_allowed_values</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDefaultValue">reset_default_value</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetRequired">reset_required</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValuesEditableBy">reset_values_editable_by</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValueType">reset_value_type</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toString"></a>
 
 ```python
 def to_string() -> str
@@ -242,7 +242,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride"></a>
 
 ```python
 def add_override(
@@ -251,19 +251,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -273,7 +273,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -281,7 +281,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -289,19 +289,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -309,7 +309,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -319,7 +319,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -327,7 +327,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -335,13 +335,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -349,13 +349,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -363,13 +363,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -377,13 +377,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -391,13 +391,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -405,13 +405,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -419,13 +419,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -433,13 +433,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -447,19 +447,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom"></a>
 
 ```python
 def import_from(
@@ -468,19 +468,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -488,13 +488,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -506,7 +506,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -514,7 +514,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo"></a>
 
 ```python
 def move_to(
@@ -525,7 +525,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -533,7 +533,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -541,7 +541,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -551,7 +551,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -559,43 +559,43 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_allowed_values` <a name="reset_allowed_values" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetAllowedValues"></a>
+##### `reset_allowed_values` <a name="reset_allowed_values" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetAllowedValues"></a>
 
 ```python
 def reset_allowed_values() -> None
 ```
 
-##### `reset_default_value` <a name="reset_default_value" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDefaultValue"></a>
+##### `reset_default_value` <a name="reset_default_value" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDefaultValue"></a>
 
 ```python
 def reset_default_value() -> None
 ```
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetDescription"></a>
 
 ```python
 def reset_description() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_required` <a name="reset_required" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetRequired"></a>
+##### `reset_required` <a name="reset_required" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetRequired"></a>
 
 ```python
 def reset_required() -> None
 ```
 
-##### `reset_values_editable_by` <a name="reset_values_editable_by" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValuesEditableBy"></a>
+##### `reset_values_editable_by` <a name="reset_values_editable_by" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValuesEditableBy"></a>
 
 ```python
 def reset_values_editable_by() -> None
 ```
 
-##### `reset_value_type` <a name="reset_value_type" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValueType"></a>
+##### `reset_value_type` <a name="reset_value_type" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.resetValueType"></a>
 
 ```python
 def reset_value_type() -> None
@@ -605,17 +605,17 @@ def reset_value_type() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a OrganizationCustomProperties resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a OrganizationCustomProperties resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomProperties.is_construct(
   x: typing.Any
@@ -638,7 +638,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -646,42 +646,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomProperties.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomProperties.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomProperties.generate_config_for_import(
   scope: Construct,
@@ -693,7 +693,7 @@ organizationCustomProperties.OrganizationCustomProperties.generate_config_for_im
 
 Generates CDKTF code for importing a OrganizationCustomProperties resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -701,7 +701,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -709,17 +709,17 @@ The construct id used in the generated config for the OrganizationCustomProperti
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing OrganizationCustomProperties that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -731,40 +731,40 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValuesInput">allowed_values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValueInput">default_value_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyNameInput">property_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput">required_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableByInput">values_editable_by_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueTypeInput">value_type_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValue">default_value</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyName">property_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueType">value_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValuesInput">allowed_values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValueInput">default_value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyNameInput">property_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput">required_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableByInput">values_editable_by_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueTypeInput">value_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValue">default_value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyName">property_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueType">value_type</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.node"></a>
 
 ```python
 node: Node
@@ -776,7 +776,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -786,7 +786,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.fqn"></a>
 
 ```python
 fqn: str
@@ -796,7 +796,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -806,7 +806,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -816,7 +816,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -826,7 +826,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -836,7 +836,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -846,7 +846,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -856,7 +856,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -866,7 +866,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -876,7 +876,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -886,7 +886,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -896,7 +896,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -906,7 +906,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `allowed_values_input`<sup>Optional</sup> <a name="allowed_values_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValuesInput"></a>
+##### `allowed_values_input`<sup>Optional</sup> <a name="allowed_values_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValuesInput"></a>
 
 ```python
 allowed_values_input: typing.List[str]
@@ -916,7 +916,7 @@ allowed_values_input: typing.List[str]
 
 ---
 
-##### `default_value_input`<sup>Optional</sup> <a name="default_value_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValueInput"></a>
+##### `default_value_input`<sup>Optional</sup> <a name="default_value_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValueInput"></a>
 
 ```python
 default_value_input: str
@@ -926,7 +926,7 @@ default_value_input: str
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -936,7 +936,7 @@ description_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.idInput"></a>
 
 ```python
 id_input: str
@@ -946,7 +946,7 @@ id_input: str
 
 ---
 
-##### `property_name_input`<sup>Optional</sup> <a name="property_name_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyNameInput"></a>
+##### `property_name_input`<sup>Optional</sup> <a name="property_name_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyNameInput"></a>
 
 ```python
 property_name_input: str
@@ -956,7 +956,7 @@ property_name_input: str
 
 ---
 
-##### `required_input`<sup>Optional</sup> <a name="required_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput"></a>
+##### `required_input`<sup>Optional</sup> <a name="required_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput"></a>
 
 ```python
 required_input: bool | IResolvable
@@ -966,7 +966,7 @@ required_input: bool | IResolvable
 
 ---
 
-##### `values_editable_by_input`<sup>Optional</sup> <a name="values_editable_by_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableByInput"></a>
+##### `values_editable_by_input`<sup>Optional</sup> <a name="values_editable_by_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableByInput"></a>
 
 ```python
 values_editable_by_input: str
@@ -976,7 +976,7 @@ values_editable_by_input: str
 
 ---
 
-##### `value_type_input`<sup>Optional</sup> <a name="value_type_input" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueTypeInput"></a>
+##### `value_type_input`<sup>Optional</sup> <a name="value_type_input" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueTypeInput"></a>
 
 ```python
 value_type_input: str
@@ -986,7 +986,7 @@ value_type_input: str
 
 ---
 
-##### `allowed_values`<sup>Required</sup> <a name="allowed_values" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValues"></a>
+##### `allowed_values`<sup>Required</sup> <a name="allowed_values" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValues"></a>
 
 ```python
 allowed_values: typing.List[str]
@@ -996,7 +996,7 @@ allowed_values: typing.List[str]
 
 ---
 
-##### `default_value`<sup>Required</sup> <a name="default_value" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValue"></a>
+##### `default_value`<sup>Required</sup> <a name="default_value" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValue"></a>
 
 ```python
 default_value: str
@@ -1006,7 +1006,7 @@ default_value: str
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.description"></a>
 
 ```python
 description: str
@@ -1016,7 +1016,7 @@ description: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.id"></a>
 
 ```python
 id: str
@@ -1026,7 +1026,7 @@ id: str
 
 ---
 
-##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyName"></a>
+##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyName"></a>
 
 ```python
 property_name: str
@@ -1036,7 +1036,7 @@ property_name: str
 
 ---
 
-##### `required`<sup>Required</sup> <a name="required" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required"></a>
+##### `required`<sup>Required</sup> <a name="required" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required"></a>
 
 ```python
 required: bool | IResolvable
@@ -1046,7 +1046,7 @@ required: bool | IResolvable
 
 ---
 
-##### `values_editable_by`<sup>Required</sup> <a name="values_editable_by" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableBy"></a>
+##### `values_editable_by`<sup>Required</sup> <a name="values_editable_by" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableBy"></a>
 
 ```python
 values_editable_by: str
@@ -1056,7 +1056,7 @@ values_editable_by: str
 
 ---
 
-##### `value_type`<sup>Required</sup> <a name="value_type" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueType"></a>
+##### `value_type`<sup>Required</sup> <a name="value_type" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueType"></a>
 
 ```python
 value_type: str
@@ -1070,11 +1070,11 @@ value_type: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1086,12 +1086,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### OrganizationCustomPropertiesConfig <a name="OrganizationCustomPropertiesConfig" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig"></a>
+### OrganizationCustomPropertiesConfig <a name="OrganizationCustomPropertiesConfig" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import organization_custom_properties
+from cdktn_provider_github import organization_custom_properties
 
 organizationCustomProperties.OrganizationCustomPropertiesConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1116,25 +1116,25 @@ organizationCustomProperties.OrganizationCustomPropertiesConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.propertyName">property_name</a></code> | <code>str</code> | The name of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | The allowed values of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.defaultValue">default_value</a></code> | <code>str</code> | The default value of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.description">description</a></code> | <code>str</code> | The description of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the custom property is required. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | Who can edit the values of the custom property. |
-| <code><a href="#@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valueType">value_type</a></code> | <code>str</code> | The type of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.propertyName">property_name</a></code> | <code>str</code> | The name of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.allowedValues">allowed_values</a></code> | <code>typing.List[str]</code> | The allowed values of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.defaultValue">default_value</a></code> | <code>str</code> | The default value of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.description">description</a></code> | <code>str</code> | The description of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required">required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the custom property is required. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valuesEditableBy">values_editable_by</a></code> | <code>str</code> | Who can edit the values of the custom property. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valueType">value_type</a></code> | <code>str</code> | The type of the custom property. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1144,7 +1144,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1154,7 +1154,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1164,7 +1164,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1174,7 +1174,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1184,7 +1184,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1194,7 +1194,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1204,7 +1204,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.propertyName"></a>
+##### `property_name`<sup>Required</sup> <a name="property_name" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.propertyName"></a>
 
 ```python
 property_name: str
@@ -1214,11 +1214,11 @@ property_name: str
 
 The name of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#property_name OrganizationCustomProperties#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#property_name OrganizationCustomProperties#property_name}
 
 ---
 
-##### `allowed_values`<sup>Optional</sup> <a name="allowed_values" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.allowedValues"></a>
+##### `allowed_values`<sup>Optional</sup> <a name="allowed_values" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.allowedValues"></a>
 
 ```python
 allowed_values: typing.List[str]
@@ -1228,11 +1228,11 @@ allowed_values: typing.List[str]
 
 The allowed values of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#allowed_values OrganizationCustomProperties#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#allowed_values OrganizationCustomProperties#allowed_values}
 
 ---
 
-##### `default_value`<sup>Optional</sup> <a name="default_value" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.defaultValue"></a>
+##### `default_value`<sup>Optional</sup> <a name="default_value" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.defaultValue"></a>
 
 ```python
 default_value: str
@@ -1242,11 +1242,11 @@ default_value: str
 
 The default value of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#default_value OrganizationCustomProperties#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#default_value OrganizationCustomProperties#default_value}
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.description"></a>
 
 ```python
 description: str
@@ -1256,11 +1256,11 @@ description: str
 
 The description of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#description OrganizationCustomProperties#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#description OrganizationCustomProperties#description}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.id"></a>
 
 ```python
 id: str
@@ -1268,14 +1268,14 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `required`<sup>Optional</sup> <a name="required" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required"></a>
+##### `required`<sup>Optional</sup> <a name="required" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required"></a>
 
 ```python
 required: bool | IResolvable
@@ -1285,11 +1285,11 @@ required: bool | IResolvable
 
 Whether the custom property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#required OrganizationCustomProperties#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#required OrganizationCustomProperties#required}
 
 ---
 
-##### `values_editable_by`<sup>Optional</sup> <a name="values_editable_by" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valuesEditableBy"></a>
+##### `values_editable_by`<sup>Optional</sup> <a name="values_editable_by" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valuesEditableBy"></a>
 
 ```python
 values_editable_by: str
@@ -1301,11 +1301,11 @@ Who can edit the values of the custom property.
 
 Can be one of 'org_actors' or 'org_and_repo_actors'. If not specified, the default is 'org_actors' (only organization owners can edit values)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#values_editable_by OrganizationCustomProperties#values_editable_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#values_editable_by OrganizationCustomProperties#values_editable_by}
 
 ---
 
-##### `value_type`<sup>Optional</sup> <a name="value_type" id="@cdktf/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valueType"></a>
+##### `value_type`<sup>Optional</sup> <a name="value_type" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valueType"></a>
 
 ```python
 value_type: str
@@ -1315,7 +1315,7 @@ value_type: str
 
 The type of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_custom_properties#value_type OrganizationCustomProperties#value_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_custom_properties#value_type OrganizationCustomProperties#value_type}
 
 ---
 

@@ -1,28 +1,28 @@
-# `organizationSettings` Submodule <a name="`organizationSettings` Submodule" id="@cdktf/provider-github.organizationSettings"></a>
+# `organizationSettings` Submodule <a name="`organizationSettings` Submodule" id="@cdktn/provider-github.organizationSettings"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### OrganizationSettings <a name="OrganizationSettings" id="@cdktf/provider-github.organizationSettings.OrganizationSettings"></a>
+### OrganizationSettings <a name="OrganizationSettings" id="@cdktn/provider-github.organizationSettings.OrganizationSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings github_organization_settings}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings github_organization_settings}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 organizationsettings.NewOrganizationSettings(scope Construct, id *string, config OrganizationSettingsConfig) OrganizationSettings
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig">OrganizationSettingsConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig">OrganizationSettingsConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig">OrganizationSettingsConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig">OrganizationSettingsConfig</a>
 
 ---
 
@@ -50,59 +50,59 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetAdvancedSecurityEnabledForNewRepositories">ResetAdvancedSecurityEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetBlog">ResetBlog</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetCompany">ResetCompany</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDefaultRepositoryPermission">ResetDefaultRepositoryPermission</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependabotAlertsEnabledForNewRepositories">ResetDependabotAlertsEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependabotSecurityUpdatesEnabledForNewRepositories">ResetDependabotSecurityUpdatesEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependencyGraphEnabledForNewRepositories">ResetDependencyGraphEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDescription">ResetDescription</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetEmail">ResetEmail</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetHasOrganizationProjects">ResetHasOrganizationProjects</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetHasRepositoryProjects">ResetHasRepositoryProjects</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetId">ResetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetLocation">ResetLocation</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateInternalRepositories">ResetMembersCanCreateInternalRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePages">ResetMembersCanCreatePages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivatePages">ResetMembersCanCreatePrivatePages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivateRepositories">ResetMembersCanCreatePrivateRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicPages">ResetMembersCanCreatePublicPages</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicRepositories">ResetMembersCanCreatePublicRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateRepositories">ResetMembersCanCreateRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanForkPrivateRepositories">ResetMembersCanForkPrivateRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetName">ResetName</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningEnabledForNewRepositories">ResetSecretScanningEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningPushProtectionEnabledForNewRepositories">ResetSecretScanningPushProtectionEnabledForNewRepositories</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetTwitterUsername">ResetTwitterUsername</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.resetWebCommitSignoffRequired">ResetWebCommitSignoffRequired</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetAdvancedSecurityEnabledForNewRepositories">ResetAdvancedSecurityEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetBlog">ResetBlog</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetCompany">ResetCompany</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDefaultRepositoryPermission">ResetDefaultRepositoryPermission</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependabotAlertsEnabledForNewRepositories">ResetDependabotAlertsEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependabotSecurityUpdatesEnabledForNewRepositories">ResetDependabotSecurityUpdatesEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependencyGraphEnabledForNewRepositories">ResetDependencyGraphEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetEmail">ResetEmail</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetHasOrganizationProjects">ResetHasOrganizationProjects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetHasRepositoryProjects">ResetHasRepositoryProjects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetLocation">ResetLocation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateInternalRepositories">ResetMembersCanCreateInternalRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePages">ResetMembersCanCreatePages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivatePages">ResetMembersCanCreatePrivatePages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivateRepositories">ResetMembersCanCreatePrivateRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicPages">ResetMembersCanCreatePublicPages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicRepositories">ResetMembersCanCreatePublicRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateRepositories">ResetMembersCanCreateRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanForkPrivateRepositories">ResetMembersCanForkPrivateRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningEnabledForNewRepositories">ResetSecretScanningEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningPushProtectionEnabledForNewRepositories">ResetSecretScanningPushProtectionEnabledForNewRepositories</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetTwitterUsername">ResetTwitterUsername</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.resetWebCommitSignoffRequired">ResetWebCommitSignoffRequired</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.toString"></a>
 
 ```go
 func ToString() *string
@@ -110,25 +110,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -136,7 +136,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -144,7 +144,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -152,19 +152,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -172,7 +172,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -180,7 +180,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -188,151 +188,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -342,7 +342,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -350,7 +350,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -358,7 +358,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -366,7 +366,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -374,7 +374,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -382,7 +382,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -390,157 +390,157 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `ResetAdvancedSecurityEnabledForNewRepositories` <a name="ResetAdvancedSecurityEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetAdvancedSecurityEnabledForNewRepositories"></a>
+##### `ResetAdvancedSecurityEnabledForNewRepositories` <a name="ResetAdvancedSecurityEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetAdvancedSecurityEnabledForNewRepositories"></a>
 
 ```go
 func ResetAdvancedSecurityEnabledForNewRepositories()
 ```
 
-##### `ResetBlog` <a name="ResetBlog" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetBlog"></a>
+##### `ResetBlog` <a name="ResetBlog" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetBlog"></a>
 
 ```go
 func ResetBlog()
 ```
 
-##### `ResetCompany` <a name="ResetCompany" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetCompany"></a>
+##### `ResetCompany` <a name="ResetCompany" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetCompany"></a>
 
 ```go
 func ResetCompany()
 ```
 
-##### `ResetDefaultRepositoryPermission` <a name="ResetDefaultRepositoryPermission" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDefaultRepositoryPermission"></a>
+##### `ResetDefaultRepositoryPermission` <a name="ResetDefaultRepositoryPermission" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDefaultRepositoryPermission"></a>
 
 ```go
 func ResetDefaultRepositoryPermission()
 ```
 
-##### `ResetDependabotAlertsEnabledForNewRepositories` <a name="ResetDependabotAlertsEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependabotAlertsEnabledForNewRepositories"></a>
+##### `ResetDependabotAlertsEnabledForNewRepositories` <a name="ResetDependabotAlertsEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependabotAlertsEnabledForNewRepositories"></a>
 
 ```go
 func ResetDependabotAlertsEnabledForNewRepositories()
 ```
 
-##### `ResetDependabotSecurityUpdatesEnabledForNewRepositories` <a name="ResetDependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependabotSecurityUpdatesEnabledForNewRepositories"></a>
+##### `ResetDependabotSecurityUpdatesEnabledForNewRepositories` <a name="ResetDependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependabotSecurityUpdatesEnabledForNewRepositories"></a>
 
 ```go
 func ResetDependabotSecurityUpdatesEnabledForNewRepositories()
 ```
 
-##### `ResetDependencyGraphEnabledForNewRepositories` <a name="ResetDependencyGraphEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDependencyGraphEnabledForNewRepositories"></a>
+##### `ResetDependencyGraphEnabledForNewRepositories` <a name="ResetDependencyGraphEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDependencyGraphEnabledForNewRepositories"></a>
 
 ```go
 func ResetDependencyGraphEnabledForNewRepositories()
 ```
 
-##### `ResetDescription` <a name="ResetDescription" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetDescription"></a>
+##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetDescription"></a>
 
 ```go
 func ResetDescription()
 ```
 
-##### `ResetEmail` <a name="ResetEmail" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetEmail"></a>
+##### `ResetEmail` <a name="ResetEmail" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetEmail"></a>
 
 ```go
 func ResetEmail()
 ```
 
-##### `ResetHasOrganizationProjects` <a name="ResetHasOrganizationProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetHasOrganizationProjects"></a>
+##### `ResetHasOrganizationProjects` <a name="ResetHasOrganizationProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetHasOrganizationProjects"></a>
 
 ```go
 func ResetHasOrganizationProjects()
 ```
 
-##### `ResetHasRepositoryProjects` <a name="ResetHasRepositoryProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetHasRepositoryProjects"></a>
+##### `ResetHasRepositoryProjects` <a name="ResetHasRepositoryProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetHasRepositoryProjects"></a>
 
 ```go
 func ResetHasRepositoryProjects()
 ```
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetId"></a>
 
 ```go
 func ResetId()
 ```
 
-##### `ResetLocation` <a name="ResetLocation" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetLocation"></a>
+##### `ResetLocation` <a name="ResetLocation" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetLocation"></a>
 
 ```go
 func ResetLocation()
 ```
 
-##### `ResetMembersCanCreateInternalRepositories` <a name="ResetMembersCanCreateInternalRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateInternalRepositories"></a>
+##### `ResetMembersCanCreateInternalRepositories` <a name="ResetMembersCanCreateInternalRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateInternalRepositories"></a>
 
 ```go
 func ResetMembersCanCreateInternalRepositories()
 ```
 
-##### `ResetMembersCanCreatePages` <a name="ResetMembersCanCreatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePages"></a>
+##### `ResetMembersCanCreatePages` <a name="ResetMembersCanCreatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePages"></a>
 
 ```go
 func ResetMembersCanCreatePages()
 ```
 
-##### `ResetMembersCanCreatePrivatePages` <a name="ResetMembersCanCreatePrivatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivatePages"></a>
+##### `ResetMembersCanCreatePrivatePages` <a name="ResetMembersCanCreatePrivatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivatePages"></a>
 
 ```go
 func ResetMembersCanCreatePrivatePages()
 ```
 
-##### `ResetMembersCanCreatePrivateRepositories` <a name="ResetMembersCanCreatePrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivateRepositories"></a>
+##### `ResetMembersCanCreatePrivateRepositories` <a name="ResetMembersCanCreatePrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePrivateRepositories"></a>
 
 ```go
 func ResetMembersCanCreatePrivateRepositories()
 ```
 
-##### `ResetMembersCanCreatePublicPages` <a name="ResetMembersCanCreatePublicPages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicPages"></a>
+##### `ResetMembersCanCreatePublicPages` <a name="ResetMembersCanCreatePublicPages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicPages"></a>
 
 ```go
 func ResetMembersCanCreatePublicPages()
 ```
 
-##### `ResetMembersCanCreatePublicRepositories` <a name="ResetMembersCanCreatePublicRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicRepositories"></a>
+##### `ResetMembersCanCreatePublicRepositories` <a name="ResetMembersCanCreatePublicRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreatePublicRepositories"></a>
 
 ```go
 func ResetMembersCanCreatePublicRepositories()
 ```
 
-##### `ResetMembersCanCreateRepositories` <a name="ResetMembersCanCreateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateRepositories"></a>
+##### `ResetMembersCanCreateRepositories` <a name="ResetMembersCanCreateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanCreateRepositories"></a>
 
 ```go
 func ResetMembersCanCreateRepositories()
 ```
 
-##### `ResetMembersCanForkPrivateRepositories` <a name="ResetMembersCanForkPrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetMembersCanForkPrivateRepositories"></a>
+##### `ResetMembersCanForkPrivateRepositories` <a name="ResetMembersCanForkPrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetMembersCanForkPrivateRepositories"></a>
 
 ```go
 func ResetMembersCanForkPrivateRepositories()
 ```
 
-##### `ResetName` <a name="ResetName" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetName"></a>
+##### `ResetName` <a name="ResetName" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetName"></a>
 
 ```go
 func ResetName()
 ```
 
-##### `ResetSecretScanningEnabledForNewRepositories` <a name="ResetSecretScanningEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningEnabledForNewRepositories"></a>
+##### `ResetSecretScanningEnabledForNewRepositories` <a name="ResetSecretScanningEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningEnabledForNewRepositories"></a>
 
 ```go
 func ResetSecretScanningEnabledForNewRepositories()
 ```
 
-##### `ResetSecretScanningPushProtectionEnabledForNewRepositories` <a name="ResetSecretScanningPushProtectionEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningPushProtectionEnabledForNewRepositories"></a>
+##### `ResetSecretScanningPushProtectionEnabledForNewRepositories` <a name="ResetSecretScanningPushProtectionEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetSecretScanningPushProtectionEnabledForNewRepositories"></a>
 
 ```go
 func ResetSecretScanningPushProtectionEnabledForNewRepositories()
 ```
 
-##### `ResetTwitterUsername` <a name="ResetTwitterUsername" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetTwitterUsername"></a>
+##### `ResetTwitterUsername` <a name="ResetTwitterUsername" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetTwitterUsername"></a>
 
 ```go
 func ResetTwitterUsername()
 ```
 
-##### `ResetWebCommitSignoffRequired` <a name="ResetWebCommitSignoffRequired" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.resetWebCommitSignoffRequired"></a>
+##### `ResetWebCommitSignoffRequired` <a name="ResetWebCommitSignoffRequired" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.resetWebCommitSignoffRequired"></a>
 
 ```go
 func ResetWebCommitSignoffRequired()
@@ -550,17 +550,17 @@ func ResetWebCommitSignoffRequired()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 organizationsettings.OrganizationSettings_IsConstruct(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -589,45 +589,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 organizationsettings.OrganizationSettings_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 organizationsettings.OrganizationSettings_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 organizationsettings.OrganizationSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -635,7 +635,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -643,17 +643,17 @@ The construct id used in the generated config for the OrganizationSettings to im
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing OrganizationSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -665,78 +665,78 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput">AdvancedSecurityEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.billingEmailInput">BillingEmailInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.blogInput">BlogInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.companyInput">CompanyInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermissionInput">DefaultRepositoryPermissionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput">DependabotAlertsEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput">DependabotSecurityUpdatesEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput">DependencyGraphEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.emailInput">EmailInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput">HasOrganizationProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput">HasRepositoryProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput">MembersCanCreateInternalRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput">MembersCanCreatePagesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput">MembersCanCreatePrivatePagesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput">MembersCanCreatePrivateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput">MembersCanCreatePublicPagesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput">MembersCanCreatePublicRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput">MembersCanCreateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput">MembersCanForkPrivateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput">SecretScanningEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput">SecretScanningPushProtectionEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.twitterUsernameInput">TwitterUsernameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput">WebCommitSignoffRequiredInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories">AdvancedSecurityEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.billingEmail">BillingEmail</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.blog">Blog</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.company">Company</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermission">DefaultRepositoryPermission</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories">DependabotAlertsEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories">DependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories">DependencyGraphEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.description">Description</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.email">Email</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects">HasOrganizationProjects</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects">HasRepositoryProjects</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.location">Location</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories">MembersCanCreateInternalRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages">MembersCanCreatePages</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages">MembersCanCreatePrivatePages</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories">MembersCanCreatePrivateRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages">MembersCanCreatePublicPages</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories">MembersCanCreatePublicRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories">MembersCanCreateRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories">MembersCanForkPrivateRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.name">Name</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories">SecretScanningEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories">SecretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.twitterUsername">TwitterUsername</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput">AdvancedSecurityEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmailInput">BillingEmailInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blogInput">BlogInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.companyInput">CompanyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermissionInput">DefaultRepositoryPermissionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput">DependabotAlertsEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput">DependabotSecurityUpdatesEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput">DependencyGraphEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.emailInput">EmailInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput">HasOrganizationProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput">HasRepositoryProjectsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput">MembersCanCreateInternalRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput">MembersCanCreatePagesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput">MembersCanCreatePrivatePagesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput">MembersCanCreatePrivateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput">MembersCanCreatePublicPagesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput">MembersCanCreatePublicRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput">MembersCanCreateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput">MembersCanForkPrivateRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput">SecretScanningEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput">SecretScanningPushProtectionEnabledForNewRepositoriesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsernameInput">TwitterUsernameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput">WebCommitSignoffRequiredInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories">AdvancedSecurityEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmail">BillingEmail</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blog">Blog</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.company">Company</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermission">DefaultRepositoryPermission</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories">DependabotAlertsEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories">DependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories">DependencyGraphEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.email">Email</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects">HasOrganizationProjects</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects">HasRepositoryProjects</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.location">Location</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories">MembersCanCreateInternalRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages">MembersCanCreatePages</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages">MembersCanCreatePrivatePages</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories">MembersCanCreatePrivateRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages">MembersCanCreatePublicPages</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories">MembersCanCreatePublicRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories">MembersCanCreateRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories">MembersCanForkPrivateRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories">SecretScanningEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories">SecretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsername">TwitterUsername</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.node"></a>
 
 ```go
 func Node() Node
@@ -748,7 +748,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -758,7 +758,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -768,7 +768,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -778,7 +778,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -788,7 +788,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -798,7 +798,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -808,7 +808,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -818,7 +818,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -828,7 +828,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -838,7 +838,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -848,7 +848,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -858,7 +858,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -868,7 +868,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -878,7 +878,7 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `AdvancedSecurityEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="AdvancedSecurityEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput"></a>
+##### `AdvancedSecurityEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="AdvancedSecurityEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput"></a>
 
 ```go
 func AdvancedSecurityEnabledForNewRepositoriesInput() interface{}
@@ -888,7 +888,7 @@ func AdvancedSecurityEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `BillingEmailInput`<sup>Optional</sup> <a name="BillingEmailInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.billingEmailInput"></a>
+##### `BillingEmailInput`<sup>Optional</sup> <a name="BillingEmailInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmailInput"></a>
 
 ```go
 func BillingEmailInput() *string
@@ -898,7 +898,7 @@ func BillingEmailInput() *string
 
 ---
 
-##### `BlogInput`<sup>Optional</sup> <a name="BlogInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.blogInput"></a>
+##### `BlogInput`<sup>Optional</sup> <a name="BlogInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blogInput"></a>
 
 ```go
 func BlogInput() *string
@@ -908,7 +908,7 @@ func BlogInput() *string
 
 ---
 
-##### `CompanyInput`<sup>Optional</sup> <a name="CompanyInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.companyInput"></a>
+##### `CompanyInput`<sup>Optional</sup> <a name="CompanyInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.companyInput"></a>
 
 ```go
 func CompanyInput() *string
@@ -918,7 +918,7 @@ func CompanyInput() *string
 
 ---
 
-##### `DefaultRepositoryPermissionInput`<sup>Optional</sup> <a name="DefaultRepositoryPermissionInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermissionInput"></a>
+##### `DefaultRepositoryPermissionInput`<sup>Optional</sup> <a name="DefaultRepositoryPermissionInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermissionInput"></a>
 
 ```go
 func DefaultRepositoryPermissionInput() *string
@@ -928,7 +928,7 @@ func DefaultRepositoryPermissionInput() *string
 
 ---
 
-##### `DependabotAlertsEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependabotAlertsEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput"></a>
+##### `DependabotAlertsEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependabotAlertsEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput"></a>
 
 ```go
 func DependabotAlertsEnabledForNewRepositoriesInput() interface{}
@@ -938,7 +938,7 @@ func DependabotAlertsEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `DependabotSecurityUpdatesEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput"></a>
+##### `DependabotSecurityUpdatesEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput"></a>
 
 ```go
 func DependabotSecurityUpdatesEnabledForNewRepositoriesInput() interface{}
@@ -948,7 +948,7 @@ func DependabotSecurityUpdatesEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `DependencyGraphEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependencyGraphEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput"></a>
+##### `DependencyGraphEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="DependencyGraphEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput"></a>
 
 ```go
 func DependencyGraphEnabledForNewRepositoriesInput() interface{}
@@ -958,7 +958,7 @@ func DependencyGraphEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.descriptionInput"></a>
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.descriptionInput"></a>
 
 ```go
 func DescriptionInput() *string
@@ -968,7 +968,7 @@ func DescriptionInput() *string
 
 ---
 
-##### `EmailInput`<sup>Optional</sup> <a name="EmailInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.emailInput"></a>
+##### `EmailInput`<sup>Optional</sup> <a name="EmailInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.emailInput"></a>
 
 ```go
 func EmailInput() *string
@@ -978,7 +978,7 @@ func EmailInput() *string
 
 ---
 
-##### `HasOrganizationProjectsInput`<sup>Optional</sup> <a name="HasOrganizationProjectsInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput"></a>
+##### `HasOrganizationProjectsInput`<sup>Optional</sup> <a name="HasOrganizationProjectsInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput"></a>
 
 ```go
 func HasOrganizationProjectsInput() interface{}
@@ -988,7 +988,7 @@ func HasOrganizationProjectsInput() interface{}
 
 ---
 
-##### `HasRepositoryProjectsInput`<sup>Optional</sup> <a name="HasRepositoryProjectsInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput"></a>
+##### `HasRepositoryProjectsInput`<sup>Optional</sup> <a name="HasRepositoryProjectsInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput"></a>
 
 ```go
 func HasRepositoryProjectsInput() interface{}
@@ -998,7 +998,7 @@ func HasRepositoryProjectsInput() interface{}
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -1008,7 +1008,7 @@ func IdInput() *string
 
 ---
 
-##### `LocationInput`<sup>Optional</sup> <a name="LocationInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.locationInput"></a>
+##### `LocationInput`<sup>Optional</sup> <a name="LocationInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.locationInput"></a>
 
 ```go
 func LocationInput() *string
@@ -1018,7 +1018,7 @@ func LocationInput() *string
 
 ---
 
-##### `MembersCanCreateInternalRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreateInternalRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput"></a>
+##### `MembersCanCreateInternalRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreateInternalRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput"></a>
 
 ```go
 func MembersCanCreateInternalRepositoriesInput() interface{}
@@ -1028,7 +1028,7 @@ func MembersCanCreateInternalRepositoriesInput() interface{}
 
 ---
 
-##### `MembersCanCreatePagesInput`<sup>Optional</sup> <a name="MembersCanCreatePagesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput"></a>
+##### `MembersCanCreatePagesInput`<sup>Optional</sup> <a name="MembersCanCreatePagesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput"></a>
 
 ```go
 func MembersCanCreatePagesInput() interface{}
@@ -1038,7 +1038,7 @@ func MembersCanCreatePagesInput() interface{}
 
 ---
 
-##### `MembersCanCreatePrivatePagesInput`<sup>Optional</sup> <a name="MembersCanCreatePrivatePagesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput"></a>
+##### `MembersCanCreatePrivatePagesInput`<sup>Optional</sup> <a name="MembersCanCreatePrivatePagesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput"></a>
 
 ```go
 func MembersCanCreatePrivatePagesInput() interface{}
@@ -1048,7 +1048,7 @@ func MembersCanCreatePrivatePagesInput() interface{}
 
 ---
 
-##### `MembersCanCreatePrivateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreatePrivateRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput"></a>
+##### `MembersCanCreatePrivateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreatePrivateRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput"></a>
 
 ```go
 func MembersCanCreatePrivateRepositoriesInput() interface{}
@@ -1058,7 +1058,7 @@ func MembersCanCreatePrivateRepositoriesInput() interface{}
 
 ---
 
-##### `MembersCanCreatePublicPagesInput`<sup>Optional</sup> <a name="MembersCanCreatePublicPagesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput"></a>
+##### `MembersCanCreatePublicPagesInput`<sup>Optional</sup> <a name="MembersCanCreatePublicPagesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput"></a>
 
 ```go
 func MembersCanCreatePublicPagesInput() interface{}
@@ -1068,7 +1068,7 @@ func MembersCanCreatePublicPagesInput() interface{}
 
 ---
 
-##### `MembersCanCreatePublicRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreatePublicRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput"></a>
+##### `MembersCanCreatePublicRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreatePublicRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput"></a>
 
 ```go
 func MembersCanCreatePublicRepositoriesInput() interface{}
@@ -1078,7 +1078,7 @@ func MembersCanCreatePublicRepositoriesInput() interface{}
 
 ---
 
-##### `MembersCanCreateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreateRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput"></a>
+##### `MembersCanCreateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanCreateRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput"></a>
 
 ```go
 func MembersCanCreateRepositoriesInput() interface{}
@@ -1088,7 +1088,7 @@ func MembersCanCreateRepositoriesInput() interface{}
 
 ---
 
-##### `MembersCanForkPrivateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanForkPrivateRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput"></a>
+##### `MembersCanForkPrivateRepositoriesInput`<sup>Optional</sup> <a name="MembersCanForkPrivateRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput"></a>
 
 ```go
 func MembersCanForkPrivateRepositoriesInput() interface{}
@@ -1098,7 +1098,7 @@ func MembersCanForkPrivateRepositoriesInput() interface{}
 
 ---
 
-##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.nameInput"></a>
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.nameInput"></a>
 
 ```go
 func NameInput() *string
@@ -1108,7 +1108,7 @@ func NameInput() *string
 
 ---
 
-##### `SecretScanningEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="SecretScanningEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput"></a>
+##### `SecretScanningEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="SecretScanningEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput"></a>
 
 ```go
 func SecretScanningEnabledForNewRepositoriesInput() interface{}
@@ -1118,7 +1118,7 @@ func SecretScanningEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `SecretScanningPushProtectionEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositoriesInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput"></a>
+##### `SecretScanningPushProtectionEnabledForNewRepositoriesInput`<sup>Optional</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositoriesInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput"></a>
 
 ```go
 func SecretScanningPushProtectionEnabledForNewRepositoriesInput() interface{}
@@ -1128,7 +1128,7 @@ func SecretScanningPushProtectionEnabledForNewRepositoriesInput() interface{}
 
 ---
 
-##### `TwitterUsernameInput`<sup>Optional</sup> <a name="TwitterUsernameInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.twitterUsernameInput"></a>
+##### `TwitterUsernameInput`<sup>Optional</sup> <a name="TwitterUsernameInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsernameInput"></a>
 
 ```go
 func TwitterUsernameInput() *string
@@ -1138,7 +1138,7 @@ func TwitterUsernameInput() *string
 
 ---
 
-##### `WebCommitSignoffRequiredInput`<sup>Optional</sup> <a name="WebCommitSignoffRequiredInput" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput"></a>
+##### `WebCommitSignoffRequiredInput`<sup>Optional</sup> <a name="WebCommitSignoffRequiredInput" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput"></a>
 
 ```go
 func WebCommitSignoffRequiredInput() interface{}
@@ -1148,7 +1148,7 @@ func WebCommitSignoffRequiredInput() interface{}
 
 ---
 
-##### `AdvancedSecurityEnabledForNewRepositories`<sup>Required</sup> <a name="AdvancedSecurityEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories"></a>
+##### `AdvancedSecurityEnabledForNewRepositories`<sup>Required</sup> <a name="AdvancedSecurityEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories"></a>
 
 ```go
 func AdvancedSecurityEnabledForNewRepositories() interface{}
@@ -1158,7 +1158,7 @@ func AdvancedSecurityEnabledForNewRepositories() interface{}
 
 ---
 
-##### `BillingEmail`<sup>Required</sup> <a name="BillingEmail" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.billingEmail"></a>
+##### `BillingEmail`<sup>Required</sup> <a name="BillingEmail" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmail"></a>
 
 ```go
 func BillingEmail() *string
@@ -1168,7 +1168,7 @@ func BillingEmail() *string
 
 ---
 
-##### `Blog`<sup>Required</sup> <a name="Blog" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.blog"></a>
+##### `Blog`<sup>Required</sup> <a name="Blog" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blog"></a>
 
 ```go
 func Blog() *string
@@ -1178,7 +1178,7 @@ func Blog() *string
 
 ---
 
-##### `Company`<sup>Required</sup> <a name="Company" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.company"></a>
+##### `Company`<sup>Required</sup> <a name="Company" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.company"></a>
 
 ```go
 func Company() *string
@@ -1188,7 +1188,7 @@ func Company() *string
 
 ---
 
-##### `DefaultRepositoryPermission`<sup>Required</sup> <a name="DefaultRepositoryPermission" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermission"></a>
+##### `DefaultRepositoryPermission`<sup>Required</sup> <a name="DefaultRepositoryPermission" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermission"></a>
 
 ```go
 func DefaultRepositoryPermission() *string
@@ -1198,7 +1198,7 @@ func DefaultRepositoryPermission() *string
 
 ---
 
-##### `DependabotAlertsEnabledForNewRepositories`<sup>Required</sup> <a name="DependabotAlertsEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories"></a>
+##### `DependabotAlertsEnabledForNewRepositories`<sup>Required</sup> <a name="DependabotAlertsEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories"></a>
 
 ```go
 func DependabotAlertsEnabledForNewRepositories() interface{}
@@ -1208,7 +1208,7 @@ func DependabotAlertsEnabledForNewRepositories() interface{}
 
 ---
 
-##### `DependabotSecurityUpdatesEnabledForNewRepositories`<sup>Required</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories"></a>
+##### `DependabotSecurityUpdatesEnabledForNewRepositories`<sup>Required</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories"></a>
 
 ```go
 func DependabotSecurityUpdatesEnabledForNewRepositories() interface{}
@@ -1218,7 +1218,7 @@ func DependabotSecurityUpdatesEnabledForNewRepositories() interface{}
 
 ---
 
-##### `DependencyGraphEnabledForNewRepositories`<sup>Required</sup> <a name="DependencyGraphEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories"></a>
+##### `DependencyGraphEnabledForNewRepositories`<sup>Required</sup> <a name="DependencyGraphEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories"></a>
 
 ```go
 func DependencyGraphEnabledForNewRepositories() interface{}
@@ -1228,7 +1228,7 @@ func DependencyGraphEnabledForNewRepositories() interface{}
 
 ---
 
-##### `Description`<sup>Required</sup> <a name="Description" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.description"></a>
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.description"></a>
 
 ```go
 func Description() *string
@@ -1238,7 +1238,7 @@ func Description() *string
 
 ---
 
-##### `Email`<sup>Required</sup> <a name="Email" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.email"></a>
+##### `Email`<sup>Required</sup> <a name="Email" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.email"></a>
 
 ```go
 func Email() *string
@@ -1248,7 +1248,7 @@ func Email() *string
 
 ---
 
-##### `HasOrganizationProjects`<sup>Required</sup> <a name="HasOrganizationProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects"></a>
+##### `HasOrganizationProjects`<sup>Required</sup> <a name="HasOrganizationProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects"></a>
 
 ```go
 func HasOrganizationProjects() interface{}
@@ -1258,7 +1258,7 @@ func HasOrganizationProjects() interface{}
 
 ---
 
-##### `HasRepositoryProjects`<sup>Required</sup> <a name="HasRepositoryProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects"></a>
+##### `HasRepositoryProjects`<sup>Required</sup> <a name="HasRepositoryProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects"></a>
 
 ```go
 func HasRepositoryProjects() interface{}
@@ -1268,7 +1268,7 @@ func HasRepositoryProjects() interface{}
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.id"></a>
 
 ```go
 func Id() *string
@@ -1278,7 +1278,7 @@ func Id() *string
 
 ---
 
-##### `Location`<sup>Required</sup> <a name="Location" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.location"></a>
+##### `Location`<sup>Required</sup> <a name="Location" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.location"></a>
 
 ```go
 func Location() *string
@@ -1288,7 +1288,7 @@ func Location() *string
 
 ---
 
-##### `MembersCanCreateInternalRepositories`<sup>Required</sup> <a name="MembersCanCreateInternalRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories"></a>
+##### `MembersCanCreateInternalRepositories`<sup>Required</sup> <a name="MembersCanCreateInternalRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories"></a>
 
 ```go
 func MembersCanCreateInternalRepositories() interface{}
@@ -1298,7 +1298,7 @@ func MembersCanCreateInternalRepositories() interface{}
 
 ---
 
-##### `MembersCanCreatePages`<sup>Required</sup> <a name="MembersCanCreatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages"></a>
+##### `MembersCanCreatePages`<sup>Required</sup> <a name="MembersCanCreatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages"></a>
 
 ```go
 func MembersCanCreatePages() interface{}
@@ -1308,7 +1308,7 @@ func MembersCanCreatePages() interface{}
 
 ---
 
-##### `MembersCanCreatePrivatePages`<sup>Required</sup> <a name="MembersCanCreatePrivatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages"></a>
+##### `MembersCanCreatePrivatePages`<sup>Required</sup> <a name="MembersCanCreatePrivatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages"></a>
 
 ```go
 func MembersCanCreatePrivatePages() interface{}
@@ -1318,7 +1318,7 @@ func MembersCanCreatePrivatePages() interface{}
 
 ---
 
-##### `MembersCanCreatePrivateRepositories`<sup>Required</sup> <a name="MembersCanCreatePrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories"></a>
+##### `MembersCanCreatePrivateRepositories`<sup>Required</sup> <a name="MembersCanCreatePrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories"></a>
 
 ```go
 func MembersCanCreatePrivateRepositories() interface{}
@@ -1328,7 +1328,7 @@ func MembersCanCreatePrivateRepositories() interface{}
 
 ---
 
-##### `MembersCanCreatePublicPages`<sup>Required</sup> <a name="MembersCanCreatePublicPages" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages"></a>
+##### `MembersCanCreatePublicPages`<sup>Required</sup> <a name="MembersCanCreatePublicPages" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages"></a>
 
 ```go
 func MembersCanCreatePublicPages() interface{}
@@ -1338,7 +1338,7 @@ func MembersCanCreatePublicPages() interface{}
 
 ---
 
-##### `MembersCanCreatePublicRepositories`<sup>Required</sup> <a name="MembersCanCreatePublicRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories"></a>
+##### `MembersCanCreatePublicRepositories`<sup>Required</sup> <a name="MembersCanCreatePublicRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories"></a>
 
 ```go
 func MembersCanCreatePublicRepositories() interface{}
@@ -1348,7 +1348,7 @@ func MembersCanCreatePublicRepositories() interface{}
 
 ---
 
-##### `MembersCanCreateRepositories`<sup>Required</sup> <a name="MembersCanCreateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories"></a>
+##### `MembersCanCreateRepositories`<sup>Required</sup> <a name="MembersCanCreateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories"></a>
 
 ```go
 func MembersCanCreateRepositories() interface{}
@@ -1358,7 +1358,7 @@ func MembersCanCreateRepositories() interface{}
 
 ---
 
-##### `MembersCanForkPrivateRepositories`<sup>Required</sup> <a name="MembersCanForkPrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories"></a>
+##### `MembersCanForkPrivateRepositories`<sup>Required</sup> <a name="MembersCanForkPrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories"></a>
 
 ```go
 func MembersCanForkPrivateRepositories() interface{}
@@ -1368,7 +1368,7 @@ func MembersCanForkPrivateRepositories() interface{}
 
 ---
 
-##### `Name`<sup>Required</sup> <a name="Name" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.name"></a>
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.name"></a>
 
 ```go
 func Name() *string
@@ -1378,7 +1378,7 @@ func Name() *string
 
 ---
 
-##### `SecretScanningEnabledForNewRepositories`<sup>Required</sup> <a name="SecretScanningEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories"></a>
+##### `SecretScanningEnabledForNewRepositories`<sup>Required</sup> <a name="SecretScanningEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories"></a>
 
 ```go
 func SecretScanningEnabledForNewRepositories() interface{}
@@ -1388,7 +1388,7 @@ func SecretScanningEnabledForNewRepositories() interface{}
 
 ---
 
-##### `SecretScanningPushProtectionEnabledForNewRepositories`<sup>Required</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories"></a>
+##### `SecretScanningPushProtectionEnabledForNewRepositories`<sup>Required</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories"></a>
 
 ```go
 func SecretScanningPushProtectionEnabledForNewRepositories() interface{}
@@ -1398,7 +1398,7 @@ func SecretScanningPushProtectionEnabledForNewRepositories() interface{}
 
 ---
 
-##### `TwitterUsername`<sup>Required</sup> <a name="TwitterUsername" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.twitterUsername"></a>
+##### `TwitterUsername`<sup>Required</sup> <a name="TwitterUsername" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsername"></a>
 
 ```go
 func TwitterUsername() *string
@@ -1408,7 +1408,7 @@ func TwitterUsername() *string
 
 ---
 
-##### `WebCommitSignoffRequired`<sup>Required</sup> <a name="WebCommitSignoffRequired" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired"></a>
+##### `WebCommitSignoffRequired`<sup>Required</sup> <a name="WebCommitSignoffRequired" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired"></a>
 
 ```go
 func WebCommitSignoffRequired() interface{}
@@ -1422,11 +1422,11 @@ func WebCommitSignoffRequired() interface{}
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettings.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.organizationSettings.OrganizationSettings.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -1438,12 +1438,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### OrganizationSettingsConfig <a name="OrganizationSettingsConfig" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig"></a>
+### OrganizationSettingsConfig <a name="OrganizationSettingsConfig" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/organizationsettings"
 
 &organizationsettings.OrganizationSettingsConfig {
 	Connection: interface{},
@@ -1487,44 +1487,44 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/organizationsetting
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.billingEmail">BillingEmail</a></code> | <code>*string</code> | The billing email address for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories">AdvancedSecurityEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not advanced security is enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.blog">Blog</a></code> | <code>*string</code> | The blog URL for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.company">Company</a></code> | <code>*string</code> | The company name for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.defaultRepositoryPermission">DefaultRepositoryPermission</a></code> | <code>*string</code> | The default permission for organization members to create new repositories. Can be one of 'read', 'write', 'admin' or 'none'. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories">DependabotAlertsEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependabot alerts are enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories">DependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependabot security updates are enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories">DependencyGraphEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependency graph is enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.description">Description</a></code> | <code>*string</code> | The description for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.email">Email</a></code> | <code>*string</code> | The email address for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects">HasOrganizationProjects</a></code> | <code>interface{}</code> | Whether or not organization projects are enabled for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects">HasRepositoryProjects</a></code> | <code>interface{}</code> | Whether or not repository projects are enabled for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#id OrganizationSettings#id}. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.location">Location</a></code> | <code>*string</code> | The location for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories">MembersCanCreateInternalRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new internal repositories. For Enterprise Organizations only. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages">MembersCanCreatePages</a></code> | <code>interface{}</code> | Whether or not organization members can create new pages. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages">MembersCanCreatePrivatePages</a></code> | <code>interface{}</code> | Whether or not organization members can create new private pages. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories">MembersCanCreatePrivateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new private repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages">MembersCanCreatePublicPages</a></code> | <code>interface{}</code> | Whether or not organization members can create new public pages. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories">MembersCanCreatePublicRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new public repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories">MembersCanCreateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories">MembersCanForkPrivateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can fork private repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.name">Name</a></code> | <code>*string</code> | The name for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories">SecretScanningEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not secret scanning is enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories">SecretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not secret scanning push protection is enabled for new repositories. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.twitterUsername">TwitterUsername</a></code> | <code>*string</code> | The Twitter username for the organization. |
-| <code><a href="#@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | Whether or not commit signatures are required for commits to the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.billingEmail">BillingEmail</a></code> | <code>*string</code> | The billing email address for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories">AdvancedSecurityEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not advanced security is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.blog">Blog</a></code> | <code>*string</code> | The blog URL for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.company">Company</a></code> | <code>*string</code> | The company name for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.defaultRepositoryPermission">DefaultRepositoryPermission</a></code> | <code>*string</code> | The default permission for organization members to create new repositories. Can be one of 'read', 'write', 'admin' or 'none'. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories">DependabotAlertsEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependabot alerts are enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories">DependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependabot security updates are enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories">DependencyGraphEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not dependency graph is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.description">Description</a></code> | <code>*string</code> | The description for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.email">Email</a></code> | <code>*string</code> | The email address for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects">HasOrganizationProjects</a></code> | <code>interface{}</code> | Whether or not organization projects are enabled for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects">HasRepositoryProjects</a></code> | <code>interface{}</code> | Whether or not repository projects are enabled for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#id OrganizationSettings#id}. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.location">Location</a></code> | <code>*string</code> | The location for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories">MembersCanCreateInternalRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new internal repositories. For Enterprise Organizations only. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages">MembersCanCreatePages</a></code> | <code>interface{}</code> | Whether or not organization members can create new pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages">MembersCanCreatePrivatePages</a></code> | <code>interface{}</code> | Whether or not organization members can create new private pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories">MembersCanCreatePrivateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new private repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages">MembersCanCreatePublicPages</a></code> | <code>interface{}</code> | Whether or not organization members can create new public pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories">MembersCanCreatePublicRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new public repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories">MembersCanCreateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can create new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories">MembersCanForkPrivateRepositories</a></code> | <code>interface{}</code> | Whether or not organization members can fork private repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.name">Name</a></code> | <code>*string</code> | The name for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories">SecretScanningEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not secret scanning is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories">SecretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>interface{}</code> | Whether or not secret scanning push protection is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.twitterUsername">TwitterUsername</a></code> | <code>*string</code> | The Twitter username for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired">WebCommitSignoffRequired</a></code> | <code>interface{}</code> | Whether or not commit signatures are required for commits to the organization. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -1534,7 +1534,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -1544,7 +1544,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -1554,7 +1554,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -1564,7 +1564,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -1574,7 +1574,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -1584,7 +1584,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -1594,7 +1594,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `BillingEmail`<sup>Required</sup> <a name="BillingEmail" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.billingEmail"></a>
+##### `BillingEmail`<sup>Required</sup> <a name="BillingEmail" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.billingEmail"></a>
 
 ```go
 BillingEmail *string
@@ -1604,11 +1604,11 @@ BillingEmail *string
 
 The billing email address for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#billing_email OrganizationSettings#billing_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#billing_email OrganizationSettings#billing_email}
 
 ---
 
-##### `AdvancedSecurityEnabledForNewRepositories`<sup>Optional</sup> <a name="AdvancedSecurityEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories"></a>
+##### `AdvancedSecurityEnabledForNewRepositories`<sup>Optional</sup> <a name="AdvancedSecurityEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories"></a>
 
 ```go
 AdvancedSecurityEnabledForNewRepositories interface{}
@@ -1618,11 +1618,11 @@ AdvancedSecurityEnabledForNewRepositories interface{}
 
 Whether or not advanced security is enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#advanced_security_enabled_for_new_repositories OrganizationSettings#advanced_security_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#advanced_security_enabled_for_new_repositories OrganizationSettings#advanced_security_enabled_for_new_repositories}
 
 ---
 
-##### `Blog`<sup>Optional</sup> <a name="Blog" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.blog"></a>
+##### `Blog`<sup>Optional</sup> <a name="Blog" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.blog"></a>
 
 ```go
 Blog *string
@@ -1632,11 +1632,11 @@ Blog *string
 
 The blog URL for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#blog OrganizationSettings#blog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#blog OrganizationSettings#blog}
 
 ---
 
-##### `Company`<sup>Optional</sup> <a name="Company" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.company"></a>
+##### `Company`<sup>Optional</sup> <a name="Company" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.company"></a>
 
 ```go
 Company *string
@@ -1646,11 +1646,11 @@ Company *string
 
 The company name for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#company OrganizationSettings#company}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#company OrganizationSettings#company}
 
 ---
 
-##### `DefaultRepositoryPermission`<sup>Optional</sup> <a name="DefaultRepositoryPermission" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.defaultRepositoryPermission"></a>
+##### `DefaultRepositoryPermission`<sup>Optional</sup> <a name="DefaultRepositoryPermission" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.defaultRepositoryPermission"></a>
 
 ```go
 DefaultRepositoryPermission *string
@@ -1660,11 +1660,11 @@ DefaultRepositoryPermission *string
 
 The default permission for organization members to create new repositories. Can be one of 'read', 'write', 'admin' or 'none'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#default_repository_permission OrganizationSettings#default_repository_permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#default_repository_permission OrganizationSettings#default_repository_permission}
 
 ---
 
-##### `DependabotAlertsEnabledForNewRepositories`<sup>Optional</sup> <a name="DependabotAlertsEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories"></a>
+##### `DependabotAlertsEnabledForNewRepositories`<sup>Optional</sup> <a name="DependabotAlertsEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories"></a>
 
 ```go
 DependabotAlertsEnabledForNewRepositories interface{}
@@ -1674,11 +1674,11 @@ DependabotAlertsEnabledForNewRepositories interface{}
 
 Whether or not dependabot alerts are enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#dependabot_alerts_enabled_for_new_repositories OrganizationSettings#dependabot_alerts_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#dependabot_alerts_enabled_for_new_repositories OrganizationSettings#dependabot_alerts_enabled_for_new_repositories}
 
 ---
 
-##### `DependabotSecurityUpdatesEnabledForNewRepositories`<sup>Optional</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories"></a>
+##### `DependabotSecurityUpdatesEnabledForNewRepositories`<sup>Optional</sup> <a name="DependabotSecurityUpdatesEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories"></a>
 
 ```go
 DependabotSecurityUpdatesEnabledForNewRepositories interface{}
@@ -1688,11 +1688,11 @@ DependabotSecurityUpdatesEnabledForNewRepositories interface{}
 
 Whether or not dependabot security updates are enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#dependabot_security_updates_enabled_for_new_repositories OrganizationSettings#dependabot_security_updates_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#dependabot_security_updates_enabled_for_new_repositories OrganizationSettings#dependabot_security_updates_enabled_for_new_repositories}
 
 ---
 
-##### `DependencyGraphEnabledForNewRepositories`<sup>Optional</sup> <a name="DependencyGraphEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories"></a>
+##### `DependencyGraphEnabledForNewRepositories`<sup>Optional</sup> <a name="DependencyGraphEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories"></a>
 
 ```go
 DependencyGraphEnabledForNewRepositories interface{}
@@ -1702,11 +1702,11 @@ DependencyGraphEnabledForNewRepositories interface{}
 
 Whether or not dependency graph is enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#dependency_graph_enabled_for_new_repositories OrganizationSettings#dependency_graph_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#dependency_graph_enabled_for_new_repositories OrganizationSettings#dependency_graph_enabled_for_new_repositories}
 
 ---
 
-##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.description"></a>
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.description"></a>
 
 ```go
 Description *string
@@ -1716,11 +1716,11 @@ Description *string
 
 The description for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#description OrganizationSettings#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#description OrganizationSettings#description}
 
 ---
 
-##### `Email`<sup>Optional</sup> <a name="Email" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.email"></a>
+##### `Email`<sup>Optional</sup> <a name="Email" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.email"></a>
 
 ```go
 Email *string
@@ -1730,11 +1730,11 @@ Email *string
 
 The email address for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#email OrganizationSettings#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#email OrganizationSettings#email}
 
 ---
 
-##### `HasOrganizationProjects`<sup>Optional</sup> <a name="HasOrganizationProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects"></a>
+##### `HasOrganizationProjects`<sup>Optional</sup> <a name="HasOrganizationProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects"></a>
 
 ```go
 HasOrganizationProjects interface{}
@@ -1744,11 +1744,11 @@ HasOrganizationProjects interface{}
 
 Whether or not organization projects are enabled for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#has_organization_projects OrganizationSettings#has_organization_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#has_organization_projects OrganizationSettings#has_organization_projects}
 
 ---
 
-##### `HasRepositoryProjects`<sup>Optional</sup> <a name="HasRepositoryProjects" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects"></a>
+##### `HasRepositoryProjects`<sup>Optional</sup> <a name="HasRepositoryProjects" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects"></a>
 
 ```go
 HasRepositoryProjects interface{}
@@ -1758,11 +1758,11 @@ HasRepositoryProjects interface{}
 
 Whether or not repository projects are enabled for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#has_repository_projects OrganizationSettings#has_repository_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#has_repository_projects OrganizationSettings#has_repository_projects}
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.id"></a>
 
 ```go
 Id *string
@@ -1770,14 +1770,14 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#id OrganizationSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#id OrganizationSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `Location`<sup>Optional</sup> <a name="Location" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.location"></a>
+##### `Location`<sup>Optional</sup> <a name="Location" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.location"></a>
 
 ```go
 Location *string
@@ -1787,11 +1787,11 @@ Location *string
 
 The location for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#location OrganizationSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#location OrganizationSettings#location}
 
 ---
 
-##### `MembersCanCreateInternalRepositories`<sup>Optional</sup> <a name="MembersCanCreateInternalRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories"></a>
+##### `MembersCanCreateInternalRepositories`<sup>Optional</sup> <a name="MembersCanCreateInternalRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories"></a>
 
 ```go
 MembersCanCreateInternalRepositories interface{}
@@ -1801,11 +1801,11 @@ MembersCanCreateInternalRepositories interface{}
 
 Whether or not organization members can create new internal repositories. For Enterprise Organizations only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_internal_repositories OrganizationSettings#members_can_create_internal_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_internal_repositories OrganizationSettings#members_can_create_internal_repositories}
 
 ---
 
-##### `MembersCanCreatePages`<sup>Optional</sup> <a name="MembersCanCreatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages"></a>
+##### `MembersCanCreatePages`<sup>Optional</sup> <a name="MembersCanCreatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages"></a>
 
 ```go
 MembersCanCreatePages interface{}
@@ -1815,11 +1815,11 @@ MembersCanCreatePages interface{}
 
 Whether or not organization members can create new pages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_pages OrganizationSettings#members_can_create_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_pages OrganizationSettings#members_can_create_pages}
 
 ---
 
-##### `MembersCanCreatePrivatePages`<sup>Optional</sup> <a name="MembersCanCreatePrivatePages" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages"></a>
+##### `MembersCanCreatePrivatePages`<sup>Optional</sup> <a name="MembersCanCreatePrivatePages" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages"></a>
 
 ```go
 MembersCanCreatePrivatePages interface{}
@@ -1829,11 +1829,11 @@ MembersCanCreatePrivatePages interface{}
 
 Whether or not organization members can create new private pages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_private_pages OrganizationSettings#members_can_create_private_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_private_pages OrganizationSettings#members_can_create_private_pages}
 
 ---
 
-##### `MembersCanCreatePrivateRepositories`<sup>Optional</sup> <a name="MembersCanCreatePrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories"></a>
+##### `MembersCanCreatePrivateRepositories`<sup>Optional</sup> <a name="MembersCanCreatePrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories"></a>
 
 ```go
 MembersCanCreatePrivateRepositories interface{}
@@ -1843,11 +1843,11 @@ MembersCanCreatePrivateRepositories interface{}
 
 Whether or not organization members can create new private repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_private_repositories OrganizationSettings#members_can_create_private_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_private_repositories OrganizationSettings#members_can_create_private_repositories}
 
 ---
 
-##### `MembersCanCreatePublicPages`<sup>Optional</sup> <a name="MembersCanCreatePublicPages" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages"></a>
+##### `MembersCanCreatePublicPages`<sup>Optional</sup> <a name="MembersCanCreatePublicPages" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages"></a>
 
 ```go
 MembersCanCreatePublicPages interface{}
@@ -1857,11 +1857,11 @@ MembersCanCreatePublicPages interface{}
 
 Whether or not organization members can create new public pages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_public_pages OrganizationSettings#members_can_create_public_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_public_pages OrganizationSettings#members_can_create_public_pages}
 
 ---
 
-##### `MembersCanCreatePublicRepositories`<sup>Optional</sup> <a name="MembersCanCreatePublicRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories"></a>
+##### `MembersCanCreatePublicRepositories`<sup>Optional</sup> <a name="MembersCanCreatePublicRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories"></a>
 
 ```go
 MembersCanCreatePublicRepositories interface{}
@@ -1871,11 +1871,11 @@ MembersCanCreatePublicRepositories interface{}
 
 Whether or not organization members can create new public repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_public_repositories OrganizationSettings#members_can_create_public_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_public_repositories OrganizationSettings#members_can_create_public_repositories}
 
 ---
 
-##### `MembersCanCreateRepositories`<sup>Optional</sup> <a name="MembersCanCreateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories"></a>
+##### `MembersCanCreateRepositories`<sup>Optional</sup> <a name="MembersCanCreateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories"></a>
 
 ```go
 MembersCanCreateRepositories interface{}
@@ -1885,11 +1885,11 @@ MembersCanCreateRepositories interface{}
 
 Whether or not organization members can create new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_create_repositories OrganizationSettings#members_can_create_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_create_repositories OrganizationSettings#members_can_create_repositories}
 
 ---
 
-##### `MembersCanForkPrivateRepositories`<sup>Optional</sup> <a name="MembersCanForkPrivateRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories"></a>
+##### `MembersCanForkPrivateRepositories`<sup>Optional</sup> <a name="MembersCanForkPrivateRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories"></a>
 
 ```go
 MembersCanForkPrivateRepositories interface{}
@@ -1899,11 +1899,11 @@ MembersCanForkPrivateRepositories interface{}
 
 Whether or not organization members can fork private repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#members_can_fork_private_repositories OrganizationSettings#members_can_fork_private_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#members_can_fork_private_repositories OrganizationSettings#members_can_fork_private_repositories}
 
 ---
 
-##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.name"></a>
+##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.name"></a>
 
 ```go
 Name *string
@@ -1913,11 +1913,11 @@ Name *string
 
 The name for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#name OrganizationSettings#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#name OrganizationSettings#name}
 
 ---
 
-##### `SecretScanningEnabledForNewRepositories`<sup>Optional</sup> <a name="SecretScanningEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories"></a>
+##### `SecretScanningEnabledForNewRepositories`<sup>Optional</sup> <a name="SecretScanningEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories"></a>
 
 ```go
 SecretScanningEnabledForNewRepositories interface{}
@@ -1927,11 +1927,11 @@ SecretScanningEnabledForNewRepositories interface{}
 
 Whether or not secret scanning is enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#secret_scanning_enabled_for_new_repositories OrganizationSettings#secret_scanning_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#secret_scanning_enabled_for_new_repositories OrganizationSettings#secret_scanning_enabled_for_new_repositories}
 
 ---
 
-##### `SecretScanningPushProtectionEnabledForNewRepositories`<sup>Optional</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositories" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories"></a>
+##### `SecretScanningPushProtectionEnabledForNewRepositories`<sup>Optional</sup> <a name="SecretScanningPushProtectionEnabledForNewRepositories" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories"></a>
 
 ```go
 SecretScanningPushProtectionEnabledForNewRepositories interface{}
@@ -1941,11 +1941,11 @@ SecretScanningPushProtectionEnabledForNewRepositories interface{}
 
 Whether or not secret scanning push protection is enabled for new repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#secret_scanning_push_protection_enabled_for_new_repositories OrganizationSettings#secret_scanning_push_protection_enabled_for_new_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#secret_scanning_push_protection_enabled_for_new_repositories OrganizationSettings#secret_scanning_push_protection_enabled_for_new_repositories}
 
 ---
 
-##### `TwitterUsername`<sup>Optional</sup> <a name="TwitterUsername" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.twitterUsername"></a>
+##### `TwitterUsername`<sup>Optional</sup> <a name="TwitterUsername" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.twitterUsername"></a>
 
 ```go
 TwitterUsername *string
@@ -1955,11 +1955,11 @@ TwitterUsername *string
 
 The Twitter username for the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#twitter_username OrganizationSettings#twitter_username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#twitter_username OrganizationSettings#twitter_username}
 
 ---
 
-##### `WebCommitSignoffRequired`<sup>Optional</sup> <a name="WebCommitSignoffRequired" id="@cdktf/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired"></a>
+##### `WebCommitSignoffRequired`<sup>Optional</sup> <a name="WebCommitSignoffRequired" id="@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired"></a>
 
 ```go
 WebCommitSignoffRequired interface{}
@@ -1969,7 +1969,7 @@ WebCommitSignoffRequired interface{}
 
 Whether or not commit signatures are required for commits to the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/organization_settings#web_commit_signoff_required OrganizationSettings#web_commit_signoff_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_settings#web_commit_signoff_required OrganizationSettings#web_commit_signoff_required}
 
 ---
 

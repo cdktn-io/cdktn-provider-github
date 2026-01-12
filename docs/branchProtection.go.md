@@ -1,28 +1,28 @@
-# `branchProtection` Submodule <a name="`branchProtection` Submodule" id="@cdktf/provider-github.branchProtection"></a>
+# `branchProtection` Submodule <a name="`branchProtection` Submodule" id="@cdktn/provider-github.branchProtection"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### BranchProtection <a name="BranchProtection" id="@cdktf/provider-github.branchProtection.BranchProtection"></a>
+### BranchProtection <a name="BranchProtection" id="@cdktn/provider-github.branchProtection.BranchProtection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection github_branch_protection}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection github_branch_protection}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtection.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtection.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtection(scope Construct, id *string, config BranchProtectionConfig) BranchProtection
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig">BranchProtectionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig">BranchProtectionConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.branchProtection.BranchProtection.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.branchProtection.BranchProtection.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig">BranchProtectionConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig">BranchProtectionConfig</a>
 
 ---
 
@@ -50,48 +50,48 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews">PutRequiredPullRequestReviews</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks">PutRequiredStatusChecks</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.putRestrictPushes">PutRestrictPushes</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetAllowsDeletions">ResetAllowsDeletions</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetAllowsForcePushes">ResetAllowsForcePushes</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetEnforceAdmins">ResetEnforceAdmins</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetForcePushBypassers">ResetForcePushBypassers</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetId">ResetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetLockBranch">ResetLockBranch</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRequireConversationResolution">ResetRequireConversationResolution</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredLinearHistory">ResetRequiredLinearHistory</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredPullRequestReviews">ResetRequiredPullRequestReviews</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredStatusChecks">ResetRequiredStatusChecks</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRequireSignedCommits">ResetRequireSignedCommits</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.resetRestrictPushes">ResetRestrictPushes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews">PutRequiredPullRequestReviews</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks">PutRequiredStatusChecks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.putRestrictPushes">PutRestrictPushes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetAllowsDeletions">ResetAllowsDeletions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetAllowsForcePushes">ResetAllowsForcePushes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetEnforceAdmins">ResetEnforceAdmins</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetForcePushBypassers">ResetForcePushBypassers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetLockBranch">ResetLockBranch</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRequireConversationResolution">ResetRequireConversationResolution</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredLinearHistory">ResetRequiredLinearHistory</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredPullRequestReviews">ResetRequiredPullRequestReviews</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredStatusChecks">ResetRequiredStatusChecks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRequireSignedCommits">ResetRequireSignedCommits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.resetRestrictPushes">ResetRestrictPushes</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtection.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtection.toString"></a>
 
 ```go
 func ToString() *string
@@ -99,25 +99,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-github.branchProtection.BranchProtection.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-github.branchProtection.BranchProtection.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.branchProtection.BranchProtection.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.branchProtection.BranchProtection.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.branchProtection.BranchProtection.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.branchProtection.BranchProtection.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-github.branchProtection.BranchProtection.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-github.branchProtection.BranchProtection.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -125,7 +125,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.branchProtection.BranchProtection.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.branchProtection.BranchProtection.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -133,7 +133,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-github.branchProtection.BranchProtection.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-github.branchProtection.BranchProtection.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -141,19 +141,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-github.branchProtection.BranchProtection.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-github.branchProtection.BranchProtection.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-github.branchProtection.BranchProtection.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-github.branchProtection.BranchProtection.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-github.branchProtection.BranchProtection.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-github.branchProtection.BranchProtection.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -161,7 +161,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-github.branchProtection.BranchProtection.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-github.branchProtection.BranchProtection.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -169,7 +169,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.branchProtection.BranchProtection.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.branchProtection.BranchProtection.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -177,151 +177,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-github.branchProtection.BranchProtection.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-github.branchProtection.BranchProtection.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-github.branchProtection.BranchProtection.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-github.branchProtection.BranchProtection.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.branchProtection.BranchProtection.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.branchProtection.BranchProtection.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.branchProtection.BranchProtection.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.branchProtection.BranchProtection.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtection.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtection.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-github.branchProtection.BranchProtection.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-github.branchProtection.BranchProtection.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -331,7 +331,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.branchProtection.BranchProtection.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.branchProtection.BranchProtection.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -339,7 +339,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-github.branchProtection.BranchProtection.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-github.branchProtection.BranchProtection.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -347,7 +347,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.branchProtection.BranchProtection.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.branchProtection.BranchProtection.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -355,7 +355,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.branchProtection.BranchProtection.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.branchProtection.BranchProtection.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -363,7 +363,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-github.branchProtection.BranchProtection.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-github.branchProtection.BranchProtection.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -371,7 +371,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.branchProtection.BranchProtection.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.branchProtection.BranchProtection.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -379,109 +379,109 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `PutRequiredPullRequestReviews` <a name="PutRequiredPullRequestReviews" id="@cdktf/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews"></a>
+##### `PutRequiredPullRequestReviews` <a name="PutRequiredPullRequestReviews" id="@cdktn/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews"></a>
 
 ```go
 func PutRequiredPullRequestReviews(value interface{})
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.branchProtection.BranchProtection.putRequiredPullRequestReviews.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `PutRequiredStatusChecks` <a name="PutRequiredStatusChecks" id="@cdktf/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks"></a>
+##### `PutRequiredStatusChecks` <a name="PutRequiredStatusChecks" id="@cdktn/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks"></a>
 
 ```go
 func PutRequiredStatusChecks(value interface{})
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.branchProtection.BranchProtection.putRequiredStatusChecks.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `PutRestrictPushes` <a name="PutRestrictPushes" id="@cdktf/provider-github.branchProtection.BranchProtection.putRestrictPushes"></a>
+##### `PutRestrictPushes` <a name="PutRestrictPushes" id="@cdktn/provider-github.branchProtection.BranchProtection.putRestrictPushes"></a>
 
 ```go
 func PutRestrictPushes(value interface{})
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.branchProtection.BranchProtection.putRestrictPushes.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.branchProtection.BranchProtection.putRestrictPushes.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `ResetAllowsDeletions` <a name="ResetAllowsDeletions" id="@cdktf/provider-github.branchProtection.BranchProtection.resetAllowsDeletions"></a>
+##### `ResetAllowsDeletions` <a name="ResetAllowsDeletions" id="@cdktn/provider-github.branchProtection.BranchProtection.resetAllowsDeletions"></a>
 
 ```go
 func ResetAllowsDeletions()
 ```
 
-##### `ResetAllowsForcePushes` <a name="ResetAllowsForcePushes" id="@cdktf/provider-github.branchProtection.BranchProtection.resetAllowsForcePushes"></a>
+##### `ResetAllowsForcePushes` <a name="ResetAllowsForcePushes" id="@cdktn/provider-github.branchProtection.BranchProtection.resetAllowsForcePushes"></a>
 
 ```go
 func ResetAllowsForcePushes()
 ```
 
-##### `ResetEnforceAdmins` <a name="ResetEnforceAdmins" id="@cdktf/provider-github.branchProtection.BranchProtection.resetEnforceAdmins"></a>
+##### `ResetEnforceAdmins` <a name="ResetEnforceAdmins" id="@cdktn/provider-github.branchProtection.BranchProtection.resetEnforceAdmins"></a>
 
 ```go
 func ResetEnforceAdmins()
 ```
 
-##### `ResetForcePushBypassers` <a name="ResetForcePushBypassers" id="@cdktf/provider-github.branchProtection.BranchProtection.resetForcePushBypassers"></a>
+##### `ResetForcePushBypassers` <a name="ResetForcePushBypassers" id="@cdktn/provider-github.branchProtection.BranchProtection.resetForcePushBypassers"></a>
 
 ```go
 func ResetForcePushBypassers()
 ```
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-github.branchProtection.BranchProtection.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.branchProtection.BranchProtection.resetId"></a>
 
 ```go
 func ResetId()
 ```
 
-##### `ResetLockBranch` <a name="ResetLockBranch" id="@cdktf/provider-github.branchProtection.BranchProtection.resetLockBranch"></a>
+##### `ResetLockBranch` <a name="ResetLockBranch" id="@cdktn/provider-github.branchProtection.BranchProtection.resetLockBranch"></a>
 
 ```go
 func ResetLockBranch()
 ```
 
-##### `ResetRequireConversationResolution` <a name="ResetRequireConversationResolution" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRequireConversationResolution"></a>
+##### `ResetRequireConversationResolution` <a name="ResetRequireConversationResolution" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRequireConversationResolution"></a>
 
 ```go
 func ResetRequireConversationResolution()
 ```
 
-##### `ResetRequiredLinearHistory` <a name="ResetRequiredLinearHistory" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredLinearHistory"></a>
+##### `ResetRequiredLinearHistory` <a name="ResetRequiredLinearHistory" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredLinearHistory"></a>
 
 ```go
 func ResetRequiredLinearHistory()
 ```
 
-##### `ResetRequiredPullRequestReviews` <a name="ResetRequiredPullRequestReviews" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredPullRequestReviews"></a>
+##### `ResetRequiredPullRequestReviews` <a name="ResetRequiredPullRequestReviews" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredPullRequestReviews"></a>
 
 ```go
 func ResetRequiredPullRequestReviews()
 ```
 
-##### `ResetRequiredStatusChecks` <a name="ResetRequiredStatusChecks" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRequiredStatusChecks"></a>
+##### `ResetRequiredStatusChecks` <a name="ResetRequiredStatusChecks" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRequiredStatusChecks"></a>
 
 ```go
 func ResetRequiredStatusChecks()
 ```
 
-##### `ResetRequireSignedCommits` <a name="ResetRequireSignedCommits" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRequireSignedCommits"></a>
+##### `ResetRequireSignedCommits` <a name="ResetRequireSignedCommits" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRequireSignedCommits"></a>
 
 ```go
 func ResetRequireSignedCommits()
 ```
 
-##### `ResetRestrictPushes` <a name="ResetRestrictPushes" id="@cdktf/provider-github.branchProtection.BranchProtection.resetRestrictPushes"></a>
+##### `ResetRestrictPushes` <a name="ResetRestrictPushes" id="@cdktn/provider-github.branchProtection.BranchProtection.resetRestrictPushes"></a>
 
 ```go
 func ResetRestrictPushes()
@@ -491,17 +491,17 @@ func ResetRestrictPushes()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a BranchProtection resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a BranchProtection resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-github.branchProtection.BranchProtection.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.branchProtection.BranchProtection.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.BranchProtection_IsConstruct(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.branchProtection.BranchProtection.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.branchProtection.BranchProtection.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -530,45 +530,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-github.branchProtection.BranchProtection.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.branchProtection.BranchProtection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.BranchProtection_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.branchProtection.BranchProtection.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.branchProtection.BranchProtection.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-github.branchProtection.BranchProtection.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.branchProtection.BranchProtection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.BranchProtection_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.branchProtection.BranchProtection.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.branchProtection.BranchProtection.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.BranchProtection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a BranchProtection resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -576,7 +576,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -584,17 +584,17 @@ The construct id used in the generated config for the BranchProtection to import
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
 The id of the existing BranchProtection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.branchProtection.BranchProtection.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -606,52 +606,52 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviews">RequiredPullRequestReviews</a></code> | <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList">BranchProtectionRequiredPullRequestReviewsList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredStatusChecks">RequiredStatusChecks</a></code> | <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList">BranchProtectionRequiredStatusChecksList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.restrictPushes">RestrictPushes</a></code> | <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList">BranchProtectionRestrictPushesList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.allowsDeletionsInput">AllowsDeletionsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.allowsForcePushesInput">AllowsForcePushesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.enforceAdminsInput">EnforceAdminsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.forcePushBypassersInput">ForcePushBypassersInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.lockBranchInput">LockBranchInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.patternInput">PatternInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.repositoryIdInput">RepositoryIdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requireConversationResolutionInput">RequireConversationResolutionInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredLinearHistoryInput">RequiredLinearHistoryInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviewsInput">RequiredPullRequestReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredStatusChecksInput">RequiredStatusChecksInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requireSignedCommitsInput">RequireSignedCommitsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.restrictPushesInput">RestrictPushesInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.allowsDeletions">AllowsDeletions</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.allowsForcePushes">AllowsForcePushes</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.enforceAdmins">EnforceAdmins</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.forcePushBypassers">ForcePushBypassers</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.lockBranch">LockBranch</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.pattern">Pattern</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requireConversationResolution">RequireConversationResolution</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requiredLinearHistory">RequiredLinearHistory</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.requireSignedCommits">RequireSignedCommits</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviews">RequiredPullRequestReviews</a></code> | <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList">BranchProtectionRequiredPullRequestReviewsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredStatusChecks">RequiredStatusChecks</a></code> | <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList">BranchProtectionRequiredStatusChecksList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.restrictPushes">RestrictPushes</a></code> | <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList">BranchProtectionRestrictPushesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.allowsDeletionsInput">AllowsDeletionsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.allowsForcePushesInput">AllowsForcePushesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.enforceAdminsInput">EnforceAdminsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.forcePushBypassersInput">ForcePushBypassersInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.lockBranchInput">LockBranchInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.patternInput">PatternInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.repositoryIdInput">RepositoryIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requireConversationResolutionInput">RequireConversationResolutionInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredLinearHistoryInput">RequiredLinearHistoryInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviewsInput">RequiredPullRequestReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredStatusChecksInput">RequiredStatusChecksInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requireSignedCommitsInput">RequireSignedCommitsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.restrictPushesInput">RestrictPushesInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.allowsDeletions">AllowsDeletions</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.allowsForcePushes">AllowsForcePushes</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.enforceAdmins">EnforceAdmins</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.forcePushBypassers">ForcePushBypassers</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.lockBranch">LockBranch</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.pattern">Pattern</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requireConversationResolution">RequireConversationResolution</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requiredLinearHistory">RequiredLinearHistory</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.requireSignedCommits">RequireSignedCommits</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-github.branchProtection.BranchProtection.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-github.branchProtection.BranchProtection.property.node"></a>
 
 ```go
 func Node() Node
@@ -663,7 +663,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-github.branchProtection.BranchProtection.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-github.branchProtection.BranchProtection.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -673,7 +673,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtection.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtection.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -683,7 +683,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-github.branchProtection.BranchProtection.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-github.branchProtection.BranchProtection.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -693,7 +693,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-github.branchProtection.BranchProtection.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-github.branchProtection.BranchProtection.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -703,7 +703,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-github.branchProtection.BranchProtection.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-github.branchProtection.BranchProtection.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -713,7 +713,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-github.branchProtection.BranchProtection.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-github.branchProtection.BranchProtection.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -723,7 +723,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.branchProtection.BranchProtection.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.branchProtection.BranchProtection.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -733,7 +733,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.branchProtection.BranchProtection.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.branchProtection.BranchProtection.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -743,7 +743,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.branchProtection.BranchProtection.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.branchProtection.BranchProtection.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -753,7 +753,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.branchProtection.BranchProtection.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.branchProtection.BranchProtection.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -763,7 +763,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.branchProtection.BranchProtection.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.branchProtection.BranchProtection.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -773,7 +773,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.branchProtection.BranchProtection.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.branchProtection.BranchProtection.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -783,7 +783,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.branchProtection.BranchProtection.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.branchProtection.BranchProtection.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -793,37 +793,37 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `RequiredPullRequestReviews`<sup>Required</sup> <a name="RequiredPullRequestReviews" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviews"></a>
+##### `RequiredPullRequestReviews`<sup>Required</sup> <a name="RequiredPullRequestReviews" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviews"></a>
 
 ```go
 func RequiredPullRequestReviews() BranchProtectionRequiredPullRequestReviewsList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList">BranchProtectionRequiredPullRequestReviewsList</a>
+- *Type:* <a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList">BranchProtectionRequiredPullRequestReviewsList</a>
 
 ---
 
-##### `RequiredStatusChecks`<sup>Required</sup> <a name="RequiredStatusChecks" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredStatusChecks"></a>
+##### `RequiredStatusChecks`<sup>Required</sup> <a name="RequiredStatusChecks" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredStatusChecks"></a>
 
 ```go
 func RequiredStatusChecks() BranchProtectionRequiredStatusChecksList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList">BranchProtectionRequiredStatusChecksList</a>
+- *Type:* <a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList">BranchProtectionRequiredStatusChecksList</a>
 
 ---
 
-##### `RestrictPushes`<sup>Required</sup> <a name="RestrictPushes" id="@cdktf/provider-github.branchProtection.BranchProtection.property.restrictPushes"></a>
+##### `RestrictPushes`<sup>Required</sup> <a name="RestrictPushes" id="@cdktn/provider-github.branchProtection.BranchProtection.property.restrictPushes"></a>
 
 ```go
 func RestrictPushes() BranchProtectionRestrictPushesList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList">BranchProtectionRestrictPushesList</a>
+- *Type:* <a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList">BranchProtectionRestrictPushesList</a>
 
 ---
 
-##### `AllowsDeletionsInput`<sup>Optional</sup> <a name="AllowsDeletionsInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.allowsDeletionsInput"></a>
+##### `AllowsDeletionsInput`<sup>Optional</sup> <a name="AllowsDeletionsInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.allowsDeletionsInput"></a>
 
 ```go
 func AllowsDeletionsInput() interface{}
@@ -833,7 +833,7 @@ func AllowsDeletionsInput() interface{}
 
 ---
 
-##### `AllowsForcePushesInput`<sup>Optional</sup> <a name="AllowsForcePushesInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.allowsForcePushesInput"></a>
+##### `AllowsForcePushesInput`<sup>Optional</sup> <a name="AllowsForcePushesInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.allowsForcePushesInput"></a>
 
 ```go
 func AllowsForcePushesInput() interface{}
@@ -843,7 +843,7 @@ func AllowsForcePushesInput() interface{}
 
 ---
 
-##### `EnforceAdminsInput`<sup>Optional</sup> <a name="EnforceAdminsInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.enforceAdminsInput"></a>
+##### `EnforceAdminsInput`<sup>Optional</sup> <a name="EnforceAdminsInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.enforceAdminsInput"></a>
 
 ```go
 func EnforceAdminsInput() interface{}
@@ -853,7 +853,7 @@ func EnforceAdminsInput() interface{}
 
 ---
 
-##### `ForcePushBypassersInput`<sup>Optional</sup> <a name="ForcePushBypassersInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.forcePushBypassersInput"></a>
+##### `ForcePushBypassersInput`<sup>Optional</sup> <a name="ForcePushBypassersInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.forcePushBypassersInput"></a>
 
 ```go
 func ForcePushBypassersInput() *[]*string
@@ -863,7 +863,7 @@ func ForcePushBypassersInput() *[]*string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -873,7 +873,7 @@ func IdInput() *string
 
 ---
 
-##### `LockBranchInput`<sup>Optional</sup> <a name="LockBranchInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.lockBranchInput"></a>
+##### `LockBranchInput`<sup>Optional</sup> <a name="LockBranchInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.lockBranchInput"></a>
 
 ```go
 func LockBranchInput() interface{}
@@ -883,7 +883,7 @@ func LockBranchInput() interface{}
 
 ---
 
-##### `PatternInput`<sup>Optional</sup> <a name="PatternInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.patternInput"></a>
+##### `PatternInput`<sup>Optional</sup> <a name="PatternInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.patternInput"></a>
 
 ```go
 func PatternInput() *string
@@ -893,7 +893,7 @@ func PatternInput() *string
 
 ---
 
-##### `RepositoryIdInput`<sup>Optional</sup> <a name="RepositoryIdInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.repositoryIdInput"></a>
+##### `RepositoryIdInput`<sup>Optional</sup> <a name="RepositoryIdInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.repositoryIdInput"></a>
 
 ```go
 func RepositoryIdInput() *string
@@ -903,7 +903,7 @@ func RepositoryIdInput() *string
 
 ---
 
-##### `RequireConversationResolutionInput`<sup>Optional</sup> <a name="RequireConversationResolutionInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requireConversationResolutionInput"></a>
+##### `RequireConversationResolutionInput`<sup>Optional</sup> <a name="RequireConversationResolutionInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requireConversationResolutionInput"></a>
 
 ```go
 func RequireConversationResolutionInput() interface{}
@@ -913,7 +913,7 @@ func RequireConversationResolutionInput() interface{}
 
 ---
 
-##### `RequiredLinearHistoryInput`<sup>Optional</sup> <a name="RequiredLinearHistoryInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredLinearHistoryInput"></a>
+##### `RequiredLinearHistoryInput`<sup>Optional</sup> <a name="RequiredLinearHistoryInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredLinearHistoryInput"></a>
 
 ```go
 func RequiredLinearHistoryInput() interface{}
@@ -923,7 +923,7 @@ func RequiredLinearHistoryInput() interface{}
 
 ---
 
-##### `RequiredPullRequestReviewsInput`<sup>Optional</sup> <a name="RequiredPullRequestReviewsInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviewsInput"></a>
+##### `RequiredPullRequestReviewsInput`<sup>Optional</sup> <a name="RequiredPullRequestReviewsInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredPullRequestReviewsInput"></a>
 
 ```go
 func RequiredPullRequestReviewsInput() interface{}
@@ -933,7 +933,7 @@ func RequiredPullRequestReviewsInput() interface{}
 
 ---
 
-##### `RequiredStatusChecksInput`<sup>Optional</sup> <a name="RequiredStatusChecksInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredStatusChecksInput"></a>
+##### `RequiredStatusChecksInput`<sup>Optional</sup> <a name="RequiredStatusChecksInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredStatusChecksInput"></a>
 
 ```go
 func RequiredStatusChecksInput() interface{}
@@ -943,7 +943,7 @@ func RequiredStatusChecksInput() interface{}
 
 ---
 
-##### `RequireSignedCommitsInput`<sup>Optional</sup> <a name="RequireSignedCommitsInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requireSignedCommitsInput"></a>
+##### `RequireSignedCommitsInput`<sup>Optional</sup> <a name="RequireSignedCommitsInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requireSignedCommitsInput"></a>
 
 ```go
 func RequireSignedCommitsInput() interface{}
@@ -953,7 +953,7 @@ func RequireSignedCommitsInput() interface{}
 
 ---
 
-##### `RestrictPushesInput`<sup>Optional</sup> <a name="RestrictPushesInput" id="@cdktf/provider-github.branchProtection.BranchProtection.property.restrictPushesInput"></a>
+##### `RestrictPushesInput`<sup>Optional</sup> <a name="RestrictPushesInput" id="@cdktn/provider-github.branchProtection.BranchProtection.property.restrictPushesInput"></a>
 
 ```go
 func RestrictPushesInput() interface{}
@@ -963,7 +963,7 @@ func RestrictPushesInput() interface{}
 
 ---
 
-##### `AllowsDeletions`<sup>Required</sup> <a name="AllowsDeletions" id="@cdktf/provider-github.branchProtection.BranchProtection.property.allowsDeletions"></a>
+##### `AllowsDeletions`<sup>Required</sup> <a name="AllowsDeletions" id="@cdktn/provider-github.branchProtection.BranchProtection.property.allowsDeletions"></a>
 
 ```go
 func AllowsDeletions() interface{}
@@ -973,7 +973,7 @@ func AllowsDeletions() interface{}
 
 ---
 
-##### `AllowsForcePushes`<sup>Required</sup> <a name="AllowsForcePushes" id="@cdktf/provider-github.branchProtection.BranchProtection.property.allowsForcePushes"></a>
+##### `AllowsForcePushes`<sup>Required</sup> <a name="AllowsForcePushes" id="@cdktn/provider-github.branchProtection.BranchProtection.property.allowsForcePushes"></a>
 
 ```go
 func AllowsForcePushes() interface{}
@@ -983,7 +983,7 @@ func AllowsForcePushes() interface{}
 
 ---
 
-##### `EnforceAdmins`<sup>Required</sup> <a name="EnforceAdmins" id="@cdktf/provider-github.branchProtection.BranchProtection.property.enforceAdmins"></a>
+##### `EnforceAdmins`<sup>Required</sup> <a name="EnforceAdmins" id="@cdktn/provider-github.branchProtection.BranchProtection.property.enforceAdmins"></a>
 
 ```go
 func EnforceAdmins() interface{}
@@ -993,7 +993,7 @@ func EnforceAdmins() interface{}
 
 ---
 
-##### `ForcePushBypassers`<sup>Required</sup> <a name="ForcePushBypassers" id="@cdktf/provider-github.branchProtection.BranchProtection.property.forcePushBypassers"></a>
+##### `ForcePushBypassers`<sup>Required</sup> <a name="ForcePushBypassers" id="@cdktn/provider-github.branchProtection.BranchProtection.property.forcePushBypassers"></a>
 
 ```go
 func ForcePushBypassers() *[]*string
@@ -1003,7 +1003,7 @@ func ForcePushBypassers() *[]*string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-github.branchProtection.BranchProtection.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.branchProtection.BranchProtection.property.id"></a>
 
 ```go
 func Id() *string
@@ -1013,7 +1013,7 @@ func Id() *string
 
 ---
 
-##### `LockBranch`<sup>Required</sup> <a name="LockBranch" id="@cdktf/provider-github.branchProtection.BranchProtection.property.lockBranch"></a>
+##### `LockBranch`<sup>Required</sup> <a name="LockBranch" id="@cdktn/provider-github.branchProtection.BranchProtection.property.lockBranch"></a>
 
 ```go
 func LockBranch() interface{}
@@ -1023,7 +1023,7 @@ func LockBranch() interface{}
 
 ---
 
-##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktf/provider-github.branchProtection.BranchProtection.property.pattern"></a>
+##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktn/provider-github.branchProtection.BranchProtection.property.pattern"></a>
 
 ```go
 func Pattern() *string
@@ -1033,7 +1033,7 @@ func Pattern() *string
 
 ---
 
-##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktf/provider-github.branchProtection.BranchProtection.property.repositoryId"></a>
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.branchProtection.BranchProtection.property.repositoryId"></a>
 
 ```go
 func RepositoryId() *string
@@ -1043,7 +1043,7 @@ func RepositoryId() *string
 
 ---
 
-##### `RequireConversationResolution`<sup>Required</sup> <a name="RequireConversationResolution" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requireConversationResolution"></a>
+##### `RequireConversationResolution`<sup>Required</sup> <a name="RequireConversationResolution" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requireConversationResolution"></a>
 
 ```go
 func RequireConversationResolution() interface{}
@@ -1053,7 +1053,7 @@ func RequireConversationResolution() interface{}
 
 ---
 
-##### `RequiredLinearHistory`<sup>Required</sup> <a name="RequiredLinearHistory" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requiredLinearHistory"></a>
+##### `RequiredLinearHistory`<sup>Required</sup> <a name="RequiredLinearHistory" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requiredLinearHistory"></a>
 
 ```go
 func RequiredLinearHistory() interface{}
@@ -1063,7 +1063,7 @@ func RequiredLinearHistory() interface{}
 
 ---
 
-##### `RequireSignedCommits`<sup>Required</sup> <a name="RequireSignedCommits" id="@cdktf/provider-github.branchProtection.BranchProtection.property.requireSignedCommits"></a>
+##### `RequireSignedCommits`<sup>Required</sup> <a name="RequireSignedCommits" id="@cdktn/provider-github.branchProtection.BranchProtection.property.requireSignedCommits"></a>
 
 ```go
 func RequireSignedCommits() interface{}
@@ -1077,11 +1077,11 @@ func RequireSignedCommits() interface{}
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtection.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtection.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-github.branchProtection.BranchProtection.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-github.branchProtection.BranchProtection.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -1093,12 +1093,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### BranchProtectionConfig <a name="BranchProtectionConfig" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig"></a>
+### BranchProtectionConfig <a name="BranchProtectionConfig" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 &branchprotection.BranchProtectionConfig {
 	Connection: interface{},
@@ -1129,31 +1129,31 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Identifies the protection rule pattern. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | The name or node ID of the repository associated with this branch protection rule. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.allowsDeletions">AllowsDeletions</a></code> | <code>interface{}</code> | Setting this to 'true' to allow the branch to be deleted. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.allowsForcePushes">AllowsForcePushes</a></code> | <code>interface{}</code> | Setting this to 'true' to allow force pushes on the branch. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.enforceAdmins">EnforceAdmins</a></code> | <code>interface{}</code> | Setting this to 'true' enforces status checks for repository administrators. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.forcePushBypassers">ForcePushBypassers</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that are allowed to bypass force push restrictions. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#id BranchProtection#id}. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.lockBranch">LockBranch</a></code> | <code>interface{}</code> | Setting this to 'true' will make the branch read-only and preventing any pushes to it. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requireConversationResolution">RequireConversationResolution</a></code> | <code>interface{}</code> | Setting this to 'true' requires all conversations on code must be resolved before a pull request can be merged. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredLinearHistory">RequiredLinearHistory</a></code> | <code>interface{}</code> | Setting this to 'true' enforces a linear commit Git history, which prevents anyone from pushing merge commits to a branch. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredPullRequestReviews">RequiredPullRequestReviews</a></code> | <code>interface{}</code> | required_pull_request_reviews block. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredStatusChecks">RequiredStatusChecks</a></code> | <code>interface{}</code> | required_status_checks block. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requireSignedCommits">RequireSignedCommits</a></code> | <code>interface{}</code> | Setting this to 'true' requires all commits to be signed with GPG. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.restrictPushes">RestrictPushes</a></code> | <code>interface{}</code> | restrict_pushes block. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.pattern">Pattern</a></code> | <code>*string</code> | Identifies the protection rule pattern. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.repositoryId">RepositoryId</a></code> | <code>*string</code> | The name or node ID of the repository associated with this branch protection rule. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.allowsDeletions">AllowsDeletions</a></code> | <code>interface{}</code> | Setting this to 'true' to allow the branch to be deleted. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.allowsForcePushes">AllowsForcePushes</a></code> | <code>interface{}</code> | Setting this to 'true' to allow force pushes on the branch. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.enforceAdmins">EnforceAdmins</a></code> | <code>interface{}</code> | Setting this to 'true' enforces status checks for repository administrators. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.forcePushBypassers">ForcePushBypassers</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that are allowed to bypass force push restrictions. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#id BranchProtection#id}. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.lockBranch">LockBranch</a></code> | <code>interface{}</code> | Setting this to 'true' will make the branch read-only and preventing any pushes to it. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requireConversationResolution">RequireConversationResolution</a></code> | <code>interface{}</code> | Setting this to 'true' requires all conversations on code must be resolved before a pull request can be merged. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredLinearHistory">RequiredLinearHistory</a></code> | <code>interface{}</code> | Setting this to 'true' enforces a linear commit Git history, which prevents anyone from pushing merge commits to a branch. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredPullRequestReviews">RequiredPullRequestReviews</a></code> | <code>interface{}</code> | required_pull_request_reviews block. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredStatusChecks">RequiredStatusChecks</a></code> | <code>interface{}</code> | required_status_checks block. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requireSignedCommits">RequireSignedCommits</a></code> | <code>interface{}</code> | Setting this to 'true' requires all commits to be signed with GPG. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.restrictPushes">RestrictPushes</a></code> | <code>interface{}</code> | restrict_pushes block. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -1163,7 +1163,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -1173,7 +1173,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -1183,7 +1183,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -1193,7 +1193,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -1203,7 +1203,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -1213,7 +1213,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -1223,7 +1223,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.pattern"></a>
+##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.pattern"></a>
 
 ```go
 Pattern *string
@@ -1233,11 +1233,11 @@ Pattern *string
 
 Identifies the protection rule pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#pattern BranchProtection#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#pattern BranchProtection#pattern}
 
 ---
 
-##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.repositoryId"></a>
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.repositoryId"></a>
 
 ```go
 RepositoryId *string
@@ -1247,11 +1247,11 @@ RepositoryId *string
 
 The name or node ID of the repository associated with this branch protection rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#repository_id BranchProtection#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#repository_id BranchProtection#repository_id}
 
 ---
 
-##### `AllowsDeletions`<sup>Optional</sup> <a name="AllowsDeletions" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.allowsDeletions"></a>
+##### `AllowsDeletions`<sup>Optional</sup> <a name="AllowsDeletions" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.allowsDeletions"></a>
 
 ```go
 AllowsDeletions interface{}
@@ -1261,11 +1261,11 @@ AllowsDeletions interface{}
 
 Setting this to 'true' to allow the branch to be deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#allows_deletions BranchProtection#allows_deletions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#allows_deletions BranchProtection#allows_deletions}
 
 ---
 
-##### `AllowsForcePushes`<sup>Optional</sup> <a name="AllowsForcePushes" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.allowsForcePushes"></a>
+##### `AllowsForcePushes`<sup>Optional</sup> <a name="AllowsForcePushes" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.allowsForcePushes"></a>
 
 ```go
 AllowsForcePushes interface{}
@@ -1275,11 +1275,11 @@ AllowsForcePushes interface{}
 
 Setting this to 'true' to allow force pushes on the branch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#allows_force_pushes BranchProtection#allows_force_pushes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#allows_force_pushes BranchProtection#allows_force_pushes}
 
 ---
 
-##### `EnforceAdmins`<sup>Optional</sup> <a name="EnforceAdmins" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.enforceAdmins"></a>
+##### `EnforceAdmins`<sup>Optional</sup> <a name="EnforceAdmins" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.enforceAdmins"></a>
 
 ```go
 EnforceAdmins interface{}
@@ -1289,11 +1289,11 @@ EnforceAdmins interface{}
 
 Setting this to 'true' enforces status checks for repository administrators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#enforce_admins BranchProtection#enforce_admins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#enforce_admins BranchProtection#enforce_admins}
 
 ---
 
-##### `ForcePushBypassers`<sup>Optional</sup> <a name="ForcePushBypassers" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.forcePushBypassers"></a>
+##### `ForcePushBypassers`<sup>Optional</sup> <a name="ForcePushBypassers" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.forcePushBypassers"></a>
 
 ```go
 ForcePushBypassers *[]*string
@@ -1305,11 +1305,11 @@ The list of actor Names/IDs that are allowed to bypass force push restrictions.
 
 Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#force_push_bypassers BranchProtection#force_push_bypassers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#force_push_bypassers BranchProtection#force_push_bypassers}
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.id"></a>
 
 ```go
 Id *string
@@ -1317,14 +1317,14 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#id BranchProtection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#id BranchProtection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `LockBranch`<sup>Optional</sup> <a name="LockBranch" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.lockBranch"></a>
+##### `LockBranch`<sup>Optional</sup> <a name="LockBranch" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.lockBranch"></a>
 
 ```go
 LockBranch interface{}
@@ -1334,11 +1334,11 @@ LockBranch interface{}
 
 Setting this to 'true' will make the branch read-only and preventing any pushes to it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#lock_branch BranchProtection#lock_branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#lock_branch BranchProtection#lock_branch}
 
 ---
 
-##### `RequireConversationResolution`<sup>Optional</sup> <a name="RequireConversationResolution" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requireConversationResolution"></a>
+##### `RequireConversationResolution`<sup>Optional</sup> <a name="RequireConversationResolution" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requireConversationResolution"></a>
 
 ```go
 RequireConversationResolution interface{}
@@ -1348,11 +1348,11 @@ RequireConversationResolution interface{}
 
 Setting this to 'true' requires all conversations on code must be resolved before a pull request can be merged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#require_conversation_resolution BranchProtection#require_conversation_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#require_conversation_resolution BranchProtection#require_conversation_resolution}
 
 ---
 
-##### `RequiredLinearHistory`<sup>Optional</sup> <a name="RequiredLinearHistory" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredLinearHistory"></a>
+##### `RequiredLinearHistory`<sup>Optional</sup> <a name="RequiredLinearHistory" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredLinearHistory"></a>
 
 ```go
 RequiredLinearHistory interface{}
@@ -1362,11 +1362,11 @@ RequiredLinearHistory interface{}
 
 Setting this to 'true' enforces a linear commit Git history, which prevents anyone from pushing merge commits to a branch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#required_linear_history BranchProtection#required_linear_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#required_linear_history BranchProtection#required_linear_history}
 
 ---
 
-##### `RequiredPullRequestReviews`<sup>Optional</sup> <a name="RequiredPullRequestReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredPullRequestReviews"></a>
+##### `RequiredPullRequestReviews`<sup>Optional</sup> <a name="RequiredPullRequestReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredPullRequestReviews"></a>
 
 ```go
 RequiredPullRequestReviews interface{}
@@ -1376,11 +1376,11 @@ RequiredPullRequestReviews interface{}
 
 required_pull_request_reviews block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#required_pull_request_reviews BranchProtection#required_pull_request_reviews}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#required_pull_request_reviews BranchProtection#required_pull_request_reviews}
 
 ---
 
-##### `RequiredStatusChecks`<sup>Optional</sup> <a name="RequiredStatusChecks" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requiredStatusChecks"></a>
+##### `RequiredStatusChecks`<sup>Optional</sup> <a name="RequiredStatusChecks" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requiredStatusChecks"></a>
 
 ```go
 RequiredStatusChecks interface{}
@@ -1390,11 +1390,11 @@ RequiredStatusChecks interface{}
 
 required_status_checks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#required_status_checks BranchProtection#required_status_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#required_status_checks BranchProtection#required_status_checks}
 
 ---
 
-##### `RequireSignedCommits`<sup>Optional</sup> <a name="RequireSignedCommits" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.requireSignedCommits"></a>
+##### `RequireSignedCommits`<sup>Optional</sup> <a name="RequireSignedCommits" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.requireSignedCommits"></a>
 
 ```go
 RequireSignedCommits interface{}
@@ -1404,11 +1404,11 @@ RequireSignedCommits interface{}
 
 Setting this to 'true' requires all commits to be signed with GPG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#require_signed_commits BranchProtection#require_signed_commits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#require_signed_commits BranchProtection#require_signed_commits}
 
 ---
 
-##### `RestrictPushes`<sup>Optional</sup> <a name="RestrictPushes" id="@cdktf/provider-github.branchProtection.BranchProtectionConfig.property.restrictPushes"></a>
+##### `RestrictPushes`<sup>Optional</sup> <a name="RestrictPushes" id="@cdktn/provider-github.branchProtection.BranchProtectionConfig.property.restrictPushes"></a>
 
 ```go
 RestrictPushes interface{}
@@ -1418,16 +1418,16 @@ RestrictPushes interface{}
 
 restrict_pushes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#restrict_pushes BranchProtection#restrict_pushes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#restrict_pushes BranchProtection#restrict_pushes}
 
 ---
 
-### BranchProtectionRequiredPullRequestReviews <a name="BranchProtectionRequiredPullRequestReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews"></a>
+### BranchProtectionRequiredPullRequestReviews <a name="BranchProtectionRequiredPullRequestReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 &branchprotection.BranchProtectionRequiredPullRequestReviews {
 	DismissalRestrictions: *[]*string,
@@ -1444,17 +1444,17 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissalRestrictions">DismissalRestrictions</a></code> | <code>*[]*string</code> | The list of actor Names/IDs with dismissal access. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissStaleReviews">DismissStaleReviews</a></code> | <code>interface{}</code> | Dismiss approved reviews automatically when a new commit is pushed. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.pullRequestBypassers">PullRequestBypassers</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that are allowed to bypass pull request requirements. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireCodeOwnerReviews">RequireCodeOwnerReviews</a></code> | <code>interface{}</code> | Require an approved review in pull requests including files with a designated code owner. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requiredApprovingReviewCount">RequiredApprovingReviewCount</a></code> | <code>*f64</code> | Require 'x' number of approvals to satisfy branch protection requirements. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireLastPushApproval">RequireLastPushApproval</a></code> | <code>interface{}</code> | Require that The most recent push must be approved by someone other than the last pusher. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.restrictDismissals">RestrictDismissals</a></code> | <code>interface{}</code> | Restrict pull request review dismissals. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissalRestrictions">DismissalRestrictions</a></code> | <code>*[]*string</code> | The list of actor Names/IDs with dismissal access. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissStaleReviews">DismissStaleReviews</a></code> | <code>interface{}</code> | Dismiss approved reviews automatically when a new commit is pushed. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.pullRequestBypassers">PullRequestBypassers</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that are allowed to bypass pull request requirements. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireCodeOwnerReviews">RequireCodeOwnerReviews</a></code> | <code>interface{}</code> | Require an approved review in pull requests including files with a designated code owner. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requiredApprovingReviewCount">RequiredApprovingReviewCount</a></code> | <code>*f64</code> | Require 'x' number of approvals to satisfy branch protection requirements. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireLastPushApproval">RequireLastPushApproval</a></code> | <code>interface{}</code> | Require that The most recent push must be approved by someone other than the last pusher. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.restrictDismissals">RestrictDismissals</a></code> | <code>interface{}</code> | Restrict pull request review dismissals. |
 
 ---
 
-##### `DismissalRestrictions`<sup>Optional</sup> <a name="DismissalRestrictions" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissalRestrictions"></a>
+##### `DismissalRestrictions`<sup>Optional</sup> <a name="DismissalRestrictions" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissalRestrictions"></a>
 
 ```go
 DismissalRestrictions *[]*string
@@ -1466,11 +1466,11 @@ The list of actor Names/IDs with dismissal access.
 
 If not empty, 'restrict_dismissals' is ignored. Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#dismissal_restrictions BranchProtection#dismissal_restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#dismissal_restrictions BranchProtection#dismissal_restrictions}
 
 ---
 
-##### `DismissStaleReviews`<sup>Optional</sup> <a name="DismissStaleReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissStaleReviews"></a>
+##### `DismissStaleReviews`<sup>Optional</sup> <a name="DismissStaleReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.dismissStaleReviews"></a>
 
 ```go
 DismissStaleReviews interface{}
@@ -1480,11 +1480,11 @@ DismissStaleReviews interface{}
 
 Dismiss approved reviews automatically when a new commit is pushed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#dismiss_stale_reviews BranchProtection#dismiss_stale_reviews}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#dismiss_stale_reviews BranchProtection#dismiss_stale_reviews}
 
 ---
 
-##### `PullRequestBypassers`<sup>Optional</sup> <a name="PullRequestBypassers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.pullRequestBypassers"></a>
+##### `PullRequestBypassers`<sup>Optional</sup> <a name="PullRequestBypassers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.pullRequestBypassers"></a>
 
 ```go
 PullRequestBypassers *[]*string
@@ -1496,11 +1496,11 @@ The list of actor Names/IDs that are allowed to bypass pull request requirements
 
 Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#pull_request_bypassers BranchProtection#pull_request_bypassers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#pull_request_bypassers BranchProtection#pull_request_bypassers}
 
 ---
 
-##### `RequireCodeOwnerReviews`<sup>Optional</sup> <a name="RequireCodeOwnerReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireCodeOwnerReviews"></a>
+##### `RequireCodeOwnerReviews`<sup>Optional</sup> <a name="RequireCodeOwnerReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireCodeOwnerReviews"></a>
 
 ```go
 RequireCodeOwnerReviews interface{}
@@ -1510,11 +1510,11 @@ RequireCodeOwnerReviews interface{}
 
 Require an approved review in pull requests including files with a designated code owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#require_code_owner_reviews BranchProtection#require_code_owner_reviews}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#require_code_owner_reviews BranchProtection#require_code_owner_reviews}
 
 ---
 
-##### `RequiredApprovingReviewCount`<sup>Optional</sup> <a name="RequiredApprovingReviewCount" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requiredApprovingReviewCount"></a>
+##### `RequiredApprovingReviewCount`<sup>Optional</sup> <a name="RequiredApprovingReviewCount" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requiredApprovingReviewCount"></a>
 
 ```go
 RequiredApprovingReviewCount *f64
@@ -1526,11 +1526,11 @@ Require 'x' number of approvals to satisfy branch protection requirements.
 
 If this is specified it must be a number between 0-6.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#required_approving_review_count BranchProtection#required_approving_review_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#required_approving_review_count BranchProtection#required_approving_review_count}
 
 ---
 
-##### `RequireLastPushApproval`<sup>Optional</sup> <a name="RequireLastPushApproval" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireLastPushApproval"></a>
+##### `RequireLastPushApproval`<sup>Optional</sup> <a name="RequireLastPushApproval" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.requireLastPushApproval"></a>
 
 ```go
 RequireLastPushApproval interface{}
@@ -1540,11 +1540,11 @@ RequireLastPushApproval interface{}
 
 Require that The most recent push must be approved by someone other than the last pusher.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#require_last_push_approval BranchProtection#require_last_push_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#require_last_push_approval BranchProtection#require_last_push_approval}
 
 ---
 
-##### `RestrictDismissals`<sup>Optional</sup> <a name="RestrictDismissals" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.restrictDismissals"></a>
+##### `RestrictDismissals`<sup>Optional</sup> <a name="RestrictDismissals" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviews.property.restrictDismissals"></a>
 
 ```go
 RestrictDismissals interface{}
@@ -1554,16 +1554,16 @@ RestrictDismissals interface{}
 
 Restrict pull request review dismissals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#restrict_dismissals BranchProtection#restrict_dismissals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#restrict_dismissals BranchProtection#restrict_dismissals}
 
 ---
 
-### BranchProtectionRequiredStatusChecks <a name="BranchProtectionRequiredStatusChecks" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks"></a>
+### BranchProtectionRequiredStatusChecks <a name="BranchProtectionRequiredStatusChecks" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 &branchprotection.BranchProtectionRequiredStatusChecks {
 	Contexts: *[]*string,
@@ -1575,12 +1575,12 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.contexts">Contexts</a></code> | <code>*[]*string</code> | The list of status checks to require in order to merge into this branch. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.strict">Strict</a></code> | <code>interface{}</code> | Require branches to be up to date before merging. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.contexts">Contexts</a></code> | <code>*[]*string</code> | The list of status checks to require in order to merge into this branch. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.strict">Strict</a></code> | <code>interface{}</code> | Require branches to be up to date before merging. |
 
 ---
 
-##### `Contexts`<sup>Optional</sup> <a name="Contexts" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.contexts"></a>
+##### `Contexts`<sup>Optional</sup> <a name="Contexts" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.contexts"></a>
 
 ```go
 Contexts *[]*string
@@ -1592,11 +1592,11 @@ The list of status checks to require in order to merge into this branch.
 
 No status checks are required by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#contexts BranchProtection#contexts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#contexts BranchProtection#contexts}
 
 ---
 
-##### `Strict`<sup>Optional</sup> <a name="Strict" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.strict"></a>
+##### `Strict`<sup>Optional</sup> <a name="Strict" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecks.property.strict"></a>
 
 ```go
 Strict interface{}
@@ -1606,16 +1606,16 @@ Strict interface{}
 
 Require branches to be up to date before merging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#strict BranchProtection#strict}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#strict BranchProtection#strict}
 
 ---
 
-### BranchProtectionRestrictPushes <a name="BranchProtectionRestrictPushes" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes"></a>
+### BranchProtectionRestrictPushes <a name="BranchProtectionRestrictPushes" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 &branchprotection.BranchProtectionRestrictPushes {
 	BlocksCreations: interface{},
@@ -1627,12 +1627,12 @@ import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes.property.blocksCreations">BlocksCreations</a></code> | <code>interface{}</code> | Restrict pushes that create matching branches. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes.property.pushAllowances">PushAllowances</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that may push to the branch. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes.property.blocksCreations">BlocksCreations</a></code> | <code>interface{}</code> | Restrict pushes that create matching branches. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes.property.pushAllowances">PushAllowances</a></code> | <code>*[]*string</code> | The list of actor Names/IDs that may push to the branch. |
 
 ---
 
-##### `BlocksCreations`<sup>Optional</sup> <a name="BlocksCreations" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes.property.blocksCreations"></a>
+##### `BlocksCreations`<sup>Optional</sup> <a name="BlocksCreations" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes.property.blocksCreations"></a>
 
 ```go
 BlocksCreations interface{}
@@ -1642,11 +1642,11 @@ BlocksCreations interface{}
 
 Restrict pushes that create matching branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#blocks_creations BranchProtection#blocks_creations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#blocks_creations BranchProtection#blocks_creations}
 
 ---
 
-##### `PushAllowances`<sup>Optional</sup> <a name="PushAllowances" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushes.property.pushAllowances"></a>
+##### `PushAllowances`<sup>Optional</sup> <a name="PushAllowances" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushes.property.pushAllowances"></a>
 
 ```go
 PushAllowances *[]*string
@@ -1658,31 +1658,31 @@ The list of actor Names/IDs that may push to the branch.
 
 Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/branch_protection#push_allowances BranchProtection#push_allowances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/branch_protection#push_allowances BranchProtection#push_allowances}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### BranchProtectionRequiredPullRequestReviewsList <a name="BranchProtectionRequiredPullRequestReviewsList" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList"></a>
+### BranchProtectionRequiredPullRequestReviewsList <a name="BranchProtectionRequiredPullRequestReviewsList" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRequiredPullRequestReviewsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BranchProtectionRequiredPullRequestReviewsList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -1690,7 +1690,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -1698,7 +1698,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.wrapsSet"></a>
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* *bool
 
@@ -1710,15 +1710,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get">Get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get">Get</a></code> | *No description.* |
 
 ---
 
-##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey"></a>
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey"></a>
 
 ```go
 func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
@@ -1728,19 +1728,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -1748,13 +1748,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.toString"></a>
 
 ```go
 func ToString() *string
@@ -1764,13 +1764,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `Get` <a name="Get" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get"></a>
+##### `Get` <a name="Get" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get"></a>
 
 ```go
 func Get(index *f64) BranchProtectionRequiredPullRequestReviewsOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.get.parameter.index"></a>
 
 - *Type:* *f64
 
@@ -1783,13 +1783,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -1803,7 +1803,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -1813,7 +1813,7 @@ func Fqn() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsList.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}
@@ -1824,26 +1824,26 @@ func InternalValue() interface{}
 ---
 
 
-### BranchProtectionRequiredPullRequestReviewsOutputReference <a name="BranchProtectionRequiredPullRequestReviewsOutputReference" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference"></a>
+### BranchProtectionRequiredPullRequestReviewsOutputReference <a name="BranchProtectionRequiredPullRequestReviewsOutputReference" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRequiredPullRequestReviewsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BranchProtectionRequiredPullRequestReviewsOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -1851,7 +1851,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -1859,7 +1859,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* *f64
 
@@ -1867,7 +1867,7 @@ the index of this item in the list.
 
 ---
 
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* *bool
 
@@ -1879,156 +1879,156 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissalRestrictions">ResetDismissalRestrictions</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissStaleReviews">ResetDismissStaleReviews</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetPullRequestBypassers">ResetPullRequestBypassers</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireCodeOwnerReviews">ResetRequireCodeOwnerReviews</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequiredApprovingReviewCount">ResetRequiredApprovingReviewCount</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireLastPushApproval">ResetRequireLastPushApproval</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRestrictDismissals">ResetRestrictDismissals</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissalRestrictions">ResetDismissalRestrictions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissStaleReviews">ResetDismissStaleReviews</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetPullRequestBypassers">ResetPullRequestBypassers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireCodeOwnerReviews">ResetRequireCodeOwnerReviews</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequiredApprovingReviewCount">ResetRequiredApprovingReviewCount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireLastPushApproval">ResetRequireLastPushApproval</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRestrictDismissals">ResetRestrictDismissals</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -2036,13 +2036,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -2052,43 +2052,43 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetDismissalRestrictions` <a name="ResetDismissalRestrictions" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissalRestrictions"></a>
+##### `ResetDismissalRestrictions` <a name="ResetDismissalRestrictions" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissalRestrictions"></a>
 
 ```go
 func ResetDismissalRestrictions()
 ```
 
-##### `ResetDismissStaleReviews` <a name="ResetDismissStaleReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissStaleReviews"></a>
+##### `ResetDismissStaleReviews` <a name="ResetDismissStaleReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetDismissStaleReviews"></a>
 
 ```go
 func ResetDismissStaleReviews()
 ```
 
-##### `ResetPullRequestBypassers` <a name="ResetPullRequestBypassers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetPullRequestBypassers"></a>
+##### `ResetPullRequestBypassers` <a name="ResetPullRequestBypassers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetPullRequestBypassers"></a>
 
 ```go
 func ResetPullRequestBypassers()
 ```
 
-##### `ResetRequireCodeOwnerReviews` <a name="ResetRequireCodeOwnerReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireCodeOwnerReviews"></a>
+##### `ResetRequireCodeOwnerReviews` <a name="ResetRequireCodeOwnerReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireCodeOwnerReviews"></a>
 
 ```go
 func ResetRequireCodeOwnerReviews()
 ```
 
-##### `ResetRequiredApprovingReviewCount` <a name="ResetRequiredApprovingReviewCount" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequiredApprovingReviewCount"></a>
+##### `ResetRequiredApprovingReviewCount` <a name="ResetRequiredApprovingReviewCount" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequiredApprovingReviewCount"></a>
 
 ```go
 func ResetRequiredApprovingReviewCount()
 ```
 
-##### `ResetRequireLastPushApproval` <a name="ResetRequireLastPushApproval" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireLastPushApproval"></a>
+##### `ResetRequireLastPushApproval` <a name="ResetRequireLastPushApproval" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRequireLastPushApproval"></a>
 
 ```go
 func ResetRequireLastPushApproval()
 ```
 
-##### `ResetRestrictDismissals` <a name="ResetRestrictDismissals" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRestrictDismissals"></a>
+##### `ResetRestrictDismissals` <a name="ResetRestrictDismissals" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.resetRestrictDismissals"></a>
 
 ```go
 func ResetRestrictDismissals()
@@ -2099,27 +2099,27 @@ func ResetRestrictDismissals()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictionsInput">DismissalRestrictionsInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviewsInput">DismissStaleReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassersInput">PullRequestBypassersInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviewsInput">RequireCodeOwnerReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCountInput">RequiredApprovingReviewCountInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApprovalInput">RequireLastPushApprovalInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissalsInput">RestrictDismissalsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictions">DismissalRestrictions</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviews">DismissStaleReviews</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassers">PullRequestBypassers</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviews">RequireCodeOwnerReviews</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCount">RequiredApprovingReviewCount</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApproval">RequireLastPushApproval</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissals">RestrictDismissals</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictionsInput">DismissalRestrictionsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviewsInput">DismissStaleReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassersInput">PullRequestBypassersInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviewsInput">RequireCodeOwnerReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCountInput">RequiredApprovingReviewCountInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApprovalInput">RequireLastPushApprovalInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissalsInput">RestrictDismissalsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictions">DismissalRestrictions</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviews">DismissStaleReviews</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassers">PullRequestBypassers</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviews">RequireCodeOwnerReviews</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCount">RequiredApprovingReviewCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApproval">RequireLastPushApproval</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissals">RestrictDismissals</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -2133,7 +2133,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -2143,7 +2143,7 @@ func Fqn() *string
 
 ---
 
-##### `DismissalRestrictionsInput`<sup>Optional</sup> <a name="DismissalRestrictionsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictionsInput"></a>
+##### `DismissalRestrictionsInput`<sup>Optional</sup> <a name="DismissalRestrictionsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictionsInput"></a>
 
 ```go
 func DismissalRestrictionsInput() *[]*string
@@ -2153,7 +2153,7 @@ func DismissalRestrictionsInput() *[]*string
 
 ---
 
-##### `DismissStaleReviewsInput`<sup>Optional</sup> <a name="DismissStaleReviewsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviewsInput"></a>
+##### `DismissStaleReviewsInput`<sup>Optional</sup> <a name="DismissStaleReviewsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviewsInput"></a>
 
 ```go
 func DismissStaleReviewsInput() interface{}
@@ -2163,7 +2163,7 @@ func DismissStaleReviewsInput() interface{}
 
 ---
 
-##### `PullRequestBypassersInput`<sup>Optional</sup> <a name="PullRequestBypassersInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassersInput"></a>
+##### `PullRequestBypassersInput`<sup>Optional</sup> <a name="PullRequestBypassersInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassersInput"></a>
 
 ```go
 func PullRequestBypassersInput() *[]*string
@@ -2173,7 +2173,7 @@ func PullRequestBypassersInput() *[]*string
 
 ---
 
-##### `RequireCodeOwnerReviewsInput`<sup>Optional</sup> <a name="RequireCodeOwnerReviewsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviewsInput"></a>
+##### `RequireCodeOwnerReviewsInput`<sup>Optional</sup> <a name="RequireCodeOwnerReviewsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviewsInput"></a>
 
 ```go
 func RequireCodeOwnerReviewsInput() interface{}
@@ -2183,7 +2183,7 @@ func RequireCodeOwnerReviewsInput() interface{}
 
 ---
 
-##### `RequiredApprovingReviewCountInput`<sup>Optional</sup> <a name="RequiredApprovingReviewCountInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCountInput"></a>
+##### `RequiredApprovingReviewCountInput`<sup>Optional</sup> <a name="RequiredApprovingReviewCountInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCountInput"></a>
 
 ```go
 func RequiredApprovingReviewCountInput() *f64
@@ -2193,7 +2193,7 @@ func RequiredApprovingReviewCountInput() *f64
 
 ---
 
-##### `RequireLastPushApprovalInput`<sup>Optional</sup> <a name="RequireLastPushApprovalInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApprovalInput"></a>
+##### `RequireLastPushApprovalInput`<sup>Optional</sup> <a name="RequireLastPushApprovalInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApprovalInput"></a>
 
 ```go
 func RequireLastPushApprovalInput() interface{}
@@ -2203,7 +2203,7 @@ func RequireLastPushApprovalInput() interface{}
 
 ---
 
-##### `RestrictDismissalsInput`<sup>Optional</sup> <a name="RestrictDismissalsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissalsInput"></a>
+##### `RestrictDismissalsInput`<sup>Optional</sup> <a name="RestrictDismissalsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissalsInput"></a>
 
 ```go
 func RestrictDismissalsInput() interface{}
@@ -2213,7 +2213,7 @@ func RestrictDismissalsInput() interface{}
 
 ---
 
-##### `DismissalRestrictions`<sup>Required</sup> <a name="DismissalRestrictions" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictions"></a>
+##### `DismissalRestrictions`<sup>Required</sup> <a name="DismissalRestrictions" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissalRestrictions"></a>
 
 ```go
 func DismissalRestrictions() *[]*string
@@ -2223,7 +2223,7 @@ func DismissalRestrictions() *[]*string
 
 ---
 
-##### `DismissStaleReviews`<sup>Required</sup> <a name="DismissStaleReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviews"></a>
+##### `DismissStaleReviews`<sup>Required</sup> <a name="DismissStaleReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.dismissStaleReviews"></a>
 
 ```go
 func DismissStaleReviews() interface{}
@@ -2233,7 +2233,7 @@ func DismissStaleReviews() interface{}
 
 ---
 
-##### `PullRequestBypassers`<sup>Required</sup> <a name="PullRequestBypassers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassers"></a>
+##### `PullRequestBypassers`<sup>Required</sup> <a name="PullRequestBypassers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.pullRequestBypassers"></a>
 
 ```go
 func PullRequestBypassers() *[]*string
@@ -2243,7 +2243,7 @@ func PullRequestBypassers() *[]*string
 
 ---
 
-##### `RequireCodeOwnerReviews`<sup>Required</sup> <a name="RequireCodeOwnerReviews" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviews"></a>
+##### `RequireCodeOwnerReviews`<sup>Required</sup> <a name="RequireCodeOwnerReviews" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireCodeOwnerReviews"></a>
 
 ```go
 func RequireCodeOwnerReviews() interface{}
@@ -2253,7 +2253,7 @@ func RequireCodeOwnerReviews() interface{}
 
 ---
 
-##### `RequiredApprovingReviewCount`<sup>Required</sup> <a name="RequiredApprovingReviewCount" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCount"></a>
+##### `RequiredApprovingReviewCount`<sup>Required</sup> <a name="RequiredApprovingReviewCount" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requiredApprovingReviewCount"></a>
 
 ```go
 func RequiredApprovingReviewCount() *f64
@@ -2263,7 +2263,7 @@ func RequiredApprovingReviewCount() *f64
 
 ---
 
-##### `RequireLastPushApproval`<sup>Required</sup> <a name="RequireLastPushApproval" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApproval"></a>
+##### `RequireLastPushApproval`<sup>Required</sup> <a name="RequireLastPushApproval" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.requireLastPushApproval"></a>
 
 ```go
 func RequireLastPushApproval() interface{}
@@ -2273,7 +2273,7 @@ func RequireLastPushApproval() interface{}
 
 ---
 
-##### `RestrictDismissals`<sup>Required</sup> <a name="RestrictDismissals" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissals"></a>
+##### `RestrictDismissals`<sup>Required</sup> <a name="RestrictDismissals" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.restrictDismissals"></a>
 
 ```go
 func RestrictDismissals() interface{}
@@ -2283,7 +2283,7 @@ func RestrictDismissals() interface{}
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredPullRequestReviewsOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}
@@ -2294,25 +2294,25 @@ func InternalValue() interface{}
 ---
 
 
-### BranchProtectionRequiredStatusChecksList <a name="BranchProtectionRequiredStatusChecksList" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList"></a>
+### BranchProtectionRequiredStatusChecksList <a name="BranchProtectionRequiredStatusChecksList" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRequiredStatusChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BranchProtectionRequiredStatusChecksList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -2320,7 +2320,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -2328,7 +2328,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.wrapsSet"></a>
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* *bool
 
@@ -2340,15 +2340,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get">Get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get">Get</a></code> | *No description.* |
 
 ---
 
-##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey"></a>
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey"></a>
 
 ```go
 func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
@@ -2358,19 +2358,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -2378,13 +2378,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.toString"></a>
 
 ```go
 func ToString() *string
@@ -2394,13 +2394,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `Get` <a name="Get" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get"></a>
+##### `Get` <a name="Get" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get"></a>
 
 ```go
 func Get(index *f64) BranchProtectionRequiredStatusChecksOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.get.parameter.index"></a>
 
 - *Type:* *f64
 
@@ -2413,13 +2413,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -2433,7 +2433,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -2443,7 +2443,7 @@ func Fqn() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksList.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}
@@ -2454,26 +2454,26 @@ func InternalValue() interface{}
 ---
 
 
-### BranchProtectionRequiredStatusChecksOutputReference <a name="BranchProtectionRequiredStatusChecksOutputReference" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference"></a>
+### BranchProtectionRequiredStatusChecksOutputReference <a name="BranchProtectionRequiredStatusChecksOutputReference" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRequiredStatusChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BranchProtectionRequiredStatusChecksOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -2481,7 +2481,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -2489,7 +2489,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* *f64
 
@@ -2497,7 +2497,7 @@ the index of this item in the list.
 
 ---
 
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* *bool
 
@@ -2509,151 +2509,151 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetContexts">ResetContexts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetStrict">ResetStrict</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetContexts">ResetContexts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetStrict">ResetStrict</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -2661,13 +2661,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -2677,13 +2677,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetContexts` <a name="ResetContexts" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetContexts"></a>
+##### `ResetContexts` <a name="ResetContexts" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetContexts"></a>
 
 ```go
 func ResetContexts()
 ```
 
-##### `ResetStrict` <a name="ResetStrict" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetStrict"></a>
+##### `ResetStrict` <a name="ResetStrict" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.resetStrict"></a>
 
 ```go
 func ResetStrict()
@@ -2694,17 +2694,17 @@ func ResetStrict()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contextsInput">ContextsInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strictInput">StrictInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contexts">Contexts</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strict">Strict</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contextsInput">ContextsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strictInput">StrictInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contexts">Contexts</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strict">Strict</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -2718,7 +2718,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -2728,7 +2728,7 @@ func Fqn() *string
 
 ---
 
-##### `ContextsInput`<sup>Optional</sup> <a name="ContextsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contextsInput"></a>
+##### `ContextsInput`<sup>Optional</sup> <a name="ContextsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contextsInput"></a>
 
 ```go
 func ContextsInput() *[]*string
@@ -2738,7 +2738,7 @@ func ContextsInput() *[]*string
 
 ---
 
-##### `StrictInput`<sup>Optional</sup> <a name="StrictInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strictInput"></a>
+##### `StrictInput`<sup>Optional</sup> <a name="StrictInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strictInput"></a>
 
 ```go
 func StrictInput() interface{}
@@ -2748,7 +2748,7 @@ func StrictInput() interface{}
 
 ---
 
-##### `Contexts`<sup>Required</sup> <a name="Contexts" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contexts"></a>
+##### `Contexts`<sup>Required</sup> <a name="Contexts" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.contexts"></a>
 
 ```go
 func Contexts() *[]*string
@@ -2758,7 +2758,7 @@ func Contexts() *[]*string
 
 ---
 
-##### `Strict`<sup>Required</sup> <a name="Strict" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strict"></a>
+##### `Strict`<sup>Required</sup> <a name="Strict" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.strict"></a>
 
 ```go
 func Strict() interface{}
@@ -2768,7 +2768,7 @@ func Strict() interface{}
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRequiredStatusChecksOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}
@@ -2779,25 +2779,25 @@ func InternalValue() interface{}
 ---
 
 
-### BranchProtectionRestrictPushesList <a name="BranchProtectionRestrictPushesList" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList"></a>
+### BranchProtectionRestrictPushesList <a name="BranchProtectionRestrictPushesList" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRestrictPushesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) BranchProtectionRestrictPushesList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -2805,7 +2805,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -2813,7 +2813,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.wrapsSet"></a>
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* *bool
 
@@ -2825,15 +2825,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.get">Get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.get">Get</a></code> | *No description.* |
 
 ---
 
-##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey"></a>
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey"></a>
 
 ```go
 func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
@@ -2843,19 +2843,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* *string
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -2863,13 +2863,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.toString"></a>
 
 ```go
 func ToString() *string
@@ -2879,13 +2879,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `Get` <a name="Get" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.get"></a>
+##### `Get` <a name="Get" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.get"></a>
 
 ```go
 func Get(index *f64) BranchProtectionRestrictPushesOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.get.parameter.index"></a>
 
 - *Type:* *f64
 
@@ -2898,13 +2898,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -2918,7 +2918,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -2928,7 +2928,7 @@ func Fqn() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesList.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}
@@ -2939,26 +2939,26 @@ func InternalValue() interface{}
 ---
 
 
-### BranchProtectionRestrictPushesOutputReference <a name="BranchProtectionRestrictPushesOutputReference" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference"></a>
+### BranchProtectionRestrictPushesOutputReference <a name="BranchProtectionRestrictPushesOutputReference" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-github-go/github/v15/branchprotection"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/branchprotection"
 
 branchprotection.NewBranchProtectionRestrictPushesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) BranchProtectionRestrictPushesOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -2966,7 +2966,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -2974,7 +2974,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* *f64
 
@@ -2982,7 +2982,7 @@ the index of this item in the list.
 
 ---
 
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* *bool
 
@@ -2994,151 +2994,151 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetBlocksCreations">ResetBlocksCreations</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetPushAllowances">ResetPushAllowances</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetBlocksCreations">ResetBlocksCreations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetPushAllowances">ResetPushAllowances</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -3146,13 +3146,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -3162,13 +3162,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetBlocksCreations` <a name="ResetBlocksCreations" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetBlocksCreations"></a>
+##### `ResetBlocksCreations` <a name="ResetBlocksCreations" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetBlocksCreations"></a>
 
 ```go
 func ResetBlocksCreations()
 ```
 
-##### `ResetPushAllowances` <a name="ResetPushAllowances" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetPushAllowances"></a>
+##### `ResetPushAllowances` <a name="ResetPushAllowances" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.resetPushAllowances"></a>
 
 ```go
 func ResetPushAllowances()
@@ -3179,17 +3179,17 @@ func ResetPushAllowances()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreationsInput">BlocksCreationsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowancesInput">PushAllowancesInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreations">BlocksCreations</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowances">PushAllowances</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreationsInput">BlocksCreationsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowancesInput">PushAllowancesInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreations">BlocksCreations</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowances">PushAllowances</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -3203,7 +3203,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -3213,7 +3213,7 @@ func Fqn() *string
 
 ---
 
-##### `BlocksCreationsInput`<sup>Optional</sup> <a name="BlocksCreationsInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreationsInput"></a>
+##### `BlocksCreationsInput`<sup>Optional</sup> <a name="BlocksCreationsInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreationsInput"></a>
 
 ```go
 func BlocksCreationsInput() interface{}
@@ -3223,7 +3223,7 @@ func BlocksCreationsInput() interface{}
 
 ---
 
-##### `PushAllowancesInput`<sup>Optional</sup> <a name="PushAllowancesInput" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowancesInput"></a>
+##### `PushAllowancesInput`<sup>Optional</sup> <a name="PushAllowancesInput" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowancesInput"></a>
 
 ```go
 func PushAllowancesInput() *[]*string
@@ -3233,7 +3233,7 @@ func PushAllowancesInput() *[]*string
 
 ---
 
-##### `BlocksCreations`<sup>Required</sup> <a name="BlocksCreations" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreations"></a>
+##### `BlocksCreations`<sup>Required</sup> <a name="BlocksCreations" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.blocksCreations"></a>
 
 ```go
 func BlocksCreations() interface{}
@@ -3243,7 +3243,7 @@ func BlocksCreations() interface{}
 
 ---
 
-##### `PushAllowances`<sup>Required</sup> <a name="PushAllowances" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowances"></a>
+##### `PushAllowances`<sup>Required</sup> <a name="PushAllowances" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.pushAllowances"></a>
 
 ```go
 func PushAllowances() *[]*string
@@ -3253,7 +3253,7 @@ func PushAllowances() *[]*string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.branchProtection.BranchProtectionRestrictPushesOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

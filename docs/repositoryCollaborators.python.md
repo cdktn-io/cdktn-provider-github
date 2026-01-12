@@ -1,15 +1,15 @@
-# `repositoryCollaborators` Submodule <a name="`repositoryCollaborators` Submodule" id="@cdktf/provider-github.repositoryCollaborators"></a>
+# `repositoryCollaborators` Submodule <a name="`repositoryCollaborators` Submodule" id="@cdktn/provider-github.repositoryCollaborators"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### RepositoryCollaborators <a name="RepositoryCollaborators" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators"></a>
+### RepositoryCollaborators <a name="RepositoryCollaborators" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators github_repository_collaborators}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators github_repository_collaborators}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaborators(
   scope: Construct,
@@ -31,24 +31,24 @@ repositoryCollaborators.RepositoryCollaborators(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.repository">repository</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#id RepositoryCollaborators#id}. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.ignoreTeam">ignore_team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | ignore_team block. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.team">team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | team block. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.user">user</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | user block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.repository">repository</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.ignoreTeam">ignore_team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | ignore_team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.team">team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.user">user</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | user block. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -56,7 +56,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -66,94 +66,94 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.repository"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.id"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#id RepositoryCollaborators#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `ignore_team`<sup>Optional</sup> <a name="ignore_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.ignoreTeam"></a>
+##### `ignore_team`<sup>Optional</sup> <a name="ignore_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.ignoreTeam"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
 
 ignore_team block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
 
 ---
 
-##### `team`<sup>Optional</sup> <a name="team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.team"></a>
+##### `team`<sup>Optional</sup> <a name="team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.team"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
 
 team block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
 
 ---
 
-##### `user`<sup>Optional</sup> <a name="user" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.user"></a>
+##### `user`<sup>Optional</sup> <a name="user" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer.parameter.user"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
 
 user block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
 
 ---
 
@@ -161,40 +161,40 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam">put_ignore_team</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam">put_team</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser">put_user</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetIgnoreTeam">reset_ignore_team</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetTeam">reset_team</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetUser">reset_user</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam">put_ignore_team</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam">put_team</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser">put_user</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetIgnoreTeam">reset_ignore_team</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetTeam">reset_team</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetUser">reset_user</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toString"></a>
 
 ```python
 def to_string() -> str
@@ -202,7 +202,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride"></a>
 
 ```python
 def add_override(
@@ -211,19 +211,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -233,7 +233,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -241,7 +241,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -249,19 +249,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -269,7 +269,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -279,7 +279,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -287,7 +287,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -295,13 +295,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -309,13 +309,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -323,13 +323,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -337,13 +337,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -351,13 +351,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -365,13 +365,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -379,13 +379,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -393,13 +393,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -407,19 +407,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom"></a>
 
 ```python
 def import_from(
@@ -428,19 +428,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -448,13 +448,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -466,7 +466,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -474,7 +474,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo"></a>
 
 ```python
 def move_to(
@@ -485,7 +485,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -493,7 +493,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -501,7 +501,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -511,7 +511,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -519,7 +519,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `put_ignore_team` <a name="put_ignore_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam"></a>
+##### `put_ignore_team` <a name="put_ignore_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam"></a>
 
 ```python
 def put_ignore_team(
@@ -527,13 +527,13 @@ def put_ignore_team(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
 
 ---
 
-##### `put_team` <a name="put_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam"></a>
+##### `put_team` <a name="put_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam"></a>
 
 ```python
 def put_team(
@@ -541,13 +541,13 @@ def put_team(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
 
 ---
 
-##### `put_user` <a name="put_user" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser"></a>
+##### `put_user` <a name="put_user" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser"></a>
 
 ```python
 def put_user(
@@ -555,31 +555,31 @@ def put_user(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_ignore_team` <a name="reset_ignore_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetIgnoreTeam"></a>
+##### `reset_ignore_team` <a name="reset_ignore_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetIgnoreTeam"></a>
 
 ```python
 def reset_ignore_team() -> None
 ```
 
-##### `reset_team` <a name="reset_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetTeam"></a>
+##### `reset_team` <a name="reset_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetTeam"></a>
 
 ```python
 def reset_team() -> None
 ```
 
-##### `reset_user` <a name="reset_user" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.resetUser"></a>
+##### `reset_user` <a name="reset_user" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.resetUser"></a>
 
 ```python
 def reset_user() -> None
@@ -589,17 +589,17 @@ def reset_user() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaborators.is_construct(
   x: typing.Any
@@ -622,7 +622,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -630,42 +630,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaborators.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaborators.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaborators.generate_config_for_import(
   scope: Construct,
@@ -677,7 +677,7 @@ repositoryCollaborators.RepositoryCollaborators.generate_config_for_import(
 
 Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -685,7 +685,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -693,17 +693,17 @@ The construct id used in the generated config for the RepositoryCollaborators to
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
 The id of the existing RepositoryCollaborators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -715,35 +715,35 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeam">ignore_team</a></code> | <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList">RepositoryCollaboratorsIgnoreTeamList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds">invitation_ids</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.team">team</a></code> | <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList">RepositoryCollaboratorsTeamList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.user">user</a></code> | <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList">RepositoryCollaboratorsUserList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput">ignore_team_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput">team_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput">user_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repository">repository</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeam">ignore_team</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList">RepositoryCollaboratorsIgnoreTeamList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds">invitation_ids</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.team">team</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList">RepositoryCollaboratorsTeamList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.user">user</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList">RepositoryCollaboratorsUserList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput">ignore_team_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput">team_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput">user_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repository">repository</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.node"></a>
 
 ```python
 node: Node
@@ -755,7 +755,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -765,7 +765,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.fqn"></a>
 
 ```python
 fqn: str
@@ -775,7 +775,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -785,7 +785,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -795,7 +795,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -805,7 +805,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -815,7 +815,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -825,7 +825,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -835,7 +835,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -845,7 +845,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -855,7 +855,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -865,7 +865,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -875,7 +875,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -885,17 +885,17 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `ignore_team`<sup>Required</sup> <a name="ignore_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeam"></a>
+##### `ignore_team`<sup>Required</sup> <a name="ignore_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeam"></a>
 
 ```python
 ignore_team: RepositoryCollaboratorsIgnoreTeamList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList">RepositoryCollaboratorsIgnoreTeamList</a>
+- *Type:* <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList">RepositoryCollaboratorsIgnoreTeamList</a>
 
 ---
 
-##### `invitation_ids`<sup>Required</sup> <a name="invitation_ids" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds"></a>
+##### `invitation_ids`<sup>Required</sup> <a name="invitation_ids" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds"></a>
 
 ```python
 invitation_ids: StringMap
@@ -905,27 +905,27 @@ invitation_ids: StringMap
 
 ---
 
-##### `team`<sup>Required</sup> <a name="team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.team"></a>
+##### `team`<sup>Required</sup> <a name="team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.team"></a>
 
 ```python
 team: RepositoryCollaboratorsTeamList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList">RepositoryCollaboratorsTeamList</a>
+- *Type:* <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList">RepositoryCollaboratorsTeamList</a>
 
 ---
 
-##### `user`<sup>Required</sup> <a name="user" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.user"></a>
+##### `user`<sup>Required</sup> <a name="user" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.user"></a>
 
 ```python
 user: RepositoryCollaboratorsUserList
 ```
 
-- *Type:* <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList">RepositoryCollaboratorsUserList</a>
+- *Type:* <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList">RepositoryCollaboratorsUserList</a>
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.idInput"></a>
 
 ```python
 id_input: str
@@ -935,17 +935,17 @@ id_input: str
 
 ---
 
-##### `ignore_team_input`<sup>Optional</sup> <a name="ignore_team_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput"></a>
+##### `ignore_team_input`<sup>Optional</sup> <a name="ignore_team_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput"></a>
 
 ```python
 ignore_team_input: IResolvable | typing.List[RepositoryCollaboratorsIgnoreTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
 
 ---
 
-##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repositoryInput"></a>
+##### `repository_input`<sup>Optional</sup> <a name="repository_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repositoryInput"></a>
 
 ```python
 repository_input: str
@@ -955,27 +955,27 @@ repository_input: str
 
 ---
 
-##### `team_input`<sup>Optional</sup> <a name="team_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput"></a>
+##### `team_input`<sup>Optional</sup> <a name="team_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput"></a>
 
 ```python
 team_input: IResolvable | typing.List[RepositoryCollaboratorsTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
 
 ---
 
-##### `user_input`<sup>Optional</sup> <a name="user_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput"></a>
+##### `user_input`<sup>Optional</sup> <a name="user_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput"></a>
 
 ```python
 user_input: IResolvable | typing.List[RepositoryCollaboratorsUser]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.id"></a>
 
 ```python
 id: str
@@ -985,7 +985,7 @@ id: str
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repository"></a>
 
 ```python
 repository: str
@@ -999,11 +999,11 @@ repository: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaborators.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1015,12 +1015,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### RepositoryCollaboratorsConfig <a name="RepositoryCollaboratorsConfig" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig"></a>
+### RepositoryCollaboratorsConfig <a name="RepositoryCollaboratorsConfig" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1042,22 +1042,22 @@ repositoryCollaborators.RepositoryCollaboratorsConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.repository">repository</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#id RepositoryCollaborators#id}. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam">ignore_team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | ignore_team block. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team">team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | team block. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user">user</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | user block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.repository">repository</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam">ignore_team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | ignore_team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team">team</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user">user</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | user block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1067,7 +1067,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1077,7 +1077,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1087,7 +1087,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1097,7 +1097,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1107,7 +1107,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1117,7 +1117,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1127,7 +1127,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `repository`<sup>Required</sup> <a name="repository" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.repository"></a>
+##### `repository`<sup>Required</sup> <a name="repository" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.repository"></a>
 
 ```python
 repository: str
@@ -1135,11 +1135,11 @@ repository: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.id"></a>
 
 ```python
 id: str
@@ -1147,61 +1147,61 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#id RepositoryCollaborators#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `ignore_team`<sup>Optional</sup> <a name="ignore_team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam"></a>
+##### `ignore_team`<sup>Optional</sup> <a name="ignore_team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam"></a>
 
 ```python
 ignore_team: IResolvable | typing.List[RepositoryCollaboratorsIgnoreTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
 
 ignore_team block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
 
 ---
 
-##### `team`<sup>Optional</sup> <a name="team" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team"></a>
+##### `team`<sup>Optional</sup> <a name="team" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team"></a>
 
 ```python
 team: IResolvable | typing.List[RepositoryCollaboratorsTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
 
 team block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
 
 ---
 
-##### `user`<sup>Optional</sup> <a name="user" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user"></a>
+##### `user`<sup>Optional</sup> <a name="user" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user"></a>
 
 ```python
 user: IResolvable | typing.List[RepositoryCollaboratorsUser]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
 
 user block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
 
 ---
 
-### RepositoryCollaboratorsIgnoreTeam <a name="RepositoryCollaboratorsIgnoreTeam" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam"></a>
+### RepositoryCollaboratorsIgnoreTeam <a name="RepositoryCollaboratorsIgnoreTeam" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam(
   team_id: str
@@ -1212,11 +1212,11 @@ repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.property.teamId">team_id</a></code> | <code>str</code> | ID or slug of the team to ignore. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.property.teamId">team_id</a></code> | <code>str</code> | ID or slug of the team to ignore. |
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.property.teamId"></a>
 
 ```python
 team_id: str
@@ -1226,16 +1226,16 @@ team_id: str
 
 ID or slug of the team to ignore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
 
 ---
 
-### RepositoryCollaboratorsTeam <a name="RepositoryCollaboratorsTeam" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam"></a>
+### RepositoryCollaboratorsTeam <a name="RepositoryCollaboratorsTeam" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsTeam(
   team_id: str,
@@ -1247,12 +1247,12 @@ repositoryCollaborators.RepositoryCollaboratorsTeam(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.teamId">team_id</a></code> | <code>str</code> | Team ID or slug to add to the repository as a collaborator. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.permission">permission</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.teamId">team_id</a></code> | <code>str</code> | Team ID or slug to add to the repository as a collaborator. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.permission">permission</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}. |
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.teamId"></a>
 
 ```python
 team_id: str
@@ -1262,11 +1262,11 @@ team_id: str
 
 Team ID or slug to add to the repository as a collaborator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
 
 ---
 
-##### `permission`<sup>Optional</sup> <a name="permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.permission"></a>
+##### `permission`<sup>Optional</sup> <a name="permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.property.permission"></a>
 
 ```python
 permission: str
@@ -1274,16 +1274,16 @@ permission: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}.
 
 ---
 
-### RepositoryCollaboratorsUser <a name="RepositoryCollaboratorsUser" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser"></a>
+### RepositoryCollaboratorsUser <a name="RepositoryCollaboratorsUser" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsUser(
   username: str,
@@ -1295,12 +1295,12 @@ repositoryCollaborators.RepositoryCollaboratorsUser(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.username">username</a></code> | <code>str</code> | (Required) The user to add to the repository as a collaborator. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.permission">permission</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.username">username</a></code> | <code>str</code> | (Required) The user to add to the repository as a collaborator. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.permission">permission</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}. |
 
 ---
 
-##### `username`<sup>Required</sup> <a name="username" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.username"></a>
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.username"></a>
 
 ```python
 username: str
@@ -1310,11 +1310,11 @@ username: str
 
 (Required) The user to add to the repository as a collaborator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#username RepositoryCollaborators#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#username RepositoryCollaborators#username}
 
 ---
 
-##### `permission`<sup>Optional</sup> <a name="permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.permission"></a>
+##### `permission`<sup>Optional</sup> <a name="permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.property.permission"></a>
 
 ```python
 permission: str
@@ -1322,18 +1322,18 @@ permission: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### RepositoryCollaboratorsIgnoreTeamList <a name="RepositoryCollaboratorsIgnoreTeamList" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList"></a>
+### RepositoryCollaboratorsIgnoreTeamList <a name="RepositoryCollaboratorsIgnoreTeamList" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList(
   terraform_resource: IInterpolatingParent,
@@ -1344,13 +1344,13 @@ repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1358,7 +1358,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1366,7 +1366,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -1378,15 +1378,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -1398,19 +1398,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve"></a>
 
 ```python
 def resolve(
@@ -1420,13 +1420,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -1436,7 +1436,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get"></a>
 
 ```python
 def get(
@@ -1444,7 +1444,7 @@ def get(
 ) -> RepositoryCollaboratorsIgnoreTeamOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -1457,13 +1457,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -1477,7 +1477,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1487,23 +1487,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[RepositoryCollaboratorsIgnoreTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>]
 
 ---
 
 
-### RepositoryCollaboratorsIgnoreTeamOutputReference <a name="RepositoryCollaboratorsIgnoreTeamOutputReference" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference"></a>
+### RepositoryCollaboratorsIgnoreTeamOutputReference <a name="RepositoryCollaboratorsIgnoreTeamOutputReference" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -1515,14 +1515,14 @@ repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1530,7 +1530,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1538,7 +1538,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -1546,7 +1546,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -1558,29 +1558,29 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -1588,13 +1588,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -1602,13 +1602,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -1616,13 +1616,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -1630,13 +1630,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -1644,13 +1644,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -1658,13 +1658,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -1672,13 +1672,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -1686,13 +1686,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -1700,13 +1700,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -1714,13 +1714,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -1730,13 +1730,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -1751,15 +1751,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -1773,7 +1773,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1783,7 +1783,7 @@ fqn: str
 
 ---
 
-##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamIdInput"></a>
+##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamIdInput"></a>
 
 ```python
 team_id_input: str
@@ -1793,7 +1793,7 @@ team_id_input: str
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamId"></a>
 
 ```python
 team_id: str
@@ -1803,23 +1803,23 @@ team_id: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | RepositoryCollaboratorsIgnoreTeam
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>
 
 ---
 
 
-### RepositoryCollaboratorsTeamList <a name="RepositoryCollaboratorsTeamList" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList"></a>
+### RepositoryCollaboratorsTeamList <a name="RepositoryCollaboratorsTeamList" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsTeamList(
   terraform_resource: IInterpolatingParent,
@@ -1830,13 +1830,13 @@ repositoryCollaborators.RepositoryCollaboratorsTeamList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1844,7 +1844,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1852,7 +1852,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -1864,15 +1864,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -1884,19 +1884,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve"></a>
 
 ```python
 def resolve(
@@ -1906,13 +1906,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -1922,7 +1922,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get"></a>
 
 ```python
 def get(
@@ -1930,7 +1930,7 @@ def get(
 ) -> RepositoryCollaboratorsTeamOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -1943,13 +1943,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -1963,7 +1963,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1973,23 +1973,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[RepositoryCollaboratorsTeam]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>]
 
 ---
 
 
-### RepositoryCollaboratorsTeamOutputReference <a name="RepositoryCollaboratorsTeamOutputReference" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference"></a>
+### RepositoryCollaboratorsTeamOutputReference <a name="RepositoryCollaboratorsTeamOutputReference" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2001,14 +2001,14 @@ repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2016,7 +2016,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2024,7 +2024,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2032,7 +2032,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -2044,30 +2044,30 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resetPermission">reset_permission</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resetPermission">reset_permission</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -2075,13 +2075,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -2089,13 +2089,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -2103,13 +2103,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -2117,13 +2117,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -2131,13 +2131,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -2145,13 +2145,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -2159,13 +2159,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -2173,13 +2173,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2187,13 +2187,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2201,13 +2201,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2217,13 +2217,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2233,7 +2233,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_permission` <a name="reset_permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resetPermission"></a>
+##### `reset_permission` <a name="reset_permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resetPermission"></a>
 
 ```python
 def reset_permission() -> None
@@ -2244,17 +2244,17 @@ def reset_permission() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permissionInput">permission_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permission">permission</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permissionInput">permission_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamIdInput">team_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permission">permission</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamId">team_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2268,7 +2268,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2278,7 +2278,7 @@ fqn: str
 
 ---
 
-##### `permission_input`<sup>Optional</sup> <a name="permission_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permissionInput"></a>
+##### `permission_input`<sup>Optional</sup> <a name="permission_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permissionInput"></a>
 
 ```python
 permission_input: str
@@ -2288,7 +2288,7 @@ permission_input: str
 
 ---
 
-##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamIdInput"></a>
+##### `team_id_input`<sup>Optional</sup> <a name="team_id_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamIdInput"></a>
 
 ```python
 team_id_input: str
@@ -2298,7 +2298,7 @@ team_id_input: str
 
 ---
 
-##### `permission`<sup>Required</sup> <a name="permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permission"></a>
+##### `permission`<sup>Required</sup> <a name="permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permission"></a>
 
 ```python
 permission: str
@@ -2308,7 +2308,7 @@ permission: str
 
 ---
 
-##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamId"></a>
+##### `team_id`<sup>Required</sup> <a name="team_id" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamId"></a>
 
 ```python
 team_id: str
@@ -2318,23 +2318,23 @@ team_id: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | RepositoryCollaboratorsTeam
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>
 
 ---
 
 
-### RepositoryCollaboratorsUserList <a name="RepositoryCollaboratorsUserList" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList"></a>
+### RepositoryCollaboratorsUserList <a name="RepositoryCollaboratorsUserList" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsUserList(
   terraform_resource: IInterpolatingParent,
@@ -2345,13 +2345,13 @@ repositoryCollaborators.RepositoryCollaboratorsUserList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2359,7 +2359,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2367,7 +2367,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -2379,15 +2379,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -2399,19 +2399,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve"></a>
 
 ```python
 def resolve(
@@ -2421,13 +2421,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2437,7 +2437,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get"></a>
 
 ```python
 def get(
@@ -2445,7 +2445,7 @@ def get(
 ) -> RepositoryCollaboratorsUserOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2458,13 +2458,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2478,7 +2478,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2488,23 +2488,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[RepositoryCollaboratorsUser]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>]
 
 ---
 
 
-### RepositoryCollaboratorsUserOutputReference <a name="RepositoryCollaboratorsUserOutputReference" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference"></a>
+### RepositoryCollaboratorsUserOutputReference <a name="RepositoryCollaboratorsUserOutputReference" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_github import repository_collaborators
+from cdktn_provider_github import repository_collaborators
 
 repositoryCollaborators.RepositoryCollaboratorsUserOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2516,14 +2516,14 @@ repositoryCollaborators.RepositoryCollaboratorsUserOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2531,7 +2531,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2539,7 +2539,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2547,7 +2547,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -2559,30 +2559,30 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resetPermission">reset_permission</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resetPermission">reset_permission</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -2590,13 +2590,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -2604,13 +2604,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -2618,13 +2618,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -2632,13 +2632,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -2646,13 +2646,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -2660,13 +2660,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -2674,13 +2674,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -2688,13 +2688,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2702,13 +2702,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2716,13 +2716,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2732,13 +2732,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2748,7 +2748,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_permission` <a name="reset_permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resetPermission"></a>
+##### `reset_permission` <a name="reset_permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resetPermission"></a>
 
 ```python
 def reset_permission() -> None
@@ -2759,17 +2759,17 @@ def reset_permission() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permissionInput">permission_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.usernameInput">username_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permission">permission</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.username">username</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permissionInput">permission_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.usernameInput">username_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permission">permission</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.username">username</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2783,7 +2783,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2793,7 +2793,7 @@ fqn: str
 
 ---
 
-##### `permission_input`<sup>Optional</sup> <a name="permission_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permissionInput"></a>
+##### `permission_input`<sup>Optional</sup> <a name="permission_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permissionInput"></a>
 
 ```python
 permission_input: str
@@ -2803,7 +2803,7 @@ permission_input: str
 
 ---
 
-##### `username_input`<sup>Optional</sup> <a name="username_input" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.usernameInput"></a>
+##### `username_input`<sup>Optional</sup> <a name="username_input" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.usernameInput"></a>
 
 ```python
 username_input: str
@@ -2813,7 +2813,7 @@ username_input: str
 
 ---
 
-##### `permission`<sup>Required</sup> <a name="permission" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permission"></a>
+##### `permission`<sup>Required</sup> <a name="permission" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permission"></a>
 
 ```python
 permission: str
@@ -2823,7 +2823,7 @@ permission: str
 
 ---
 
-##### `username`<sup>Required</sup> <a name="username" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.username"></a>
+##### `username`<sup>Required</sup> <a name="username" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.username"></a>
 
 ```python
 username: str
@@ -2833,13 +2833,13 @@ username: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | RepositoryCollaboratorsUser
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>
 
 ---
 

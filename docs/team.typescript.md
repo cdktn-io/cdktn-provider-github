@@ -1,28 +1,28 @@
-# `team` Submodule <a name="`team` Submodule" id="@cdktf/provider-github.team"></a>
+# `team` Submodule <a name="`team` Submodule" id="@cdktn/provider-github.team"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Team <a name="Team" id="@cdktf/provider-github.team.Team"></a>
+### Team <a name="Team" id="@cdktn/provider-github.team.Team"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team github_team}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team github_team}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-github.team.Team.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.team.Team.Initializer"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 new team.Team(scope: Construct, id: string, config: TeamConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.Team.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-github.team.Team.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-github.team.Team.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-github.team.TeamConfig">TeamConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.team.TeamConfig">TeamConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.team.Team.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.team.Team.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.team.Team.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.team.Team.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-github.team.Team.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.team.Team.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-github.team.TeamConfig">TeamConfig</a>
+- *Type:* <a href="#@cdktn/provider-github.team.TeamConfig">TeamConfig</a>
 
 ---
 
@@ -50,41 +50,41 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.Team.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-github.team.Team.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-github.team.Team.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-github.team.Team.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-github.team.Team.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-github.team.Team.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-github.team.Team.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-github.team.Team.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-github.team.Team.resetCreateDefaultMaintainer">resetCreateDefaultMaintainer</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetDescription">resetDescription</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetLdapDn">resetLdapDn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetParentTeamId">resetParentTeamId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetParentTeamReadId">resetParentTeamReadId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetParentTeamReadSlug">resetParentTeamReadSlug</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.resetPrivacy">resetPrivacy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.team.Team.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.team.Team.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.team.Team.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.team.Team.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.team.Team.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.team.Team.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.team.Team.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.team.Team.resetCreateDefaultMaintainer">resetCreateDefaultMaintainer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetLdapDn">resetLdapDn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamId">resetParentTeamId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamReadId">resetParentTeamReadId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamReadSlug">resetParentTeamReadSlug</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetPrivacy">resetPrivacy</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-github.team.Team.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-github.team.Team.toString"></a>
 
 ```typescript
 public toString(): string
@@ -92,25 +92,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-github.team.Team.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-github.team.Team.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-github.team.Team.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.team.Team.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-github.team.Team.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.team.Team.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-github.team.Team.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-github.team.Team.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -118,7 +118,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-github.team.Team.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.team.Team.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -126,7 +126,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-github.team.Team.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-github.team.Team.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -134,19 +134,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-github.team.Team.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-github.team.Team.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-github.team.Team.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-github.team.Team.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-github.team.Team.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-github.team.Team.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -154,7 +154,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-github.team.Team.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-github.team.Team.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -162,7 +162,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.team.Team.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.team.Team.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -170,151 +170,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-github.team.Team.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.team.Team.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-github.team.Team.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.team.Team.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-github.team.Team.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.team.Team.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-github.team.Team.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.team.Team.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-github.team.Team.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.team.Team.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-github.team.Team.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.team.Team.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-github.team.Team.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.team.Team.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-github.team.Team.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.team.Team.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-github.team.Team.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.team.Team.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-github.team.Team.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-github.team.Team.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-github.team.Team.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-github.team.Team.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.team.Team.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.team.Team.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.team.Team.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.team.Team.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-github.team.Team.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.team.Team.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-github.team.Team.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.team.Team.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-github.team.Team.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-github.team.Team.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -324,7 +324,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.team.Team.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.team.Team.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -332,7 +332,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-github.team.Team.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-github.team.Team.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -340,7 +340,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-github.team.Team.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.team.Team.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -348,7 +348,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-github.team.Team.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.team.Team.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -356,7 +356,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-github.team.Team.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-github.team.Team.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -364,7 +364,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.team.Team.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.team.Team.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -372,49 +372,49 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `resetCreateDefaultMaintainer` <a name="resetCreateDefaultMaintainer" id="@cdktf/provider-github.team.Team.resetCreateDefaultMaintainer"></a>
+##### `resetCreateDefaultMaintainer` <a name="resetCreateDefaultMaintainer" id="@cdktn/provider-github.team.Team.resetCreateDefaultMaintainer"></a>
 
 ```typescript
 public resetCreateDefaultMaintainer(): void
 ```
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-github.team.Team.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-github.team.Team.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
 ```
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-github.team.Team.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-github.team.Team.resetId"></a>
 
 ```typescript
 public resetId(): void
 ```
 
-##### `resetLdapDn` <a name="resetLdapDn" id="@cdktf/provider-github.team.Team.resetLdapDn"></a>
+##### `resetLdapDn` <a name="resetLdapDn" id="@cdktn/provider-github.team.Team.resetLdapDn"></a>
 
 ```typescript
 public resetLdapDn(): void
 ```
 
-##### `resetParentTeamId` <a name="resetParentTeamId" id="@cdktf/provider-github.team.Team.resetParentTeamId"></a>
+##### `resetParentTeamId` <a name="resetParentTeamId" id="@cdktn/provider-github.team.Team.resetParentTeamId"></a>
 
 ```typescript
 public resetParentTeamId(): void
 ```
 
-##### `resetParentTeamReadId` <a name="resetParentTeamReadId" id="@cdktf/provider-github.team.Team.resetParentTeamReadId"></a>
+##### `resetParentTeamReadId` <a name="resetParentTeamReadId" id="@cdktn/provider-github.team.Team.resetParentTeamReadId"></a>
 
 ```typescript
 public resetParentTeamReadId(): void
 ```
 
-##### `resetParentTeamReadSlug` <a name="resetParentTeamReadSlug" id="@cdktf/provider-github.team.Team.resetParentTeamReadSlug"></a>
+##### `resetParentTeamReadSlug` <a name="resetParentTeamReadSlug" id="@cdktn/provider-github.team.Team.resetParentTeamReadSlug"></a>
 
 ```typescript
 public resetParentTeamReadSlug(): void
 ```
 
-##### `resetPrivacy` <a name="resetPrivacy" id="@cdktf/provider-github.team.Team.resetPrivacy"></a>
+##### `resetPrivacy` <a name="resetPrivacy" id="@cdktn/provider-github.team.Team.resetPrivacy"></a>
 
 ```typescript
 public resetPrivacy(): void
@@ -424,17 +424,17 @@ public resetPrivacy(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.Team.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-github.team.Team.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.team.Team.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.team.Team.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-github.team.Team.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-github.team.Team.isConstruct"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 team.Team.isConstruct(x: any)
 ```
@@ -455,7 +455,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.team.Team.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.team.Team.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -463,45 +463,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-github.team.Team.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-github.team.Team.isTerraformElement"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 team.Team.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.team.Team.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.team.Team.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-github.team.Team.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-github.team.Team.isTerraformResource"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 team.Team.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-github.team.Team.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.team.Team.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-github.team.Team.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-github.team.Team.generateConfigForImport"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 team.Team.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-github.team.Team.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.team.Team.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -509,7 +509,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-github.team.Team.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.team.Team.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -517,17 +517,17 @@ The construct id used in the generated config for the Team to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-github.team.Team.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.team.Team.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
 The id of the existing Team that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#import import section} in the documentation of this resource for the id to use
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.team.Team.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.team.Team.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -539,46 +539,46 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.Team.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-github.team.Team.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.etag">etag</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.membersCount">membersCount</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.nodeId">nodeId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.slug">slug</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.createDefaultMaintainerInput">createDefaultMaintainerInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.ldapDnInput">ldapDnInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamIdInput">parentTeamIdInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamReadIdInput">parentTeamReadIdInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamReadSlugInput">parentTeamReadSlugInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.privacyInput">privacyInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.createDefaultMaintainer">createDefaultMaintainer</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.ldapDn">ldapDn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamId">parentTeamId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamReadId">parentTeamReadId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.parentTeamReadSlug">parentTeamReadSlug</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.Team.property.privacy">privacy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.team.Team.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.membersCount">membersCount</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.nodeId">nodeId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.slug">slug</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.createDefaultMaintainerInput">createDefaultMaintainerInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.ldapDnInput">ldapDnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamIdInput">parentTeamIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadIdInput">parentTeamReadIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadSlugInput">parentTeamReadSlugInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.privacyInput">privacyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.createDefaultMaintainer">createDefaultMaintainer</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.ldapDn">ldapDn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamId">parentTeamId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadId">parentTeamReadId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadSlug">parentTeamReadSlug</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.privacy">privacy</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-github.team.Team.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.team.Team.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -590,7 +590,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-github.team.Team.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-github.team.Team.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -600,7 +600,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-github.team.Team.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.team.Team.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -610,7 +610,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-github.team.Team.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-github.team.Team.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -620,7 +620,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-github.team.Team.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-github.team.Team.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -630,7 +630,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-github.team.Team.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-github.team.Team.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -640,7 +640,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-github.team.Team.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-github.team.Team.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -650,7 +650,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.team.Team.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.team.Team.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -660,7 +660,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.team.Team.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.team.Team.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -670,7 +670,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.team.Team.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.team.Team.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -680,7 +680,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.team.Team.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.team.Team.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -690,7 +690,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.team.Team.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.team.Team.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -700,7 +700,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.team.Team.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.team.Team.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -710,7 +710,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.team.Team.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.team.Team.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -720,7 +720,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-github.team.Team.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-github.team.Team.property.etag"></a>
 
 ```typescript
 public readonly etag: string;
@@ -730,7 +730,7 @@ public readonly etag: string;
 
 ---
 
-##### `membersCount`<sup>Required</sup> <a name="membersCount" id="@cdktf/provider-github.team.Team.property.membersCount"></a>
+##### `membersCount`<sup>Required</sup> <a name="membersCount" id="@cdktn/provider-github.team.Team.property.membersCount"></a>
 
 ```typescript
 public readonly membersCount: number;
@@ -740,7 +740,7 @@ public readonly membersCount: number;
 
 ---
 
-##### `nodeId`<sup>Required</sup> <a name="nodeId" id="@cdktf/provider-github.team.Team.property.nodeId"></a>
+##### `nodeId`<sup>Required</sup> <a name="nodeId" id="@cdktn/provider-github.team.Team.property.nodeId"></a>
 
 ```typescript
 public readonly nodeId: string;
@@ -750,7 +750,7 @@ public readonly nodeId: string;
 
 ---
 
-##### `slug`<sup>Required</sup> <a name="slug" id="@cdktf/provider-github.team.Team.property.slug"></a>
+##### `slug`<sup>Required</sup> <a name="slug" id="@cdktn/provider-github.team.Team.property.slug"></a>
 
 ```typescript
 public readonly slug: string;
@@ -760,7 +760,7 @@ public readonly slug: string;
 
 ---
 
-##### `createDefaultMaintainerInput`<sup>Optional</sup> <a name="createDefaultMaintainerInput" id="@cdktf/provider-github.team.Team.property.createDefaultMaintainerInput"></a>
+##### `createDefaultMaintainerInput`<sup>Optional</sup> <a name="createDefaultMaintainerInput" id="@cdktn/provider-github.team.Team.property.createDefaultMaintainerInput"></a>
 
 ```typescript
 public readonly createDefaultMaintainerInput: boolean | IResolvable;
@@ -770,7 +770,7 @@ public readonly createDefaultMaintainerInput: boolean | IResolvable;
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-github.team.Team.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-github.team.Team.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -780,7 +780,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-github.team.Team.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-github.team.Team.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -790,7 +790,7 @@ public readonly idInput: string;
 
 ---
 
-##### `ldapDnInput`<sup>Optional</sup> <a name="ldapDnInput" id="@cdktf/provider-github.team.Team.property.ldapDnInput"></a>
+##### `ldapDnInput`<sup>Optional</sup> <a name="ldapDnInput" id="@cdktn/provider-github.team.Team.property.ldapDnInput"></a>
 
 ```typescript
 public readonly ldapDnInput: string;
@@ -800,7 +800,7 @@ public readonly ldapDnInput: string;
 
 ---
 
-##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktf/provider-github.team.Team.property.nameInput"></a>
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-github.team.Team.property.nameInput"></a>
 
 ```typescript
 public readonly nameInput: string;
@@ -810,7 +810,7 @@ public readonly nameInput: string;
 
 ---
 
-##### `parentTeamIdInput`<sup>Optional</sup> <a name="parentTeamIdInput" id="@cdktf/provider-github.team.Team.property.parentTeamIdInput"></a>
+##### `parentTeamIdInput`<sup>Optional</sup> <a name="parentTeamIdInput" id="@cdktn/provider-github.team.Team.property.parentTeamIdInput"></a>
 
 ```typescript
 public readonly parentTeamIdInput: string;
@@ -820,7 +820,7 @@ public readonly parentTeamIdInput: string;
 
 ---
 
-##### `parentTeamReadIdInput`<sup>Optional</sup> <a name="parentTeamReadIdInput" id="@cdktf/provider-github.team.Team.property.parentTeamReadIdInput"></a>
+##### `parentTeamReadIdInput`<sup>Optional</sup> <a name="parentTeamReadIdInput" id="@cdktn/provider-github.team.Team.property.parentTeamReadIdInput"></a>
 
 ```typescript
 public readonly parentTeamReadIdInput: string;
@@ -830,7 +830,7 @@ public readonly parentTeamReadIdInput: string;
 
 ---
 
-##### `parentTeamReadSlugInput`<sup>Optional</sup> <a name="parentTeamReadSlugInput" id="@cdktf/provider-github.team.Team.property.parentTeamReadSlugInput"></a>
+##### `parentTeamReadSlugInput`<sup>Optional</sup> <a name="parentTeamReadSlugInput" id="@cdktn/provider-github.team.Team.property.parentTeamReadSlugInput"></a>
 
 ```typescript
 public readonly parentTeamReadSlugInput: string;
@@ -840,7 +840,7 @@ public readonly parentTeamReadSlugInput: string;
 
 ---
 
-##### `privacyInput`<sup>Optional</sup> <a name="privacyInput" id="@cdktf/provider-github.team.Team.property.privacyInput"></a>
+##### `privacyInput`<sup>Optional</sup> <a name="privacyInput" id="@cdktn/provider-github.team.Team.property.privacyInput"></a>
 
 ```typescript
 public readonly privacyInput: string;
@@ -850,7 +850,7 @@ public readonly privacyInput: string;
 
 ---
 
-##### `createDefaultMaintainer`<sup>Required</sup> <a name="createDefaultMaintainer" id="@cdktf/provider-github.team.Team.property.createDefaultMaintainer"></a>
+##### `createDefaultMaintainer`<sup>Required</sup> <a name="createDefaultMaintainer" id="@cdktn/provider-github.team.Team.property.createDefaultMaintainer"></a>
 
 ```typescript
 public readonly createDefaultMaintainer: boolean | IResolvable;
@@ -860,7 +860,7 @@ public readonly createDefaultMaintainer: boolean | IResolvable;
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-github.team.Team.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-github.team.Team.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -870,7 +870,7 @@ public readonly description: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-github.team.Team.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.team.Team.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -880,7 +880,7 @@ public readonly id: string;
 
 ---
 
-##### `ldapDn`<sup>Required</sup> <a name="ldapDn" id="@cdktf/provider-github.team.Team.property.ldapDn"></a>
+##### `ldapDn`<sup>Required</sup> <a name="ldapDn" id="@cdktn/provider-github.team.Team.property.ldapDn"></a>
 
 ```typescript
 public readonly ldapDn: string;
@@ -890,7 +890,7 @@ public readonly ldapDn: string;
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-github.team.Team.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.team.Team.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -900,7 +900,7 @@ public readonly name: string;
 
 ---
 
-##### `parentTeamId`<sup>Required</sup> <a name="parentTeamId" id="@cdktf/provider-github.team.Team.property.parentTeamId"></a>
+##### `parentTeamId`<sup>Required</sup> <a name="parentTeamId" id="@cdktn/provider-github.team.Team.property.parentTeamId"></a>
 
 ```typescript
 public readonly parentTeamId: string;
@@ -910,7 +910,7 @@ public readonly parentTeamId: string;
 
 ---
 
-##### `parentTeamReadId`<sup>Required</sup> <a name="parentTeamReadId" id="@cdktf/provider-github.team.Team.property.parentTeamReadId"></a>
+##### `parentTeamReadId`<sup>Required</sup> <a name="parentTeamReadId" id="@cdktn/provider-github.team.Team.property.parentTeamReadId"></a>
 
 ```typescript
 public readonly parentTeamReadId: string;
@@ -920,7 +920,7 @@ public readonly parentTeamReadId: string;
 
 ---
 
-##### `parentTeamReadSlug`<sup>Required</sup> <a name="parentTeamReadSlug" id="@cdktf/provider-github.team.Team.property.parentTeamReadSlug"></a>
+##### `parentTeamReadSlug`<sup>Required</sup> <a name="parentTeamReadSlug" id="@cdktn/provider-github.team.Team.property.parentTeamReadSlug"></a>
 
 ```typescript
 public readonly parentTeamReadSlug: string;
@@ -930,7 +930,7 @@ public readonly parentTeamReadSlug: string;
 
 ---
 
-##### `privacy`<sup>Required</sup> <a name="privacy" id="@cdktf/provider-github.team.Team.property.privacy"></a>
+##### `privacy`<sup>Required</sup> <a name="privacy" id="@cdktn/provider-github.team.Team.property.privacy"></a>
 
 ```typescript
 public readonly privacy: string;
@@ -944,11 +944,11 @@ public readonly privacy: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.Team.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-github.team.Team.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.team.Team.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -960,12 +960,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### TeamConfig <a name="TeamConfig" id="@cdktf/provider-github.team.TeamConfig"></a>
+### TeamConfig <a name="TeamConfig" id="@cdktn/provider-github.team.TeamConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-github.team.TeamConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.team.TeamConfig.Initializer"></a>
 
 ```typescript
-import { team } from '@cdktf/provider-github'
+import { team } from '@cdktn/provider-github'
 
 const teamConfig: team.TeamConfig = { ... }
 ```
@@ -974,26 +974,26 @@ const teamConfig: team.TeamConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.name">name</a></code> | <code>string</code> | The name of the team. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.createDefaultMaintainer">createDefaultMaintainer</a></code> | <code>boolean \| cdktf.IResolvable</code> | Adds a default maintainer to the team. Adds the creating user to the team when 'true'. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.description">description</a></code> | <code>string</code> | A description of the team. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#id Team#id}. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.ldapDn">ldapDn</a></code> | <code>string</code> | The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.parentTeamId">parentTeamId</a></code> | <code>string</code> | The ID or slug of the parent team, if this is a nested team. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.parentTeamReadId">parentTeamReadId</a></code> | <code>string</code> | The id of the parent team read in Github. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.parentTeamReadSlug">parentTeamReadSlug</a></code> | <code>string</code> | The id of the parent team read in Github. |
-| <code><a href="#@cdktf/provider-github.team.TeamConfig.property.privacy">privacy</a></code> | <code>string</code> | The level of privacy for the team. Must be one of 'secret' or 'closed'. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.name">name</a></code> | <code>string</code> | The name of the team. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.createDefaultMaintainer">createDefaultMaintainer</a></code> | <code>boolean \| cdktf.IResolvable</code> | Adds a default maintainer to the team. Adds the creating user to the team when 'true'. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.description">description</a></code> | <code>string</code> | A description of the team. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.ldapDn">ldapDn</a></code> | <code>string</code> | The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamId">parentTeamId</a></code> | <code>string</code> | The ID or slug of the parent team, if this is a nested team. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamReadId">parentTeamReadId</a></code> | <code>string</code> | The id of the parent team read in Github. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamReadSlug">parentTeamReadSlug</a></code> | <code>string</code> | The id of the parent team read in Github. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.privacy">privacy</a></code> | <code>string</code> | The level of privacy for the team. Must be one of 'secret' or 'closed'. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-github.team.TeamConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.team.TeamConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -1003,7 +1003,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-github.team.TeamConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.team.TeamConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -1013,7 +1013,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-github.team.TeamConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.team.TeamConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -1023,7 +1023,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-github.team.TeamConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.team.TeamConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -1033,7 +1033,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-github.team.TeamConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.team.TeamConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1043,7 +1043,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-github.team.TeamConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.team.TeamConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1053,7 +1053,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-github.team.TeamConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.team.TeamConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1063,7 +1063,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-github.team.TeamConfig.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.team.TeamConfig.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -1073,11 +1073,11 @@ public readonly name: string;
 
 The name of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#name Team#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#name Team#name}
 
 ---
 
-##### `createDefaultMaintainer`<sup>Optional</sup> <a name="createDefaultMaintainer" id="@cdktf/provider-github.team.TeamConfig.property.createDefaultMaintainer"></a>
+##### `createDefaultMaintainer`<sup>Optional</sup> <a name="createDefaultMaintainer" id="@cdktn/provider-github.team.TeamConfig.property.createDefaultMaintainer"></a>
 
 ```typescript
 public readonly createDefaultMaintainer: boolean | IResolvable;
@@ -1087,11 +1087,11 @@ public readonly createDefaultMaintainer: boolean | IResolvable;
 
 Adds a default maintainer to the team. Adds the creating user to the team when 'true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-github.team.TeamConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-github.team.TeamConfig.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1101,11 +1101,11 @@ public readonly description: string;
 
 A description of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#description Team#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#description Team#description}
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-github.team.TeamConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.team.TeamConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -1113,14 +1113,14 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#id Team#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
 
-##### `ldapDn`<sup>Optional</sup> <a name="ldapDn" id="@cdktf/provider-github.team.TeamConfig.property.ldapDn"></a>
+##### `ldapDn`<sup>Optional</sup> <a name="ldapDn" id="@cdktn/provider-github.team.TeamConfig.property.ldapDn"></a>
 
 ```typescript
 public readonly ldapDn: string;
@@ -1130,11 +1130,11 @@ public readonly ldapDn: string;
 
 The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#ldap_dn Team#ldap_dn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#ldap_dn Team#ldap_dn}
 
 ---
 
-##### `parentTeamId`<sup>Optional</sup> <a name="parentTeamId" id="@cdktf/provider-github.team.TeamConfig.property.parentTeamId"></a>
+##### `parentTeamId`<sup>Optional</sup> <a name="parentTeamId" id="@cdktn/provider-github.team.TeamConfig.property.parentTeamId"></a>
 
 ```typescript
 public readonly parentTeamId: string;
@@ -1144,11 +1144,11 @@ public readonly parentTeamId: string;
 
 The ID or slug of the parent team, if this is a nested team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#parent_team_id Team#parent_team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_id Team#parent_team_id}
 
 ---
 
-##### `parentTeamReadId`<sup>Optional</sup> <a name="parentTeamReadId" id="@cdktf/provider-github.team.TeamConfig.property.parentTeamReadId"></a>
+##### `parentTeamReadId`<sup>Optional</sup> <a name="parentTeamReadId" id="@cdktn/provider-github.team.TeamConfig.property.parentTeamReadId"></a>
 
 ```typescript
 public readonly parentTeamReadId: string;
@@ -1158,11 +1158,11 @@ public readonly parentTeamReadId: string;
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
 
 ---
 
-##### `parentTeamReadSlug`<sup>Optional</sup> <a name="parentTeamReadSlug" id="@cdktf/provider-github.team.TeamConfig.property.parentTeamReadSlug"></a>
+##### `parentTeamReadSlug`<sup>Optional</sup> <a name="parentTeamReadSlug" id="@cdktn/provider-github.team.TeamConfig.property.parentTeamReadSlug"></a>
 
 ```typescript
 public readonly parentTeamReadSlug: string;
@@ -1172,11 +1172,11 @@ public readonly parentTeamReadSlug: string;
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
 
 ---
 
-##### `privacy`<sup>Optional</sup> <a name="privacy" id="@cdktf/provider-github.team.TeamConfig.property.privacy"></a>
+##### `privacy`<sup>Optional</sup> <a name="privacy" id="@cdktn/provider-github.team.TeamConfig.property.privacy"></a>
 
 ```typescript
 public readonly privacy: string;
@@ -1186,7 +1186,7 @@ public readonly privacy: string;
 
 The level of privacy for the team. Must be one of 'secret' or 'closed'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.0/docs/resources/team#privacy Team#privacy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#privacy Team#privacy}
 
 ---
 
