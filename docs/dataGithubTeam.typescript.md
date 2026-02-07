@@ -4,7 +4,7 @@
 
 ### DataGithubTeam <a name="DataGithubTeam" id="@cdktn/provider-github.dataGithubTeam.DataGithubTeam"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team github_team}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team github_team}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubTeam.DataGithubTeam.Initializer"></a>
 
@@ -393,7 +393,7 @@ The construct id used in the generated config for the DataGithubTeam to import.
 
 The id of the existing DataGithubTeam that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -425,6 +425,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.members">members</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.nodeId">nodeId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.notificationSetting">notificationSetting</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.permission">permission</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.privacy">privacy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.repositories">repositories</a></code> | <code>string[]</code> | *No description.* |
@@ -598,6 +599,16 @@ public readonly name: string;
 
 ```typescript
 public readonly nodeId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `notificationSetting`<sup>Required</sup> <a name="notificationSetting" id="@cdktn/provider-github.dataGithubTeam.DataGithubTeam.property.notificationSetting"></a>
+
+```typescript
+public readonly notificationSetting: string;
 ```
 
 - *Type:* string
@@ -785,11 +796,11 @@ const dataGithubTeamConfig: dataGithubTeam.DataGithubTeamConfig = { ... }
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.slug">slug</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#slug DataGithubTeam#slug}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#id DataGithubTeam#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.membershipType">membershipType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#membership_type DataGithubTeam#membership_type}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#results_per_page DataGithubTeam#results_per_page}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#summary_only DataGithubTeam#summary_only}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.slug">slug</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#slug DataGithubTeam#slug}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#id DataGithubTeam#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.membershipType">membershipType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#membership_type DataGithubTeam#membership_type}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#results_per_page DataGithubTeam#results_per_page}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTeam.DataGithubTeamConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#summary_only DataGithubTeam#summary_only}. |
 
 ---
 
@@ -871,7 +882,7 @@ public readonly slug: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#slug DataGithubTeam#slug}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#slug DataGithubTeam#slug}.
 
 ---
 
@@ -883,7 +894,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#id DataGithubTeam#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#id DataGithubTeam#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -898,7 +909,7 @@ public readonly membershipType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#membership_type DataGithubTeam#membership_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#membership_type DataGithubTeam#membership_type}.
 
 ---
 
@@ -910,7 +921,7 @@ public readonly resultsPerPage: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#results_per_page DataGithubTeam#results_per_page}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#results_per_page DataGithubTeam#results_per_page}.
 
 ---
 
@@ -922,7 +933,7 @@ public readonly summaryOnly: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/data-sources/team#summary_only DataGithubTeam#summary_only}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/team#summary_only DataGithubTeam#summary_only}.
 
 ---
 

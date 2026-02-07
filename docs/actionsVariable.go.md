@@ -4,7 +4,7 @@
 
 ### ActionsVariable <a name="ActionsVariable" id="@cdktn/provider-github.actionsVariable.ActionsVariable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable github_actions_variable}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable github_actions_variable}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsVariable.ActionsVariable.Initializer"></a>
 
@@ -474,7 +474,7 @@ The construct id used in the generated config for the ActionsVariable to import.
 
 The id of the existing ActionsVariable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -505,6 +505,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.repositoryId">RepositoryId</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariable.property.repositoryInput">RepositoryInput</a></code> | <code>*string</code> | *No description.* |
@@ -669,6 +670,16 @@ func CreatedAt() *string
 
 ---
 
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.actionsVariable.ActionsVariable.property.repositoryId"></a>
+
+```go
+func RepositoryId() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `UpdatedAt`<sup>Required</sup> <a name="UpdatedAt" id="@cdktn/provider-github.actionsVariable.ActionsVariable.property.updatedAt"></a>
 
 ```go
@@ -815,7 +826,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsvariable"
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariableConfig.property.repository">Repository</a></code> | <code>*string</code> | Name of the repository. |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariableConfig.property.value">Value</a></code> | <code>*string</code> | Value of the variable. |
 | <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariableConfig.property.variableName">VariableName</a></code> | <code>*string</code> | Name of the variable. |
-| <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariableConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#id ActionsVariable#id}. |
+| <code><a href="#@cdktn/provider-github.actionsVariable.ActionsVariableConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#id ActionsVariable#id}. |
 
 ---
 
@@ -899,7 +910,7 @@ Repository *string
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#repository ActionsVariable#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#repository ActionsVariable#repository}
 
 ---
 
@@ -913,7 +924,7 @@ Value *string
 
 Value of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#value ActionsVariable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#value ActionsVariable#value}
 
 ---
 
@@ -927,7 +938,7 @@ VariableName *string
 
 Name of the variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#variable_name ActionsVariable#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#variable_name ActionsVariable#variable_name}
 
 ---
 
@@ -939,7 +950,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_variable#id ActionsVariable#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_variable#id ActionsVariable#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

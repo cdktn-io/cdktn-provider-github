@@ -4,7 +4,7 @@
 
 ### ActionsHostedRunner <a name="ActionsHostedRunner" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner github_actions_hosted_runner}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner github_actions_hosted_runner}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
 
 ---
 
@@ -134,7 +134,7 @@ Name of the hosted runner.
 
 Must be between 1 and 64 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The runner group ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Machine size (e.g., '4-core', '8-core'). Can be updated to scale the runner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Whether this runner should be used to generate custom images. Cannot be changed after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The version of the runner image to deploy. This is relevant only for runners using custom images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Maximum number of runners to scale up to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Whether to enable static public IP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
 
 ---
 
@@ -585,7 +585,7 @@ def put_image(
 
 The image ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -598,7 +598,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The image source (github, partner, or custom).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
 
 ---
 
@@ -614,7 +614,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
 
 ---
 
@@ -762,7 +762,7 @@ The construct id used in the generated config for the ActionsHostedRunner to imp
 
 The id of the existing ActionsHostedRunner that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1351,7 +1351,7 @@ image: ActionsHostedRunnerImage
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image ActionsHostedRunner#image}
 
 ---
 
@@ -1367,7 +1367,7 @@ Name of the hosted runner.
 
 Must be between 1 and 64 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#name ActionsHostedRunner#name}
 
 ---
 
@@ -1381,7 +1381,7 @@ runner_group_id: typing.Union[int, float]
 
 The runner group ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#runner_group_id ActionsHostedRunner#runner_group_id}
 
 ---
 
@@ -1395,7 +1395,7 @@ size: str
 
 Machine size (e.g., '4-core', '8-core'). Can be updated to scale the runner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#size ActionsHostedRunner#size}
 
 ---
 
@@ -1409,7 +1409,7 @@ image_gen: bool | IResolvable
 
 Whether this runner should be used to generate custom images. Cannot be changed after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
 
 ---
 
@@ -1423,7 +1423,7 @@ image_version: str
 
 The version of the runner image to deploy. This is relevant only for runners using custom images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#image_version ActionsHostedRunner#image_version}
 
 ---
 
@@ -1437,7 +1437,7 @@ maximum_runners: typing.Union[int, float]
 
 Maximum number of runners to scale up to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#maximum_runners ActionsHostedRunner#maximum_runners}
 
 ---
 
@@ -1451,7 +1451,7 @@ public_ip_enabled: bool | IResolvable
 
 Whether to enable static public IP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
 
 ---
 
@@ -1465,7 +1465,7 @@ timeouts: ActionsHostedRunnerTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#timeouts ActionsHostedRunner#timeouts}
 
 ---
 
@@ -1501,7 +1501,7 @@ id: str
 
 The image ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#id ActionsHostedRunner#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1518,7 +1518,7 @@ source: str
 
 The image source (github, partner, or custom).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#source ActionsHostedRunner#source}
 
 ---
 
@@ -1560,7 +1560,7 @@ actionsHostedRunner.ActionsHostedRunnerTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}. |
+| <code><a href="#@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}. |
 
 ---
 
@@ -1572,7 +1572,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_hosted_runner#delete ActionsHostedRunner#delete}.
 
 ---
 

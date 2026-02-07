@@ -4,7 +4,7 @@
 
 ### Team <a name="Team" id="@cdktn/provider-github.team.Team"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team github_team}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team github_team}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.team.Team.Initializer"></a>
 
@@ -26,6 +26,7 @@ team.Team(
   description: str = None,
   id: str = None,
   ldap_dn: str = None,
+  notification_setting: str = None,
   parent_team_id: str = None,
   parent_team_read_id: str = None,
   parent_team_read_slug: str = None,
@@ -47,8 +48,9 @@ team.Team(
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the team. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.createDefaultMaintainer">create_default_maintainer</a></code> | <code>bool \| cdktf.IResolvable</code> | Adds a default maintainer to the team. Adds the creating user to the team when 'true'. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.description">description</a></code> | <code>str</code> | A description of the team. |
-| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}. |
+| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#id Team#id}. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.ldapDn">ldap_dn</a></code> | <code>str</code> | The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server. |
+| <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.notificationSetting">notification_setting</a></code> | <code>str</code> | The notification setting for the team. Must be one of 'notifications_enabled' or 'notifications_disabled'. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.parentTeamId">parent_team_id</a></code> | <code>str</code> | The ID or slug of the parent team, if this is a nested team. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.parentTeamReadId">parent_team_read_id</a></code> | <code>str</code> | The id of the parent team read in Github. |
 | <code><a href="#@cdktn/provider-github.team.Team.Initializer.parameter.parentTeamReadSlug">parent_team_read_slug</a></code> | <code>str</code> | The id of the parent team read in Github. |
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#name Team#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#name Team#name}
 
 ---
 
@@ -132,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Adds a default maintainer to the team. Adds the creating user to the team when 'true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
 
 ---
 
@@ -142,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 A description of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#description Team#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#description Team#description}
 
 ---
 
@@ -150,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#id Team#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -163,7 +165,17 @@ If you experience problems setting this value it might not be settable. Please t
 
 The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#ldap_dn Team#ldap_dn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#ldap_dn Team#ldap_dn}
+
+---
+
+##### `notification_setting`<sup>Optional</sup> <a name="notification_setting" id="@cdktn/provider-github.team.Team.Initializer.parameter.notificationSetting"></a>
+
+- *Type:* str
+
+The notification setting for the team. Must be one of 'notifications_enabled' or 'notifications_disabled'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#notification_setting Team#notification_setting}
 
 ---
 
@@ -173,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The ID or slug of the parent team, if this is a nested team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_id Team#parent_team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_id Team#parent_team_id}
 
 ---
 
@@ -183,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
 
 ---
 
@@ -193,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
 
 ---
 
@@ -203,7 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The level of privacy for the team. Must be one of 'secret' or 'closed'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#privacy Team#privacy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#privacy Team#privacy}
 
 ---
 
@@ -238,6 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 | <code><a href="#@cdktn/provider-github.team.Team.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.resetLdapDn">reset_ldap_dn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.resetNotificationSetting">reset_notification_setting</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamId">reset_parent_team_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamReadId">reset_parent_team_read_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.resetParentTeamReadSlug">reset_parent_team_read_slug</a></code> | *No description.* |
@@ -594,6 +607,12 @@ def reset_id() -> None
 def reset_ldap_dn() -> None
 ```
 
+##### `reset_notification_setting` <a name="reset_notification_setting" id="@cdktn/provider-github.team.Team.resetNotificationSetting"></a>
+
+```python
+def reset_notification_setting() -> None
+```
+
 ##### `reset_parent_team_id` <a name="reset_parent_team_id" id="@cdktn/provider-github.team.Team.resetParentTeamId"></a>
 
 ```python
@@ -732,7 +751,7 @@ The construct id used in the generated config for the Team to import.
 
 The id of the existing Team that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -771,6 +790,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.team.Team.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.ldapDnInput">ldap_dn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.notificationSettingInput">notification_setting_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamIdInput">parent_team_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadIdInput">parent_team_read_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadSlugInput">parent_team_read_slug_input</a></code> | <code>str</code> | *No description.* |
@@ -780,6 +800,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.team.Team.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.ldapDn">ldap_dn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.team.Team.property.notificationSetting">notification_setting</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamId">parent_team_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadId">parent_team_read_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.team.Team.property.parentTeamReadSlug">parent_team_read_slug</a></code> | <code>str</code> | *No description.* |
@@ -1019,6 +1040,16 @@ name_input: str
 
 ---
 
+##### `notification_setting_input`<sup>Optional</sup> <a name="notification_setting_input" id="@cdktn/provider-github.team.Team.property.notificationSettingInput"></a>
+
+```python
+notification_setting_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `parent_team_id_input`<sup>Optional</sup> <a name="parent_team_id_input" id="@cdktn/provider-github.team.Team.property.parentTeamIdInput"></a>
 
 ```python
@@ -1109,6 +1140,16 @@ name: str
 
 ---
 
+##### `notification_setting`<sup>Required</sup> <a name="notification_setting" id="@cdktn/provider-github.team.Team.property.notificationSetting"></a>
+
+```python
+notification_setting: str
+```
+
+- *Type:* str
+
+---
+
 ##### `parent_team_id`<sup>Required</sup> <a name="parent_team_id" id="@cdktn/provider-github.team.Team.property.parentTeamId"></a>
 
 ```python
@@ -1189,6 +1230,7 @@ team.TeamConfig(
   description: str = None,
   id: str = None,
   ldap_dn: str = None,
+  notification_setting: str = None,
   parent_team_id: str = None,
   parent_team_read_id: str = None,
   parent_team_read_slug: str = None,
@@ -1210,8 +1252,9 @@ team.TeamConfig(
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.name">name</a></code> | <code>str</code> | The name of the team. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.createDefaultMaintainer">create_default_maintainer</a></code> | <code>bool \| cdktf.IResolvable</code> | Adds a default maintainer to the team. Adds the creating user to the team when 'true'. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.description">description</a></code> | <code>str</code> | A description of the team. |
-| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#id Team#id}. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.ldapDn">ldap_dn</a></code> | <code>str</code> | The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server. |
+| <code><a href="#@cdktn/provider-github.team.TeamConfig.property.notificationSetting">notification_setting</a></code> | <code>str</code> | The notification setting for the team. Must be one of 'notifications_enabled' or 'notifications_disabled'. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamId">parent_team_id</a></code> | <code>str</code> | The ID or slug of the parent team, if this is a nested team. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamReadId">parent_team_read_id</a></code> | <code>str</code> | The id of the parent team read in Github. |
 | <code><a href="#@cdktn/provider-github.team.TeamConfig.property.parentTeamReadSlug">parent_team_read_slug</a></code> | <code>str</code> | The id of the parent team read in Github. |
@@ -1299,7 +1342,7 @@ name: str
 
 The name of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#name Team#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#name Team#name}
 
 ---
 
@@ -1313,7 +1356,7 @@ create_default_maintainer: bool | IResolvable
 
 Adds a default maintainer to the team. Adds the creating user to the team when 'true'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
 
 ---
 
@@ -1327,7 +1370,7 @@ description: str
 
 A description of the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#description Team#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#description Team#description}
 
 ---
 
@@ -1339,7 +1382,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#id Team#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#id Team#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1356,7 +1399,21 @@ ldap_dn: str
 
 The LDAP Distinguished Name of the group where membership will be synchronized. Only available in GitHub Enterprise Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#ldap_dn Team#ldap_dn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#ldap_dn Team#ldap_dn}
+
+---
+
+##### `notification_setting`<sup>Optional</sup> <a name="notification_setting" id="@cdktn/provider-github.team.TeamConfig.property.notificationSetting"></a>
+
+```python
+notification_setting: str
+```
+
+- *Type:* str
+
+The notification setting for the team. Must be one of 'notifications_enabled' or 'notifications_disabled'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#notification_setting Team#notification_setting}
 
 ---
 
@@ -1370,7 +1427,7 @@ parent_team_id: str
 
 The ID or slug of the parent team, if this is a nested team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_id Team#parent_team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_id Team#parent_team_id}
 
 ---
 
@@ -1384,7 +1441,7 @@ parent_team_read_id: str
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_read_id Team#parent_team_read_id}
 
 ---
 
@@ -1398,7 +1455,7 @@ parent_team_read_slug: str
 
 The id of the parent team read in Github.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#parent_team_read_slug Team#parent_team_read_slug}
 
 ---
 
@@ -1412,7 +1469,7 @@ privacy: str
 
 The level of privacy for the team. Must be one of 'secret' or 'closed'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/team#privacy Team#privacy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/team#privacy Team#privacy}
 
 ---
 
