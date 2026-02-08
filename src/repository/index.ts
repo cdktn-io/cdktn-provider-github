@@ -1,9 +1,9 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository
+// https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,232 +15,236 @@ export interface RepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set to 'true' to allow auto-merging pull requests on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_auto_merge Repository#allow_auto_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_auto_merge Repository#allow_auto_merge}
   */
   readonly allowAutoMerge?: boolean | cdktf.IResolvable;
   /**
+  * Set to 'true' to allow private forking on the repository; this is only relevant if the repository is owned by an organization and is private or internal.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_forking Repository#allow_forking}
+  */
+  readonly allowForking?: boolean | cdktf.IResolvable;
+  /**
   * Set to 'false' to disable merge commits on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_merge_commit Repository#allow_merge_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_merge_commit Repository#allow_merge_commit}
   */
   readonly allowMergeCommit?: boolean | cdktf.IResolvable;
   /**
   * Set to 'false' to disable rebase merges on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_rebase_merge Repository#allow_rebase_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_rebase_merge Repository#allow_rebase_merge}
   */
   readonly allowRebaseMerge?: boolean | cdktf.IResolvable;
   /**
   * Set to 'false' to disable squash merges on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_squash_merge Repository#allow_squash_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_squash_merge Repository#allow_squash_merge}
   */
   readonly allowSquashMerge?: boolean | cdktf.IResolvable;
   /**
   *  Set to 'true' to always suggest updating pull request branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#allow_update_branch Repository#allow_update_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#allow_update_branch Repository#allow_update_branch}
   */
   readonly allowUpdateBranch?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to archive the repository instead of deleting on destroy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#archive_on_destroy Repository#archive_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#archive_on_destroy Repository#archive_on_destroy}
   */
   readonly archiveOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#archived Repository#archived}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#archived Repository#archived}
   */
   readonly archived?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to produce an initial commit in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#auto_init Repository#auto_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#auto_init Repository#auto_init}
   */
   readonly autoInit?: boolean | cdktf.IResolvable;
   /**
   * Can only be set after initial repository creation, and only if the target branch exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#default_branch Repository#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#default_branch Repository#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * Automatically delete head branch after a pull request is merged. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#delete_branch_on_merge Repository#delete_branch_on_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#delete_branch_on_merge Repository#delete_branch_on_merge}
   */
   readonly deleteBranchOnMerge?: boolean | cdktf.IResolvable;
   /**
   * A description of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#description Repository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#description Repository#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#etag Repository#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#etag Repository#etag}
   */
   readonly etag?: string;
   /**
   * Set to 'true' to fork an existing repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#fork Repository#fork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#fork Repository#fork}
   */
   readonly fork?: string;
   /**
   * Use the name of the template without the extension. For example, 'Haskell'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#gitignore_template Repository#gitignore_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#gitignore_template Repository#gitignore_template}
   */
   readonly gitignoreTemplate?: string;
   /**
   * Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_discussions Repository#has_discussions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#has_discussions Repository#has_discussions}
   */
   readonly hasDiscussions?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable the (deprecated) downloads features on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_downloads Repository#has_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#has_downloads Repository#has_downloads}
   */
   readonly hasDownloads?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable the GitHub Issues features on the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_issues Repository#has_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#has_issues Repository#has_issues}
   */
   readonly hasIssues?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable the GitHub Projects features on the repository. Per the GitHub documentation when in an organization that has disabled repository projects it will default to 'false' and will otherwise default to 'true'. If you specify 'true' when it has been disabled it will return an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_projects Repository#has_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#has_projects Repository#has_projects}
   */
   readonly hasProjects?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable the GitHub Wiki features on the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#has_wiki Repository#has_wiki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#has_wiki Repository#has_wiki}
   */
   readonly hasWiki?: boolean | cdktf.IResolvable;
   /**
   * URL of a page describing the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#homepage_url Repository#homepage_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#homepage_url Repository#homepage_url}
   */
   readonly homepageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#id Repository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#id Repository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Set to true to not call the vulnerability alerts endpoint so the resource can also be used without admin permissions during read.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}
   */
   readonly ignoreVulnerabilityAlertsDuringRead?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to tell GitHub that this is a template repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#is_template Repository#is_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#is_template Repository#is_template}
   */
   readonly isTemplate?: boolean | cdktf.IResolvable;
   /**
   * Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#license_template Repository#license_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#license_template Repository#license_template}
   */
   readonly licenseTemplate?: string;
   /**
   * Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#merge_commit_message Repository#merge_commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#merge_commit_message Repository#merge_commit_message}
   */
   readonly mergeCommitMessage?: string;
   /**
   * Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#merge_commit_title Repository#merge_commit_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#merge_commit_title Repository#merge_commit_title}
   */
   readonly mergeCommitTitle?: string;
   /**
   * The name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#name Repository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#name Repository#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#private Repository#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#private Repository#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * The owner of the source repository to fork from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source_owner Repository#source_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#source_owner Repository#source_owner}
   */
   readonly sourceOwner?: string;
   /**
   * The name of the source repository to fork from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source_repo Repository#source_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#source_repo Repository#source_repo}
   */
   readonly sourceRepo?: string;
   /**
   * Can be 'PR_BODY', 'COMMIT_MESSAGES', or 'BLANK' for a default squash merge commit message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#squash_merge_commit_message Repository#squash_merge_commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#squash_merge_commit_message Repository#squash_merge_commit_message}
   */
   readonly squashMergeCommitMessage?: string;
   /**
   * Can be 'PR_TITLE' or 'COMMIT_OR_PR_TITLE' for a default squash merge commit title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#squash_merge_commit_title Repository#squash_merge_commit_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#squash_merge_commit_title Repository#squash_merge_commit_title}
   */
   readonly squashMergeCommitTitle?: string;
   /**
   * The list of topics of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#topics Repository#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#topics Repository#topics}
   */
   readonly topics?: string[];
   /**
   * Can be 'public' or 'private'. If your organization is associated with an enterprise account using GitHub Enterprise Cloud or GitHub Enterprise Server 2.20+, visibility can also be 'internal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#visibility Repository#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#visibility Repository#visibility}
   */
   readonly visibility?: string;
   /**
   * Set to 'true' to enable security alerts for vulnerable dependencies. Enabling requires alerts to be enabled on the owner level. (Note for importing: GitHub enables the alerts on all repos by default). Note that vulnerability alerts have not been successfully tested on any GitHub Enterprise instance and may be unavailable in those settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#vulnerability_alerts Repository#vulnerability_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#vulnerability_alerts Repository#vulnerability_alerts}
   */
   readonly vulnerabilityAlerts?: boolean | cdktf.IResolvable;
   /**
   * Require contributors to sign off on web-based commits. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#web_commit_signoff_required Repository#web_commit_signoff_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#web_commit_signoff_required Repository#web_commit_signoff_required}
   */
   readonly webCommitSignoffRequired?: boolean | cdktf.IResolvable;
   /**
   * pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#pages Repository#pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#pages Repository#pages}
   */
   readonly pages?: RepositoryPages;
   /**
   * security_and_analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#security_and_analysis Repository#security_and_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#security_and_analysis Repository#security_and_analysis}
   */
   readonly securityAndAnalysis?: RepositorySecurityAndAnalysis;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#template Repository#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#template Repository#template}
   */
   readonly template?: RepositoryTemplate;
 }
@@ -248,13 +252,13 @@ export interface RepositoryPagesSource {
   /**
   * The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#branch Repository#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#branch Repository#branch}
   */
   readonly branch: string;
   /**
   * The repository directory from which the site publishes (Default: '/')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#path Repository#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#path Repository#path}
   */
   readonly path?: string;
 }
@@ -366,19 +370,19 @@ export interface RepositoryPages {
   /**
   * The type the page should be sourced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#build_type Repository#build_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#build_type Repository#build_type}
   */
   readonly buildType?: string;
   /**
   * The custom domain for the repository. This can only be set after the repository has been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#cname Repository#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#cname Repository#cname}
   */
   readonly cname?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#source Repository#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#source Repository#source}
   */
   readonly source?: RepositoryPagesSource;
 }
@@ -542,7 +546,7 @@ export interface RepositorySecurityAndAnalysisAdvancedSecurity {
   /**
   * Set to 'enabled' to enable advanced security features on the repository. Can be 'enabled' or 'disabled', This value being present when split licensing is enabled will error out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -625,7 +629,7 @@ export interface RepositorySecurityAndAnalysisCodeSecurity {
   /**
   * Set to 'enabled' to enable code security on the repository. Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -708,7 +712,7 @@ export interface RepositorySecurityAndAnalysisSecretScanning {
   /**
   * Set to 'enabled' to enable secret scanning on the repository. Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -791,7 +795,7 @@ export interface RepositorySecurityAndAnalysisSecretScanningAiDetection {
   /**
   * Set to 'enabled' to enable secret scanning AI detection on the repository. Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -874,7 +878,7 @@ export interface RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns 
   /**
   * Set to 'enabled' to enable secret scanning non-provider patterns on the repository. Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -957,7 +961,7 @@ export interface RepositorySecurityAndAnalysisSecretScanningPushProtection {
   /**
   * Set to 'enabled' to enable secret scanning push protection on the repository. Can be 'enabled' or 'disabled'. If set to 'enabled', the repository's visibility must be 'public', 'security_and_analysis[0].advanced_security[0].status' must also be set to 'enabled', or your Organization must have split licensing for Advanced security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#status Repository#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#status Repository#status}
   */
   readonly status: string;
 }
@@ -1040,37 +1044,37 @@ export interface RepositorySecurityAndAnalysis {
   /**
   * advanced_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#advanced_security Repository#advanced_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#advanced_security Repository#advanced_security}
   */
   readonly advancedSecurity?: RepositorySecurityAndAnalysisAdvancedSecurity;
   /**
   * code_security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#code_security Repository#code_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#code_security Repository#code_security}
   */
   readonly codeSecurity?: RepositorySecurityAndAnalysisCodeSecurity;
   /**
   * secret_scanning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning Repository#secret_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#secret_scanning Repository#secret_scanning}
   */
   readonly secretScanning?: RepositorySecurityAndAnalysisSecretScanning;
   /**
   * secret_scanning_ai_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_ai_detection Repository#secret_scanning_ai_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#secret_scanning_ai_detection Repository#secret_scanning_ai_detection}
   */
   readonly secretScanningAiDetection?: RepositorySecurityAndAnalysisSecretScanningAiDetection;
   /**
   * secret_scanning_non_provider_patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_non_provider_patterns Repository#secret_scanning_non_provider_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#secret_scanning_non_provider_patterns Repository#secret_scanning_non_provider_patterns}
   */
   readonly secretScanningNonProviderPatterns?: RepositorySecurityAndAnalysisSecretScanningNonProviderPatterns;
   /**
   * secret_scanning_push_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#secret_scanning_push_protection Repository#secret_scanning_push_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#secret_scanning_push_protection Repository#secret_scanning_push_protection}
   */
   readonly secretScanningPushProtection?: RepositorySecurityAndAnalysisSecretScanningPushProtection;
 }
@@ -1301,19 +1305,19 @@ export interface RepositoryTemplate {
   /**
   * Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#include_all_branches Repository#include_all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#include_all_branches Repository#include_all_branches}
   */
   readonly includeAllBranches?: boolean | cdktf.IResolvable;
   /**
   * The GitHub organization or user the template repository is owned by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#owner Repository#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#owner Repository#owner}
   */
   readonly owner: string;
   /**
   * The name of the template repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#repository Repository#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#repository Repository#repository}
   */
   readonly repository: string;
 }
@@ -1449,7 +1453,7 @@ export class RepositoryTemplateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository github_repository}
 */
 export class Repository extends cdktf.TerraformResource {
 
@@ -1465,7 +1469,7 @@ export class Repository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Repository to import
-  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Repository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1477,7 +1481,7 @@ export class Repository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository github_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository github_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1488,7 +1492,7 @@ export class Repository extends cdktf.TerraformResource {
       terraformResourceType: 'github_repository',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.9.1',
+        providerVersion: '6.11.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
@@ -1500,6 +1504,7 @@ export class Repository extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._allowAutoMerge = config.allowAutoMerge;
+    this._allowForking = config.allowForking;
     this._allowMergeCommit = config.allowMergeCommit;
     this._allowRebaseMerge = config.allowRebaseMerge;
     this._allowSquashMerge = config.allowSquashMerge;
@@ -1558,6 +1563,22 @@ export class Repository extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get allowAutoMergeInput() {
     return this._allowAutoMerge;
+  }
+
+  // allow_forking - computed: true, optional: true, required: false
+  private _allowForking?: boolean | cdktf.IResolvable; 
+  public get allowForking() {
+    return this.getBooleanAttribute('allow_forking');
+  }
+  public set allowForking(value: boolean | cdktf.IResolvable) {
+    this._allowForking = value;
+  }
+  public resetAllowForking() {
+    this._allowForking = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowForkingInput() {
+    return this._allowForking;
   }
 
   // allow_merge_commit - computed: false, optional: true, required: false
@@ -2217,6 +2238,7 @@ export class Repository extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       allow_auto_merge: cdktf.booleanToTerraform(this._allowAutoMerge),
+      allow_forking: cdktf.booleanToTerraform(this._allowForking),
       allow_merge_commit: cdktf.booleanToTerraform(this._allowMergeCommit),
       allow_rebase_merge: cdktf.booleanToTerraform(this._allowRebaseMerge),
       allow_squash_merge: cdktf.booleanToTerraform(this._allowSquashMerge),
@@ -2262,6 +2284,12 @@ export class Repository extends cdktf.TerraformResource {
     const attrs = {
       allow_auto_merge: {
         value: cdktf.booleanToHclTerraform(this._allowAutoMerge),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      allow_forking: {
+        value: cdktf.booleanToHclTerraform(this._allowForking),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

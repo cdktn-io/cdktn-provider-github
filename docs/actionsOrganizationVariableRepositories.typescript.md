@@ -1,0 +1,879 @@
+# `actionsOrganizationVariableRepositories` Submodule <a name="`actionsOrganizationVariableRepositories` Submodule" id="@cdktn/provider-github.actionsOrganizationVariableRepositories"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### ActionsOrganizationVariableRepositories <a name="ActionsOrganizationVariableRepositories" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories"></a>
+
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+new actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories(scope: Construct, id: string, config: ActionsOrganizationVariableRepositoriesConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig">ActionsOrganizationVariableRepositoriesConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig">ActionsOrganizationVariableRepositoriesConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.resetId">resetId</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.importFrom.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using it's instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `resetId` <a name="resetId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.resetId"></a>
+
+```typescript
+public resetId(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a ActionsOrganizationVariableRepositories resource upon running "cdktf plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isConstruct"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformElement"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformResource"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTF code for importing a ActionsOrganizationVariableRepositories resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the ActionsOrganizationVariableRepositories to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing ActionsOrganizationVariableRepositories that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+? Optional instance of the provider where the ActionsOrganizationVariableRepositories to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.selectedRepositoryIdsInput">selectedRepositoryIdsInput</a></code> | <code>number[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.variableNameInput">variableNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>number[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.variableName">variableName</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktf.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktf.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktf.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktf.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktf.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktf.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+
+---
+
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.idInput"></a>
+
+```typescript
+public readonly idInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `selectedRepositoryIdsInput`<sup>Optional</sup> <a name="selectedRepositoryIdsInput" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.selectedRepositoryIdsInput"></a>
+
+```typescript
+public readonly selectedRepositoryIdsInput: number[];
+```
+
+- *Type:* number[]
+
+---
+
+##### `variableNameInput`<sup>Optional</sup> <a name="variableNameInput" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.variableNameInput"></a>
+
+```typescript
+public readonly variableNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `selectedRepositoryIds`<sup>Required</sup> <a name="selectedRepositoryIds" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.selectedRepositoryIds"></a>
+
+```typescript
+public readonly selectedRepositoryIds: number[];
+```
+
+- *Type:* number[]
+
+---
+
+##### `variableName`<sup>Required</sup> <a name="variableName" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.variableName"></a>
+
+```typescript
+public readonly variableName: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### ActionsOrganizationVariableRepositoriesConfig <a name="ActionsOrganizationVariableRepositoriesConfig" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.Initializer"></a>
+
+```typescript
+import { actionsOrganizationVariableRepositories } from '@cdktn/provider-github'
+
+const actionsOrganizationVariableRepositoriesConfig: actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>number[]</code> | An array of repository ids that can access the organization variable. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.variableName">variableName</a></code> | <code>string</code> | Name of the existing variable. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktf.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktf.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktf.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktf.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktf.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+
+---
+
+##### `selectedRepositoryIds`<sup>Required</sup> <a name="selectedRepositoryIds" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.selectedRepositoryIds"></a>
+
+```typescript
+public readonly selectedRepositoryIds: number[];
+```
+
+- *Type:* number[]
+
+An array of repository ids that can access the organization variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories#selected_repository_ids ActionsOrganizationVariableRepositories#selected_repository_ids}
+
+---
+
+##### `variableName`<sup>Required</sup> <a name="variableName" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.variableName"></a>
+
+```typescript
+public readonly variableName: string;
+```
+
+- *Type:* string
+
+Name of the existing variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories#variable_name ActionsOrganizationVariableRepositories#variable_name}
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}.
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+
+

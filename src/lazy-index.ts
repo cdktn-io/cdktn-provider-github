@@ -1,5 +1,5 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
@@ -13,6 +13,9 @@ Object.defineProperty(exports, 'actionsOrganizationSecret', { get: function () {
 Object.defineProperty(exports, 'actionsOrganizationSecretRepositories', { get: function () { return require('./actions-organization-secret-repositories'); } });
 Object.defineProperty(exports, 'actionsOrganizationSecretRepository', { get: function () { return require('./actions-organization-secret-repository'); } });
 Object.defineProperty(exports, 'actionsOrganizationVariable', { get: function () { return require('./actions-organization-variable'); } });
+Object.defineProperty(exports, 'actionsOrganizationVariableRepositories', { get: function () { return require('./actions-organization-variable-repositories'); } });
+Object.defineProperty(exports, 'actionsOrganizationVariableRepository', { get: function () { return require('./actions-organization-variable-repository'); } });
+Object.defineProperty(exports, 'actionsOrganizationWorkflowPermissions', { get: function () { return require('./actions-organization-workflow-permissions'); } });
 Object.defineProperty(exports, 'actionsRepositoryAccessLevel', { get: function () { return require('./actions-repository-access-level'); } });
 Object.defineProperty(exports, 'actionsRepositoryOidcSubjectClaimCustomizationTemplate', { get: function () { return require('./actions-repository-oidc-subject-claim-customization-template'); } });
 Object.defineProperty(exports, 'actionsRepositoryPermissions', { get: function () { return require('./actions-repository-permissions'); } });
@@ -31,6 +34,7 @@ Object.defineProperty(exports, 'codespacesSecret', { get: function () { return r
 Object.defineProperty(exports, 'codespacesUserSecret', { get: function () { return require('./codespaces-user-secret'); } });
 Object.defineProperty(exports, 'dependabotOrganizationSecret', { get: function () { return require('./dependabot-organization-secret'); } });
 Object.defineProperty(exports, 'dependabotOrganizationSecretRepositories', { get: function () { return require('./dependabot-organization-secret-repositories'); } });
+Object.defineProperty(exports, 'dependabotOrganizationSecretRepository', { get: function () { return require('./dependabot-organization-secret-repository'); } });
 Object.defineProperty(exports, 'dependabotSecret', { get: function () { return require('./dependabot-secret'); } });
 Object.defineProperty(exports, 'emuGroupMapping', { get: function () { return require('./emu-group-mapping'); } });
 Object.defineProperty(exports, 'enterpriseActionsPermissions', { get: function () { return require('./enterprise-actions-permissions'); } });
@@ -135,6 +139,7 @@ Object.defineProperty(exports, 'dataGithubOrganizationTeams', { get: function ()
 Object.defineProperty(exports, 'dataGithubOrganizationWebhooks', { get: function () { return require('./data-github-organization-webhooks'); } });
 Object.defineProperty(exports, 'dataGithubRef', { get: function () { return require('./data-github-ref'); } });
 Object.defineProperty(exports, 'dataGithubRelease', { get: function () { return require('./data-github-release'); } });
+Object.defineProperty(exports, 'dataGithubReleaseAsset', { get: function () { return require('./data-github-release-asset'); } });
 Object.defineProperty(exports, 'dataGithubRepositories', { get: function () { return require('./data-github-repositories'); } });
 Object.defineProperty(exports, 'dataGithubRepository', { get: function () { return require('./data-github-repository'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryAutolinkReferences', { get: function () { return require('./data-github-repository-autolink-references'); } });

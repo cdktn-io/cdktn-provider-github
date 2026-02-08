@@ -1,7 +1,7 @@
 
-# CDKTF prebuilt bindings for integrations/github provider version 6.9.1
+# CDKTF prebuilt bindings for integrations/github provider version 6.11.0
 
-This repo builds and publishes the [Terraform github provider](https://registry.terraform.io/providers/integrations/github/6.9.1/docs) bindings for [CDK for Terraform](https://cdk.tf).
+This repo builds and publishes the [Terraform github provider](https://registry.terraform.io/providers/integrations/github/6.11.0/docs) bindings for [CDK for Terraform](https://cdk.tf).
 
 ## Available Packages
 
@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-github
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Github](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Github).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Github](https://www.nuget.org/packages/Io.Cdktn.Providers.Github).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Github`
+`dotnet add package Io.Cdktn.Providers.Github`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-github](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-github).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-github](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-github).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-github</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
@@ -63,7 +63,7 @@ This project is explicitly not tracking the Terraform github provider version 1:
 These are the upstream dependencies:
 
 - [CDK for Terraform](https://cdk.tf) - Last official release
-- [Terraform github provider](https://registry.terraform.io/providers/integrations/github/6.9.1)
+- [Terraform github provider](https://registry.terraform.io/providers/integrations/github/6.11.0)
 - [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.

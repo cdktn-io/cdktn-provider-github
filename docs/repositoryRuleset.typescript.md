@@ -4,7 +4,7 @@
 
 ### RepositoryRuleset <a name="RepositoryRuleset" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset github_repository_ruleset}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset github_repository_ruleset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer"></a>
 
@@ -527,7 +527,7 @@ The construct id used in the generated config for the RepositoryRuleset to impor
 
 The id of the existing RepositoryRuleset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -961,7 +961,7 @@ public readonly actorType: string;
 
 The type of actor that can bypass a ruleset. See https://docs.github.com/en/rest/repos/rules for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#actor_type RepositoryRuleset#actor_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#actor_type RepositoryRuleset#actor_type}
 
 ---
 
@@ -977,7 +977,7 @@ When the specified actor can bypass the ruleset.
 
 pull_request means that an actor can only bypass rules on pull requests. Can be one of: `always`, `pull_request`, `exempt`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#bypass_mode RepositoryRuleset#bypass_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#bypass_mode RepositoryRuleset#bypass_mode}
 
 ---
 
@@ -993,7 +993,7 @@ The ID of the actor that can bypass a ruleset.
 
 When `actor_type` is `OrganizationAdmin`, this should be set to `1`. Some resources such as DeployKey do not have an ID and this should be omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#actor_id RepositoryRuleset#actor_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#actor_id RepositoryRuleset#actor_id}
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly refName: RepositoryRulesetConditionsRefName;
 
 ref_name block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#ref_name RepositoryRuleset#ref_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#ref_name RepositoryRuleset#ref_name}
 
 ---
 
@@ -1058,7 +1058,7 @@ public readonly exclude: string[];
 
 Array of ref names or patterns to exclude. The condition will not pass if any of these patterns match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#exclude RepositoryRuleset#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#exclude RepositoryRuleset#exclude}
 
 ---
 
@@ -1074,7 +1074,7 @@ Array of ref names or patterns to include.
 
 One of these patterns must match for the condition to pass. Also accepts `~DEFAULT_BRANCH` to include the default branch or `~ALL` to include all branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#include RepositoryRuleset#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#include RepositoryRuleset#include}
 
 ---
 
@@ -1103,10 +1103,10 @@ const repositoryRulesetConfig: repositoryRuleset.RepositoryRulesetConfig = { ...
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.name">name</a></code> | <code>string</code> | The name of the ruleset. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.repository">repository</a></code> | <code>string</code> | Name of the repository to apply ruleset to. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.rules">rules</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules">RepositoryRulesetRules</a></code> | rules block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.target">target</a></code> | <code>string</code> | Possible values are `branch`, `push` and `tag`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.target">target</a></code> | <code>string</code> | Possible values are branch, push and tag. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.bypassActors">bypassActors</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>[]</code> | bypass_actors block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions">RepositoryRulesetConditions</a></code> | conditions block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#id RepositoryRuleset#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#id RepositoryRuleset#id}. |
 
 ---
 
@@ -1190,7 +1190,7 @@ public readonly enforcement: string;
 
 Possible values for Enforcement are `disabled`, `active`, `evaluate`. Note: `evaluate` is currently only supported for owners of type `organization`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#enforcement RepositoryRuleset#enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#enforcement RepositoryRuleset#enforcement}
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly name: string;
 
 The name of the ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly repository: string;
 
 Name of the repository to apply ruleset to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#repository RepositoryRuleset#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#repository RepositoryRuleset#repository}
 
 ---
 
@@ -1232,7 +1232,7 @@ public readonly rules: RepositoryRulesetRules;
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#rules RepositoryRuleset#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#rules RepositoryRuleset#rules}
 
 ---
 
@@ -1244,9 +1244,9 @@ public readonly target: string;
 
 - *Type:* string
 
-Possible values are `branch`, `push` and `tag`.
+Possible values are branch, push and tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#target RepositoryRuleset#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#target RepositoryRuleset#target}
 
 ---
 
@@ -1260,7 +1260,7 @@ public readonly bypassActors: IResolvable | RepositoryRulesetBypassActors[];
 
 bypass_actors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#bypass_actors RepositoryRuleset#bypass_actors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#bypass_actors RepositoryRuleset#bypass_actors}
 
 ---
 
@@ -1274,7 +1274,7 @@ public readonly conditions: RepositoryRulesetConditions;
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#conditions RepositoryRuleset#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#conditions RepositoryRuleset#conditions}
 
 ---
 
@@ -1286,7 +1286,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#id RepositoryRuleset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#id RepositoryRuleset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1311,6 +1311,7 @@ const repositoryRulesetRules: repositoryRuleset.RepositoryRulesetRules = { ... }
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.commitAuthorEmailPattern">commitAuthorEmailPattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern">RepositoryRulesetRulesCommitAuthorEmailPattern</a></code> | commit_author_email_pattern block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.commitMessagePattern">commitMessagePattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern">RepositoryRulesetRulesCommitMessagePattern</a></code> | commit_message_pattern block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.committerEmailPattern">committerEmailPattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a></code> | committer_email_pattern block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.copilotCodeReview">copilotCodeReview</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | copilot_code_review block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.creation">creation</a></code> | <code>boolean \| cdktf.IResolvable</code> | Only allow users with bypass permission to create matching refs. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.deletion">deletion</a></code> | <code>boolean \| cdktf.IResolvable</code> | Only allow users with bypass permissions to delete matching refs. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.fileExtensionRestriction">fileExtensionRestriction</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction">RepositoryRulesetRulesFileExtensionRestriction</a></code> | file_extension_restriction block. |
@@ -1341,7 +1342,7 @@ public readonly branchNamePattern: RepositoryRulesetRulesBranchNamePattern;
 
 branch_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#branch_name_pattern RepositoryRuleset#branch_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#branch_name_pattern RepositoryRuleset#branch_name_pattern}
 
 ---
 
@@ -1355,7 +1356,7 @@ public readonly commitAuthorEmailPattern: RepositoryRulesetRulesCommitAuthorEmai
 
 commit_author_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#commit_author_email_pattern RepositoryRuleset#commit_author_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#commit_author_email_pattern RepositoryRuleset#commit_author_email_pattern}
 
 ---
 
@@ -1369,7 +1370,7 @@ public readonly commitMessagePattern: RepositoryRulesetRulesCommitMessagePattern
 
 commit_message_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#commit_message_pattern RepositoryRuleset#commit_message_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#commit_message_pattern RepositoryRuleset#commit_message_pattern}
 
 ---
 
@@ -1383,7 +1384,21 @@ public readonly committerEmailPattern: RepositoryRulesetRulesCommitterEmailPatte
 
 committer_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#committer_email_pattern RepositoryRuleset#committer_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#committer_email_pattern RepositoryRuleset#committer_email_pattern}
+
+---
+
+##### `copilotCodeReview`<sup>Optional</sup> <a name="copilotCodeReview" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.copilotCodeReview"></a>
+
+```typescript
+public readonly copilotCodeReview: RepositoryRulesetRulesCopilotCodeReview;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a>
+
+copilot_code_review block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#copilot_code_review RepositoryRuleset#copilot_code_review}
 
 ---
 
@@ -1397,7 +1412,7 @@ public readonly creation: boolean | IResolvable;
 
 Only allow users with bypass permission to create matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#creation RepositoryRuleset#creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#creation RepositoryRuleset#creation}
 
 ---
 
@@ -1411,7 +1426,7 @@ public readonly deletion: boolean | IResolvable;
 
 Only allow users with bypass permissions to delete matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#deletion RepositoryRuleset#deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#deletion RepositoryRuleset#deletion}
 
 ---
 
@@ -1425,7 +1440,7 @@ public readonly fileExtensionRestriction: RepositoryRulesetRulesFileExtensionRes
 
 file_extension_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#file_extension_restriction RepositoryRuleset#file_extension_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#file_extension_restriction RepositoryRuleset#file_extension_restriction}
 
 ---
 
@@ -1439,7 +1454,7 @@ public readonly filePathRestriction: RepositoryRulesetRulesFilePathRestriction;
 
 file_path_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#file_path_restriction RepositoryRuleset#file_path_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#file_path_restriction RepositoryRuleset#file_path_restriction}
 
 ---
 
@@ -1453,7 +1468,7 @@ public readonly maxFilePathLength: RepositoryRulesetRulesMaxFilePathLength;
 
 max_file_path_length block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_file_path_length RepositoryRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_file_path_length RepositoryRuleset#max_file_path_length}
 
 ---
 
@@ -1467,7 +1482,7 @@ public readonly maxFileSize: RepositoryRulesetRulesMaxFileSize;
 
 max_file_size block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_file_size RepositoryRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_file_size RepositoryRuleset#max_file_size}
 
 ---
 
@@ -1481,7 +1496,7 @@ public readonly mergeQueue: RepositoryRulesetRulesMergeQueue;
 
 merge_queue block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#merge_queue RepositoryRuleset#merge_queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#merge_queue RepositoryRuleset#merge_queue}
 
 ---
 
@@ -1495,7 +1510,7 @@ public readonly nonFastForward: boolean | IResolvable;
 
 Prevent users with push access from force pushing to branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#non_fast_forward RepositoryRuleset#non_fast_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#non_fast_forward RepositoryRuleset#non_fast_forward}
 
 ---
 
@@ -1509,7 +1524,7 @@ public readonly pullRequest: RepositoryRulesetRulesPullRequest;
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pull_request RepositoryRuleset#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pull_request RepositoryRuleset#pull_request}
 
 ---
 
@@ -1523,7 +1538,7 @@ public readonly requiredCodeScanning: RepositoryRulesetRulesRequiredCodeScanning
 
 required_code_scanning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_code_scanning RepositoryRuleset#required_code_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_code_scanning RepositoryRuleset#required_code_scanning}
 
 ---
 
@@ -1537,7 +1552,7 @@ public readonly requiredDeployments: RepositoryRulesetRulesRequiredDeployments;
 
 required_deployments block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_deployments RepositoryRuleset#required_deployments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_deployments RepositoryRuleset#required_deployments}
 
 ---
 
@@ -1551,7 +1566,7 @@ public readonly requiredLinearHistory: boolean | IResolvable;
 
 Prevent merge commits from being pushed to matching branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_linear_history RepositoryRuleset#required_linear_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_linear_history RepositoryRuleset#required_linear_history}
 
 ---
 
@@ -1565,7 +1580,7 @@ public readonly requiredSignatures: boolean | IResolvable;
 
 Commits pushed to matching branches must have verified signatures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_signatures RepositoryRuleset#required_signatures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_signatures RepositoryRuleset#required_signatures}
 
 ---
 
@@ -1579,7 +1594,7 @@ public readonly requiredStatusChecks: RepositoryRulesetRulesRequiredStatusChecks
 
 required_status_checks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_status_checks RepositoryRuleset#required_status_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_status_checks RepositoryRuleset#required_status_checks}
 
 ---
 
@@ -1593,7 +1608,7 @@ public readonly tagNamePattern: RepositoryRulesetRulesTagNamePattern;
 
 tag_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#tag_name_pattern RepositoryRuleset#tag_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#tag_name_pattern RepositoryRuleset#tag_name_pattern}
 
 ---
 
@@ -1607,7 +1622,7 @@ public readonly update: boolean | IResolvable;
 
 Only allow users with bypass permission to update matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#update RepositoryRuleset#update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#update RepositoryRuleset#update}
 
 ---
 
@@ -1623,7 +1638,7 @@ Branch can pull changes from its upstream repository.
 
 This is only applicable to forked repositories. Requires `update` to be set to `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#update_allows_fetch_and_merge RepositoryRuleset#update_allows_fetch_and_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#update_allows_fetch_and_merge RepositoryRuleset#update_allows_fetch_and_merge}
 
 ---
 
@@ -1658,7 +1673,7 @@ public readonly operator: string;
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
 
 ---
 
@@ -1672,7 +1687,7 @@ public readonly pattern: string;
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
 
 ---
 
@@ -1686,7 +1701,7 @@ public readonly name: string;
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -1700,7 +1715,7 @@ public readonly negate: boolean | IResolvable;
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
 
 ---
 
@@ -1735,7 +1750,7 @@ public readonly operator: string;
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
 
 ---
 
@@ -1749,7 +1764,7 @@ public readonly pattern: string;
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
 
 ---
 
@@ -1763,7 +1778,7 @@ public readonly name: string;
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -1777,7 +1792,7 @@ public readonly negate: boolean | IResolvable;
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
 
 ---
 
@@ -1812,7 +1827,7 @@ public readonly operator: string;
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
 
 ---
 
@@ -1826,7 +1841,7 @@ public readonly pattern: string;
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
 
 ---
 
@@ -1840,7 +1855,7 @@ public readonly name: string;
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -1854,7 +1869,7 @@ public readonly negate: boolean | IResolvable;
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
 
 ---
 
@@ -1889,7 +1904,7 @@ public readonly operator: string;
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
 
 ---
 
@@ -1903,7 +1918,7 @@ public readonly pattern: string;
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
 
 ---
 
@@ -1917,7 +1932,7 @@ public readonly name: string;
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -1931,7 +1946,54 @@ public readonly negate: boolean | IResolvable;
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+
+---
+
+### RepositoryRulesetRulesCopilotCodeReview <a name="RepositoryRulesetRulesCopilotCodeReview" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+const repositoryRulesetRulesCopilotCodeReview: repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewDraftPullRequests">reviewDraftPullRequests</a></code> | <code>boolean \| cdktf.IResolvable</code> | Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewOnPush">reviewOnPush</a></code> | <code>boolean \| cdktf.IResolvable</code> | Copilot automatically reviews each new push to the pull request. Defaults to `false`. |
+
+---
+
+##### `reviewDraftPullRequests`<sup>Optional</sup> <a name="reviewDraftPullRequests" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewDraftPullRequests"></a>
+
+```typescript
+public readonly reviewDraftPullRequests: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#review_draft_pull_requests RepositoryRuleset#review_draft_pull_requests}
+
+---
+
+##### `reviewOnPush`<sup>Optional</sup> <a name="reviewOnPush" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewOnPush"></a>
+
+```typescript
+public readonly reviewOnPush: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+Copilot automatically reviews each new push to the pull request. Defaults to `false`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#review_on_push RepositoryRuleset#review_on_push}
 
 ---
 
@@ -1963,7 +2025,7 @@ public readonly restrictedFileExtensions: string[];
 
 A list of file extensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#restricted_file_extensions RepositoryRuleset#restricted_file_extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#restricted_file_extensions RepositoryRuleset#restricted_file_extensions}
 
 ---
 
@@ -1995,7 +2057,7 @@ public readonly restrictedFilePaths: string[];
 
 The file paths that are restricted from being pushed to the commit graph.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#restricted_file_paths RepositoryRuleset#restricted_file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#restricted_file_paths RepositoryRuleset#restricted_file_paths}
 
 ---
 
@@ -2027,7 +2089,7 @@ public readonly maxFilePathLength: number;
 
 The maximum allowed length of a file path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_file_path_length RepositoryRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_file_path_length RepositoryRuleset#max_file_path_length}
 
 ---
 
@@ -2059,7 +2121,7 @@ public readonly maxFileSize: number;
 
 The maximum allowed size of a file in megabytes (MB). Valid range is 1-100 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_file_size RepositoryRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_file_size RepositoryRuleset#max_file_size}
 
 ---
 
@@ -2099,7 +2161,7 @@ Maximum time for a required status check to report a conclusion.
 
 After this much time has elapsed, checks that have not reported a conclusion will be assumed to have failed. Defaults to `60`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#check_response_timeout_minutes RepositoryRuleset#check_response_timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#check_response_timeout_minutes RepositoryRuleset#check_response_timeout_minutes}
 
 ---
 
@@ -2115,7 +2177,7 @@ When set to ALLGREEN, the merge commit created by merge queue for each PR in the
 
 When set to HEADGREEN, only the commit at the head of the merge group, i.e. the commit containing changes from all of the PRs in the group, must pass its required checks to merge. Can be one of: ALLGREEN, HEADGREEN. Defaults to `ALLGREEN`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#grouping_strategy RepositoryRuleset#grouping_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#grouping_strategy RepositoryRuleset#grouping_strategy}
 
 ---
 
@@ -2129,7 +2191,7 @@ public readonly maxEntriesToBuild: number;
 
 Limit the number of queued pull requests requesting checks and workflow runs at the same time. Defaults to `5`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_entries_to_build RepositoryRuleset#max_entries_to_build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_entries_to_build RepositoryRuleset#max_entries_to_build}
 
 ---
 
@@ -2143,7 +2205,7 @@ public readonly maxEntriesToMerge: number;
 
 The maximum number of PRs that will be merged together in a group. Defaults to `5`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#max_entries_to_merge RepositoryRuleset#max_entries_to_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#max_entries_to_merge RepositoryRuleset#max_entries_to_merge}
 
 ---
 
@@ -2159,7 +2221,7 @@ Method to use when merging changes from queued pull requests.
 
 Can be one of: MERGE, SQUASH, REBASE. Defaults to `MERGE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#merge_method RepositoryRuleset#merge_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#merge_method RepositoryRuleset#merge_method}
 
 ---
 
@@ -2173,7 +2235,7 @@ public readonly minEntriesToMerge: number;
 
 The minimum number of PRs that will be merged together in a group. Defaults to `1`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#min_entries_to_merge RepositoryRuleset#min_entries_to_merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#min_entries_to_merge RepositoryRuleset#min_entries_to_merge}
 
 ---
 
@@ -2189,7 +2251,7 @@ The time merge queue should wait after the first PR is added to the queue for th
 
 After this time has elapsed, the minimum group size will be ignored and a smaller group will be merged. Defaults to `5`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#min_entries_to_merge_wait_minutes RepositoryRuleset#min_entries_to_merge_wait_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#min_entries_to_merge_wait_minutes RepositoryRuleset#min_entries_to_merge_wait_minutes}
 
 ---
 
@@ -2207,11 +2269,27 @@ const repositoryRulesetRulesPullRequest: repositoryRuleset.RepositoryRulesetRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.allowedMergeMethods">allowedMergeMethods</a></code> | <code>string[]</code> | Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.dismissStaleReviewsOnPush">dismissStaleReviewsOnPush</a></code> | <code>boolean \| cdktf.IResolvable</code> | New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireCodeOwnerReview">requireCodeOwnerReview</a></code> | <code>boolean \| cdktf.IResolvable</code> | Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredApprovingReviewCount">requiredApprovingReviewCount</a></code> | <code>number</code> | The number of approving reviews that are required before a pull request can be merged. Defaults to `0`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewers">requiredReviewers</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]</code> | required_reviewers block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewThreadResolution">requiredReviewThreadResolution</a></code> | <code>boolean \| cdktf.IResolvable</code> | All conversations on code must be resolved before a pull request can be merged. Defaults to `false`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireLastPushApproval">requireLastPushApproval</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether the most recent reviewable push must be approved by someone other than the person who pushed it. |
+
+---
+
+##### `allowedMergeMethods`<sup>Optional</sup> <a name="allowedMergeMethods" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.allowedMergeMethods"></a>
+
+```typescript
+public readonly allowedMergeMethods: string[];
+```
+
+- *Type:* string[]
+
+Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#allowed_merge_methods RepositoryRuleset#allowed_merge_methods}
 
 ---
 
@@ -2225,7 +2303,7 @@ public readonly dismissStaleReviewsOnPush: boolean | IResolvable;
 
 New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#dismiss_stale_reviews_on_push RepositoryRuleset#dismiss_stale_reviews_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#dismiss_stale_reviews_on_push RepositoryRuleset#dismiss_stale_reviews_on_push}
 
 ---
 
@@ -2239,7 +2317,7 @@ public readonly requireCodeOwnerReview: boolean | IResolvable;
 
 Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#require_code_owner_review RepositoryRuleset#require_code_owner_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#require_code_owner_review RepositoryRuleset#require_code_owner_review}
 
 ---
 
@@ -2253,7 +2331,21 @@ public readonly requiredApprovingReviewCount: number;
 
 The number of approving reviews that are required before a pull request can be merged. Defaults to `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_approving_review_count RepositoryRuleset#required_approving_review_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_approving_review_count RepositoryRuleset#required_approving_review_count}
+
+---
+
+##### `requiredReviewers`<sup>Optional</sup> <a name="requiredReviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewers"></a>
+
+```typescript
+public readonly requiredReviewers: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers[];
+```
+
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]
+
+required_reviewers block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_reviewers RepositoryRuleset#required_reviewers}
 
 ---
 
@@ -2267,7 +2359,7 @@ public readonly requiredReviewThreadResolution: boolean | IResolvable;
 
 All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_review_thread_resolution RepositoryRuleset#required_review_thread_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_review_thread_resolution RepositoryRuleset#required_review_thread_resolution}
 
 ---
 
@@ -2283,7 +2375,119 @@ Whether the most recent reviewable push must be approved by someone other than t
 
 Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#require_last_push_approval RepositoryRuleset#require_last_push_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#require_last_push_approval RepositoryRuleset#require_last_push_approval}
+
+---
+
+### RepositoryRulesetRulesPullRequestRequiredReviewers <a name="RepositoryRulesetRulesPullRequestRequiredReviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+const repositoryRulesetRulesPullRequestRequiredReviewers: repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.filePatterns">filePatterns</a></code> | <code>string[]</code> | File patterns (fnmatch syntax) that this reviewer must approve. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.minimumApprovals">minimumApprovals</a></code> | <code>number</code> | Minimum number of approvals required from this reviewer. Set to 0 to make approval optional. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.reviewer">reviewer</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a></code> | reviewer block. |
+
+---
+
+##### `filePatterns`<sup>Required</sup> <a name="filePatterns" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.filePatterns"></a>
+
+```typescript
+public readonly filePatterns: string[];
+```
+
+- *Type:* string[]
+
+File patterns (fnmatch syntax) that this reviewer must approve.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#file_patterns RepositoryRuleset#file_patterns}
+
+---
+
+##### `minimumApprovals`<sup>Required</sup> <a name="minimumApprovals" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.minimumApprovals"></a>
+
+```typescript
+public readonly minimumApprovals: number;
+```
+
+- *Type:* number
+
+Minimum number of approvals required from this reviewer. Set to 0 to make approval optional.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#minimum_approvals RepositoryRuleset#minimum_approvals}
+
+---
+
+##### `reviewer`<sup>Required</sup> <a name="reviewer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.property.reviewer"></a>
+
+```typescript
+public readonly reviewer: RepositoryRulesetRulesPullRequestRequiredReviewersReviewer;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a>
+
+reviewer block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#reviewer RepositoryRuleset#reviewer}
+
+---
+
+### RepositoryRulesetRulesPullRequestRequiredReviewersReviewer <a name="RepositoryRulesetRulesPullRequestRequiredReviewersReviewer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+const repositoryRulesetRulesPullRequestRequiredReviewersReviewer: repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.property.id">id</a></code> | <code>number</code> | The ID of the reviewer that must review. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.property.type">type</a></code> | <code>string</code> | The type of reviewer. Currently only `Team` is supported. |
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.property.id"></a>
+
+```typescript
+public readonly id: number;
+```
+
+- *Type:* number
+
+The ID of the reviewer that must review.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#id RepositoryRuleset#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.property.type"></a>
+
+```typescript
+public readonly type: string;
+```
+
+- *Type:* string
+
+The type of reviewer. Currently only `Team` is supported.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#type RepositoryRuleset#type}
 
 ---
 
@@ -2315,7 +2519,7 @@ public readonly requiredCodeScanningTool: IResolvable | RepositoryRulesetRulesRe
 
 required_code_scanning_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_code_scanning_tool RepositoryRuleset#required_code_scanning_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_code_scanning_tool RepositoryRuleset#required_code_scanning_tool}
 
 ---
 
@@ -2351,7 +2555,7 @@ The severity level at which code scanning results that raise alerts block a refe
 
 Can be one of: `none`, `errors`, `errors_and_warnings`, `all`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#alerts_threshold RepositoryRuleset#alerts_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#alerts_threshold RepositoryRuleset#alerts_threshold}
 
 ---
 
@@ -2367,7 +2571,7 @@ The severity level at which code scanning results that raise security alerts blo
 
 Can be one of: `none`, `critical`, `high_or_higher`, `medium_or_higher`, `all`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#security_alerts_threshold RepositoryRuleset#security_alerts_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#security_alerts_threshold RepositoryRuleset#security_alerts_threshold}
 
 ---
 
@@ -2381,7 +2585,7 @@ public readonly tool: string;
 
 The name of a code scanning tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#tool RepositoryRuleset#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#tool RepositoryRuleset#tool}
 
 ---
 
@@ -2413,7 +2617,7 @@ public readonly requiredDeploymentEnvironments: string[];
 
 The environments that must be successfully deployed to before branches can be merged.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_deployment_environments RepositoryRuleset#required_deployment_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_deployment_environments RepositoryRuleset#required_deployment_environments}
 
 ---
 
@@ -2447,7 +2651,7 @@ public readonly requiredCheck: IResolvable | RepositoryRulesetRulesRequiredStatu
 
 required_check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#required_check RepositoryRuleset#required_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#required_check RepositoryRuleset#required_check}
 
 ---
 
@@ -2461,7 +2665,7 @@ public readonly doNotEnforceOnCreate: boolean | IResolvable;
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#do_not_enforce_on_create RepositoryRuleset#do_not_enforce_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#do_not_enforce_on_create RepositoryRuleset#do_not_enforce_on_create}
 
 ---
 
@@ -2477,7 +2681,7 @@ Whether pull requests targeting a matching branch must be tested with the latest
 
 This setting will not take effect unless at least one status check is enabled. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#strict_required_status_checks_policy RepositoryRuleset#strict_required_status_checks_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#strict_required_status_checks_policy RepositoryRuleset#strict_required_status_checks_policy}
 
 ---
 
@@ -2510,7 +2714,7 @@ public readonly context: string;
 
 The status check context name that must be present on the commit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#context RepositoryRuleset#context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#context RepositoryRuleset#context}
 
 ---
 
@@ -2524,7 +2728,7 @@ public readonly integrationId: number;
 
 The optional integration ID that this status check must originate from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#integration_id RepositoryRuleset#integration_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#integration_id RepositoryRuleset#integration_id}
 
 ---
 
@@ -2559,7 +2763,7 @@ public readonly operator: string;
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#operator RepositoryRuleset#operator}
 
 ---
 
@@ -2573,7 +2777,7 @@ public readonly pattern: string;
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#pattern RepositoryRuleset#pattern}
 
 ---
 
@@ -2587,7 +2791,7 @@ public readonly name: string;
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#name RepositoryRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#name RepositoryRuleset#name}
 
 ---
 
@@ -2601,7 +2805,7 @@ public readonly negate: boolean | IResolvable;
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
 
 ---
 
@@ -5088,6 +5292,313 @@ public readonly internalValue: RepositoryRulesetRulesCommitterEmailPattern;
 ---
 
 
+### RepositoryRulesetRulesCopilotCodeReviewOutputReference <a name="RepositoryRulesetRulesCopilotCodeReviewOutputReference" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+new repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resetReviewDraftPullRequests">resetReviewDraftPullRequests</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resetReviewOnPush">resetReviewOnPush</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetReviewDraftPullRequests` <a name="resetReviewDraftPullRequests" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resetReviewDraftPullRequests"></a>
+
+```typescript
+public resetReviewDraftPullRequests(): void
+```
+
+##### `resetReviewOnPush` <a name="resetReviewOnPush" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resetReviewOnPush"></a>
+
+```typescript
+public resetReviewOnPush(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequestsInput">reviewDraftPullRequestsInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPushInput">reviewOnPushInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequests">reviewDraftPullRequests</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPush">reviewOnPush</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `reviewDraftPullRequestsInput`<sup>Optional</sup> <a name="reviewDraftPullRequestsInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequestsInput"></a>
+
+```typescript
+public readonly reviewDraftPullRequestsInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+---
+
+##### `reviewOnPushInput`<sup>Optional</sup> <a name="reviewOnPushInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPushInput"></a>
+
+```typescript
+public readonly reviewOnPushInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+---
+
+##### `reviewDraftPullRequests`<sup>Required</sup> <a name="reviewDraftPullRequests" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequests"></a>
+
+```typescript
+public readonly reviewDraftPullRequests: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+---
+
+##### `reviewOnPush`<sup>Required</sup> <a name="reviewOnPush" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPush"></a>
+
+```typescript
+public readonly reviewOnPush: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktf.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: RepositoryRulesetRulesCopilotCodeReview;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a>
+
+---
+
+
 ### RepositoryRulesetRulesFileExtensionRestrictionOutputReference <a name="RepositoryRulesetRulesFileExtensionRestrictionOutputReference" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer"></a>
@@ -6678,6 +7189,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitAuthorEmailPattern">putCommitAuthorEmailPattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitMessagePattern">putCommitMessagePattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitterEmailPattern">putCommitterEmailPattern</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCopilotCodeReview">putCopilotCodeReview</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putFileExtensionRestriction">putFileExtensionRestriction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putFilePathRestriction">putFilePathRestriction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putMaxFilePathLength">putMaxFilePathLength</a></code> | *No description.* |
@@ -6692,6 +7204,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCommitAuthorEmailPattern">resetCommitAuthorEmailPattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCommitMessagePattern">resetCommitMessagePattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCommitterEmailPattern">resetCommitterEmailPattern</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCopilotCodeReview">resetCopilotCodeReview</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCreation">resetCreation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetDeletion">resetDeletion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetFileExtensionRestriction">resetFileExtensionRestriction</a></code> | *No description.* |
@@ -6910,6 +7423,18 @@ public putCommitterEmailPattern(value: RepositoryRulesetRulesCommitterEmailPatte
 
 ---
 
+##### `putCopilotCodeReview` <a name="putCopilotCodeReview" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCopilotCodeReview"></a>
+
+```typescript
+public putCopilotCodeReview(value: RepositoryRulesetRulesCopilotCodeReview): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCopilotCodeReview.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a>
+
+---
+
 ##### `putFileExtensionRestriction` <a name="putFileExtensionRestriction" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putFileExtensionRestriction"></a>
 
 ```typescript
@@ -7054,6 +7579,12 @@ public resetCommitMessagePattern(): void
 public resetCommitterEmailPattern(): void
 ```
 
+##### `resetCopilotCodeReview` <a name="resetCopilotCodeReview" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCopilotCodeReview"></a>
+
+```typescript
+public resetCopilotCodeReview(): void
+```
+
 ##### `resetCreation` <a name="resetCreation" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resetCreation"></a>
 
 ```typescript
@@ -7167,6 +7698,7 @@ public resetUpdateAllowsFetchAndMerge(): void
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.commitAuthorEmailPattern">commitAuthorEmailPattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference">RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.commitMessagePattern">commitMessagePattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference">RepositoryRulesetRulesCommitMessagePatternOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.committerEmailPattern">committerEmailPattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference">RepositoryRulesetRulesCommitterEmailPatternOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.copilotCodeReview">copilotCodeReview</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference">RepositoryRulesetRulesCopilotCodeReviewOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.fileExtensionRestriction">fileExtensionRestriction</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference">RepositoryRulesetRulesFileExtensionRestrictionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.filePathRestriction">filePathRestriction</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference">RepositoryRulesetRulesFilePathRestrictionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.maxFilePathLength">maxFilePathLength</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference">RepositoryRulesetRulesMaxFilePathLengthOutputReference</a></code> | *No description.* |
@@ -7181,6 +7713,7 @@ public resetUpdateAllowsFetchAndMerge(): void
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.commitAuthorEmailPatternInput">commitAuthorEmailPatternInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern">RepositoryRulesetRulesCommitAuthorEmailPattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.commitMessagePatternInput">commitMessagePatternInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern">RepositoryRulesetRulesCommitMessagePattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.committerEmailPatternInput">committerEmailPatternInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.copilotCodeReviewInput">copilotCodeReviewInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.creationInput">creationInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.deletionInput">deletionInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.fileExtensionRestrictionInput">fileExtensionRestrictionInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction">RepositoryRulesetRulesFileExtensionRestriction</a></code> | *No description.* |
@@ -7270,6 +7803,16 @@ public readonly committerEmailPattern: RepositoryRulesetRulesCommitterEmailPatte
 ```
 
 - *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference">RepositoryRulesetRulesCommitterEmailPatternOutputReference</a>
+
+---
+
+##### `copilotCodeReview`<sup>Required</sup> <a name="copilotCodeReview" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.copilotCodeReview"></a>
+
+```typescript
+public readonly copilotCodeReview: RepositoryRulesetRulesCopilotCodeReviewOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference">RepositoryRulesetRulesCopilotCodeReviewOutputReference</a>
 
 ---
 
@@ -7410,6 +7953,16 @@ public readonly committerEmailPatternInput: RepositoryRulesetRulesCommitterEmail
 ```
 
 - *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a>
+
+---
+
+##### `copilotCodeReviewInput`<sup>Optional</sup> <a name="copilotCodeReviewInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.copilotCodeReviewInput"></a>
+
+```typescript
+public readonly copilotCodeReviewInput: RepositoryRulesetRulesCopilotCodeReview;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a>
 
 ---
 
@@ -7714,9 +8267,12 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.putRequiredReviewers">putRequiredReviewers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetAllowedMergeMethods">resetAllowedMergeMethods</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetDismissStaleReviewsOnPush">resetDismissStaleReviewsOnPush</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequireCodeOwnerReview">resetRequireCodeOwnerReview</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequiredApprovingReviewCount">resetRequiredApprovingReviewCount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequiredReviewers">resetRequiredReviewers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequiredReviewThreadResolution">resetRequiredReviewThreadResolution</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequireLastPushApproval">resetRequireLastPushApproval</a></code> | *No description.* |
 
@@ -7872,6 +8428,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putRequiredReviewers` <a name="putRequiredReviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.putRequiredReviewers"></a>
+
+```typescript
+public putRequiredReviewers(value: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.putRequiredReviewers.parameter.value"></a>
+
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]
+
+---
+
+##### `resetAllowedMergeMethods` <a name="resetAllowedMergeMethods" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetAllowedMergeMethods"></a>
+
+```typescript
+public resetAllowedMergeMethods(): void
+```
+
 ##### `resetDismissStaleReviewsOnPush` <a name="resetDismissStaleReviewsOnPush" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetDismissStaleReviewsOnPush"></a>
 
 ```typescript
@@ -7888,6 +8462,12 @@ public resetRequireCodeOwnerReview(): void
 
 ```typescript
 public resetRequiredApprovingReviewCount(): void
+```
+
+##### `resetRequiredReviewers` <a name="resetRequiredReviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequiredReviewers"></a>
+
+```typescript
+public resetRequiredReviewers(): void
 ```
 
 ##### `resetRequiredReviewThreadResolution` <a name="resetRequiredReviewThreadResolution" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resetRequiredReviewThreadResolution"></a>
@@ -7909,11 +8489,15 @@ public resetRequireLastPushApproval(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewers">requiredReviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList">RepositoryRulesetRulesPullRequestRequiredReviewersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethodsInput">allowedMergeMethodsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPushInput">dismissStaleReviewsOnPushInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReviewInput">requireCodeOwnerReviewInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredApprovingReviewCountInput">requiredApprovingReviewCountInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewersInput">requiredReviewersInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolutionInput">requiredReviewThreadResolutionInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireLastPushApprovalInput">requireLastPushApprovalInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethods">allowedMergeMethods</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPush">dismissStaleReviewsOnPush</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReview">requireCodeOwnerReview</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredApprovingReviewCount">requiredApprovingReviewCount</a></code> | <code>number</code> | *No description.* |
@@ -7947,6 +8531,26 @@ public readonly fqn: string;
 
 ---
 
+##### `requiredReviewers`<sup>Required</sup> <a name="requiredReviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewers"></a>
+
+```typescript
+public readonly requiredReviewers: RepositoryRulesetRulesPullRequestRequiredReviewersList;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList">RepositoryRulesetRulesPullRequestRequiredReviewersList</a>
+
+---
+
+##### `allowedMergeMethodsInput`<sup>Optional</sup> <a name="allowedMergeMethodsInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethodsInput"></a>
+
+```typescript
+public readonly allowedMergeMethodsInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
 ##### `dismissStaleReviewsOnPushInput`<sup>Optional</sup> <a name="dismissStaleReviewsOnPushInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPushInput"></a>
 
 ```typescript
@@ -7977,6 +8581,16 @@ public readonly requiredApprovingReviewCountInput: number;
 
 ---
 
+##### `requiredReviewersInput`<sup>Optional</sup> <a name="requiredReviewersInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewersInput"></a>
+
+```typescript
+public readonly requiredReviewersInput: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers[];
+```
+
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]
+
+---
+
 ##### `requiredReviewThreadResolutionInput`<sup>Optional</sup> <a name="requiredReviewThreadResolutionInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolutionInput"></a>
 
 ```typescript
@@ -7994,6 +8608,16 @@ public readonly requireLastPushApprovalInput: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktf.IResolvable
+
+---
+
+##### `allowedMergeMethods`<sup>Required</sup> <a name="allowedMergeMethods" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethods"></a>
+
+```typescript
+public readonly allowedMergeMethods: string[];
+```
+
+- *Type:* string[]
 
 ---
 
@@ -8054,6 +8678,805 @@ public readonly internalValue: RepositoryRulesetRulesPullRequest;
 ```
 
 - *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest">RepositoryRulesetRulesPullRequest</a>
+
+---
+
+
+### RepositoryRulesetRulesPullRequestRequiredReviewersList <a name="RepositoryRulesetRulesPullRequestRequiredReviewersList" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+new repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.resolve.parameter._context"></a>
+
+- *Type:* cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.get"></a>
+
+```typescript
+public get(index: number): RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers[];
+```
+
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>[]
+
+---
+
+
+### RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference <a name="RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+new repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.putReviewer">putReviewer</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putReviewer` <a name="putReviewer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.putReviewer"></a>
+
+```typescript
+public putReviewer(value: RepositoryRulesetRulesPullRequestRequiredReviewersReviewer): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.putReviewer.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a>
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.reviewer">reviewer</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference">RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.filePatternsInput">filePatternsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.minimumApprovalsInput">minimumApprovalsInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.reviewerInput">reviewerInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.filePatterns">filePatterns</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.minimumApprovals">minimumApprovals</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `reviewer`<sup>Required</sup> <a name="reviewer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.reviewer"></a>
+
+```typescript
+public readonly reviewer: RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference">RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference</a>
+
+---
+
+##### `filePatternsInput`<sup>Optional</sup> <a name="filePatternsInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.filePatternsInput"></a>
+
+```typescript
+public readonly filePatternsInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `minimumApprovalsInput`<sup>Optional</sup> <a name="minimumApprovalsInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.minimumApprovalsInput"></a>
+
+```typescript
+public readonly minimumApprovalsInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `reviewerInput`<sup>Optional</sup> <a name="reviewerInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.reviewerInput"></a>
+
+```typescript
+public readonly reviewerInput: RepositoryRulesetRulesPullRequestRequiredReviewersReviewer;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a>
+
+---
+
+##### `filePatterns`<sup>Required</sup> <a name="filePatterns" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.filePatterns"></a>
+
+```typescript
+public readonly filePatterns: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `minimumApprovals`<sup>Required</sup> <a name="minimumApprovals" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.minimumApprovals"></a>
+
+```typescript
+public readonly minimumApprovals: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers;
+```
+
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>
+
+---
+
+
+### RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference <a name="RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer"></a>
+
+```typescript
+import { repositoryRuleset } from '@cdktn/provider-github'
+
+new repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktf.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktf.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.idInput">idInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.id">id</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.type">type</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.idInput"></a>
+
+```typescript
+public readonly idInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `typeInput`<sup>Optional</sup> <a name="typeInput" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.typeInput"></a>
+
+```typescript
+public readonly typeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.id"></a>
+
+```typescript
+public readonly id: number;
+```
+
+- *Type:* number
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.type"></a>
+
+```typescript
+public readonly type: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: RepositoryRulesetRulesPullRequestRequiredReviewersReviewer;
+```
+
+- *Type:* <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a>
 
 ---
 

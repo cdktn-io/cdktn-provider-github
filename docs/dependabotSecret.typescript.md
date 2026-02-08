@@ -4,7 +4,7 @@
 
 ### DependabotSecret <a name="DependabotSecret" id="@cdktn/provider-github.dependabotSecret.DependabotSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret github_dependabot_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret github_dependabot_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.resetEncryptedValue">resetEncryptedValue</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.resetKeyId">resetKeyId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.resetPlaintextValue">resetPlaintextValue</a></code> | *No description.* |
 
 ---
@@ -379,6 +380,12 @@ public resetEncryptedValue(): void
 public resetId(): void
 ```
 
+##### `resetKeyId` <a name="resetKeyId" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.resetKeyId"></a>
+
+```typescript
+public resetKeyId(): void
+```
+
 ##### `resetPlaintextValue` <a name="resetPlaintextValue" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.resetPlaintextValue"></a>
 
 ```typescript
@@ -488,7 +495,7 @@ The construct id used in the generated config for the DependabotSecret to import
 
 The id of the existing DependabotSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -519,14 +526,18 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.createdAt">createdAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.remoteUpdatedAt">remoteUpdatedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.repositoryId">repositoryId</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.updatedAt">updatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.encryptedValueInput">encryptedValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.keyIdInput">keyIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.plaintextValueInput">plaintextValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.secretNameInput">secretNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.keyId">keyId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecret.property.secretName">secretName</a></code> | <code>string</code> | *No description.* |
@@ -685,6 +696,26 @@ public readonly createdAt: string;
 
 ---
 
+##### `remoteUpdatedAt`<sup>Required</sup> <a name="remoteUpdatedAt" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.property.remoteUpdatedAt"></a>
+
+```typescript
+public readonly remoteUpdatedAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `repositoryId`<sup>Required</sup> <a name="repositoryId" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.property.repositoryId"></a>
+
+```typescript
+public readonly repositoryId: number;
+```
+
+- *Type:* number
+
+---
+
 ##### `updatedAt`<sup>Required</sup> <a name="updatedAt" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.property.updatedAt"></a>
 
 ```typescript
@@ -709,6 +740,16 @@ public readonly encryptedValueInput: string;
 
 ```typescript
 public readonly idInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `keyIdInput`<sup>Optional</sup> <a name="keyIdInput" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.property.keyIdInput"></a>
+
+```typescript
+public readonly keyIdInput: string;
 ```
 
 - *Type:* string
@@ -759,6 +800,16 @@ public readonly encryptedValue: string;
 
 ```typescript
 public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `keyId`<sup>Required</sup> <a name="keyId" id="@cdktn/provider-github.dependabotSecret.DependabotSecret.property.keyId"></a>
+
+```typescript
+public readonly keyId: string;
 ```
 
 - *Type:* string
@@ -839,7 +890,8 @@ const dependabotSecretConfig: dependabotSecret.DependabotSecretConfig = { ... }
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.repository">repository</a></code> | <code>string</code> | Name of the repository. |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.secretName">secretName</a></code> | <code>string</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#id DependabotSecret#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#id DependabotSecret#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.keyId">keyId</a></code> | <code>string</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | Plaintext value of the secret to be encrypted. |
 
 ---
@@ -924,7 +976,7 @@ public readonly repository: string;
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#repository DependabotSecret#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#repository DependabotSecret#repository}
 
 ---
 
@@ -938,7 +990,7 @@ public readonly secretName: string;
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#secret_name DependabotSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#secret_name DependabotSecret#secret_name}
 
 ---
 
@@ -952,7 +1004,7 @@ public readonly encryptedValue: string;
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#encrypted_value DependabotSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#encrypted_value DependabotSecret#encrypted_value}
 
 ---
 
@@ -964,10 +1016,24 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#id DependabotSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#id DependabotSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `keyId`<sup>Optional</sup> <a name="keyId" id="@cdktn/provider-github.dependabotSecret.DependabotSecretConfig.property.keyId"></a>
+
+```typescript
+public readonly keyId: string;
+```
+
+- *Type:* string
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#key_id DependabotSecret#key_id}
 
 ---
 
@@ -981,7 +1047,7 @@ public readonly plaintextValue: string;
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_secret#plaintext_value DependabotSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_secret#plaintext_value DependabotSecret#plaintext_value}
 
 ---
 

@@ -1,9 +1,9 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions
+// https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface ActionsRepositoryPermissionsConfig extends cdktf.TerraformMetaA
   /**
   * The permissions policy that controls the actions that are allowed to run. Can be one of: 'all', 'local_only', or 'selected'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
   */
   readonly allowedActions?: string;
   /**
   * Should GitHub actions be enabled on this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,13 +34,19 @@ export interface ActionsRepositoryPermissionsConfig extends cdktf.TerraformMetaA
   /**
   * The GitHub repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
   */
   readonly repository: string;
   /**
+  * Whether pinning to a specific SHA is required for all actions and reusable workflows in a repository.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#sha_pinning_required ActionsRepositoryPermissions#sha_pinning_required}
+  */
+  readonly shaPinningRequired?: boolean | cdktf.IResolvable;
+  /**
   * allowed_actions_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
   */
   readonly allowedActionsConfig?: ActionsRepositoryPermissionsAllowedActionsConfig;
 }
@@ -48,19 +54,19 @@ export interface ActionsRepositoryPermissionsAllowedActionsConfig {
   /**
   * Whether GitHub-owned actions are allowed in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
   */
   readonly githubOwnedAllowed: boolean | cdktf.IResolvable;
   /**
   * Specifies a list of string-matching patterns to allow specific action(s). Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
   */
   readonly patternsAllowed?: string[];
   /**
   * Whether actions in GitHub Marketplace from verified creators are allowed. Set to 'true' to allow all GitHub Marketplace actions by verified creators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
   */
   readonly verifiedAllowed?: boolean | cdktf.IResolvable;
 }
@@ -199,7 +205,7 @@ export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions}
 */
 export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
 
@@ -215,7 +221,7 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActionsRepositoryPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsRepositoryPermissions to import
-  * @param importFromId The id of the existing ActionsRepositoryPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActionsRepositoryPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsRepositoryPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +233,7 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +244,7 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'github_actions_repository_permissions',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.9.1',
+        providerVersion: '6.11.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
@@ -253,6 +259,7 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
     this._enabled = config.enabled;
     this._id = config.id;
     this._repository = config.repository;
+    this._shaPinningRequired = config.shaPinningRequired;
     this._allowedActionsConfig.internalValue = config.allowedActionsConfig;
   }
 
@@ -321,6 +328,22 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
     return this._repository;
   }
 
+  // sha_pinning_required - computed: true, optional: true, required: false
+  private _shaPinningRequired?: boolean | cdktf.IResolvable; 
+  public get shaPinningRequired() {
+    return this.getBooleanAttribute('sha_pinning_required');
+  }
+  public set shaPinningRequired(value: boolean | cdktf.IResolvable) {
+    this._shaPinningRequired = value;
+  }
+  public resetShaPinningRequired() {
+    this._shaPinningRequired = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shaPinningRequiredInput() {
+    return this._shaPinningRequired;
+  }
+
   // allowed_actions_config - computed: false, optional: true, required: false
   private _allowedActionsConfig = new ActionsRepositoryPermissionsAllowedActionsConfigOutputReference(this, "allowed_actions_config");
   public get allowedActionsConfig() {
@@ -347,6 +370,7 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
       enabled: cdktf.booleanToTerraform(this._enabled),
       id: cdktf.stringToTerraform(this._id),
       repository: cdktf.stringToTerraform(this._repository),
+      sha_pinning_required: cdktf.booleanToTerraform(this._shaPinningRequired),
       allowed_actions_config: actionsRepositoryPermissionsAllowedActionsConfigToTerraform(this._allowedActionsConfig.internalValue),
     };
   }
@@ -376,6 +400,12 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      sha_pinning_required: {
+        value: cdktf.booleanToHclTerraform(this._shaPinningRequired),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       allowed_actions_config: {
         value: actionsRepositoryPermissionsAllowedActionsConfigToHclTerraform(this._allowedActionsConfig.internalValue),

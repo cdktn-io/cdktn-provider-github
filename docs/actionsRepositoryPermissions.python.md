@@ -4,7 +4,7 @@
 
 ### ActionsRepositoryPermissions <a name="ActionsRepositoryPermissions" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions github_actions_repository_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer"></a>
 
@@ -25,7 +25,8 @@ actionsRepositoryPermissions.ActionsRepositoryPermissions(
   allowed_actions: str = None,
   allowed_actions_config: ActionsRepositoryPermissionsAllowedActionsConfig = None,
   enabled: bool | IResolvable = None,
-  id: str = None
+  id: str = None,
+  sha_pinning_required: bool | IResolvable = None
 )
 ```
 
@@ -44,7 +45,8 @@ actionsRepositoryPermissions.ActionsRepositoryPermissions(
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.allowedActions">allowed_actions</a></code> | <code>str</code> | The permissions policy that controls the actions that are allowed to run. |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.allowedActionsConfig">allowed_actions_config</a></code> | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfig">ActionsRepositoryPermissionsAllowedActionsConfig</a></code> | allowed_actions_config block. |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.enabled">enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Should GitHub actions be enabled on this repository. |
-| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.shaPinningRequired">sha_pinning_required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether pinning to a specific SHA is required for all actions and reusable workflows in a repository. |
 
 ---
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The GitHub repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
 
 ---
 
@@ -126,7 +128,7 @@ The permissions policy that controls the actions that are allowed to run.
 
 Can be one of: 'all', 'local_only', or 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 allowed_actions_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Should GitHub actions be enabled on this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
 
 ---
 
@@ -154,10 +156,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `sha_pinning_required`<sup>Optional</sup> <a name="sha_pinning_required" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.Initializer.parameter.shaPinningRequired"></a>
+
+- *Type:* bool | cdktf.IResolvable
+
+Whether pinning to a specific SHA is required for all actions and reusable workflows in a repository.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#sha_pinning_required ActionsRepositoryPermissions#sha_pinning_required}
 
 ---
 
@@ -193,6 +205,7 @@ If you experience problems setting this value it might not be settable. Please t
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.resetAllowedActionsConfig">reset_allowed_actions_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.resetEnabled">reset_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.resetShaPinningRequired">reset_sha_pinning_required</a></code> | *No description.* |
 
 ---
 
@@ -537,7 +550,7 @@ def put_allowed_actions_config(
 
 Whether GitHub-owned actions are allowed in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
 
 ---
 
@@ -549,7 +562,7 @@ Specifies a list of string-matching patterns to allow specific action(s).
 
 Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
 
 ---
 
@@ -561,7 +574,7 @@ Whether actions in GitHub Marketplace from verified creators are allowed.
 
 Set to 'true' to allow all GitHub Marketplace actions by verified creators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
 
 ---
 
@@ -587,6 +600,12 @@ def reset_enabled() -> None
 
 ```python
 def reset_id() -> None
+```
+
+##### `reset_sha_pinning_required` <a name="reset_sha_pinning_required" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.resetShaPinningRequired"></a>
+
+```python
+def reset_sha_pinning_required() -> None
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -703,7 +722,7 @@ The construct id used in the generated config for the ActionsRepositoryPermissio
 
 The id of the existing ActionsRepositoryPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -739,10 +758,12 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.shaPinningRequiredInput">sha_pinning_required_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.allowedActions">allowed_actions</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.enabled">enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.repository">repository</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.shaPinningRequired">sha_pinning_required</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 
 ---
 
@@ -948,6 +969,16 @@ repository_input: str
 
 ---
 
+##### `sha_pinning_required_input`<sup>Optional</sup> <a name="sha_pinning_required_input" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.shaPinningRequiredInput"></a>
+
+```python
+sha_pinning_required_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktf.IResolvable
+
+---
+
 ##### `allowed_actions`<sup>Required</sup> <a name="allowed_actions" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.allowedActions"></a>
 
 ```python
@@ -985,6 +1016,16 @@ repository: str
 ```
 
 - *Type:* str
+
+---
+
+##### `sha_pinning_required`<sup>Required</sup> <a name="sha_pinning_required" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissions.property.shaPinningRequired"></a>
+
+```python
+sha_pinning_required: bool | IResolvable
+```
+
+- *Type:* bool | cdktf.IResolvable
 
 ---
 
@@ -1042,7 +1083,7 @@ github_owned_allowed: bool | IResolvable
 
 Whether GitHub-owned actions are allowed in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
 
 ---
 
@@ -1058,7 +1099,7 @@ Specifies a list of string-matching patterns to allow specific action(s).
 
 Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#patterns_allowed ActionsRepositoryPermissions#patterns_allowed}
 
 ---
 
@@ -1074,7 +1115,7 @@ Whether actions in GitHub Marketplace from verified creators are allowed.
 
 Set to 'true' to allow all GitHub Marketplace actions by verified creators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
 
 ---
 
@@ -1097,7 +1138,8 @@ actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig(
   allowed_actions: str = None,
   allowed_actions_config: ActionsRepositoryPermissionsAllowedActionsConfig = None,
   enabled: bool | IResolvable = None,
-  id: str = None
+  id: str = None,
+  sha_pinning_required: bool | IResolvable = None
 )
 ```
 
@@ -1116,7 +1158,8 @@ actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig(
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.allowedActions">allowed_actions</a></code> | <code>str</code> | The permissions policy that controls the actions that are allowed to run. |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.allowedActionsConfig">allowed_actions_config</a></code> | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsAllowedActionsConfig">ActionsRepositoryPermissionsAllowedActionsConfig</a></code> | allowed_actions_config block. |
 | <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.enabled">enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Should GitHub actions be enabled on this repository. |
-| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.shaPinningRequired">sha_pinning_required</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether pinning to a specific SHA is required for all actions and reusable workflows in a repository. |
 
 ---
 
@@ -1200,7 +1243,7 @@ repository: str
 
 The GitHub repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#repository ActionsRepositoryPermissions#repository}
 
 ---
 
@@ -1216,7 +1259,7 @@ The permissions policy that controls the actions that are allowed to run.
 
 Can be one of: 'all', 'local_only', or 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions ActionsRepositoryPermissions#allowed_actions}
 
 ---
 
@@ -1230,7 +1273,7 @@ allowed_actions_config: ActionsRepositoryPermissionsAllowedActionsConfig
 
 allowed_actions_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#allowed_actions_config ActionsRepositoryPermissions#allowed_actions_config}
 
 ---
 
@@ -1244,7 +1287,7 @@ enabled: bool | IResolvable
 
 Should GitHub actions be enabled on this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
 
 ---
 
@@ -1256,10 +1299,24 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `sha_pinning_required`<sup>Optional</sup> <a name="sha_pinning_required" id="@cdktn/provider-github.actionsRepositoryPermissions.ActionsRepositoryPermissionsConfig.property.shaPinningRequired"></a>
+
+```python
+sha_pinning_required: bool | IResolvable
+```
+
+- *Type:* bool | cdktf.IResolvable
+
+Whether pinning to a specific SHA is required for all actions and reusable workflows in a repository.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_repository_permissions#sha_pinning_required ActionsRepositoryPermissions#sha_pinning_required}
 
 ---
 
