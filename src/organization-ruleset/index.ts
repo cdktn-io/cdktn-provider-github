@@ -1,9 +1,9 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset
+// https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,13 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Possible values for Enforcement are `disabled`, `active`, `evaluate`. Note: `evaluate` is currently only supported for owners of type `organization`.
+  * The enforcement level of the ruleset. `evaluate` allows admins to test rules before enforcing them. Possible values are `disabled`, `active`, and `evaluate`. Note: `evaluate` is only available for Enterprise plans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
   */
   readonly enforcement: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,31 +28,31 @@ export interface OrganizationRulesetConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name: string;
   /**
-  * Possible values are `branch`, `tag` and `push`. Note: The `push` target is in beta and is subject to change.
+  * The target of the ruleset. Possible values are branch, tag and push.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#target OrganizationRuleset#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#target OrganizationRuleset#target}
   */
   readonly target: string;
   /**
   * bypass_actors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
   */
   readonly bypassActors?: OrganizationRulesetBypassActors[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
   */
   readonly conditions?: OrganizationRulesetConditions;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
   */
   readonly rules: OrganizationRulesetRules;
 }
@@ -60,19 +60,19 @@ export interface OrganizationRulesetBypassActors {
   /**
   * The ID of the actor that can bypass a ruleset. When `actor_type` is `OrganizationAdmin`, this should be set to `1`. Some resources such as DeployKey do not have an ID and this should be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#actor_id OrganizationRuleset#actor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#actor_id OrganizationRuleset#actor_id}
   */
   readonly actorId?: number;
   /**
-  * The type of actor that can bypass a ruleset. See https://docs.github.com/en/rest/orgs/rules for more information
+  * The type of actor that can bypass a ruleset. Can be one of: `Integration`, `OrganizationAdmin`, `RepositoryRole`, `Team`, or `DeployKey`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#actor_type OrganizationRuleset#actor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#actor_type OrganizationRuleset#actor_type}
   */
   readonly actorType: string;
   /**
   * When the specified actor can bypass the ruleset. pull_request means that an actor can only bypass rules on pull requests. Can be one of: `always`, `pull_request`, `exempt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#bypass_mode OrganizationRuleset#bypass_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#bypass_mode OrganizationRuleset#bypass_mode}
   */
   readonly bypassMode: string;
 }
@@ -242,13 +242,13 @@ export interface OrganizationRulesetConditionsRefName {
   /**
   * Array of ref names or patterns to exclude. The condition will not pass if any of these patterns match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
   */
   readonly exclude: string[];
   /**
   * Array of ref names or patterns to include. One of these patterns must match for the condition to pass. Also accepts `~DEFAULT_BRANCH` to include the default branch or `~ALL` to include all branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
   */
   readonly include: string[];
 }
@@ -357,19 +357,19 @@ export interface OrganizationRulesetConditionsRepositoryName {
   /**
   * Array of repository names or patterns to exclude. The condition will not pass if any of these patterns match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
   */
   readonly exclude: string[];
   /**
   * Array of repository names or patterns to include. One of these patterns must match for the condition to pass. Also accepts `~ALL` to include all repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
   */
   readonly include: string[];
   /**
   * Whether renaming of target repositories is prevented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
   */
   readonly protected?: boolean | cdktf.IResolvable;
 }
@@ -507,19 +507,19 @@ export interface OrganizationRulesetConditions {
   /**
   * The repository IDs that the ruleset applies to. One of these IDs must match for the condition to pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
   */
   readonly repositoryId?: number[];
   /**
   * ref_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
   */
-  readonly refName: OrganizationRulesetConditionsRefName;
+  readonly refName?: OrganizationRulesetConditionsRefName;
   /**
   * repository_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
   */
   readonly repositoryName?: OrganizationRulesetConditionsRepositoryName;
 }
@@ -627,13 +627,16 @@ export class OrganizationRulesetConditionsOutputReference extends cdktf.ComplexO
     return this._repositoryId;
   }
 
-  // ref_name - computed: false, optional: false, required: true
+  // ref_name - computed: false, optional: true, required: false
   private _refName = new OrganizationRulesetConditionsRefNameOutputReference(this, "ref_name");
   public get refName() {
     return this._refName;
   }
   public putRefName(value: OrganizationRulesetConditionsRefName) {
     this._refName.internalValue = value;
+  }
+  public resetRefName() {
+    this._refName.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get refNameInput() {
@@ -660,25 +663,25 @@ export interface OrganizationRulesetRulesBranchNamePattern {
   /**
   * How this rule will appear to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name?: string;
   /**
   * If true, the rule will fail if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
   */
   readonly operator: string;
   /**
   * The pattern to match with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
   */
   readonly pattern: string;
 }
@@ -845,25 +848,25 @@ export interface OrganizationRulesetRulesCommitAuthorEmailPattern {
   /**
   * How this rule will appear to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name?: string;
   /**
   * If true, the rule will fail if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
   */
   readonly operator: string;
   /**
   * The pattern to match with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
   */
   readonly pattern: string;
 }
@@ -1030,25 +1033,25 @@ export interface OrganizationRulesetRulesCommitMessagePattern {
   /**
   * How this rule will appear to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name?: string;
   /**
   * If true, the rule will fail if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
   */
   readonly operator: string;
   /**
   * The pattern to match with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
   */
   readonly pattern: string;
 }
@@ -1215,25 +1218,25 @@ export interface OrganizationRulesetRulesCommitterEmailPattern {
   /**
   * How this rule will appear to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name?: string;
   /**
   * If true, the rule will fail if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
   */
   readonly operator: string;
   /**
   * The pattern to match with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
   */
   readonly pattern: string;
 }
@@ -1396,11 +1399,132 @@ export class OrganizationRulesetRulesCommitterEmailPatternOutputReference extend
     return this._pattern;
   }
 }
+export interface OrganizationRulesetRulesCopilotCodeReview {
+  /**
+  * Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#review_draft_pull_requests OrganizationRuleset#review_draft_pull_requests}
+  */
+  readonly reviewDraftPullRequests?: boolean | cdktf.IResolvable;
+  /**
+  * Copilot automatically reviews each new push to the pull request. Defaults to `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#review_on_push OrganizationRuleset#review_on_push}
+  */
+  readonly reviewOnPush?: boolean | cdktf.IResolvable;
+}
+
+export function organizationRulesetRulesCopilotCodeReviewToTerraform(struct?: OrganizationRulesetRulesCopilotCodeReviewOutputReference | OrganizationRulesetRulesCopilotCodeReview): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    review_draft_pull_requests: cdktf.booleanToTerraform(struct!.reviewDraftPullRequests),
+    review_on_push: cdktf.booleanToTerraform(struct!.reviewOnPush),
+  }
+}
+
+
+export function organizationRulesetRulesCopilotCodeReviewToHclTerraform(struct?: OrganizationRulesetRulesCopilotCodeReviewOutputReference | OrganizationRulesetRulesCopilotCodeReview): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    review_draft_pull_requests: {
+      value: cdktf.booleanToHclTerraform(struct!.reviewDraftPullRequests),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    review_on_push: {
+      value: cdktf.booleanToHclTerraform(struct!.reviewOnPush),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OrganizationRulesetRulesCopilotCodeReviewOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OrganizationRulesetRulesCopilotCodeReview | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._reviewDraftPullRequests !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reviewDraftPullRequests = this._reviewDraftPullRequests;
+    }
+    if (this._reviewOnPush !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reviewOnPush = this._reviewOnPush;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OrganizationRulesetRulesCopilotCodeReview | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._reviewDraftPullRequests = undefined;
+      this._reviewOnPush = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._reviewDraftPullRequests = value.reviewDraftPullRequests;
+      this._reviewOnPush = value.reviewOnPush;
+    }
+  }
+
+  // review_draft_pull_requests - computed: false, optional: true, required: false
+  private _reviewDraftPullRequests?: boolean | cdktf.IResolvable; 
+  public get reviewDraftPullRequests() {
+    return this.getBooleanAttribute('review_draft_pull_requests');
+  }
+  public set reviewDraftPullRequests(value: boolean | cdktf.IResolvable) {
+    this._reviewDraftPullRequests = value;
+  }
+  public resetReviewDraftPullRequests() {
+    this._reviewDraftPullRequests = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reviewDraftPullRequestsInput() {
+    return this._reviewDraftPullRequests;
+  }
+
+  // review_on_push - computed: false, optional: true, required: false
+  private _reviewOnPush?: boolean | cdktf.IResolvable; 
+  public get reviewOnPush() {
+    return this.getBooleanAttribute('review_on_push');
+  }
+  public set reviewOnPush(value: boolean | cdktf.IResolvable) {
+    this._reviewOnPush = value;
+  }
+  public resetReviewOnPush() {
+    this._reviewOnPush = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reviewOnPushInput() {
+    return this._reviewOnPush;
+  }
+}
 export interface OrganizationRulesetRulesFileExtensionRestriction {
   /**
   * The file extensions that are restricted from being pushed to the commit graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
   */
   readonly restrictedFileExtensions: string[];
 }
@@ -1483,7 +1607,7 @@ export interface OrganizationRulesetRulesFilePathRestriction {
   /**
   * The file paths that are restricted from being pushed to the commit graph.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
   */
   readonly restrictedFilePaths: string[];
 }
@@ -1566,7 +1690,7 @@ export interface OrganizationRulesetRulesMaxFilePathLength {
   /**
   * The maximum allowed length of a file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
   */
   readonly maxFilePathLength: number;
 }
@@ -1649,7 +1773,7 @@ export interface OrganizationRulesetRulesMaxFileSize {
   /**
   * The maximum allowed size of a file in megabytes (MB). Valid range is 1-100 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
   */
   readonly maxFileSize: number;
 }
@@ -1728,37 +1852,346 @@ export class OrganizationRulesetRulesMaxFileSizeOutputReference extends cdktf.Co
     return this._maxFileSize;
   }
 }
+export interface OrganizationRulesetRulesPullRequestRequiredReviewersReviewer {
+  /**
+  * The ID of the reviewer that must review.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: number;
+  /**
+  * The type of reviewer. Currently only `Team` is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#type OrganizationRuleset#type}
+  */
+  readonly type: string;
+}
+
+export function organizationRulesetRulesPullRequestRequiredReviewersReviewerToTerraform(struct?: OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference | OrganizationRulesetRulesPullRequestRequiredReviewersReviewer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktf.numberToTerraform(struct!.id),
+    type: cdktf.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function organizationRulesetRulesPullRequestRequiredReviewersReviewerToHclTerraform(struct?: OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference | OrganizationRulesetRulesPullRequestRequiredReviewersReviewer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktf.numberToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OrganizationRulesetRulesPullRequestRequiredReviewersReviewer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OrganizationRulesetRulesPullRequestRequiredReviewersReviewer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._type = value.type;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: number; 
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+  public set id(value: number) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface OrganizationRulesetRulesPullRequestRequiredReviewers {
+  /**
+  * File patterns (fnmatch syntax) that this reviewer must approve.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#file_patterns OrganizationRuleset#file_patterns}
+  */
+  readonly filePatterns: string[];
+  /**
+  * Minimum number of approvals required from this reviewer. Set to 0 to make approval optional.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#minimum_approvals OrganizationRuleset#minimum_approvals}
+  */
+  readonly minimumApprovals: number;
+  /**
+  * reviewer block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#reviewer OrganizationRuleset#reviewer}
+  */
+  readonly reviewer: OrganizationRulesetRulesPullRequestRequiredReviewersReviewer;
+}
+
+export function organizationRulesetRulesPullRequestRequiredReviewersToTerraform(struct?: OrganizationRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    file_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.filePatterns),
+    minimum_approvals: cdktf.numberToTerraform(struct!.minimumApprovals),
+    reviewer: organizationRulesetRulesPullRequestRequiredReviewersReviewerToTerraform(struct!.reviewer),
+  }
+}
+
+
+export function organizationRulesetRulesPullRequestRequiredReviewersToHclTerraform(struct?: OrganizationRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    file_patterns: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.filePatterns),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    minimum_approvals: {
+      value: cdktf.numberToHclTerraform(struct!.minimumApprovals),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    reviewer: {
+      value: organizationRulesetRulesPullRequestRequiredReviewersReviewerToHclTerraform(struct!.reviewer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OrganizationRulesetRulesPullRequestRequiredReviewersReviewerList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OrganizationRulesetRulesPullRequestRequiredReviewersOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OrganizationRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._filePatterns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filePatterns = this._filePatterns;
+    }
+    if (this._minimumApprovals !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumApprovals = this._minimumApprovals;
+    }
+    if (this._reviewer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reviewer = this._reviewer?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OrganizationRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._filePatterns = undefined;
+      this._minimumApprovals = undefined;
+      this._reviewer.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._filePatterns = value.filePatterns;
+      this._minimumApprovals = value.minimumApprovals;
+      this._reviewer.internalValue = value.reviewer;
+    }
+  }
+
+  // file_patterns - computed: false, optional: false, required: true
+  private _filePatterns?: string[]; 
+  public get filePatterns() {
+    return this.getListAttribute('file_patterns');
+  }
+  public set filePatterns(value: string[]) {
+    this._filePatterns = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filePatternsInput() {
+    return this._filePatterns;
+  }
+
+  // minimum_approvals - computed: false, optional: false, required: true
+  private _minimumApprovals?: number; 
+  public get minimumApprovals() {
+    return this.getNumberAttribute('minimum_approvals');
+  }
+  public set minimumApprovals(value: number) {
+    this._minimumApprovals = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumApprovalsInput() {
+    return this._minimumApprovals;
+  }
+
+  // reviewer - computed: false, optional: false, required: true
+  private _reviewer = new OrganizationRulesetRulesPullRequestRequiredReviewersReviewerOutputReference(this, "reviewer");
+  public get reviewer() {
+    return this._reviewer;
+  }
+  public putReviewer(value: OrganizationRulesetRulesPullRequestRequiredReviewersReviewer) {
+    this._reviewer.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reviewerInput() {
+    return this._reviewer.internalValue;
+  }
+}
+
+export class OrganizationRulesetRulesPullRequestRequiredReviewersList extends cdktf.ComplexList {
+  public internalValue? : OrganizationRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OrganizationRulesetRulesPullRequestRequiredReviewersOutputReference {
+    return new OrganizationRulesetRulesPullRequestRequiredReviewersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OrganizationRulesetRulesPullRequest {
+  /**
+  * Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#allowed_merge_methods OrganizationRuleset#allowed_merge_methods}
+  */
+  readonly allowedMergeMethods?: string[];
   /**
   * New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
   */
   readonly dismissStaleReviewsOnPush?: boolean | cdktf.IResolvable;
   /**
   * Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
   */
   readonly requireCodeOwnerReview?: boolean | cdktf.IResolvable;
   /**
   * Whether the most recent reviewable push must be approved by someone other than the person who pushed it. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
   */
   readonly requireLastPushApproval?: boolean | cdktf.IResolvable;
   /**
   * The number of approving reviews that are required before a pull request can be merged. Defaults to `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
   */
   readonly requiredApprovingReviewCount?: number;
   /**
   * All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
   */
   readonly requiredReviewThreadResolution?: boolean | cdktf.IResolvable;
+  /**
+  * required_reviewers block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_reviewers OrganizationRuleset#required_reviewers}
+  */
+  readonly requiredReviewers?: OrganizationRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable;
 }
 
 export function organizationRulesetRulesPullRequestToTerraform(struct?: OrganizationRulesetRulesPullRequestOutputReference | OrganizationRulesetRulesPullRequest): any {
@@ -1767,11 +2200,13 @@ export function organizationRulesetRulesPullRequestToTerraform(struct?: Organiza
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    allowed_merge_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedMergeMethods),
     dismiss_stale_reviews_on_push: cdktf.booleanToTerraform(struct!.dismissStaleReviewsOnPush),
     require_code_owner_review: cdktf.booleanToTerraform(struct!.requireCodeOwnerReview),
     require_last_push_approval: cdktf.booleanToTerraform(struct!.requireLastPushApproval),
     required_approving_review_count: cdktf.numberToTerraform(struct!.requiredApprovingReviewCount),
     required_review_thread_resolution: cdktf.booleanToTerraform(struct!.requiredReviewThreadResolution),
+    required_reviewers: cdktf.listMapper(organizationRulesetRulesPullRequestRequiredReviewersToTerraform, true)(struct!.requiredReviewers),
   }
 }
 
@@ -1782,6 +2217,12 @@ export function organizationRulesetRulesPullRequestToHclTerraform(struct?: Organ
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    allowed_merge_methods: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedMergeMethods),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     dismiss_stale_reviews_on_push: {
       value: cdktf.booleanToHclTerraform(struct!.dismissStaleReviewsOnPush),
       isBlock: false,
@@ -1812,6 +2253,12 @@ export function organizationRulesetRulesPullRequestToHclTerraform(struct?: Organ
       type: "simple",
       storageClassType: "boolean",
     },
+    required_reviewers: {
+      value: cdktf.listMapperHcl(organizationRulesetRulesPullRequestRequiredReviewersToHclTerraform, true)(struct!.requiredReviewers),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OrganizationRulesetRulesPullRequestRequiredReviewersList",
+    },
   };
 
   // remove undefined attributes
@@ -1832,6 +2279,10 @@ export class OrganizationRulesetRulesPullRequestOutputReference extends cdktf.Co
   public get internalValue(): OrganizationRulesetRulesPullRequest | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allowedMergeMethods !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedMergeMethods = this._allowedMergeMethods;
+    }
     if (this._dismissStaleReviewsOnPush !== undefined) {
       hasAnyValues = true;
       internalValueResult.dismissStaleReviewsOnPush = this._dismissStaleReviewsOnPush;
@@ -1852,26 +2303,50 @@ export class OrganizationRulesetRulesPullRequestOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.requiredReviewThreadResolution = this._requiredReviewThreadResolution;
     }
+    if (this._requiredReviewers?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requiredReviewers = this._requiredReviewers?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: OrganizationRulesetRulesPullRequest | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allowedMergeMethods = undefined;
       this._dismissStaleReviewsOnPush = undefined;
       this._requireCodeOwnerReview = undefined;
       this._requireLastPushApproval = undefined;
       this._requiredApprovingReviewCount = undefined;
       this._requiredReviewThreadResolution = undefined;
+      this._requiredReviewers.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowedMergeMethods = value.allowedMergeMethods;
       this._dismissStaleReviewsOnPush = value.dismissStaleReviewsOnPush;
       this._requireCodeOwnerReview = value.requireCodeOwnerReview;
       this._requireLastPushApproval = value.requireLastPushApproval;
       this._requiredApprovingReviewCount = value.requiredApprovingReviewCount;
       this._requiredReviewThreadResolution = value.requiredReviewThreadResolution;
+      this._requiredReviewers.internalValue = value.requiredReviewers;
     }
+  }
+
+  // allowed_merge_methods - computed: true, optional: true, required: false
+  private _allowedMergeMethods?: string[]; 
+  public get allowedMergeMethods() {
+    return this.getListAttribute('allowed_merge_methods');
+  }
+  public set allowedMergeMethods(value: string[]) {
+    this._allowedMergeMethods = value;
+  }
+  public resetAllowedMergeMethods() {
+    this._allowedMergeMethods = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedMergeMethodsInput() {
+    return this._allowedMergeMethods;
   }
 
   // dismiss_stale_reviews_on_push - computed: false, optional: true, required: false
@@ -1953,24 +2428,40 @@ export class OrganizationRulesetRulesPullRequestOutputReference extends cdktf.Co
   public get requiredReviewThreadResolutionInput() {
     return this._requiredReviewThreadResolution;
   }
+
+  // required_reviewers - computed: false, optional: true, required: false
+  private _requiredReviewers = new OrganizationRulesetRulesPullRequestRequiredReviewersList(this, "required_reviewers", false);
+  public get requiredReviewers() {
+    return this._requiredReviewers;
+  }
+  public putRequiredReviewers(value: OrganizationRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable) {
+    this._requiredReviewers.internalValue = value;
+  }
+  public resetRequiredReviewers() {
+    this._requiredReviewers.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredReviewersInput() {
+    return this._requiredReviewers.internalValue;
+  }
 }
 export interface OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningTool {
   /**
   * The severity level at which code scanning results that raise alerts block a reference update. Can be one of: `none`, `errors`, `errors_and_warnings`, `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#alerts_threshold OrganizationRuleset#alerts_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#alerts_threshold OrganizationRuleset#alerts_threshold}
   */
   readonly alertsThreshold: string;
   /**
   * The severity level at which code scanning results that raise security alerts block a reference update. Can be one of: `none`, `critical`, `high_or_higher`, `medium_or_higher`, `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#security_alerts_threshold OrganizationRuleset#security_alerts_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#security_alerts_threshold OrganizationRuleset#security_alerts_threshold}
   */
   readonly securityAlertsThreshold: string;
   /**
   * The name of a code scanning tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#tool OrganizationRuleset#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#tool OrganizationRuleset#tool}
   */
   readonly tool: string;
 }
@@ -2137,7 +2628,7 @@ export interface OrganizationRulesetRulesRequiredCodeScanning {
   /**
   * required_code_scanning_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
   */
   readonly requiredCodeScanningTool: OrganizationRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktf.IResolvable;
 }
@@ -2220,13 +2711,13 @@ export interface OrganizationRulesetRulesRequiredStatusChecksRequiredCheck {
   /**
   * The status check context name that must be present on the commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#context OrganizationRuleset#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#context OrganizationRuleset#context}
   */
   readonly context: string;
   /**
   * The optional integration ID that this status check must originate from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#integration_id OrganizationRuleset#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#integration_id OrganizationRuleset#integration_id}
   */
   readonly integrationId?: number;
 }
@@ -2370,19 +2861,19 @@ export interface OrganizationRulesetRulesRequiredStatusChecks {
   /**
   * Allow repositories and branches to be created if a check would otherwise prohibit it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
   */
   readonly doNotEnforceOnCreate?: boolean | cdktf.IResolvable;
   /**
   * Whether pull requests targeting a matching branch must be tested with the latest code. This setting will not take effect unless at least one status check is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
   */
   readonly strictRequiredStatusChecksPolicy?: boolean | cdktf.IResolvable;
   /**
   * required_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
   */
   readonly requiredCheck: OrganizationRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktf.IResolvable;
 }
@@ -2523,19 +3014,19 @@ export interface OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflow {
   /**
   * The path to the workflow YAML definition file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#path OrganizationRuleset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#path OrganizationRuleset#path}
   */
   readonly path: string;
   /**
   * The ref (branch or tag) of the workflow file to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#ref OrganizationRuleset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#ref OrganizationRuleset#ref}
   */
   readonly ref?: string;
   /**
   * The repository in which the workflow is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
   */
   readonly repositoryId: number;
 }
@@ -2705,13 +3196,13 @@ export interface OrganizationRulesetRulesRequiredWorkflows {
   /**
   * Allow repositories and branches to be created if a check would otherwise prohibit it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
   */
   readonly doNotEnforceOnCreate?: boolean | cdktf.IResolvable;
   /**
   * required_workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
   */
   readonly requiredWorkflow: OrganizationRulesetRulesRequiredWorkflowsRequiredWorkflow[] | cdktf.IResolvable;
 }
@@ -2823,25 +3314,25 @@ export interface OrganizationRulesetRulesTagNamePattern {
   /**
   * How this rule will appear to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
   */
   readonly name?: string;
   /**
   * If true, the rule will fail if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
   */
   readonly operator: string;
   /**
   * The pattern to match with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
   */
   readonly pattern: string;
 }
@@ -3008,115 +3499,121 @@ export interface OrganizationRulesetRules {
   /**
   * Only allow users with bypass permission to create matching refs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
   */
   readonly creation?: boolean | cdktf.IResolvable;
   /**
   * Only allow users with bypass permissions to delete matching refs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
   */
   readonly deletion?: boolean | cdktf.IResolvable;
   /**
-  * Prevent users with push access from force pushing to branches.
+  * Prevent users with push access from force pushing to refs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
   */
   readonly nonFastForward?: boolean | cdktf.IResolvable;
   /**
   * Prevent merge commits from being pushed to matching branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
   */
   readonly requiredLinearHistory?: boolean | cdktf.IResolvable;
   /**
   * Commits pushed to matching branches must have verified signatures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
   */
   readonly requiredSignatures?: boolean | cdktf.IResolvable;
   /**
   * Only allow users with bypass permission to update matching refs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#update OrganizationRuleset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#update OrganizationRuleset#update}
   */
   readonly update?: boolean | cdktf.IResolvable;
   /**
   * branch_name_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
   */
   readonly branchNamePattern?: OrganizationRulesetRulesBranchNamePattern;
   /**
   * commit_author_email_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
   */
   readonly commitAuthorEmailPattern?: OrganizationRulesetRulesCommitAuthorEmailPattern;
   /**
   * commit_message_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
   */
   readonly commitMessagePattern?: OrganizationRulesetRulesCommitMessagePattern;
   /**
   * committer_email_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
   */
   readonly committerEmailPattern?: OrganizationRulesetRulesCommitterEmailPattern;
   /**
+  * copilot_code_review block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#copilot_code_review OrganizationRuleset#copilot_code_review}
+  */
+  readonly copilotCodeReview?: OrganizationRulesetRulesCopilotCodeReview;
+  /**
   * file_extension_restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
   */
   readonly fileExtensionRestriction?: OrganizationRulesetRulesFileExtensionRestriction;
   /**
   * file_path_restriction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
   */
   readonly filePathRestriction?: OrganizationRulesetRulesFilePathRestriction;
   /**
   * max_file_path_length block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
   */
   readonly maxFilePathLength?: OrganizationRulesetRulesMaxFilePathLength;
   /**
   * max_file_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
   */
   readonly maxFileSize?: OrganizationRulesetRulesMaxFileSize;
   /**
   * pull_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
   */
   readonly pullRequest?: OrganizationRulesetRulesPullRequest;
   /**
   * required_code_scanning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
   */
   readonly requiredCodeScanning?: OrganizationRulesetRulesRequiredCodeScanning;
   /**
   * required_status_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
   */
   readonly requiredStatusChecks?: OrganizationRulesetRulesRequiredStatusChecks;
   /**
   * required_workflows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
   */
   readonly requiredWorkflows?: OrganizationRulesetRulesRequiredWorkflows;
   /**
   * tag_name_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
   */
   readonly tagNamePattern?: OrganizationRulesetRulesTagNamePattern;
 }
@@ -3137,6 +3634,7 @@ export function organizationRulesetRulesToTerraform(struct?: OrganizationRuleset
     commit_author_email_pattern: organizationRulesetRulesCommitAuthorEmailPatternToTerraform(struct!.commitAuthorEmailPattern),
     commit_message_pattern: organizationRulesetRulesCommitMessagePatternToTerraform(struct!.commitMessagePattern),
     committer_email_pattern: organizationRulesetRulesCommitterEmailPatternToTerraform(struct!.committerEmailPattern),
+    copilot_code_review: organizationRulesetRulesCopilotCodeReviewToTerraform(struct!.copilotCodeReview),
     file_extension_restriction: organizationRulesetRulesFileExtensionRestrictionToTerraform(struct!.fileExtensionRestriction),
     file_path_restriction: organizationRulesetRulesFilePathRestrictionToTerraform(struct!.filePathRestriction),
     max_file_path_length: organizationRulesetRulesMaxFilePathLengthToTerraform(struct!.maxFilePathLength),
@@ -3215,6 +3713,12 @@ export function organizationRulesetRulesToHclTerraform(struct?: OrganizationRule
       isBlock: true,
       type: "list",
       storageClassType: "OrganizationRulesetRulesCommitterEmailPatternList",
+    },
+    copilot_code_review: {
+      value: organizationRulesetRulesCopilotCodeReviewToHclTerraform(struct!.copilotCodeReview),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OrganizationRulesetRulesCopilotCodeReviewList",
     },
     file_extension_restriction: {
       value: organizationRulesetRulesFileExtensionRestrictionToHclTerraform(struct!.fileExtensionRestriction),
@@ -3330,6 +3834,10 @@ export class OrganizationRulesetRulesOutputReference extends cdktf.ComplexObject
       hasAnyValues = true;
       internalValueResult.committerEmailPattern = this._committerEmailPattern?.internalValue;
     }
+    if (this._copilotCodeReview?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.copilotCodeReview = this._copilotCodeReview?.internalValue;
+    }
     if (this._fileExtensionRestriction?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.fileExtensionRestriction = this._fileExtensionRestriction?.internalValue;
@@ -3382,6 +3890,7 @@ export class OrganizationRulesetRulesOutputReference extends cdktf.ComplexObject
       this._commitAuthorEmailPattern.internalValue = undefined;
       this._commitMessagePattern.internalValue = undefined;
       this._committerEmailPattern.internalValue = undefined;
+      this._copilotCodeReview.internalValue = undefined;
       this._fileExtensionRestriction.internalValue = undefined;
       this._filePathRestriction.internalValue = undefined;
       this._maxFilePathLength.internalValue = undefined;
@@ -3404,6 +3913,7 @@ export class OrganizationRulesetRulesOutputReference extends cdktf.ComplexObject
       this._commitAuthorEmailPattern.internalValue = value.commitAuthorEmailPattern;
       this._commitMessagePattern.internalValue = value.commitMessagePattern;
       this._committerEmailPattern.internalValue = value.committerEmailPattern;
+      this._copilotCodeReview.internalValue = value.copilotCodeReview;
       this._fileExtensionRestriction.internalValue = value.fileExtensionRestriction;
       this._filePathRestriction.internalValue = value.filePathRestriction;
       this._maxFilePathLength.internalValue = value.maxFilePathLength;
@@ -3576,6 +4086,22 @@ export class OrganizationRulesetRulesOutputReference extends cdktf.ComplexObject
     return this._committerEmailPattern.internalValue;
   }
 
+  // copilot_code_review - computed: false, optional: true, required: false
+  private _copilotCodeReview = new OrganizationRulesetRulesCopilotCodeReviewOutputReference(this, "copilot_code_review");
+  public get copilotCodeReview() {
+    return this._copilotCodeReview;
+  }
+  public putCopilotCodeReview(value: OrganizationRulesetRulesCopilotCodeReview) {
+    this._copilotCodeReview.internalValue = value;
+  }
+  public resetCopilotCodeReview() {
+    this._copilotCodeReview.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copilotCodeReviewInput() {
+    return this._copilotCodeReview.internalValue;
+  }
+
   // file_extension_restriction - computed: false, optional: true, required: false
   private _fileExtensionRestriction = new OrganizationRulesetRulesFileExtensionRestrictionOutputReference(this, "file_extension_restriction");
   public get fileExtensionRestriction() {
@@ -3722,7 +4248,7 @@ export class OrganizationRulesetRulesOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset github_organization_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset github_organization_ruleset}
 */
 export class OrganizationRuleset extends cdktf.TerraformResource {
 
@@ -3738,7 +4264,7 @@ export class OrganizationRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationRuleset to import
-  * @param importFromId The id of the existing OrganizationRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3750,7 +4276,7 @@ export class OrganizationRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/organization_ruleset github_organization_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/organization_ruleset github_organization_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3761,7 +4287,7 @@ export class OrganizationRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'github_organization_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.9.1',
+        providerVersion: '6.11.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

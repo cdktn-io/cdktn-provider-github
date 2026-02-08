@@ -1,5 +1,5 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
@@ -13,6 +13,9 @@ export * as actionsOrganizationSecret from './actions-organization-secret';
 export * as actionsOrganizationSecretRepositories from './actions-organization-secret-repositories';
 export * as actionsOrganizationSecretRepository from './actions-organization-secret-repository';
 export * as actionsOrganizationVariable from './actions-organization-variable';
+export * as actionsOrganizationVariableRepositories from './actions-organization-variable-repositories';
+export * as actionsOrganizationVariableRepository from './actions-organization-variable-repository';
+export * as actionsOrganizationWorkflowPermissions from './actions-organization-workflow-permissions';
 export * as actionsRepositoryAccessLevel from './actions-repository-access-level';
 export * as actionsRepositoryOidcSubjectClaimCustomizationTemplate from './actions-repository-oidc-subject-claim-customization-template';
 export * as actionsRepositoryPermissions from './actions-repository-permissions';
@@ -31,6 +34,7 @@ export * as codespacesSecret from './codespaces-secret';
 export * as codespacesUserSecret from './codespaces-user-secret';
 export * as dependabotOrganizationSecret from './dependabot-organization-secret';
 export * as dependabotOrganizationSecretRepositories from './dependabot-organization-secret-repositories';
+export * as dependabotOrganizationSecretRepository from './dependabot-organization-secret-repository';
 export * as dependabotSecret from './dependabot-secret';
 export * as emuGroupMapping from './emu-group-mapping';
 export * as enterpriseActionsPermissions from './enterprise-actions-permissions';
@@ -135,6 +139,7 @@ export * as dataGithubOrganizationTeams from './data-github-organization-teams';
 export * as dataGithubOrganizationWebhooks from './data-github-organization-webhooks';
 export * as dataGithubRef from './data-github-ref';
 export * as dataGithubRelease from './data-github-release';
+export * as dataGithubReleaseAsset from './data-github-release-asset';
 export * as dataGithubRepositories from './data-github-repositories';
 export * as dataGithubRepository from './data-github-repository';
 export * as dataGithubRepositoryAutolinkReferences from './data-github-repository-autolink-references';
