@@ -4,7 +4,7 @@
 
 ### DependabotOrganizationSecret <a name="DependabotOrganizationSecret" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetEncryptedValue">ResetEncryptedValue</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetKeyId">ResetKeyId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetPlaintextValue">ResetPlaintextValue</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetSelectedRepositoryIds">ResetSelectedRepositoryIds</a></code> | *No description.* |
 
@@ -380,6 +381,12 @@ func ResetEncryptedValue()
 func ResetId()
 ```
 
+##### `ResetKeyId` <a name="ResetKeyId" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetKeyId"></a>
+
+```go
+func ResetKeyId()
+```
+
 ##### `ResetPlaintextValue` <a name="ResetPlaintextValue" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetPlaintextValue"></a>
 
 ```go
@@ -495,7 +502,7 @@ The construct id used in the generated config for the DependabotOrganizationSecr
 
 The id of the existing DependabotOrganizationSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -526,15 +533,18 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.remoteUpdatedAt">RemoteUpdatedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.encryptedValueInput">EncryptedValueInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.keyIdInput">KeyIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.plaintextValueInput">PlaintextValueInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.secretNameInput">SecretNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.selectedRepositoryIdsInput">SelectedRepositoryIdsInput</a></code> | <code>*[]*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.visibilityInput">VisibilityInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.encryptedValue">EncryptedValue</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.keyId">KeyId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.plaintextValue">PlaintextValue</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.secretName">SecretName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.selectedRepositoryIds">SelectedRepositoryIds</a></code> | <code>*[]*f64</code> | *No description.* |
@@ -694,6 +704,16 @@ func CreatedAt() *string
 
 ---
 
+##### `RemoteUpdatedAt`<sup>Required</sup> <a name="RemoteUpdatedAt" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.remoteUpdatedAt"></a>
+
+```go
+func RemoteUpdatedAt() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `UpdatedAt`<sup>Required</sup> <a name="UpdatedAt" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.updatedAt"></a>
 
 ```go
@@ -718,6 +738,16 @@ func EncryptedValueInput() *string
 
 ```go
 func IdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyIdInput`<sup>Optional</sup> <a name="KeyIdInput" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.keyIdInput"></a>
+
+```go
+func KeyIdInput() *string
 ```
 
 - *Type:* *string
@@ -778,6 +808,16 @@ func EncryptedValue() *string
 
 ```go
 func Id() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyId`<sup>Required</sup> <a name="KeyId" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.keyId"></a>
+
+```go
+func KeyId() *string
 ```
 
 - *Type:* *string
@@ -863,6 +903,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorgani
 	Visibility: *string,
 	EncryptedValue: *string,
 	Id: *string,
+	KeyId: *string,
 	PlaintextValue: *string,
 	SelectedRepositoryIds: *[]*f64,
 }
@@ -882,7 +923,8 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorgani
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.secretName">SecretName</a></code> | <code>*string</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.visibility">Visibility</a></code> | <code>*string</code> | Configures the access that repositories have to the organization secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.encryptedValue">EncryptedValue</a></code> | <code>*string</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.keyId">KeyId</a></code> | <code>*string</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.plaintextValue">PlaintextValue</a></code> | <code>*string</code> | Plaintext value of the secret to be encrypted. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.selectedRepositoryIds">SelectedRepositoryIds</a></code> | <code>*[]*f64</code> | An array of repository ids that can access the organization secret. |
 
@@ -968,7 +1010,7 @@ SecretName *string
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#secret_name DependabotOrganizationSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#secret_name DependabotOrganizationSecret#secret_name}
 
 ---
 
@@ -984,7 +1026,7 @@ Configures the access that repositories have to the organization secret.
 
 Must be one of 'all', 'private' or 'selected'. 'selected_repository_ids' is required if set to 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#visibility DependabotOrganizationSecret#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#visibility DependabotOrganizationSecret#visibility}
 
 ---
 
@@ -998,7 +1040,7 @@ EncryptedValue *string
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#encrypted_value DependabotOrganizationSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#encrypted_value DependabotOrganizationSecret#encrypted_value}
 
 ---
 
@@ -1010,10 +1052,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `KeyId`<sup>Optional</sup> <a name="KeyId" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.keyId"></a>
+
+```go
+KeyId *string
+```
+
+- *Type:* *string
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#key_id DependabotOrganizationSecret#key_id}
 
 ---
 
@@ -1027,7 +1083,7 @@ PlaintextValue *string
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#plaintext_value DependabotOrganizationSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#plaintext_value DependabotOrganizationSecret#plaintext_value}
 
 ---
 
@@ -1041,7 +1097,7 @@ SelectedRepositoryIds *[]*f64
 
 An array of repository ids that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/dependabot_organization_secret#selected_repository_ids DependabotOrganizationSecret#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/dependabot_organization_secret#selected_repository_ids DependabotOrganizationSecret#selected_repository_ids}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EmuGroupMapping <a name="EmuGroupMapping" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping github_emu_group_mapping}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping github_emu_group_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.Initializer"></a>
 
@@ -474,7 +474,7 @@ The construct id used in the generated config for the EmuGroupMapping to import.
 
 The id of the existing EmuGroupMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -505,6 +505,8 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.groupName">GroupName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.teamId">TeamId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.groupIdInput">GroupIdInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.teamSlugInput">TeamSlugInput</a></code> | <code>*string</code> | *No description.* |
@@ -666,6 +668,26 @@ func Etag() *string
 
 ---
 
+##### `GroupName`<sup>Required</sup> <a name="GroupName" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.groupName"></a>
+
+```go
+func GroupName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TeamId`<sup>Required</sup> <a name="TeamId" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.teamId"></a>
+
+```go
+func TeamId() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `GroupIdInput`<sup>Optional</sup> <a name="GroupIdInput" id="@cdktn/provider-github.emuGroupMapping.EmuGroupMapping.property.groupIdInput"></a>
 
 ```go
@@ -780,7 +802,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/emugroupmapping"
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.property.groupId">GroupId</a></code> | <code>*f64</code> | Integer corresponding to the external group ID to be linked. |
 | <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.property.teamSlug">TeamSlug</a></code> | <code>*string</code> | Slug of the GitHub team. |
-| <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping#id EmuGroupMapping#id}. |
+| <code><a href="#@cdktn/provider-github.emuGroupMapping.EmuGroupMappingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping#id EmuGroupMapping#id}. |
 
 ---
 
@@ -864,7 +886,7 @@ GroupId *f64
 
 Integer corresponding to the external group ID to be linked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping#group_id EmuGroupMapping#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping#group_id EmuGroupMapping#group_id}
 
 ---
 
@@ -878,7 +900,7 @@ TeamSlug *string
 
 Slug of the GitHub team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping#team_slug EmuGroupMapping#team_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping#team_slug EmuGroupMapping#team_slug}
 
 ---
 
@@ -890,7 +912,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/emu_group_mapping#id EmuGroupMapping#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/emu_group_mapping#id EmuGroupMapping#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### ActionsOrganizationSecret <a name="ActionsOrganizationSecret" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret github_actions_organization_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret github_actions_organization_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer"></a>
 
@@ -26,6 +26,7 @@ actionsOrganizationSecret.ActionsOrganizationSecret(
   destroy_on_drift: bool | IResolvable = None,
   encrypted_value: str = None,
   id: str = None,
+  key_id: str = None,
   plaintext_value: str = None,
   selected_repository_ids: typing.List[typing.Union[int, float]] = None
 )
@@ -43,12 +44,13 @@ actionsOrganizationSecret.ActionsOrganizationSecret(
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.secretName">secret_name</a></code> | <code>str</code> | Name of the secret. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.visibility">visibility</a></code> | <code>str</code> | Configures the access that repositories have to the organization secret. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.destroyOnDrift">destroy_on_drift</a></code> | <code>bool \| cdktf.IResolvable</code> | Boolean indicating whether to recreate the secret if it's modified outside of Terraform. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.visibility">visibility</a></code> | <code>str</code> | Configures the access that repositories have to the organization secret. Must be one of 'all', 'private', or 'selected'. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.destroyOnDrift">destroy_on_drift</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.encryptedValue">encrypted_value</a></code> | <code>str</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.keyId">key_id</a></code> | <code>str</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.plaintextValue">plaintext_value</a></code> | <code>str</code> | Plaintext value of the secret to be encrypted. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.selectedRepositoryIds">selected_repository_ids</a></code> | <code>typing.List[typing.Union[int, float]]</code> | An array of repository ids that can access the organization secret. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.selectedRepositoryIds">selected_repository_ids</a></code> | <code>typing.List[typing.Union[int, float]]</code> | An array of repository IDs that can access the organization secret. |
 
 ---
 
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#secret_name ActionsOrganizationSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#secret_name ActionsOrganizationSecret#secret_name}
 
 ---
 
@@ -126,11 +128,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Configures the access that repositories have to the organization secret.
+Configures the access that repositories have to the organization secret. Must be one of 'all', 'private', or 'selected'.
 
-Must be one of 'all', 'private', or 'selected'. 'selected_repository_ids' is required if set to 'selected'.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#visibility ActionsOrganizationSecret#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#visibility ActionsOrganizationSecret#visibility}
 
 ---
 
@@ -138,11 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* bool | cdktf.IResolvable
 
-Boolean indicating whether to recreate the secret if it's modified outside of Terraform.
-
-When `true` (default), Terraform will delete and recreate the secret if it detects external changes. When `false`, Terraform will acknowledge external changes but not recreate the secret.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}.
 
 ---
 
@@ -152,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#encrypted_value ActionsOrganizationSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#encrypted_value ActionsOrganizationSecret#encrypted_value}
 
 ---
 
@@ -160,10 +156,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `key_id`<sup>Optional</sup> <a name="key_id" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.Initializer.parameter.keyId"></a>
+
+- *Type:* str
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#key_id ActionsOrganizationSecret#key_id}
 
 ---
 
@@ -173,7 +179,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#plaintext_value ActionsOrganizationSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#plaintext_value ActionsOrganizationSecret#plaintext_value}
 
 ---
 
@@ -181,9 +187,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-An array of repository ids that can access the organization secret.
+An array of repository IDs that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#selected_repository_ids ActionsOrganizationSecret#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#selected_repository_ids ActionsOrganizationSecret#selected_repository_ids}
 
 ---
 
@@ -217,6 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetDestroyOnDrift">reset_destroy_on_drift</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetEncryptedValue">reset_encrypted_value</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetKeyId">reset_key_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetPlaintextValue">reset_plaintext_value</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetSelectedRepositoryIds">reset_selected_repository_ids</a></code> | *No description.* |
 
@@ -565,6 +572,12 @@ def reset_encrypted_value() -> None
 def reset_id() -> None
 ```
 
+##### `reset_key_id` <a name="reset_key_id" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetKeyId"></a>
+
+```python
+def reset_key_id() -> None
+```
+
 ##### `reset_plaintext_value` <a name="reset_plaintext_value" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.resetPlaintextValue"></a>
 
 ```python
@@ -691,7 +704,7 @@ The construct id used in the generated config for the ActionsOrganizationSecret 
 
 The id of the existing ActionsOrganizationSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -722,10 +735,12 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.remoteUpdatedAt">remote_updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.updatedAt">updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.destroyOnDriftInput">destroy_on_drift_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.encryptedValueInput">encrypted_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.keyIdInput">key_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.plaintextValueInput">plaintext_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.secretNameInput">secret_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.selectedRepositoryIdsInput">selected_repository_ids_input</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
@@ -733,6 +748,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.destroyOnDrift">destroy_on_drift</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.encryptedValue">encrypted_value</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.keyId">key_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.plaintextValue">plaintext_value</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.secretName">secret_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.selectedRepositoryIds">selected_repository_ids</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
@@ -892,6 +908,16 @@ created_at: str
 
 ---
 
+##### `remote_updated_at`<sup>Required</sup> <a name="remote_updated_at" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.remoteUpdatedAt"></a>
+
+```python
+remote_updated_at: str
+```
+
+- *Type:* str
+
+---
+
 ##### `updated_at`<sup>Required</sup> <a name="updated_at" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.updatedAt"></a>
 
 ```python
@@ -926,6 +952,16 @@ encrypted_value_input: str
 
 ```python
 id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_id_input`<sup>Optional</sup> <a name="key_id_input" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.keyIdInput"></a>
+
+```python
+key_id_input: str
 ```
 
 - *Type:* str
@@ -996,6 +1032,16 @@ encrypted_value: str
 
 ```python
 id: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_id`<sup>Required</sup> <a name="key_id" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecret.property.keyId"></a>
+
+```python
+key_id: str
 ```
 
 - *Type:* str
@@ -1082,6 +1128,7 @@ actionsOrganizationSecret.ActionsOrganizationSecretConfig(
   destroy_on_drift: bool | IResolvable = None,
   encrypted_value: str = None,
   id: str = None,
+  key_id: str = None,
   plaintext_value: str = None,
   selected_repository_ids: typing.List[typing.Union[int, float]] = None
 )
@@ -1099,12 +1146,13 @@ actionsOrganizationSecret.ActionsOrganizationSecretConfig(
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.secretName">secret_name</a></code> | <code>str</code> | Name of the secret. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.visibility">visibility</a></code> | <code>str</code> | Configures the access that repositories have to the organization secret. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.destroyOnDrift">destroy_on_drift</a></code> | <code>bool \| cdktf.IResolvable</code> | Boolean indicating whether to recreate the secret if it's modified outside of Terraform. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.visibility">visibility</a></code> | <code>str</code> | Configures the access that repositories have to the organization secret. Must be one of 'all', 'private', or 'selected'. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.destroyOnDrift">destroy_on_drift</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.encryptedValue">encrypted_value</a></code> | <code>str</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.keyId">key_id</a></code> | <code>str</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.plaintextValue">plaintext_value</a></code> | <code>str</code> | Plaintext value of the secret to be encrypted. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.selectedRepositoryIds">selected_repository_ids</a></code> | <code>typing.List[typing.Union[int, float]]</code> | An array of repository ids that can access the organization secret. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.selectedRepositoryIds">selected_repository_ids</a></code> | <code>typing.List[typing.Union[int, float]]</code> | An array of repository IDs that can access the organization secret. |
 
 ---
 
@@ -1188,7 +1236,7 @@ secret_name: str
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#secret_name ActionsOrganizationSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#secret_name ActionsOrganizationSecret#secret_name}
 
 ---
 
@@ -1200,11 +1248,9 @@ visibility: str
 
 - *Type:* str
 
-Configures the access that repositories have to the organization secret.
+Configures the access that repositories have to the organization secret. Must be one of 'all', 'private', or 'selected'.
 
-Must be one of 'all', 'private', or 'selected'. 'selected_repository_ids' is required if set to 'selected'.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#visibility ActionsOrganizationSecret#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#visibility ActionsOrganizationSecret#visibility}
 
 ---
 
@@ -1216,11 +1262,7 @@ destroy_on_drift: bool | IResolvable
 
 - *Type:* bool | cdktf.IResolvable
 
-Boolean indicating whether to recreate the secret if it's modified outside of Terraform.
-
-When `true` (default), Terraform will delete and recreate the secret if it detects external changes. When `false`, Terraform will acknowledge external changes but not recreate the secret.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#destroy_on_drift ActionsOrganizationSecret#destroy_on_drift}.
 
 ---
 
@@ -1234,7 +1276,7 @@ encrypted_value: str
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#encrypted_value ActionsOrganizationSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#encrypted_value ActionsOrganizationSecret#encrypted_value}
 
 ---
 
@@ -1246,10 +1288,24 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#id ActionsOrganizationSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `key_id`<sup>Optional</sup> <a name="key_id" id="@cdktn/provider-github.actionsOrganizationSecret.ActionsOrganizationSecretConfig.property.keyId"></a>
+
+```python
+key_id: str
+```
+
+- *Type:* str
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#key_id ActionsOrganizationSecret#key_id}
 
 ---
 
@@ -1263,7 +1319,7 @@ plaintext_value: str
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#plaintext_value ActionsOrganizationSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#plaintext_value ActionsOrganizationSecret#plaintext_value}
 
 ---
 
@@ -1275,9 +1331,9 @@ selected_repository_ids: typing.List[typing.Union[int, float]]
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-An array of repository ids that can access the organization secret.
+An array of repository IDs that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_secret#selected_repository_ids ActionsOrganizationSecret#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_secret#selected_repository_ids ActionsOrganizationSecret#selected_repository_ids}
 
 ---
 

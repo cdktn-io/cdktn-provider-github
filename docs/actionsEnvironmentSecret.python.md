@@ -4,7 +4,7 @@
 
 ### ActionsEnvironmentSecret <a name="ActionsEnvironmentSecret" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret github_actions_environment_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret github_actions_environment_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer"></a>
 
@@ -26,6 +26,7 @@ actionsEnvironmentSecret.ActionsEnvironmentSecret(
   secret_name: str,
   encrypted_value: str = None,
   id: str = None,
+  key_id: str = None,
   plaintext_value: str = None
 )
 ```
@@ -45,7 +46,8 @@ actionsEnvironmentSecret.ActionsEnvironmentSecret(
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.repository">repository</a></code> | <code>str</code> | Name of the repository. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.secretName">secret_name</a></code> | <code>str</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.encryptedValue">encrypted_value</a></code> | <code>str</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.keyId">key_id</a></code> | <code>str</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.plaintextValue">plaintext_value</a></code> | <code>str</code> | Plaintext value of the secret to be encrypted. |
 
 ---
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#environment ActionsEnvironmentSecret#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#environment ActionsEnvironmentSecret#environment}
 
 ---
 
@@ -126,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#repository ActionsEnvironmentSecret#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#repository ActionsEnvironmentSecret#repository}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#secret_name ActionsEnvironmentSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#secret_name ActionsEnvironmentSecret#secret_name}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#encrypted_value ActionsEnvironmentSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#encrypted_value ActionsEnvironmentSecret#encrypted_value}
 
 ---
 
@@ -154,10 +156,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `key_id`<sup>Optional</sup> <a name="key_id" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.Initializer.parameter.keyId"></a>
+
+- *Type:* str
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#key_id ActionsEnvironmentSecret#key_id}
 
 ---
 
@@ -167,7 +179,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#plaintext_value ActionsEnvironmentSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#plaintext_value ActionsEnvironmentSecret#plaintext_value}
 
 ---
 
@@ -200,6 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetEncryptedValue">reset_encrypted_value</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetKeyId">reset_key_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetPlaintextValue">reset_plaintext_value</a></code> | *No description.* |
 
 ---
@@ -541,6 +554,12 @@ def reset_encrypted_value() -> None
 def reset_id() -> None
 ```
 
+##### `reset_key_id` <a name="reset_key_id" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetKeyId"></a>
+
+```python
+def reset_key_id() -> None
+```
+
 ##### `reset_plaintext_value` <a name="reset_plaintext_value" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.resetPlaintextValue"></a>
 
 ```python
@@ -661,7 +680,7 @@ The construct id used in the generated config for the ActionsEnvironmentSecret t
 
 The id of the existing ActionsEnvironmentSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -692,16 +711,20 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.remoteUpdatedAt">remote_updated_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.repositoryId">repository_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.updatedAt">updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.encryptedValueInput">encrypted_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.environmentInput">environment_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.keyIdInput">key_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.plaintextValueInput">plaintext_value_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.secretNameInput">secret_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.encryptedValue">encrypted_value</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.environment">environment</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.keyId">key_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.plaintextValue">plaintext_value</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.repository">repository</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.secretName">secret_name</a></code> | <code>str</code> | *No description.* |
@@ -860,6 +883,26 @@ created_at: str
 
 ---
 
+##### `remote_updated_at`<sup>Required</sup> <a name="remote_updated_at" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.remoteUpdatedAt"></a>
+
+```python
+remote_updated_at: str
+```
+
+- *Type:* str
+
+---
+
+##### `repository_id`<sup>Required</sup> <a name="repository_id" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.repositoryId"></a>
+
+```python
+repository_id: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
 ##### `updated_at`<sup>Required</sup> <a name="updated_at" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.updatedAt"></a>
 
 ```python
@@ -894,6 +937,16 @@ environment_input: str
 
 ```python
 id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_id_input`<sup>Optional</sup> <a name="key_id_input" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.keyIdInput"></a>
+
+```python
+key_id_input: str
 ```
 
 - *Type:* str
@@ -954,6 +1007,16 @@ environment: str
 
 ```python
 id: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_id`<sup>Required</sup> <a name="key_id" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecret.property.keyId"></a>
+
+```python
+key_id: str
 ```
 
 - *Type:* str
@@ -1030,6 +1093,7 @@ actionsEnvironmentSecret.ActionsEnvironmentSecretConfig(
   secret_name: str,
   encrypted_value: str = None,
   id: str = None,
+  key_id: str = None,
   plaintext_value: str = None
 )
 ```
@@ -1049,7 +1113,8 @@ actionsEnvironmentSecret.ActionsEnvironmentSecretConfig(
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.repository">repository</a></code> | <code>str</code> | Name of the repository. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.secretName">secret_name</a></code> | <code>str</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.encryptedValue">encrypted_value</a></code> | <code>str</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.keyId">key_id</a></code> | <code>str</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.plaintextValue">plaintext_value</a></code> | <code>str</code> | Plaintext value of the secret to be encrypted. |
 
 ---
@@ -1134,7 +1199,7 @@ environment: str
 
 Name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#environment ActionsEnvironmentSecret#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#environment ActionsEnvironmentSecret#environment}
 
 ---
 
@@ -1148,7 +1213,7 @@ repository: str
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#repository ActionsEnvironmentSecret#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#repository ActionsEnvironmentSecret#repository}
 
 ---
 
@@ -1162,7 +1227,7 @@ secret_name: str
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#secret_name ActionsEnvironmentSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#secret_name ActionsEnvironmentSecret#secret_name}
 
 ---
 
@@ -1176,7 +1241,7 @@ encrypted_value: str
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#encrypted_value ActionsEnvironmentSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#encrypted_value ActionsEnvironmentSecret#encrypted_value}
 
 ---
 
@@ -1188,10 +1253,24 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#id ActionsEnvironmentSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `key_id`<sup>Optional</sup> <a name="key_id" id="@cdktn/provider-github.actionsEnvironmentSecret.ActionsEnvironmentSecretConfig.property.keyId"></a>
+
+```python
+key_id: str
+```
+
+- *Type:* str
+
+ID of the public key used to encrypt the secret.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#key_id ActionsEnvironmentSecret#key_id}
 
 ---
 
@@ -1205,7 +1284,7 @@ plaintext_value: str
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_environment_secret#plaintext_value ActionsEnvironmentSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_environment_secret#plaintext_value ActionsEnvironmentSecret#plaintext_value}
 
 ---
 

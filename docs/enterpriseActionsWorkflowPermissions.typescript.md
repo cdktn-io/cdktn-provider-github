@@ -4,7 +4,7 @@
 
 ### EnterpriseActionsWorkflowPermissions <a name="EnterpriseActionsWorkflowPermissions" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions github_enterprise_actions_workflow_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.Initializer"></a>
 
@@ -488,7 +488,7 @@ The construct id used in the generated config for the EnterpriseActionsWorkflowP
 
 The id of the existing EnterpriseActionsWorkflowPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ const enterpriseActionsWorkflowPermissionsConfig: enterpriseActionsWorkflowPermi
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.enterpriseSlug">enterpriseSlug</a></code> | <code>string</code> | The slug of the enterprise. |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.canApprovePullRequestReviews">canApprovePullRequestReviews</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether GitHub Actions can approve pull request reviews. |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.defaultWorkflowPermissions">defaultWorkflowPermissions</a></code> | <code>string</code> | The default workflow permissions granted to the GITHUB_TOKEN when running workflows. Can be 'read' or 'write'. |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#id EnterpriseActionsWorkflowPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#id EnterpriseActionsWorkflowPermissions#id}. |
 
 ---
 
@@ -879,7 +879,7 @@ public readonly enterpriseSlug: string;
 
 The slug of the enterprise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#enterprise_slug EnterpriseActionsWorkflowPermissions#enterprise_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#enterprise_slug EnterpriseActionsWorkflowPermissions#enterprise_slug}
 
 ---
 
@@ -893,7 +893,7 @@ public readonly canApprovePullRequestReviews: boolean | IResolvable;
 
 Whether GitHub Actions can approve pull request reviews.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#can_approve_pull_request_reviews EnterpriseActionsWorkflowPermissions#can_approve_pull_request_reviews}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#can_approve_pull_request_reviews EnterpriseActionsWorkflowPermissions#can_approve_pull_request_reviews}
 
 ---
 
@@ -907,7 +907,7 @@ public readonly defaultWorkflowPermissions: string;
 
 The default workflow permissions granted to the GITHUB_TOKEN when running workflows. Can be 'read' or 'write'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#default_workflow_permissions EnterpriseActionsWorkflowPermissions#default_workflow_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#default_workflow_permissions EnterpriseActionsWorkflowPermissions#default_workflow_permissions}
 
 ---
 
@@ -919,7 +919,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/enterprise_actions_workflow_permissions#id EnterpriseActionsWorkflowPermissions#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/enterprise_actions_workflow_permissions#id EnterpriseActionsWorkflowPermissions#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

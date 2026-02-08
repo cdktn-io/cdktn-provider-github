@@ -4,7 +4,7 @@
 
 ### ActionsOrganizationPermissions <a name="ActionsOrganizationPermissions" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions github_actions_organization_permissions}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions github_actions_organization_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.Initializer"></a>
 
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.resetAllowedActionsConfig">ResetAllowedActionsConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.resetEnabledRepositoriesConfig">ResetEnabledRepositoriesConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.resetShaPinningRequired">ResetShaPinningRequired</a></code> | *No description.* |
 
 ---
 
@@ -418,6 +419,12 @@ func ResetEnabledRepositoriesConfig()
 func ResetId()
 ```
 
+##### `ResetShaPinningRequired` <a name="ResetShaPinningRequired" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.resetShaPinningRequired"></a>
+
+```go
+func ResetShaPinningRequired()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -521,7 +528,7 @@ The construct id used in the generated config for the ActionsOrganizationPermiss
 
 The id of the existing ActionsOrganizationPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -558,9 +565,11 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.enabledRepositoriesConfigInput">EnabledRepositoriesConfigInput</a></code> | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig">ActionsOrganizationPermissionsEnabledRepositoriesConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.enabledRepositoriesInput">EnabledRepositoriesInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.shaPinningRequiredInput">ShaPinningRequiredInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.allowedActions">AllowedActions</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.enabledRepositories">EnabledRepositories</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.shaPinningRequired">ShaPinningRequired</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
@@ -776,6 +785,16 @@ func IdInput() *string
 
 ---
 
+##### `ShaPinningRequiredInput`<sup>Optional</sup> <a name="ShaPinningRequiredInput" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.shaPinningRequiredInput"></a>
+
+```go
+func ShaPinningRequiredInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `AllowedActions`<sup>Required</sup> <a name="AllowedActions" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.allowedActions"></a>
 
 ```go
@@ -803,6 +822,16 @@ func Id() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ShaPinningRequired`<sup>Required</sup> <a name="ShaPinningRequired" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.property.shaPinningRequired"></a>
+
+```go
+func ShaPinningRequired() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -860,7 +889,7 @@ GithubOwnedAllowed interface{}
 
 Whether GitHub-owned actions are allowed in the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#github_owned_allowed ActionsOrganizationPermissions#github_owned_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#github_owned_allowed ActionsOrganizationPermissions#github_owned_allowed}
 
 ---
 
@@ -876,7 +905,7 @@ Specifies a list of string-matching patterns to allow specific action(s).
 
 Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#patterns_allowed ActionsOrganizationPermissions#patterns_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#patterns_allowed ActionsOrganizationPermissions#patterns_allowed}
 
 ---
 
@@ -892,7 +921,7 @@ Whether actions in GitHub Marketplace from verified creators are allowed.
 
 Set to 'true' to allow all GitHub Marketplace actions by verified creators.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#verified_allowed ActionsOrganizationPermissions#verified_allowed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#verified_allowed ActionsOrganizationPermissions#verified_allowed}
 
 ---
 
@@ -916,6 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizat
 	AllowedActionsConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v15.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfig,
 	EnabledRepositoriesConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v15.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig,
 	Id: *string,
+	ShaPinningRequired: interface{},
 }
 ```
 
@@ -934,7 +964,8 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/actionsorganizat
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.allowedActions">AllowedActions</a></code> | <code>*string</code> | The permissions policy that controls the actions that are allowed to run. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.allowedActionsConfig">AllowedActionsConfig</a></code> | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfig">ActionsOrganizationPermissionsAllowedActionsConfig</a></code> | allowed_actions_config block. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.enabledRepositoriesConfig">EnabledRepositoriesConfig</a></code> | <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig">ActionsOrganizationPermissionsEnabledRepositoriesConfig</a></code> | enabled_repositories_config block. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#id ActionsOrganizationPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#id ActionsOrganizationPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.shaPinningRequired">ShaPinningRequired</a></code> | <code>interface{}</code> | Whether pinning to a specific SHA is required for all actions and reusable workflows in an organization. |
 
 ---
 
@@ -1020,7 +1051,7 @@ The policy that controls the repositories in the organization that are allowed t
 
 Can be one of: 'all', 'none', or 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#enabled_repositories ActionsOrganizationPermissions#enabled_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#enabled_repositories ActionsOrganizationPermissions#enabled_repositories}
 
 ---
 
@@ -1036,7 +1067,7 @@ The permissions policy that controls the actions that are allowed to run.
 
 Can be one of: 'all', 'local_only', or 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#allowed_actions ActionsOrganizationPermissions#allowed_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#allowed_actions ActionsOrganizationPermissions#allowed_actions}
 
 ---
 
@@ -1050,7 +1081,7 @@ AllowedActionsConfig ActionsOrganizationPermissionsAllowedActionsConfig
 
 allowed_actions_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#allowed_actions_config ActionsOrganizationPermissions#allowed_actions_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#allowed_actions_config ActionsOrganizationPermissions#allowed_actions_config}
 
 ---
 
@@ -1064,7 +1095,7 @@ EnabledRepositoriesConfig ActionsOrganizationPermissionsEnabledRepositoriesConfi
 
 enabled_repositories_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#enabled_repositories_config ActionsOrganizationPermissions#enabled_repositories_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#enabled_repositories_config ActionsOrganizationPermissions#enabled_repositories_config}
 
 ---
 
@@ -1076,10 +1107,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#id ActionsOrganizationPermissions#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#id ActionsOrganizationPermissions#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `ShaPinningRequired`<sup>Optional</sup> <a name="ShaPinningRequired" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.property.shaPinningRequired"></a>
+
+```go
+ShaPinningRequired interface{}
+```
+
+- *Type:* interface{}
+
+Whether pinning to a specific SHA is required for all actions and reusable workflows in an organization.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#sha_pinning_required ActionsOrganizationPermissions#sha_pinning_required}
 
 ---
 
@@ -1113,7 +1158,7 @@ RepositoryIds *[]*f64
 
 List of repository IDs to enable for GitHub Actions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.9.1/docs/resources/actions_organization_permissions#repository_ids ActionsOrganizationPermissions#repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/resources/actions_organization_permissions#repository_ids ActionsOrganizationPermissions#repository_ids}
 
 ---
 
