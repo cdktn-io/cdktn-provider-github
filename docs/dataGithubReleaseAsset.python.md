@@ -4,7 +4,7 @@
 
 ### DataGithubReleaseAsset <a name="DataGithubReleaseAsset" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset github_release_asset}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset github_release_asset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer"></a>
 
@@ -44,7 +44,7 @@ dataGithubReleaseAsset.DataGithubReleaseAsset(
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer.parameter.owner">owner</a></code> | <code>str</code> | Owner of the repository. |
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer.parameter.repository">repository</a></code> | <code>str</code> | Name of the repository to retrieve the release asset from. |
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer.parameter.downloadFileContents">download_file_contents</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether to download the asset file content into the `file_contents` attribute. |
-| <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 ID of the release asset to retrieve.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Owner of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the repository to retrieve the release asset from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Whether to download the asset file content into the `file_contents` attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -528,7 +528,7 @@ The construct id used in the generated config for the DataGithubReleaseAsset to 
 
 The id of the existing DataGithubReleaseAsset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ dataGithubReleaseAsset.DataGithubReleaseAssetConfig(
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.property.owner">owner</a></code> | <code>str</code> | Owner of the repository. |
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.property.repository">repository</a></code> | <code>str</code> | Name of the repository to retrieve the release asset from. |
 | <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.property.downloadFileContents">download_file_contents</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether to download the asset file content into the `file_contents` attribute. |
-| <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ asset_id: typing.Union[int, float]
 
 ID of the release asset to retrieve.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
 
 ---
 
@@ -1057,7 +1057,7 @@ owner: str
 
 Owner of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
 
 ---
 
@@ -1071,7 +1071,7 @@ repository: str
 
 Name of the repository to retrieve the release asset from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
 
 ---
 
@@ -1085,7 +1085,7 @@ download_file_contents: bool | IResolvable
 
 Whether to download the asset file content into the `file_contents` attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
 
 ---
 
@@ -1097,7 +1097,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
