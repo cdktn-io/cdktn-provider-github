@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset
+// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface DataGithubReleaseAssetConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of the release asset to retrieve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#asset_id DataGithubReleaseAsset#asset_id}
   */
   readonly assetId: number;
   /**
   * Whether to download the asset file content into the `file_contents` attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
   */
   readonly downloadFileContents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,19 +34,19 @@ export interface DataGithubReleaseAssetConfig extends cdktf.TerraformMetaArgumen
   /**
   * Owner of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#owner DataGithubReleaseAsset#owner}
   */
   readonly owner: string;
   /**
   * Name of the repository to retrieve the release asset from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#repository DataGithubReleaseAsset#repository}
   */
   readonly repository: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset github_release_asset}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset github_release_asset}
 */
 export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
 
@@ -62,7 +62,7 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGithubReleaseAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubReleaseAsset to import
-  * @param importFromId The id of the existing DataGithubReleaseAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGithubReleaseAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubReleaseAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.0/docs/data-sources/release_asset github_release_asset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset github_release_asset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,7 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
       terraformResourceType: 'github_release_asset',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.0',
+        providerVersion: '6.11.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
