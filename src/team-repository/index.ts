@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface TeamRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface TeamRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_repository#id TeamRepository#id}
   *
@@ -42,7 +42,7 @@ export interface TeamRepositoryConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_repository github_team_repository}
 */
-export class TeamRepository extends cdktf.TerraformResource {
+export class TeamRepository extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class TeamRepository extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a TeamRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a TeamRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamRepository to import
   * @param importFromId The id of the existing TeamRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_team_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_team_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -169,35 +169,35 @@ export class TeamRepository extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      permission: cdktf.stringToTerraform(this._permission),
-      repository: cdktf.stringToTerraform(this._repository),
-      team_id: cdktf.stringToTerraform(this._teamId),
+      id: cdktn.stringToTerraform(this._id),
+      permission: cdktn.stringToTerraform(this._permission),
+      repository: cdktn.stringToTerraform(this._repository),
+      team_id: cdktn.stringToTerraform(this._teamId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       permission: {
-        value: cdktf.stringToHclTerraform(this._permission),
+        value: cdktn.stringToHclTerraform(this._permission),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_id: {
-        value: cdktf.stringToHclTerraform(this._teamId),
+        value: cdktn.stringToHclTerraform(this._teamId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

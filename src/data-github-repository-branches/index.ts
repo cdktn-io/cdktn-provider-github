@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryBranchesConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryBranchesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches#id DataGithubRepositoryBranches#id}
   *
@@ -22,11 +22,11 @@ export interface DataGithubRepositoryBranchesConfig extends cdktf.TerraformMetaA
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches#only_non_protected_branches DataGithubRepositoryBranches#only_non_protected_branches}
   */
-  readonly onlyNonProtectedBranches?: boolean | cdktf.IResolvable;
+  readonly onlyNonProtectedBranches?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches#only_protected_branches DataGithubRepositoryBranches#only_protected_branches}
   */
-  readonly onlyProtectedBranches?: boolean | cdktf.IResolvable;
+  readonly onlyProtectedBranches?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches#repository DataGithubRepositoryBranches#repository}
   */
@@ -36,8 +36,8 @@ export interface DataGithubRepositoryBranchesBranches {
 }
 
 export function dataGithubRepositoryBranchesBranchesToTerraform(struct?: DataGithubRepositoryBranchesBranches): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -46,8 +46,8 @@ export function dataGithubRepositoryBranchesBranchesToTerraform(struct?: DataGit
 
 
 export function dataGithubRepositoryBranchesBranchesToHclTerraform(struct?: DataGithubRepositoryBranchesBranches): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -55,7 +55,7 @@ export function dataGithubRepositoryBranchesBranchesToHclTerraform(struct?: Data
   return attrs;
 }
 
-export class DataGithubRepositoryBranchesBranchesOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryBranchesBranchesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -64,7 +64,7 @@ export class DataGithubRepositoryBranchesBranchesOutputReference extends cdktf.C
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -94,14 +94,14 @@ export class DataGithubRepositoryBranchesBranchesOutputReference extends cdktf.C
   }
 }
 
-export class DataGithubRepositoryBranchesBranchesList extends cdktf.ComplexList {
+export class DataGithubRepositoryBranchesBranchesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -116,7 +116,7 @@ export class DataGithubRepositoryBranchesBranchesList extends cdktf.ComplexList 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches github_repository_branches}
 */
-export class DataGithubRepositoryBranches extends cdktf.TerraformDataSource {
+export class DataGithubRepositoryBranches extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -127,14 +127,14 @@ export class DataGithubRepositoryBranches extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositoryBranches resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositoryBranches resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositoryBranches to import
   * @param importFromId The id of the existing DataGithubRepositoryBranches that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_branches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositoryBranches to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_branches", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_branches", importId: importFromId, provider });
       }
 
   // ===========
@@ -197,11 +197,11 @@ export class DataGithubRepositoryBranches extends cdktf.TerraformDataSource {
   }
 
   // only_non_protected_branches - computed: false, optional: true, required: false
-  private _onlyNonProtectedBranches?: boolean | cdktf.IResolvable; 
+  private _onlyNonProtectedBranches?: boolean | cdktn.IResolvable; 
   public get onlyNonProtectedBranches() {
     return this.getBooleanAttribute('only_non_protected_branches');
   }
-  public set onlyNonProtectedBranches(value: boolean | cdktf.IResolvable) {
+  public set onlyNonProtectedBranches(value: boolean | cdktn.IResolvable) {
     this._onlyNonProtectedBranches = value;
   }
   public resetOnlyNonProtectedBranches() {
@@ -213,11 +213,11 @@ export class DataGithubRepositoryBranches extends cdktf.TerraformDataSource {
   }
 
   // only_protected_branches - computed: false, optional: true, required: false
-  private _onlyProtectedBranches?: boolean | cdktf.IResolvable; 
+  private _onlyProtectedBranches?: boolean | cdktn.IResolvable; 
   public get onlyProtectedBranches() {
     return this.getBooleanAttribute('only_protected_branches');
   }
-  public set onlyProtectedBranches(value: boolean | cdktf.IResolvable) {
+  public set onlyProtectedBranches(value: boolean | cdktn.IResolvable) {
     this._onlyProtectedBranches = value;
   }
   public resetOnlyProtectedBranches() {
@@ -247,35 +247,35 @@ export class DataGithubRepositoryBranches extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      only_non_protected_branches: cdktf.booleanToTerraform(this._onlyNonProtectedBranches),
-      only_protected_branches: cdktf.booleanToTerraform(this._onlyProtectedBranches),
-      repository: cdktf.stringToTerraform(this._repository),
+      id: cdktn.stringToTerraform(this._id),
+      only_non_protected_branches: cdktn.booleanToTerraform(this._onlyNonProtectedBranches),
+      only_protected_branches: cdktn.booleanToTerraform(this._onlyProtectedBranches),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       only_non_protected_branches: {
-        value: cdktf.booleanToHclTerraform(this._onlyNonProtectedBranches),
+        value: cdktn.booleanToHclTerraform(this._onlyNonProtectedBranches),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       only_protected_branches: {
-        value: cdktf.booleanToHclTerraform(this._onlyProtectedBranches),
+        value: cdktn.booleanToHclTerraform(this._onlyProtectedBranches),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

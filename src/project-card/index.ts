@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ProjectCardConfig extends cdktf.TerraformMetaArguments {
+export interface ProjectCardConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the project column.
   *
@@ -48,7 +48,7 @@ export interface ProjectCardConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/project_card github_project_card}
 */
-export class ProjectCard extends cdktf.TerraformResource {
+export class ProjectCard extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class ProjectCard extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ProjectCard resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ProjectCard resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectCard to import
   * @param importFromId The id of the existing ProjectCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/project_card#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectCard to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_project_card", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_project_card", importId: importFromId, provider });
       }
 
   // ===========
@@ -200,42 +200,42 @@ export class ProjectCard extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      column_id: cdktf.stringToTerraform(this._columnId),
-      content_id: cdktf.numberToTerraform(this._contentId),
-      content_type: cdktf.stringToTerraform(this._contentType),
-      id: cdktf.stringToTerraform(this._id),
-      note: cdktf.stringToTerraform(this._note),
+      column_id: cdktn.stringToTerraform(this._columnId),
+      content_id: cdktn.numberToTerraform(this._contentId),
+      content_type: cdktn.stringToTerraform(this._contentType),
+      id: cdktn.stringToTerraform(this._id),
+      note: cdktn.stringToTerraform(this._note),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       column_id: {
-        value: cdktf.stringToHclTerraform(this._columnId),
+        value: cdktn.stringToHclTerraform(this._columnId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       content_id: {
-        value: cdktf.numberToHclTerraform(this._contentId),
+        value: cdktn.numberToHclTerraform(this._contentId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       content_type: {
-        value: cdktf.stringToHclTerraform(this._contentType),
+        value: cdktn.stringToHclTerraform(this._contentType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       note: {
-        value: cdktf.stringToHclTerraform(this._note),
+        value: cdktn.stringToHclTerraform(this._note),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

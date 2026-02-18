@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsOrganizationSecretRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsOrganizationSecretRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository#id ActionsOrganizationSecretRepository#id}
   *
@@ -36,7 +36,7 @@ export interface ActionsOrganizationSecretRepositoryConfig extends cdktf.Terrafo
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository github_actions_organization_secret_repository}
 */
-export class ActionsOrganizationSecretRepository extends cdktf.TerraformResource {
+export class ActionsOrganizationSecretRepository extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class ActionsOrganizationSecretRepository extends cdktf.TerraformResource
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsOrganizationSecretRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsOrganizationSecretRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsOrganizationSecretRepository to import
   * @param importFromId The id of the existing ActionsOrganizationSecretRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_secret_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsOrganizationSecretRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_secret_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_secret_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -141,28 +141,28 @@ export class ActionsOrganizationSecretRepository extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      repository_id: cdktf.numberToTerraform(this._repositoryId),
-      secret_name: cdktf.stringToTerraform(this._secretName),
+      id: cdktn.stringToTerraform(this._id),
+      repository_id: cdktn.numberToTerraform(this._repositoryId),
+      secret_name: cdktn.stringToTerraform(this._secretName),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository_id: {
-        value: cdktf.numberToHclTerraform(this._repositoryId),
+        value: cdktn.numberToHclTerraform(this._repositoryId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       secret_name: {
-        value: cdktf.stringToHclTerraform(this._secretName),
+        value: cdktn.stringToHclTerraform(this._secretName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

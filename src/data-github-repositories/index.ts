@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoriesConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoriesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#id DataGithubRepositories#id}
   *
@@ -22,7 +22,7 @@ export interface DataGithubRepositoriesConfig extends cdktf.TerraformMetaArgumen
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#include_repo_id DataGithubRepositories#include_repo_id}
   */
-  readonly includeRepoId?: boolean | cdktf.IResolvable;
+  readonly includeRepoId?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#query DataGithubRepositories#query}
   */
@@ -40,7 +40,7 @@ export interface DataGithubRepositoriesConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories github_repositories}
 */
-export class DataGithubRepositories extends cdktf.TerraformDataSource {
+export class DataGithubRepositories extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -51,14 +51,14 @@ export class DataGithubRepositories extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositories resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositories resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositories to import
   * @param importFromId The id of the existing DataGithubRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositories to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repositories", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repositories", importId: importFromId, provider });
       }
 
   // ===========
@@ -121,11 +121,11 @@ export class DataGithubRepositories extends cdktf.TerraformDataSource {
   }
 
   // include_repo_id - computed: false, optional: true, required: false
-  private _includeRepoId?: boolean | cdktf.IResolvable; 
+  private _includeRepoId?: boolean | cdktn.IResolvable; 
   public get includeRepoId() {
     return this.getBooleanAttribute('include_repo_id');
   }
-  public set includeRepoId(value: boolean | cdktf.IResolvable) {
+  public set includeRepoId(value: boolean | cdktn.IResolvable) {
     this._includeRepoId = value;
   }
   public resetIncludeRepoId() {
@@ -197,42 +197,42 @@ export class DataGithubRepositories extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      include_repo_id: cdktf.booleanToTerraform(this._includeRepoId),
-      query: cdktf.stringToTerraform(this._query),
-      results_per_page: cdktf.numberToTerraform(this._resultsPerPage),
-      sort: cdktf.stringToTerraform(this._sort),
+      id: cdktn.stringToTerraform(this._id),
+      include_repo_id: cdktn.booleanToTerraform(this._includeRepoId),
+      query: cdktn.stringToTerraform(this._query),
+      results_per_page: cdktn.numberToTerraform(this._resultsPerPage),
+      sort: cdktn.stringToTerraform(this._sort),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       include_repo_id: {
-        value: cdktf.booleanToHclTerraform(this._includeRepoId),
+        value: cdktn.booleanToHclTerraform(this._includeRepoId),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       query: {
-        value: cdktf.stringToHclTerraform(this._query),
+        value: cdktn.stringToHclTerraform(this._query),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       results_per_page: {
-        value: cdktf.numberToHclTerraform(this._resultsPerPage),
+        value: cdktn.numberToHclTerraform(this._resultsPerPage),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       sort: {
-        value: cdktf.stringToHclTerraform(this._sort),
+        value: cdktn.stringToHclTerraform(this._sort),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

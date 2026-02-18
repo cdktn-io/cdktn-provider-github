@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface BranchDefaultConfig extends cdktf.TerraformMetaArguments {
+export interface BranchDefaultConfig extends cdktn.TerraformMetaArguments {
   /**
   * The branch (e.g. 'main').
   *
@@ -34,7 +34,7 @@ export interface BranchDefaultConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_default#rename BranchDefault#rename}
   */
-  readonly rename?: boolean | cdktf.IResolvable;
+  readonly rename?: boolean | cdktn.IResolvable;
   /**
   * The GitHub repository.
   *
@@ -46,7 +46,7 @@ export interface BranchDefaultConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_default github_branch_default}
 */
-export class BranchDefault extends cdktf.TerraformResource {
+export class BranchDefault extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -57,14 +57,14 @@ export class BranchDefault extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a BranchDefault resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a BranchDefault resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchDefault to import
   * @param importFromId The id of the existing BranchDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchDefault to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_branch_default", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_branch_default", importId: importFromId, provider });
       }
 
   // ===========
@@ -151,11 +151,11 @@ export class BranchDefault extends cdktf.TerraformResource {
   }
 
   // rename - computed: false, optional: true, required: false
-  private _rename?: boolean | cdktf.IResolvable; 
+  private _rename?: boolean | cdktn.IResolvable; 
   public get rename() {
     return this.getBooleanAttribute('rename');
   }
-  public set rename(value: boolean | cdktf.IResolvable) {
+  public set rename(value: boolean | cdktn.IResolvable) {
     this._rename = value;
   }
   public resetRename() {
@@ -185,42 +185,42 @@ export class BranchDefault extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      branch: cdktf.stringToTerraform(this._branch),
-      etag: cdktf.stringToTerraform(this._etag),
-      id: cdktf.stringToTerraform(this._id),
-      rename: cdktf.booleanToTerraform(this._rename),
-      repository: cdktf.stringToTerraform(this._repository),
+      branch: cdktn.stringToTerraform(this._branch),
+      etag: cdktn.stringToTerraform(this._etag),
+      id: cdktn.stringToTerraform(this._id),
+      rename: cdktn.booleanToTerraform(this._rename),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       branch: {
-        value: cdktf.stringToHclTerraform(this._branch),
+        value: cdktn.stringToHclTerraform(this._branch),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       etag: {
-        value: cdktf.stringToHclTerraform(this._etag),
+        value: cdktn.stringToHclTerraform(this._etag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rename: {
-        value: cdktf.booleanToHclTerraform(this._rename),
+        value: cdktn.booleanToHclTerraform(this._rename),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

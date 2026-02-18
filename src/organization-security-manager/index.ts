@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationSecurityManagerConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationSecurityManagerConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_security_manager#id OrganizationSecurityManager#id}
   *
@@ -30,7 +30,7 @@ export interface OrganizationSecurityManagerConfig extends cdktf.TerraformMetaAr
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_security_manager github_organization_security_manager}
 */
-export class OrganizationSecurityManager extends cdktf.TerraformResource {
+export class OrganizationSecurityManager extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -41,14 +41,14 @@ export class OrganizationSecurityManager extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationSecurityManager resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationSecurityManager resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationSecurityManager to import
   * @param importFromId The id of the existing OrganizationSecurityManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_security_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationSecurityManager to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_security_manager", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_security_manager", importId: importFromId, provider });
       }
 
   // ===========
@@ -121,21 +121,21 @@ export class OrganizationSecurityManager extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      team_slug: cdktf.stringToTerraform(this._teamSlug),
+      id: cdktn.stringToTerraform(this._id),
+      team_slug: cdktn.stringToTerraform(this._teamSlug),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_slug: {
-        value: cdktf.stringToHclTerraform(this._teamSlug),
+        value: cdktn.stringToHclTerraform(this._teamSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

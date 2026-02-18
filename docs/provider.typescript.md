@@ -235,7 +235,7 @@ public resetWriteDelayMs(): void
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a GithubProvider resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -307,7 +307,7 @@ import { provider } from '@cdktn/provider-github'
 provider.GithubProvider.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a GithubProvider resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.scope"></a>
 
@@ -337,7 +337,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the GithubProvider to import is found.
 
@@ -348,23 +348,23 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.metaAttributes">metaAttributes</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuthInput">appAuthInput</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrlInput">baseUrlInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecureInput">insecureInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecureInput">insecureInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPageInput">maxPerPageInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetriesInput">maxRetriesInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organizationInput">organizationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.ownerInput">ownerInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequestsInput">parallelRequestsInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequestsInput">parallelRequestsInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.readDelayMsInput">readDelayMsInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryableErrorsInput">retryableErrorsInput</a></code> | <code>number[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryDelayMsInput">retryDelayMsInput</a></code> | <code>number</code> | *No description.* |
@@ -372,12 +372,12 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.writeDelayMsInput">writeDelayMsInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuth">appAuth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrl">baseUrl</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecure">insecure</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecure">insecure</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPage">maxPerPage</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetries">maxRetries</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organization">organization</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.owner">owner</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.readDelayMs">readDelayMs</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryableErrors">retryableErrors</a></code> | <code>number[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.retryDelayMs">retryDelayMs</a></code> | <code>number</code> | *No description.* |
@@ -404,7 +404,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -454,7 +454,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -514,7 +514,7 @@ public readonly baseUrlInput: string;
 public readonly insecureInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -564,7 +564,7 @@ public readonly ownerInput: string;
 public readonly parallelRequestsInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -644,7 +644,7 @@ public readonly baseUrl: string;
 public readonly insecure: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -694,7 +694,7 @@ public readonly owner: string;
 public readonly parallelRequests: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -850,12 +850,12 @@ const githubProviderConfig: provider.GithubProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.alias">alias</a></code> | <code>string</code> | Alias name. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.appAuth">appAuth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.baseUrl">baseUrl</a></code> | <code>string</code> | The GitHub Base API URL. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>boolean \| cdktf.IResolvable</code> | Enable `insecure` mode for testing purposes. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>boolean \| cdktn.IResolvable</code> | Enable `insecure` mode for testing purposes. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxPerPage">maxPerPage</a></code> | <code>number</code> | Number of items per page for paginationDefaults to 100. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxRetries">maxRetries</a></code> | <code>number</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.organization">organization</a></code> | <code>string</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.owner">owner</a></code> | <code>string</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktf.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktn.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.readDelayMs">readDelayMs</a></code> | <code>number</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryableErrors">retryableErrors</a></code> | <code>number[]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryDelayMs">retryDelayMs</a></code> | <code>number</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
@@ -912,7 +912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly insecure: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Enable `insecure` mode for testing purposes.
 
@@ -982,7 +982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly parallelRequests: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Allow the provider to make parallel API calls to GitHub.
 

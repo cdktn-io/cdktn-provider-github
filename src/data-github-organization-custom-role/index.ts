@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubOrganizationCustomRoleConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubOrganizationCustomRoleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#id DataGithubOrganizationCustomRole#id}
   *
@@ -28,7 +28,7 @@ export interface DataGithubOrganizationCustomRoleConfig extends cdktf.TerraformM
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role github_organization_custom_role}
 */
-export class DataGithubOrganizationCustomRole extends cdktf.TerraformDataSource {
+export class DataGithubOrganizationCustomRole extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -39,14 +39,14 @@ export class DataGithubOrganizationCustomRole extends cdktf.TerraformDataSource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubOrganizationCustomRole resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubOrganizationCustomRole resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubOrganizationCustomRole to import
   * @param importFromId The id of the existing DataGithubOrganizationCustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubOrganizationCustomRole to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_custom_role", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_custom_role", importId: importFromId, provider });
       }
 
   // ===========
@@ -125,7 +125,7 @@ export class DataGithubOrganizationCustomRole extends cdktf.TerraformDataSource 
 
   // permissions - computed: true, optional: false, required: false
   public get permissions() {
-    return cdktf.Fn.tolist(this.getListAttribute('permissions'));
+    return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
 
   // =========
@@ -134,21 +134,21 @@ export class DataGithubOrganizationCustomRole extends cdktf.TerraformDataSource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

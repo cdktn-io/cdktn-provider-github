@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryPullRequestConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryPullRequestConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_request#base_repository DataGithubRepositoryPullRequest#base_repository}
   */
@@ -36,7 +36,7 @@ export interface DataGithubRepositoryPullRequestConfig extends cdktf.TerraformMe
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_request github_repository_pull_request}
 */
-export class DataGithubRepositoryPullRequest extends cdktf.TerraformDataSource {
+export class DataGithubRepositoryPullRequest extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class DataGithubRepositoryPullRequest extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositoryPullRequest resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositoryPullRequest resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositoryPullRequest to import
   * @param importFromId The id of the existing DataGithubRepositoryPullRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositoryPullRequest to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_request", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_request", importId: importFromId, provider });
       }
 
   // ===========
@@ -233,35 +233,35 @@ export class DataGithubRepositoryPullRequest extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_repository: cdktf.stringToTerraform(this._baseRepository),
-      id: cdktf.stringToTerraform(this._id),
-      number: cdktf.numberToTerraform(this._number),
-      owner: cdktf.stringToTerraform(this._owner),
+      base_repository: cdktn.stringToTerraform(this._baseRepository),
+      id: cdktn.stringToTerraform(this._id),
+      number: cdktn.numberToTerraform(this._number),
+      owner: cdktn.stringToTerraform(this._owner),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_repository: {
-        value: cdktf.stringToHclTerraform(this._baseRepository),
+        value: cdktn.stringToHclTerraform(this._baseRepository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       number: {
-        value: cdktf.numberToHclTerraform(this._number),
+        value: cdktn.numberToHclTerraform(this._number),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

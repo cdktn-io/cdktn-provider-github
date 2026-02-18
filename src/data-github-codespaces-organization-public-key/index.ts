@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubCodespacesOrganizationPublicKeyConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubCodespacesOrganizationPublicKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_organization_public_key#id DataGithubCodespacesOrganizationPublicKey#id}
   *
@@ -24,7 +24,7 @@ export interface DataGithubCodespacesOrganizationPublicKeyConfig extends cdktf.T
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_organization_public_key github_codespaces_organization_public_key}
 */
-export class DataGithubCodespacesOrganizationPublicKey extends cdktf.TerraformDataSource {
+export class DataGithubCodespacesOrganizationPublicKey extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -35,14 +35,14 @@ export class DataGithubCodespacesOrganizationPublicKey extends cdktf.TerraformDa
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubCodespacesOrganizationPublicKey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubCodespacesOrganizationPublicKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubCodespacesOrganizationPublicKey to import
   * @param importFromId The id of the existing DataGithubCodespacesOrganizationPublicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/codespaces_organization_public_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubCodespacesOrganizationPublicKey to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_codespaces_organization_public_key", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_codespaces_organization_public_key", importId: importFromId, provider });
       }
 
   // ===========
@@ -111,14 +111,14 @@ export class DataGithubCodespacesOrganizationPublicKey extends cdktf.TerraformDa
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
+      id: cdktn.stringToTerraform(this._id),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

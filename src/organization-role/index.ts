@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationRoleConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationRoleConfig extends cdktn.TerraformMetaArguments {
   /**
   * The system role from which this role inherits permissions.
   *
@@ -48,7 +48,7 @@ export interface OrganizationRoleConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role github_organization_role}
 */
-export class OrganizationRole extends cdktf.TerraformResource {
+export class OrganizationRole extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class OrganizationRole extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationRole resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationRole resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationRole to import
   * @param importFromId The id of the existing OrganizationRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationRole to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role", importId: importFromId, provider });
       }
 
   // ===========
@@ -171,7 +171,7 @@ export class OrganizationRole extends cdktf.TerraformResource {
   // permissions - computed: false, optional: false, required: true
   private _permissions?: string[]; 
   public get permissions() {
-    return cdktf.Fn.tolist(this.getListAttribute('permissions'));
+    return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
   public set permissions(value: string[]) {
     this._permissions = value;
@@ -192,42 +192,42 @@ export class OrganizationRole extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_role: cdktf.stringToTerraform(this._baseRole),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      permissions: cdktf.listMapper(cdktf.stringToTerraform, false)(this._permissions),
+      base_role: cdktn.stringToTerraform(this._baseRole),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      permissions: cdktn.listMapper(cdktn.stringToTerraform, false)(this._permissions),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_role: {
-        value: cdktf.stringToHclTerraform(this._baseRole),
+        value: cdktn.stringToHclTerraform(this._baseRole),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       permissions: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._permissions),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._permissions),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",

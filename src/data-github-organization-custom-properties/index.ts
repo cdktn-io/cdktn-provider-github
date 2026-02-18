@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubOrganizationCustomPropertiesConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubOrganizationCustomPropertiesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties#allowed_values DataGithubOrganizationCustomProperties#allowed_values}
   */
@@ -38,7 +38,7 @@ export interface DataGithubOrganizationCustomPropertiesConfig extends cdktf.Terr
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties#required DataGithubOrganizationCustomProperties#required}
   */
-  readonly required?: boolean | cdktf.IResolvable;
+  readonly required?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties#value_type DataGithubOrganizationCustomProperties#value_type}
   */
@@ -52,7 +52,7 @@ export interface DataGithubOrganizationCustomPropertiesConfig extends cdktf.Terr
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties github_organization_custom_properties}
 */
-export class DataGithubOrganizationCustomProperties extends cdktf.TerraformDataSource {
+export class DataGithubOrganizationCustomProperties extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -63,14 +63,14 @@ export class DataGithubOrganizationCustomProperties extends cdktf.TerraformDataS
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubOrganizationCustomProperties resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubOrganizationCustomProperties resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubOrganizationCustomProperties to import
   * @param importFromId The id of the existing DataGithubOrganizationCustomProperties that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_properties#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubOrganizationCustomProperties to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_custom_properties", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_custom_properties", importId: importFromId, provider });
       }
 
   // ===========
@@ -192,11 +192,11 @@ export class DataGithubOrganizationCustomProperties extends cdktf.TerraformDataS
   }
 
   // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktf.IResolvable; 
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
-  public set required(value: boolean | cdktf.IResolvable) {
+  public set required(value: boolean | cdktn.IResolvable) {
     this._required = value;
   }
   public resetRequired() {
@@ -245,63 +245,63 @@ export class DataGithubOrganizationCustomProperties extends cdktf.TerraformDataS
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allowed_values: cdktf.listMapper(cdktf.stringToTerraform, false)(this._allowedValues),
-      default_value: cdktf.stringToTerraform(this._defaultValue),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      property_name: cdktf.stringToTerraform(this._propertyName),
-      required: cdktf.booleanToTerraform(this._required),
-      value_type: cdktf.stringToTerraform(this._valueType),
-      values_editable_by: cdktf.stringToTerraform(this._valuesEditableBy),
+      allowed_values: cdktn.listMapper(cdktn.stringToTerraform, false)(this._allowedValues),
+      default_value: cdktn.stringToTerraform(this._defaultValue),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      property_name: cdktn.stringToTerraform(this._propertyName),
+      required: cdktn.booleanToTerraform(this._required),
+      value_type: cdktn.stringToTerraform(this._valueType),
+      values_editable_by: cdktn.stringToTerraform(this._valuesEditableBy),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allowed_values: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._allowedValues),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._allowedValues),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       default_value: {
-        value: cdktf.stringToHclTerraform(this._defaultValue),
+        value: cdktn.stringToHclTerraform(this._defaultValue),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       property_name: {
-        value: cdktf.stringToHclTerraform(this._propertyName),
+        value: cdktn.stringToHclTerraform(this._propertyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       required: {
-        value: cdktf.booleanToHclTerraform(this._required),
+        value: cdktn.booleanToHclTerraform(this._required),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       value_type: {
-        value: cdktf.stringToHclTerraform(this._valueType),
+        value: cdktn.stringToHclTerraform(this._valueType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       values_editable_by: {
-        value: cdktf.stringToHclTerraform(this._valuesEditableBy),
+        value: cdktn.stringToHclTerraform(this._valuesEditableBy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

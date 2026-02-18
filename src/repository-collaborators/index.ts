@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryCollaboratorsConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryCollaboratorsConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}
   *
@@ -28,19 +28,19 @@ export interface RepositoryCollaboratorsConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
   */
-  readonly ignoreTeam?: RepositoryCollaboratorsIgnoreTeam[] | cdktf.IResolvable;
+  readonly ignoreTeam?: RepositoryCollaboratorsIgnoreTeam[] | cdktn.IResolvable;
   /**
   * team block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
   */
-  readonly team?: RepositoryCollaboratorsTeam[] | cdktf.IResolvable;
+  readonly team?: RepositoryCollaboratorsTeam[] | cdktn.IResolvable;
   /**
   * user block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
   */
-  readonly user?: RepositoryCollaboratorsUser[] | cdktf.IResolvable;
+  readonly user?: RepositoryCollaboratorsUser[] | cdktn.IResolvable;
 }
 export interface RepositoryCollaboratorsIgnoreTeam {
   /**
@@ -51,25 +51,25 @@ export interface RepositoryCollaboratorsIgnoreTeam {
   readonly teamId: string;
 }
 
-export function repositoryCollaboratorsIgnoreTeamToTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsIgnoreTeamToTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    team_id: cdktf.stringToTerraform(struct!.teamId),
+    team_id: cdktn.stringToTerraform(struct!.teamId),
   }
 }
 
 
-export function repositoryCollaboratorsIgnoreTeamToHclTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsIgnoreTeamToHclTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     team_id: {
-      value: cdktf.stringToHclTerraform(struct!.teamId),
+      value: cdktn.stringToHclTerraform(struct!.teamId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -80,9 +80,9 @@ export function repositoryCollaboratorsIgnoreTeamToHclTerraform(struct?: Reposit
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryCollaboratorsIgnoreTeamOutputReference extends cdktf.ComplexObject {
+export class RepositoryCollaboratorsIgnoreTeamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -90,11 +90,11 @@ export class RepositoryCollaboratorsIgnoreTeamOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryCollaboratorsIgnoreTeam | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -107,13 +107,13 @@ export class RepositoryCollaboratorsIgnoreTeamOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryCollaboratorsIgnoreTeam | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._teamId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -138,15 +138,15 @@ export class RepositoryCollaboratorsIgnoreTeamOutputReference extends cdktf.Comp
   }
 }
 
-export class RepositoryCollaboratorsIgnoreTeamList extends cdktf.ComplexList {
-  public internalValue? : RepositoryCollaboratorsIgnoreTeam[] | cdktf.IResolvable
+export class RepositoryCollaboratorsIgnoreTeamList extends cdktn.ComplexList {
+  public internalValue? : RepositoryCollaboratorsIgnoreTeam[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -170,32 +170,32 @@ export interface RepositoryCollaboratorsTeam {
   readonly teamId: string;
 }
 
-export function repositoryCollaboratorsTeamToTerraform(struct?: RepositoryCollaboratorsTeam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsTeamToTerraform(struct?: RepositoryCollaboratorsTeam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    permission: cdktf.stringToTerraform(struct!.permission),
-    team_id: cdktf.stringToTerraform(struct!.teamId),
+    permission: cdktn.stringToTerraform(struct!.permission),
+    team_id: cdktn.stringToTerraform(struct!.teamId),
   }
 }
 
 
-export function repositoryCollaboratorsTeamToHclTerraform(struct?: RepositoryCollaboratorsTeam | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsTeamToHclTerraform(struct?: RepositoryCollaboratorsTeam | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     permission: {
-      value: cdktf.stringToHclTerraform(struct!.permission),
+      value: cdktn.stringToHclTerraform(struct!.permission),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     team_id: {
-      value: cdktf.stringToHclTerraform(struct!.teamId),
+      value: cdktn.stringToHclTerraform(struct!.teamId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -206,9 +206,9 @@ export function repositoryCollaboratorsTeamToHclTerraform(struct?: RepositoryCol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryCollaboratorsTeamOutputReference extends cdktf.ComplexObject {
+export class RepositoryCollaboratorsTeamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -216,11 +216,11 @@ export class RepositoryCollaboratorsTeamOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryCollaboratorsTeam | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryCollaboratorsTeam | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -237,14 +237,14 @@ export class RepositoryCollaboratorsTeamOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryCollaboratorsTeam | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryCollaboratorsTeam | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._permission = undefined;
       this._teamId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -286,15 +286,15 @@ export class RepositoryCollaboratorsTeamOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class RepositoryCollaboratorsTeamList extends cdktf.ComplexList {
-  public internalValue? : RepositoryCollaboratorsTeam[] | cdktf.IResolvable
+export class RepositoryCollaboratorsTeamList extends cdktn.ComplexList {
+  public internalValue? : RepositoryCollaboratorsTeam[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -318,32 +318,32 @@ export interface RepositoryCollaboratorsUser {
   readonly username: string;
 }
 
-export function repositoryCollaboratorsUserToTerraform(struct?: RepositoryCollaboratorsUser | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsUserToTerraform(struct?: RepositoryCollaboratorsUser | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    permission: cdktf.stringToTerraform(struct!.permission),
-    username: cdktf.stringToTerraform(struct!.username),
+    permission: cdktn.stringToTerraform(struct!.permission),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
-export function repositoryCollaboratorsUserToHclTerraform(struct?: RepositoryCollaboratorsUser | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryCollaboratorsUserToHclTerraform(struct?: RepositoryCollaboratorsUser | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     permission: {
-      value: cdktf.stringToHclTerraform(struct!.permission),
+      value: cdktn.stringToHclTerraform(struct!.permission),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -354,9 +354,9 @@ export function repositoryCollaboratorsUserToHclTerraform(struct?: RepositoryCol
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryCollaboratorsUserOutputReference extends cdktf.ComplexObject {
+export class RepositoryCollaboratorsUserOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -364,11 +364,11 @@ export class RepositoryCollaboratorsUserOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryCollaboratorsUser | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryCollaboratorsUser | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -385,14 +385,14 @@ export class RepositoryCollaboratorsUserOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryCollaboratorsUser | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryCollaboratorsUser | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._permission = undefined;
       this._username = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -434,15 +434,15 @@ export class RepositoryCollaboratorsUserOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class RepositoryCollaboratorsUserList extends cdktf.ComplexList {
-  public internalValue? : RepositoryCollaboratorsUser[] | cdktf.IResolvable
+export class RepositoryCollaboratorsUserList extends cdktn.ComplexList {
+  public internalValue? : RepositoryCollaboratorsUser[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -457,7 +457,7 @@ export class RepositoryCollaboratorsUserList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators github_repository_collaborators}
 */
-export class RepositoryCollaborators extends cdktf.TerraformResource {
+export class RepositoryCollaborators extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -468,14 +468,14 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryCollaborators resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryCollaborators to import
   * @param importFromId The id of the existing RepositoryCollaborators that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryCollaborators to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_collaborators", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_collaborators", importId: importFromId, provider });
       }
 
   // ===========
@@ -533,7 +533,7 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
   }
 
   // invitation_ids - computed: true, optional: false, required: false
-  private _invitationIds = new cdktf.StringMap(this, "invitation_ids");
+  private _invitationIds = new cdktn.StringMap(this, "invitation_ids");
   public get invitationIds() {
     return this._invitationIds;
   }
@@ -556,7 +556,7 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
   public get ignoreTeam() {
     return this._ignoreTeam;
   }
-  public putIgnoreTeam(value: RepositoryCollaboratorsIgnoreTeam[] | cdktf.IResolvable) {
+  public putIgnoreTeam(value: RepositoryCollaboratorsIgnoreTeam[] | cdktn.IResolvable) {
     this._ignoreTeam.internalValue = value;
   }
   public resetIgnoreTeam() {
@@ -572,7 +572,7 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
   public get team() {
     return this._team;
   }
-  public putTeam(value: RepositoryCollaboratorsTeam[] | cdktf.IResolvable) {
+  public putTeam(value: RepositoryCollaboratorsTeam[] | cdktn.IResolvable) {
     this._team.internalValue = value;
   }
   public resetTeam() {
@@ -588,7 +588,7 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
   public get user() {
     return this._user;
   }
-  public putUser(value: RepositoryCollaboratorsUser[] | cdktf.IResolvable) {
+  public putUser(value: RepositoryCollaboratorsUser[] | cdktn.IResolvable) {
     this._user.internalValue = value;
   }
   public resetUser() {
@@ -605,42 +605,42 @@ export class RepositoryCollaborators extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
-      ignore_team: cdktf.listMapper(repositoryCollaboratorsIgnoreTeamToTerraform, true)(this._ignoreTeam.internalValue),
-      team: cdktf.listMapper(repositoryCollaboratorsTeamToTerraform, true)(this._team.internalValue),
-      user: cdktf.listMapper(repositoryCollaboratorsUserToTerraform, true)(this._user.internalValue),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
+      ignore_team: cdktn.listMapper(repositoryCollaboratorsIgnoreTeamToTerraform, true)(this._ignoreTeam.internalValue),
+      team: cdktn.listMapper(repositoryCollaboratorsTeamToTerraform, true)(this._team.internalValue),
+      user: cdktn.listMapper(repositoryCollaboratorsUserToTerraform, true)(this._user.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ignore_team: {
-        value: cdktf.listMapperHcl(repositoryCollaboratorsIgnoreTeamToHclTerraform, true)(this._ignoreTeam.internalValue),
+        value: cdktn.listMapperHcl(repositoryCollaboratorsIgnoreTeamToHclTerraform, true)(this._ignoreTeam.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "RepositoryCollaboratorsIgnoreTeamList",
       },
       team: {
-        value: cdktf.listMapperHcl(repositoryCollaboratorsTeamToHclTerraform, true)(this._team.internalValue),
+        value: cdktn.listMapperHcl(repositoryCollaboratorsTeamToHclTerraform, true)(this._team.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "RepositoryCollaboratorsTeamList",
       },
       user: {
-        value: cdktf.listMapperHcl(repositoryCollaboratorsUserToHclTerraform, true)(this._user.internalValue),
+        value: cdktn.listMapperHcl(repositoryCollaboratorsUserToHclTerraform, true)(this._user.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "RepositoryCollaboratorsUserList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubReleaseConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubReleaseConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release#id DataGithubRelease#id}
   *
@@ -54,8 +54,8 @@ export interface DataGithubReleaseAssets {
 }
 
 export function dataGithubReleaseAssetsToTerraform(struct?: DataGithubReleaseAssets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -64,8 +64,8 @@ export function dataGithubReleaseAssetsToTerraform(struct?: DataGithubReleaseAss
 
 
 export function dataGithubReleaseAssetsToHclTerraform(struct?: DataGithubReleaseAssets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -73,7 +73,7 @@ export function dataGithubReleaseAssetsToHclTerraform(struct?: DataGithubRelease
   return attrs;
 }
 
-export class DataGithubReleaseAssetsOutputReference extends cdktf.ComplexObject {
+export class DataGithubReleaseAssetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -82,7 +82,7 @@ export class DataGithubReleaseAssetsOutputReference extends cdktf.ComplexObject 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -152,14 +152,14 @@ export class DataGithubReleaseAssetsOutputReference extends cdktf.ComplexObject 
   }
 }
 
-export class DataGithubReleaseAssetsList extends cdktf.ComplexList {
+export class DataGithubReleaseAssetsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -174,7 +174,7 @@ export class DataGithubReleaseAssetsList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release github_release}
 */
-export class DataGithubRelease extends cdktf.TerraformDataSource {
+export class DataGithubRelease extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -185,14 +185,14 @@ export class DataGithubRelease extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRelease resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRelease resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRelease to import
   * @param importFromId The id of the existing DataGithubRelease that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRelease to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_release", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_release", importId: importFromId, provider });
       }
 
   // ===========
@@ -403,49 +403,49 @@ export class DataGithubRelease extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      owner: cdktf.stringToTerraform(this._owner),
-      release_id: cdktf.numberToTerraform(this._releaseId),
-      release_tag: cdktf.stringToTerraform(this._releaseTag),
-      repository: cdktf.stringToTerraform(this._repository),
-      retrieve_by: cdktf.stringToTerraform(this._retrieveBy),
+      id: cdktn.stringToTerraform(this._id),
+      owner: cdktn.stringToTerraform(this._owner),
+      release_id: cdktn.numberToTerraform(this._releaseId),
+      release_tag: cdktn.stringToTerraform(this._releaseTag),
+      repository: cdktn.stringToTerraform(this._repository),
+      retrieve_by: cdktn.stringToTerraform(this._retrieveBy),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       release_id: {
-        value: cdktf.numberToHclTerraform(this._releaseId),
+        value: cdktn.numberToHclTerraform(this._releaseId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       release_tag: {
-        value: cdktf.stringToHclTerraform(this._releaseTag),
+        value: cdktn.stringToHclTerraform(this._releaseTag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       retrieve_by: {
-        value: cdktf.stringToHclTerraform(this._retrieveBy),
+        value: cdktn.stringToHclTerraform(this._retrieveBy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

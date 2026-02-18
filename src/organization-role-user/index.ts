@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationRoleUserConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationRoleUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_user#id OrganizationRoleUser#id}
   *
@@ -36,7 +36,7 @@ export interface OrganizationRoleUserConfig extends cdktf.TerraformMetaArguments
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_user github_organization_role_user}
 */
-export class OrganizationRoleUser extends cdktf.TerraformResource {
+export class OrganizationRoleUser extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class OrganizationRoleUser extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationRoleUser resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationRoleUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationRoleUser to import
   * @param importFromId The id of the existing OrganizationRoleUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationRoleUser to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role_user", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role_user", importId: importFromId, provider });
       }
 
   // ===========
@@ -141,28 +141,28 @@ export class OrganizationRoleUser extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      login: cdktf.stringToTerraform(this._login),
-      role_id: cdktf.numberToTerraform(this._roleId),
+      id: cdktn.stringToTerraform(this._id),
+      login: cdktn.stringToTerraform(this._login),
+      role_id: cdktn.numberToTerraform(this._roleId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       login: {
-        value: cdktf.stringToHclTerraform(this._login),
+        value: cdktn.stringToHclTerraform(this._login),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role_id: {
-        value: cdktf.numberToHclTerraform(this._roleId),
+        value: cdktn.numberToHclTerraform(this._roleId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

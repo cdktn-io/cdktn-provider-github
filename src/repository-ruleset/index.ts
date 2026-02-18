@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryRulesetConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryRulesetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Possible values for Enforcement are `disabled`, `active`, `evaluate`. Note: `evaluate` is currently only supported for owners of type `organization`.
   *
@@ -48,7 +48,7 @@ export interface RepositoryRulesetConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#bypass_actors RepositoryRuleset#bypass_actors}
   */
-  readonly bypassActors?: RepositoryRulesetBypassActors[] | cdktf.IResolvable;
+  readonly bypassActors?: RepositoryRulesetBypassActors[] | cdktn.IResolvable;
   /**
   * conditions block
   *
@@ -83,39 +83,39 @@ export interface RepositoryRulesetBypassActors {
   readonly bypassMode: string;
 }
 
-export function repositoryRulesetBypassActorsToTerraform(struct?: RepositoryRulesetBypassActors | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetBypassActorsToTerraform(struct?: RepositoryRulesetBypassActors | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    actor_id: cdktf.numberToTerraform(struct!.actorId),
-    actor_type: cdktf.stringToTerraform(struct!.actorType),
-    bypass_mode: cdktf.stringToTerraform(struct!.bypassMode),
+    actor_id: cdktn.numberToTerraform(struct!.actorId),
+    actor_type: cdktn.stringToTerraform(struct!.actorType),
+    bypass_mode: cdktn.stringToTerraform(struct!.bypassMode),
   }
 }
 
 
-export function repositoryRulesetBypassActorsToHclTerraform(struct?: RepositoryRulesetBypassActors | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetBypassActorsToHclTerraform(struct?: RepositoryRulesetBypassActors | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     actor_id: {
-      value: cdktf.numberToHclTerraform(struct!.actorId),
+      value: cdktn.numberToHclTerraform(struct!.actorId),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     actor_type: {
-      value: cdktf.stringToHclTerraform(struct!.actorType),
+      value: cdktn.stringToHclTerraform(struct!.actorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     bypass_mode: {
-      value: cdktf.stringToHclTerraform(struct!.bypassMode),
+      value: cdktn.stringToHclTerraform(struct!.bypassMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -126,9 +126,9 @@ export function repositoryRulesetBypassActorsToHclTerraform(struct?: RepositoryR
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetBypassActorsOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetBypassActorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -136,11 +136,11 @@ export class RepositoryRulesetBypassActorsOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryRulesetBypassActors | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryRulesetBypassActors | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -161,7 +161,7 @@ export class RepositoryRulesetBypassActorsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryRulesetBypassActors | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryRulesetBypassActors | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -169,7 +169,7 @@ export class RepositoryRulesetBypassActorsOutputReference extends cdktf.ComplexO
       this._actorType = undefined;
       this._bypassMode = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -225,15 +225,15 @@ export class RepositoryRulesetBypassActorsOutputReference extends cdktf.ComplexO
   }
 }
 
-export class RepositoryRulesetBypassActorsList extends cdktf.ComplexList {
-  public internalValue? : RepositoryRulesetBypassActors[] | cdktf.IResolvable
+export class RepositoryRulesetBypassActorsList extends cdktn.ComplexList {
+  public internalValue? : RepositoryRulesetBypassActors[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -260,31 +260,31 @@ export interface RepositoryRulesetConditionsRefName {
 }
 
 export function repositoryRulesetConditionsRefNameToTerraform(struct?: RepositoryRulesetConditionsRefNameOutputReference | RepositoryRulesetConditionsRefName): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exclude: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exclude),
-    include: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.include),
+    exclude: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exclude),
+    include: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.include),
   }
 }
 
 
 export function repositoryRulesetConditionsRefNameToHclTerraform(struct?: RepositoryRulesetConditionsRefNameOutputReference | RepositoryRulesetConditionsRefName): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exclude: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exclude),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exclude),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     include: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.include),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.include),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -295,14 +295,14 @@ export function repositoryRulesetConditionsRefNameToHclTerraform(struct?: Reposi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetConditionsRefNameOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetConditionsRefNameOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -369,8 +369,8 @@ export interface RepositoryRulesetConditions {
 }
 
 export function repositoryRulesetConditionsToTerraform(struct?: RepositoryRulesetConditionsOutputReference | RepositoryRulesetConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -380,8 +380,8 @@ export function repositoryRulesetConditionsToTerraform(struct?: RepositoryRulese
 
 
 export function repositoryRulesetConditionsToHclTerraform(struct?: RepositoryRulesetConditionsOutputReference | RepositoryRulesetConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -397,14 +397,14 @@ export function repositoryRulesetConditionsToHclTerraform(struct?: RepositoryRul
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetConditionsOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -454,7 +454,7 @@ export interface RepositoryRulesetRulesBranchNamePattern {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
   */
-  readonly negate?: boolean | cdktf.IResolvable;
+  readonly negate?: boolean | cdktn.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
@@ -470,45 +470,45 @@ export interface RepositoryRulesetRulesBranchNamePattern {
 }
 
 export function repositoryRulesetRulesBranchNamePatternToTerraform(struct?: RepositoryRulesetRulesBranchNamePatternOutputReference | RepositoryRulesetRulesBranchNamePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    negate: cdktf.booleanToTerraform(struct!.negate),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    pattern: cdktf.stringToTerraform(struct!.pattern),
+    name: cdktn.stringToTerraform(struct!.name),
+    negate: cdktn.booleanToTerraform(struct!.negate),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    pattern: cdktn.stringToTerraform(struct!.pattern),
   }
 }
 
 
 export function repositoryRulesetRulesBranchNamePatternToHclTerraform(struct?: RepositoryRulesetRulesBranchNamePatternOutputReference | RepositoryRulesetRulesBranchNamePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     negate: {
-      value: cdktf.booleanToHclTerraform(struct!.negate),
+      value: cdktn.booleanToHclTerraform(struct!.negate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pattern: {
-      value: cdktf.stringToHclTerraform(struct!.pattern),
+      value: cdktn.stringToHclTerraform(struct!.pattern),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -519,14 +519,14 @@ export function repositoryRulesetRulesBranchNamePatternToHclTerraform(struct?: R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesBranchNamePatternOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesBranchNamePatternOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -586,11 +586,11 @@ export class RepositoryRulesetRulesBranchNamePatternOutputReference extends cdkt
   }
 
   // negate - computed: false, optional: true, required: false
-  private _negate?: boolean | cdktf.IResolvable; 
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
-  public set negate(value: boolean | cdktf.IResolvable) {
+  public set negate(value: boolean | cdktn.IResolvable) {
     this._negate = value;
   }
   public resetNegate() {
@@ -639,7 +639,7 @@ export interface RepositoryRulesetRulesCommitAuthorEmailPattern {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
   */
-  readonly negate?: boolean | cdktf.IResolvable;
+  readonly negate?: boolean | cdktn.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
@@ -655,45 +655,45 @@ export interface RepositoryRulesetRulesCommitAuthorEmailPattern {
 }
 
 export function repositoryRulesetRulesCommitAuthorEmailPatternToTerraform(struct?: RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference | RepositoryRulesetRulesCommitAuthorEmailPattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    negate: cdktf.booleanToTerraform(struct!.negate),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    pattern: cdktf.stringToTerraform(struct!.pattern),
+    name: cdktn.stringToTerraform(struct!.name),
+    negate: cdktn.booleanToTerraform(struct!.negate),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    pattern: cdktn.stringToTerraform(struct!.pattern),
   }
 }
 
 
 export function repositoryRulesetRulesCommitAuthorEmailPatternToHclTerraform(struct?: RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference | RepositoryRulesetRulesCommitAuthorEmailPattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     negate: {
-      value: cdktf.booleanToHclTerraform(struct!.negate),
+      value: cdktn.booleanToHclTerraform(struct!.negate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pattern: {
-      value: cdktf.stringToHclTerraform(struct!.pattern),
+      value: cdktn.stringToHclTerraform(struct!.pattern),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -704,14 +704,14 @@ export function repositoryRulesetRulesCommitAuthorEmailPatternToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -771,11 +771,11 @@ export class RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference exten
   }
 
   // negate - computed: false, optional: true, required: false
-  private _negate?: boolean | cdktf.IResolvable; 
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
-  public set negate(value: boolean | cdktf.IResolvable) {
+  public set negate(value: boolean | cdktn.IResolvable) {
     this._negate = value;
   }
   public resetNegate() {
@@ -824,7 +824,7 @@ export interface RepositoryRulesetRulesCommitMessagePattern {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
   */
-  readonly negate?: boolean | cdktf.IResolvable;
+  readonly negate?: boolean | cdktn.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
@@ -840,45 +840,45 @@ export interface RepositoryRulesetRulesCommitMessagePattern {
 }
 
 export function repositoryRulesetRulesCommitMessagePatternToTerraform(struct?: RepositoryRulesetRulesCommitMessagePatternOutputReference | RepositoryRulesetRulesCommitMessagePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    negate: cdktf.booleanToTerraform(struct!.negate),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    pattern: cdktf.stringToTerraform(struct!.pattern),
+    name: cdktn.stringToTerraform(struct!.name),
+    negate: cdktn.booleanToTerraform(struct!.negate),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    pattern: cdktn.stringToTerraform(struct!.pattern),
   }
 }
 
 
 export function repositoryRulesetRulesCommitMessagePatternToHclTerraform(struct?: RepositoryRulesetRulesCommitMessagePatternOutputReference | RepositoryRulesetRulesCommitMessagePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     negate: {
-      value: cdktf.booleanToHclTerraform(struct!.negate),
+      value: cdktn.booleanToHclTerraform(struct!.negate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pattern: {
-      value: cdktf.stringToHclTerraform(struct!.pattern),
+      value: cdktn.stringToHclTerraform(struct!.pattern),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -889,14 +889,14 @@ export function repositoryRulesetRulesCommitMessagePatternToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesCommitMessagePatternOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesCommitMessagePatternOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -956,11 +956,11 @@ export class RepositoryRulesetRulesCommitMessagePatternOutputReference extends c
   }
 
   // negate - computed: false, optional: true, required: false
-  private _negate?: boolean | cdktf.IResolvable; 
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
-  public set negate(value: boolean | cdktf.IResolvable) {
+  public set negate(value: boolean | cdktn.IResolvable) {
     this._negate = value;
   }
   public resetNegate() {
@@ -1009,7 +1009,7 @@ export interface RepositoryRulesetRulesCommitterEmailPattern {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
   */
-  readonly negate?: boolean | cdktf.IResolvable;
+  readonly negate?: boolean | cdktn.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
@@ -1025,45 +1025,45 @@ export interface RepositoryRulesetRulesCommitterEmailPattern {
 }
 
 export function repositoryRulesetRulesCommitterEmailPatternToTerraform(struct?: RepositoryRulesetRulesCommitterEmailPatternOutputReference | RepositoryRulesetRulesCommitterEmailPattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    negate: cdktf.booleanToTerraform(struct!.negate),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    pattern: cdktf.stringToTerraform(struct!.pattern),
+    name: cdktn.stringToTerraform(struct!.name),
+    negate: cdktn.booleanToTerraform(struct!.negate),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    pattern: cdktn.stringToTerraform(struct!.pattern),
   }
 }
 
 
 export function repositoryRulesetRulesCommitterEmailPatternToHclTerraform(struct?: RepositoryRulesetRulesCommitterEmailPatternOutputReference | RepositoryRulesetRulesCommitterEmailPattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     negate: {
-      value: cdktf.booleanToHclTerraform(struct!.negate),
+      value: cdktn.booleanToHclTerraform(struct!.negate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pattern: {
-      value: cdktf.stringToHclTerraform(struct!.pattern),
+      value: cdktn.stringToHclTerraform(struct!.pattern),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1074,14 +1074,14 @@ export function repositoryRulesetRulesCommitterEmailPatternToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesCommitterEmailPatternOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesCommitterEmailPatternOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1141,11 +1141,11 @@ export class RepositoryRulesetRulesCommitterEmailPatternOutputReference extends 
   }
 
   // negate - computed: false, optional: true, required: false
-  private _negate?: boolean | cdktf.IResolvable; 
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
-  public set negate(value: boolean | cdktf.IResolvable) {
+  public set negate(value: boolean | cdktn.IResolvable) {
     this._negate = value;
   }
   public resetNegate() {
@@ -1188,41 +1188,41 @@ export interface RepositoryRulesetRulesCopilotCodeReview {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#review_draft_pull_requests RepositoryRuleset#review_draft_pull_requests}
   */
-  readonly reviewDraftPullRequests?: boolean | cdktf.IResolvable;
+  readonly reviewDraftPullRequests?: boolean | cdktn.IResolvable;
   /**
   * Copilot automatically reviews each new push to the pull request. Defaults to `false`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#review_on_push RepositoryRuleset#review_on_push}
   */
-  readonly reviewOnPush?: boolean | cdktf.IResolvable;
+  readonly reviewOnPush?: boolean | cdktn.IResolvable;
 }
 
 export function repositoryRulesetRulesCopilotCodeReviewToTerraform(struct?: RepositoryRulesetRulesCopilotCodeReviewOutputReference | RepositoryRulesetRulesCopilotCodeReview): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    review_draft_pull_requests: cdktf.booleanToTerraform(struct!.reviewDraftPullRequests),
-    review_on_push: cdktf.booleanToTerraform(struct!.reviewOnPush),
+    review_draft_pull_requests: cdktn.booleanToTerraform(struct!.reviewDraftPullRequests),
+    review_on_push: cdktn.booleanToTerraform(struct!.reviewOnPush),
   }
 }
 
 
 export function repositoryRulesetRulesCopilotCodeReviewToHclTerraform(struct?: RepositoryRulesetRulesCopilotCodeReviewOutputReference | RepositoryRulesetRulesCopilotCodeReview): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     review_draft_pull_requests: {
-      value: cdktf.booleanToHclTerraform(struct!.reviewDraftPullRequests),
+      value: cdktn.booleanToHclTerraform(struct!.reviewDraftPullRequests),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     review_on_push: {
-      value: cdktf.booleanToHclTerraform(struct!.reviewOnPush),
+      value: cdktn.booleanToHclTerraform(struct!.reviewOnPush),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1233,14 +1233,14 @@ export function repositoryRulesetRulesCopilotCodeReviewToHclTerraform(struct?: R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesCopilotCodeReviewOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesCopilotCodeReviewOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1272,11 +1272,11 @@ export class RepositoryRulesetRulesCopilotCodeReviewOutputReference extends cdkt
   }
 
   // review_draft_pull_requests - computed: false, optional: true, required: false
-  private _reviewDraftPullRequests?: boolean | cdktf.IResolvable; 
+  private _reviewDraftPullRequests?: boolean | cdktn.IResolvable; 
   public get reviewDraftPullRequests() {
     return this.getBooleanAttribute('review_draft_pull_requests');
   }
-  public set reviewDraftPullRequests(value: boolean | cdktf.IResolvable) {
+  public set reviewDraftPullRequests(value: boolean | cdktn.IResolvable) {
     this._reviewDraftPullRequests = value;
   }
   public resetReviewDraftPullRequests() {
@@ -1288,11 +1288,11 @@ export class RepositoryRulesetRulesCopilotCodeReviewOutputReference extends cdkt
   }
 
   // review_on_push - computed: false, optional: true, required: false
-  private _reviewOnPush?: boolean | cdktf.IResolvable; 
+  private _reviewOnPush?: boolean | cdktn.IResolvable; 
   public get reviewOnPush() {
     return this.getBooleanAttribute('review_on_push');
   }
-  public set reviewOnPush(value: boolean | cdktf.IResolvable) {
+  public set reviewOnPush(value: boolean | cdktn.IResolvable) {
     this._reviewOnPush = value;
   }
   public resetReviewOnPush() {
@@ -1313,24 +1313,24 @@ export interface RepositoryRulesetRulesFileExtensionRestriction {
 }
 
 export function repositoryRulesetRulesFileExtensionRestrictionToTerraform(struct?: RepositoryRulesetRulesFileExtensionRestrictionOutputReference | RepositoryRulesetRulesFileExtensionRestriction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    restricted_file_extensions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.restrictedFileExtensions),
+    restricted_file_extensions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.restrictedFileExtensions),
   }
 }
 
 
 export function repositoryRulesetRulesFileExtensionRestrictionToHclTerraform(struct?: RepositoryRulesetRulesFileExtensionRestrictionOutputReference | RepositoryRulesetRulesFileExtensionRestriction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     restricted_file_extensions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.restrictedFileExtensions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.restrictedFileExtensions),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -1341,14 +1341,14 @@ export function repositoryRulesetRulesFileExtensionRestrictionToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesFileExtensionRestrictionOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesFileExtensionRestrictionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1376,7 +1376,7 @@ export class RepositoryRulesetRulesFileExtensionRestrictionOutputReference exten
   // restricted_file_extensions - computed: false, optional: false, required: true
   private _restrictedFileExtensions?: string[]; 
   public get restrictedFileExtensions() {
-    return cdktf.Fn.tolist(this.getListAttribute('restricted_file_extensions'));
+    return cdktn.Fn.tolist(this.getListAttribute('restricted_file_extensions'));
   }
   public set restrictedFileExtensions(value: string[]) {
     this._restrictedFileExtensions = value;
@@ -1396,24 +1396,24 @@ export interface RepositoryRulesetRulesFilePathRestriction {
 }
 
 export function repositoryRulesetRulesFilePathRestrictionToTerraform(struct?: RepositoryRulesetRulesFilePathRestrictionOutputReference | RepositoryRulesetRulesFilePathRestriction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    restricted_file_paths: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.restrictedFilePaths),
+    restricted_file_paths: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.restrictedFilePaths),
   }
 }
 
 
 export function repositoryRulesetRulesFilePathRestrictionToHclTerraform(struct?: RepositoryRulesetRulesFilePathRestrictionOutputReference | RepositoryRulesetRulesFilePathRestriction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     restricted_file_paths: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.restrictedFilePaths),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.restrictedFilePaths),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1424,14 +1424,14 @@ export function repositoryRulesetRulesFilePathRestrictionToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesFilePathRestrictionOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesFilePathRestrictionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1479,24 +1479,24 @@ export interface RepositoryRulesetRulesMaxFilePathLength {
 }
 
 export function repositoryRulesetRulesMaxFilePathLengthToTerraform(struct?: RepositoryRulesetRulesMaxFilePathLengthOutputReference | RepositoryRulesetRulesMaxFilePathLength): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_file_path_length: cdktf.numberToTerraform(struct!.maxFilePathLength),
+    max_file_path_length: cdktn.numberToTerraform(struct!.maxFilePathLength),
   }
 }
 
 
 export function repositoryRulesetRulesMaxFilePathLengthToHclTerraform(struct?: RepositoryRulesetRulesMaxFilePathLengthOutputReference | RepositoryRulesetRulesMaxFilePathLength): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_file_path_length: {
-      value: cdktf.numberToHclTerraform(struct!.maxFilePathLength),
+      value: cdktn.numberToHclTerraform(struct!.maxFilePathLength),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1507,14 +1507,14 @@ export function repositoryRulesetRulesMaxFilePathLengthToHclTerraform(struct?: R
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesMaxFilePathLengthOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesMaxFilePathLengthOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1562,24 +1562,24 @@ export interface RepositoryRulesetRulesMaxFileSize {
 }
 
 export function repositoryRulesetRulesMaxFileSizeToTerraform(struct?: RepositoryRulesetRulesMaxFileSizeOutputReference | RepositoryRulesetRulesMaxFileSize): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_file_size: cdktf.numberToTerraform(struct!.maxFileSize),
+    max_file_size: cdktn.numberToTerraform(struct!.maxFileSize),
   }
 }
 
 
 export function repositoryRulesetRulesMaxFileSizeToHclTerraform(struct?: RepositoryRulesetRulesMaxFileSizeOutputReference | RepositoryRulesetRulesMaxFileSize): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_file_size: {
-      value: cdktf.numberToHclTerraform(struct!.maxFileSize),
+      value: cdktn.numberToHclTerraform(struct!.maxFileSize),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1590,14 +1590,14 @@ export function repositoryRulesetRulesMaxFileSizeToHclTerraform(struct?: Reposit
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesMaxFileSizeOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesMaxFileSizeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1681,66 +1681,66 @@ export interface RepositoryRulesetRulesMergeQueue {
 }
 
 export function repositoryRulesetRulesMergeQueueToTerraform(struct?: RepositoryRulesetRulesMergeQueueOutputReference | RepositoryRulesetRulesMergeQueue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    check_response_timeout_minutes: cdktf.numberToTerraform(struct!.checkResponseTimeoutMinutes),
-    grouping_strategy: cdktf.stringToTerraform(struct!.groupingStrategy),
-    max_entries_to_build: cdktf.numberToTerraform(struct!.maxEntriesToBuild),
-    max_entries_to_merge: cdktf.numberToTerraform(struct!.maxEntriesToMerge),
-    merge_method: cdktf.stringToTerraform(struct!.mergeMethod),
-    min_entries_to_merge: cdktf.numberToTerraform(struct!.minEntriesToMerge),
-    min_entries_to_merge_wait_minutes: cdktf.numberToTerraform(struct!.minEntriesToMergeWaitMinutes),
+    check_response_timeout_minutes: cdktn.numberToTerraform(struct!.checkResponseTimeoutMinutes),
+    grouping_strategy: cdktn.stringToTerraform(struct!.groupingStrategy),
+    max_entries_to_build: cdktn.numberToTerraform(struct!.maxEntriesToBuild),
+    max_entries_to_merge: cdktn.numberToTerraform(struct!.maxEntriesToMerge),
+    merge_method: cdktn.stringToTerraform(struct!.mergeMethod),
+    min_entries_to_merge: cdktn.numberToTerraform(struct!.minEntriesToMerge),
+    min_entries_to_merge_wait_minutes: cdktn.numberToTerraform(struct!.minEntriesToMergeWaitMinutes),
   }
 }
 
 
 export function repositoryRulesetRulesMergeQueueToHclTerraform(struct?: RepositoryRulesetRulesMergeQueueOutputReference | RepositoryRulesetRulesMergeQueue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     check_response_timeout_minutes: {
-      value: cdktf.numberToHclTerraform(struct!.checkResponseTimeoutMinutes),
+      value: cdktn.numberToHclTerraform(struct!.checkResponseTimeoutMinutes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     grouping_strategy: {
-      value: cdktf.stringToHclTerraform(struct!.groupingStrategy),
+      value: cdktn.stringToHclTerraform(struct!.groupingStrategy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_entries_to_build: {
-      value: cdktf.numberToHclTerraform(struct!.maxEntriesToBuild),
+      value: cdktn.numberToHclTerraform(struct!.maxEntriesToBuild),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_entries_to_merge: {
-      value: cdktf.numberToHclTerraform(struct!.maxEntriesToMerge),
+      value: cdktn.numberToHclTerraform(struct!.maxEntriesToMerge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     merge_method: {
-      value: cdktf.stringToHclTerraform(struct!.mergeMethod),
+      value: cdktn.stringToHclTerraform(struct!.mergeMethod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_entries_to_merge: {
-      value: cdktf.numberToHclTerraform(struct!.minEntriesToMerge),
+      value: cdktn.numberToHclTerraform(struct!.minEntriesToMerge),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_entries_to_merge_wait_minutes: {
-      value: cdktf.numberToHclTerraform(struct!.minEntriesToMergeWaitMinutes),
+      value: cdktn.numberToHclTerraform(struct!.minEntriesToMergeWaitMinutes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1751,14 +1751,14 @@ export function repositoryRulesetRulesMergeQueueToHclTerraform(struct?: Reposito
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesMergeQueueOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesMergeQueueOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1950,31 +1950,31 @@ export interface RepositoryRulesetRulesPullRequestRequiredReviewersReviewer {
 }
 
 export function repositoryRulesetRulesPullRequestRequiredReviewersReviewerToTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference | RepositoryRulesetRulesPullRequestRequiredReviewersReviewer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.numberToTerraform(struct!.id),
-    type: cdktf.stringToTerraform(struct!.type),
+    id: cdktn.numberToTerraform(struct!.id),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function repositoryRulesetRulesPullRequestRequiredReviewersReviewerToHclTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference | RepositoryRulesetRulesPullRequestRequiredReviewersReviewer): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.numberToHclTerraform(struct!.id),
+      value: cdktn.numberToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1985,14 +1985,14 @@ export function repositoryRulesetRulesPullRequestRequiredReviewersReviewerToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2070,33 +2070,33 @@ export interface RepositoryRulesetRulesPullRequestRequiredReviewers {
   readonly reviewer: RepositoryRulesetRulesPullRequestRequiredReviewersReviewer;
 }
 
-export function repositoryRulesetRulesPullRequestRequiredReviewersToTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesPullRequestRequiredReviewersToTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    file_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.filePatterns),
-    minimum_approvals: cdktf.numberToTerraform(struct!.minimumApprovals),
+    file_patterns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.filePatterns),
+    minimum_approvals: cdktn.numberToTerraform(struct!.minimumApprovals),
     reviewer: repositoryRulesetRulesPullRequestRequiredReviewersReviewerToTerraform(struct!.reviewer),
   }
 }
 
 
-export function repositoryRulesetRulesPullRequestRequiredReviewersToHclTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesPullRequestRequiredReviewersToHclTerraform(struct?: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     file_patterns: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.filePatterns),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.filePatterns),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     minimum_approvals: {
-      value: cdktf.numberToHclTerraform(struct!.minimumApprovals),
+      value: cdktn.numberToHclTerraform(struct!.minimumApprovals),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2113,9 +2113,9 @@ export function repositoryRulesetRulesPullRequestRequiredReviewersToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2123,11 +2123,11 @@ export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryRulesetRulesPullRequestRequiredReviewers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2148,7 +2148,7 @@ export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryRulesetRulesPullRequestRequiredReviewers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2156,7 +2156,7 @@ export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference e
       this._minimumApprovals = undefined;
       this._reviewer.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2209,15 +2209,15 @@ export class RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference e
   }
 }
 
-export class RepositoryRulesetRulesPullRequestRequiredReviewersList extends cdktf.ComplexList {
-  public internalValue? : RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable
+export class RepositoryRulesetRulesPullRequestRequiredReviewersList extends cdktn.ComplexList {
+  public internalValue? : RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2240,19 +2240,19 @@ export interface RepositoryRulesetRulesPullRequest {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#dismiss_stale_reviews_on_push RepositoryRuleset#dismiss_stale_reviews_on_push}
   */
-  readonly dismissStaleReviewsOnPush?: boolean | cdktf.IResolvable;
+  readonly dismissStaleReviewsOnPush?: boolean | cdktn.IResolvable;
   /**
   * Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#require_code_owner_review RepositoryRuleset#require_code_owner_review}
   */
-  readonly requireCodeOwnerReview?: boolean | cdktf.IResolvable;
+  readonly requireCodeOwnerReview?: boolean | cdktn.IResolvable;
   /**
   * Whether the most recent reviewable push must be approved by someone other than the person who pushed it. Defaults to `false`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#require_last_push_approval RepositoryRuleset#require_last_push_approval}
   */
-  readonly requireLastPushApproval?: boolean | cdktf.IResolvable;
+  readonly requireLastPushApproval?: boolean | cdktn.IResolvable;
   /**
   * The number of approving reviews that are required before a pull request can be merged. Defaults to `0`.
   *
@@ -2264,76 +2264,76 @@ export interface RepositoryRulesetRulesPullRequest {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_review_thread_resolution RepositoryRuleset#required_review_thread_resolution}
   */
-  readonly requiredReviewThreadResolution?: boolean | cdktf.IResolvable;
+  readonly requiredReviewThreadResolution?: boolean | cdktn.IResolvable;
   /**
   * required_reviewers block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_reviewers RepositoryRuleset#required_reviewers}
   */
-  readonly requiredReviewers?: RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable;
+  readonly requiredReviewers?: RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktn.IResolvable;
 }
 
 export function repositoryRulesetRulesPullRequestToTerraform(struct?: RepositoryRulesetRulesPullRequestOutputReference | RepositoryRulesetRulesPullRequest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_merge_methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedMergeMethods),
-    dismiss_stale_reviews_on_push: cdktf.booleanToTerraform(struct!.dismissStaleReviewsOnPush),
-    require_code_owner_review: cdktf.booleanToTerraform(struct!.requireCodeOwnerReview),
-    require_last_push_approval: cdktf.booleanToTerraform(struct!.requireLastPushApproval),
-    required_approving_review_count: cdktf.numberToTerraform(struct!.requiredApprovingReviewCount),
-    required_review_thread_resolution: cdktf.booleanToTerraform(struct!.requiredReviewThreadResolution),
-    required_reviewers: cdktf.listMapper(repositoryRulesetRulesPullRequestRequiredReviewersToTerraform, true)(struct!.requiredReviewers),
+    allowed_merge_methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedMergeMethods),
+    dismiss_stale_reviews_on_push: cdktn.booleanToTerraform(struct!.dismissStaleReviewsOnPush),
+    require_code_owner_review: cdktn.booleanToTerraform(struct!.requireCodeOwnerReview),
+    require_last_push_approval: cdktn.booleanToTerraform(struct!.requireLastPushApproval),
+    required_approving_review_count: cdktn.numberToTerraform(struct!.requiredApprovingReviewCount),
+    required_review_thread_resolution: cdktn.booleanToTerraform(struct!.requiredReviewThreadResolution),
+    required_reviewers: cdktn.listMapper(repositoryRulesetRulesPullRequestRequiredReviewersToTerraform, true)(struct!.requiredReviewers),
   }
 }
 
 
 export function repositoryRulesetRulesPullRequestToHclTerraform(struct?: RepositoryRulesetRulesPullRequestOutputReference | RepositoryRulesetRulesPullRequest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_merge_methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedMergeMethods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedMergeMethods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     dismiss_stale_reviews_on_push: {
-      value: cdktf.booleanToHclTerraform(struct!.dismissStaleReviewsOnPush),
+      value: cdktn.booleanToHclTerraform(struct!.dismissStaleReviewsOnPush),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     require_code_owner_review: {
-      value: cdktf.booleanToHclTerraform(struct!.requireCodeOwnerReview),
+      value: cdktn.booleanToHclTerraform(struct!.requireCodeOwnerReview),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     require_last_push_approval: {
-      value: cdktf.booleanToHclTerraform(struct!.requireLastPushApproval),
+      value: cdktn.booleanToHclTerraform(struct!.requireLastPushApproval),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     required_approving_review_count: {
-      value: cdktf.numberToHclTerraform(struct!.requiredApprovingReviewCount),
+      value: cdktn.numberToHclTerraform(struct!.requiredApprovingReviewCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     required_review_thread_resolution: {
-      value: cdktf.booleanToHclTerraform(struct!.requiredReviewThreadResolution),
+      value: cdktn.booleanToHclTerraform(struct!.requiredReviewThreadResolution),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     required_reviewers: {
-      value: cdktf.listMapperHcl(repositoryRulesetRulesPullRequestRequiredReviewersToHclTerraform, true)(struct!.requiredReviewers),
+      value: cdktn.listMapperHcl(repositoryRulesetRulesPullRequestRequiredReviewersToHclTerraform, true)(struct!.requiredReviewers),
       isBlock: true,
       type: "list",
       storageClassType: "RepositoryRulesetRulesPullRequestRequiredReviewersList",
@@ -2344,14 +2344,14 @@ export function repositoryRulesetRulesPullRequestToHclTerraform(struct?: Reposit
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesPullRequestOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2429,11 +2429,11 @@ export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.Comp
   }
 
   // dismiss_stale_reviews_on_push - computed: false, optional: true, required: false
-  private _dismissStaleReviewsOnPush?: boolean | cdktf.IResolvable; 
+  private _dismissStaleReviewsOnPush?: boolean | cdktn.IResolvable; 
   public get dismissStaleReviewsOnPush() {
     return this.getBooleanAttribute('dismiss_stale_reviews_on_push');
   }
-  public set dismissStaleReviewsOnPush(value: boolean | cdktf.IResolvable) {
+  public set dismissStaleReviewsOnPush(value: boolean | cdktn.IResolvable) {
     this._dismissStaleReviewsOnPush = value;
   }
   public resetDismissStaleReviewsOnPush() {
@@ -2445,11 +2445,11 @@ export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.Comp
   }
 
   // require_code_owner_review - computed: false, optional: true, required: false
-  private _requireCodeOwnerReview?: boolean | cdktf.IResolvable; 
+  private _requireCodeOwnerReview?: boolean | cdktn.IResolvable; 
   public get requireCodeOwnerReview() {
     return this.getBooleanAttribute('require_code_owner_review');
   }
-  public set requireCodeOwnerReview(value: boolean | cdktf.IResolvable) {
+  public set requireCodeOwnerReview(value: boolean | cdktn.IResolvable) {
     this._requireCodeOwnerReview = value;
   }
   public resetRequireCodeOwnerReview() {
@@ -2461,11 +2461,11 @@ export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.Comp
   }
 
   // require_last_push_approval - computed: false, optional: true, required: false
-  private _requireLastPushApproval?: boolean | cdktf.IResolvable; 
+  private _requireLastPushApproval?: boolean | cdktn.IResolvable; 
   public get requireLastPushApproval() {
     return this.getBooleanAttribute('require_last_push_approval');
   }
-  public set requireLastPushApproval(value: boolean | cdktf.IResolvable) {
+  public set requireLastPushApproval(value: boolean | cdktn.IResolvable) {
     this._requireLastPushApproval = value;
   }
   public resetRequireLastPushApproval() {
@@ -2493,11 +2493,11 @@ export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.Comp
   }
 
   // required_review_thread_resolution - computed: false, optional: true, required: false
-  private _requiredReviewThreadResolution?: boolean | cdktf.IResolvable; 
+  private _requiredReviewThreadResolution?: boolean | cdktn.IResolvable; 
   public get requiredReviewThreadResolution() {
     return this.getBooleanAttribute('required_review_thread_resolution');
   }
-  public set requiredReviewThreadResolution(value: boolean | cdktf.IResolvable) {
+  public set requiredReviewThreadResolution(value: boolean | cdktn.IResolvable) {
     this._requiredReviewThreadResolution = value;
   }
   public resetRequiredReviewThreadResolution() {
@@ -2513,7 +2513,7 @@ export class RepositoryRulesetRulesPullRequestOutputReference extends cdktf.Comp
   public get requiredReviewers() {
     return this._requiredReviewers;
   }
-  public putRequiredReviewers(value: RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktf.IResolvable) {
+  public putRequiredReviewers(value: RepositoryRulesetRulesPullRequestRequiredReviewers[] | cdktn.IResolvable) {
     this._requiredReviewers.internalValue = value;
   }
   public resetRequiredReviewers() {
@@ -2545,39 +2545,39 @@ export interface RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningT
   readonly tool: string;
 }
 
-export function repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    alerts_threshold: cdktf.stringToTerraform(struct!.alertsThreshold),
-    security_alerts_threshold: cdktf.stringToTerraform(struct!.securityAlertsThreshold),
-    tool: cdktf.stringToTerraform(struct!.tool),
+    alerts_threshold: cdktn.stringToTerraform(struct!.alertsThreshold),
+    security_alerts_threshold: cdktn.stringToTerraform(struct!.securityAlertsThreshold),
+    tool: cdktn.stringToTerraform(struct!.tool),
   }
 }
 
 
-export function repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToHclTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToHclTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     alerts_threshold: {
-      value: cdktf.stringToHclTerraform(struct!.alertsThreshold),
+      value: cdktn.stringToHclTerraform(struct!.alertsThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     security_alerts_threshold: {
-      value: cdktf.stringToHclTerraform(struct!.securityAlertsThreshold),
+      value: cdktn.stringToHclTerraform(struct!.securityAlertsThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tool: {
-      value: cdktf.stringToHclTerraform(struct!.tool),
+      value: cdktn.stringToHclTerraform(struct!.tool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2588,9 +2588,9 @@ export function repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2598,11 +2598,11 @@ export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2623,7 +2623,7 @@ export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2631,7 +2631,7 @@ export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolO
       this._securityAlertsThreshold = undefined;
       this._tool = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2684,15 +2684,15 @@ export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolO
   }
 }
 
-export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList extends cdktf.ComplexList {
-  public internalValue? : RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktf.IResolvable
+export class RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList extends cdktn.ComplexList {
+  public internalValue? : RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2709,28 +2709,28 @@ export interface RepositoryRulesetRulesRequiredCodeScanning {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_code_scanning_tool RepositoryRuleset#required_code_scanning_tool}
   */
-  readonly requiredCodeScanningTool: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktf.IResolvable;
+  readonly requiredCodeScanningTool: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktn.IResolvable;
 }
 
 export function repositoryRulesetRulesRequiredCodeScanningToTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningOutputReference | RepositoryRulesetRulesRequiredCodeScanning): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    required_code_scanning_tool: cdktf.listMapper(repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToTerraform, true)(struct!.requiredCodeScanningTool),
+    required_code_scanning_tool: cdktn.listMapper(repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToTerraform, true)(struct!.requiredCodeScanningTool),
   }
 }
 
 
 export function repositoryRulesetRulesRequiredCodeScanningToHclTerraform(struct?: RepositoryRulesetRulesRequiredCodeScanningOutputReference | RepositoryRulesetRulesRequiredCodeScanning): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     required_code_scanning_tool: {
-      value: cdktf.listMapperHcl(repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToHclTerraform, true)(struct!.requiredCodeScanningTool),
+      value: cdktn.listMapperHcl(repositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolToHclTerraform, true)(struct!.requiredCodeScanningTool),
       isBlock: true,
       type: "set",
       storageClassType: "RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList",
@@ -2741,14 +2741,14 @@ export function repositoryRulesetRulesRequiredCodeScanningToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesRequiredCodeScanningOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesRequiredCodeScanningOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2778,7 +2778,7 @@ export class RepositoryRulesetRulesRequiredCodeScanningOutputReference extends c
   public get requiredCodeScanningTool() {
     return this._requiredCodeScanningTool;
   }
-  public putRequiredCodeScanningTool(value: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktf.IResolvable) {
+  public putRequiredCodeScanningTool(value: RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool[] | cdktn.IResolvable) {
     this._requiredCodeScanningTool.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2796,24 +2796,24 @@ export interface RepositoryRulesetRulesRequiredDeployments {
 }
 
 export function repositoryRulesetRulesRequiredDeploymentsToTerraform(struct?: RepositoryRulesetRulesRequiredDeploymentsOutputReference | RepositoryRulesetRulesRequiredDeployments): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    required_deployment_environments: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.requiredDeploymentEnvironments),
+    required_deployment_environments: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requiredDeploymentEnvironments),
   }
 }
 
 
 export function repositoryRulesetRulesRequiredDeploymentsToHclTerraform(struct?: RepositoryRulesetRulesRequiredDeploymentsOutputReference | RepositoryRulesetRulesRequiredDeployments): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     required_deployment_environments: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.requiredDeploymentEnvironments),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.requiredDeploymentEnvironments),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2824,14 +2824,14 @@ export function repositoryRulesetRulesRequiredDeploymentsToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesRequiredDeploymentsOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesRequiredDeploymentsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2884,32 +2884,32 @@ export interface RepositoryRulesetRulesRequiredStatusChecksRequiredCheck {
   readonly integrationId?: number;
 }
 
-export function repositoryRulesetRulesRequiredStatusChecksRequiredCheckToTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesRequiredStatusChecksRequiredCheckToTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    context: cdktf.stringToTerraform(struct!.context),
-    integration_id: cdktf.numberToTerraform(struct!.integrationId),
+    context: cdktn.stringToTerraform(struct!.context),
+    integration_id: cdktn.numberToTerraform(struct!.integrationId),
   }
 }
 
 
-export function repositoryRulesetRulesRequiredStatusChecksRequiredCheckToHclTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function repositoryRulesetRulesRequiredStatusChecksRequiredCheckToHclTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     context: {
-      value: cdktf.stringToHclTerraform(struct!.context),
+      value: cdktn.stringToHclTerraform(struct!.context),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     integration_id: {
-      value: cdktf.numberToHclTerraform(struct!.integrationId),
+      value: cdktn.numberToHclTerraform(struct!.integrationId),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2920,9 +2920,9 @@ export function repositoryRulesetRulesRequiredStatusChecksRequiredCheckToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2930,11 +2930,11 @@ export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktf.IResolvable | undefined {
+  public get internalValue(): RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2951,14 +2951,14 @@ export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputRefere
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktf.IResolvable | undefined) {
+  public set internalValue(value: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._context = undefined;
       this._integrationId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3000,15 +3000,15 @@ export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputRefere
   }
 }
 
-export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList extends cdktf.ComplexList {
-  public internalValue? : RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktf.IResolvable
+export class RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList extends cdktn.ComplexList {
+  public internalValue? : RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3025,54 +3025,54 @@ export interface RepositoryRulesetRulesRequiredStatusChecks {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#do_not_enforce_on_create RepositoryRuleset#do_not_enforce_on_create}
   */
-  readonly doNotEnforceOnCreate?: boolean | cdktf.IResolvable;
+  readonly doNotEnforceOnCreate?: boolean | cdktn.IResolvable;
   /**
   * Whether pull requests targeting a matching branch must be tested with the latest code. This setting will not take effect unless at least one status check is enabled. Defaults to `false`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#strict_required_status_checks_policy RepositoryRuleset#strict_required_status_checks_policy}
   */
-  readonly strictRequiredStatusChecksPolicy?: boolean | cdktf.IResolvable;
+  readonly strictRequiredStatusChecksPolicy?: boolean | cdktn.IResolvable;
   /**
   * required_check block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_check RepositoryRuleset#required_check}
   */
-  readonly requiredCheck: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktf.IResolvable;
+  readonly requiredCheck: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktn.IResolvable;
 }
 
 export function repositoryRulesetRulesRequiredStatusChecksToTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksOutputReference | RepositoryRulesetRulesRequiredStatusChecks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    do_not_enforce_on_create: cdktf.booleanToTerraform(struct!.doNotEnforceOnCreate),
-    strict_required_status_checks_policy: cdktf.booleanToTerraform(struct!.strictRequiredStatusChecksPolicy),
-    required_check: cdktf.listMapper(repositoryRulesetRulesRequiredStatusChecksRequiredCheckToTerraform, true)(struct!.requiredCheck),
+    do_not_enforce_on_create: cdktn.booleanToTerraform(struct!.doNotEnforceOnCreate),
+    strict_required_status_checks_policy: cdktn.booleanToTerraform(struct!.strictRequiredStatusChecksPolicy),
+    required_check: cdktn.listMapper(repositoryRulesetRulesRequiredStatusChecksRequiredCheckToTerraform, true)(struct!.requiredCheck),
   }
 }
 
 
 export function repositoryRulesetRulesRequiredStatusChecksToHclTerraform(struct?: RepositoryRulesetRulesRequiredStatusChecksOutputReference | RepositoryRulesetRulesRequiredStatusChecks): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     do_not_enforce_on_create: {
-      value: cdktf.booleanToHclTerraform(struct!.doNotEnforceOnCreate),
+      value: cdktn.booleanToHclTerraform(struct!.doNotEnforceOnCreate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     strict_required_status_checks_policy: {
-      value: cdktf.booleanToHclTerraform(struct!.strictRequiredStatusChecksPolicy),
+      value: cdktn.booleanToHclTerraform(struct!.strictRequiredStatusChecksPolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     required_check: {
-      value: cdktf.listMapperHcl(repositoryRulesetRulesRequiredStatusChecksRequiredCheckToHclTerraform, true)(struct!.requiredCheck),
+      value: cdktn.listMapperHcl(repositoryRulesetRulesRequiredStatusChecksRequiredCheckToHclTerraform, true)(struct!.requiredCheck),
       isBlock: true,
       type: "set",
       storageClassType: "RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList",
@@ -3083,14 +3083,14 @@ export function repositoryRulesetRulesRequiredStatusChecksToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesRequiredStatusChecksOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesRequiredStatusChecksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3128,11 +3128,11 @@ export class RepositoryRulesetRulesRequiredStatusChecksOutputReference extends c
   }
 
   // do_not_enforce_on_create - computed: false, optional: true, required: false
-  private _doNotEnforceOnCreate?: boolean | cdktf.IResolvable; 
+  private _doNotEnforceOnCreate?: boolean | cdktn.IResolvable; 
   public get doNotEnforceOnCreate() {
     return this.getBooleanAttribute('do_not_enforce_on_create');
   }
-  public set doNotEnforceOnCreate(value: boolean | cdktf.IResolvable) {
+  public set doNotEnforceOnCreate(value: boolean | cdktn.IResolvable) {
     this._doNotEnforceOnCreate = value;
   }
   public resetDoNotEnforceOnCreate() {
@@ -3144,11 +3144,11 @@ export class RepositoryRulesetRulesRequiredStatusChecksOutputReference extends c
   }
 
   // strict_required_status_checks_policy - computed: false, optional: true, required: false
-  private _strictRequiredStatusChecksPolicy?: boolean | cdktf.IResolvable; 
+  private _strictRequiredStatusChecksPolicy?: boolean | cdktn.IResolvable; 
   public get strictRequiredStatusChecksPolicy() {
     return this.getBooleanAttribute('strict_required_status_checks_policy');
   }
-  public set strictRequiredStatusChecksPolicy(value: boolean | cdktf.IResolvable) {
+  public set strictRequiredStatusChecksPolicy(value: boolean | cdktn.IResolvable) {
     this._strictRequiredStatusChecksPolicy = value;
   }
   public resetStrictRequiredStatusChecksPolicy() {
@@ -3164,7 +3164,7 @@ export class RepositoryRulesetRulesRequiredStatusChecksOutputReference extends c
   public get requiredCheck() {
     return this._requiredCheck;
   }
-  public putRequiredCheck(value: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktf.IResolvable) {
+  public putRequiredCheck(value: RepositoryRulesetRulesRequiredStatusChecksRequiredCheck[] | cdktn.IResolvable) {
     this._requiredCheck.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -3184,7 +3184,7 @@ export interface RepositoryRulesetRulesTagNamePattern {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#negate RepositoryRuleset#negate}
   */
-  readonly negate?: boolean | cdktf.IResolvable;
+  readonly negate?: boolean | cdktn.IResolvable;
   /**
   * The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
   *
@@ -3200,45 +3200,45 @@ export interface RepositoryRulesetRulesTagNamePattern {
 }
 
 export function repositoryRulesetRulesTagNamePatternToTerraform(struct?: RepositoryRulesetRulesTagNamePatternOutputReference | RepositoryRulesetRulesTagNamePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    negate: cdktf.booleanToTerraform(struct!.negate),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    pattern: cdktf.stringToTerraform(struct!.pattern),
+    name: cdktn.stringToTerraform(struct!.name),
+    negate: cdktn.booleanToTerraform(struct!.negate),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    pattern: cdktn.stringToTerraform(struct!.pattern),
   }
 }
 
 
 export function repositoryRulesetRulesTagNamePatternToHclTerraform(struct?: RepositoryRulesetRulesTagNamePatternOutputReference | RepositoryRulesetRulesTagNamePattern): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     negate: {
-      value: cdktf.booleanToHclTerraform(struct!.negate),
+      value: cdktn.booleanToHclTerraform(struct!.negate),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pattern: {
-      value: cdktf.stringToHclTerraform(struct!.pattern),
+      value: cdktn.stringToHclTerraform(struct!.pattern),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3249,14 +3249,14 @@ export function repositoryRulesetRulesTagNamePatternToHclTerraform(struct?: Repo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesTagNamePatternOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesTagNamePatternOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3316,11 +3316,11 @@ export class RepositoryRulesetRulesTagNamePatternOutputReference extends cdktf.C
   }
 
   // negate - computed: false, optional: true, required: false
-  private _negate?: boolean | cdktf.IResolvable; 
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
-  public set negate(value: boolean | cdktf.IResolvable) {
+  public set negate(value: boolean | cdktn.IResolvable) {
     this._negate = value;
   }
   public resetNegate() {
@@ -3363,43 +3363,43 @@ export interface RepositoryRulesetRules {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#creation RepositoryRuleset#creation}
   */
-  readonly creation?: boolean | cdktf.IResolvable;
+  readonly creation?: boolean | cdktn.IResolvable;
   /**
   * Only allow users with bypass permissions to delete matching refs.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#deletion RepositoryRuleset#deletion}
   */
-  readonly deletion?: boolean | cdktf.IResolvable;
+  readonly deletion?: boolean | cdktn.IResolvable;
   /**
   * Prevent users with push access from force pushing to branches.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#non_fast_forward RepositoryRuleset#non_fast_forward}
   */
-  readonly nonFastForward?: boolean | cdktf.IResolvable;
+  readonly nonFastForward?: boolean | cdktn.IResolvable;
   /**
   * Prevent merge commits from being pushed to matching branches.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_linear_history RepositoryRuleset#required_linear_history}
   */
-  readonly requiredLinearHistory?: boolean | cdktf.IResolvable;
+  readonly requiredLinearHistory?: boolean | cdktn.IResolvable;
   /**
   * Commits pushed to matching branches must have verified signatures.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#required_signatures RepositoryRuleset#required_signatures}
   */
-  readonly requiredSignatures?: boolean | cdktf.IResolvable;
+  readonly requiredSignatures?: boolean | cdktn.IResolvable;
   /**
   * Only allow users with bypass permission to update matching refs.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#update RepositoryRuleset#update}
   */
-  readonly update?: boolean | cdktf.IResolvable;
+  readonly update?: boolean | cdktn.IResolvable;
   /**
   * Branch can pull changes from its upstream repository. This is only applicable to forked repositories. Requires `update` to be set to `true`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#update_allows_fetch_and_merge RepositoryRuleset#update_allows_fetch_and_merge}
   */
-  readonly updateAllowsFetchAndMerge?: boolean | cdktf.IResolvable;
+  readonly updateAllowsFetchAndMerge?: boolean | cdktn.IResolvable;
   /**
   * branch_name_pattern block
   *
@@ -3493,18 +3493,18 @@ export interface RepositoryRulesetRules {
 }
 
 export function repositoryRulesetRulesToTerraform(struct?: RepositoryRulesetRulesOutputReference | RepositoryRulesetRules): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    creation: cdktf.booleanToTerraform(struct!.creation),
-    deletion: cdktf.booleanToTerraform(struct!.deletion),
-    non_fast_forward: cdktf.booleanToTerraform(struct!.nonFastForward),
-    required_linear_history: cdktf.booleanToTerraform(struct!.requiredLinearHistory),
-    required_signatures: cdktf.booleanToTerraform(struct!.requiredSignatures),
-    update: cdktf.booleanToTerraform(struct!.update),
-    update_allows_fetch_and_merge: cdktf.booleanToTerraform(struct!.updateAllowsFetchAndMerge),
+    creation: cdktn.booleanToTerraform(struct!.creation),
+    deletion: cdktn.booleanToTerraform(struct!.deletion),
+    non_fast_forward: cdktn.booleanToTerraform(struct!.nonFastForward),
+    required_linear_history: cdktn.booleanToTerraform(struct!.requiredLinearHistory),
+    required_signatures: cdktn.booleanToTerraform(struct!.requiredSignatures),
+    update: cdktn.booleanToTerraform(struct!.update),
+    update_allows_fetch_and_merge: cdktn.booleanToTerraform(struct!.updateAllowsFetchAndMerge),
     branch_name_pattern: repositoryRulesetRulesBranchNamePatternToTerraform(struct!.branchNamePattern),
     commit_author_email_pattern: repositoryRulesetRulesCommitAuthorEmailPatternToTerraform(struct!.commitAuthorEmailPattern),
     commit_message_pattern: repositoryRulesetRulesCommitMessagePatternToTerraform(struct!.commitMessagePattern),
@@ -3525,49 +3525,49 @@ export function repositoryRulesetRulesToTerraform(struct?: RepositoryRulesetRule
 
 
 export function repositoryRulesetRulesToHclTerraform(struct?: RepositoryRulesetRulesOutputReference | RepositoryRulesetRules): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     creation: {
-      value: cdktf.booleanToHclTerraform(struct!.creation),
+      value: cdktn.booleanToHclTerraform(struct!.creation),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     deletion: {
-      value: cdktf.booleanToHclTerraform(struct!.deletion),
+      value: cdktn.booleanToHclTerraform(struct!.deletion),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     non_fast_forward: {
-      value: cdktf.booleanToHclTerraform(struct!.nonFastForward),
+      value: cdktn.booleanToHclTerraform(struct!.nonFastForward),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     required_linear_history: {
-      value: cdktf.booleanToHclTerraform(struct!.requiredLinearHistory),
+      value: cdktn.booleanToHclTerraform(struct!.requiredLinearHistory),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     required_signatures: {
-      value: cdktf.booleanToHclTerraform(struct!.requiredSignatures),
+      value: cdktn.booleanToHclTerraform(struct!.requiredSignatures),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     update: {
-      value: cdktf.booleanToHclTerraform(struct!.update),
+      value: cdktn.booleanToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     update_allows_fetch_and_merge: {
-      value: cdktf.booleanToHclTerraform(struct!.updateAllowsFetchAndMerge),
+      value: cdktn.booleanToHclTerraform(struct!.updateAllowsFetchAndMerge),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3668,14 +3668,14 @@ export function repositoryRulesetRulesToHclTerraform(struct?: RepositoryRulesetR
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
+export class RepositoryRulesetRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3827,11 +3827,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // creation - computed: false, optional: true, required: false
-  private _creation?: boolean | cdktf.IResolvable; 
+  private _creation?: boolean | cdktn.IResolvable; 
   public get creation() {
     return this.getBooleanAttribute('creation');
   }
-  public set creation(value: boolean | cdktf.IResolvable) {
+  public set creation(value: boolean | cdktn.IResolvable) {
     this._creation = value;
   }
   public resetCreation() {
@@ -3843,11 +3843,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // deletion - computed: false, optional: true, required: false
-  private _deletion?: boolean | cdktf.IResolvable; 
+  private _deletion?: boolean | cdktn.IResolvable; 
   public get deletion() {
     return this.getBooleanAttribute('deletion');
   }
-  public set deletion(value: boolean | cdktf.IResolvable) {
+  public set deletion(value: boolean | cdktn.IResolvable) {
     this._deletion = value;
   }
   public resetDeletion() {
@@ -3859,11 +3859,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // non_fast_forward - computed: false, optional: true, required: false
-  private _nonFastForward?: boolean | cdktf.IResolvable; 
+  private _nonFastForward?: boolean | cdktn.IResolvable; 
   public get nonFastForward() {
     return this.getBooleanAttribute('non_fast_forward');
   }
-  public set nonFastForward(value: boolean | cdktf.IResolvable) {
+  public set nonFastForward(value: boolean | cdktn.IResolvable) {
     this._nonFastForward = value;
   }
   public resetNonFastForward() {
@@ -3875,11 +3875,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // required_linear_history - computed: false, optional: true, required: false
-  private _requiredLinearHistory?: boolean | cdktf.IResolvable; 
+  private _requiredLinearHistory?: boolean | cdktn.IResolvable; 
   public get requiredLinearHistory() {
     return this.getBooleanAttribute('required_linear_history');
   }
-  public set requiredLinearHistory(value: boolean | cdktf.IResolvable) {
+  public set requiredLinearHistory(value: boolean | cdktn.IResolvable) {
     this._requiredLinearHistory = value;
   }
   public resetRequiredLinearHistory() {
@@ -3891,11 +3891,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // required_signatures - computed: false, optional: true, required: false
-  private _requiredSignatures?: boolean | cdktf.IResolvable; 
+  private _requiredSignatures?: boolean | cdktn.IResolvable; 
   public get requiredSignatures() {
     return this.getBooleanAttribute('required_signatures');
   }
-  public set requiredSignatures(value: boolean | cdktf.IResolvable) {
+  public set requiredSignatures(value: boolean | cdktn.IResolvable) {
     this._requiredSignatures = value;
   }
   public resetRequiredSignatures() {
@@ -3907,11 +3907,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: boolean | cdktf.IResolvable; 
+  private _update?: boolean | cdktn.IResolvable; 
   public get update() {
     return this.getBooleanAttribute('update');
   }
-  public set update(value: boolean | cdktf.IResolvable) {
+  public set update(value: boolean | cdktn.IResolvable) {
     this._update = value;
   }
   public resetUpdate() {
@@ -3923,11 +3923,11 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
   }
 
   // update_allows_fetch_and_merge - computed: false, optional: true, required: false
-  private _updateAllowsFetchAndMerge?: boolean | cdktf.IResolvable; 
+  private _updateAllowsFetchAndMerge?: boolean | cdktn.IResolvable; 
   public get updateAllowsFetchAndMerge() {
     return this.getBooleanAttribute('update_allows_fetch_and_merge');
   }
-  public set updateAllowsFetchAndMerge(value: boolean | cdktf.IResolvable) {
+  public set updateAllowsFetchAndMerge(value: boolean | cdktn.IResolvable) {
     this._updateAllowsFetchAndMerge = value;
   }
   public resetUpdateAllowsFetchAndMerge() {
@@ -4182,7 +4182,7 @@ export class RepositoryRulesetRulesOutputReference extends cdktf.ComplexObject {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset github_repository_ruleset}
 */
-export class RepositoryRuleset extends cdktf.TerraformResource {
+export class RepositoryRuleset extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -4193,14 +4193,14 @@ export class RepositoryRuleset extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryRuleset resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryRuleset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryRuleset to import
   * @param importFromId The id of the existing RepositoryRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryRuleset to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_ruleset", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_ruleset", importId: importFromId, provider });
       }
 
   // ===========
@@ -4332,7 +4332,7 @@ export class RepositoryRuleset extends cdktf.TerraformResource {
   public get bypassActors() {
     return this._bypassActors;
   }
-  public putBypassActors(value: RepositoryRulesetBypassActors[] | cdktf.IResolvable) {
+  public putBypassActors(value: RepositoryRulesetBypassActors[] | cdktn.IResolvable) {
     this._bypassActors.internalValue = value;
   }
   public resetBypassActors() {
@@ -4378,12 +4378,12 @@ export class RepositoryRuleset extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      enforcement: cdktf.stringToTerraform(this._enforcement),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      repository: cdktf.stringToTerraform(this._repository),
-      target: cdktf.stringToTerraform(this._target),
-      bypass_actors: cdktf.listMapper(repositoryRulesetBypassActorsToTerraform, true)(this._bypassActors.internalValue),
+      enforcement: cdktn.stringToTerraform(this._enforcement),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      repository: cdktn.stringToTerraform(this._repository),
+      target: cdktn.stringToTerraform(this._target),
+      bypass_actors: cdktn.listMapper(repositoryRulesetBypassActorsToTerraform, true)(this._bypassActors.internalValue),
       conditions: repositoryRulesetConditionsToTerraform(this._conditions.internalValue),
       rules: repositoryRulesetRulesToTerraform(this._rules.internalValue),
     };
@@ -4392,37 +4392,37 @@ export class RepositoryRuleset extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       enforcement: {
-        value: cdktf.stringToHclTerraform(this._enforcement),
+        value: cdktn.stringToHclTerraform(this._enforcement),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       target: {
-        value: cdktf.stringToHclTerraform(this._target),
+        value: cdktn.stringToHclTerraform(this._target),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       bypass_actors: {
-        value: cdktf.listMapperHcl(repositoryRulesetBypassActorsToHclTerraform, true)(this._bypassActors.internalValue),
+        value: cdktn.listMapperHcl(repositoryRulesetBypassActorsToHclTerraform, true)(this._bypassActors.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "RepositoryRulesetBypassActorsList",

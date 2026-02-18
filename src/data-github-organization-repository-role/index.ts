@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubOrganizationRepositoryRoleConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubOrganizationRepositoryRoleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_repository_role#id DataGithubOrganizationRepositoryRole#id}
   *
@@ -30,7 +30,7 @@ export interface DataGithubOrganizationRepositoryRoleConfig extends cdktf.Terraf
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_repository_role github_organization_repository_role}
 */
-export class DataGithubOrganizationRepositoryRole extends cdktf.TerraformDataSource {
+export class DataGithubOrganizationRepositoryRole extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -41,14 +41,14 @@ export class DataGithubOrganizationRepositoryRole extends cdktf.TerraformDataSou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubOrganizationRepositoryRole resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubOrganizationRepositoryRole resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubOrganizationRepositoryRole to import
   * @param importFromId The id of the existing DataGithubOrganizationRepositoryRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_repository_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubOrganizationRepositoryRole to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_repository_role", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_repository_role", importId: importFromId, provider });
       }
 
   // ===========
@@ -119,7 +119,7 @@ export class DataGithubOrganizationRepositoryRole extends cdktf.TerraformDataSou
 
   // permissions - computed: true, optional: false, required: false
   public get permissions() {
-    return cdktf.Fn.tolist(this.getListAttribute('permissions'));
+    return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
 
   // role_id - computed: false, optional: false, required: true
@@ -141,21 +141,21 @@ export class DataGithubOrganizationRepositoryRole extends cdktf.TerraformDataSou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      role_id: cdktf.numberToTerraform(this._roleId),
+      id: cdktn.stringToTerraform(this._id),
+      role_id: cdktn.numberToTerraform(this._roleId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role_id: {
-        value: cdktf.numberToHclTerraform(this._roleId),
+        value: cdktn.numberToHclTerraform(this._roleId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

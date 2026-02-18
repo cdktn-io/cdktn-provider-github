@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
   *  Whether or not advanced security is enabled for new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#advanced_security_enabled_for_new_repositories OrganizationSettings#advanced_security_enabled_for_new_repositories}
   */
-  readonly advancedSecurityEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly advancedSecurityEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * The billing email address for the organization.
   *
@@ -47,19 +47,19 @@ export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#dependabot_alerts_enabled_for_new_repositories OrganizationSettings#dependabot_alerts_enabled_for_new_repositories}
   */
-  readonly dependabotAlertsEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly dependabotAlertsEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   *  Whether or not dependabot security updates are enabled for new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#dependabot_security_updates_enabled_for_new_repositories OrganizationSettings#dependabot_security_updates_enabled_for_new_repositories}
   */
-  readonly dependabotSecurityUpdatesEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly dependabotSecurityUpdatesEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not dependency graph is enabled for new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#dependency_graph_enabled_for_new_repositories OrganizationSettings#dependency_graph_enabled_for_new_repositories}
   */
-  readonly dependencyGraphEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly dependencyGraphEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * The description for the organization.
   *
@@ -77,13 +77,13 @@ export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#has_organization_projects OrganizationSettings#has_organization_projects}
   */
-  readonly hasOrganizationProjects?: boolean | cdktf.IResolvable;
+  readonly hasOrganizationProjects?: boolean | cdktn.IResolvable;
   /**
   * Whether or not repository projects are enabled for the organization.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#has_repository_projects OrganizationSettings#has_repository_projects}
   */
-  readonly hasRepositoryProjects?: boolean | cdktf.IResolvable;
+  readonly hasRepositoryProjects?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#id OrganizationSettings#id}
   *
@@ -102,49 +102,49 @@ export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_internal_repositories OrganizationSettings#members_can_create_internal_repositories}
   */
-  readonly membersCanCreateInternalRepositories?: boolean | cdktf.IResolvable;
+  readonly membersCanCreateInternalRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new pages.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_pages OrganizationSettings#members_can_create_pages}
   */
-  readonly membersCanCreatePages?: boolean | cdktf.IResolvable;
+  readonly membersCanCreatePages?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new private pages.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_private_pages OrganizationSettings#members_can_create_private_pages}
   */
-  readonly membersCanCreatePrivatePages?: boolean | cdktf.IResolvable;
+  readonly membersCanCreatePrivatePages?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new private repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_private_repositories OrganizationSettings#members_can_create_private_repositories}
   */
-  readonly membersCanCreatePrivateRepositories?: boolean | cdktf.IResolvable;
+  readonly membersCanCreatePrivateRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new public pages.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_public_pages OrganizationSettings#members_can_create_public_pages}
   */
-  readonly membersCanCreatePublicPages?: boolean | cdktf.IResolvable;
+  readonly membersCanCreatePublicPages?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new public repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_public_repositories OrganizationSettings#members_can_create_public_repositories}
   */
-  readonly membersCanCreatePublicRepositories?: boolean | cdktf.IResolvable;
+  readonly membersCanCreatePublicRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can create new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_create_repositories OrganizationSettings#members_can_create_repositories}
   */
-  readonly membersCanCreateRepositories?: boolean | cdktf.IResolvable;
+  readonly membersCanCreateRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not organization members can fork private repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#members_can_fork_private_repositories OrganizationSettings#members_can_fork_private_repositories}
   */
-  readonly membersCanForkPrivateRepositories?: boolean | cdktf.IResolvable;
+  readonly membersCanForkPrivateRepositories?: boolean | cdktn.IResolvable;
   /**
   * The name for the organization.
   *
@@ -156,13 +156,13 @@ export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#secret_scanning_enabled_for_new_repositories OrganizationSettings#secret_scanning_enabled_for_new_repositories}
   */
-  readonly secretScanningEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly secretScanningEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether or not secret scanning push protection is enabled for new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#secret_scanning_push_protection_enabled_for_new_repositories OrganizationSettings#secret_scanning_push_protection_enabled_for_new_repositories}
   */
-  readonly secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * The Twitter username for the organization.
   *
@@ -174,13 +174,13 @@ export interface OrganizationSettingsConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#web_commit_signoff_required OrganizationSettings#web_commit_signoff_required}
   */
-  readonly webCommitSignoffRequired?: boolean | cdktf.IResolvable;
+  readonly webCommitSignoffRequired?: boolean | cdktn.IResolvable;
 }
 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings github_organization_settings}
 */
-export class OrganizationSettings extends cdktf.TerraformResource {
+export class OrganizationSettings extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -191,14 +191,14 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationSettings to import
   * @param importFromId The id of the existing OrganizationSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationSettings to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_settings", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_settings", importId: importFromId, provider });
       }
 
   // ===========
@@ -262,11 +262,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   // ==========
 
   // advanced_security_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _advancedSecurityEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _advancedSecurityEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get advancedSecurityEnabledForNewRepositories() {
     return this.getBooleanAttribute('advanced_security_enabled_for_new_repositories');
   }
-  public set advancedSecurityEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set advancedSecurityEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._advancedSecurityEnabledForNewRepositories = value;
   }
   public resetAdvancedSecurityEnabledForNewRepositories() {
@@ -339,11 +339,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // dependabot_alerts_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _dependabotAlertsEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _dependabotAlertsEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get dependabotAlertsEnabledForNewRepositories() {
     return this.getBooleanAttribute('dependabot_alerts_enabled_for_new_repositories');
   }
-  public set dependabotAlertsEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set dependabotAlertsEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._dependabotAlertsEnabledForNewRepositories = value;
   }
   public resetDependabotAlertsEnabledForNewRepositories() {
@@ -355,11 +355,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // dependabot_security_updates_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _dependabotSecurityUpdatesEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _dependabotSecurityUpdatesEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get dependabotSecurityUpdatesEnabledForNewRepositories() {
     return this.getBooleanAttribute('dependabot_security_updates_enabled_for_new_repositories');
   }
-  public set dependabotSecurityUpdatesEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set dependabotSecurityUpdatesEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._dependabotSecurityUpdatesEnabledForNewRepositories = value;
   }
   public resetDependabotSecurityUpdatesEnabledForNewRepositories() {
@@ -371,11 +371,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // dependency_graph_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _dependencyGraphEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _dependencyGraphEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get dependencyGraphEnabledForNewRepositories() {
     return this.getBooleanAttribute('dependency_graph_enabled_for_new_repositories');
   }
-  public set dependencyGraphEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set dependencyGraphEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._dependencyGraphEnabledForNewRepositories = value;
   }
   public resetDependencyGraphEnabledForNewRepositories() {
@@ -419,11 +419,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // has_organization_projects - computed: false, optional: true, required: false
-  private _hasOrganizationProjects?: boolean | cdktf.IResolvable; 
+  private _hasOrganizationProjects?: boolean | cdktn.IResolvable; 
   public get hasOrganizationProjects() {
     return this.getBooleanAttribute('has_organization_projects');
   }
-  public set hasOrganizationProjects(value: boolean | cdktf.IResolvable) {
+  public set hasOrganizationProjects(value: boolean | cdktn.IResolvable) {
     this._hasOrganizationProjects = value;
   }
   public resetHasOrganizationProjects() {
@@ -435,11 +435,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // has_repository_projects - computed: false, optional: true, required: false
-  private _hasRepositoryProjects?: boolean | cdktf.IResolvable; 
+  private _hasRepositoryProjects?: boolean | cdktn.IResolvable; 
   public get hasRepositoryProjects() {
     return this.getBooleanAttribute('has_repository_projects');
   }
-  public set hasRepositoryProjects(value: boolean | cdktf.IResolvable) {
+  public set hasRepositoryProjects(value: boolean | cdktn.IResolvable) {
     this._hasRepositoryProjects = value;
   }
   public resetHasRepositoryProjects() {
@@ -483,11 +483,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_internal_repositories - computed: false, optional: true, required: false
-  private _membersCanCreateInternalRepositories?: boolean | cdktf.IResolvable; 
+  private _membersCanCreateInternalRepositories?: boolean | cdktn.IResolvable; 
   public get membersCanCreateInternalRepositories() {
     return this.getBooleanAttribute('members_can_create_internal_repositories');
   }
-  public set membersCanCreateInternalRepositories(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreateInternalRepositories(value: boolean | cdktn.IResolvable) {
     this._membersCanCreateInternalRepositories = value;
   }
   public resetMembersCanCreateInternalRepositories() {
@@ -499,11 +499,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_pages - computed: false, optional: true, required: false
-  private _membersCanCreatePages?: boolean | cdktf.IResolvable; 
+  private _membersCanCreatePages?: boolean | cdktn.IResolvable; 
   public get membersCanCreatePages() {
     return this.getBooleanAttribute('members_can_create_pages');
   }
-  public set membersCanCreatePages(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreatePages(value: boolean | cdktn.IResolvable) {
     this._membersCanCreatePages = value;
   }
   public resetMembersCanCreatePages() {
@@ -515,11 +515,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_private_pages - computed: false, optional: true, required: false
-  private _membersCanCreatePrivatePages?: boolean | cdktf.IResolvable; 
+  private _membersCanCreatePrivatePages?: boolean | cdktn.IResolvable; 
   public get membersCanCreatePrivatePages() {
     return this.getBooleanAttribute('members_can_create_private_pages');
   }
-  public set membersCanCreatePrivatePages(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreatePrivatePages(value: boolean | cdktn.IResolvable) {
     this._membersCanCreatePrivatePages = value;
   }
   public resetMembersCanCreatePrivatePages() {
@@ -531,11 +531,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_private_repositories - computed: false, optional: true, required: false
-  private _membersCanCreatePrivateRepositories?: boolean | cdktf.IResolvable; 
+  private _membersCanCreatePrivateRepositories?: boolean | cdktn.IResolvable; 
   public get membersCanCreatePrivateRepositories() {
     return this.getBooleanAttribute('members_can_create_private_repositories');
   }
-  public set membersCanCreatePrivateRepositories(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreatePrivateRepositories(value: boolean | cdktn.IResolvable) {
     this._membersCanCreatePrivateRepositories = value;
   }
   public resetMembersCanCreatePrivateRepositories() {
@@ -547,11 +547,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_public_pages - computed: false, optional: true, required: false
-  private _membersCanCreatePublicPages?: boolean | cdktf.IResolvable; 
+  private _membersCanCreatePublicPages?: boolean | cdktn.IResolvable; 
   public get membersCanCreatePublicPages() {
     return this.getBooleanAttribute('members_can_create_public_pages');
   }
-  public set membersCanCreatePublicPages(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreatePublicPages(value: boolean | cdktn.IResolvable) {
     this._membersCanCreatePublicPages = value;
   }
   public resetMembersCanCreatePublicPages() {
@@ -563,11 +563,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_public_repositories - computed: false, optional: true, required: false
-  private _membersCanCreatePublicRepositories?: boolean | cdktf.IResolvable; 
+  private _membersCanCreatePublicRepositories?: boolean | cdktn.IResolvable; 
   public get membersCanCreatePublicRepositories() {
     return this.getBooleanAttribute('members_can_create_public_repositories');
   }
-  public set membersCanCreatePublicRepositories(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreatePublicRepositories(value: boolean | cdktn.IResolvable) {
     this._membersCanCreatePublicRepositories = value;
   }
   public resetMembersCanCreatePublicRepositories() {
@@ -579,11 +579,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_create_repositories - computed: false, optional: true, required: false
-  private _membersCanCreateRepositories?: boolean | cdktf.IResolvable; 
+  private _membersCanCreateRepositories?: boolean | cdktn.IResolvable; 
   public get membersCanCreateRepositories() {
     return this.getBooleanAttribute('members_can_create_repositories');
   }
-  public set membersCanCreateRepositories(value: boolean | cdktf.IResolvable) {
+  public set membersCanCreateRepositories(value: boolean | cdktn.IResolvable) {
     this._membersCanCreateRepositories = value;
   }
   public resetMembersCanCreateRepositories() {
@@ -595,11 +595,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // members_can_fork_private_repositories - computed: false, optional: true, required: false
-  private _membersCanForkPrivateRepositories?: boolean | cdktf.IResolvable; 
+  private _membersCanForkPrivateRepositories?: boolean | cdktn.IResolvable; 
   public get membersCanForkPrivateRepositories() {
     return this.getBooleanAttribute('members_can_fork_private_repositories');
   }
-  public set membersCanForkPrivateRepositories(value: boolean | cdktf.IResolvable) {
+  public set membersCanForkPrivateRepositories(value: boolean | cdktn.IResolvable) {
     this._membersCanForkPrivateRepositories = value;
   }
   public resetMembersCanForkPrivateRepositories() {
@@ -627,11 +627,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // secret_scanning_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _secretScanningEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _secretScanningEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get secretScanningEnabledForNewRepositories() {
     return this.getBooleanAttribute('secret_scanning_enabled_for_new_repositories');
   }
-  public set secretScanningEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set secretScanningEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._secretScanningEnabledForNewRepositories = value;
   }
   public resetSecretScanningEnabledForNewRepositories() {
@@ -643,11 +643,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // secret_scanning_push_protection_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get secretScanningPushProtectionEnabledForNewRepositories() {
     return this.getBooleanAttribute('secret_scanning_push_protection_enabled_for_new_repositories');
   }
-  public set secretScanningPushProtectionEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set secretScanningPushProtectionEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._secretScanningPushProtectionEnabledForNewRepositories = value;
   }
   public resetSecretScanningPushProtectionEnabledForNewRepositories() {
@@ -675,11 +675,11 @@ export class OrganizationSettings extends cdktf.TerraformResource {
   }
 
   // web_commit_signoff_required - computed: false, optional: true, required: false
-  private _webCommitSignoffRequired?: boolean | cdktf.IResolvable; 
+  private _webCommitSignoffRequired?: boolean | cdktn.IResolvable; 
   public get webCommitSignoffRequired() {
     return this.getBooleanAttribute('web_commit_signoff_required');
   }
-  public set webCommitSignoffRequired(value: boolean | cdktf.IResolvable) {
+  public set webCommitSignoffRequired(value: boolean | cdktn.IResolvable) {
     this._webCommitSignoffRequired = value;
   }
   public resetWebCommitSignoffRequired() {
@@ -696,196 +696,196 @@ export class OrganizationSettings extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      advanced_security_enabled_for_new_repositories: cdktf.booleanToTerraform(this._advancedSecurityEnabledForNewRepositories),
-      billing_email: cdktf.stringToTerraform(this._billingEmail),
-      blog: cdktf.stringToTerraform(this._blog),
-      company: cdktf.stringToTerraform(this._company),
-      default_repository_permission: cdktf.stringToTerraform(this._defaultRepositoryPermission),
-      dependabot_alerts_enabled_for_new_repositories: cdktf.booleanToTerraform(this._dependabotAlertsEnabledForNewRepositories),
-      dependabot_security_updates_enabled_for_new_repositories: cdktf.booleanToTerraform(this._dependabotSecurityUpdatesEnabledForNewRepositories),
-      dependency_graph_enabled_for_new_repositories: cdktf.booleanToTerraform(this._dependencyGraphEnabledForNewRepositories),
-      description: cdktf.stringToTerraform(this._description),
-      email: cdktf.stringToTerraform(this._email),
-      has_organization_projects: cdktf.booleanToTerraform(this._hasOrganizationProjects),
-      has_repository_projects: cdktf.booleanToTerraform(this._hasRepositoryProjects),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      members_can_create_internal_repositories: cdktf.booleanToTerraform(this._membersCanCreateInternalRepositories),
-      members_can_create_pages: cdktf.booleanToTerraform(this._membersCanCreatePages),
-      members_can_create_private_pages: cdktf.booleanToTerraform(this._membersCanCreatePrivatePages),
-      members_can_create_private_repositories: cdktf.booleanToTerraform(this._membersCanCreatePrivateRepositories),
-      members_can_create_public_pages: cdktf.booleanToTerraform(this._membersCanCreatePublicPages),
-      members_can_create_public_repositories: cdktf.booleanToTerraform(this._membersCanCreatePublicRepositories),
-      members_can_create_repositories: cdktf.booleanToTerraform(this._membersCanCreateRepositories),
-      members_can_fork_private_repositories: cdktf.booleanToTerraform(this._membersCanForkPrivateRepositories),
-      name: cdktf.stringToTerraform(this._name),
-      secret_scanning_enabled_for_new_repositories: cdktf.booleanToTerraform(this._secretScanningEnabledForNewRepositories),
-      secret_scanning_push_protection_enabled_for_new_repositories: cdktf.booleanToTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
-      twitter_username: cdktf.stringToTerraform(this._twitterUsername),
-      web_commit_signoff_required: cdktf.booleanToTerraform(this._webCommitSignoffRequired),
+      advanced_security_enabled_for_new_repositories: cdktn.booleanToTerraform(this._advancedSecurityEnabledForNewRepositories),
+      billing_email: cdktn.stringToTerraform(this._billingEmail),
+      blog: cdktn.stringToTerraform(this._blog),
+      company: cdktn.stringToTerraform(this._company),
+      default_repository_permission: cdktn.stringToTerraform(this._defaultRepositoryPermission),
+      dependabot_alerts_enabled_for_new_repositories: cdktn.booleanToTerraform(this._dependabotAlertsEnabledForNewRepositories),
+      dependabot_security_updates_enabled_for_new_repositories: cdktn.booleanToTerraform(this._dependabotSecurityUpdatesEnabledForNewRepositories),
+      dependency_graph_enabled_for_new_repositories: cdktn.booleanToTerraform(this._dependencyGraphEnabledForNewRepositories),
+      description: cdktn.stringToTerraform(this._description),
+      email: cdktn.stringToTerraform(this._email),
+      has_organization_projects: cdktn.booleanToTerraform(this._hasOrganizationProjects),
+      has_repository_projects: cdktn.booleanToTerraform(this._hasRepositoryProjects),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      members_can_create_internal_repositories: cdktn.booleanToTerraform(this._membersCanCreateInternalRepositories),
+      members_can_create_pages: cdktn.booleanToTerraform(this._membersCanCreatePages),
+      members_can_create_private_pages: cdktn.booleanToTerraform(this._membersCanCreatePrivatePages),
+      members_can_create_private_repositories: cdktn.booleanToTerraform(this._membersCanCreatePrivateRepositories),
+      members_can_create_public_pages: cdktn.booleanToTerraform(this._membersCanCreatePublicPages),
+      members_can_create_public_repositories: cdktn.booleanToTerraform(this._membersCanCreatePublicRepositories),
+      members_can_create_repositories: cdktn.booleanToTerraform(this._membersCanCreateRepositories),
+      members_can_fork_private_repositories: cdktn.booleanToTerraform(this._membersCanForkPrivateRepositories),
+      name: cdktn.stringToTerraform(this._name),
+      secret_scanning_enabled_for_new_repositories: cdktn.booleanToTerraform(this._secretScanningEnabledForNewRepositories),
+      secret_scanning_push_protection_enabled_for_new_repositories: cdktn.booleanToTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
+      twitter_username: cdktn.stringToTerraform(this._twitterUsername),
+      web_commit_signoff_required: cdktn.booleanToTerraform(this._webCommitSignoffRequired),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       advanced_security_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._advancedSecurityEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._advancedSecurityEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       billing_email: {
-        value: cdktf.stringToHclTerraform(this._billingEmail),
+        value: cdktn.stringToHclTerraform(this._billingEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       blog: {
-        value: cdktf.stringToHclTerraform(this._blog),
+        value: cdktn.stringToHclTerraform(this._blog),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       company: {
-        value: cdktf.stringToHclTerraform(this._company),
+        value: cdktn.stringToHclTerraform(this._company),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       default_repository_permission: {
-        value: cdktf.stringToHclTerraform(this._defaultRepositoryPermission),
+        value: cdktn.stringToHclTerraform(this._defaultRepositoryPermission),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       dependabot_alerts_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._dependabotAlertsEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._dependabotAlertsEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       dependabot_security_updates_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._dependabotSecurityUpdatesEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._dependabotSecurityUpdatesEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       dependency_graph_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._dependencyGraphEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._dependencyGraphEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       email: {
-        value: cdktf.stringToHclTerraform(this._email),
+        value: cdktn.stringToHclTerraform(this._email),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       has_organization_projects: {
-        value: cdktf.booleanToHclTerraform(this._hasOrganizationProjects),
+        value: cdktn.booleanToHclTerraform(this._hasOrganizationProjects),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       has_repository_projects: {
-        value: cdktf.booleanToHclTerraform(this._hasRepositoryProjects),
+        value: cdktn.booleanToHclTerraform(this._hasRepositoryProjects),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       members_can_create_internal_repositories: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreateInternalRepositories),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreateInternalRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_pages: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreatePages),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreatePages),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_private_pages: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreatePrivatePages),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreatePrivatePages),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_private_repositories: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreatePrivateRepositories),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreatePrivateRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_public_pages: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreatePublicPages),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreatePublicPages),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_public_repositories: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreatePublicRepositories),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreatePublicRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_create_repositories: {
-        value: cdktf.booleanToHclTerraform(this._membersCanCreateRepositories),
+        value: cdktn.booleanToHclTerraform(this._membersCanCreateRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       members_can_fork_private_repositories: {
-        value: cdktf.booleanToHclTerraform(this._membersCanForkPrivateRepositories),
+        value: cdktn.booleanToHclTerraform(this._membersCanForkPrivateRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       secret_scanning_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._secretScanningEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._secretScanningEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       secret_scanning_push_protection_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       twitter_username: {
-        value: cdktf.stringToHclTerraform(this._twitterUsername),
+        value: cdktn.stringToHclTerraform(this._twitterUsername),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       web_commit_signoff_required: {
-        value: cdktf.booleanToHclTerraform(this._webCommitSignoffRequired),
+        value: cdktn.booleanToHclTerraform(this._webCommitSignoffRequired),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

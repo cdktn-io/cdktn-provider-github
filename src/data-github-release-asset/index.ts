@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubReleaseAssetConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubReleaseAssetConfig extends cdktn.TerraformMetaArguments {
   /**
   * ID of the release asset to retrieve
   *
@@ -23,7 +23,7 @@ export interface DataGithubReleaseAssetConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#download_file_contents DataGithubReleaseAsset#download_file_contents}
   */
-  readonly downloadFileContents?: boolean | cdktf.IResolvable;
+  readonly downloadFileContents?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#id DataGithubReleaseAsset#id}
   *
@@ -48,7 +48,7 @@ export interface DataGithubReleaseAssetConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset github_release_asset}
 */
-export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
+export class DataGithubReleaseAsset extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubReleaseAsset resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubReleaseAsset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubReleaseAsset to import
   * @param importFromId The id of the existing DataGithubReleaseAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/release_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubReleaseAsset to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_release_asset", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_release_asset", importId: importFromId, provider });
       }
 
   // ===========
@@ -136,11 +136,11 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
   }
 
   // download_file_contents - computed: false, optional: true, required: false
-  private _downloadFileContents?: boolean | cdktf.IResolvable; 
+  private _downloadFileContents?: boolean | cdktn.IResolvable; 
   public get downloadFileContents() {
     return this.getBooleanAttribute('download_file_contents');
   }
-  public set downloadFileContents(value: boolean | cdktf.IResolvable) {
+  public set downloadFileContents(value: boolean | cdktn.IResolvable) {
     this._downloadFileContents = value;
   }
   public resetDownloadFileContents() {
@@ -234,42 +234,42 @@ export class DataGithubReleaseAsset extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      asset_id: cdktf.numberToTerraform(this._assetId),
-      download_file_contents: cdktf.booleanToTerraform(this._downloadFileContents),
-      id: cdktf.stringToTerraform(this._id),
-      owner: cdktf.stringToTerraform(this._owner),
-      repository: cdktf.stringToTerraform(this._repository),
+      asset_id: cdktn.numberToTerraform(this._assetId),
+      download_file_contents: cdktn.booleanToTerraform(this._downloadFileContents),
+      id: cdktn.stringToTerraform(this._id),
+      owner: cdktn.stringToTerraform(this._owner),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       asset_id: {
-        value: cdktf.numberToHclTerraform(this._assetId),
+        value: cdktn.numberToHclTerraform(this._assetId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       download_file_contents: {
-        value: cdktf.booleanToHclTerraform(this._downloadFileContents),
+        value: cdktn.booleanToHclTerraform(this._downloadFileContents),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

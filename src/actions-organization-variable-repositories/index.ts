@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsOrganizationVariableRepositoriesConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsOrganizationVariableRepositoriesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}
   *
@@ -36,7 +36,7 @@ export interface ActionsOrganizationVariableRepositoriesConfig extends cdktf.Ter
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}
 */
-export class ActionsOrganizationVariableRepositories extends cdktf.TerraformResource {
+export class ActionsOrganizationVariableRepositories extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class ActionsOrganizationVariableRepositories extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsOrganizationVariableRepositories resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsOrganizationVariableRepositories resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsOrganizationVariableRepositories to import
   * @param importFromId The id of the existing ActionsOrganizationVariableRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_variable_repositories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsOrganizationVariableRepositories to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_variable_repositories", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_variable_repositories", importId: importFromId, provider });
       }
 
   // ===========
@@ -112,7 +112,7 @@ export class ActionsOrganizationVariableRepositories extends cdktf.TerraformReso
   // selected_repository_ids - computed: false, optional: false, required: true
   private _selectedRepositoryIds?: number[]; 
   public get selectedRepositoryIds() {
-    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('selected_repository_ids')));
+    return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('selected_repository_ids')));
   }
   public set selectedRepositoryIds(value: number[]) {
     this._selectedRepositoryIds = value;
@@ -141,28 +141,28 @@ export class ActionsOrganizationVariableRepositories extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      selected_repository_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(this._selectedRepositoryIds),
-      variable_name: cdktf.stringToTerraform(this._variableName),
+      id: cdktn.stringToTerraform(this._id),
+      selected_repository_ids: cdktn.listMapper(cdktn.numberToTerraform, false)(this._selectedRepositoryIds),
+      variable_name: cdktn.stringToTerraform(this._variableName),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       selected_repository_ids: {
-        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._selectedRepositoryIds),
+        value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(this._selectedRepositoryIds),
         isBlock: false,
         type: "set",
         storageClassType: "numberList",
       },
       variable_name: {
-        value: cdktf.stringToHclTerraform(this._variableName),
+        value: cdktn.stringToHclTerraform(this._variableName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

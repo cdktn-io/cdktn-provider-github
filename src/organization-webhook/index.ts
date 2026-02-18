@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationWebhookConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationWebhookConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicate if the webhook should receive events.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_webhook#active OrganizationWebhook#active}
   */
-  readonly active?: boolean | cdktf.IResolvable;
+  readonly active?: boolean | cdktn.IResolvable;
   /**
   * A list of events which should trigger the webhook.
   *
@@ -50,7 +50,7 @@ export interface OrganizationWebhookConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_webhook#insecure_ssl OrganizationWebhook#insecure_ssl}
   */
-  readonly insecureSsl?: boolean | cdktf.IResolvable;
+  readonly insecureSsl?: boolean | cdktn.IResolvable;
   /**
   * The shared secret for the webhook
   *
@@ -66,45 +66,45 @@ export interface OrganizationWebhookConfiguration {
 }
 
 export function organizationWebhookConfigurationToTerraform(struct?: OrganizationWebhookConfigurationOutputReference | OrganizationWebhookConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content_type: cdktf.stringToTerraform(struct!.contentType),
-    insecure_ssl: cdktf.booleanToTerraform(struct!.insecureSsl),
-    secret: cdktf.stringToTerraform(struct!.secret),
-    url: cdktf.stringToTerraform(struct!.url),
+    content_type: cdktn.stringToTerraform(struct!.contentType),
+    insecure_ssl: cdktn.booleanToTerraform(struct!.insecureSsl),
+    secret: cdktn.stringToTerraform(struct!.secret),
+    url: cdktn.stringToTerraform(struct!.url),
   }
 }
 
 
 export function organizationWebhookConfigurationToHclTerraform(struct?: OrganizationWebhookConfigurationOutputReference | OrganizationWebhookConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content_type: {
-      value: cdktf.stringToHclTerraform(struct!.contentType),
+      value: cdktn.stringToHclTerraform(struct!.contentType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     insecure_ssl: {
-      value: cdktf.booleanToHclTerraform(struct!.insecureSsl),
+      value: cdktn.booleanToHclTerraform(struct!.insecureSsl),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     secret: {
-      value: cdktf.stringToHclTerraform(struct!.secret),
+      value: cdktn.stringToHclTerraform(struct!.secret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url: {
-      value: cdktf.stringToHclTerraform(struct!.url),
+      value: cdktn.stringToHclTerraform(struct!.url),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -115,14 +115,14 @@ export function organizationWebhookConfigurationToHclTerraform(struct?: Organiza
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class OrganizationWebhookConfigurationOutputReference extends cdktf.ComplexObject {
+export class OrganizationWebhookConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -182,11 +182,11 @@ export class OrganizationWebhookConfigurationOutputReference extends cdktf.Compl
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktf.IResolvable; 
+  private _insecureSsl?: boolean | cdktn.IResolvable; 
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
-  public set insecureSsl(value: boolean | cdktf.IResolvable) {
+  public set insecureSsl(value: boolean | cdktn.IResolvable) {
     this._insecureSsl = value;
   }
   public resetInsecureSsl() {
@@ -230,7 +230,7 @@ export class OrganizationWebhookConfigurationOutputReference extends cdktf.Compl
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_webhook github_organization_webhook}
 */
-export class OrganizationWebhook extends cdktf.TerraformResource {
+export class OrganizationWebhook extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -241,14 +241,14 @@ export class OrganizationWebhook extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationWebhook resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationWebhook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationWebhook to import
   * @param importFromId The id of the existing OrganizationWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationWebhook to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_webhook", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_webhook", importId: importFromId, provider });
       }
 
   // ===========
@@ -289,11 +289,11 @@ export class OrganizationWebhook extends cdktf.TerraformResource {
   // ==========
 
   // active - computed: false, optional: true, required: false
-  private _active?: boolean | cdktf.IResolvable; 
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
-  public set active(value: boolean | cdktf.IResolvable) {
+  public set active(value: boolean | cdktn.IResolvable) {
     this._active = value;
   }
   public resetActive() {
@@ -312,7 +312,7 @@ export class OrganizationWebhook extends cdktf.TerraformResource {
   // events - computed: false, optional: false, required: true
   private _events?: string[]; 
   public get events() {
-    return cdktf.Fn.tolist(this.getListAttribute('events'));
+    return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
   public set events(value: string[]) {
     this._events = value;
@@ -365,9 +365,9 @@ export class OrganizationWebhook extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      active: cdktf.booleanToTerraform(this._active),
-      events: cdktf.listMapper(cdktf.stringToTerraform, false)(this._events),
-      id: cdktf.stringToTerraform(this._id),
+      active: cdktn.booleanToTerraform(this._active),
+      events: cdktn.listMapper(cdktn.stringToTerraform, false)(this._events),
+      id: cdktn.stringToTerraform(this._id),
       configuration: organizationWebhookConfigurationToTerraform(this._configuration.internalValue),
     };
   }
@@ -375,19 +375,19 @@ export class OrganizationWebhook extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       active: {
-        value: cdktf.booleanToHclTerraform(this._active),
+        value: cdktn.booleanToHclTerraform(this._active),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       events: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._events),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._events),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

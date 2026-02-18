@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryEnvironmentDeploymentPoliciesConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryEnvironmentDeploymentPoliciesConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the environment.
   *
@@ -36,8 +36,8 @@ export interface DataGithubRepositoryEnvironmentDeploymentPoliciesPolicies {
 }
 
 export function dataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesToTerraform(struct?: DataGithubRepositoryEnvironmentDeploymentPoliciesPolicies): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -46,8 +46,8 @@ export function dataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesToTerra
 
 
 export function dataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesToHclTerraform(struct?: DataGithubRepositoryEnvironmentDeploymentPoliciesPolicies): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -55,7 +55,7 @@ export function dataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesToHclTe
   return attrs;
 }
 
-export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -64,7 +64,7 @@ export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesOutputRefe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -94,14 +94,14 @@ export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesOutputRefe
   }
 }
 
-export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList extends cdktf.ComplexList {
+export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -116,7 +116,7 @@ export class DataGithubRepositoryEnvironmentDeploymentPoliciesPoliciesList exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}
 */
-export class DataGithubRepositoryEnvironmentDeploymentPolicies extends cdktf.TerraformDataSource {
+export class DataGithubRepositoryEnvironmentDeploymentPolicies extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -127,14 +127,14 @@ export class DataGithubRepositoryEnvironmentDeploymentPolicies extends cdktf.Ter
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositoryEnvironmentDeploymentPolicies resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositoryEnvironmentDeploymentPolicies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositoryEnvironmentDeploymentPolicies to import
   * @param importFromId The id of the existing DataGithubRepositoryEnvironmentDeploymentPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_environment_deployment_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositoryEnvironmentDeploymentPolicies to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_environment_deployment_policies", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_environment_deployment_policies", importId: importFromId, provider });
       }
 
   // ===========
@@ -227,28 +227,28 @@ export class DataGithubRepositoryEnvironmentDeploymentPolicies extends cdktf.Ter
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      environment: cdktf.stringToTerraform(this._environment),
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
+      environment: cdktn.stringToTerraform(this._environment),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       environment: {
-        value: cdktf.stringToHclTerraform(this._environment),
+        value: cdktn.stringToHclTerraform(this._environment),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

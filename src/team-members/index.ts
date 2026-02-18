@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface TeamMembersConfig extends cdktf.TerraformMetaArguments {
+export interface TeamMembersConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_members#id TeamMembers#id}
   *
@@ -30,7 +30,7 @@ export interface TeamMembersConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_members#members TeamMembers#members}
   */
-  readonly members: TeamMembersMembers[] | cdktf.IResolvable;
+  readonly members: TeamMembersMembers[] | cdktn.IResolvable;
 }
 export interface TeamMembersMembers {
   /**
@@ -47,32 +47,32 @@ export interface TeamMembersMembers {
   readonly username: string;
 }
 
-export function teamMembersMembersToTerraform(struct?: TeamMembersMembers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function teamMembersMembersToTerraform(struct?: TeamMembersMembers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    role: cdktf.stringToTerraform(struct!.role),
-    username: cdktf.stringToTerraform(struct!.username),
+    role: cdktn.stringToTerraform(struct!.role),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
-export function teamMembersMembersToHclTerraform(struct?: TeamMembersMembers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function teamMembersMembersToHclTerraform(struct?: TeamMembersMembers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     role: {
-      value: cdktf.stringToHclTerraform(struct!.role),
+      value: cdktn.stringToHclTerraform(struct!.role),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -83,9 +83,9 @@ export function teamMembersMembersToHclTerraform(struct?: TeamMembersMembers | c
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class TeamMembersMembersOutputReference extends cdktf.ComplexObject {
+export class TeamMembersMembersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -93,11 +93,11 @@ export class TeamMembersMembersOutputReference extends cdktf.ComplexObject {
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): TeamMembersMembers | cdktf.IResolvable | undefined {
+  public get internalValue(): TeamMembersMembers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -114,14 +114,14 @@ export class TeamMembersMembersOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: TeamMembersMembers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: TeamMembersMembers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._role = undefined;
       this._username = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -163,15 +163,15 @@ export class TeamMembersMembersOutputReference extends cdktf.ComplexObject {
   }
 }
 
-export class TeamMembersMembersList extends cdktf.ComplexList {
-  public internalValue? : TeamMembersMembers[] | cdktf.IResolvable
+export class TeamMembersMembersList extends cdktn.ComplexList {
+  public internalValue? : TeamMembersMembers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -186,7 +186,7 @@ export class TeamMembersMembersList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_members github_team_members}
 */
-export class TeamMembers extends cdktf.TerraformResource {
+export class TeamMembers extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -197,14 +197,14 @@ export class TeamMembers extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a TeamMembers resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a TeamMembers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamMembers to import
   * @param importFromId The id of the existing TeamMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamMembers to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_team_members", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_team_members", importId: importFromId, provider });
       }
 
   // ===========
@@ -277,7 +277,7 @@ export class TeamMembers extends cdktf.TerraformResource {
   public get members() {
     return this._members;
   }
-  public putMembers(value: TeamMembersMembers[] | cdktf.IResolvable) {
+  public putMembers(value: TeamMembersMembers[] | cdktn.IResolvable) {
     this._members.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -291,28 +291,28 @@ export class TeamMembers extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      team_id: cdktf.stringToTerraform(this._teamId),
-      members: cdktf.listMapper(teamMembersMembersToTerraform, true)(this._members.internalValue),
+      id: cdktn.stringToTerraform(this._id),
+      team_id: cdktn.stringToTerraform(this._teamId),
+      members: cdktn.listMapper(teamMembersMembersToTerraform, true)(this._members.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_id: {
-        value: cdktf.stringToHclTerraform(this._teamId),
+        value: cdktn.stringToHclTerraform(this._teamId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       members: {
-        value: cdktf.listMapperHcl(teamMembersMembersToHclTerraform, true)(this._members.internalValue),
+        value: cdktn.listMapperHcl(teamMembersMembersToHclTerraform, true)(this._members.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "TeamMembersMembersList",

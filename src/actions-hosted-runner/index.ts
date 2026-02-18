@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsHostedRunnerConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsHostedRunnerConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether this runner should be used to generate custom images. Cannot be changed after creation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_hosted_runner#image_gen ActionsHostedRunner#image_gen}
   */
-  readonly imageGen?: boolean | cdktf.IResolvable;
+  readonly imageGen?: boolean | cdktn.IResolvable;
   /**
   * The version of the runner image to deploy. This is relevant only for runners using custom images.
   *
@@ -41,7 +41,7 @@ export interface ActionsHostedRunnerConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_hosted_runner#public_ip_enabled ActionsHostedRunner#public_ip_enabled}
   */
-  readonly publicIpEnabled?: boolean | cdktf.IResolvable;
+  readonly publicIpEnabled?: boolean | cdktn.IResolvable;
   /**
   * The runner group ID.
   *
@@ -71,8 +71,8 @@ export interface ActionsHostedRunnerMachineSizeDetails {
 }
 
 export function actionsHostedRunnerMachineSizeDetailsToTerraform(struct?: ActionsHostedRunnerMachineSizeDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -81,8 +81,8 @@ export function actionsHostedRunnerMachineSizeDetailsToTerraform(struct?: Action
 
 
 export function actionsHostedRunnerMachineSizeDetailsToHclTerraform(struct?: ActionsHostedRunnerMachineSizeDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -90,7 +90,7 @@ export function actionsHostedRunnerMachineSizeDetailsToHclTerraform(struct?: Act
   return attrs;
 }
 
-export class ActionsHostedRunnerMachineSizeDetailsOutputReference extends cdktf.ComplexObject {
+export class ActionsHostedRunnerMachineSizeDetailsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -99,7 +99,7 @@ export class ActionsHostedRunnerMachineSizeDetailsOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -139,14 +139,14 @@ export class ActionsHostedRunnerMachineSizeDetailsOutputReference extends cdktf.
   }
 }
 
-export class ActionsHostedRunnerMachineSizeDetailsList extends cdktf.ComplexList {
+export class ActionsHostedRunnerMachineSizeDetailsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -161,8 +161,8 @@ export interface ActionsHostedRunnerPublicIps {
 }
 
 export function actionsHostedRunnerPublicIpsToTerraform(struct?: ActionsHostedRunnerPublicIps): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -171,8 +171,8 @@ export function actionsHostedRunnerPublicIpsToTerraform(struct?: ActionsHostedRu
 
 
 export function actionsHostedRunnerPublicIpsToHclTerraform(struct?: ActionsHostedRunnerPublicIps): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -180,7 +180,7 @@ export function actionsHostedRunnerPublicIpsToHclTerraform(struct?: ActionsHoste
   return attrs;
 }
 
-export class ActionsHostedRunnerPublicIpsOutputReference extends cdktf.ComplexObject {
+export class ActionsHostedRunnerPublicIpsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -189,7 +189,7 @@ export class ActionsHostedRunnerPublicIpsOutputReference extends cdktf.ComplexOb
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -224,14 +224,14 @@ export class ActionsHostedRunnerPublicIpsOutputReference extends cdktf.ComplexOb
   }
 }
 
-export class ActionsHostedRunnerPublicIpsList extends cdktf.ComplexList {
+export class ActionsHostedRunnerPublicIpsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -261,31 +261,31 @@ export interface ActionsHostedRunnerImage {
 }
 
 export function actionsHostedRunnerImageToTerraform(struct?: ActionsHostedRunnerImageOutputReference | ActionsHostedRunnerImage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    source: cdktf.stringToTerraform(struct!.source),
+    id: cdktn.stringToTerraform(struct!.id),
+    source: cdktn.stringToTerraform(struct!.source),
   }
 }
 
 
 export function actionsHostedRunnerImageToHclTerraform(struct?: ActionsHostedRunnerImageOutputReference | ActionsHostedRunnerImage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source: {
-      value: cdktf.stringToHclTerraform(struct!.source),
+      value: cdktn.stringToHclTerraform(struct!.source),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -296,14 +296,14 @@ export function actionsHostedRunnerImageToHclTerraform(struct?: ActionsHostedRun
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class ActionsHostedRunnerImageOutputReference extends cdktf.ComplexObject {
+export class ActionsHostedRunnerImageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -375,25 +375,25 @@ export interface ActionsHostedRunnerTimeouts {
   readonly delete?: string;
 }
 
-export function actionsHostedRunnerTimeoutsToTerraform(struct?: ActionsHostedRunnerTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function actionsHostedRunnerTimeoutsToTerraform(struct?: ActionsHostedRunnerTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    delete: cdktf.stringToTerraform(struct!.delete),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function actionsHostedRunnerTimeoutsToHclTerraform(struct?: ActionsHostedRunnerTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function actionsHostedRunnerTimeoutsToHclTerraform(struct?: ActionsHostedRunnerTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -404,19 +404,19 @@ export function actionsHostedRunnerTimeoutsToHclTerraform(struct?: ActionsHosted
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class ActionsHostedRunnerTimeoutsOutputReference extends cdktf.ComplexObject {
+export class ActionsHostedRunnerTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): ActionsHostedRunnerTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): ActionsHostedRunnerTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -429,13 +429,13 @@ export class ActionsHostedRunnerTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ActionsHostedRunnerTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: ActionsHostedRunnerTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -466,7 +466,7 @@ export class ActionsHostedRunnerTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_hosted_runner github_actions_hosted_runner}
 */
-export class ActionsHostedRunner extends cdktf.TerraformResource {
+export class ActionsHostedRunner extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -477,14 +477,14 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsHostedRunner resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsHostedRunner resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsHostedRunner to import
   * @param importFromId The id of the existing ActionsHostedRunner that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_hosted_runner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsHostedRunner to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_hosted_runner", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_hosted_runner", importId: importFromId, provider });
       }
 
   // ===========
@@ -535,11 +535,11 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   }
 
   // image_gen - computed: false, optional: true, required: false
-  private _imageGen?: boolean | cdktf.IResolvable; 
+  private _imageGen?: boolean | cdktn.IResolvable; 
   public get imageGen() {
     return this.getBooleanAttribute('image_gen');
   }
-  public set imageGen(value: boolean | cdktf.IResolvable) {
+  public set imageGen(value: boolean | cdktn.IResolvable) {
     this._imageGen = value;
   }
   public resetImageGen() {
@@ -612,11 +612,11 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   }
 
   // public_ip_enabled - computed: false, optional: true, required: false
-  private _publicIpEnabled?: boolean | cdktf.IResolvable; 
+  private _publicIpEnabled?: boolean | cdktn.IResolvable; 
   public get publicIpEnabled() {
     return this.getBooleanAttribute('public_ip_enabled');
   }
-  public set publicIpEnabled(value: boolean | cdktf.IResolvable) {
+  public set publicIpEnabled(value: boolean | cdktn.IResolvable) {
     this._publicIpEnabled = value;
   }
   public resetPublicIpEnabled() {
@@ -699,13 +699,13 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      image_gen: cdktf.booleanToTerraform(this._imageGen),
-      image_version: cdktf.stringToTerraform(this._imageVersion),
-      maximum_runners: cdktf.numberToTerraform(this._maximumRunners),
-      name: cdktf.stringToTerraform(this._name),
-      public_ip_enabled: cdktf.booleanToTerraform(this._publicIpEnabled),
-      runner_group_id: cdktf.numberToTerraform(this._runnerGroupId),
-      size: cdktf.stringToTerraform(this._size),
+      image_gen: cdktn.booleanToTerraform(this._imageGen),
+      image_version: cdktn.stringToTerraform(this._imageVersion),
+      maximum_runners: cdktn.numberToTerraform(this._maximumRunners),
+      name: cdktn.stringToTerraform(this._name),
+      public_ip_enabled: cdktn.booleanToTerraform(this._publicIpEnabled),
+      runner_group_id: cdktn.numberToTerraform(this._runnerGroupId),
+      size: cdktn.stringToTerraform(this._size),
       image: actionsHostedRunnerImageToTerraform(this._image.internalValue),
       timeouts: actionsHostedRunnerTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -714,43 +714,43 @@ export class ActionsHostedRunner extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       image_gen: {
-        value: cdktf.booleanToHclTerraform(this._imageGen),
+        value: cdktn.booleanToHclTerraform(this._imageGen),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       image_version: {
-        value: cdktf.stringToHclTerraform(this._imageVersion),
+        value: cdktn.stringToHclTerraform(this._imageVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       maximum_runners: {
-        value: cdktf.numberToHclTerraform(this._maximumRunners),
+        value: cdktn.numberToHclTerraform(this._maximumRunners),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       public_ip_enabled: {
-        value: cdktf.booleanToHclTerraform(this._publicIpEnabled),
+        value: cdktn.booleanToHclTerraform(this._publicIpEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       runner_group_id: {
-        value: cdktf.numberToHclTerraform(this._runnerGroupId),
+        value: cdktn.numberToHclTerraform(this._runnerGroupId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       size: {
-        value: cdktf.stringToHclTerraform(this._size),
+        value: cdktn.stringToHclTerraform(this._size),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

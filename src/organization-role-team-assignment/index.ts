@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface OrganizationRoleTeamAssignmentConfig extends cdktf.TerraformMetaArguments {
+export interface OrganizationRoleTeamAssignmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}
   *
@@ -36,7 +36,7 @@ export interface OrganizationRoleTeamAssignmentConfig extends cdktf.TerraformMet
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}
 */
-export class OrganizationRoleTeamAssignment extends cdktf.TerraformResource {
+export class OrganizationRoleTeamAssignment extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class OrganizationRoleTeamAssignment extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a OrganizationRoleTeamAssignment resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a OrganizationRoleTeamAssignment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationRoleTeamAssignment to import
   * @param importFromId The id of the existing OrganizationRoleTeamAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_role_team_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationRoleTeamAssignment to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role_team_assignment", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization_role_team_assignment", importId: importFromId, provider });
       }
 
   // ===========
@@ -141,28 +141,28 @@ export class OrganizationRoleTeamAssignment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      role_id: cdktf.stringToTerraform(this._roleId),
-      team_slug: cdktf.stringToTerraform(this._teamSlug),
+      id: cdktn.stringToTerraform(this._id),
+      role_id: cdktn.stringToTerraform(this._roleId),
+      team_slug: cdktn.stringToTerraform(this._teamSlug),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role_id: {
-        value: cdktf.stringToHclTerraform(this._roleId),
+        value: cdktn.stringToHclTerraform(this._roleId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_slug: {
-        value: cdktf.stringToHclTerraform(this._teamSlug),
+        value: cdktn.stringToHclTerraform(this._teamSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
