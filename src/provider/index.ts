@@ -7,7 +7,7 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
@@ -23,7 +23,7 @@ export interface GithubProviderConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs#insecure GithubProvider#insecure}
   */
-  readonly insecure?: boolean | cdktf.IResolvable;
+  readonly insecure?: boolean | cdktn.IResolvable;
   /**
   * Number of items per page for paginationDefaults to 100
   *
@@ -53,7 +53,7 @@ export interface GithubProviderConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs#parallel_requests GithubProvider#parallel_requests}
   */
-  readonly parallelRequests?: boolean | cdktf.IResolvable;
+  readonly parallelRequests?: boolean | cdktn.IResolvable;
   /**
   * Amount of time in milliseconds to sleep in between non-write requests to GitHub API. Defaults to 0ms if not set.
   *
@@ -122,38 +122,38 @@ export interface GithubProviderAppAuth {
 }
 
 export function githubProviderAppAuthToTerraform(struct?: GithubProviderAppAuth): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    installation_id: cdktf.stringToTerraform(struct!.installationId),
-    pem_file: cdktf.stringToTerraform(struct!.pemFile),
+    id: cdktn.stringToTerraform(struct!.id),
+    installation_id: cdktn.stringToTerraform(struct!.installationId),
+    pem_file: cdktn.stringToTerraform(struct!.pemFile),
   }
 }
 
 
 export function githubProviderAppAuthToHclTerraform(struct?: GithubProviderAppAuth): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     installation_id: {
-      value: cdktf.stringToHclTerraform(struct!.installationId),
+      value: cdktn.stringToHclTerraform(struct!.installationId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pem_file: {
-      value: cdktf.stringToHclTerraform(struct!.pemFile),
+      value: cdktn.stringToHclTerraform(struct!.pemFile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -168,7 +168,7 @@ export function githubProviderAppAuthToHclTerraform(struct?: GithubProviderAppAu
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs github}
 */
-export class GithubProvider extends cdktf.TerraformProvider {
+export class GithubProvider extends cdktn.TerraformProvider {
 
   // =================
   // STATIC PROPERTIES
@@ -179,14 +179,14 @@ export class GithubProvider extends cdktf.TerraformProvider {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GithubProvider resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GithubProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GithubProvider to import
   * @param importFromId The id of the existing GithubProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GithubProvider to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github", importId: importFromId, provider });
       }
 
   // ===========
@@ -247,11 +247,11 @@ export class GithubProvider extends cdktf.TerraformProvider {
   }
 
   // insecure - computed: false, optional: true, required: false
-  private _insecure?: boolean | cdktf.IResolvable; 
+  private _insecure?: boolean | cdktn.IResolvable; 
   public get insecure() {
     return this._insecure;
   }
-  public set insecure(value: boolean | cdktf.IResolvable | undefined) {
+  public set insecure(value: boolean | cdktn.IResolvable | undefined) {
     this._insecure = value;
   }
   public resetInsecure() {
@@ -327,11 +327,11 @@ export class GithubProvider extends cdktf.TerraformProvider {
   }
 
   // parallel_requests - computed: false, optional: true, required: false
-  private _parallelRequests?: boolean | cdktf.IResolvable; 
+  private _parallelRequests?: boolean | cdktn.IResolvable; 
   public get parallelRequests() {
     return this._parallelRequests;
   }
-  public set parallelRequests(value: boolean | cdktf.IResolvable | undefined) {
+  public set parallelRequests(value: boolean | cdktn.IResolvable | undefined) {
     this._parallelRequests = value;
   }
   public resetParallelRequests() {
@@ -460,19 +460,19 @@ export class GithubProvider extends cdktf.TerraformProvider {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_url: cdktf.stringToTerraform(this._baseUrl),
-      insecure: cdktf.booleanToTerraform(this._insecure),
-      max_per_page: cdktf.numberToTerraform(this._maxPerPage),
-      max_retries: cdktf.numberToTerraform(this._maxRetries),
-      organization: cdktf.stringToTerraform(this._organization),
-      owner: cdktf.stringToTerraform(this._owner),
-      parallel_requests: cdktf.booleanToTerraform(this._parallelRequests),
-      read_delay_ms: cdktf.numberToTerraform(this._readDelayMs),
-      retry_delay_ms: cdktf.numberToTerraform(this._retryDelayMs),
-      retryable_errors: cdktf.listMapper(cdktf.numberToTerraform, false)(this._retryableErrors),
-      token: cdktf.stringToTerraform(this._token),
-      write_delay_ms: cdktf.numberToTerraform(this._writeDelayMs),
-      alias: cdktf.stringToTerraform(this._alias),
+      base_url: cdktn.stringToTerraform(this._baseUrl),
+      insecure: cdktn.booleanToTerraform(this._insecure),
+      max_per_page: cdktn.numberToTerraform(this._maxPerPage),
+      max_retries: cdktn.numberToTerraform(this._maxRetries),
+      organization: cdktn.stringToTerraform(this._organization),
+      owner: cdktn.stringToTerraform(this._owner),
+      parallel_requests: cdktn.booleanToTerraform(this._parallelRequests),
+      read_delay_ms: cdktn.numberToTerraform(this._readDelayMs),
+      retry_delay_ms: cdktn.numberToTerraform(this._retryDelayMs),
+      retryable_errors: cdktn.listMapper(cdktn.numberToTerraform, false)(this._retryableErrors),
+      token: cdktn.stringToTerraform(this._token),
+      write_delay_ms: cdktn.numberToTerraform(this._writeDelayMs),
+      alias: cdktn.stringToTerraform(this._alias),
       app_auth: githubProviderAppAuthToTerraform(this._appAuth),
     };
   }
@@ -480,79 +480,79 @@ export class GithubProvider extends cdktf.TerraformProvider {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_url: {
-        value: cdktf.stringToHclTerraform(this._baseUrl),
+        value: cdktn.stringToHclTerraform(this._baseUrl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       insecure: {
-        value: cdktf.booleanToHclTerraform(this._insecure),
+        value: cdktn.booleanToHclTerraform(this._insecure),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       max_per_page: {
-        value: cdktf.numberToHclTerraform(this._maxPerPage),
+        value: cdktn.numberToHclTerraform(this._maxPerPage),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       max_retries: {
-        value: cdktf.numberToHclTerraform(this._maxRetries),
+        value: cdktn.numberToHclTerraform(this._maxRetries),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       organization: {
-        value: cdktf.stringToHclTerraform(this._organization),
+        value: cdktn.stringToHclTerraform(this._organization),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parallel_requests: {
-        value: cdktf.booleanToHclTerraform(this._parallelRequests),
+        value: cdktn.booleanToHclTerraform(this._parallelRequests),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       read_delay_ms: {
-        value: cdktf.numberToHclTerraform(this._readDelayMs),
+        value: cdktn.numberToHclTerraform(this._readDelayMs),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       retry_delay_ms: {
-        value: cdktf.numberToHclTerraform(this._retryDelayMs),
+        value: cdktn.numberToHclTerraform(this._retryDelayMs),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       retryable_errors: {
-        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._retryableErrors),
+        value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(this._retryableErrors),
         isBlock: false,
         type: "list",
         storageClassType: "numberList",
       },
       token: {
-        value: cdktf.stringToHclTerraform(this._token),
+        value: cdktn.stringToHclTerraform(this._token),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       write_delay_ms: {
-        value: cdktf.numberToHclTerraform(this._writeDelayMs),
+        value: cdktn.numberToHclTerraform(this._writeDelayMs),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       alias: {
-        value: cdktf.stringToHclTerraform(this._alias),
+        value: cdktn.stringToHclTerraform(this._alias),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

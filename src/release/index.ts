@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ReleaseConfig extends cdktf.TerraformMetaArguments {
+export interface ReleaseConfig extends cdktn.TerraformMetaArguments {
   /**
   * Text describing the contents of the tag.
   *
@@ -29,13 +29,13 @@ export interface ReleaseConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release#draft Release#draft}
   */
-  readonly draft?: boolean | cdktf.IResolvable;
+  readonly draft?: boolean | cdktn.IResolvable;
   /**
   * Set to 'true' to automatically generate the name and body for this release. If 'name' is specified, the specified name will be used; otherwise, a name will be automatically generated. If 'body' is specified, the body will be pre-pended to the automatically generated notes.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release#generate_release_notes Release#generate_release_notes}
   */
-  readonly generateReleaseNotes?: boolean | cdktf.IResolvable;
+  readonly generateReleaseNotes?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release#id Release#id}
   *
@@ -54,7 +54,7 @@ export interface ReleaseConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release#prerelease Release#prerelease}
   */
-  readonly prerelease?: boolean | cdktf.IResolvable;
+  readonly prerelease?: boolean | cdktn.IResolvable;
   /**
   * The name of the repository.
   *
@@ -78,7 +78,7 @@ export interface ReleaseConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release github_release}
 */
-export class Release extends cdktf.TerraformResource {
+export class Release extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -89,14 +89,14 @@ export class Release extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Release resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Release resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Release to import
   * @param importFromId The id of the existing Release that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/release#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Release to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_release", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_release", importId: importFromId, provider });
       }
 
   // ===========
@@ -185,11 +185,11 @@ export class Release extends cdktf.TerraformResource {
   }
 
   // draft - computed: false, optional: true, required: false
-  private _draft?: boolean | cdktf.IResolvable; 
+  private _draft?: boolean | cdktn.IResolvable; 
   public get draft() {
     return this.getBooleanAttribute('draft');
   }
-  public set draft(value: boolean | cdktf.IResolvable) {
+  public set draft(value: boolean | cdktn.IResolvable) {
     this._draft = value;
   }
   public resetDraft() {
@@ -206,11 +206,11 @@ export class Release extends cdktf.TerraformResource {
   }
 
   // generate_release_notes - computed: false, optional: true, required: false
-  private _generateReleaseNotes?: boolean | cdktf.IResolvable; 
+  private _generateReleaseNotes?: boolean | cdktn.IResolvable; 
   public get generateReleaseNotes() {
     return this.getBooleanAttribute('generate_release_notes');
   }
-  public set generateReleaseNotes(value: boolean | cdktf.IResolvable) {
+  public set generateReleaseNotes(value: boolean | cdktn.IResolvable) {
     this._generateReleaseNotes = value;
   }
   public resetGenerateReleaseNotes() {
@@ -264,11 +264,11 @@ export class Release extends cdktf.TerraformResource {
   }
 
   // prerelease - computed: false, optional: true, required: false
-  private _prerelease?: boolean | cdktf.IResolvable; 
+  private _prerelease?: boolean | cdktn.IResolvable; 
   public get prerelease() {
     return this.getBooleanAttribute('prerelease');
   }
-  public set prerelease(value: boolean | cdktf.IResolvable) {
+  public set prerelease(value: boolean | cdktn.IResolvable) {
     this._prerelease = value;
   }
   public resetPrerelease() {
@@ -357,77 +357,77 @@ export class Release extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      body: cdktf.stringToTerraform(this._body),
-      discussion_category_name: cdktf.stringToTerraform(this._discussionCategoryName),
-      draft: cdktf.booleanToTerraform(this._draft),
-      generate_release_notes: cdktf.booleanToTerraform(this._generateReleaseNotes),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      prerelease: cdktf.booleanToTerraform(this._prerelease),
-      repository: cdktf.stringToTerraform(this._repository),
-      tag_name: cdktf.stringToTerraform(this._tagName),
-      target_commitish: cdktf.stringToTerraform(this._targetCommitish),
+      body: cdktn.stringToTerraform(this._body),
+      discussion_category_name: cdktn.stringToTerraform(this._discussionCategoryName),
+      draft: cdktn.booleanToTerraform(this._draft),
+      generate_release_notes: cdktn.booleanToTerraform(this._generateReleaseNotes),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      prerelease: cdktn.booleanToTerraform(this._prerelease),
+      repository: cdktn.stringToTerraform(this._repository),
+      tag_name: cdktn.stringToTerraform(this._tagName),
+      target_commitish: cdktn.stringToTerraform(this._targetCommitish),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       body: {
-        value: cdktf.stringToHclTerraform(this._body),
+        value: cdktn.stringToHclTerraform(this._body),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       discussion_category_name: {
-        value: cdktf.stringToHclTerraform(this._discussionCategoryName),
+        value: cdktn.stringToHclTerraform(this._discussionCategoryName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       draft: {
-        value: cdktf.booleanToHclTerraform(this._draft),
+        value: cdktn.booleanToHclTerraform(this._draft),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       generate_release_notes: {
-        value: cdktf.booleanToHclTerraform(this._generateReleaseNotes),
+        value: cdktn.booleanToHclTerraform(this._generateReleaseNotes),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       prerelease: {
-        value: cdktf.booleanToHclTerraform(this._prerelease),
+        value: cdktn.booleanToHclTerraform(this._prerelease),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tag_name: {
-        value: cdktf.stringToHclTerraform(this._tagName),
+        value: cdktn.stringToHclTerraform(this._tagName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       target_commitish: {
-        value: cdktf.stringToHclTerraform(this._targetCommitish),
+        value: cdktn.stringToHclTerraform(this._targetCommitish),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

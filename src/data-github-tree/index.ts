@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubTreeConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubTreeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#id DataGithubTree#id}
   *
@@ -22,7 +22,7 @@ export interface DataGithubTreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#recursive DataGithubTree#recursive}
   */
-  readonly recursive?: boolean | cdktf.IResolvable;
+  readonly recursive?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#repository DataGithubTree#repository}
   */
@@ -36,8 +36,8 @@ export interface DataGithubTreeEntries {
 }
 
 export function dataGithubTreeEntriesToTerraform(struct?: DataGithubTreeEntries): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -46,8 +46,8 @@ export function dataGithubTreeEntriesToTerraform(struct?: DataGithubTreeEntries)
 
 
 export function dataGithubTreeEntriesToHclTerraform(struct?: DataGithubTreeEntries): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -55,7 +55,7 @@ export function dataGithubTreeEntriesToHclTerraform(struct?: DataGithubTreeEntri
   return attrs;
 }
 
-export class DataGithubTreeEntriesOutputReference extends cdktf.ComplexObject {
+export class DataGithubTreeEntriesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -64,7 +64,7 @@ export class DataGithubTreeEntriesOutputReference extends cdktf.ComplexObject {
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -109,14 +109,14 @@ export class DataGithubTreeEntriesOutputReference extends cdktf.ComplexObject {
   }
 }
 
-export class DataGithubTreeEntriesList extends cdktf.ComplexList {
+export class DataGithubTreeEntriesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -131,7 +131,7 @@ export class DataGithubTreeEntriesList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree github_tree}
 */
-export class DataGithubTree extends cdktf.TerraformDataSource {
+export class DataGithubTree extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -142,14 +142,14 @@ export class DataGithubTree extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubTree resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubTree resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubTree to import
   * @param importFromId The id of the existing DataGithubTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubTree to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_tree", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_tree", importId: importFromId, provider });
       }
 
   // ===========
@@ -212,11 +212,11 @@ export class DataGithubTree extends cdktf.TerraformDataSource {
   }
 
   // recursive - computed: false, optional: true, required: false
-  private _recursive?: boolean | cdktf.IResolvable; 
+  private _recursive?: boolean | cdktn.IResolvable; 
   public get recursive() {
     return this.getBooleanAttribute('recursive');
   }
-  public set recursive(value: boolean | cdktf.IResolvable) {
+  public set recursive(value: boolean | cdktn.IResolvable) {
     this._recursive = value;
   }
   public resetRecursive() {
@@ -259,35 +259,35 @@ export class DataGithubTree extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      recursive: cdktf.booleanToTerraform(this._recursive),
-      repository: cdktf.stringToTerraform(this._repository),
-      tree_sha: cdktf.stringToTerraform(this._treeSha),
+      id: cdktn.stringToTerraform(this._id),
+      recursive: cdktn.booleanToTerraform(this._recursive),
+      repository: cdktn.stringToTerraform(this._repository),
+      tree_sha: cdktn.stringToTerraform(this._treeSha),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       recursive: {
-        value: cdktf.booleanToHclTerraform(this._recursive),
+        value: cdktn.booleanToHclTerraform(this._recursive),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tree_sha: {
-        value: cdktf.stringToHclTerraform(this._treeSha),
+        value: cdktn.stringToHclTerraform(this._treeSha),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

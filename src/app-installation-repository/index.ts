@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface AppInstallationRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface AppInstallationRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/app_installation_repository#id AppInstallationRepository#id}
   *
@@ -36,7 +36,7 @@ export interface AppInstallationRepositoryConfig extends cdktf.TerraformMetaArgu
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/app_installation_repository github_app_installation_repository}
 */
-export class AppInstallationRepository extends cdktf.TerraformResource {
+export class AppInstallationRepository extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class AppInstallationRepository extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AppInstallationRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a AppInstallationRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppInstallationRepository to import
   * @param importFromId The id of the existing AppInstallationRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/app_installation_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppInstallationRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_app_installation_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_app_installation_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -146,28 +146,28 @@ export class AppInstallationRepository extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      installation_id: cdktf.stringToTerraform(this._installationId),
-      repository: cdktf.stringToTerraform(this._repository),
+      id: cdktn.stringToTerraform(this._id),
+      installation_id: cdktn.stringToTerraform(this._installationId),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       installation_id: {
-        value: cdktf.stringToHclTerraform(this._installationId),
+        value: cdktn.stringToHclTerraform(this._installationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

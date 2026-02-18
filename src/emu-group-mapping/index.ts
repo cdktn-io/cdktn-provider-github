@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface EmuGroupMappingConfig extends cdktf.TerraformMetaArguments {
+export interface EmuGroupMappingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Integer corresponding to the external group ID to be linked.
   *
@@ -36,7 +36,7 @@ export interface EmuGroupMappingConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/emu_group_mapping github_emu_group_mapping}
 */
-export class EmuGroupMapping extends cdktf.TerraformResource {
+export class EmuGroupMapping extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class EmuGroupMapping extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a EmuGroupMapping resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a EmuGroupMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmuGroupMapping to import
   * @param importFromId The id of the existing EmuGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/emu_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmuGroupMapping to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_emu_group_mapping", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_emu_group_mapping", importId: importFromId, provider });
       }
 
   // ===========
@@ -156,28 +156,28 @@ export class EmuGroupMapping extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      group_id: cdktf.numberToTerraform(this._groupId),
-      id: cdktf.stringToTerraform(this._id),
-      team_slug: cdktf.stringToTerraform(this._teamSlug),
+      group_id: cdktn.numberToTerraform(this._groupId),
+      id: cdktn.stringToTerraform(this._id),
+      team_slug: cdktn.stringToTerraform(this._teamSlug),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       group_id: {
-        value: cdktf.numberToHclTerraform(this._groupId),
+        value: cdktn.numberToHclTerraform(this._groupId),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_slug: {
-        value: cdktf.stringToHclTerraform(this._teamSlug),
+        value: cdktn.stringToHclTerraform(this._teamSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

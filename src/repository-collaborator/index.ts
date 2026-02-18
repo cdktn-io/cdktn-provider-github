@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryCollaboratorConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryCollaboratorConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator#id RepositoryCollaborator#id}
   *
@@ -30,7 +30,7 @@ export interface RepositoryCollaboratorConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator#permission_diff_suppression RepositoryCollaborator#permission_diff_suppression}
   */
-  readonly permissionDiffSuppression?: boolean | cdktf.IResolvable;
+  readonly permissionDiffSuppression?: boolean | cdktn.IResolvable;
   /**
   * The GitHub repository
   *
@@ -48,7 +48,7 @@ export interface RepositoryCollaboratorConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator github_repository_collaborator}
 */
-export class RepositoryCollaborator extends cdktf.TerraformResource {
+export class RepositoryCollaborator extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class RepositoryCollaborator extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryCollaborator resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryCollaborator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryCollaborator to import
   * @param importFromId The id of the existing RepositoryCollaborator that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryCollaborator to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_collaborator", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_collaborator", importId: importFromId, provider });
       }
 
   // ===========
@@ -145,11 +145,11 @@ export class RepositoryCollaborator extends cdktf.TerraformResource {
   }
 
   // permission_diff_suppression - computed: false, optional: true, required: false
-  private _permissionDiffSuppression?: boolean | cdktf.IResolvable; 
+  private _permissionDiffSuppression?: boolean | cdktn.IResolvable; 
   public get permissionDiffSuppression() {
     return this.getBooleanAttribute('permission_diff_suppression');
   }
-  public set permissionDiffSuppression(value: boolean | cdktf.IResolvable) {
+  public set permissionDiffSuppression(value: boolean | cdktn.IResolvable) {
     this._permissionDiffSuppression = value;
   }
   public resetPermissionDiffSuppression() {
@@ -192,42 +192,42 @@ export class RepositoryCollaborator extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      permission: cdktf.stringToTerraform(this._permission),
-      permission_diff_suppression: cdktf.booleanToTerraform(this._permissionDiffSuppression),
-      repository: cdktf.stringToTerraform(this._repository),
-      username: cdktf.stringToTerraform(this._username),
+      id: cdktn.stringToTerraform(this._id),
+      permission: cdktn.stringToTerraform(this._permission),
+      permission_diff_suppression: cdktn.booleanToTerraform(this._permissionDiffSuppression),
+      repository: cdktn.stringToTerraform(this._repository),
+      username: cdktn.stringToTerraform(this._username),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       permission: {
-        value: cdktf.stringToHclTerraform(this._permission),
+        value: cdktn.stringToHclTerraform(this._permission),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       permission_diff_suppression: {
-        value: cdktf.booleanToHclTerraform(this._permissionDiffSuppression),
+        value: cdktn.booleanToHclTerraform(this._permissionDiffSuppression),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       username: {
-        value: cdktf.stringToHclTerraform(this._username),
+        value: cdktn.stringToHclTerraform(this._username),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

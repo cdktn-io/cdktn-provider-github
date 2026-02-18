@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsRepositoryPermissionsConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsRepositoryPermissionsConfig extends cdktn.TerraformMetaArguments {
   /**
   * The permissions policy that controls the actions that are allowed to run. Can be one of: 'all', 'local_only', or 'selected'.
   *
@@ -23,7 +23,7 @@ export interface ActionsRepositoryPermissionsConfig extends cdktf.TerraformMetaA
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#enabled ActionsRepositoryPermissions#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#id ActionsRepositoryPermissions#id}
   *
@@ -42,7 +42,7 @@ export interface ActionsRepositoryPermissionsConfig extends cdktf.TerraformMetaA
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#sha_pinning_required ActionsRepositoryPermissions#sha_pinning_required}
   */
-  readonly shaPinningRequired?: boolean | cdktf.IResolvable;
+  readonly shaPinningRequired?: boolean | cdktn.IResolvable;
   /**
   * allowed_actions_config block
   *
@@ -56,7 +56,7 @@ export interface ActionsRepositoryPermissionsAllowedActionsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#github_owned_allowed ActionsRepositoryPermissions#github_owned_allowed}
   */
-  readonly githubOwnedAllowed: boolean | cdktf.IResolvable;
+  readonly githubOwnedAllowed: boolean | cdktn.IResolvable;
   /**
   * Specifies a list of string-matching patterns to allow specific action(s). Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
   *
@@ -68,42 +68,42 @@ export interface ActionsRepositoryPermissionsAllowedActionsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#verified_allowed ActionsRepositoryPermissions#verified_allowed}
   */
-  readonly verifiedAllowed?: boolean | cdktf.IResolvable;
+  readonly verifiedAllowed?: boolean | cdktn.IResolvable;
 }
 
 export function actionsRepositoryPermissionsAllowedActionsConfigToTerraform(struct?: ActionsRepositoryPermissionsAllowedActionsConfigOutputReference | ActionsRepositoryPermissionsAllowedActionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    github_owned_allowed: cdktf.booleanToTerraform(struct!.githubOwnedAllowed),
-    patterns_allowed: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.patternsAllowed),
-    verified_allowed: cdktf.booleanToTerraform(struct!.verifiedAllowed),
+    github_owned_allowed: cdktn.booleanToTerraform(struct!.githubOwnedAllowed),
+    patterns_allowed: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.patternsAllowed),
+    verified_allowed: cdktn.booleanToTerraform(struct!.verifiedAllowed),
   }
 }
 
 
 export function actionsRepositoryPermissionsAllowedActionsConfigToHclTerraform(struct?: ActionsRepositoryPermissionsAllowedActionsConfigOutputReference | ActionsRepositoryPermissionsAllowedActionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     github_owned_allowed: {
-      value: cdktf.booleanToHclTerraform(struct!.githubOwnedAllowed),
+      value: cdktn.booleanToHclTerraform(struct!.githubOwnedAllowed),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     patterns_allowed: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.patternsAllowed),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.patternsAllowed),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     verified_allowed: {
-      value: cdktf.booleanToHclTerraform(struct!.verifiedAllowed),
+      value: cdktn.booleanToHclTerraform(struct!.verifiedAllowed),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -114,14 +114,14 @@ export function actionsRepositoryPermissionsAllowedActionsConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference extends cdktf.ComplexObject {
+export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -159,11 +159,11 @@ export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference ext
   }
 
   // github_owned_allowed - computed: false, optional: false, required: true
-  private _githubOwnedAllowed?: boolean | cdktf.IResolvable; 
+  private _githubOwnedAllowed?: boolean | cdktn.IResolvable; 
   public get githubOwnedAllowed() {
     return this.getBooleanAttribute('github_owned_allowed');
   }
-  public set githubOwnedAllowed(value: boolean | cdktf.IResolvable) {
+  public set githubOwnedAllowed(value: boolean | cdktn.IResolvable) {
     this._githubOwnedAllowed = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -174,7 +174,7 @@ export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference ext
   // patterns_allowed - computed: false, optional: true, required: false
   private _patternsAllowed?: string[]; 
   public get patternsAllowed() {
-    return cdktf.Fn.tolist(this.getListAttribute('patterns_allowed'));
+    return cdktn.Fn.tolist(this.getListAttribute('patterns_allowed'));
   }
   public set patternsAllowed(value: string[]) {
     this._patternsAllowed = value;
@@ -188,11 +188,11 @@ export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference ext
   }
 
   // verified_allowed - computed: false, optional: true, required: false
-  private _verifiedAllowed?: boolean | cdktf.IResolvable; 
+  private _verifiedAllowed?: boolean | cdktn.IResolvable; 
   public get verifiedAllowed() {
     return this.getBooleanAttribute('verified_allowed');
   }
-  public set verifiedAllowed(value: boolean | cdktf.IResolvable) {
+  public set verifiedAllowed(value: boolean | cdktn.IResolvable) {
     this._verifiedAllowed = value;
   }
   public resetVerifiedAllowed() {
@@ -207,7 +207,7 @@ export class ActionsRepositoryPermissionsAllowedActionsConfigOutputReference ext
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions github_actions_repository_permissions}
 */
-export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
+export class ActionsRepositoryPermissions extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -218,14 +218,14 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsRepositoryPermissions resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsRepositoryPermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsRepositoryPermissions to import
   * @param importFromId The id of the existing ActionsRepositoryPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsRepositoryPermissions to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_repository_permissions", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_repository_permissions", importId: importFromId, provider });
       }
 
   // ===========
@@ -284,11 +284,11 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -329,11 +329,11 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   }
 
   // sha_pinning_required - computed: true, optional: true, required: false
-  private _shaPinningRequired?: boolean | cdktf.IResolvable; 
+  private _shaPinningRequired?: boolean | cdktn.IResolvable; 
   public get shaPinningRequired() {
     return this.getBooleanAttribute('sha_pinning_required');
   }
-  public set shaPinningRequired(value: boolean | cdktf.IResolvable) {
+  public set shaPinningRequired(value: boolean | cdktn.IResolvable) {
     this._shaPinningRequired = value;
   }
   public resetShaPinningRequired() {
@@ -366,11 +366,11 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allowed_actions: cdktf.stringToTerraform(this._allowedActions),
-      enabled: cdktf.booleanToTerraform(this._enabled),
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
-      sha_pinning_required: cdktf.booleanToTerraform(this._shaPinningRequired),
+      allowed_actions: cdktn.stringToTerraform(this._allowedActions),
+      enabled: cdktn.booleanToTerraform(this._enabled),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
+      sha_pinning_required: cdktn.booleanToTerraform(this._shaPinningRequired),
       allowed_actions_config: actionsRepositoryPermissionsAllowedActionsConfigToTerraform(this._allowedActionsConfig.internalValue),
     };
   }
@@ -378,31 +378,31 @@ export class ActionsRepositoryPermissions extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allowed_actions: {
-        value: cdktf.stringToHclTerraform(this._allowedActions),
+        value: cdktn.stringToHclTerraform(this._allowedActions),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled: {
-        value: cdktf.booleanToHclTerraform(this._enabled),
+        value: cdktn.booleanToHclTerraform(this._enabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       sha_pinning_required: {
-        value: cdktf.booleanToHclTerraform(this._shaPinningRequired),
+        value: cdktn.booleanToHclTerraform(this._shaPinningRequired),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

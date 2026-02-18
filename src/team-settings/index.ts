@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface TeamSettingsConfig extends cdktf.TerraformMetaArguments {
+export interface TeamSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#id TeamSettings#id}
   *
@@ -50,42 +50,42 @@ export interface TeamSettingsReviewRequestDelegation {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#notify TeamSettings#notify}
   */
-  readonly notify?: boolean | cdktf.IResolvable;
+  readonly notify?: boolean | cdktn.IResolvable;
 }
 
 export function teamSettingsReviewRequestDelegationToTerraform(struct?: TeamSettingsReviewRequestDelegationOutputReference | TeamSettingsReviewRequestDelegation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    algorithm: cdktf.stringToTerraform(struct!.algorithm),
-    member_count: cdktf.numberToTerraform(struct!.memberCount),
-    notify: cdktf.booleanToTerraform(struct!.notify),
+    algorithm: cdktn.stringToTerraform(struct!.algorithm),
+    member_count: cdktn.numberToTerraform(struct!.memberCount),
+    notify: cdktn.booleanToTerraform(struct!.notify),
   }
 }
 
 
 export function teamSettingsReviewRequestDelegationToHclTerraform(struct?: TeamSettingsReviewRequestDelegationOutputReference | TeamSettingsReviewRequestDelegation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     algorithm: {
-      value: cdktf.stringToHclTerraform(struct!.algorithm),
+      value: cdktn.stringToHclTerraform(struct!.algorithm),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     member_count: {
-      value: cdktf.numberToHclTerraform(struct!.memberCount),
+      value: cdktn.numberToHclTerraform(struct!.memberCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     notify: {
-      value: cdktf.booleanToHclTerraform(struct!.notify),
+      value: cdktn.booleanToHclTerraform(struct!.notify),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -96,14 +96,14 @@ export function teamSettingsReviewRequestDelegationToHclTerraform(struct?: TeamS
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class TeamSettingsReviewRequestDelegationOutputReference extends cdktf.ComplexObject {
+export class TeamSettingsReviewRequestDelegationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -173,11 +173,11 @@ export class TeamSettingsReviewRequestDelegationOutputReference extends cdktf.Co
   }
 
   // notify - computed: false, optional: true, required: false
-  private _notify?: boolean | cdktf.IResolvable; 
+  private _notify?: boolean | cdktn.IResolvable; 
   public get notify() {
     return this.getBooleanAttribute('notify');
   }
-  public set notify(value: boolean | cdktf.IResolvable) {
+  public set notify(value: boolean | cdktn.IResolvable) {
     this._notify = value;
   }
   public resetNotify() {
@@ -192,7 +192,7 @@ export class TeamSettingsReviewRequestDelegationOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings}
 */
-export class TeamSettings extends cdktf.TerraformResource {
+export class TeamSettings extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -203,14 +203,14 @@ export class TeamSettings extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a TeamSettings resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a TeamSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamSettings to import
   * @param importFromId The id of the existing TeamSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamSettings to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_team_settings", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_team_settings", importId: importFromId, provider });
       }
 
   // ===========
@@ -310,8 +310,8 @@ export class TeamSettings extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      team_id: cdktf.stringToTerraform(this._teamId),
+      id: cdktn.stringToTerraform(this._id),
+      team_id: cdktn.stringToTerraform(this._teamId),
       review_request_delegation: teamSettingsReviewRequestDelegationToTerraform(this._reviewRequestDelegation.internalValue),
     };
   }
@@ -319,13 +319,13 @@ export class TeamSettings extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_id: {
-        value: cdktf.stringToHclTerraform(this._teamId),
+        value: cdktn.stringToHclTerraform(this._teamId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

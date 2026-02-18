@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubOrganizationConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubOrganizationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#id DataGithubOrganization#id}
   *
@@ -22,7 +22,7 @@ export interface DataGithubOrganizationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#ignore_archived_repos DataGithubOrganization#ignore_archived_repos}
   */
-  readonly ignoreArchivedRepos?: boolean | cdktf.IResolvable;
+  readonly ignoreArchivedRepos?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#name DataGithubOrganization#name}
   */
@@ -30,13 +30,13 @@ export interface DataGithubOrganizationConfig extends cdktf.TerraformMetaArgumen
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#summary_only DataGithubOrganization#summary_only}
   */
-  readonly summaryOnly?: boolean | cdktf.IResolvable;
+  readonly summaryOnly?: boolean | cdktn.IResolvable;
 }
 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization github_organization}
 */
-export class DataGithubOrganization extends cdktf.TerraformDataSource {
+export class DataGithubOrganization extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class DataGithubOrganization extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubOrganization resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubOrganization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubOrganization to import
   * @param importFromId The id of the existing DataGithubOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubOrganization to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_organization", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_organization", importId: importFromId, provider });
       }
 
   // ===========
@@ -141,11 +141,11 @@ export class DataGithubOrganization extends cdktf.TerraformDataSource {
   }
 
   // ignore_archived_repos - computed: false, optional: true, required: false
-  private _ignoreArchivedRepos?: boolean | cdktf.IResolvable; 
+  private _ignoreArchivedRepos?: boolean | cdktn.IResolvable; 
   public get ignoreArchivedRepos() {
     return this.getBooleanAttribute('ignore_archived_repos');
   }
-  public set ignoreArchivedRepos(value: boolean | cdktf.IResolvable) {
+  public set ignoreArchivedRepos(value: boolean | cdktn.IResolvable) {
     this._ignoreArchivedRepos = value;
   }
   public resetIgnoreArchivedRepos() {
@@ -255,11 +255,11 @@ export class DataGithubOrganization extends cdktf.TerraformDataSource {
   }
 
   // summary_only - computed: false, optional: true, required: false
-  private _summaryOnly?: boolean | cdktf.IResolvable; 
+  private _summaryOnly?: boolean | cdktn.IResolvable; 
   public get summaryOnly() {
     return this.getBooleanAttribute('summary_only');
   }
-  public set summaryOnly(value: boolean | cdktf.IResolvable) {
+  public set summaryOnly(value: boolean | cdktn.IResolvable) {
     this._summaryOnly = value;
   }
   public resetSummaryOnly() {
@@ -276,7 +276,7 @@ export class DataGithubOrganization extends cdktf.TerraformDataSource {
   }
 
   // users - computed: true, optional: false, required: false
-  private _users = new cdktf.StringMapList(this, "users", false);
+  private _users = new cdktn.StringMapList(this, "users", false);
   public get users() {
     return this._users;
   }
@@ -292,35 +292,35 @@ export class DataGithubOrganization extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      ignore_archived_repos: cdktf.booleanToTerraform(this._ignoreArchivedRepos),
-      name: cdktf.stringToTerraform(this._name),
-      summary_only: cdktf.booleanToTerraform(this._summaryOnly),
+      id: cdktn.stringToTerraform(this._id),
+      ignore_archived_repos: cdktn.booleanToTerraform(this._ignoreArchivedRepos),
+      name: cdktn.stringToTerraform(this._name),
+      summary_only: cdktn.booleanToTerraform(this._summaryOnly),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ignore_archived_repos: {
-        value: cdktf.booleanToHclTerraform(this._ignoreArchivedRepos),
+        value: cdktn.booleanToHclTerraform(this._ignoreArchivedRepos),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       summary_only: {
-        value: cdktf.booleanToHclTerraform(this._summaryOnly),
+        value: cdktn.booleanToHclTerraform(this._summaryOnly),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

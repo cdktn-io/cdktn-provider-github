@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface CodespacesUserSecretConfig extends cdktf.TerraformMetaArguments {
+export interface CodespacesUserSecretConfig extends cdktn.TerraformMetaArguments {
   /**
   * Encrypted value of the secret using the GitHub public key in Base64 format.
   *
@@ -48,7 +48,7 @@ export interface CodespacesUserSecretConfig extends cdktf.TerraformMetaArguments
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/codespaces_user_secret github_codespaces_user_secret}
 */
-export class CodespacesUserSecret extends cdktf.TerraformResource {
+export class CodespacesUserSecret extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class CodespacesUserSecret extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a CodespacesUserSecret resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a CodespacesUserSecret resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodespacesUserSecret to import
   * @param importFromId The id of the existing CodespacesUserSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/codespaces_user_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodespacesUserSecret to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_codespaces_user_secret", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_codespaces_user_secret", importId: importFromId, provider });
       }
 
   // ===========
@@ -176,7 +176,7 @@ export class CodespacesUserSecret extends cdktf.TerraformResource {
   // selected_repository_ids - computed: false, optional: true, required: false
   private _selectedRepositoryIds?: number[]; 
   public get selectedRepositoryIds() {
-    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('selected_repository_ids')));
+    return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('selected_repository_ids')));
   }
   public set selectedRepositoryIds(value: number[]) {
     this._selectedRepositoryIds = value;
@@ -200,42 +200,42 @@ export class CodespacesUserSecret extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      encrypted_value: cdktf.stringToTerraform(this._encryptedValue),
-      id: cdktf.stringToTerraform(this._id),
-      plaintext_value: cdktf.stringToTerraform(this._plaintextValue),
-      secret_name: cdktf.stringToTerraform(this._secretName),
-      selected_repository_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(this._selectedRepositoryIds),
+      encrypted_value: cdktn.stringToTerraform(this._encryptedValue),
+      id: cdktn.stringToTerraform(this._id),
+      plaintext_value: cdktn.stringToTerraform(this._plaintextValue),
+      secret_name: cdktn.stringToTerraform(this._secretName),
+      selected_repository_ids: cdktn.listMapper(cdktn.numberToTerraform, false)(this._selectedRepositoryIds),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       encrypted_value: {
-        value: cdktf.stringToHclTerraform(this._encryptedValue),
+        value: cdktn.stringToHclTerraform(this._encryptedValue),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       plaintext_value: {
-        value: cdktf.stringToHclTerraform(this._plaintextValue),
+        value: cdktn.stringToHclTerraform(this._plaintextValue),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       secret_name: {
-        value: cdktf.stringToHclTerraform(this._secretName),
+        value: cdktn.stringToHclTerraform(this._secretName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       selected_repository_ids: {
-        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._selectedRepositoryIds),
+        value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(this._selectedRepositoryIds),
         isBlock: false,
         type: "set",
         storageClassType: "numberList",

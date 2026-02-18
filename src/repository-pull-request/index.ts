@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryPullRequestConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryPullRequestConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of the branch serving as the base of the Pull Request.
   *
@@ -48,7 +48,7 @@ export interface RepositoryPullRequestConfig extends cdktf.TerraformMetaArgument
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#maintainer_can_modify RepositoryPullRequest#maintainer_can_modify}
   */
-  readonly maintainerCanModify?: boolean | cdktf.IResolvable;
+  readonly maintainerCanModify?: boolean | cdktn.IResolvable;
   /**
   * Owner of the repository. If not provided, the provider's default owner is used.
   *
@@ -66,7 +66,7 @@ export interface RepositoryPullRequestConfig extends cdktf.TerraformMetaArgument
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request github_repository_pull_request}
 */
-export class RepositoryPullRequest extends cdktf.TerraformResource {
+export class RepositoryPullRequest extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -77,14 +77,14 @@ export class RepositoryPullRequest extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryPullRequest resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryPullRequest resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryPullRequest to import
   * @param importFromId The id of the existing RepositoryPullRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryPullRequest to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_request", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_request", importId: importFromId, provider });
       }
 
   // ===========
@@ -220,11 +220,11 @@ export class RepositoryPullRequest extends cdktf.TerraformResource {
   }
 
   // maintainer_can_modify - computed: false, optional: true, required: false
-  private _maintainerCanModify?: boolean | cdktf.IResolvable; 
+  private _maintainerCanModify?: boolean | cdktn.IResolvable; 
   public get maintainerCanModify() {
     return this.getBooleanAttribute('maintainer_can_modify');
   }
-  public set maintainerCanModify(value: boolean | cdktf.IResolvable) {
+  public set maintainerCanModify(value: boolean | cdktn.IResolvable) {
     this._maintainerCanModify = value;
   }
   public resetMaintainerCanModify() {
@@ -295,63 +295,63 @@ export class RepositoryPullRequest extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_ref: cdktf.stringToTerraform(this._baseRef),
-      base_repository: cdktf.stringToTerraform(this._baseRepository),
-      body: cdktf.stringToTerraform(this._body),
-      head_ref: cdktf.stringToTerraform(this._headRef),
-      id: cdktf.stringToTerraform(this._id),
-      maintainer_can_modify: cdktf.booleanToTerraform(this._maintainerCanModify),
-      owner: cdktf.stringToTerraform(this._owner),
-      title: cdktf.stringToTerraform(this._title),
+      base_ref: cdktn.stringToTerraform(this._baseRef),
+      base_repository: cdktn.stringToTerraform(this._baseRepository),
+      body: cdktn.stringToTerraform(this._body),
+      head_ref: cdktn.stringToTerraform(this._headRef),
+      id: cdktn.stringToTerraform(this._id),
+      maintainer_can_modify: cdktn.booleanToTerraform(this._maintainerCanModify),
+      owner: cdktn.stringToTerraform(this._owner),
+      title: cdktn.stringToTerraform(this._title),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_ref: {
-        value: cdktf.stringToHclTerraform(this._baseRef),
+        value: cdktn.stringToHclTerraform(this._baseRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       base_repository: {
-        value: cdktf.stringToHclTerraform(this._baseRepository),
+        value: cdktn.stringToHclTerraform(this._baseRepository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       body: {
-        value: cdktf.stringToHclTerraform(this._body),
+        value: cdktn.stringToHclTerraform(this._body),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       head_ref: {
-        value: cdktf.stringToHclTerraform(this._headRef),
+        value: cdktn.stringToHclTerraform(this._headRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       maintainer_can_modify: {
-        value: cdktf.booleanToHclTerraform(this._maintainerCanModify),
+        value: cdktn.booleanToHclTerraform(this._maintainerCanModify),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       title: {
-        value: cdktf.stringToHclTerraform(this._title),
+        value: cdktn.stringToHclTerraform(this._title),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

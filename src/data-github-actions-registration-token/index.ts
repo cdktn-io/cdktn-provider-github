@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubActionsRegistrationTokenConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubActionsRegistrationTokenConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#id DataGithubActionsRegistrationToken#id}
   *
@@ -28,7 +28,7 @@ export interface DataGithubActionsRegistrationTokenConfig extends cdktf.Terrafor
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token github_actions_registration_token}
 */
-export class DataGithubActionsRegistrationToken extends cdktf.TerraformDataSource {
+export class DataGithubActionsRegistrationToken extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -39,14 +39,14 @@ export class DataGithubActionsRegistrationToken extends cdktf.TerraformDataSourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubActionsRegistrationToken resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubActionsRegistrationToken resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubActionsRegistrationToken to import
   * @param importFromId The id of the existing DataGithubActionsRegistrationToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubActionsRegistrationToken to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_registration_token", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_registration_token", importId: importFromId, provider });
       }
 
   // ===========
@@ -129,21 +129,21 @@ export class DataGithubActionsRegistrationToken extends cdktf.TerraformDataSourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

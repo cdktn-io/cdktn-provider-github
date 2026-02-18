@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryPullRequestsConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryPullRequestsConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_requests#base_ref DataGithubRepositoryPullRequests#base_ref}
   */
@@ -52,8 +52,8 @@ export interface DataGithubRepositoryPullRequestsResults {
 }
 
 export function dataGithubRepositoryPullRequestsResultsToTerraform(struct?: DataGithubRepositoryPullRequestsResults): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -62,8 +62,8 @@ export function dataGithubRepositoryPullRequestsResultsToTerraform(struct?: Data
 
 
 export function dataGithubRepositoryPullRequestsResultsToHclTerraform(struct?: DataGithubRepositoryPullRequestsResults): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -71,7 +71,7 @@ export function dataGithubRepositoryPullRequestsResultsToHclTerraform(struct?: D
   return attrs;
 }
 
-export class DataGithubRepositoryPullRequestsResultsOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryPullRequestsResultsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -80,7 +80,7 @@ export class DataGithubRepositoryPullRequestsResultsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -180,14 +180,14 @@ export class DataGithubRepositoryPullRequestsResultsOutputReference extends cdkt
   }
 }
 
-export class DataGithubRepositoryPullRequestsResultsList extends cdktf.ComplexList {
+export class DataGithubRepositoryPullRequestsResultsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -202,7 +202,7 @@ export class DataGithubRepositoryPullRequestsResultsList extends cdktf.ComplexLi
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_requests github_repository_pull_requests}
 */
-export class DataGithubRepositoryPullRequests extends cdktf.TerraformDataSource {
+export class DataGithubRepositoryPullRequests extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -213,14 +213,14 @@ export class DataGithubRepositoryPullRequests extends cdktf.TerraformDataSource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositoryPullRequests resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositoryPullRequests resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositoryPullRequests to import
   * @param importFromId The id of the existing DataGithubRepositoryPullRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_pull_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositoryPullRequests to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_requests", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_pull_requests", importId: importFromId, provider });
       }
 
   // ===========
@@ -401,63 +401,63 @@ export class DataGithubRepositoryPullRequests extends cdktf.TerraformDataSource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      base_ref: cdktf.stringToTerraform(this._baseRef),
-      base_repository: cdktf.stringToTerraform(this._baseRepository),
-      head_ref: cdktf.stringToTerraform(this._headRef),
-      id: cdktf.stringToTerraform(this._id),
-      owner: cdktf.stringToTerraform(this._owner),
-      sort_by: cdktf.stringToTerraform(this._sortBy),
-      sort_direction: cdktf.stringToTerraform(this._sortDirection),
-      state: cdktf.stringToTerraform(this._state),
+      base_ref: cdktn.stringToTerraform(this._baseRef),
+      base_repository: cdktn.stringToTerraform(this._baseRepository),
+      head_ref: cdktn.stringToTerraform(this._headRef),
+      id: cdktn.stringToTerraform(this._id),
+      owner: cdktn.stringToTerraform(this._owner),
+      sort_by: cdktn.stringToTerraform(this._sortBy),
+      sort_direction: cdktn.stringToTerraform(this._sortDirection),
+      state: cdktn.stringToTerraform(this._state),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       base_ref: {
-        value: cdktf.stringToHclTerraform(this._baseRef),
+        value: cdktn.stringToHclTerraform(this._baseRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       base_repository: {
-        value: cdktf.stringToHclTerraform(this._baseRepository),
+        value: cdktn.stringToHclTerraform(this._baseRepository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       head_ref: {
-        value: cdktf.stringToHclTerraform(this._headRef),
+        value: cdktn.stringToHclTerraform(this._headRef),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       sort_by: {
-        value: cdktf.stringToHclTerraform(this._sortBy),
+        value: cdktn.stringToHclTerraform(this._sortBy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       sort_direction: {
-        value: cdktf.stringToHclTerraform(this._sortDirection),
+        value: cdktn.stringToHclTerraform(this._sortDirection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       state: {
-        value: cdktf.stringToHclTerraform(this._state),
+        value: cdktn.stringToHclTerraform(this._state),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

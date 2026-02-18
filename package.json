@@ -1,6 +1,6 @@
 {
   "name": "@cdktn/provider-github",
-  "description": "Prebuilt github Provider for Terraform CDK (cdktf)",
+  "description": "Prebuilt github Provider for CDK Terrain (cdktn)",
   "repository": {
     "type": "git",
     "url": "https://github.com/cdktn-io/cdktn-provider-github.git"
@@ -49,8 +49,8 @@
     "@actions/core": "^1.1.0",
     "@cdktn/provider-project": "^0.7.0",
     "@types/node": "^20",
-    "cdktf": "^0.21.0",
-    "cdktf-cli": "^0.21.0",
+    "cdktn": "^0.22.0",
+    "cdktn-cli": "^0.22.0",
     "commit-and-tag-version": "^12",
     "constructs": "^10.4.2",
     "dot-prop": "^5.2.0",
@@ -64,7 +64,7 @@
     "typescript": "~5.8.0"
   },
   "peerDependencies": {
-    "cdktf": "^0.21.0",
+    "cdktn": "^0.22.0",
     "constructs": "^10.4.2"
   },
   "resolutions": {
@@ -72,8 +72,11 @@
   },
   "keywords": [
     "cdk",
+    "cdk-terrain",
     "cdktf",
+    "cdktn",
     "github",
+    "opentofu",
     "provider",
     "terraform"
   ],
@@ -141,7 +144,7 @@
       }
     ]
   },
-  "cdktf": {
+  "cdktn": {
     "isDeprecated": false,
     "provider": {
       "name": "registry.terraform.io/integrations/github",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryMilestoneConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryMilestoneConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the milestone.
   *
@@ -60,7 +60,7 @@ export interface RepositoryMilestoneConfig extends cdktf.TerraformMetaArguments 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_milestone github_repository_milestone}
 */
-export class RepositoryMilestone extends cdktf.TerraformResource {
+export class RepositoryMilestone extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -71,14 +71,14 @@ export class RepositoryMilestone extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryMilestone resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryMilestone resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryMilestone to import
   * @param importFromId The id of the existing RepositoryMilestone that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_milestone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryMilestone to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_milestone", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_milestone", importId: importFromId, provider });
       }
 
   // ===========
@@ -235,56 +235,56 @@ export class RepositoryMilestone extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      due_date: cdktf.stringToTerraform(this._dueDate),
-      id: cdktf.stringToTerraform(this._id),
-      owner: cdktf.stringToTerraform(this._owner),
-      repository: cdktf.stringToTerraform(this._repository),
-      state: cdktf.stringToTerraform(this._state),
-      title: cdktf.stringToTerraform(this._title),
+      description: cdktn.stringToTerraform(this._description),
+      due_date: cdktn.stringToTerraform(this._dueDate),
+      id: cdktn.stringToTerraform(this._id),
+      owner: cdktn.stringToTerraform(this._owner),
+      repository: cdktn.stringToTerraform(this._repository),
+      state: cdktn.stringToTerraform(this._state),
+      title: cdktn.stringToTerraform(this._title),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       due_date: {
-        value: cdktf.stringToHclTerraform(this._dueDate),
+        value: cdktn.stringToHclTerraform(this._dueDate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       owner: {
-        value: cdktf.stringToHclTerraform(this._owner),
+        value: cdktn.stringToHclTerraform(this._owner),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       state: {
-        value: cdktf.stringToHclTerraform(this._state),
+        value: cdktn.stringToHclTerraform(this._state),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       title: {
-        value: cdktf.stringToHclTerraform(this._title),
+        value: cdktn.stringToHclTerraform(this._title),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

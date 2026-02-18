@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubAppTokenConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubAppTokenConfig extends cdktn.TerraformMetaArguments {
   /**
   * The GitHub App ID.
   *
@@ -42,7 +42,7 @@ export interface DataGithubAppTokenConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/app_token github_app_token}
 */
-export class DataGithubAppToken extends cdktf.TerraformDataSource {
+export class DataGithubAppToken extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class DataGithubAppToken extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubAppToken resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubAppToken resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubAppToken to import
   * @param importFromId The id of the existing DataGithubAppToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/app_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubAppToken to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_app_token", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_app_token", importId: importFromId, provider });
       }
 
   // ===========
@@ -166,35 +166,35 @@ export class DataGithubAppToken extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      app_id: cdktf.stringToTerraform(this._appId),
-      id: cdktf.stringToTerraform(this._id),
-      installation_id: cdktf.stringToTerraform(this._installationId),
-      pem_file: cdktf.stringToTerraform(this._pemFile),
+      app_id: cdktn.stringToTerraform(this._appId),
+      id: cdktn.stringToTerraform(this._id),
+      installation_id: cdktn.stringToTerraform(this._installationId),
+      pem_file: cdktn.stringToTerraform(this._pemFile),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       app_id: {
-        value: cdktf.stringToHclTerraform(this._appId),
+        value: cdktn.stringToHclTerraform(this._appId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       installation_id: {
-        value: cdktf.stringToHclTerraform(this._installationId),
+        value: cdktn.stringToHclTerraform(this._installationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       pem_file: {
-        value: cdktf.stringToHclTerraform(this._pemFile),
+        value: cdktn.stringToHclTerraform(this._pemFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

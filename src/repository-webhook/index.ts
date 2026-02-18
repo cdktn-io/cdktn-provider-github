@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryWebhookConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryWebhookConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicate if the webhook should receive events. Defaults to 'true'.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#active RepositoryWebhook#active}
   */
-  readonly active?: boolean | cdktf.IResolvable;
+  readonly active?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#etag RepositoryWebhook#etag}
   */
@@ -60,7 +60,7 @@ export interface RepositoryWebhookConfiguration {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#insecure_ssl RepositoryWebhook#insecure_ssl}
   */
-  readonly insecureSsl?: boolean | cdktf.IResolvable;
+  readonly insecureSsl?: boolean | cdktn.IResolvable;
   /**
   * The shared secret for the webhook
   *
@@ -76,45 +76,45 @@ export interface RepositoryWebhookConfiguration {
 }
 
 export function repositoryWebhookConfigurationToTerraform(struct?: RepositoryWebhookConfigurationOutputReference | RepositoryWebhookConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    content_type: cdktf.stringToTerraform(struct!.contentType),
-    insecure_ssl: cdktf.booleanToTerraform(struct!.insecureSsl),
-    secret: cdktf.stringToTerraform(struct!.secret),
-    url: cdktf.stringToTerraform(struct!.url),
+    content_type: cdktn.stringToTerraform(struct!.contentType),
+    insecure_ssl: cdktn.booleanToTerraform(struct!.insecureSsl),
+    secret: cdktn.stringToTerraform(struct!.secret),
+    url: cdktn.stringToTerraform(struct!.url),
   }
 }
 
 
 export function repositoryWebhookConfigurationToHclTerraform(struct?: RepositoryWebhookConfigurationOutputReference | RepositoryWebhookConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     content_type: {
-      value: cdktf.stringToHclTerraform(struct!.contentType),
+      value: cdktn.stringToHclTerraform(struct!.contentType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     insecure_ssl: {
-      value: cdktf.booleanToHclTerraform(struct!.insecureSsl),
+      value: cdktn.booleanToHclTerraform(struct!.insecureSsl),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     secret: {
-      value: cdktf.stringToHclTerraform(struct!.secret),
+      value: cdktn.stringToHclTerraform(struct!.secret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url: {
-      value: cdktf.stringToHclTerraform(struct!.url),
+      value: cdktn.stringToHclTerraform(struct!.url),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -125,14 +125,14 @@ export function repositoryWebhookConfigurationToHclTerraform(struct?: Repository
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class RepositoryWebhookConfigurationOutputReference extends cdktf.ComplexObject {
+export class RepositoryWebhookConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -192,11 +192,11 @@ export class RepositoryWebhookConfigurationOutputReference extends cdktf.Complex
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktf.IResolvable; 
+  private _insecureSsl?: boolean | cdktn.IResolvable; 
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
-  public set insecureSsl(value: boolean | cdktf.IResolvable) {
+  public set insecureSsl(value: boolean | cdktn.IResolvable) {
     this._insecureSsl = value;
   }
   public resetInsecureSsl() {
@@ -240,7 +240,7 @@ export class RepositoryWebhookConfigurationOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook github_repository_webhook}
 */
-export class RepositoryWebhook extends cdktf.TerraformResource {
+export class RepositoryWebhook extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -251,14 +251,14 @@ export class RepositoryWebhook extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryWebhook resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryWebhook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryWebhook to import
   * @param importFromId The id of the existing RepositoryWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryWebhook to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_webhook", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_webhook", importId: importFromId, provider });
       }
 
   // ===========
@@ -301,11 +301,11 @@ export class RepositoryWebhook extends cdktf.TerraformResource {
   // ==========
 
   // active - computed: false, optional: true, required: false
-  private _active?: boolean | cdktf.IResolvable; 
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
-  public set active(value: boolean | cdktf.IResolvable) {
+  public set active(value: boolean | cdktn.IResolvable) {
     this._active = value;
   }
   public resetActive() {
@@ -335,7 +335,7 @@ export class RepositoryWebhook extends cdktf.TerraformResource {
   // events - computed: false, optional: false, required: true
   private _events?: string[]; 
   public get events() {
-    return cdktf.Fn.tolist(this.getListAttribute('events'));
+    return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
   public set events(value: string[]) {
     this._events = value;
@@ -401,11 +401,11 @@ export class RepositoryWebhook extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      active: cdktf.booleanToTerraform(this._active),
-      etag: cdktf.stringToTerraform(this._etag),
-      events: cdktf.listMapper(cdktf.stringToTerraform, false)(this._events),
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
+      active: cdktn.booleanToTerraform(this._active),
+      etag: cdktn.stringToTerraform(this._etag),
+      events: cdktn.listMapper(cdktn.stringToTerraform, false)(this._events),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
       configuration: repositoryWebhookConfigurationToTerraform(this._configuration.internalValue),
     };
   }
@@ -413,31 +413,31 @@ export class RepositoryWebhook extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       active: {
-        value: cdktf.booleanToHclTerraform(this._active),
+        value: cdktn.booleanToHclTerraform(this._active),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       etag: {
-        value: cdktf.stringToHclTerraform(this._etag),
+        value: cdktn.stringToHclTerraform(this._etag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       events: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._events),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._events),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

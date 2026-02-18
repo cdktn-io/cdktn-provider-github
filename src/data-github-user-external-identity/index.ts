@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubUserExternalIdentityConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubUserExternalIdentityConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/user_external_identity#id DataGithubUserExternalIdentity#id}
   *
@@ -28,7 +28,7 @@ export interface DataGithubUserExternalIdentityConfig extends cdktf.TerraformMet
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/user_external_identity github_user_external_identity}
 */
-export class DataGithubUserExternalIdentity extends cdktf.TerraformDataSource {
+export class DataGithubUserExternalIdentity extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -39,14 +39,14 @@ export class DataGithubUserExternalIdentity extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubUserExternalIdentity resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubUserExternalIdentity resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubUserExternalIdentity to import
   * @param importFromId The id of the existing DataGithubUserExternalIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/user_external_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubUserExternalIdentity to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_user_external_identity", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_user_external_identity", importId: importFromId, provider });
       }
 
   // ===========
@@ -106,13 +106,13 @@ export class DataGithubUserExternalIdentity extends cdktf.TerraformDataSource {
   }
 
   // saml_identity - computed: true, optional: false, required: false
-  private _samlIdentity = new cdktf.StringMap(this, "saml_identity");
+  private _samlIdentity = new cdktn.StringMap(this, "saml_identity");
   public get samlIdentity() {
     return this._samlIdentity;
   }
 
   // scim_identity - computed: true, optional: false, required: false
-  private _scimIdentity = new cdktf.StringMap(this, "scim_identity");
+  private _scimIdentity = new cdktn.StringMap(this, "scim_identity");
   public get scimIdentity() {
     return this._scimIdentity;
   }
@@ -136,21 +136,21 @@ export class DataGithubUserExternalIdentity extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      username: cdktf.stringToTerraform(this._username),
+      id: cdktn.stringToTerraform(this._id),
+      username: cdktn.stringToTerraform(this._username),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       username: {
-        value: cdktf.stringToHclTerraform(this._username),
+        value: cdktn.stringToHclTerraform(this._username),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface EnterpriseActionsPermissionsConfig extends cdktf.TerraformMetaArguments {
+export interface EnterpriseActionsPermissionsConfig extends cdktn.TerraformMetaArguments {
   /**
   * The permissions policy that controls the actions that are allowed to run. Can be one of: 'all', 'local_only', or 'selected'.
   *
@@ -56,7 +56,7 @@ export interface EnterpriseActionsPermissionsAllowedActionsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_permissions#github_owned_allowed EnterpriseActionsPermissions#github_owned_allowed}
   */
-  readonly githubOwnedAllowed: boolean | cdktf.IResolvable;
+  readonly githubOwnedAllowed: boolean | cdktn.IResolvable;
   /**
   * Specifies a list of string-matching patterns to allow specific action(s). Wildcards, tags, and SHAs are allowed. For example, 'monalisa/octocat@', 'monalisa/octocat@v2', 'monalisa/'.
   *
@@ -68,42 +68,42 @@ export interface EnterpriseActionsPermissionsAllowedActionsConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_permissions#verified_allowed EnterpriseActionsPermissions#verified_allowed}
   */
-  readonly verifiedAllowed?: boolean | cdktf.IResolvable;
+  readonly verifiedAllowed?: boolean | cdktn.IResolvable;
 }
 
 export function enterpriseActionsPermissionsAllowedActionsConfigToTerraform(struct?: EnterpriseActionsPermissionsAllowedActionsConfigOutputReference | EnterpriseActionsPermissionsAllowedActionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    github_owned_allowed: cdktf.booleanToTerraform(struct!.githubOwnedAllowed),
-    patterns_allowed: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.patternsAllowed),
-    verified_allowed: cdktf.booleanToTerraform(struct!.verifiedAllowed),
+    github_owned_allowed: cdktn.booleanToTerraform(struct!.githubOwnedAllowed),
+    patterns_allowed: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.patternsAllowed),
+    verified_allowed: cdktn.booleanToTerraform(struct!.verifiedAllowed),
   }
 }
 
 
 export function enterpriseActionsPermissionsAllowedActionsConfigToHclTerraform(struct?: EnterpriseActionsPermissionsAllowedActionsConfigOutputReference | EnterpriseActionsPermissionsAllowedActionsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     github_owned_allowed: {
-      value: cdktf.booleanToHclTerraform(struct!.githubOwnedAllowed),
+      value: cdktn.booleanToHclTerraform(struct!.githubOwnedAllowed),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     patterns_allowed: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.patternsAllowed),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.patternsAllowed),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     verified_allowed: {
-      value: cdktf.booleanToHclTerraform(struct!.verifiedAllowed),
+      value: cdktn.booleanToHclTerraform(struct!.verifiedAllowed),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -114,14 +114,14 @@ export function enterpriseActionsPermissionsAllowedActionsConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class EnterpriseActionsPermissionsAllowedActionsConfigOutputReference extends cdktf.ComplexObject {
+export class EnterpriseActionsPermissionsAllowedActionsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -159,11 +159,11 @@ export class EnterpriseActionsPermissionsAllowedActionsConfigOutputReference ext
   }
 
   // github_owned_allowed - computed: false, optional: false, required: true
-  private _githubOwnedAllowed?: boolean | cdktf.IResolvable; 
+  private _githubOwnedAllowed?: boolean | cdktn.IResolvable; 
   public get githubOwnedAllowed() {
     return this.getBooleanAttribute('github_owned_allowed');
   }
-  public set githubOwnedAllowed(value: boolean | cdktf.IResolvable) {
+  public set githubOwnedAllowed(value: boolean | cdktn.IResolvable) {
     this._githubOwnedAllowed = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -174,7 +174,7 @@ export class EnterpriseActionsPermissionsAllowedActionsConfigOutputReference ext
   // patterns_allowed - computed: false, optional: true, required: false
   private _patternsAllowed?: string[]; 
   public get patternsAllowed() {
-    return cdktf.Fn.tolist(this.getListAttribute('patterns_allowed'));
+    return cdktn.Fn.tolist(this.getListAttribute('patterns_allowed'));
   }
   public set patternsAllowed(value: string[]) {
     this._patternsAllowed = value;
@@ -188,11 +188,11 @@ export class EnterpriseActionsPermissionsAllowedActionsConfigOutputReference ext
   }
 
   // verified_allowed - computed: false, optional: true, required: false
-  private _verifiedAllowed?: boolean | cdktf.IResolvable; 
+  private _verifiedAllowed?: boolean | cdktn.IResolvable; 
   public get verifiedAllowed() {
     return this.getBooleanAttribute('verified_allowed');
   }
-  public set verifiedAllowed(value: boolean | cdktf.IResolvable) {
+  public set verifiedAllowed(value: boolean | cdktn.IResolvable) {
     this._verifiedAllowed = value;
   }
   public resetVerifiedAllowed() {
@@ -213,24 +213,24 @@ export interface EnterpriseActionsPermissionsEnabledOrganizationsConfig {
 }
 
 export function enterpriseActionsPermissionsEnabledOrganizationsConfigToTerraform(struct?: EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference | EnterpriseActionsPermissionsEnabledOrganizationsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    organization_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.organizationIds),
+    organization_ids: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.organizationIds),
   }
 }
 
 
 export function enterpriseActionsPermissionsEnabledOrganizationsConfigToHclTerraform(struct?: EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference | EnterpriseActionsPermissionsEnabledOrganizationsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     organization_ids: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.organizationIds),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.organizationIds),
       isBlock: false,
       type: "set",
       storageClassType: "numberList",
@@ -241,14 +241,14 @@ export function enterpriseActionsPermissionsEnabledOrganizationsConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference extends cdktf.ComplexObject {
+export class EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -276,7 +276,7 @@ export class EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReferen
   // organization_ids - computed: false, optional: false, required: true
   private _organizationIds?: number[]; 
   public get organizationIds() {
-    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('organization_ids')));
+    return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('organization_ids')));
   }
   public set organizationIds(value: number[]) {
     this._organizationIds = value;
@@ -290,7 +290,7 @@ export class EnterpriseActionsPermissionsEnabledOrganizationsConfigOutputReferen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_permissions github_enterprise_actions_permissions}
 */
-export class EnterpriseActionsPermissions extends cdktf.TerraformResource {
+export class EnterpriseActionsPermissions extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -301,14 +301,14 @@ export class EnterpriseActionsPermissions extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a EnterpriseActionsPermissions resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a EnterpriseActionsPermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseActionsPermissions to import
   * @param importFromId The id of the existing EnterpriseActionsPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseActionsPermissions to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_actions_permissions", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_actions_permissions", importId: importFromId, provider });
       }
 
   // ===========
@@ -446,10 +446,10 @@ export class EnterpriseActionsPermissions extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allowed_actions: cdktf.stringToTerraform(this._allowedActions),
-      enabled_organizations: cdktf.stringToTerraform(this._enabledOrganizations),
-      enterprise_slug: cdktf.stringToTerraform(this._enterpriseSlug),
-      id: cdktf.stringToTerraform(this._id),
+      allowed_actions: cdktn.stringToTerraform(this._allowedActions),
+      enabled_organizations: cdktn.stringToTerraform(this._enabledOrganizations),
+      enterprise_slug: cdktn.stringToTerraform(this._enterpriseSlug),
+      id: cdktn.stringToTerraform(this._id),
       allowed_actions_config: enterpriseActionsPermissionsAllowedActionsConfigToTerraform(this._allowedActionsConfig.internalValue),
       enabled_organizations_config: enterpriseActionsPermissionsEnabledOrganizationsConfigToTerraform(this._enabledOrganizationsConfig.internalValue),
     };
@@ -458,25 +458,25 @@ export class EnterpriseActionsPermissions extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allowed_actions: {
-        value: cdktf.stringToHclTerraform(this._allowedActions),
+        value: cdktn.stringToHclTerraform(this._allowedActions),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled_organizations: {
-        value: cdktf.stringToHclTerraform(this._enabledOrganizations),
+        value: cdktn.stringToHclTerraform(this._enabledOrganizations),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enterprise_slug: {
-        value: cdktf.stringToHclTerraform(this._enterpriseSlug),
+        value: cdktn.stringToHclTerraform(this._enterpriseSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

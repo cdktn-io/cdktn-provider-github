@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface EnterpriseSecurityAnalysisSettingsConfig extends cdktf.TerraformMetaArguments {
+export interface EnterpriseSecurityAnalysisSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether GitHub Advanced Security is automatically enabled for new repositories.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings#advanced_security_enabled_for_new_repositories EnterpriseSecurityAnalysisSettings#advanced_security_enabled_for_new_repositories}
   */
-  readonly advancedSecurityEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly advancedSecurityEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * The slug of the enterprise.
   *
@@ -36,7 +36,7 @@ export interface EnterpriseSecurityAnalysisSettingsConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings#secret_scanning_enabled_for_new_repositories EnterpriseSecurityAnalysisSettings#secret_scanning_enabled_for_new_repositories}
   */
-  readonly secretScanningEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly secretScanningEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * Custom URL for secret scanning push protection bypass instructions.
   *
@@ -48,19 +48,19 @@ export interface EnterpriseSecurityAnalysisSettingsConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings#secret_scanning_push_protection_enabled_for_new_repositories EnterpriseSecurityAnalysisSettings#secret_scanning_push_protection_enabled_for_new_repositories}
   */
-  readonly secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktf.IResolvable;
+  readonly secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktn.IResolvable;
   /**
   * Whether secret scanning validity checks are enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings#secret_scanning_validity_checks_enabled EnterpriseSecurityAnalysisSettings#secret_scanning_validity_checks_enabled}
   */
-  readonly secretScanningValidityChecksEnabled?: boolean | cdktf.IResolvable;
+  readonly secretScanningValidityChecksEnabled?: boolean | cdktn.IResolvable;
 }
 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings github_enterprise_security_analysis_settings}
 */
-export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource {
+export class EnterpriseSecurityAnalysisSettings extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -71,14 +71,14 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a EnterpriseSecurityAnalysisSettings resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a EnterpriseSecurityAnalysisSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseSecurityAnalysisSettings to import
   * @param importFromId The id of the existing EnterpriseSecurityAnalysisSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_security_analysis_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseSecurityAnalysisSettings to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_security_analysis_settings", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_security_analysis_settings", importId: importFromId, provider });
       }
 
   // ===========
@@ -122,11 +122,11 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
   // ==========
 
   // advanced_security_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _advancedSecurityEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _advancedSecurityEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get advancedSecurityEnabledForNewRepositories() {
     return this.getBooleanAttribute('advanced_security_enabled_for_new_repositories');
   }
-  public set advancedSecurityEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set advancedSecurityEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._advancedSecurityEnabledForNewRepositories = value;
   }
   public resetAdvancedSecurityEnabledForNewRepositories() {
@@ -167,11 +167,11 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
   }
 
   // secret_scanning_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _secretScanningEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _secretScanningEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get secretScanningEnabledForNewRepositories() {
     return this.getBooleanAttribute('secret_scanning_enabled_for_new_repositories');
   }
-  public set secretScanningEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set secretScanningEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._secretScanningEnabledForNewRepositories = value;
   }
   public resetSecretScanningEnabledForNewRepositories() {
@@ -199,11 +199,11 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
   }
 
   // secret_scanning_push_protection_enabled_for_new_repositories - computed: false, optional: true, required: false
-  private _secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktf.IResolvable; 
+  private _secretScanningPushProtectionEnabledForNewRepositories?: boolean | cdktn.IResolvable; 
   public get secretScanningPushProtectionEnabledForNewRepositories() {
     return this.getBooleanAttribute('secret_scanning_push_protection_enabled_for_new_repositories');
   }
-  public set secretScanningPushProtectionEnabledForNewRepositories(value: boolean | cdktf.IResolvable) {
+  public set secretScanningPushProtectionEnabledForNewRepositories(value: boolean | cdktn.IResolvable) {
     this._secretScanningPushProtectionEnabledForNewRepositories = value;
   }
   public resetSecretScanningPushProtectionEnabledForNewRepositories() {
@@ -215,11 +215,11 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
   }
 
   // secret_scanning_validity_checks_enabled - computed: false, optional: true, required: false
-  private _secretScanningValidityChecksEnabled?: boolean | cdktf.IResolvable; 
+  private _secretScanningValidityChecksEnabled?: boolean | cdktn.IResolvable; 
   public get secretScanningValidityChecksEnabled() {
     return this.getBooleanAttribute('secret_scanning_validity_checks_enabled');
   }
-  public set secretScanningValidityChecksEnabled(value: boolean | cdktf.IResolvable) {
+  public set secretScanningValidityChecksEnabled(value: boolean | cdktn.IResolvable) {
     this._secretScanningValidityChecksEnabled = value;
   }
   public resetSecretScanningValidityChecksEnabled() {
@@ -236,56 +236,56 @@ export class EnterpriseSecurityAnalysisSettings extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      advanced_security_enabled_for_new_repositories: cdktf.booleanToTerraform(this._advancedSecurityEnabledForNewRepositories),
-      enterprise_slug: cdktf.stringToTerraform(this._enterpriseSlug),
-      id: cdktf.stringToTerraform(this._id),
-      secret_scanning_enabled_for_new_repositories: cdktf.booleanToTerraform(this._secretScanningEnabledForNewRepositories),
-      secret_scanning_push_protection_custom_link: cdktf.stringToTerraform(this._secretScanningPushProtectionCustomLink),
-      secret_scanning_push_protection_enabled_for_new_repositories: cdktf.booleanToTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
-      secret_scanning_validity_checks_enabled: cdktf.booleanToTerraform(this._secretScanningValidityChecksEnabled),
+      advanced_security_enabled_for_new_repositories: cdktn.booleanToTerraform(this._advancedSecurityEnabledForNewRepositories),
+      enterprise_slug: cdktn.stringToTerraform(this._enterpriseSlug),
+      id: cdktn.stringToTerraform(this._id),
+      secret_scanning_enabled_for_new_repositories: cdktn.booleanToTerraform(this._secretScanningEnabledForNewRepositories),
+      secret_scanning_push_protection_custom_link: cdktn.stringToTerraform(this._secretScanningPushProtectionCustomLink),
+      secret_scanning_push_protection_enabled_for_new_repositories: cdktn.booleanToTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
+      secret_scanning_validity_checks_enabled: cdktn.booleanToTerraform(this._secretScanningValidityChecksEnabled),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       advanced_security_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._advancedSecurityEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._advancedSecurityEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enterprise_slug: {
-        value: cdktf.stringToHclTerraform(this._enterpriseSlug),
+        value: cdktn.stringToHclTerraform(this._enterpriseSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       secret_scanning_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._secretScanningEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._secretScanningEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       secret_scanning_push_protection_custom_link: {
-        value: cdktf.stringToHclTerraform(this._secretScanningPushProtectionCustomLink),
+        value: cdktn.stringToHclTerraform(this._secretScanningPushProtectionCustomLink),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       secret_scanning_push_protection_enabled_for_new_repositories: {
-        value: cdktf.booleanToHclTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
+        value: cdktn.booleanToHclTerraform(this._secretScanningPushProtectionEnabledForNewRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       secret_scanning_validity_checks_enabled: {
-        value: cdktf.booleanToHclTerraform(this._secretScanningValidityChecksEnabled),
+        value: cdktn.booleanToHclTerraform(this._secretScanningValidityChecksEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

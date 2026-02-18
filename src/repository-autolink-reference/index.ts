@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryAutolinkReferenceConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryAutolinkReferenceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_autolink_reference#id RepositoryAutolinkReference#id}
   *
@@ -24,7 +24,7 @@ export interface RepositoryAutolinkReferenceConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_autolink_reference#is_alphanumeric RepositoryAutolinkReference#is_alphanumeric}
   */
-  readonly isAlphanumeric?: boolean | cdktf.IResolvable;
+  readonly isAlphanumeric?: boolean | cdktn.IResolvable;
   /**
   * This prefix appended by a number will generate a link any time it is found in an issue, pull request, or commit
   *
@@ -48,7 +48,7 @@ export interface RepositoryAutolinkReferenceConfig extends cdktf.TerraformMetaAr
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_autolink_reference github_repository_autolink_reference}
 */
-export class RepositoryAutolinkReference extends cdktf.TerraformResource {
+export class RepositoryAutolinkReference extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class RepositoryAutolinkReference extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryAutolinkReference resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryAutolinkReference resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryAutolinkReference to import
   * @param importFromId The id of the existing RepositoryAutolinkReference that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_autolink_reference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryAutolinkReference to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_autolink_reference", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_autolink_reference", importId: importFromId, provider });
       }
 
   // ===========
@@ -129,11 +129,11 @@ export class RepositoryAutolinkReference extends cdktf.TerraformResource {
   }
 
   // is_alphanumeric - computed: false, optional: true, required: false
-  private _isAlphanumeric?: boolean | cdktf.IResolvable; 
+  private _isAlphanumeric?: boolean | cdktn.IResolvable; 
   public get isAlphanumeric() {
     return this.getBooleanAttribute('is_alphanumeric');
   }
-  public set isAlphanumeric(value: boolean | cdktf.IResolvable) {
+  public set isAlphanumeric(value: boolean | cdktn.IResolvable) {
     this._isAlphanumeric = value;
   }
   public resetIsAlphanumeric() {
@@ -189,42 +189,42 @@ export class RepositoryAutolinkReference extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      is_alphanumeric: cdktf.booleanToTerraform(this._isAlphanumeric),
-      key_prefix: cdktf.stringToTerraform(this._keyPrefix),
-      repository: cdktf.stringToTerraform(this._repository),
-      target_url_template: cdktf.stringToTerraform(this._targetUrlTemplate),
+      id: cdktn.stringToTerraform(this._id),
+      is_alphanumeric: cdktn.booleanToTerraform(this._isAlphanumeric),
+      key_prefix: cdktn.stringToTerraform(this._keyPrefix),
+      repository: cdktn.stringToTerraform(this._repository),
+      target_url_template: cdktn.stringToTerraform(this._targetUrlTemplate),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       is_alphanumeric: {
-        value: cdktf.booleanToHclTerraform(this._isAlphanumeric),
+        value: cdktn.booleanToHclTerraform(this._isAlphanumeric),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       key_prefix: {
-        value: cdktf.stringToHclTerraform(this._keyPrefix),
+        value: cdktn.stringToHclTerraform(this._keyPrefix),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       target_url_template: {
-        value: cdktf.stringToHclTerraform(this._targetUrlTemplate),
+        value: cdktn.stringToHclTerraform(this._targetUrlTemplate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

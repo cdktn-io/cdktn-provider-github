@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryEnvironmentDeploymentPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryEnvironmentDeploymentPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name pattern that branches must match in order to deploy to the environment.
   *
@@ -48,7 +48,7 @@ export interface RepositoryEnvironmentDeploymentPolicyConfig extends cdktf.Terra
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment_deployment_policy github_repository_environment_deployment_policy}
 */
-export class RepositoryEnvironmentDeploymentPolicy extends cdktf.TerraformResource {
+export class RepositoryEnvironmentDeploymentPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -59,14 +59,14 @@ export class RepositoryEnvironmentDeploymentPolicy extends cdktf.TerraformResour
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryEnvironmentDeploymentPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryEnvironmentDeploymentPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryEnvironmentDeploymentPolicy to import
   * @param importFromId The id of the existing RepositoryEnvironmentDeploymentPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment_deployment_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryEnvironmentDeploymentPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_environment_deployment_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_environment_deployment_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -187,42 +187,42 @@ export class RepositoryEnvironmentDeploymentPolicy extends cdktf.TerraformResour
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      branch_pattern: cdktf.stringToTerraform(this._branchPattern),
-      environment: cdktf.stringToTerraform(this._environment),
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
-      tag_pattern: cdktf.stringToTerraform(this._tagPattern),
+      branch_pattern: cdktn.stringToTerraform(this._branchPattern),
+      environment: cdktn.stringToTerraform(this._environment),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
+      tag_pattern: cdktn.stringToTerraform(this._tagPattern),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       branch_pattern: {
-        value: cdktf.stringToHclTerraform(this._branchPattern),
+        value: cdktn.stringToHclTerraform(this._branchPattern),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       environment: {
-        value: cdktf.stringToHclTerraform(this._environment),
+        value: cdktn.stringToHclTerraform(this._environment),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tag_pattern: {
-        value: cdktf.stringToHclTerraform(this._tagPattern),
+        value: cdktn.stringToHclTerraform(this._tagPattern),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

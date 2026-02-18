@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface TeamConfig extends cdktf.TerraformMetaArguments {
+export interface TeamConfig extends cdktn.TerraformMetaArguments {
   /**
   * Adds a default maintainer to the team. Adds the creating user to the team when 'true'.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team#create_default_maintainer Team#create_default_maintainer}
   */
-  readonly createDefaultMaintainer?: boolean | cdktf.IResolvable;
+  readonly createDefaultMaintainer?: boolean | cdktn.IResolvable;
   /**
   * A description of the team.
   *
@@ -78,7 +78,7 @@ export interface TeamConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team github_team}
 */
-export class Team extends cdktf.TerraformResource {
+export class Team extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -89,14 +89,14 @@ export class Team extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Team resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Team resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Team to import
   * @param importFromId The id of the existing Team that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Team to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_team", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_team", importId: importFromId, provider });
       }
 
   // ===========
@@ -143,11 +143,11 @@ export class Team extends cdktf.TerraformResource {
   // ==========
 
   // create_default_maintainer - computed: false, optional: true, required: false
-  private _createDefaultMaintainer?: boolean | cdktf.IResolvable; 
+  private _createDefaultMaintainer?: boolean | cdktn.IResolvable; 
   public get createDefaultMaintainer() {
     return this.getBooleanAttribute('create_default_maintainer');
   }
-  public set createDefaultMaintainer(value: boolean | cdktf.IResolvable) {
+  public set createDefaultMaintainer(value: boolean | cdktn.IResolvable) {
     this._createDefaultMaintainer = value;
   }
   public resetCreateDefaultMaintainer() {
@@ -325,77 +325,77 @@ export class Team extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      create_default_maintainer: cdktf.booleanToTerraform(this._createDefaultMaintainer),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      ldap_dn: cdktf.stringToTerraform(this._ldapDn),
-      name: cdktf.stringToTerraform(this._name),
-      notification_setting: cdktf.stringToTerraform(this._notificationSetting),
-      parent_team_id: cdktf.stringToTerraform(this._parentTeamId),
-      parent_team_read_id: cdktf.stringToTerraform(this._parentTeamReadId),
-      parent_team_read_slug: cdktf.stringToTerraform(this._parentTeamReadSlug),
-      privacy: cdktf.stringToTerraform(this._privacy),
+      create_default_maintainer: cdktn.booleanToTerraform(this._createDefaultMaintainer),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      ldap_dn: cdktn.stringToTerraform(this._ldapDn),
+      name: cdktn.stringToTerraform(this._name),
+      notification_setting: cdktn.stringToTerraform(this._notificationSetting),
+      parent_team_id: cdktn.stringToTerraform(this._parentTeamId),
+      parent_team_read_id: cdktn.stringToTerraform(this._parentTeamReadId),
+      parent_team_read_slug: cdktn.stringToTerraform(this._parentTeamReadSlug),
+      privacy: cdktn.stringToTerraform(this._privacy),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       create_default_maintainer: {
-        value: cdktf.booleanToHclTerraform(this._createDefaultMaintainer),
+        value: cdktn.booleanToHclTerraform(this._createDefaultMaintainer),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ldap_dn: {
-        value: cdktf.stringToHclTerraform(this._ldapDn),
+        value: cdktn.stringToHclTerraform(this._ldapDn),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       notification_setting: {
-        value: cdktf.stringToHclTerraform(this._notificationSetting),
+        value: cdktn.stringToHclTerraform(this._notificationSetting),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent_team_id: {
-        value: cdktf.stringToHclTerraform(this._parentTeamId),
+        value: cdktn.stringToHclTerraform(this._parentTeamId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent_team_read_id: {
-        value: cdktf.stringToHclTerraform(this._parentTeamReadId),
+        value: cdktn.stringToHclTerraform(this._parentTeamReadId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent_team_read_slug: {
-        value: cdktf.stringToHclTerraform(this._parentTeamReadSlug),
+        value: cdktn.stringToHclTerraform(this._parentTeamReadSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       privacy: {
-        value: cdktf.stringToHclTerraform(this._privacy),
+        value: cdktn.stringToHclTerraform(this._privacy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface MembershipConfig extends cdktf.TerraformMetaArguments {
+export interface MembershipConfig extends cdktn.TerraformMetaArguments {
   /**
   * Instead of removing the member from the org, you can choose to downgrade their membership to 'member' when this resource is destroyed. This is useful when wanting to downgrade admins while keeping them in the organization
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/membership#downgrade_on_destroy Membership#downgrade_on_destroy}
   */
-  readonly downgradeOnDestroy?: boolean | cdktf.IResolvable;
+  readonly downgradeOnDestroy?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/membership#id Membership#id}
   *
@@ -42,7 +42,7 @@ export interface MembershipConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/membership github_membership}
 */
-export class Membership extends cdktf.TerraformResource {
+export class Membership extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class Membership extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Membership resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Membership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Membership to import
   * @param importFromId The id of the existing Membership that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Membership to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_membership", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_membership", importId: importFromId, provider });
       }
 
   // ===========
@@ -101,11 +101,11 @@ export class Membership extends cdktf.TerraformResource {
   // ==========
 
   // downgrade_on_destroy - computed: false, optional: true, required: false
-  private _downgradeOnDestroy?: boolean | cdktf.IResolvable; 
+  private _downgradeOnDestroy?: boolean | cdktn.IResolvable; 
   public get downgradeOnDestroy() {
     return this.getBooleanAttribute('downgrade_on_destroy');
   }
-  public set downgradeOnDestroy(value: boolean | cdktf.IResolvable) {
+  public set downgradeOnDestroy(value: boolean | cdktn.IResolvable) {
     this._downgradeOnDestroy = value;
   }
   public resetDowngradeOnDestroy() {
@@ -172,35 +172,35 @@ export class Membership extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      downgrade_on_destroy: cdktf.booleanToTerraform(this._downgradeOnDestroy),
-      id: cdktf.stringToTerraform(this._id),
-      role: cdktf.stringToTerraform(this._role),
-      username: cdktf.stringToTerraform(this._username),
+      downgrade_on_destroy: cdktn.booleanToTerraform(this._downgradeOnDestroy),
+      id: cdktn.stringToTerraform(this._id),
+      role: cdktn.stringToTerraform(this._role),
+      username: cdktn.stringToTerraform(this._username),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       downgrade_on_destroy: {
-        value: cdktf.booleanToHclTerraform(this._downgradeOnDestroy),
+        value: cdktn.booleanToHclTerraform(this._downgradeOnDestroy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       role: {
-        value: cdktf.stringToHclTerraform(this._role),
+        value: cdktn.stringToHclTerraform(this._role),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       username: {
-        value: cdktf.stringToHclTerraform(this._username),
+        value: cdktn.stringToHclTerraform(this._username),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_oidc_subject_claim_customization_template#id ActionsRepositoryOidcSubjectClaimCustomizationTemplate#id}
   *
@@ -36,13 +36,13 @@ export interface ActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig ex
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_oidc_subject_claim_customization_template#use_default ActionsRepositoryOidcSubjectClaimCustomizationTemplate#use_default}
   */
-  readonly useDefault: boolean | cdktf.IResolvable;
+  readonly useDefault: boolean | cdktn.IResolvable;
 }
 
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_oidc_subject_claim_customization_template github_actions_repository_oidc_subject_claim_customization_template}
 */
-export class ActionsRepositoryOidcSubjectClaimCustomizationTemplate extends cdktf.TerraformResource {
+export class ActionsRepositoryOidcSubjectClaimCustomizationTemplate extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class ActionsRepositoryOidcSubjectClaimCustomizationTemplate extends cdkt
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsRepositoryOidcSubjectClaimCustomizationTemplate resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsRepositoryOidcSubjectClaimCustomizationTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsRepositoryOidcSubjectClaimCustomizationTemplate to import
   * @param importFromId The id of the existing ActionsRepositoryOidcSubjectClaimCustomizationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_repository_oidc_subject_claim_customization_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsRepositoryOidcSubjectClaimCustomizationTemplate to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_repository_oidc_subject_claim_customization_template", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_repository_oidc_subject_claim_customization_template", importId: importFromId, provider });
       }
 
   // ===========
@@ -146,11 +146,11 @@ export class ActionsRepositoryOidcSubjectClaimCustomizationTemplate extends cdkt
   }
 
   // use_default - computed: false, optional: false, required: true
-  private _useDefault?: boolean | cdktf.IResolvable; 
+  private _useDefault?: boolean | cdktn.IResolvable; 
   public get useDefault() {
     return this.getBooleanAttribute('use_default');
   }
-  public set useDefault(value: boolean | cdktf.IResolvable) {
+  public set useDefault(value: boolean | cdktn.IResolvable) {
     this._useDefault = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -164,35 +164,35 @@ export class ActionsRepositoryOidcSubjectClaimCustomizationTemplate extends cdkt
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      include_claim_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(this._includeClaimKeys),
-      repository: cdktf.stringToTerraform(this._repository),
-      use_default: cdktf.booleanToTerraform(this._useDefault),
+      id: cdktn.stringToTerraform(this._id),
+      include_claim_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(this._includeClaimKeys),
+      repository: cdktn.stringToTerraform(this._repository),
+      use_default: cdktn.booleanToTerraform(this._useDefault),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       include_claim_keys: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._includeClaimKeys),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._includeClaimKeys),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       use_default: {
-        value: cdktf.booleanToHclTerraform(this._useDefault),
+        value: cdktn.booleanToHclTerraform(this._useDefault),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

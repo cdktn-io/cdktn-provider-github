@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository#description DataGithubRepository#description}
   */
@@ -40,8 +40,8 @@ export interface DataGithubRepositoryPagesSource {
 }
 
 export function dataGithubRepositoryPagesSourceToTerraform(struct?: DataGithubRepositoryPagesSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -50,8 +50,8 @@ export function dataGithubRepositoryPagesSourceToTerraform(struct?: DataGithubRe
 
 
 export function dataGithubRepositoryPagesSourceToHclTerraform(struct?: DataGithubRepositoryPagesSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -59,7 +59,7 @@ export function dataGithubRepositoryPagesSourceToHclTerraform(struct?: DataGithu
   return attrs;
 }
 
-export class DataGithubRepositoryPagesSourceOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryPagesSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -68,7 +68,7 @@ export class DataGithubRepositoryPagesSourceOutputReference extends cdktf.Comple
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -98,14 +98,14 @@ export class DataGithubRepositoryPagesSourceOutputReference extends cdktf.Comple
   }
 }
 
-export class DataGithubRepositoryPagesSourceList extends cdktf.ComplexList {
+export class DataGithubRepositoryPagesSourceList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -120,8 +120,8 @@ export interface DataGithubRepositoryPages {
 }
 
 export function dataGithubRepositoryPagesToTerraform(struct?: DataGithubRepositoryPages): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -130,8 +130,8 @@ export function dataGithubRepositoryPagesToTerraform(struct?: DataGithubReposito
 
 
 export function dataGithubRepositoryPagesToHclTerraform(struct?: DataGithubRepositoryPages): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -139,7 +139,7 @@ export function dataGithubRepositoryPagesToHclTerraform(struct?: DataGithubRepos
   return attrs;
 }
 
-export class DataGithubRepositoryPagesOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryPagesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -148,7 +148,7 @@ export class DataGithubRepositoryPagesOutputReference extends cdktf.ComplexObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -204,14 +204,14 @@ export class DataGithubRepositoryPagesOutputReference extends cdktf.ComplexObjec
   }
 }
 
-export class DataGithubRepositoryPagesList extends cdktf.ComplexList {
+export class DataGithubRepositoryPagesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -226,8 +226,8 @@ export interface DataGithubRepositoryRepositoryLicenseLicense {
 }
 
 export function dataGithubRepositoryRepositoryLicenseLicenseToTerraform(struct?: DataGithubRepositoryRepositoryLicenseLicense): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -236,8 +236,8 @@ export function dataGithubRepositoryRepositoryLicenseLicenseToTerraform(struct?:
 
 
 export function dataGithubRepositoryRepositoryLicenseLicenseToHclTerraform(struct?: DataGithubRepositoryRepositoryLicenseLicense): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -245,7 +245,7 @@ export function dataGithubRepositoryRepositoryLicenseLicenseToHclTerraform(struc
   return attrs;
 }
 
-export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -254,7 +254,7 @@ export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -280,7 +280,7 @@ export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends
 
   // conditions - computed: true, optional: false, required: false
   public get conditions() {
-    return cdktf.Fn.tolist(this.getListAttribute('conditions'));
+    return cdktn.Fn.tolist(this.getListAttribute('conditions'));
   }
 
   // description - computed: true, optional: false, required: false
@@ -310,7 +310,7 @@ export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends
 
   // limitations - computed: true, optional: false, required: false
   public get limitations() {
-    return cdktf.Fn.tolist(this.getListAttribute('limitations'));
+    return cdktn.Fn.tolist(this.getListAttribute('limitations'));
   }
 
   // name - computed: true, optional: false, required: false
@@ -320,7 +320,7 @@ export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends
 
   // permissions - computed: true, optional: false, required: false
   public get permissions() {
-    return cdktf.Fn.tolist(this.getListAttribute('permissions'));
+    return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
 
   // spdx_id - computed: true, optional: false, required: false
@@ -334,14 +334,14 @@ export class DataGithubRepositoryRepositoryLicenseLicenseOutputReference extends
   }
 }
 
-export class DataGithubRepositoryRepositoryLicenseLicenseList extends cdktf.ComplexList {
+export class DataGithubRepositoryRepositoryLicenseLicenseList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -356,8 +356,8 @@ export interface DataGithubRepositoryRepositoryLicense {
 }
 
 export function dataGithubRepositoryRepositoryLicenseToTerraform(struct?: DataGithubRepositoryRepositoryLicense): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -366,8 +366,8 @@ export function dataGithubRepositoryRepositoryLicenseToTerraform(struct?: DataGi
 
 
 export function dataGithubRepositoryRepositoryLicenseToHclTerraform(struct?: DataGithubRepositoryRepositoryLicense): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -375,7 +375,7 @@ export function dataGithubRepositoryRepositoryLicenseToHclTerraform(struct?: Dat
   return attrs;
 }
 
-export class DataGithubRepositoryRepositoryLicenseOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryRepositoryLicenseOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -384,7 +384,7 @@ export class DataGithubRepositoryRepositoryLicenseOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -465,14 +465,14 @@ export class DataGithubRepositoryRepositoryLicenseOutputReference extends cdktf.
   }
 }
 
-export class DataGithubRepositoryRepositoryLicenseList extends cdktf.ComplexList {
+export class DataGithubRepositoryRepositoryLicenseList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -487,8 +487,8 @@ export interface DataGithubRepositoryTemplate {
 }
 
 export function dataGithubRepositoryTemplateToTerraform(struct?: DataGithubRepositoryTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -497,8 +497,8 @@ export function dataGithubRepositoryTemplateToTerraform(struct?: DataGithubRepos
 
 
 export function dataGithubRepositoryTemplateToHclTerraform(struct?: DataGithubRepositoryTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -506,7 +506,7 @@ export function dataGithubRepositoryTemplateToHclTerraform(struct?: DataGithubRe
   return attrs;
 }
 
-export class DataGithubRepositoryTemplateOutputReference extends cdktf.ComplexObject {
+export class DataGithubRepositoryTemplateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -515,7 +515,7 @@ export class DataGithubRepositoryTemplateOutputReference extends cdktf.ComplexOb
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -545,14 +545,14 @@ export class DataGithubRepositoryTemplateOutputReference extends cdktf.ComplexOb
   }
 }
 
-export class DataGithubRepositoryTemplateList extends cdktf.ComplexList {
+export class DataGithubRepositoryTemplateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -567,7 +567,7 @@ export class DataGithubRepositoryTemplateList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository github_repository}
 */
-export class DataGithubRepository extends cdktf.TerraformDataSource {
+export class DataGithubRepository extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -578,14 +578,14 @@ export class DataGithubRepository extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepository to import
   * @param importFromId The id of the existing DataGithubRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -885,42 +885,42 @@ export class DataGithubRepository extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      full_name: cdktf.stringToTerraform(this._fullName),
-      homepage_url: cdktf.stringToTerraform(this._homepageUrl),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      description: cdktn.stringToTerraform(this._description),
+      full_name: cdktn.stringToTerraform(this._fullName),
+      homepage_url: cdktn.stringToTerraform(this._homepageUrl),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       full_name: {
-        value: cdktf.stringToHclTerraform(this._fullName),
+        value: cdktn.stringToHclTerraform(this._fullName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       homepage_url: {
-        value: cdktf.stringToHclTerraform(this._homepageUrl),
+        value: cdktn.stringToHclTerraform(this._homepageUrl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

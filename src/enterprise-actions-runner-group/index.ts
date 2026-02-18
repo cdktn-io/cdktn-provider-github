@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface EnterpriseActionsRunnerGroupConfig extends cdktf.TerraformMetaArguments {
+export interface EnterpriseActionsRunnerGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether public repositories can be added to the runner group.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_runner_group#allows_public_repositories EnterpriseActionsRunnerGroup#allows_public_repositories}
   */
-  readonly allowsPublicRepositories?: boolean | cdktf.IResolvable;
+  readonly allowsPublicRepositories?: boolean | cdktn.IResolvable;
   /**
   * The slug of the enterprise.
   *
@@ -42,7 +42,7 @@ export interface EnterpriseActionsRunnerGroupConfig extends cdktf.TerraformMetaA
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_runner_group#restricted_to_workflows EnterpriseActionsRunnerGroup#restricted_to_workflows}
   */
-  readonly restrictedToWorkflows?: boolean | cdktf.IResolvable;
+  readonly restrictedToWorkflows?: boolean | cdktn.IResolvable;
   /**
   * List of organization IDs that can access the runner group.
   *
@@ -66,7 +66,7 @@ export interface EnterpriseActionsRunnerGroupConfig extends cdktf.TerraformMetaA
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_runner_group github_enterprise_actions_runner_group}
 */
-export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
+export class EnterpriseActionsRunnerGroup extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -77,14 +77,14 @@ export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a EnterpriseActionsRunnerGroup resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a EnterpriseActionsRunnerGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseActionsRunnerGroup to import
   * @param importFromId The id of the existing EnterpriseActionsRunnerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_actions_runner_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseActionsRunnerGroup to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_actions_runner_group", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_actions_runner_group", importId: importFromId, provider });
       }
 
   // ===========
@@ -129,11 +129,11 @@ export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
   // ==========
 
   // allows_public_repositories - computed: false, optional: true, required: false
-  private _allowsPublicRepositories?: boolean | cdktf.IResolvable; 
+  private _allowsPublicRepositories?: boolean | cdktn.IResolvable; 
   public get allowsPublicRepositories() {
     return this.getBooleanAttribute('allows_public_repositories');
   }
-  public set allowsPublicRepositories(value: boolean | cdktf.IResolvable) {
+  public set allowsPublicRepositories(value: boolean | cdktn.IResolvable) {
     this._allowsPublicRepositories = value;
   }
   public resetAllowsPublicRepositories() {
@@ -197,11 +197,11 @@ export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
   }
 
   // restricted_to_workflows - computed: false, optional: true, required: false
-  private _restrictedToWorkflows?: boolean | cdktf.IResolvable; 
+  private _restrictedToWorkflows?: boolean | cdktn.IResolvable; 
   public get restrictedToWorkflows() {
     return this.getBooleanAttribute('restricted_to_workflows');
   }
-  public set restrictedToWorkflows(value: boolean | cdktf.IResolvable) {
+  public set restrictedToWorkflows(value: boolean | cdktn.IResolvable) {
     this._restrictedToWorkflows = value;
   }
   public resetRestrictedToWorkflows() {
@@ -220,7 +220,7 @@ export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
   // selected_organization_ids - computed: false, optional: true, required: false
   private _selectedOrganizationIds?: number[]; 
   public get selectedOrganizationIds() {
-    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('selected_organization_ids')));
+    return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('selected_organization_ids')));
   }
   public set selectedOrganizationIds(value: number[]) {
     this._selectedOrganizationIds = value;
@@ -273,63 +273,63 @@ export class EnterpriseActionsRunnerGroup extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allows_public_repositories: cdktf.booleanToTerraform(this._allowsPublicRepositories),
-      enterprise_slug: cdktf.stringToTerraform(this._enterpriseSlug),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      restricted_to_workflows: cdktf.booleanToTerraform(this._restrictedToWorkflows),
-      selected_organization_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(this._selectedOrganizationIds),
-      selected_workflows: cdktf.listMapper(cdktf.stringToTerraform, false)(this._selectedWorkflows),
-      visibility: cdktf.stringToTerraform(this._visibility),
+      allows_public_repositories: cdktn.booleanToTerraform(this._allowsPublicRepositories),
+      enterprise_slug: cdktn.stringToTerraform(this._enterpriseSlug),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      restricted_to_workflows: cdktn.booleanToTerraform(this._restrictedToWorkflows),
+      selected_organization_ids: cdktn.listMapper(cdktn.numberToTerraform, false)(this._selectedOrganizationIds),
+      selected_workflows: cdktn.listMapper(cdktn.stringToTerraform, false)(this._selectedWorkflows),
+      visibility: cdktn.stringToTerraform(this._visibility),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allows_public_repositories: {
-        value: cdktf.booleanToHclTerraform(this._allowsPublicRepositories),
+        value: cdktn.booleanToHclTerraform(this._allowsPublicRepositories),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enterprise_slug: {
-        value: cdktf.stringToHclTerraform(this._enterpriseSlug),
+        value: cdktn.stringToHclTerraform(this._enterpriseSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       restricted_to_workflows: {
-        value: cdktf.booleanToHclTerraform(this._restrictedToWorkflows),
+        value: cdktn.booleanToHclTerraform(this._restrictedToWorkflows),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       selected_organization_ids: {
-        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._selectedOrganizationIds),
+        value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(this._selectedOrganizationIds),
         isBlock: false,
         type: "set",
         storageClassType: "numberList",
       },
       selected_workflows: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._selectedWorkflows),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._selectedWorkflows),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       visibility: {
-        value: cdktf.stringToHclTerraform(this._visibility),
+        value: cdktn.stringToHclTerraform(this._visibility),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

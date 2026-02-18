@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGithubRepositoryFileConfig extends cdktf.TerraformMetaArguments {
+export interface DataGithubRepositoryFileConfig extends cdktn.TerraformMetaArguments {
   /**
   * The branch name, defaults to the repository's default branch
   *
@@ -42,7 +42,7 @@ export interface DataGithubRepositoryFileConfig extends cdktf.TerraformMetaArgum
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_file github_repository_file}
 */
-export class DataGithubRepositoryFile extends cdktf.TerraformDataSource {
+export class DataGithubRepositoryFile extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class DataGithubRepositoryFile extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGithubRepositoryFile resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGithubRepositoryFile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubRepositoryFile to import
   * @param importFromId The id of the existing DataGithubRepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubRepositoryFile to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_file", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_file", importId: importFromId, provider });
       }
 
   // ===========
@@ -199,35 +199,35 @@ export class DataGithubRepositoryFile extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      branch: cdktf.stringToTerraform(this._branch),
-      file: cdktf.stringToTerraform(this._file),
-      id: cdktf.stringToTerraform(this._id),
-      repository: cdktf.stringToTerraform(this._repository),
+      branch: cdktn.stringToTerraform(this._branch),
+      file: cdktn.stringToTerraform(this._file),
+      id: cdktn.stringToTerraform(this._id),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       branch: {
-        value: cdktf.stringToHclTerraform(this._branch),
+        value: cdktn.stringToHclTerraform(this._branch),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       file: {
-        value: cdktf.stringToHclTerraform(this._file),
+        value: cdktn.stringToHclTerraform(this._file),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

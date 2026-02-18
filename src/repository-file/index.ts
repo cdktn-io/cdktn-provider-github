@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface RepositoryFileConfig extends cdktf.TerraformMetaArguments {
+export interface RepositoryFileConfig extends cdktn.TerraformMetaArguments {
   /**
   * Automatically create the branch if it could not be found. Subsequent reads if the branch is deleted will occur from 'autocreate_branch_source_branch'
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_file#autocreate_branch RepositoryFile#autocreate_branch}
   */
-  readonly autocreateBranch?: boolean | cdktf.IResolvable;
+  readonly autocreateBranch?: boolean | cdktn.IResolvable;
   /**
   * The branch name to start from, if 'autocreate_branch' is set. Defaults to 'main'.
   *
@@ -78,7 +78,7 @@ export interface RepositoryFileConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_file#overwrite_on_create RepositoryFile#overwrite_on_create}
   */
-  readonly overwriteOnCreate?: boolean | cdktf.IResolvable;
+  readonly overwriteOnCreate?: boolean | cdktn.IResolvable;
   /**
   * The repository name
   *
@@ -90,7 +90,7 @@ export interface RepositoryFileConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_file github_repository_file}
 */
-export class RepositoryFile extends cdktf.TerraformResource {
+export class RepositoryFile extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -101,14 +101,14 @@ export class RepositoryFile extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a RepositoryFile resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a RepositoryFile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryFile to import
   * @param importFromId The id of the existing RepositoryFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryFile to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_file", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_repository_file", importId: importFromId, provider });
       }
 
   // ===========
@@ -157,11 +157,11 @@ export class RepositoryFile extends cdktf.TerraformResource {
   // ==========
 
   // autocreate_branch - computed: false, optional: true, required: false
-  private _autocreateBranch?: boolean | cdktf.IResolvable; 
+  private _autocreateBranch?: boolean | cdktn.IResolvable; 
   public get autocreateBranch() {
     return this.getBooleanAttribute('autocreate_branch');
   }
-  public set autocreateBranch(value: boolean | cdktf.IResolvable) {
+  public set autocreateBranch(value: boolean | cdktn.IResolvable) {
     this._autocreateBranch = value;
   }
   public resetAutocreateBranch() {
@@ -316,11 +316,11 @@ export class RepositoryFile extends cdktf.TerraformResource {
   }
 
   // overwrite_on_create - computed: false, optional: true, required: false
-  private _overwriteOnCreate?: boolean | cdktf.IResolvable; 
+  private _overwriteOnCreate?: boolean | cdktn.IResolvable; 
   public get overwriteOnCreate() {
     return this.getBooleanAttribute('overwrite_on_create');
   }
-  public set overwriteOnCreate(value: boolean | cdktf.IResolvable) {
+  public set overwriteOnCreate(value: boolean | cdktn.IResolvable) {
     this._overwriteOnCreate = value;
   }
   public resetOverwriteOnCreate() {
@@ -365,91 +365,91 @@ export class RepositoryFile extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      autocreate_branch: cdktf.booleanToTerraform(this._autocreateBranch),
-      autocreate_branch_source_branch: cdktf.stringToTerraform(this._autocreateBranchSourceBranch),
-      autocreate_branch_source_sha: cdktf.stringToTerraform(this._autocreateBranchSourceSha),
-      branch: cdktf.stringToTerraform(this._branch),
-      commit_author: cdktf.stringToTerraform(this._commitAuthor),
-      commit_email: cdktf.stringToTerraform(this._commitEmail),
-      commit_message: cdktf.stringToTerraform(this._commitMessage),
-      content: cdktf.stringToTerraform(this._content),
-      file: cdktf.stringToTerraform(this._file),
-      id: cdktf.stringToTerraform(this._id),
-      overwrite_on_create: cdktf.booleanToTerraform(this._overwriteOnCreate),
-      repository: cdktf.stringToTerraform(this._repository),
+      autocreate_branch: cdktn.booleanToTerraform(this._autocreateBranch),
+      autocreate_branch_source_branch: cdktn.stringToTerraform(this._autocreateBranchSourceBranch),
+      autocreate_branch_source_sha: cdktn.stringToTerraform(this._autocreateBranchSourceSha),
+      branch: cdktn.stringToTerraform(this._branch),
+      commit_author: cdktn.stringToTerraform(this._commitAuthor),
+      commit_email: cdktn.stringToTerraform(this._commitEmail),
+      commit_message: cdktn.stringToTerraform(this._commitMessage),
+      content: cdktn.stringToTerraform(this._content),
+      file: cdktn.stringToTerraform(this._file),
+      id: cdktn.stringToTerraform(this._id),
+      overwrite_on_create: cdktn.booleanToTerraform(this._overwriteOnCreate),
+      repository: cdktn.stringToTerraform(this._repository),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       autocreate_branch: {
-        value: cdktf.booleanToHclTerraform(this._autocreateBranch),
+        value: cdktn.booleanToHclTerraform(this._autocreateBranch),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       autocreate_branch_source_branch: {
-        value: cdktf.stringToHclTerraform(this._autocreateBranchSourceBranch),
+        value: cdktn.stringToHclTerraform(this._autocreateBranchSourceBranch),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       autocreate_branch_source_sha: {
-        value: cdktf.stringToHclTerraform(this._autocreateBranchSourceSha),
+        value: cdktn.stringToHclTerraform(this._autocreateBranchSourceSha),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       branch: {
-        value: cdktf.stringToHclTerraform(this._branch),
+        value: cdktn.stringToHclTerraform(this._branch),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       commit_author: {
-        value: cdktf.stringToHclTerraform(this._commitAuthor),
+        value: cdktn.stringToHclTerraform(this._commitAuthor),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       commit_email: {
-        value: cdktf.stringToHclTerraform(this._commitEmail),
+        value: cdktn.stringToHclTerraform(this._commitEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       commit_message: {
-        value: cdktf.stringToHclTerraform(this._commitMessage),
+        value: cdktn.stringToHclTerraform(this._commitMessage),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       content: {
-        value: cdktf.stringToHclTerraform(this._content),
+        value: cdktn.stringToHclTerraform(this._content),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       file: {
-        value: cdktf.stringToHclTerraform(this._file),
+        value: cdktn.stringToHclTerraform(this._file),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       overwrite_on_create: {
-        value: cdktf.booleanToHclTerraform(this._overwriteOnCreate),
+        value: cdktn.booleanToHclTerraform(this._overwriteOnCreate),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

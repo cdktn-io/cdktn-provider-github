@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface TeamSyncGroupMappingConfig extends cdktf.TerraformMetaArguments {
+export interface TeamSyncGroupMappingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_sync_group_mapping#id TeamSyncGroupMapping#id}
   *
@@ -30,7 +30,7 @@ export interface TeamSyncGroupMappingConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_sync_group_mapping#group TeamSyncGroupMapping#group}
   */
-  readonly group?: TeamSyncGroupMappingGroup[] | cdktf.IResolvable;
+  readonly group?: TeamSyncGroupMappingGroup[] | cdktn.IResolvable;
 }
 export interface TeamSyncGroupMappingGroup {
   /**
@@ -53,39 +53,39 @@ export interface TeamSyncGroupMappingGroup {
   readonly groupName: string;
 }
 
-export function teamSyncGroupMappingGroupToTerraform(struct?: TeamSyncGroupMappingGroup | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function teamSyncGroupMappingGroupToTerraform(struct?: TeamSyncGroupMappingGroup | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    group_description: cdktf.stringToTerraform(struct!.groupDescription),
-    group_id: cdktf.stringToTerraform(struct!.groupId),
-    group_name: cdktf.stringToTerraform(struct!.groupName),
+    group_description: cdktn.stringToTerraform(struct!.groupDescription),
+    group_id: cdktn.stringToTerraform(struct!.groupId),
+    group_name: cdktn.stringToTerraform(struct!.groupName),
   }
 }
 
 
-export function teamSyncGroupMappingGroupToHclTerraform(struct?: TeamSyncGroupMappingGroup | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function teamSyncGroupMappingGroupToHclTerraform(struct?: TeamSyncGroupMappingGroup | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     group_description: {
-      value: cdktf.stringToHclTerraform(struct!.groupDescription),
+      value: cdktn.stringToHclTerraform(struct!.groupDescription),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     group_id: {
-      value: cdktf.stringToHclTerraform(struct!.groupId),
+      value: cdktn.stringToHclTerraform(struct!.groupId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     group_name: {
-      value: cdktf.stringToHclTerraform(struct!.groupName),
+      value: cdktn.stringToHclTerraform(struct!.groupName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -96,9 +96,9 @@ export function teamSyncGroupMappingGroupToHclTerraform(struct?: TeamSyncGroupMa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class TeamSyncGroupMappingGroupOutputReference extends cdktf.ComplexObject {
+export class TeamSyncGroupMappingGroupOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -106,11 +106,11 @@ export class TeamSyncGroupMappingGroupOutputReference extends cdktf.ComplexObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): TeamSyncGroupMappingGroup | cdktf.IResolvable | undefined {
+  public get internalValue(): TeamSyncGroupMappingGroup | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -131,7 +131,7 @@ export class TeamSyncGroupMappingGroupOutputReference extends cdktf.ComplexObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: TeamSyncGroupMappingGroup | cdktf.IResolvable | undefined) {
+  public set internalValue(value: TeamSyncGroupMappingGroup | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -139,7 +139,7 @@ export class TeamSyncGroupMappingGroupOutputReference extends cdktf.ComplexObjec
       this._groupId = undefined;
       this._groupName = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -192,15 +192,15 @@ export class TeamSyncGroupMappingGroupOutputReference extends cdktf.ComplexObjec
   }
 }
 
-export class TeamSyncGroupMappingGroupList extends cdktf.ComplexList {
-  public internalValue? : TeamSyncGroupMappingGroup[] | cdktf.IResolvable
+export class TeamSyncGroupMappingGroupList extends cdktn.ComplexList {
+  public internalValue? : TeamSyncGroupMappingGroup[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -215,7 +215,7 @@ export class TeamSyncGroupMappingGroupList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_sync_group_mapping github_team_sync_group_mapping}
 */
-export class TeamSyncGroupMapping extends cdktf.TerraformResource {
+export class TeamSyncGroupMapping extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -226,14 +226,14 @@ export class TeamSyncGroupMapping extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a TeamSyncGroupMapping resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a TeamSyncGroupMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamSyncGroupMapping to import
   * @param importFromId The id of the existing TeamSyncGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_sync_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamSyncGroupMapping to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_team_sync_group_mapping", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_team_sync_group_mapping", importId: importFromId, provider });
       }
 
   // ===========
@@ -311,7 +311,7 @@ export class TeamSyncGroupMapping extends cdktf.TerraformResource {
   public get group() {
     return this._group;
   }
-  public putGroup(value: TeamSyncGroupMappingGroup[] | cdktf.IResolvable) {
+  public putGroup(value: TeamSyncGroupMappingGroup[] | cdktn.IResolvable) {
     this._group.internalValue = value;
   }
   public resetGroup() {
@@ -328,28 +328,28 @@ export class TeamSyncGroupMapping extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      team_slug: cdktf.stringToTerraform(this._teamSlug),
-      group: cdktf.listMapper(teamSyncGroupMappingGroupToTerraform, true)(this._group.internalValue),
+      id: cdktn.stringToTerraform(this._id),
+      team_slug: cdktn.stringToTerraform(this._teamSlug),
+      group: cdktn.listMapper(teamSyncGroupMappingGroupToTerraform, true)(this._group.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       team_slug: {
-        value: cdktf.stringToHclTerraform(this._teamSlug),
+        value: cdktn.stringToHclTerraform(this._teamSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       group: {
-        value: cdktf.listMapperHcl(teamSyncGroupMappingGroupToHclTerraform, true)(this._group.internalValue),
+        value: cdktn.listMapperHcl(teamSyncGroupMappingGroupToHclTerraform, true)(this._group.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "TeamSyncGroupMappingGroupList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface IssueConfig extends cdktf.TerraformMetaArguments {
+export interface IssueConfig extends cdktn.TerraformMetaArguments {
   /**
   * List of Logins to assign to the issue.
   *
@@ -60,7 +60,7 @@ export interface IssueConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue github_issue}
 */
-export class Issue extends cdktf.TerraformResource {
+export class Issue extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -71,14 +71,14 @@ export class Issue extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Issue resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Issue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Issue to import
   * @param importFromId The id of the existing Issue that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Issue to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_issue", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_issue", importId: importFromId, provider });
       }
 
   // ===========
@@ -124,7 +124,7 @@ export class Issue extends cdktf.TerraformResource {
   // assignees - computed: false, optional: true, required: false
   private _assignees?: string[]; 
   public get assignees() {
-    return cdktf.Fn.tolist(this.getListAttribute('assignees'));
+    return cdktn.Fn.tolist(this.getListAttribute('assignees'));
   }
   public set assignees(value: string[]) {
     this._assignees = value;
@@ -182,7 +182,7 @@ export class Issue extends cdktf.TerraformResource {
   // labels - computed: false, optional: true, required: false
   private _labels?: string[]; 
   public get labels() {
-    return cdktf.Fn.tolist(this.getListAttribute('labels'));
+    return cdktn.Fn.tolist(this.getListAttribute('labels'));
   }
   public set labels(value: string[]) {
     this._labels = value;
@@ -248,56 +248,56 @@ export class Issue extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      assignees: cdktf.listMapper(cdktf.stringToTerraform, false)(this._assignees),
-      body: cdktf.stringToTerraform(this._body),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.listMapper(cdktf.stringToTerraform, false)(this._labels),
-      milestone_number: cdktf.numberToTerraform(this._milestoneNumber),
-      repository: cdktf.stringToTerraform(this._repository),
-      title: cdktf.stringToTerraform(this._title),
+      assignees: cdktn.listMapper(cdktn.stringToTerraform, false)(this._assignees),
+      body: cdktn.stringToTerraform(this._body),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.listMapper(cdktn.stringToTerraform, false)(this._labels),
+      milestone_number: cdktn.numberToTerraform(this._milestoneNumber),
+      repository: cdktn.stringToTerraform(this._repository),
+      title: cdktn.stringToTerraform(this._title),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       assignees: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._assignees),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._assignees),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       body: {
-        value: cdktf.stringToHclTerraform(this._body),
+        value: cdktn.stringToHclTerraform(this._body),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._labels),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._labels),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       milestone_number: {
-        value: cdktf.numberToHclTerraform(this._milestoneNumber),
+        value: cdktn.numberToHclTerraform(this._milestoneNumber),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       title: {
-        value: cdktf.stringToHclTerraform(this._title),
+        value: cdktn.stringToHclTerraform(this._title),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

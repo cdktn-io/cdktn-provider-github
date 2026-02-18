@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ActionsOrganizationWorkflowPermissionsConfig extends cdktf.TerraformMetaArguments {
+export interface ActionsOrganizationWorkflowPermissionsConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether GitHub Actions can approve pull request reviews in any repository in the organization.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#can_approve_pull_request_reviews ActionsOrganizationWorkflowPermissions#can_approve_pull_request_reviews}
   */
-  readonly canApprovePullRequestReviews?: boolean | cdktf.IResolvable;
+  readonly canApprovePullRequestReviews?: boolean | cdktn.IResolvable;
   /**
   * The default workflow permissions granted to the GITHUB_TOKEN when running workflows in any repository in the organization. Can be 'read' or 'write'.
   *
@@ -42,7 +42,7 @@ export interface ActionsOrganizationWorkflowPermissionsConfig extends cdktf.Terr
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions}
 */
-export class ActionsOrganizationWorkflowPermissions extends cdktf.TerraformResource {
+export class ActionsOrganizationWorkflowPermissions extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -53,14 +53,14 @@ export class ActionsOrganizationWorkflowPermissions extends cdktf.TerraformResou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a ActionsOrganizationWorkflowPermissions resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a ActionsOrganizationWorkflowPermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActionsOrganizationWorkflowPermissions to import
   * @param importFromId The id of the existing ActionsOrganizationWorkflowPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActionsOrganizationWorkflowPermissions to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_workflow_permissions", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_actions_organization_workflow_permissions", importId: importFromId, provider });
       }
 
   // ===========
@@ -101,11 +101,11 @@ export class ActionsOrganizationWorkflowPermissions extends cdktf.TerraformResou
   // ==========
 
   // can_approve_pull_request_reviews - computed: false, optional: true, required: false
-  private _canApprovePullRequestReviews?: boolean | cdktf.IResolvable; 
+  private _canApprovePullRequestReviews?: boolean | cdktn.IResolvable; 
   public get canApprovePullRequestReviews() {
     return this.getBooleanAttribute('can_approve_pull_request_reviews');
   }
-  public set canApprovePullRequestReviews(value: boolean | cdktf.IResolvable) {
+  public set canApprovePullRequestReviews(value: boolean | cdktn.IResolvable) {
     this._canApprovePullRequestReviews = value;
   }
   public resetCanApprovePullRequestReviews() {
@@ -167,35 +167,35 @@ export class ActionsOrganizationWorkflowPermissions extends cdktf.TerraformResou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      can_approve_pull_request_reviews: cdktf.booleanToTerraform(this._canApprovePullRequestReviews),
-      default_workflow_permissions: cdktf.stringToTerraform(this._defaultWorkflowPermissions),
-      id: cdktf.stringToTerraform(this._id),
-      organization_slug: cdktf.stringToTerraform(this._organizationSlug),
+      can_approve_pull_request_reviews: cdktn.booleanToTerraform(this._canApprovePullRequestReviews),
+      default_workflow_permissions: cdktn.stringToTerraform(this._defaultWorkflowPermissions),
+      id: cdktn.stringToTerraform(this._id),
+      organization_slug: cdktn.stringToTerraform(this._organizationSlug),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       can_approve_pull_request_reviews: {
-        value: cdktf.booleanToHclTerraform(this._canApprovePullRequestReviews),
+        value: cdktn.booleanToHclTerraform(this._canApprovePullRequestReviews),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       default_workflow_permissions: {
-        value: cdktf.stringToHclTerraform(this._defaultWorkflowPermissions),
+        value: cdktn.stringToHclTerraform(this._defaultWorkflowPermissions),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization_slug: {
-        value: cdktf.stringToHclTerraform(this._organizationSlug),
+        value: cdktn.stringToHclTerraform(this._organizationSlug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

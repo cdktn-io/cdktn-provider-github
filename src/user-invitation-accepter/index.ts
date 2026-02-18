@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface UserInvitationAccepterConfig extends cdktf.TerraformMetaArguments {
+export interface UserInvitationAccepterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Allow the ID to be unset. This will result in the resource being skipped when the ID is not set instead of returning an error.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/user_invitation_accepter#allow_empty_id UserInvitationAccepter#allow_empty_id}
   */
-  readonly allowEmptyId?: boolean | cdktf.IResolvable;
+  readonly allowEmptyId?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/user_invitation_accepter#id UserInvitationAccepter#id}
   *
@@ -36,7 +36,7 @@ export interface UserInvitationAccepterConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/user_invitation_accepter github_user_invitation_accepter}
 */
-export class UserInvitationAccepter extends cdktf.TerraformResource {
+export class UserInvitationAccepter extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class UserInvitationAccepter extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a UserInvitationAccepter resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a UserInvitationAccepter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserInvitationAccepter to import
   * @param importFromId The id of the existing UserInvitationAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/user_invitation_accepter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserInvitationAccepter to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_user_invitation_accepter", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_user_invitation_accepter", importId: importFromId, provider });
       }
 
   // ===========
@@ -94,11 +94,11 @@ export class UserInvitationAccepter extends cdktf.TerraformResource {
   // ==========
 
   // allow_empty_id - computed: false, optional: true, required: false
-  private _allowEmptyId?: boolean | cdktf.IResolvable; 
+  private _allowEmptyId?: boolean | cdktn.IResolvable; 
   public get allowEmptyId() {
     return this.getBooleanAttribute('allow_empty_id');
   }
-  public set allowEmptyId(value: boolean | cdktf.IResolvable) {
+  public set allowEmptyId(value: boolean | cdktn.IResolvable) {
     this._allowEmptyId = value;
   }
   public resetAllowEmptyId() {
@@ -147,28 +147,28 @@ export class UserInvitationAccepter extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_empty_id: cdktf.booleanToTerraform(this._allowEmptyId),
-      id: cdktf.stringToTerraform(this._id),
-      invitation_id: cdktf.stringToTerraform(this._invitationId),
+      allow_empty_id: cdktn.booleanToTerraform(this._allowEmptyId),
+      id: cdktn.stringToTerraform(this._id),
+      invitation_id: cdktn.stringToTerraform(this._invitationId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_empty_id: {
-        value: cdktf.booleanToHclTerraform(this._allowEmptyId),
+        value: cdktn.booleanToHclTerraform(this._allowEmptyId),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       invitation_id: {
-        value: cdktf.stringToHclTerraform(this._invitationId),
+        value: cdktn.stringToHclTerraform(this._invitationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

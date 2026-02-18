@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface EnterpriseOrganizationConfig extends cdktf.TerraformMetaArguments {
+export interface EnterpriseOrganizationConfig extends cdktn.TerraformMetaArguments {
   /**
   * List of organization owner usernames.
   *
@@ -53,7 +53,7 @@ export interface EnterpriseOrganizationConfig extends cdktf.TerraformMetaArgumen
 /**
 * Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_organization github_enterprise_organization}
 */
-export class EnterpriseOrganization extends cdktf.TerraformResource {
+export class EnterpriseOrganization extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -64,14 +64,14 @@ export class EnterpriseOrganization extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a EnterpriseOrganization resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a EnterpriseOrganization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseOrganization to import
   * @param importFromId The id of the existing EnterpriseOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/enterprise_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseOrganization to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_organization", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "github_enterprise_organization", importId: importFromId, provider });
       }
 
   // ===========
@@ -116,7 +116,7 @@ export class EnterpriseOrganization extends cdktf.TerraformResource {
   // admin_logins - computed: false, optional: false, required: true
   private _adminLogins?: string[]; 
   public get adminLogins() {
-    return cdktf.Fn.tolist(this.getListAttribute('admin_logins'));
+    return cdktn.Fn.tolist(this.getListAttribute('admin_logins'));
   }
   public set adminLogins(value: string[]) {
     this._adminLogins = value;
@@ -213,49 +213,49 @@ export class EnterpriseOrganization extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      admin_logins: cdktf.listMapper(cdktf.stringToTerraform, false)(this._adminLogins),
-      billing_email: cdktf.stringToTerraform(this._billingEmail),
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enterprise_id: cdktf.stringToTerraform(this._enterpriseId),
-      name: cdktf.stringToTerraform(this._name),
+      admin_logins: cdktn.listMapper(cdktn.stringToTerraform, false)(this._adminLogins),
+      billing_email: cdktn.stringToTerraform(this._billingEmail),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enterprise_id: cdktn.stringToTerraform(this._enterpriseId),
+      name: cdktn.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       admin_logins: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._adminLogins),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._adminLogins),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       billing_email: {
-        value: cdktf.stringToHclTerraform(this._billingEmail),
+        value: cdktn.stringToHclTerraform(this._billingEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enterprise_id: {
-        value: cdktf.stringToHclTerraform(this._enterpriseId),
+        value: cdktn.stringToHclTerraform(this._enterpriseId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
