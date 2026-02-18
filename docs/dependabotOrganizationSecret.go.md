@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 dependabotorganizationsecret.NewDependabotOrganizationSecret(scope Construct, id *string, config DependabotOrganizationSecretConfig) DependabotOrganizationSecret
 ```
@@ -295,7 +295,7 @@ func ImportFrom(id *string, provider TerraformProvider)
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.importFrom.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -406,14 +406,14 @@ func ResetSelectedRepositoryIds()
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DependabotOrganizationSecret resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a DependabotOrganizationSecret resource upon running "cdktn plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 dependabotorganizationsecret.DependabotOrganizationSecret_IsConstruct(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 dependabotorganizationsecret.DependabotOrganizationSecret_IsTerraformElement(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ dependabotorganizationsecret.DependabotOrganizationSecret_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 dependabotorganizationsecret.DependabotOrganizationSecret_IsTerraformResource(x interface{}) *bool
 ```
@@ -473,12 +473,12 @@ dependabotorganizationsecret.DependabotOrganizationSecret_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 dependabotorganizationsecret.DependabotOrganizationSecret_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a DependabotOrganizationSecret resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a DependabotOrganizationSecret resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.generateConfigForImport.parameter.scope"></a>
 
@@ -508,7 +508,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the DependabotOrganizationSecret to import is found.
 
@@ -519,18 +519,18 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.createdAt">CreatedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.remoteUpdatedAt">RemoteUpdatedAt</a></code> | <code>*string</code> | *No description.* |
@@ -570,7 +570,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -620,7 +620,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -660,7 +660,7 @@ func DependsOn() *[]*string
 func ForEach() ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -670,7 +670,7 @@ func ForEach() ITerraformIterator
 func Lifecycle() TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -680,7 +680,7 @@ func Lifecycle() TerraformResourceLifecycle
 func Provider() TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -889,15 +889,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorganizationsecret"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/dependabotorganizationsecret"
 
 &dependabotorganizationsecret.DependabotOrganizationSecretConfig {
 	Connection: interface{},
 	Count: interface{},
-	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
-	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
-	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
-	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	SecretName: *string,
 	Visibility: *string,
@@ -915,10 +915,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/dependabotorgani
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.secretName">SecretName</a></code> | <code>*string</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.visibility">Visibility</a></code> | <code>*string</code> | Configures the access that repositories have to the organization secret. |
@@ -956,7 +956,7 @@ Count interface{}
 DependsOn *[]ITerraformDependable
 ```
 
-- *Type:* *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
 
 ---
 
@@ -966,7 +966,7 @@ DependsOn *[]ITerraformDependable
 ForEach ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -976,7 +976,7 @@ ForEach ITerraformIterator
 Lifecycle TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -986,7 +986,7 @@ Lifecycle TerraformResourceLifecycle
 Provider TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 

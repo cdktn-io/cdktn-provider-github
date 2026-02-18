@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 datagithubuser.NewDataGithubUser(scope Construct, id *string, config DataGithubUserConfig) DataGithubUser
 ```
@@ -276,14 +276,14 @@ func ResetId()
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubUser resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a DataGithubUser resource upon running "cdktn plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 datagithubuser.DataGithubUser_IsConstruct(x interface{}) *bool
 ```
@@ -315,7 +315,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 datagithubuser.DataGithubUser_IsTerraformElement(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ datagithubuser.DataGithubUser_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 datagithubuser.DataGithubUser_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -343,12 +343,12 @@ datagithubuser.DataGithubUser_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 datagithubuser.DataGithubUser_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a DataGithubUser resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a DataGithubUser resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.scope"></a>
 
@@ -378,7 +378,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubUser.DataGithubUser.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the DataGithubUser to import is found.
 
@@ -389,17 +389,17 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.avatarUrl">AvatarUrl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.bio">Bio</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.blog">Blog</a></code> | <code>*string</code> | *No description.* |
@@ -416,7 +416,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicGists">PublicGists</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.publicRepos">PublicRepos</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin">SiteAdmin</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.siteAdmin">SiteAdmin</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.sshKeys">SshKeys</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.suspendedAt">SuspendedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUser.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
@@ -445,7 +445,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -495,7 +495,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -525,7 +525,7 @@ func DependsOn() *[]*string
 func ForEach() ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -535,7 +535,7 @@ func ForEach() ITerraformIterator
 func Lifecycle() TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -545,7 +545,7 @@ func Lifecycle() TerraformResourceLifecycle
 func Provider() TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -715,7 +715,7 @@ func PublicRepos() *f64
 func SiteAdmin() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -814,15 +814,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubuser"
 
 &datagithubuser.DataGithubUserConfig {
 	Connection: interface{},
 	Count: interface{},
-	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
-	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
-	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
-	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Username: *string,
 	Id: *string,
@@ -835,10 +835,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubuser"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.username">Username</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/user#username DataGithubUser#username}. |
 | <code><a href="#@cdktn/provider-github.dataGithubUser.DataGithubUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/user#id DataGithubUser#id}. |
@@ -871,7 +871,7 @@ Count interface{}
 DependsOn *[]ITerraformDependable
 ```
 
-- *Type:* *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
 
 ---
 
@@ -881,7 +881,7 @@ DependsOn *[]ITerraformDependable
 ForEach ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -891,7 +891,7 @@ ForEach ITerraformIterator
 Lifecycle TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -901,7 +901,7 @@ Lifecycle TerraformResourceLifecycle
 Provider TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepository(scope Construct, id *string, config DataGithubRepositoryConfig) DataGithubRepository
 ```
@@ -304,14 +304,14 @@ func ResetName()
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubRepository resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a DataGithubRepository resource upon running "cdktn plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.DataGithubRepository_IsConstruct(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.DataGithubRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -357,7 +357,7 @@ datagithubrepository.DataGithubRepository_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.DataGithubRepository_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -371,12 +371,12 @@ datagithubrepository.DataGithubRepository_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.DataGithubRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a DataGithubRepository resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a DataGithubRepository resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.generateConfigForImport.parameter.scope"></a>
 
@@ -406,7 +406,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the DataGithubRepository to import is found.
 
@@ -417,42 +417,42 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowForking">AllowForking</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.archived">Archived</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowAutoMerge">AllowAutoMerge</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowForking">AllowForking</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowMergeCommit">AllowMergeCommit</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowRebaseMerge">AllowRebaseMerge</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowSquashMerge">AllowSquashMerge</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.allowUpdateBranch">AllowUpdateBranch</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.archived">Archived</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.defaultBranch">DefaultBranch</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.fork">Fork</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.deleteBranchOnMerge">DeleteBranchOnMerge</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.fork">Fork</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.gitCloneUrl">GitCloneUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasDiscussions">HasDiscussions</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasDownloads">HasDownloads</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasIssues">HasIssues</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasProjects">HasProjects</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasWiki">HasWiki</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasDiscussions">HasDiscussions</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasDownloads">HasDownloads</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasIssues">HasIssues</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasProjects">HasProjects</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.hasWiki">HasWiki</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.httpCloneUrl">HttpCloneUrl</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.isTemplate">IsTemplate</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.isTemplate">IsTemplate</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.mergeCommitMessage">MergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.mergeCommitTitle">MergeCommitTitle</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.nodeId">NodeId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.pages">Pages</a></code> | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList">DataGithubRepositoryPagesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.primaryLanguage">PrimaryLanguage</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.private">Private</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.private">Private</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.repoId">RepoId</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.repositoryLicense">RepositoryLicense</a></code> | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList">DataGithubRepositoryRepositoryLicenseList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepository.property.squashMergeCommitMessage">SquashMergeCommitMessage</a></code> | <code>*string</code> | *No description.* |
@@ -493,7 +493,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -543,7 +543,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -573,7 +573,7 @@ func DependsOn() *[]*string
 func ForEach() ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -583,7 +583,7 @@ func ForEach() ITerraformIterator
 func Lifecycle() TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -593,7 +593,7 @@ func Lifecycle() TerraformResourceLifecycle
 func Provider() TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -603,7 +603,7 @@ func Provider() TerraformProvider
 func AllowAutoMerge() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -613,7 +613,7 @@ func AllowAutoMerge() IResolvable
 func AllowForking() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -623,7 +623,7 @@ func AllowForking() IResolvable
 func AllowMergeCommit() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -633,7 +633,7 @@ func AllowMergeCommit() IResolvable
 func AllowRebaseMerge() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -643,7 +643,7 @@ func AllowRebaseMerge() IResolvable
 func AllowSquashMerge() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -653,7 +653,7 @@ func AllowSquashMerge() IResolvable
 func AllowUpdateBranch() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -663,7 +663,7 @@ func AllowUpdateBranch() IResolvable
 func Archived() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -683,7 +683,7 @@ func DefaultBranch() *string
 func DeleteBranchOnMerge() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -693,7 +693,7 @@ func DeleteBranchOnMerge() IResolvable
 func Fork() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -713,7 +713,7 @@ func GitCloneUrl() *string
 func HasDiscussions() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -723,7 +723,7 @@ func HasDiscussions() IResolvable
 func HasDownloads() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -733,7 +733,7 @@ func HasDownloads() IResolvable
 func HasIssues() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -743,7 +743,7 @@ func HasIssues() IResolvable
 func HasProjects() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -753,7 +753,7 @@ func HasProjects() IResolvable
 func HasWiki() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -783,7 +783,7 @@ func HttpCloneUrl() *string
 func IsTemplate() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -843,7 +843,7 @@ func PrimaryLanguage() *string
 func Private() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -1062,15 +1062,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryConfig {
 	Connection: interface{},
 	Count: interface{},
-	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
-	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
-	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
-	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Description: *string,
 	FullName: *string,
@@ -1086,10 +1086,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository#description DataGithubRepository#description}. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.fullName">FullName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repository#full_name DataGithubRepository#full_name}. |
@@ -1125,7 +1125,7 @@ Count interface{}
 DependsOn *[]ITerraformDependable
 ```
 
-- *Type:* *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
 
 ---
 
@@ -1135,7 +1135,7 @@ DependsOn *[]ITerraformDependable
 ForEach ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -1145,7 +1145,7 @@ ForEach ITerraformIterator
 Lifecycle TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1155,7 +1155,7 @@ Lifecycle TerraformResourceLifecycle
 Provider TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryPages {
 
@@ -1250,7 +1250,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryPagesSource {
 
@@ -1263,7 +1263,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicense.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryRepositoryLicense {
 
@@ -1276,7 +1276,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicense.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryRepositoryLicenseLicense {
 
@@ -1289,7 +1289,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 &datagithubrepository.DataGithubRepositoryTemplate {
 
@@ -1304,14 +1304,14 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubreposi
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryPagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryPagesList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -1319,7 +1319,7 @@ datagithubrepository.NewDataGithubRepositoryPagesList(terraformResource IInterpo
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1385,7 +1385,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesList.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -1453,14 +1453,14 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryPagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryPagesOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1469,7 +1469,7 @@ datagithubrepository.NewDataGithubRepositoryPagesOutputReference(terraformResour
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1655,7 +1655,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -1678,7 +1678,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.buildType">BuildType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.cname">Cname</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.custom404">Custom404</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.custom404">Custom404</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.source">Source</a></code> | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList">DataGithubRepositoryPagesSourceList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesOutputReference.property.status">Status</a></code> | <code>*string</code> | *No description.* |
@@ -1737,7 +1737,7 @@ func Cname() *string
 func Custom404() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -1797,14 +1797,14 @@ func InternalValue() DataGithubRepositoryPages
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryPagesSourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryPagesSourceList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -1812,7 +1812,7 @@ datagithubrepository.NewDataGithubRepositoryPagesSourceList(terraformResource II
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1878,7 +1878,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceList.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -1946,14 +1946,14 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryPagesSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryPagesSourceOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1962,7 +1962,7 @@ datagithubrepository.NewDataGithubRepositoryPagesSourceOutputReference(terraform
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2148,7 +2148,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryPagesSourceOutputReference.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -2235,14 +2235,14 @@ func InternalValue() DataGithubRepositoryPagesSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryRepositoryLicenseLicenseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryRepositoryLicenseLicenseList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -2250,7 +2250,7 @@ datagithubrepository.NewDataGithubRepositoryRepositoryLicenseLicenseList(terrafo
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2316,7 +2316,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseList.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -2384,14 +2384,14 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryRepositoryLicenseLicenseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryRepositoryLicenseLicenseOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -2400,7 +2400,7 @@ datagithubrepository.NewDataGithubRepositoryRepositoryLicenseLicenseOutputRefere
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2586,7 +2586,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -2610,7 +2610,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.body">Body</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.conditions">Conditions</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.featured">Featured</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.featured">Featured</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.htmlUrl">HtmlUrl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.implementation">Implementation</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseLicenseOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
@@ -2683,7 +2683,7 @@ func Description() *string
 func Featured() IResolvable
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolvable
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
 
 ---
 
@@ -2783,14 +2783,14 @@ func InternalValue() DataGithubRepositoryRepositoryLicenseLicense
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryRepositoryLicenseList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryRepositoryLicenseList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -2798,7 +2798,7 @@ datagithubrepository.NewDataGithubRepositoryRepositoryLicenseList(terraformResou
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2864,7 +2864,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseList.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -2932,14 +2932,14 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryRepositoryLicenseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryRepositoryLicenseOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -2948,7 +2948,7 @@ datagithubrepository.NewDataGithubRepositoryRepositoryLicenseOutputReference(ter
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -3134,7 +3134,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryRepositoryLicenseOutputReference.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -3331,14 +3331,14 @@ func InternalValue() DataGithubRepositoryRepositoryLicense
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryTemplateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryTemplateList
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -3346,7 +3346,7 @@ datagithubrepository.NewDataGithubRepositoryTemplateList(terraformResource IInte
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -3412,7 +3412,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateList.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 
@@ -3480,14 +3480,14 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/datagithubrepository"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepository"
 
 datagithubrepository.NewDataGithubRepositoryTemplateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryTemplateOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -3496,7 +3496,7 @@ datagithubrepository.NewDataGithubRepositoryTemplateOutputReference(terraformRes
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -3682,7 +3682,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryTemplateOutputReference.resolve.parameter._context"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
 
 ---
 

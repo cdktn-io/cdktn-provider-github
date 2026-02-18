@@ -293,7 +293,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issueLabels.IssueLabels.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -375,7 +375,7 @@ public putLabel(value: IResolvable | IssueLabelsLabel[]): void
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.issueLabels.IssueLabels.putLabel.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
 
 ---
 
@@ -398,7 +398,7 @@ public resetLabel(): void
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a IssueLabels resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a IssueLabels resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -470,7 +470,7 @@ import { issueLabels } from '@cdktn/provider-github'
 issueLabels.IssueLabels.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a IssueLabels resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a IssueLabels resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.issueLabels.IssueLabels.generateConfigForImport.parameter.scope"></a>
 
@@ -500,7 +500,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.issueLabels.IssueLabels.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the IssueLabels to import is found.
 
@@ -511,22 +511,22 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.label">label</a></code> | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList">IssueLabelsLabelList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.labelInput">labelInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.labelInput">labelInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabels.property.repository">repository</a></code> | <code>string</code> | *No description.* |
@@ -551,7 +551,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -601,7 +601,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -611,7 +611,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -621,7 +621,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -641,7 +641,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -651,7 +651,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -661,7 +661,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -671,7 +671,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -701,7 +701,7 @@ public readonly idInput: string;
 public readonly labelInput: IResolvable | IssueLabelsLabel[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
 
 ---
 
@@ -769,16 +769,16 @@ const issueLabelsConfig: issueLabels.IssueLabelsConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.repository">repository</a></code> | <code>string</code> | The GitHub repository. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/issue_labels#id IssueLabels#id}. |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.label">label</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | label block. |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsConfig.property.label">label</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | label block. |
 
 ---
 
@@ -788,7 +788,7 @@ const issueLabelsConfig: issueLabels.IssueLabelsConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -798,7 +798,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -808,7 +808,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -818,7 +818,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -828,7 +828,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -838,7 +838,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -848,7 +848,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -887,7 +887,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly label: IResolvable | IssueLabelsLabel[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
 
 label block.
 
@@ -971,7 +971,7 @@ new issueLabels.IssueLabelsLabelList(terraformResource: IInterpolatingParent, te
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -979,7 +979,7 @@ new issueLabels.IssueLabelsLabelList(terraformResource: IInterpolatingParent, te
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.issueLabels.IssueLabelsLabelList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1045,7 +1045,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.issueLabels.IssueLabelsLabelList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1080,7 +1080,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]</code> | *No description.* |
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | IssueLabelsLabel[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>[]
 
 ---
 
@@ -1131,7 +1131,7 @@ new issueLabels.IssueLabelsLabelOutputReference(terraformResource: IInterpolatin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1140,7 +1140,7 @@ new issueLabels.IssueLabelsLabelOutputReference(terraformResource: IInterpolatin
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1327,7 +1327,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1361,7 +1361,7 @@ public resetDescription(): void
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.property.color">color</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabelOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a></code> | *No description.* |
 
 ---
 
@@ -1465,7 +1465,7 @@ public readonly name: string;
 public readonly internalValue: IResolvable | IssueLabelsLabel;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.issueLabels.IssueLabelsLabel">IssueLabelsLabel</a>
 
 ---
 

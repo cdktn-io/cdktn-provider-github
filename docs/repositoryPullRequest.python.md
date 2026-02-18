@@ -36,20 +36,20 @@ repositoryPullRequest.RepositoryPullRequest(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.baseRef">base_ref</a></code> | <code>str</code> | Name of the branch serving as the base of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.baseRepository">base_repository</a></code> | <code>str</code> | Name of the base repository to retrieve the Pull Requests from. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.headRef">head_ref</a></code> | <code>str</code> | Name of the branch serving as the head of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.title">title</a></code> | <code>str</code> | The title of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.body">body</a></code> | <code>str</code> | Body of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#id RepositoryPullRequest#id}. |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktf.IResolvable</code> | Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'. |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktn.IResolvable</code> | Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.owner">owner</a></code> | <code>str</code> | Owner of the repository. If not provided, the provider's default owner is used. |
 
 ---
@@ -74,43 +74,43 @@ Must be unique amongst siblings in the same scope
 
 ##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.connection"></a>
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
 ##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.dependsOn"></a>
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
 ##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.forEach"></a>
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
 ##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.lifecycle"></a>
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
 ##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
 ##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.provisioners"></a>
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -177,7 +177,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ##### `maintainer_can_modify`<sup>Optional</sup> <a name="maintainer_can_modify" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer.parameter.maintainerCanModify"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'.
 
@@ -471,7 +471,7 @@ def import_from(
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -585,7 +585,7 @@ def reset_owner() -> None
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.isTerraformElement">is_terraform_element</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a RepositoryPullRequest resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a RepositoryPullRequest resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -668,7 +668,7 @@ repositoryPullRequest.RepositoryPullRequest.generate_config_for_import(
 )
 ```
 
-Generates CDKTF code for importing a RepositoryPullRequest resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryPullRequest resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.generateConfigForImport.parameter.scope"></a>
 
@@ -698,7 +698,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryPullRequest to import is found.
 
@@ -709,21 +709,21 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.baseSha">base_sha</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.draft">draft</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.draft">draft</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.headSha">head_sha</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.labels">labels</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.number">number</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -736,7 +736,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.headRefInput">head_ref_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.maintainerCanModifyInput">maintainer_can_modify_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.maintainerCanModifyInput">maintainer_can_modify_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.ownerInput">owner_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.baseRef">base_ref</a></code> | <code>str</code> | *No description.* |
@@ -744,7 +744,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.body">body</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.headRef">head_ref</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.owner">owner</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.property.title">title</a></code> | <code>str</code> | *No description.* |
 
@@ -768,7 +768,7 @@ The tree node.
 cdktf_stack: TerraformStack
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -818,7 +818,7 @@ terraform_resource_type: str
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -828,7 +828,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -838,7 +838,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -858,7 +858,7 @@ depends_on: typing.List[str]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -868,7 +868,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -878,7 +878,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -888,7 +888,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -908,7 +908,7 @@ base_sha: str
 draft: IResolvable
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -1038,7 +1038,7 @@ id_input: str
 maintainer_can_modify_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1118,7 +1118,7 @@ id: str
 maintainer_can_modify: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1192,20 +1192,20 @@ repositoryPullRequest.RepositoryPullRequestConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.baseRef">base_ref</a></code> | <code>str</code> | Name of the branch serving as the base of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.baseRepository">base_repository</a></code> | <code>str</code> | Name of the base repository to retrieve the Pull Requests from. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.headRef">head_ref</a></code> | <code>str</code> | Name of the branch serving as the head of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.title">title</a></code> | <code>str</code> | The title of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.body">body</a></code> | <code>str</code> | Body of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#id RepositoryPullRequest#id}. |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktf.IResolvable</code> | Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'. |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.maintainerCanModify">maintainer_can_modify</a></code> | <code>bool \| cdktn.IResolvable</code> | Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.owner">owner</a></code> | <code>str</code> | Owner of the repository. If not provided, the provider's default owner is used. |
 
 ---
@@ -1216,7 +1216,7 @@ repositoryPullRequest.RepositoryPullRequestConfig(
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1226,7 +1226,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -1236,7 +1236,7 @@ count: typing.Union[int, float] | TerraformCount
 depends_on: typing.List[ITerraformDependable]
 ```
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
@@ -1246,7 +1246,7 @@ depends_on: typing.List[ITerraformDependable]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1256,7 +1256,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1266,7 +1266,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1276,7 +1276,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1371,7 +1371,7 @@ If you experience problems setting this value it might not be settable. Please t
 maintainer_can_modify: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'.
 

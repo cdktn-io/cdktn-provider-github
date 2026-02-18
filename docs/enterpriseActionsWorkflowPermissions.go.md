@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 enterpriseactionsworkflowpermissions.NewEnterpriseActionsWorkflowPermissions(scope Construct, id *string, config EnterpriseActionsWorkflowPermissionsConfig) EnterpriseActionsWorkflowPermissions
 ```
@@ -293,7 +293,7 @@ func ImportFrom(id *string, provider TerraformProvider)
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.importFrom.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -392,14 +392,14 @@ func ResetId()
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a EnterpriseActionsWorkflowPermissions resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a EnterpriseActionsWorkflowPermissions resource upon running "cdktn plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,12 +459,12 @@ enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a EnterpriseActionsWorkflowPermissions resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a EnterpriseActionsWorkflowPermissions resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.generateConfigForImport.parameter.scope"></a>
 
@@ -494,7 +494,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the EnterpriseActionsWorkflowPermissions to import is found.
 
@@ -505,18 +505,18 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.canApprovePullRequestReviewsInput">CanApprovePullRequestReviewsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissions.property.defaultWorkflowPermissionsInput">DefaultWorkflowPermissionsInput</a></code> | <code>*string</code> | *No description.* |
@@ -547,7 +547,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -597,7 +597,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -637,7 +637,7 @@ func DependsOn() *[]*string
 func ForEach() ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -647,7 +647,7 @@ func ForEach() ITerraformIterator
 func Lifecycle() TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -657,7 +657,7 @@ func Lifecycle() TerraformResourceLifecycle
 func Provider() TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -776,15 +776,15 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseactionsworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseactionsworkflowpermissions"
 
 &enterpriseactionsworkflowpermissions.EnterpriseActionsWorkflowPermissionsConfig {
 	Connection: interface{},
 	Count: interface{},
-	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
-	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
-	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
-	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	EnterpriseSlug: *string,
 	CanApprovePullRequestReviews: interface{},
@@ -799,10 +799,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v15/enterpriseaction
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.enterpriseSlug">EnterpriseSlug</a></code> | <code>*string</code> | The slug of the enterprise. |
 | <code><a href="#@cdktn/provider-github.enterpriseActionsWorkflowPermissions.EnterpriseActionsWorkflowPermissionsConfig.property.canApprovePullRequestReviews">CanApprovePullRequestReviews</a></code> | <code>interface{}</code> | Whether GitHub Actions can approve pull request reviews. |
@@ -837,7 +837,7 @@ Count interface{}
 DependsOn *[]ITerraformDependable
 ```
 
-- *Type:* *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
 
 ---
 
@@ -847,7 +847,7 @@ DependsOn *[]ITerraformDependable
 ForEach ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -857,7 +857,7 @@ ForEach ITerraformIterator
 Lifecycle TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -867,7 +867,7 @@ Lifecycle TerraformResourceLifecycle
 Provider TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 

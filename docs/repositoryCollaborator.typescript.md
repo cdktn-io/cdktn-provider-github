@@ -293,7 +293,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -392,7 +392,7 @@ public resetPermissionDiffSuppression(): void
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RepositoryCollaborator resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RepositoryCollaborator resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -464,7 +464,7 @@ import { repositoryCollaborator } from '@cdktn/provider-github'
 repositoryCollaborator.RepositoryCollaborator.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RepositoryCollaborator resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryCollaborator resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.generateConfigForImport.parameter.scope"></a>
 
@@ -494,7 +494,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryCollaborator to import is found.
 
@@ -505,28 +505,28 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.invitationId">invitationId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permissionDiffSuppressionInput">permissionDiffSuppressionInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permissionDiffSuppressionInput">permissionDiffSuppressionInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permissionInput">permissionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permission">permission</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permissionDiffSuppression">permissionDiffSuppression</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.permissionDiffSuppression">permissionDiffSuppression</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaborator.property.username">username</a></code> | <code>string</code> | *No description.* |
 
@@ -550,7 +550,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -600,7 +600,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -610,7 +610,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -620,7 +620,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -640,7 +640,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -650,7 +650,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -660,7 +660,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -670,7 +670,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -700,7 +700,7 @@ public readonly idInput: string;
 public readonly permissionDiffSuppressionInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -760,7 +760,7 @@ public readonly permission: string;
 public readonly permissionDiffSuppression: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -818,18 +818,18 @@ const repositoryCollaboratorConfig: repositoryCollaborator.RepositoryCollaborato
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.repository">repository</a></code> | <code>string</code> | The GitHub repository. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.username">username</a></code> | <code>string</code> | The user to add to the repository as a collaborator. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborator#id RepositoryCollaborator#id}. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.permission">permission</a></code> | <code>string</code> | The permission of the outside collaborator for the repository. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.permissionDiffSuppression">permissionDiffSuppression</a></code> | <code>boolean \| cdktf.IResolvable</code> | Suppress plan diffs for triage and maintain. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborator.RepositoryCollaboratorConfig.property.permissionDiffSuppression">permissionDiffSuppression</a></code> | <code>boolean \| cdktn.IResolvable</code> | Suppress plan diffs for triage and maintain. Defaults to 'false'. |
 
 ---
 
@@ -839,7 +839,7 @@ const repositoryCollaboratorConfig: repositoryCollaborator.RepositoryCollaborato
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -849,7 +849,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -859,7 +859,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -869,7 +869,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -879,7 +879,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -889,7 +889,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -899,7 +899,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -968,7 +968,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly permissionDiffSuppression: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Suppress plan diffs for triage and maintain. Defaults to 'false'.
 

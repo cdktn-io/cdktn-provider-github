@@ -36,19 +36,19 @@ repositoryRuleset.RepositoryRuleset(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.enforcement">enforcement</a></code> | <code>str</code> | Possible values for Enforcement are `disabled`, `active`, `evaluate`. Note: `evaluate` is currently only supported for owners of type `organization`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the ruleset. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.repository">repository</a></code> | <code>str</code> | Name of the repository to apply ruleset to. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.rules">rules</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules">RepositoryRulesetRules</a></code> | rules block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.target">target</a></code> | <code>str</code> | Possible values are branch, push and tag. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.bypassActors">bypass_actors</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | bypass_actors block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.bypassActors">bypass_actors</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | bypass_actors block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions">RepositoryRulesetConditions</a></code> | conditions block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#id RepositoryRuleset#id}. |
 
@@ -74,43 +74,43 @@ Must be unique amongst siblings in the same scope
 
 ##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.connection"></a>
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
 ##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.dependsOn"></a>
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
 ##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.forEach"></a>
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
 ##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.lifecycle"></a>
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
 ##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
 ##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.provisioners"></a>
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `bypass_actors`<sup>Optional</sup> <a name="bypass_actors" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer.parameter.bypassActors"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
 
 bypass_actors block.
 
@@ -473,7 +473,7 @@ def import_from(
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -566,7 +566,7 @@ def put_bypass_actors(
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putBypassActors.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
 
 ---
 
@@ -669,7 +669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `creation`<sup>Optional</sup> <a name="creation" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.creation"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permission to create matching refs.
 
@@ -679,7 +679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `deletion`<sup>Optional</sup> <a name="deletion" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.deletion"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permissions to delete matching refs.
 
@@ -739,7 +739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `non_fast_forward`<sup>Optional</sup> <a name="non_fast_forward" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.nonFastForward"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Prevent users with push access from force pushing to branches.
 
@@ -779,7 +779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `required_linear_history`<sup>Optional</sup> <a name="required_linear_history" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.requiredLinearHistory"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Prevent merge commits from being pushed to matching branches.
 
@@ -789,7 +789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `required_signatures`<sup>Optional</sup> <a name="required_signatures" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.requiredSignatures"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Commits pushed to matching branches must have verified signatures.
 
@@ -819,7 +819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.update"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permission to update matching refs.
 
@@ -829,7 +829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `update_allows_fetch_and_merge`<sup>Optional</sup> <a name="update_allows_fetch_and_merge" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.putRules.parameter.updateAllowsFetchAndMerge"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Branch can pull changes from its upstream repository.
 
@@ -864,7 +864,7 @@ def reset_id() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isTerraformElement">is_terraform_element</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a RepositoryRuleset resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a RepositoryRuleset resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -947,7 +947,7 @@ repositoryRuleset.RepositoryRuleset.generate_config_for_import(
 )
 ```
 
-Generates CDKTF code for importing a RepositoryRuleset resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryRuleset resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.generateConfigForImport.parameter.scope"></a>
 
@@ -977,7 +977,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryRuleset to import is found.
 
@@ -988,26 +988,26 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.bypassActors">bypass_actors</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList">RepositoryRulesetBypassActorsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference">RepositoryRulesetConditionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.etag">etag</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.nodeId">node_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.rules">rules</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference">RepositoryRulesetRulesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.rulesetId">ruleset_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.bypassActorsInput">bypass_actors_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.bypassActorsInput">bypass_actors_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.conditionsInput">conditions_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions">RepositoryRulesetConditions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.enforcementInput">enforcement_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -1041,7 +1041,7 @@ The tree node.
 cdktf_stack: TerraformStack
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -1091,7 +1091,7 @@ terraform_resource_type: str
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -1101,7 +1101,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1111,7 +1111,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -1131,7 +1131,7 @@ depends_on: typing.List[str]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1141,7 +1141,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1151,7 +1151,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1161,7 +1161,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1231,7 +1231,7 @@ ruleset_id: typing.Union[int, float]
 bypass_actors_input: IResolvable | typing.List[RepositoryRulesetBypassActors]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
 
 ---
 
@@ -1561,19 +1561,19 @@ repositoryRuleset.RepositoryRulesetConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.enforcement">enforcement</a></code> | <code>str</code> | Possible values for Enforcement are `disabled`, `active`, `evaluate`. Note: `evaluate` is currently only supported for owners of type `organization`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.name">name</a></code> | <code>str</code> | The name of the ruleset. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.repository">repository</a></code> | <code>str</code> | Name of the repository to apply ruleset to. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.rules">rules</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules">RepositoryRulesetRules</a></code> | rules block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.target">target</a></code> | <code>str</code> | Possible values are branch, push and tag. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.bypassActors">bypass_actors</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | bypass_actors block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.bypassActors">bypass_actors</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | bypass_actors block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions">RepositoryRulesetConditions</a></code> | conditions block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_ruleset#id RepositoryRuleset#id}. |
 
@@ -1585,7 +1585,7 @@ repositoryRuleset.RepositoryRulesetConfig(
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1595,7 +1595,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -1605,7 +1605,7 @@ count: typing.Union[int, float] | TerraformCount
 depends_on: typing.List[ITerraformDependable]
 ```
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
@@ -1615,7 +1615,7 @@ depends_on: typing.List[ITerraformDependable]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1625,7 +1625,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1635,7 +1635,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1645,7 +1645,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1725,7 +1725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 bypass_actors: IResolvable | typing.List[RepositoryRulesetBypassActors]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
 
 bypass_actors block.
 
@@ -1804,23 +1804,23 @@ repositoryRuleset.RepositoryRulesetRules(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.commitMessagePattern">commit_message_pattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern">RepositoryRulesetRulesCommitMessagePattern</a></code> | commit_message_pattern block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.committerEmailPattern">committer_email_pattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a></code> | committer_email_pattern block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.copilotCodeReview">copilot_code_review</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | copilot_code_review block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.creation">creation</a></code> | <code>bool \| cdktf.IResolvable</code> | Only allow users with bypass permission to create matching refs. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.deletion">deletion</a></code> | <code>bool \| cdktf.IResolvable</code> | Only allow users with bypass permissions to delete matching refs. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.creation">creation</a></code> | <code>bool \| cdktn.IResolvable</code> | Only allow users with bypass permission to create matching refs. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.deletion">deletion</a></code> | <code>bool \| cdktn.IResolvable</code> | Only allow users with bypass permissions to delete matching refs. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.fileExtensionRestriction">file_extension_restriction</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction">RepositoryRulesetRulesFileExtensionRestriction</a></code> | file_extension_restriction block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.filePathRestriction">file_path_restriction</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction">RepositoryRulesetRulesFilePathRestriction</a></code> | file_path_restriction block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.maxFilePathLength">max_file_path_length</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength">RepositoryRulesetRulesMaxFilePathLength</a></code> | max_file_path_length block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.maxFileSize">max_file_size</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSize">RepositoryRulesetRulesMaxFileSize</a></code> | max_file_size block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.mergeQueue">merge_queue</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueue">RepositoryRulesetRulesMergeQueue</a></code> | merge_queue block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.nonFastForward">non_fast_forward</a></code> | <code>bool \| cdktf.IResolvable</code> | Prevent users with push access from force pushing to branches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.nonFastForward">non_fast_forward</a></code> | <code>bool \| cdktn.IResolvable</code> | Prevent users with push access from force pushing to branches. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.pullRequest">pull_request</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest">RepositoryRulesetRulesPullRequest</a></code> | pull_request block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredCodeScanning">required_code_scanning</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning">RepositoryRulesetRulesRequiredCodeScanning</a></code> | required_code_scanning block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredDeployments">required_deployments</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments">RepositoryRulesetRulesRequiredDeployments</a></code> | required_deployments block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredLinearHistory">required_linear_history</a></code> | <code>bool \| cdktf.IResolvable</code> | Prevent merge commits from being pushed to matching branches. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredSignatures">required_signatures</a></code> | <code>bool \| cdktf.IResolvable</code> | Commits pushed to matching branches must have verified signatures. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredLinearHistory">required_linear_history</a></code> | <code>bool \| cdktn.IResolvable</code> | Prevent merge commits from being pushed to matching branches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredSignatures">required_signatures</a></code> | <code>bool \| cdktn.IResolvable</code> | Commits pushed to matching branches must have verified signatures. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.requiredStatusChecks">required_status_checks</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks">RepositoryRulesetRulesRequiredStatusChecks</a></code> | required_status_checks block. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.tagNamePattern">tag_name_pattern</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern">RepositoryRulesetRulesTagNamePattern</a></code> | tag_name_pattern block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.update">update</a></code> | <code>bool \| cdktf.IResolvable</code> | Only allow users with bypass permission to update matching refs. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.updateAllowsFetchAndMerge">update_allows_fetch_and_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Branch can pull changes from its upstream repository. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.update">update</a></code> | <code>bool \| cdktn.IResolvable</code> | Only allow users with bypass permission to update matching refs. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.property.updateAllowsFetchAndMerge">update_allows_fetch_and_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Branch can pull changes from its upstream repository. |
 
 ---
 
@@ -1900,7 +1900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 creation: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permission to create matching refs.
 
@@ -1914,7 +1914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 deletion: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permissions to delete matching refs.
 
@@ -1998,7 +1998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 non_fast_forward: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Prevent users with push access from force pushing to branches.
 
@@ -2054,7 +2054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 required_linear_history: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Prevent merge commits from being pushed to matching branches.
 
@@ -2068,7 +2068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 required_signatures: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Commits pushed to matching branches must have verified signatures.
 
@@ -2110,7 +2110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 update: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Only allow users with bypass permission to update matching refs.
 
@@ -2124,7 +2124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 update_allows_fetch_and_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Branch can pull changes from its upstream repository.
 
@@ -2156,7 +2156,7 @@ repositoryRuleset.RepositoryRulesetRulesBranchNamePattern(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.property.operator">operator</a></code> | <code>str</code> | The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.property.pattern">pattern</a></code> | <code>str</code> | The pattern to match with. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.property.name">name</a></code> | <code>str</code> | How this rule will appear to users. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | If true, the rule will fail if the pattern matches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, the rule will fail if the pattern matches. |
 
 ---
 
@@ -2208,7 +2208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -2238,7 +2238,7 @@ repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.property.operator">operator</a></code> | <code>str</code> | The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.property.pattern">pattern</a></code> | <code>str</code> | The pattern to match with. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.property.name">name</a></code> | <code>str</code> | How this rule will appear to users. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | If true, the rule will fail if the pattern matches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, the rule will fail if the pattern matches. |
 
 ---
 
@@ -2290,7 +2290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -2320,7 +2320,7 @@ repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.property.operator">operator</a></code> | <code>str</code> | The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.property.pattern">pattern</a></code> | <code>str</code> | The pattern to match with. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.property.name">name</a></code> | <code>str</code> | How this rule will appear to users. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | If true, the rule will fail if the pattern matches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, the rule will fail if the pattern matches. |
 
 ---
 
@@ -2372,7 +2372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -2402,7 +2402,7 @@ repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.property.operator">operator</a></code> | <code>str</code> | The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.property.pattern">pattern</a></code> | <code>str</code> | The pattern to match with. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.property.name">name</a></code> | <code>str</code> | How this rule will appear to users. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | If true, the rule will fail if the pattern matches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, the rule will fail if the pattern matches. |
 
 ---
 
@@ -2454,7 +2454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -2479,8 +2479,8 @@ repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewDraftPullRequests">review_draft_pull_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewOnPush">review_on_push</a></code> | <code>bool \| cdktf.IResolvable</code> | Copilot automatically reviews each new push to the pull request. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewDraftPullRequests">review_draft_pull_requests</a></code> | <code>bool \| cdktn.IResolvable</code> | Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.property.reviewOnPush">review_on_push</a></code> | <code>bool \| cdktn.IResolvable</code> | Copilot automatically reviews each new push to the pull request. Defaults to `false`. |
 
 ---
 
@@ -2490,7 +2490,7 @@ repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview(
 review_draft_pull_requests: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
 
@@ -2504,7 +2504,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 review_on_push: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Copilot automatically reviews each new push to the pull request. Defaults to `false`.
 
@@ -2809,12 +2809,12 @@ repositoryRuleset.RepositoryRulesetRulesPullRequest(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.allowedMergeMethods">allowed_merge_methods</a></code> | <code>typing.List[str]</code> | Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.dismissStaleReviewsOnPush">dismiss_stale_reviews_on_push</a></code> | <code>bool \| cdktf.IResolvable</code> | New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireCodeOwnerReview">require_code_owner_review</a></code> | <code>bool \| cdktf.IResolvable</code> | Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.dismissStaleReviewsOnPush">dismiss_stale_reviews_on_push</a></code> | <code>bool \| cdktn.IResolvable</code> | New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireCodeOwnerReview">require_code_owner_review</a></code> | <code>bool \| cdktn.IResolvable</code> | Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredApprovingReviewCount">required_approving_review_count</a></code> | <code>typing.Union[int, float]</code> | The number of approving reviews that are required before a pull request can be merged. Defaults to `0`. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewers">required_reviewers</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | required_reviewers block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewThreadResolution">required_review_thread_resolution</a></code> | <code>bool \| cdktf.IResolvable</code> | All conversations on code must be resolved before a pull request can be merged. Defaults to `false`. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireLastPushApproval">require_last_push_approval</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the most recent reviewable push must be approved by someone other than the person who pushed it. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewers">required_reviewers</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | required_reviewers block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requiredReviewThreadResolution">required_review_thread_resolution</a></code> | <code>bool \| cdktn.IResolvable</code> | All conversations on code must be resolved before a pull request can be merged. Defaults to `false`. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.property.requireLastPushApproval">require_last_push_approval</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the most recent reviewable push must be approved by someone other than the person who pushed it. |
 
 ---
 
@@ -2838,7 +2838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 dismiss_stale_reviews_on_push: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
 
@@ -2852,7 +2852,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 require_code_owner_review: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
 
@@ -2880,7 +2880,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 required_reviewers: IResolvable | typing.List[RepositoryRulesetRulesPullRequestRequiredReviewers]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
 
 required_reviewers block.
 
@@ -2894,7 +2894,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 required_review_thread_resolution: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
 
@@ -2908,7 +2908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 require_last_push_approval: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether the most recent reviewable push must be approved by someone other than the person who pushed it.
 
@@ -3053,7 +3053,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning.property.requiredCodeScanningTool">required_code_scanning_tool</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | required_code_scanning_tool block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning.property.requiredCodeScanningTool">required_code_scanning_tool</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | required_code_scanning_tool block. |
 
 ---
 
@@ -3063,7 +3063,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning(
 required_code_scanning_tool: IResolvable | typing.List[RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
 
 required_code_scanning_tool block.
 
@@ -3193,9 +3193,9 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.requiredCheck">required_check</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | required_check block. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.doNotEnforceOnCreate">do_not_enforce_on_create</a></code> | <code>bool \| cdktf.IResolvable</code> | Allow repositories and branches to be created if a check would otherwise prohibit it. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.strictRequiredStatusChecksPolicy">strict_required_status_checks_policy</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether pull requests targeting a matching branch must be tested with the latest code. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.requiredCheck">required_check</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | required_check block. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.doNotEnforceOnCreate">do_not_enforce_on_create</a></code> | <code>bool \| cdktn.IResolvable</code> | Allow repositories and branches to be created if a check would otherwise prohibit it. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.property.strictRequiredStatusChecksPolicy">strict_required_status_checks_policy</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether pull requests targeting a matching branch must be tested with the latest code. |
 
 ---
 
@@ -3205,7 +3205,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks(
 required_check: IResolvable | typing.List[RepositoryRulesetRulesRequiredStatusChecksRequiredCheck]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
 
 required_check block.
 
@@ -3219,7 +3219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 do_not_enforce_on_create: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
@@ -3233,7 +3233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 strict_required_status_checks_policy: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether pull requests targeting a matching branch must be tested with the latest code.
 
@@ -3315,7 +3315,7 @@ repositoryRuleset.RepositoryRulesetRulesTagNamePattern(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.property.operator">operator</a></code> | <code>str</code> | The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.property.pattern">pattern</a></code> | <code>str</code> | The pattern to match with. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.property.name">name</a></code> | <code>str</code> | How this rule will appear to users. |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | If true, the rule will fail if the pattern matches. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, the rule will fail if the pattern matches. |
 
 ---
 
@@ -3367,7 +3367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -3393,7 +3393,7 @@ repositoryRuleset.RepositoryRulesetBypassActorsList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -3401,7 +3401,7 @@ repositoryRuleset.RepositoryRulesetBypassActorsList(
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -3471,7 +3471,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -3508,7 +3508,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]</code> | *No description.* |
 
 ---
 
@@ -3542,7 +3542,7 @@ fqn: str
 internal_value: IResolvable | typing.List[RepositoryRulesetBypassActors]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>]
 
 ---
 
@@ -3564,7 +3564,7 @@ repositoryRuleset.RepositoryRulesetBypassActorsOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -3573,7 +3573,7 @@ repositoryRuleset.RepositoryRulesetBypassActorsOutputReference(
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -3782,7 +3782,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -3815,7 +3815,7 @@ def reset_actor_id() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.property.actorId">actor_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.property.actorType">actor_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.property.bypassMode">bypass_mode</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a></code> | *No description.* |
 
 ---
 
@@ -3909,7 +3909,7 @@ bypass_mode: str
 internal_value: IResolvable | RepositoryRulesetBypassActors
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors">RepositoryRulesetBypassActors</a>
 
 ---
 
@@ -3929,14 +3929,14 @@ repositoryRuleset.RepositoryRulesetConditionsOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4129,7 +4129,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4257,14 +4257,14 @@ repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4456,7 +4456,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4575,14 +4575,14 @@ repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4776,7 +4776,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4810,11 +4810,11 @@ def reset_negate() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.operatorInput">operator_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.patternInput">pattern_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.operator">operator</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.pattern">pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern">RepositoryRulesetRulesBranchNamePattern</a></code> | *No description.* |
@@ -4861,7 +4861,7 @@ name_input: str
 negate_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -4901,7 +4901,7 @@ name: str
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -4951,14 +4951,14 @@ repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -5152,7 +5152,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -5186,11 +5186,11 @@ def reset_negate() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.operatorInput">operator_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.patternInput">pattern_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.operator">operator</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.pattern">pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern">RepositoryRulesetRulesCommitAuthorEmailPattern</a></code> | *No description.* |
@@ -5237,7 +5237,7 @@ name_input: str
 negate_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -5277,7 +5277,7 @@ name: str
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -5327,14 +5327,14 @@ repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -5528,7 +5528,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -5562,11 +5562,11 @@ def reset_negate() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.operatorInput">operator_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.patternInput">pattern_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.operator">operator</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.pattern">pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern">RepositoryRulesetRulesCommitMessagePattern</a></code> | *No description.* |
@@ -5613,7 +5613,7 @@ name_input: str
 negate_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -5653,7 +5653,7 @@ name: str
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -5703,14 +5703,14 @@ repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -5904,7 +5904,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -5938,11 +5938,11 @@ def reset_negate() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.operatorInput">operator_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.patternInput">pattern_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.operator">operator</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.pattern">pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a></code> | *No description.* |
@@ -5989,7 +5989,7 @@ name_input: str
 negate_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6029,7 +6029,7 @@ name: str
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6079,14 +6079,14 @@ repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6280,7 +6280,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -6313,10 +6313,10 @@ def reset_review_on_push() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequestsInput">review_draft_pull_requests_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPushInput">review_on_push_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequests">review_draft_pull_requests</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPush">review_on_push</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequestsInput">review_draft_pull_requests_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPushInput">review_on_push_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewDraftPullRequests">review_draft_pull_requests</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.reviewOnPush">review_on_push</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | *No description.* |
 
 ---
@@ -6351,7 +6351,7 @@ fqn: str
 review_draft_pull_requests_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6361,7 +6361,7 @@ review_draft_pull_requests_input: bool | IResolvable
 review_on_push_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6371,7 +6371,7 @@ review_on_push_input: bool | IResolvable
 review_draft_pull_requests: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6381,7 +6381,7 @@ review_draft_pull_requests: bool | IResolvable
 review_on_push: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -6411,14 +6411,14 @@ repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6610,7 +6610,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -6707,14 +6707,14 @@ repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6906,7 +6906,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -7003,14 +7003,14 @@ repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -7202,7 +7202,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -7299,14 +7299,14 @@ repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -7498,7 +7498,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -7595,14 +7595,14 @@ repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -7801,7 +7801,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -8072,14 +8072,14 @@ repositoryRuleset.RepositoryRulesetRulesOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -8308,7 +8308,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -8365,7 +8365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `negate`<sup>Optional</sup> <a name="negate" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putBranchNamePattern.parameter.negate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -8416,7 +8416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `negate`<sup>Optional</sup> <a name="negate" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitAuthorEmailPattern.parameter.negate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -8467,7 +8467,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `negate`<sup>Optional</sup> <a name="negate" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitMessagePattern.parameter.negate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -8518,7 +8518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `negate`<sup>Optional</sup> <a name="negate" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCommitterEmailPattern.parameter.negate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -8537,7 +8537,7 @@ def put_copilot_code_review(
 
 ###### `review_draft_pull_requests`<sup>Optional</sup> <a name="review_draft_pull_requests" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCopilotCodeReview.parameter.reviewDraftPullRequests"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
 
@@ -8547,7 +8547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `review_on_push`<sup>Optional</sup> <a name="review_on_push" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putCopilotCodeReview.parameter.reviewOnPush"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Copilot automatically reviews each new push to the pull request. Defaults to `false`.
 
@@ -8745,7 +8745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `dismiss_stale_reviews_on_push`<sup>Optional</sup> <a name="dismiss_stale_reviews_on_push" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putPullRequest.parameter.dismissStaleReviewsOnPush"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
 
@@ -8755,7 +8755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `require_code_owner_review`<sup>Optional</sup> <a name="require_code_owner_review" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putPullRequest.parameter.requireCodeOwnerReview"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
 
@@ -8775,7 +8775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `required_reviewers`<sup>Optional</sup> <a name="required_reviewers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putPullRequest.parameter.requiredReviewers"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
 
 required_reviewers block.
 
@@ -8785,7 +8785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `required_review_thread_resolution`<sup>Optional</sup> <a name="required_review_thread_resolution" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putPullRequest.parameter.requiredReviewThreadResolution"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
 
@@ -8795,7 +8795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `require_last_push_approval`<sup>Optional</sup> <a name="require_last_push_approval" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putPullRequest.parameter.requireLastPushApproval"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether the most recent reviewable push must be approved by someone other than the person who pushed it.
 
@@ -8815,7 +8815,7 @@ def put_required_code_scanning(
 
 ###### `required_code_scanning_tool`<sup>Required</sup> <a name="required_code_scanning_tool" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putRequiredCodeScanning.parameter.requiredCodeScanningTool"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
 
 required_code_scanning_tool block.
 
@@ -8853,7 +8853,7 @@ def put_required_status_checks(
 
 ###### `required_check`<sup>Required</sup> <a name="required_check" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putRequiredStatusChecks.parameter.requiredCheck"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
 
 required_check block.
 
@@ -8863,7 +8863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `do_not_enforce_on_create`<sup>Optional</sup> <a name="do_not_enforce_on_create" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putRequiredStatusChecks.parameter.doNotEnforceOnCreate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
@@ -8873,7 +8873,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `strict_required_status_checks_policy`<sup>Optional</sup> <a name="strict_required_status_checks_policy" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putRequiredStatusChecks.parameter.strictRequiredStatusChecksPolicy"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether pull requests targeting a matching branch must be tested with the latest code.
 
@@ -8926,7 +8926,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `negate`<sup>Optional</sup> <a name="negate" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.putTagNamePattern.parameter.negate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 If true, the rule will fail if the pattern matches.
 
@@ -9093,30 +9093,30 @@ def reset_update_allows_fetch_and_merge() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.commitMessagePatternInput">commit_message_pattern_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern">RepositoryRulesetRulesCommitMessagePattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.committerEmailPatternInput">committer_email_pattern_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern">RepositoryRulesetRulesCommitterEmailPattern</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.copilotCodeReviewInput">copilot_code_review_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview">RepositoryRulesetRulesCopilotCodeReview</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.creationInput">creation_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.deletionInput">deletion_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.creationInput">creation_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.deletionInput">deletion_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.fileExtensionRestrictionInput">file_extension_restriction_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction">RepositoryRulesetRulesFileExtensionRestriction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.filePathRestrictionInput">file_path_restriction_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction">RepositoryRulesetRulesFilePathRestriction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.maxFilePathLengthInput">max_file_path_length_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength">RepositoryRulesetRulesMaxFilePathLength</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.maxFileSizeInput">max_file_size_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSize">RepositoryRulesetRulesMaxFileSize</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.mergeQueueInput">merge_queue_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueue">RepositoryRulesetRulesMergeQueue</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.nonFastForwardInput">non_fast_forward_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.nonFastForwardInput">non_fast_forward_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.pullRequestInput">pull_request_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest">RepositoryRulesetRulesPullRequest</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredCodeScanningInput">required_code_scanning_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning">RepositoryRulesetRulesRequiredCodeScanning</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredDeploymentsInput">required_deployments_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments">RepositoryRulesetRulesRequiredDeployments</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredLinearHistoryInput">required_linear_history_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredSignaturesInput">required_signatures_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredLinearHistoryInput">required_linear_history_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredSignaturesInput">required_signatures_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredStatusChecksInput">required_status_checks_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks">RepositoryRulesetRulesRequiredStatusChecks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.tagNamePatternInput">tag_name_pattern_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern">RepositoryRulesetRulesTagNamePattern</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateAllowsFetchAndMergeInput">update_allows_fetch_and_merge_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateInput">update_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.creation">creation</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.deletion">deletion</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.nonFastForward">non_fast_forward</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredLinearHistory">required_linear_history</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredSignatures">required_signatures</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.update">update</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateAllowsFetchAndMerge">update_allows_fetch_and_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateAllowsFetchAndMergeInput">update_allows_fetch_and_merge_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateInput">update_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.creation">creation</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.deletion">deletion</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.nonFastForward">non_fast_forward</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredLinearHistory">required_linear_history</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.requiredSignatures">required_signatures</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.update">update</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.updateAllowsFetchAndMerge">update_allows_fetch_and_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules">RepositoryRulesetRules</a></code> | *No description.* |
 
 ---
@@ -9351,7 +9351,7 @@ copilot_code_review_input: RepositoryRulesetRulesCopilotCodeReview
 creation_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9361,7 +9361,7 @@ creation_input: bool | IResolvable
 deletion_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9421,7 +9421,7 @@ merge_queue_input: RepositoryRulesetRulesMergeQueue
 non_fast_forward_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9461,7 +9461,7 @@ required_deployments_input: RepositoryRulesetRulesRequiredDeployments
 required_linear_history_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9471,7 +9471,7 @@ required_linear_history_input: bool | IResolvable
 required_signatures_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9501,7 +9501,7 @@ tag_name_pattern_input: RepositoryRulesetRulesTagNamePattern
 update_allows_fetch_and_merge_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9511,7 +9511,7 @@ update_allows_fetch_and_merge_input: bool | IResolvable
 update_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9521,7 +9521,7 @@ update_input: bool | IResolvable
 creation: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9531,7 +9531,7 @@ creation: bool | IResolvable
 deletion: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9541,7 +9541,7 @@ deletion: bool | IResolvable
 non_fast_forward: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9551,7 +9551,7 @@ non_fast_forward: bool | IResolvable
 required_linear_history: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9561,7 +9561,7 @@ required_linear_history: bool | IResolvable
 required_signatures: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9571,7 +9571,7 @@ required_signatures: bool | IResolvable
 update: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9581,7 +9581,7 @@ update: bool | IResolvable
 update_allows_fetch_and_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9611,14 +9611,14 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -9818,7 +9818,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -9842,7 +9842,7 @@ def put_required_reviewers(
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.putRequiredReviewers.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
 
 ---
 
@@ -9897,18 +9897,18 @@ def reset_require_last_push_approval() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewers">required_reviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList">RepositoryRulesetRulesPullRequestRequiredReviewersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethodsInput">allowed_merge_methods_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPushInput">dismiss_stale_reviews_on_push_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReviewInput">require_code_owner_review_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPushInput">dismiss_stale_reviews_on_push_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReviewInput">require_code_owner_review_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredApprovingReviewCountInput">required_approving_review_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewersInput">required_reviewers_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolutionInput">required_review_thread_resolution_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireLastPushApprovalInput">require_last_push_approval_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewersInput">required_reviewers_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolutionInput">required_review_thread_resolution_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireLastPushApprovalInput">require_last_push_approval_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.allowedMergeMethods">allowed_merge_methods</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPush">dismiss_stale_reviews_on_push</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReview">require_code_owner_review</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.dismissStaleReviewsOnPush">dismiss_stale_reviews_on_push</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireCodeOwnerReview">require_code_owner_review</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredApprovingReviewCount">required_approving_review_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolution">required_review_thread_resolution</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireLastPushApproval">require_last_push_approval</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requiredReviewThreadResolution">required_review_thread_resolution</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.requireLastPushApproval">require_last_push_approval</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest">RepositoryRulesetRulesPullRequest</a></code> | *No description.* |
 
 ---
@@ -9963,7 +9963,7 @@ allowed_merge_methods_input: typing.List[str]
 dismiss_stale_reviews_on_push_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9973,7 +9973,7 @@ dismiss_stale_reviews_on_push_input: bool | IResolvable
 require_code_owner_review_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -9993,7 +9993,7 @@ required_approving_review_count_input: typing.Union[int, float]
 required_reviewers_input: IResolvable | typing.List[RepositoryRulesetRulesPullRequestRequiredReviewers]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
 
 ---
 
@@ -10003,7 +10003,7 @@ required_reviewers_input: IResolvable | typing.List[RepositoryRulesetRulesPullRe
 required_review_thread_resolution_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10013,7 +10013,7 @@ required_review_thread_resolution_input: bool | IResolvable
 require_last_push_approval_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10033,7 +10033,7 @@ allowed_merge_methods: typing.List[str]
 dismiss_stale_reviews_on_push: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10043,7 +10043,7 @@ dismiss_stale_reviews_on_push: bool | IResolvable
 require_code_owner_review: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10063,7 +10063,7 @@ required_approving_review_count: typing.Union[int, float]
 required_review_thread_resolution: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10073,7 +10073,7 @@ required_review_thread_resolution: bool | IResolvable
 require_last_push_approval: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -10104,7 +10104,7 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -10112,7 +10112,7 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList(
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -10182,7 +10182,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -10219,7 +10219,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]</code> | *No description.* |
 
 ---
 
@@ -10253,7 +10253,7 @@ fqn: str
 internal_value: IResolvable | typing.List[RepositoryRulesetRulesPullRequestRequiredReviewers]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>]
 
 ---
 
@@ -10275,7 +10275,7 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputRefere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -10284,7 +10284,7 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputRefere
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -10493,7 +10493,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -10552,7 +10552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.reviewerInput">reviewer_input</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer">RepositoryRulesetRulesPullRequestRequiredReviewersReviewer</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.filePatterns">file_patterns</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.minimumApprovals">minimum_approvals</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a></code> | *No description.* |
 
 ---
 
@@ -10646,7 +10646,7 @@ minimum_approvals: typing.Union[int, float]
 internal_value: IResolvable | RepositoryRulesetRulesPullRequestRequiredReviewers
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers">RepositoryRulesetRulesPullRequestRequiredReviewers</a>
 
 ---
 
@@ -10666,14 +10666,14 @@ repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -10865,7 +10865,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -10984,14 +10984,14 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -11184,7 +11184,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -11208,7 +11208,7 @@ def put_required_code_scanning_tool(
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.putRequiredCodeScanningTool.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
 
 ---
 
@@ -11220,7 +11220,7 @@ def put_required_code_scanning_tool(
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.requiredCodeScanningTool">required_code_scanning_tool</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.requiredCodeScanningToolInput">required_code_scanning_tool_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.requiredCodeScanningToolInput">required_code_scanning_tool_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning">RepositoryRulesetRulesRequiredCodeScanning</a></code> | *No description.* |
 
 ---
@@ -11265,7 +11265,7 @@ required_code_scanning_tool: RepositoryRulesetRulesRequiredCodeScanningRequiredC
 required_code_scanning_tool_input: IResolvable | typing.List[RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
 
 ---
 
@@ -11296,7 +11296,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanning
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -11304,7 +11304,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanning
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -11374,7 +11374,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -11411,7 +11411,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]</code> | *No description.* |
 
 ---
 
@@ -11445,7 +11445,7 @@ fqn: str
 internal_value: IResolvable | typing.List[RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>]
 
 ---
 
@@ -11467,7 +11467,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanning
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -11476,7 +11476,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanning
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -11684,7 +11684,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -11711,7 +11711,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.property.alertsThreshold">alerts_threshold</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.property.securityAlertsThreshold">security_alerts_threshold</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.property.tool">tool</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a></code> | *No description.* |
 
 ---
 
@@ -11805,7 +11805,7 @@ tool: str
 internal_value: IResolvable | RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool">RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool</a>
 
 ---
 
@@ -11825,14 +11825,14 @@ repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -12024,7 +12024,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -12121,14 +12121,14 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -12323,7 +12323,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -12347,7 +12347,7 @@ def put_required_check(
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.putRequiredCheck.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
 
 ---
 
@@ -12371,11 +12371,11 @@ def reset_strict_required_status_checks_policy() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.requiredCheck">required_check</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList">RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.doNotEnforceOnCreateInput">do_not_enforce_on_create_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.requiredCheckInput">required_check_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.strictRequiredStatusChecksPolicyInput">strict_required_status_checks_policy_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.doNotEnforceOnCreate">do_not_enforce_on_create</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.strictRequiredStatusChecksPolicy">strict_required_status_checks_policy</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.doNotEnforceOnCreateInput">do_not_enforce_on_create_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.requiredCheckInput">required_check_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.strictRequiredStatusChecksPolicyInput">strict_required_status_checks_policy_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.doNotEnforceOnCreate">do_not_enforce_on_create</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.strictRequiredStatusChecksPolicy">strict_required_status_checks_policy</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks">RepositoryRulesetRulesRequiredStatusChecks</a></code> | *No description.* |
 
 ---
@@ -12420,7 +12420,7 @@ required_check: RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList
 do_not_enforce_on_create_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -12430,7 +12430,7 @@ do_not_enforce_on_create_input: bool | IResolvable
 required_check_input: IResolvable | typing.List[RepositoryRulesetRulesRequiredStatusChecksRequiredCheck]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
 
 ---
 
@@ -12440,7 +12440,7 @@ required_check_input: IResolvable | typing.List[RepositoryRulesetRulesRequiredSt
 strict_required_status_checks_policy_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -12450,7 +12450,7 @@ strict_required_status_checks_policy_input: bool | IResolvable
 do_not_enforce_on_create: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -12460,7 +12460,7 @@ do_not_enforce_on_create: bool | IResolvable
 strict_required_status_checks_policy: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -12491,7 +12491,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -12499,7 +12499,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList(
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -12569,7 +12569,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -12606,7 +12606,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]</code> | *No description.* |
 
 ---
 
@@ -12640,7 +12640,7 @@ fqn: str
 internal_value: IResolvable | typing.List[RepositoryRulesetRulesRequiredStatusChecksRequiredCheck]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>]
 
 ---
 
@@ -12662,7 +12662,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -12671,7 +12671,7 @@ repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputR
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -12880,7 +12880,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -12911,7 +12911,7 @@ def reset_integration_id() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.property.integrationIdInput">integration_id_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.property.context">context</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.property.integrationId">integration_id</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a></code> | *No description.* |
 
 ---
 
@@ -12985,7 +12985,7 @@ integration_id: typing.Union[int, float]
 internal_value: IResolvable | RepositoryRulesetRulesRequiredStatusChecksRequiredCheck
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck">RepositoryRulesetRulesRequiredStatusChecksRequiredCheck</a>
 
 ---
 
@@ -13005,14 +13005,14 @@ repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -13206,7 +13206,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -13240,11 +13240,11 @@ def reset_negate() -> None
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.negateInput">negate_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.operatorInput">operator_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.patternInput">pattern_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.negate">negate</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.operator">operator</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.pattern">pattern</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern">RepositoryRulesetRulesTagNamePattern</a></code> | *No description.* |
@@ -13291,7 +13291,7 @@ name_input: str
 negate_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -13331,7 +13331,7 @@ name: str
 negate: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 

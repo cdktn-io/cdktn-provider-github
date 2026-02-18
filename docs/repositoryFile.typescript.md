@@ -299,7 +299,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryFile.RepositoryFile.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -434,7 +434,7 @@ public resetOverwriteOnCreate(): void
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RepositoryFile resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RepositoryFile resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -506,7 +506,7 @@ import { repositoryFile } from '@cdktn/provider-github'
 repositoryFile.RepositoryFile.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RepositoryFile resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryFile resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryFile.RepositoryFile.generateConfigForImport.parameter.scope"></a>
 
@@ -536,7 +536,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryFile.RepositoryFile.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryFile to import is found.
 
@@ -547,24 +547,24 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.commitSha">commitSha</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.ref">ref</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.repositoryId">repositoryId</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.sha">sha</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchInput">autocreateBranchInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchInput">autocreateBranchInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchSourceBranchInput">autocreateBranchSourceBranchInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchSourceShaInput">autocreateBranchSourceShaInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.branchInput">branchInput</a></code> | <code>string</code> | *No description.* |
@@ -574,9 +574,9 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.contentInput">contentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.fileInput">fileInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.overwriteOnCreateInput">overwriteOnCreateInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.overwriteOnCreateInput">overwriteOnCreateInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranch">autocreateBranch</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranch">autocreateBranch</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchSourceBranch">autocreateBranchSourceBranch</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.autocreateBranchSourceSha">autocreateBranchSourceSha</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.branch">branch</a></code> | <code>string</code> | *No description.* |
@@ -586,7 +586,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.content">content</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.file">file</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.overwriteOnCreate">overwriteOnCreate</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.overwriteOnCreate">overwriteOnCreate</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFile.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -609,7 +609,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -659,7 +659,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -669,7 +669,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -679,7 +679,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -699,7 +699,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -709,7 +709,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -719,7 +719,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -729,7 +729,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -779,7 +779,7 @@ public readonly sha: string;
 public readonly autocreateBranchInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -879,7 +879,7 @@ public readonly idInput: string;
 public readonly overwriteOnCreateInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -899,7 +899,7 @@ public readonly repositoryInput: string;
 public readonly autocreateBranch: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -999,7 +999,7 @@ public readonly id: string;
 public readonly overwriteOnCreate: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1047,17 +1047,17 @@ const repositoryFileConfig: repositoryFile.RepositoryFileConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.content">content</a></code> | <code>string</code> | The file's content. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.file">file</a></code> | <code>string</code> | The file path to manage. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.repository">repository</a></code> | <code>string</code> | The repository name. |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.autocreateBranch">autocreateBranch</a></code> | <code>boolean \| cdktf.IResolvable</code> | Automatically create the branch if it could not be found. |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.autocreateBranch">autocreateBranch</a></code> | <code>boolean \| cdktn.IResolvable</code> | Automatically create the branch if it could not be found. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.autocreateBranchSourceBranch">autocreateBranchSourceBranch</a></code> | <code>string</code> | The branch name to start from, if 'autocreate_branch' is set. Defaults to 'main'. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.autocreateBranchSourceSha">autocreateBranchSourceSha</a></code> | <code>string</code> | The commit hash to start from, if 'autocreate_branch' is set. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.branch">branch</a></code> | <code>string</code> | The branch name, defaults to the repository's default branch. |
@@ -1065,7 +1065,7 @@ const repositoryFileConfig: repositoryFile.RepositoryFileConfig = { ... }
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.commitEmail">commitEmail</a></code> | <code>string</code> | The commit author email address, defaults to the authenticated user's email address. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.commitMessage">commitMessage</a></code> | <code>string</code> | The commit message when creating, updating or deleting the file. |
 | <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_file#id RepositoryFile#id}. |
-| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.overwriteOnCreate">overwriteOnCreate</a></code> | <code>boolean \| cdktf.IResolvable</code> | Enable overwriting existing files, defaults to "false". |
+| <code><a href="#@cdktn/provider-github.repositoryFile.RepositoryFileConfig.property.overwriteOnCreate">overwriteOnCreate</a></code> | <code>boolean \| cdktn.IResolvable</code> | Enable overwriting existing files, defaults to "false". |
 
 ---
 
@@ -1075,7 +1075,7 @@ const repositoryFileConfig: repositoryFile.RepositoryFileConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1115,7 +1115,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1125,7 +1125,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1187,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly autocreateBranch: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Automatically create the branch if it could not be found.
 
@@ -1308,7 +1308,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly overwriteOnCreate: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Enable overwriting existing files, defaults to "false".
 

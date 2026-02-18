@@ -316,7 +316,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -553,7 +553,7 @@ public resetWebCommitSignoffRequired(): void
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a OrganizationSettings resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -625,7 +625,7 @@ import { organizationSettings } from '@cdktn/provider-github'
 organizationSettings.OrganizationSettings.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a OrganizationSettings resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a OrganizationSettings resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.scope"></a>
 
@@ -655,7 +655,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationSettings.OrganizationSettings.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the OrganizationSettings to import is found.
 
@@ -666,73 +666,73 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput">advancedSecurityEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositoriesInput">advancedSecurityEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmailInput">billingEmailInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blogInput">blogInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.companyInput">companyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermissionInput">defaultRepositoryPermissionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput">dependabotAlertsEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput">dependabotSecurityUpdatesEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput">dependencyGraphEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositoriesInput">dependabotAlertsEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositoriesInput">dependabotSecurityUpdatesEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositoriesInput">dependencyGraphEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.emailInput">emailInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput">hasOrganizationProjectsInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput">hasRepositoryProjectsInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjectsInput">hasOrganizationProjectsInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjectsInput">hasRepositoryProjectsInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput">membersCanCreateInternalRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput">membersCanCreatePagesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput">membersCanCreatePrivatePagesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput">membersCanCreatePrivateRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput">membersCanCreatePublicPagesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput">membersCanCreatePublicRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput">membersCanCreateRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput">membersCanForkPrivateRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositoriesInput">membersCanCreateInternalRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePagesInput">membersCanCreatePagesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePagesInput">membersCanCreatePrivatePagesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositoriesInput">membersCanCreatePrivateRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPagesInput">membersCanCreatePublicPagesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositoriesInput">membersCanCreatePublicRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositoriesInput">membersCanCreateRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositoriesInput">membersCanForkPrivateRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput">secretScanningEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput">secretScanningPushProtectionEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositoriesInput">secretScanningEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositoriesInput">secretScanningPushProtectionEnabledForNewRepositoriesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsernameInput">twitterUsernameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput">webCommitSignoffRequiredInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequiredInput">webCommitSignoffRequiredInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.billingEmail">billingEmail</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.blog">blog</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.company">company</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.defaultRepositoryPermission">defaultRepositoryPermission</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.email">email</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects">hasOrganizationProjects</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects">hasRepositoryProjects</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasOrganizationProjects">hasOrganizationProjects</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.hasRepositoryProjects">hasRepositoryProjects</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.location">location</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.twitterUsername">twitterUsername</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettings.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -754,7 +754,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -804,7 +804,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -814,7 +814,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -824,7 +824,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -844,7 +844,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -854,7 +854,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -864,7 +864,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -874,7 +874,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -884,7 +884,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 public readonly advancedSecurityEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -934,7 +934,7 @@ public readonly defaultRepositoryPermissionInput: string;
 public readonly dependabotAlertsEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -944,7 +944,7 @@ public readonly dependabotAlertsEnabledForNewRepositoriesInput: boolean | IResol
 public readonly dependabotSecurityUpdatesEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -954,7 +954,7 @@ public readonly dependabotSecurityUpdatesEnabledForNewRepositoriesInput: boolean
 public readonly dependencyGraphEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -984,7 +984,7 @@ public readonly emailInput: string;
 public readonly hasOrganizationProjectsInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -994,7 +994,7 @@ public readonly hasOrganizationProjectsInput: boolean | IResolvable;
 public readonly hasRepositoryProjectsInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1024,7 +1024,7 @@ public readonly locationInput: string;
 public readonly membersCanCreateInternalRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1034,7 +1034,7 @@ public readonly membersCanCreateInternalRepositoriesInput: boolean | IResolvable
 public readonly membersCanCreatePagesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1044,7 +1044,7 @@ public readonly membersCanCreatePagesInput: boolean | IResolvable;
 public readonly membersCanCreatePrivatePagesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1054,7 +1054,7 @@ public readonly membersCanCreatePrivatePagesInput: boolean | IResolvable;
 public readonly membersCanCreatePrivateRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly membersCanCreatePrivateRepositoriesInput: boolean | IResolvable;
 public readonly membersCanCreatePublicPagesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1074,7 +1074,7 @@ public readonly membersCanCreatePublicPagesInput: boolean | IResolvable;
 public readonly membersCanCreatePublicRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly membersCanCreatePublicRepositoriesInput: boolean | IResolvable;
 public readonly membersCanCreateRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1094,7 +1094,7 @@ public readonly membersCanCreateRepositoriesInput: boolean | IResolvable;
 public readonly membersCanForkPrivateRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly nameInput: string;
 public readonly secretScanningEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1124,7 +1124,7 @@ public readonly secretScanningEnabledForNewRepositoriesInput: boolean | IResolva
 public readonly secretScanningPushProtectionEnabledForNewRepositoriesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1144,7 +1144,7 @@ public readonly twitterUsernameInput: string;
 public readonly webCommitSignoffRequiredInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1154,7 +1154,7 @@ public readonly webCommitSignoffRequiredInput: boolean | IResolvable;
 public readonly advancedSecurityEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly defaultRepositoryPermission: string;
 public readonly dependabotAlertsEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly dependabotAlertsEnabledForNewRepositories: boolean | IResolvable
 public readonly dependabotSecurityUpdatesEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1224,7 +1224,7 @@ public readonly dependabotSecurityUpdatesEnabledForNewRepositories: boolean | IR
 public readonly dependencyGraphEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1254,7 +1254,7 @@ public readonly email: string;
 public readonly hasOrganizationProjects: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1264,7 +1264,7 @@ public readonly hasOrganizationProjects: boolean | IResolvable;
 public readonly hasRepositoryProjects: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1294,7 +1294,7 @@ public readonly location: string;
 public readonly membersCanCreateInternalRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1304,7 +1304,7 @@ public readonly membersCanCreateInternalRepositories: boolean | IResolvable;
 public readonly membersCanCreatePages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1314,7 +1314,7 @@ public readonly membersCanCreatePages: boolean | IResolvable;
 public readonly membersCanCreatePrivatePages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1324,7 +1324,7 @@ public readonly membersCanCreatePrivatePages: boolean | IResolvable;
 public readonly membersCanCreatePrivateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1334,7 +1334,7 @@ public readonly membersCanCreatePrivateRepositories: boolean | IResolvable;
 public readonly membersCanCreatePublicPages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1344,7 +1344,7 @@ public readonly membersCanCreatePublicPages: boolean | IResolvable;
 public readonly membersCanCreatePublicRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1354,7 +1354,7 @@ public readonly membersCanCreatePublicRepositories: boolean | IResolvable;
 public readonly membersCanCreateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1364,7 +1364,7 @@ public readonly membersCanCreateRepositories: boolean | IResolvable;
 public readonly membersCanForkPrivateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1384,7 +1384,7 @@ public readonly name: string;
 public readonly secretScanningEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1394,7 +1394,7 @@ public readonly secretScanningEnabledForNewRepositories: boolean | IResolvable;
 public readonly secretScanningPushProtectionEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1414,7 +1414,7 @@ public readonly twitterUsername: string;
 public readonly webCommitSignoffRequired: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1452,40 +1452,40 @@ const organizationSettingsConfig: organizationSettings.OrganizationSettingsConfi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.billingEmail">billingEmail</a></code> | <code>string</code> | The billing email address for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not advanced security is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not advanced security is enabled for new repositories. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.blog">blog</a></code> | <code>string</code> | The blog URL for the organization. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.company">company</a></code> | <code>string</code> | The company name for the organization. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.defaultRepositoryPermission">defaultRepositoryPermission</a></code> | <code>string</code> | The default permission for organization members to create new repositories. Can be one of 'read', 'write', 'admin' or 'none'. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not dependabot alerts are enabled for new repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not dependabot security updates are enabled for new repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not dependency graph is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not dependabot alerts are enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not dependabot security updates are enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not dependency graph is enabled for new repositories. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.description">description</a></code> | <code>string</code> | The description for the organization. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.email">email</a></code> | <code>string</code> | The email address for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects">hasOrganizationProjects</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization projects are enabled for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects">hasRepositoryProjects</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not repository projects are enabled for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasOrganizationProjects">hasOrganizationProjects</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization projects are enabled for the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.hasRepositoryProjects">hasRepositoryProjects</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not repository projects are enabled for the organization. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_settings#id OrganizationSettings#id}. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.location">location</a></code> | <code>string</code> | The location for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new internal repositories. For Enterprise Organizations only. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new pages. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new private pages. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new private repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new public pages. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new public repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can create new repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not organization members can fork private repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new internal repositories. For Enterprise Organizations only. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new private pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new private repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new public pages. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new public repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can create new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not organization members can fork private repositories. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.name">name</a></code> | <code>string</code> | The name for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not secret scanning is enabled for new repositories. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not secret scanning push protection is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not secret scanning is enabled for new repositories. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not secret scanning push protection is enabled for new repositories. |
 | <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.twitterUsername">twitterUsername</a></code> | <code>string</code> | The Twitter username for the organization. |
-| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether or not commit signatures are required for commits to the organization. |
+| <code><a href="#@cdktn/provider-github.organizationSettings.OrganizationSettingsConfig.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether or not commit signatures are required for commits to the organization. |
 
 ---
 
@@ -1495,7 +1495,7 @@ const organizationSettingsConfig: organizationSettings.OrganizationSettingsConfi
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1505,7 +1505,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -1515,7 +1515,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -1525,7 +1525,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1535,7 +1535,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1545,7 +1545,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1555,7 +1555,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1579,7 +1579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly advancedSecurityEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not advanced security is enabled for new repositories.
 
@@ -1635,7 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly dependabotAlertsEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not dependabot alerts are enabled for new repositories.
 
@@ -1649,7 +1649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly dependabotSecurityUpdatesEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not dependabot security updates are enabled for new repositories.
 
@@ -1663,7 +1663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly dependencyGraphEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not dependency graph is enabled for new repositories.
 
@@ -1705,7 +1705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly hasOrganizationProjects: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization projects are enabled for the organization.
 
@@ -1719,7 +1719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly hasRepositoryProjects: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not repository projects are enabled for the organization.
 
@@ -1762,7 +1762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreateInternalRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new internal repositories. For Enterprise Organizations only.
 
@@ -1776,7 +1776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreatePages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new pages.
 
@@ -1790,7 +1790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreatePrivatePages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new private pages.
 
@@ -1804,7 +1804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreatePrivateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new private repositories.
 
@@ -1818,7 +1818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreatePublicPages: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new public pages.
 
@@ -1832,7 +1832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreatePublicRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new public repositories.
 
@@ -1846,7 +1846,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanCreateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can create new repositories.
 
@@ -1860,7 +1860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly membersCanForkPrivateRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not organization members can fork private repositories.
 
@@ -1888,7 +1888,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly secretScanningEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not secret scanning is enabled for new repositories.
 
@@ -1902,7 +1902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly secretScanningPushProtectionEnabledForNewRepositories: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not secret scanning push protection is enabled for new repositories.
 
@@ -1930,7 +1930,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly webCommitSignoffRequired: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether or not commit signatures are required for commits to the organization.
 

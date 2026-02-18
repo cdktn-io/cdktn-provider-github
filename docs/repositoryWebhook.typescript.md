@@ -295,7 +295,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -412,7 +412,7 @@ public resetId(): void
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RepositoryWebhook resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RepositoryWebhook resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -484,7 +484,7 @@ import { repositoryWebhook } from '@cdktn/provider-github'
 repositoryWebhook.RepositoryWebhook.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RepositoryWebhook resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryWebhook resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.generateConfigForImport.parameter.scope"></a>
 
@@ -514,7 +514,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryWebhook to import is found.
 
@@ -525,28 +525,28 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference">RepositoryWebhookConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.url">url</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.activeInput">activeInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.activeInput">activeInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.configurationInput">configurationInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration">RepositoryWebhookConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.etagInput">etagInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.eventsInput">eventsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.active">active</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.active">active</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.etag">etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.events">events</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhook.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -572,7 +572,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -622,7 +622,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -632,7 +632,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -642,7 +642,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -662,7 +662,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -672,7 +672,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -682,7 +682,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -692,7 +692,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -722,7 +722,7 @@ public readonly url: string;
 public readonly activeInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -782,7 +782,7 @@ public readonly repositoryInput: string;
 public readonly active: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -860,16 +860,16 @@ const repositoryWebhookConfig: repositoryWebhook.RepositoryWebhookConfig = { ...
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.events">events</a></code> | <code>string[]</code> | A list of events which should trigger the webhook. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.repository">repository</a></code> | <code>string</code> | The repository name of the webhook, not including the organization, which will be inferred. |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.active">active</a></code> | <code>boolean \| cdktf.IResolvable</code> | Indicate if the webhook should receive events. Defaults to 'true'. |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.active">active</a></code> | <code>boolean \| cdktn.IResolvable</code> | Indicate if the webhook should receive events. Defaults to 'true'. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration">RepositoryWebhookConfiguration</a></code> | configuration block. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.etag">etag</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#etag RepositoryWebhook#etag}. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_webhook#id RepositoryWebhook#id}. |
@@ -882,7 +882,7 @@ const repositoryWebhookConfig: repositoryWebhook.RepositoryWebhookConfig = { ...
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -892,7 +892,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -902,7 +902,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -912,7 +912,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -922,7 +922,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -932,7 +932,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -942,7 +942,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -980,7 +980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly active: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Indicate if the webhook should receive events. Defaults to 'true'.
 
@@ -1045,7 +1045,7 @@ const repositoryWebhookConfiguration: repositoryWebhook.RepositoryWebhookConfigu
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration.property.url">url</a></code> | <code>string</code> | The URL of the webhook. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration.property.contentType">contentType</a></code> | <code>string</code> | The content type for the payload. Valid values are either 'form' or 'json'. |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration.property.insecureSsl">insecureSsl</a></code> | <code>boolean \| cdktf.IResolvable</code> | Insecure SSL boolean toggle. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration.property.insecureSsl">insecureSsl</a></code> | <code>boolean \| cdktn.IResolvable</code> | Insecure SSL boolean toggle. Defaults to 'false'. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration.property.secret">secret</a></code> | <code>string</code> | The shared secret for the webhook. |
 
 ---
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly insecureSsl: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Insecure SSL boolean toggle. Defaults to 'false'.
 
@@ -1120,14 +1120,14 @@ new repositoryWebhook.RepositoryWebhookConfigurationOutputReference(terraformRes
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1300,7 +1300,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1340,11 +1340,11 @@ public resetSecret(): void
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.contentTypeInput">contentTypeInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.insecureSslInput">insecureSslInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.insecureSslInput">insecureSslInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.secretInput">secretInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.urlInput">urlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.contentType">contentType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.insecureSsl">insecureSsl</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.insecureSsl">insecureSsl</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.secret">secret</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.url">url</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-github.repositoryWebhook.RepositoryWebhookConfiguration">RepositoryWebhookConfiguration</a></code> | *No description.* |
@@ -1391,7 +1391,7 @@ public readonly contentTypeInput: string;
 public readonly insecureSslInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1431,7 +1431,7 @@ public readonly contentType: string;
 public readonly insecureSsl: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 

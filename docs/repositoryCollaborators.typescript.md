@@ -297,7 +297,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -379,7 +379,7 @@ public putIgnoreTeam(value: IResolvable | RepositoryCollaboratorsIgnoreTeam[]): 
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putIgnoreTeam.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
 
 ---
 
@@ -391,7 +391,7 @@ public putTeam(value: IResolvable | RepositoryCollaboratorsTeam[]): void
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putTeam.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
 
 ---
 
@@ -403,7 +403,7 @@ public putUser(value: IResolvable | RepositoryCollaboratorsUser[]): void
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.putUser.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
 
 ---
 
@@ -438,7 +438,7 @@ public resetUser(): void
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RepositoryCollaborators resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -510,7 +510,7 @@ import { repositoryCollaborators } from '@cdktn/provider-github'
 repositoryCollaborators.RepositoryCollaborators.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RepositoryCollaborators resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryCollaborators resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.scope"></a>
 
@@ -540,7 +540,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryCollaborators to import is found.
 
@@ -551,28 +551,28 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeam">ignoreTeam</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList">RepositoryCollaboratorsIgnoreTeamList</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds">invitationIds</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.invitationIds">invitationIds</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.team">team</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList">RepositoryCollaboratorsTeamList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.user">user</a></code> | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList">RepositoryCollaboratorsUserList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput">ignoreTeamInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.ignoreTeamInput">ignoreTeamInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput">teamInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput">userInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.teamInput">teamInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.userInput">userInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 
@@ -596,7 +596,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -646,7 +646,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -656,7 +656,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -666,7 +666,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -686,7 +686,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -696,7 +696,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -706,7 +706,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -716,7 +716,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -736,7 +736,7 @@ public readonly ignoreTeam: RepositoryCollaboratorsIgnoreTeamList;
 public readonly invitationIds: StringMap;
 ```
 
-- *Type:* cdktf.StringMap
+- *Type:* cdktn.StringMap
 
 ---
 
@@ -776,7 +776,7 @@ public readonly idInput: string;
 public readonly ignoreTeamInput: IResolvable | RepositoryCollaboratorsIgnoreTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
 
 ---
 
@@ -796,7 +796,7 @@ public readonly repositoryInput: string;
 public readonly teamInput: IResolvable | RepositoryCollaboratorsTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
 
 ---
 
@@ -806,7 +806,7 @@ public readonly teamInput: IResolvable | RepositoryCollaboratorsTeam[];
 public readonly userInput: IResolvable | RepositoryCollaboratorsUser[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
 
 ---
 
@@ -864,18 +864,18 @@ const repositoryCollaboratorsConfig: repositoryCollaborators.RepositoryCollabora
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam">ignoreTeam</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | ignore_team block. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team">team</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | team block. |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user">user</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | user block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.ignoreTeam">ignoreTeam</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | ignore_team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.team">team</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | team block. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.property.user">user</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | user block. |
 
 ---
 
@@ -885,7 +885,7 @@ const repositoryCollaboratorsConfig: repositoryCollaborators.RepositoryCollabora
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -895,7 +895,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -905,7 +905,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -915,7 +915,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -925,7 +925,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -935,7 +935,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -945,7 +945,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -982,7 +982,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly ignoreTeam: IResolvable | RepositoryCollaboratorsIgnoreTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
 
 ignore_team block.
 
@@ -996,7 +996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly team: IResolvable | RepositoryCollaboratorsTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
 
 team block.
 
@@ -1010,7 +1010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly user: IResolvable | RepositoryCollaboratorsUser[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
 
 user block.
 
@@ -1154,7 +1154,7 @@ new repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList(terraformResou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -1162,7 +1162,7 @@ new repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList(terraformResou
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1228,7 +1228,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1263,7 +1263,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]</code> | *No description.* |
 
 ---
 
@@ -1297,7 +1297,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsIgnoreTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>[]
 
 ---
 
@@ -1314,7 +1314,7 @@ new repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference(ter
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1323,7 +1323,7 @@ new repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference(ter
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1509,7 +1509,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1532,7 +1532,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamIdInput">teamIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.teamId">teamId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a></code> | *No description.* |
 
 ---
 
@@ -1586,7 +1586,7 @@ public readonly teamId: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsIgnoreTeam;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam">RepositoryCollaboratorsIgnoreTeam</a>
 
 ---
 
@@ -1603,7 +1603,7 @@ new repositoryCollaborators.RepositoryCollaboratorsTeamList(terraformResource: I
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -1611,7 +1611,7 @@ new repositoryCollaborators.RepositoryCollaboratorsTeamList(terraformResource: I
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1677,7 +1677,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1712,7 +1712,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]</code> | *No description.* |
 
 ---
 
@@ -1746,7 +1746,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsTeam[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>[]
 
 ---
 
@@ -1763,7 +1763,7 @@ new repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference(terraform
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1772,7 +1772,7 @@ new repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference(terraform
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1959,7 +1959,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1990,7 +1990,7 @@ public resetPermission(): void
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamIdInput">teamIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.permission">permission</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.teamId">teamId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a></code> | *No description.* |
 
 ---
 
@@ -2064,7 +2064,7 @@ public readonly teamId: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsTeam;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam">RepositoryCollaboratorsTeam</a>
 
 ---
 
@@ -2081,7 +2081,7 @@ new repositoryCollaborators.RepositoryCollaboratorsUserList(terraformResource: I
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -2089,7 +2089,7 @@ new repositoryCollaborators.RepositoryCollaboratorsUserList(terraformResource: I
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2155,7 +2155,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -2190,7 +2190,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]</code> | *No description.* |
 
 ---
 
@@ -2224,7 +2224,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsUser[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>[]
 
 ---
 
@@ -2241,7 +2241,7 @@ new repositoryCollaborators.RepositoryCollaboratorsUserOutputReference(terraform
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -2250,7 +2250,7 @@ new repositoryCollaborators.RepositoryCollaboratorsUserOutputReference(terraform
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -2437,7 +2437,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -2468,7 +2468,7 @@ public resetPermission(): void
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.permission">permission</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.username">username</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a></code> | *No description.* |
 
 ---
 
@@ -2542,7 +2542,7 @@ public readonly username: string;
 public readonly internalValue: IResolvable | RepositoryCollaboratorsUser;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser">RepositoryCollaboratorsUser</a>
 
 ---
 

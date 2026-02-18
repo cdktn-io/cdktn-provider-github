@@ -298,7 +298,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -392,7 +392,7 @@ public putReviewers(value: IResolvable | RepositoryEnvironmentReviewers[]): void
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.putReviewers.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
 
 ---
 
@@ -439,7 +439,7 @@ public resetWaitTimer(): void
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RepositoryEnvironment resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RepositoryEnvironment resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -511,7 +511,7 @@ import { repositoryEnvironment } from '@cdktn/provider-github'
 repositoryEnvironment.RepositoryEnvironment.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RepositoryEnvironment resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RepositoryEnvironment resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.generateConfigForImport.parameter.scope"></a>
 
@@ -541,7 +541,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RepositoryEnvironment to import is found.
 
@@ -552,33 +552,33 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.deploymentBranchPolicy">deploymentBranchPolicy</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference">RepositoryEnvironmentDeploymentBranchPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewers">reviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList">RepositoryEnvironmentReviewersList</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypassInput">canAdminsBypassInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypassInput">canAdminsBypassInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.deploymentBranchPolicyInput">deploymentBranchPolicyInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy">RepositoryEnvironmentDeploymentBranchPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.environmentInput">environmentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.preventSelfReviewInput">preventSelfReviewInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.preventSelfReviewInput">preventSelfReviewInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewersInput">reviewersInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewersInput">reviewersInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.waitTimerInput">waitTimerInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypass">canAdminsBypass</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypass">canAdminsBypass</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.environment">environment</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.preventSelfReview">preventSelfReview</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.preventSelfReview">preventSelfReview</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.waitTimer">waitTimer</a></code> | <code>number</code> | *No description.* |
 
@@ -602,7 +602,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -652,7 +652,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -662,7 +662,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -672,7 +672,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -692,7 +692,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -702,7 +702,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -712,7 +712,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -722,7 +722,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -752,7 +752,7 @@ public readonly reviewers: RepositoryEnvironmentReviewersList;
 public readonly canAdminsBypassInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -792,7 +792,7 @@ public readonly idInput: string;
 public readonly preventSelfReviewInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -812,7 +812,7 @@ public readonly repositoryInput: string;
 public readonly reviewersInput: IResolvable | RepositoryEnvironmentReviewers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
 
 ---
 
@@ -832,7 +832,7 @@ public readonly waitTimerInput: number;
 public readonly canAdminsBypass: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -862,7 +862,7 @@ public readonly id: string;
 public readonly preventSelfReview: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -920,20 +920,20 @@ const repositoryEnvironmentConfig: repositoryEnvironment.RepositoryEnvironmentCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.environment">environment</a></code> | <code>string</code> | The name of the environment. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.repository">repository</a></code> | <code>string</code> | The repository of the environment. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.canAdminsBypass">canAdminsBypass</a></code> | <code>boolean \| cdktf.IResolvable</code> | Can Admins bypass deployment protections. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.canAdminsBypass">canAdminsBypass</a></code> | <code>boolean \| cdktn.IResolvable</code> | Can Admins bypass deployment protections. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.deploymentBranchPolicy">deploymentBranchPolicy</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy">RepositoryEnvironmentDeploymentBranchPolicy</a></code> | deployment_branch_policy block. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#id RepositoryEnvironment#id}. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.preventSelfReview">preventSelfReview</a></code> | <code>boolean \| cdktf.IResolvable</code> | Prevent users from approving workflows runs that they triggered. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.reviewers">reviewers</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | reviewers block. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.preventSelfReview">preventSelfReview</a></code> | <code>boolean \| cdktn.IResolvable</code> | Prevent users from approving workflows runs that they triggered. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.reviewers">reviewers</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | reviewers block. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.waitTimer">waitTimer</a></code> | <code>number</code> | Amount of time to delay a job after the job is initially triggered. |
 
 ---
@@ -944,7 +944,7 @@ const repositoryEnvironmentConfig: repositoryEnvironment.RepositoryEnvironmentCo
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -954,7 +954,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -964,7 +964,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -974,7 +974,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -984,7 +984,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -994,7 +994,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1042,7 +1042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly canAdminsBypass: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Can Admins bypass deployment protections.
 
@@ -1085,7 +1085,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly preventSelfReview: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Prevent users from approving workflows runs that they triggered.
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly reviewers: IResolvable | RepositoryEnvironmentReviewers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
 
 reviewers block.
 
@@ -1135,8 +1135,8 @@ const repositoryEnvironmentDeploymentBranchPolicy: repositoryEnvironment.Reposit
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy.property.customBranchPolicies">customBranchPolicies</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether only branches that match the specified name patterns can deploy to this environment. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy.property.protectedBranches">protectedBranches</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether only branches with branch protection rules can deploy to this environment. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy.property.customBranchPolicies">customBranchPolicies</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether only branches that match the specified name patterns can deploy to this environment. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy.property.protectedBranches">protectedBranches</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether only branches with branch protection rules can deploy to this environment. |
 
 ---
 
@@ -1146,7 +1146,7 @@ const repositoryEnvironmentDeploymentBranchPolicy: repositoryEnvironment.Reposit
 public readonly customBranchPolicies: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether only branches that match the specified name patterns can deploy to this environment.
 
@@ -1160,7 +1160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly protectedBranches: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether only branches with branch protection rules can deploy to this environment.
 
@@ -1233,14 +1233,14 @@ new repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputRefer
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1410,7 +1410,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1431,10 +1431,10 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.customBranchPoliciesInput">customBranchPoliciesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.protectedBranchesInput">protectedBranchesInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.customBranchPolicies">customBranchPolicies</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.protectedBranches">protectedBranches</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.customBranchPoliciesInput">customBranchPoliciesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.protectedBranchesInput">protectedBranchesInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.customBranchPolicies">customBranchPolicies</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.protectedBranches">protectedBranches</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy">RepositoryEnvironmentDeploymentBranchPolicy</a></code> | *No description.* |
 
 ---
@@ -1469,7 +1469,7 @@ public readonly fqn: string;
 public readonly customBranchPoliciesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1479,7 +1479,7 @@ public readonly customBranchPoliciesInput: boolean | IResolvable;
 public readonly protectedBranchesInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1489,7 +1489,7 @@ public readonly protectedBranchesInput: boolean | IResolvable;
 public readonly customBranchPolicies: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1499,7 +1499,7 @@ public readonly customBranchPolicies: boolean | IResolvable;
 public readonly protectedBranches: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1526,7 +1526,7 @@ new repositoryEnvironment.RepositoryEnvironmentReviewersList(terraformResource: 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -1534,7 +1534,7 @@ new repositoryEnvironment.RepositoryEnvironmentReviewersList(terraformResource: 
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1600,7 +1600,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1635,7 +1635,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]</code> | *No description.* |
 
 ---
 
@@ -1669,7 +1669,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | RepositoryEnvironmentReviewers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>[]
 
 ---
 
@@ -1686,7 +1686,7 @@ new repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference(terrafor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1695,7 +1695,7 @@ new repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference(terrafor
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1883,7 +1883,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1920,7 +1920,7 @@ public resetUsers(): void
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.usersInput">usersInput</a></code> | <code>number[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.teams">teams</a></code> | <code>number[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.users">users</a></code> | <code>number[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a></code> | *No description.* |
 
 ---
 
@@ -1994,7 +1994,7 @@ public readonly users: number[];
 public readonly internalValue: IResolvable | RepositoryEnvironmentReviewers;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
 
 ---
 

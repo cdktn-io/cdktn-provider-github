@@ -290,7 +290,7 @@ public resetSummaryOnly(): void
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataGithubOrganization resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a DataGithubOrganization resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -362,7 +362,7 @@ import { dataGithubOrganization } from '@cdktn/provider-github'
 dataGithubOrganization.DataGithubOrganization.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a DataGithubOrganization resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a DataGithubOrganization resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.generateConfigForImport.parameter.scope"></a>
 
@@ -392,7 +392,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the DataGithubOrganization to import is found.
 
@@ -403,51 +403,51 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.advancedSecurityEnabledForNewRepositories">advancedSecurityEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.defaultRepositoryPermission">defaultRepositoryPermission</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependabotAlertsEnabledForNewRepositories">dependabotAlertsEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependabotSecurityUpdatesEnabledForNewRepositories">dependabotSecurityUpdatesEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.dependencyGraphEnabledForNewRepositories">dependencyGraphEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.login">login</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.members">members</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersAllowedRepositoryCreationType">membersAllowedRepositoryCreationType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreateInternalRepositories">membersCanCreateInternalRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePages">membersCanCreatePages</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePrivatePages">membersCanCreatePrivatePages</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePrivateRepositories">membersCanCreatePrivateRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePublicPages">membersCanCreatePublicPages</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreatePublicRepositories">membersCanCreatePublicRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanCreateRepositories">membersCanCreateRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.membersCanForkPrivateRepositories">membersCanForkPrivateRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.nodeId">nodeId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.orgname">orgname</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.plan">plan</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.repositories">repositories</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.twoFactorRequirementEnabled">twoFactorRequirementEnabled</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.users">users</a></code> | <code>cdktf.StringMapList</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.secretScanningEnabledForNewRepositories">secretScanningEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.secretScanningPushProtectionEnabledForNewRepositories">secretScanningPushProtectionEnabledForNewRepositories</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.twoFactorRequirementEnabled">twoFactorRequirementEnabled</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.users">users</a></code> | <code>cdktn.StringMapList</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.webCommitSignoffRequired">webCommitSignoffRequired</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.ignoreArchivedReposInput">ignoreArchivedReposInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.ignoreArchivedReposInput">ignoreArchivedReposInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.summaryOnlyInput">summaryOnlyInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.summaryOnlyInput">summaryOnlyInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.ignoreArchivedRepos">ignoreArchivedRepos</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.ignoreArchivedRepos">ignoreArchivedRepos</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganization.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -469,7 +469,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -519,7 +519,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -529,7 +529,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -549,7 +549,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -559,7 +559,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -569,7 +569,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -579,7 +579,7 @@ public readonly provider: TerraformProvider;
 public readonly advancedSecurityEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -599,7 +599,7 @@ public readonly defaultRepositoryPermission: string;
 public readonly dependabotAlertsEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -609,7 +609,7 @@ public readonly dependabotAlertsEnabledForNewRepositories: IResolvable;
 public readonly dependabotSecurityUpdatesEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -619,7 +619,7 @@ public readonly dependabotSecurityUpdatesEnabledForNewRepositories: IResolvable;
 public readonly dependencyGraphEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -669,7 +669,7 @@ public readonly membersAllowedRepositoryCreationType: string;
 public readonly membersCanCreateInternalRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -679,7 +679,7 @@ public readonly membersCanCreateInternalRepositories: IResolvable;
 public readonly membersCanCreatePages: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -689,7 +689,7 @@ public readonly membersCanCreatePages: IResolvable;
 public readonly membersCanCreatePrivatePages: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -699,7 +699,7 @@ public readonly membersCanCreatePrivatePages: IResolvable;
 public readonly membersCanCreatePrivateRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -709,7 +709,7 @@ public readonly membersCanCreatePrivateRepositories: IResolvable;
 public readonly membersCanCreatePublicPages: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -719,7 +719,7 @@ public readonly membersCanCreatePublicPages: IResolvable;
 public readonly membersCanCreatePublicRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -729,7 +729,7 @@ public readonly membersCanCreatePublicRepositories: IResolvable;
 public readonly membersCanCreateRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -739,7 +739,7 @@ public readonly membersCanCreateRepositories: IResolvable;
 public readonly membersCanForkPrivateRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -789,7 +789,7 @@ public readonly repositories: string[];
 public readonly secretScanningEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -799,7 +799,7 @@ public readonly secretScanningEnabledForNewRepositories: IResolvable;
 public readonly secretScanningPushProtectionEnabledForNewRepositories: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -809,7 +809,7 @@ public readonly secretScanningPushProtectionEnabledForNewRepositories: IResolvab
 public readonly twoFactorRequirementEnabled: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -819,7 +819,7 @@ public readonly twoFactorRequirementEnabled: IResolvable;
 public readonly users: StringMapList;
 ```
 
-- *Type:* cdktf.StringMapList
+- *Type:* cdktn.StringMapList
 
 ---
 
@@ -829,7 +829,7 @@ public readonly users: StringMapList;
 public readonly webCommitSignoffRequired: IResolvable;
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -849,7 +849,7 @@ public readonly idInput: string;
 public readonly ignoreArchivedReposInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -869,7 +869,7 @@ public readonly nameInput: string;
 public readonly summaryOnlyInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -889,7 +889,7 @@ public readonly id: string;
 public readonly ignoreArchivedRepos: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -909,7 +909,7 @@ public readonly name: string;
 public readonly summaryOnly: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -947,17 +947,17 @@ const dataGithubOrganizationConfig: dataGithubOrganization.DataGithubOrganizatio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#name DataGithubOrganization#name}. |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#id DataGithubOrganization#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.ignoreArchivedRepos">ignoreArchivedRepos</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#ignore_archived_repos DataGithubOrganization#ignore_archived_repos}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#summary_only DataGithubOrganization#summary_only}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.ignoreArchivedRepos">ignoreArchivedRepos</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#ignore_archived_repos DataGithubOrganization#ignore_archived_repos}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganization.DataGithubOrganizationConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#summary_only DataGithubOrganization#summary_only}. |
 
 ---
 
@@ -967,7 +967,7 @@ const dataGithubOrganizationConfig: dataGithubOrganization.DataGithubOrganizatio
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -977,7 +977,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -987,7 +987,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -997,7 +997,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1027,7 +1027,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1064,7 +1064,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly ignoreArchivedRepos: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#ignore_archived_repos DataGithubOrganization#ignore_archived_repos}.
 
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 public readonly summaryOnly: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization#summary_only DataGithubOrganization#summary_only}.
 

@@ -292,7 +292,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamMembers.TeamMembers.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -374,7 +374,7 @@ public putMembers(value: IResolvable | TeamMembersMembers[]): void
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.teamMembers.TeamMembers.putMembers.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
 
 ---
 
@@ -391,7 +391,7 @@ public resetId(): void
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a TeamMembers resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a TeamMembers resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -463,7 +463,7 @@ import { teamMembers } from '@cdktn/provider-github'
 teamMembers.TeamMembers.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a TeamMembers resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a TeamMembers resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.teamMembers.TeamMembers.generateConfigForImport.parameter.scope"></a>
 
@@ -493,7 +493,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.teamMembers.TeamMembers.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the TeamMembers to import is found.
 
@@ -504,22 +504,22 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.members">members</a></code> | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList">TeamMembersMembersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.membersInput">membersInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.membersInput">membersInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamIdInput">teamIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamId">teamId</a></code> | <code>string</code> | *No description.* |
@@ -544,7 +544,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -594,7 +594,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -604,7 +604,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -614,7 +614,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -634,7 +634,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -644,7 +644,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -654,7 +654,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -664,7 +664,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -694,7 +694,7 @@ public readonly idInput: string;
 public readonly membersInput: IResolvable | TeamMembersMembers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
 
 ---
 
@@ -762,14 +762,14 @@ const teamMembersConfig: teamMembers.TeamMembersConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.members">members</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | members block. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.members">members</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | members block. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId">teamId</a></code> | <code>string</code> | The GitHub team id or slug. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_members#id TeamMembers#id}. |
 
@@ -781,7 +781,7 @@ const teamMembersConfig: teamMembers.TeamMembersConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -791,7 +791,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -801,7 +801,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -811,7 +811,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -821,7 +821,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -831,7 +831,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -841,7 +841,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -851,7 +851,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 public readonly members: IResolvable | TeamMembersMembers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
 
 members block.
 
@@ -949,7 +949,7 @@ new teamMembers.TeamMembersMembersList(terraformResource: IInterpolatingParent, 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
@@ -957,7 +957,7 @@ new teamMembers.TeamMembersMembersList(terraformResource: IInterpolatingParent, 
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1023,7 +1023,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.teamMembers.TeamMembersMembersList.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1058,7 +1058,7 @@ the index of the item to return.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | *No description.* |
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly fqn: string;
 public readonly internalValue: IResolvable | TeamMembersMembers[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]
 
 ---
 
@@ -1109,7 +1109,7 @@ new teamMembers.TeamMembersMembersOutputReference(terraformResource: IInterpolat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
@@ -1118,7 +1118,7 @@ new teamMembers.TeamMembersMembersOutputReference(terraformResource: IInterpolat
 
 ##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -1305,7 +1305,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -1336,7 +1336,7 @@ public resetRole(): void
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.property.usernameInput">usernameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.property.role">role</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.property.username">username</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a></code> | *No description.* |
 
 ---
 
@@ -1410,7 +1410,7 @@ public readonly username: string;
 public readonly internalValue: IResolvable | TeamMembersMembers;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>
 
 ---
 

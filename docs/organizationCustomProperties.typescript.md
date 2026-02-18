@@ -297,7 +297,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -420,7 +420,7 @@ public resetValueType(): void
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a OrganizationCustomProperties resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a OrganizationCustomProperties resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -492,7 +492,7 @@ import { organizationCustomProperties } from '@cdktn/provider-github'
 organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a OrganizationCustomProperties resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a OrganizationCustomProperties resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.scope"></a>
 
@@ -522,7 +522,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the OrganizationCustomProperties to import is found.
 
@@ -533,25 +533,25 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValuesInput">allowedValuesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.defaultValueInput">defaultValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyNameInput">propertyNameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput">requiredInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.requiredInput">requiredInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableByInput">valuesEditableByInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueTypeInput">valueTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.allowedValues">allowedValues</a></code> | <code>string[]</code> | *No description.* |
@@ -559,7 +559,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.propertyName">propertyName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required">required</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.required">required</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valuesEditableBy">valuesEditableBy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.property.valueType">valueType</a></code> | <code>string</code> | *No description.* |
 
@@ -583,7 +583,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -633,7 +633,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -643,7 +643,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -653,7 +653,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -673,7 +673,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -683,7 +683,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -693,7 +693,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -703,7 +703,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -763,7 +763,7 @@ public readonly propertyNameInput: string;
 public readonly requiredInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -843,7 +843,7 @@ public readonly propertyName: string;
 public readonly required: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -901,19 +901,19 @@ const organizationCustomPropertiesConfig: organizationCustomProperties.Organizat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.propertyName">propertyName</a></code> | <code>string</code> | The name of the custom property. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.allowedValues">allowedValues</a></code> | <code>string[]</code> | The allowed values of the custom property. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.defaultValue">defaultValue</a></code> | <code>string</code> | The default value of the custom property. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.description">description</a></code> | <code>string</code> | The description of the custom property. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_custom_properties#id OrganizationCustomProperties#id}. |
-| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required">required</a></code> | <code>boolean \| cdktf.IResolvable</code> | Whether the custom property is required. |
+| <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.required">required</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether the custom property is required. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valuesEditableBy">valuesEditableBy</a></code> | <code>string</code> | Who can edit the values of the custom property. |
 | <code><a href="#@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.property.valueType">valueType</a></code> | <code>string</code> | The type of the custom property. |
 
@@ -925,7 +925,7 @@ const organizationCustomPropertiesConfig: organizationCustomProperties.Organizat
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -935,7 +935,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -945,7 +945,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -955,7 +955,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -965,7 +965,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -975,7 +975,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -985,7 +985,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1066,7 +1066,7 @@ If you experience problems setting this value it might not be settable. Please t
 public readonly required: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Whether the custom property is required.
 

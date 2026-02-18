@@ -68,43 +68,43 @@ repository.Repository(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowForking">allow_forking</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to allow private forking on the repository; |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable merge commits on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable rebase merges on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable squash merges on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to always suggest updating pull request branches. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.archived">archived</a></code> | <code>bool \| cdktf.IResolvable</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.autoInit">auto_init</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to produce an initial commit in the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowForking">allow_forking</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to allow private forking on the repository; |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable merge commits on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable rebase merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable squash merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to always suggest updating pull request branches. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.autoInit">auto_init</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to produce an initial commit in the repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.defaultBranch">default_branch</a></code> | <code>str</code> | Can only be set after initial repository creation, and only if the target branch exists. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.description">description</a></code> | <code>str</code> | A description of the repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.etag">etag</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#etag Repository#etag}. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.fork">fork</a></code> | <code>str</code> | Set to 'true' to fork an existing repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.gitignoreTemplate">gitignore_template</a></code> | <code>str</code> | Use the name of the template without the extension. For example, 'Haskell'. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDownloads">has_downloads</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasIssues">has_issues</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasProjects">has_projects</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasWiki">has_wiki</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDownloads">has_downloads</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasIssues">has_issues</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasProjects">has_projects</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.hasWiki">has_wiki</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.homepageUrl">homepage_url</a></code> | <code>str</code> | URL of a page describing the project. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#id Repository#id}. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.isTemplate">is_template</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to tell GitHub that this is a template repository. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.isTemplate">is_template</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to tell GitHub that this is a template repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.licenseTemplate">license_template</a></code> | <code>str</code> | Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.mergeCommitMessage">merge_commit_message</a></code> | <code>str</code> | Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.mergeCommitTitle">merge_commit_title</a></code> | <code>str</code> | Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.pages">pages</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | pages block. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.private">private</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.private">private</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.securityAndAnalysis">security_and_analysis</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | security_and_analysis block. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.sourceOwner">source_owner</a></code> | <code>str</code> | The owner of the source repository to fork from. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.sourceRepo">source_repo</a></code> | <code>str</code> | The name of the source repository to fork from. |
@@ -113,8 +113,8 @@ repository.Repository(
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.template">template</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | template block. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.topics">topics</a></code> | <code>typing.List[str]</code> | The list of topics of the repository. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.visibility">visibility</a></code> | <code>str</code> | Can be 'public' or 'private'. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktf.IResolvable</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
+| <code><a href="#@cdktn/provider-github.repository.Repository.Initializer.parameter.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
 
 ---
 
@@ -138,43 +138,43 @@ Must be unique amongst siblings in the same scope
 
 ##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.connection"></a>
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
 ##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.dependsOn"></a>
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
 ##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.forEach"></a>
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
 ##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.lifecycle"></a>
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
 ##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
 ##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.provisioners"></a>
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_auto_merge`<sup>Optional</sup> <a name="allow_auto_merge" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowAutoMerge"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to allow auto-merging pull requests on the repository.
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_forking`<sup>Optional</sup> <a name="allow_forking" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowForking"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to allow private forking on the repository;
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_merge_commit`<sup>Optional</sup> <a name="allow_merge_commit" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowMergeCommit"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable merge commits on the repository.
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_rebase_merge`<sup>Optional</sup> <a name="allow_rebase_merge" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowRebaseMerge"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable rebase merges on the repository.
 
@@ -232,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_squash_merge`<sup>Optional</sup> <a name="allow_squash_merge" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowSquashMerge"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable squash merges on the repository.
 
@@ -242,7 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `allow_update_branch`<sup>Optional</sup> <a name="allow_update_branch" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.allowUpdateBranch"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to always suggest updating pull request branches.
 
@@ -252,7 +252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `archived`<sup>Optional</sup> <a name="archived" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.archived"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving.
 
@@ -262,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `archive_on_destroy`<sup>Optional</sup> <a name="archive_on_destroy" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.archiveOnDestroy"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to archive the repository instead of deleting on destroy.
 
@@ -272,7 +272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `auto_init`<sup>Optional</sup> <a name="auto_init" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.autoInit"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to produce an initial commit in the repository.
 
@@ -292,7 +292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `delete_branch_on_merge`<sup>Optional</sup> <a name="delete_branch_on_merge" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.deleteBranchOnMerge"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Automatically delete head branch after a pull request is merged. Defaults to 'false'.
 
@@ -340,7 +340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `has_discussions`<sup>Optional</sup> <a name="has_discussions" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDiscussions"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'.
 
@@ -350,7 +350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `has_downloads`<sup>Optional</sup> <a name="has_downloads" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.hasDownloads"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the (deprecated) downloads features on the repository.
 
@@ -360,7 +360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `has_issues`<sup>Optional</sup> <a name="has_issues" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.hasIssues"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Issues features on the repository.
 
@@ -370,7 +370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `has_projects`<sup>Optional</sup> <a name="has_projects" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.hasProjects"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Projects features on the repository.
 
@@ -382,7 +382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `has_wiki`<sup>Optional</sup> <a name="has_wiki" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.hasWiki"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Wiki features on the repository.
 
@@ -413,7 +413,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ##### `ignore_vulnerability_alerts_during_read`<sup>Optional</sup> <a name="ignore_vulnerability_alerts_during_read" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.ignoreVulnerabilityAlertsDuringRead"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}.
 
@@ -421,7 +421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `is_template`<sup>Optional</sup> <a name="is_template" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.isTemplate"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to tell GitHub that this is a template repository.
 
@@ -471,7 +471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `private`<sup>Optional</sup> <a name="private" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.private"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}.
 
@@ -561,7 +561,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `vulnerability_alerts`<sup>Optional</sup> <a name="vulnerability_alerts" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.vulnerabilityAlerts"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable security alerts for vulnerable dependencies.
 
@@ -573,7 +573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ##### `web_commit_signoff_required`<sup>Optional</sup> <a name="web_commit_signoff_required" id="@cdktn/provider-github.repository.Repository.Initializer.parameter.webCommitSignoffRequired"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Require contributors to sign off on web-based commits. Defaults to 'false'.
 
@@ -895,7 +895,7 @@ def import_from(
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repository.Repository.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1123,7 +1123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ###### `include_all_branches`<sup>Optional</sup> <a name="include_all_branches" id="@cdktn/provider-github.repository.Repository.putTemplate.parameter.includeAllBranches"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template).
 
@@ -1372,7 +1372,7 @@ def reset_web_commit_signoff_required() -> None
 | <code><a href="#@cdktn/provider-github.repository.Repository.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-github.repository.Repository.isTerraformElement">is_terraform_element</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-github.repository.Repository.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a Repository resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -1455,7 +1455,7 @@ repository.Repository.generate_config_for_import(
 )
 ```
 
-Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a Repository resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.scope"></a>
 
@@ -1485,7 +1485,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-github.repository.Repository.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the Repository to import is found.
 
@@ -1496,19 +1496,19 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.fullName">full_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.gitCloneUrl">git_clone_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.htmlUrl">html_url</a></code> | <code>str</code> | *No description.* |
@@ -1521,36 +1521,36 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.sshCloneUrl">ssh_clone_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.svnUrl">svn_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.template">template</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference">RepositoryTemplateOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMergeInput">allow_auto_merge_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowForkingInput">allow_forking_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommitInput">allow_merge_commit_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMergeInput">allow_rebase_merge_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMergeInput">allow_squash_merge_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranchInput">allow_update_branch_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.archivedInput">archived_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroyInput">archive_on_destroy_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInitInput">auto_init_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMergeInput">allow_auto_merge_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowForkingInput">allow_forking_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommitInput">allow_merge_commit_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMergeInput">allow_rebase_merge_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMergeInput">allow_squash_merge_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranchInput">allow_update_branch_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archivedInput">archived_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroyInput">archive_on_destroy_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInitInput">auto_init_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.defaultBranchInput">default_branch_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMergeInput">delete_branch_on_merge_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMergeInput">delete_branch_on_merge_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.etagInput">etag_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.forkInput">fork_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.gitignoreTemplateInput">gitignore_template_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussionsInput">has_discussions_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloadsInput">has_downloads_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssuesInput">has_issues_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjectsInput">has_projects_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWikiInput">has_wiki_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussionsInput">has_discussions_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloadsInput">has_downloads_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssuesInput">has_issues_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjectsInput">has_projects_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWikiInput">has_wiki_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.homepageUrlInput">homepage_url_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput">ignore_vulnerability_alerts_during_read_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplateInput">is_template_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringReadInput">ignore_vulnerability_alerts_during_read_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplateInput">is_template_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.licenseTemplateInput">license_template_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitMessageInput">merge_commit_message_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitTitleInput">merge_commit_title_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.pagesInput">pages_input</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.privateInput">private_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.privateInput">private_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.securityAndAnalysisInput">security_and_analysis_input</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceOwnerInput">source_owner_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceRepoInput">source_repo_input</a></code> | <code>str</code> | *No description.* |
@@ -1559,45 +1559,45 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.templateInput">template_input</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.topicsInput">topics_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.visibilityInput">visibility_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlertsInput">vulnerability_alerts_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequiredInput">web_commit_signoff_required_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowForking">allow_forking</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.archived">archived</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInit">auto_init</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlertsInput">vulnerability_alerts_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequiredInput">web_commit_signoff_required_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowForking">allow_forking</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.autoInit">auto_init</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.defaultBranch">default_branch</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.etag">etag</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.fork">fork</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.gitignoreTemplate">gitignore_template</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloads">has_downloads</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssues">has_issues</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjects">has_projects</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWiki">has_wiki</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasDownloads">has_downloads</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasIssues">has_issues</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasProjects">has_projects</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.hasWiki">has_wiki</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.homepageUrl">homepage_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplate">is_template</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.isTemplate">is_template</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.licenseTemplate">license_template</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitMessage">merge_commit_message</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.mergeCommitTitle">merge_commit_title</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.private">private</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.private">private</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceOwner">source_owner</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.sourceRepo">source_repo</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitMessage">squash_merge_commit_message</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.squashMergeCommitTitle">squash_merge_commit_title</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.topics">topics</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.Repository.property.visibility">visibility</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.Repository.property.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -1619,7 +1619,7 @@ The tree node.
 cdktf_stack: TerraformStack
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -1669,7 +1669,7 @@ terraform_resource_type: str
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -1679,7 +1679,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1689,7 +1689,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -1709,7 +1709,7 @@ depends_on: typing.List[str]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1719,7 +1719,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1729,7 +1729,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1739,7 +1739,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1869,7 +1869,7 @@ template: RepositoryTemplateOutputReference
 allow_auto_merge_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1879,7 +1879,7 @@ allow_auto_merge_input: bool | IResolvable
 allow_forking_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1889,7 +1889,7 @@ allow_forking_input: bool | IResolvable
 allow_merge_commit_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1899,7 +1899,7 @@ allow_merge_commit_input: bool | IResolvable
 allow_rebase_merge_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1909,7 +1909,7 @@ allow_rebase_merge_input: bool | IResolvable
 allow_squash_merge_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1919,7 +1919,7 @@ allow_squash_merge_input: bool | IResolvable
 allow_update_branch_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1929,7 +1929,7 @@ allow_update_branch_input: bool | IResolvable
 archived_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1939,7 +1939,7 @@ archived_input: bool | IResolvable
 archive_on_destroy_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1949,7 +1949,7 @@ archive_on_destroy_input: bool | IResolvable
 auto_init_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1969,7 +1969,7 @@ default_branch_input: str
 delete_branch_on_merge_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2019,7 +2019,7 @@ gitignore_template_input: str
 has_discussions_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2029,7 +2029,7 @@ has_discussions_input: bool | IResolvable
 has_downloads_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2039,7 +2039,7 @@ has_downloads_input: bool | IResolvable
 has_issues_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2049,7 +2049,7 @@ has_issues_input: bool | IResolvable
 has_projects_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2059,7 +2059,7 @@ has_projects_input: bool | IResolvable
 has_wiki_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2089,7 +2089,7 @@ id_input: str
 ignore_vulnerability_alerts_during_read_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2099,7 +2099,7 @@ ignore_vulnerability_alerts_during_read_input: bool | IResolvable
 is_template_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2159,7 +2159,7 @@ pages_input: RepositoryPages
 private_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2249,7 +2249,7 @@ visibility_input: str
 vulnerability_alerts_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2259,7 +2259,7 @@ vulnerability_alerts_input: bool | IResolvable
 web_commit_signoff_required_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2269,7 +2269,7 @@ web_commit_signoff_required_input: bool | IResolvable
 allow_auto_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2279,7 +2279,7 @@ allow_auto_merge: bool | IResolvable
 allow_forking: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2289,7 +2289,7 @@ allow_forking: bool | IResolvable
 allow_merge_commit: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2299,7 +2299,7 @@ allow_merge_commit: bool | IResolvable
 allow_rebase_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2309,7 +2309,7 @@ allow_rebase_merge: bool | IResolvable
 allow_squash_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2319,7 +2319,7 @@ allow_squash_merge: bool | IResolvable
 allow_update_branch: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2329,7 +2329,7 @@ allow_update_branch: bool | IResolvable
 archived: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2339,7 +2339,7 @@ archived: bool | IResolvable
 archive_on_destroy: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2349,7 +2349,7 @@ archive_on_destroy: bool | IResolvable
 auto_init: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2369,7 +2369,7 @@ default_branch: str
 delete_branch_on_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2419,7 +2419,7 @@ gitignore_template: str
 has_discussions: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2429,7 +2429,7 @@ has_discussions: bool | IResolvable
 has_downloads: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2439,7 +2439,7 @@ has_downloads: bool | IResolvable
 has_issues: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2449,7 +2449,7 @@ has_issues: bool | IResolvable
 has_projects: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2459,7 +2459,7 @@ has_projects: bool | IResolvable
 has_wiki: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2489,7 +2489,7 @@ id: str
 ignore_vulnerability_alerts_during_read: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2499,7 +2499,7 @@ ignore_vulnerability_alerts_during_read: bool | IResolvable
 is_template: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2549,7 +2549,7 @@ name: str
 private: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2619,7 +2619,7 @@ visibility: str
 vulnerability_alerts: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2629,7 +2629,7 @@ vulnerability_alerts: bool | IResolvable
 web_commit_signoff_required: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -2715,43 +2715,43 @@ repository.RepositoryConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.name">name</a></code> | <code>str</code> | The name of the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowForking">allow_forking</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to allow private forking on the repository; |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable merge commits on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable rebase merges on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'false' to disable squash merges on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to always suggest updating pull request branches. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archived">archived</a></code> | <code>bool \| cdktf.IResolvable</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.autoInit">auto_init</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to produce an initial commit in the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowAutoMerge">allow_auto_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to allow auto-merging pull requests on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowForking">allow_forking</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to allow private forking on the repository; |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowMergeCommit">allow_merge_commit</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable merge commits on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowRebaseMerge">allow_rebase_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable rebase merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowSquashMerge">allow_squash_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'false' to disable squash merges on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.allowUpdateBranch">allow_update_branch</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to always suggest updating pull request branches. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archived">archived</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.archiveOnDestroy">archive_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to archive the repository instead of deleting on destroy. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.autoInit">auto_init</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to produce an initial commit in the repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.defaultBranch">default_branch</a></code> | <code>str</code> | Can only be set after initial repository creation, and only if the target branch exists. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktf.IResolvable</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.deleteBranchOnMerge">delete_branch_on_merge</a></code> | <code>bool \| cdktn.IResolvable</code> | Automatically delete head branch after a pull request is merged. Defaults to 'false'. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.description">description</a></code> | <code>str</code> | A description of the repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.etag">etag</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#etag Repository#etag}. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.fork">fork</a></code> | <code>str</code> | Set to 'true' to fork an existing repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.gitignoreTemplate">gitignore_template</a></code> | <code>str</code> | Use the name of the template without the extension. For example, 'Haskell'. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDownloads">has_downloads</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasIssues">has_issues</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasProjects">has_projects</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasWiki">has_wiki</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDiscussions">has_discussions</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasDownloads">has_downloads</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the (deprecated) downloads features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasIssues">has_issues</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Issues features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasProjects">has_projects</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Projects features on the repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.hasWiki">has_wiki</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable the GitHub Wiki features on the repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.homepageUrl">homepage_url</a></code> | <code>str</code> | URL of a page describing the project. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#id Repository#id}. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.isTemplate">is_template</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to tell GitHub that this is a template repository. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.ignoreVulnerabilityAlertsDuringRead">ignore_vulnerability_alerts_during_read</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.isTemplate">is_template</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to tell GitHub that this is a template repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.licenseTemplate">license_template</a></code> | <code>str</code> | Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitMessage">merge_commit_message</a></code> | <code>str</code> | Can be 'PR_BODY', 'PR_TITLE', or 'BLANK' for a default merge commit message. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.mergeCommitTitle">merge_commit_title</a></code> | <code>str</code> | Can be 'PR_TITLE' or 'MERGE_MESSAGE' for a default merge commit title. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.pages">pages</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPages">RepositoryPages</a></code> | pages block. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.private">private</a></code> | <code>bool \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.private">private</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.securityAndAnalysis">security_and_analysis</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysis">RepositorySecurityAndAnalysis</a></code> | security_and_analysis block. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.sourceOwner">source_owner</a></code> | <code>str</code> | The owner of the source repository to fork from. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.sourceRepo">source_repo</a></code> | <code>str</code> | The name of the source repository to fork from. |
@@ -2760,8 +2760,8 @@ repository.RepositoryConfig(
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.template">template</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | template block. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.topics">topics</a></code> | <code>typing.List[str]</code> | The list of topics of the repository. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.visibility">visibility</a></code> | <code>str</code> | Can be 'public' or 'private'. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktf.IResolvable</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktf.IResolvable</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.vulnerabilityAlerts">vulnerability_alerts</a></code> | <code>bool \| cdktn.IResolvable</code> | Set to 'true' to enable security alerts for vulnerable dependencies. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryConfig.property.webCommitSignoffRequired">web_commit_signoff_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Require contributors to sign off on web-based commits. Defaults to 'false'. |
 
 ---
 
@@ -2771,7 +2771,7 @@ repository.RepositoryConfig(
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -2781,7 +2781,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -2791,7 +2791,7 @@ count: typing.Union[int, float] | TerraformCount
 depends_on: typing.List[ITerraformDependable]
 ```
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
@@ -2801,7 +2801,7 @@ depends_on: typing.List[ITerraformDependable]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -2811,7 +2811,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -2821,7 +2821,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -2831,7 +2831,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -2855,7 +2855,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_auto_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to allow auto-merging pull requests on the repository.
 
@@ -2869,7 +2869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_forking: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to allow private forking on the repository;
 
@@ -2885,7 +2885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_merge_commit: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable merge commits on the repository.
 
@@ -2899,7 +2899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_rebase_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable rebase merges on the repository.
 
@@ -2913,7 +2913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_squash_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'false' to disable squash merges on the repository.
 
@@ -2927,7 +2927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 allow_update_branch: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to always suggest updating pull request branches.
 
@@ -2941,7 +2941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 archived: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Specifies if the repository should be archived. Defaults to 'false'. NOTE Currently, the API does not support unarchiving.
 
@@ -2955,7 +2955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 archive_on_destroy: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to archive the repository instead of deleting on destroy.
 
@@ -2969,7 +2969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 auto_init: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to produce an initial commit in the repository.
 
@@ -2997,7 +2997,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 delete_branch_on_merge: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Automatically delete head branch after a pull request is merged. Defaults to 'false'.
 
@@ -3065,7 +3065,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 has_discussions: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable GitHub Discussions on the repository. Defaults to 'false'.
 
@@ -3079,7 +3079,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 has_downloads: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the (deprecated) downloads features on the repository.
 
@@ -3093,7 +3093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 has_issues: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Issues features on the repository.
 
@@ -3107,7 +3107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 has_projects: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Projects features on the repository.
 
@@ -3123,7 +3123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 has_wiki: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable the GitHub Wiki features on the repository.
 
@@ -3166,7 +3166,7 @@ If you experience problems setting this value it might not be settable. Please t
 ignore_vulnerability_alerts_during_read: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#ignore_vulnerability_alerts_during_read Repository#ignore_vulnerability_alerts_during_read}.
 
@@ -3178,7 +3178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 is_template: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to tell GitHub that this is a template repository.
 
@@ -3248,7 +3248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 private: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository#private Repository#private}.
 
@@ -3374,7 +3374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 vulnerability_alerts: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Set to 'true' to enable security alerts for vulnerable dependencies.
 
@@ -3390,7 +3390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 web_commit_signoff_required: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Require contributors to sign off on web-based commits. Defaults to 'false'.
 
@@ -3864,7 +3864,7 @@ repository.RepositoryTemplate(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.owner">owner</a></code> | <code>str</code> | The GitHub organization or user the template repository is owned by. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.repository">repository</a></code> | <code>str</code> | The name of the template repository. |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.includeAllBranches">include_all_branches</a></code> | <code>bool \| cdktf.IResolvable</code> | Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template). |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate.property.includeAllBranches">include_all_branches</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template). |
 
 ---
 
@@ -3902,7 +3902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 include_all_branches: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Whether the new repository should include all the branches from the template repository (defaults to 'false', which includes only the default branch from the template).
 
@@ -3927,14 +3927,14 @@ repository.RepositoryPagesOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4130,7 +4130,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryPagesOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4198,7 +4198,7 @@ def reset_source() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.custom404">custom404</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.custom404">custom404</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.htmlUrl">html_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.source">source</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference">RepositoryPagesSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesOutputReference.property.status">status</a></code> | <code>str</code> | *No description.* |
@@ -4242,7 +4242,7 @@ fqn: str
 custom404: IResolvable
 ```
 
-- *Type:* cdktf.IResolvable
+- *Type:* cdktn.IResolvable
 
 ---
 
@@ -4362,14 +4362,14 @@ repository.RepositoryPagesSourceOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4562,7 +4562,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryPagesSourceOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4687,14 +4687,14 @@ repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -4886,7 +4886,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisAdvancedSecurityOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -4983,14 +4983,14 @@ repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -5182,7 +5182,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisCodeSecurityOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -5279,14 +5279,14 @@ repository.RepositorySecurityAndAnalysisOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -5490,7 +5490,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -5853,14 +5853,14 @@ repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6052,7 +6052,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningAiDetectionOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -6149,14 +6149,14 @@ repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6348,7 +6348,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningNonProviderPatternsOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -6445,14 +6445,14 @@ repository.RepositorySecurityAndAnalysisSecretScanningOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6644,7 +6644,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -6741,14 +6741,14 @@ repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputRefere
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -6940,7 +6940,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositorySecurityAndAnalysisSecretScanningPushProtectionOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -7037,14 +7037,14 @@ repository.RepositoryTemplateOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
 ##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.Initializer.parameter.terraformResource"></a>
 
-- *Type:* cdktf.IInterpolatingParent
+- *Type:* cdktn.IInterpolatingParent
 
 The parent resource.
 
@@ -7237,7 +7237,7 @@ Produce the Token's value at resolution time.
 
 ###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repository.RepositoryTemplateOutputReference.resolve.parameter._context"></a>
 
-- *Type:* cdktf.IResolveContext
+- *Type:* cdktn.IResolveContext
 
 ---
 
@@ -7264,10 +7264,10 @@ def reset_include_all_branches() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput">include_all_branches_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranchesInput">include_all_branches_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.ownerInput">owner_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repositoryInput">repository_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches">include_all_branches</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.includeAllBranches">include_all_branches</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.owner">owner</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.repository">repository</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplateOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.repository.RepositoryTemplate">RepositoryTemplate</a></code> | *No description.* |
@@ -7304,7 +7304,7 @@ fqn: str
 include_all_branches_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -7334,7 +7334,7 @@ repository_input: str
 include_all_branches: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
