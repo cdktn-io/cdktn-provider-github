@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings
+// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,42 +13,48 @@ import * as cdktn from 'cdktn';
 
 export interface TeamSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#id TeamSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#id TeamSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Whether to notify the entire team when at least one member is also assigned to the pull request.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#notify TeamSettings#notify}
+  */
+  readonly notify?: boolean | cdktn.IResolvable;
+  /**
   * The GitHub team id or the GitHub team slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#team_id TeamSettings#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#team_id TeamSettings#team_id}
   */
   readonly teamId: string;
   /**
   * review_request_delegation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
   */
   readonly reviewRequestDelegation?: TeamSettingsReviewRequestDelegation;
 }
 export interface TeamSettingsReviewRequestDelegation {
   /**
-  * The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'.
+  * The algorithm to use when assigning pull requests to team members. Supported values are ROUND_ROBIN and LOAD_BALANCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#algorithm TeamSettings#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#algorithm TeamSettings#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The number of team members to assign to a pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#member_count TeamSettings#member_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#member_count TeamSettings#member_count}
   */
   readonly memberCount?: number;
   /**
   * whether to notify the entire team when at least one member is also assigned to the pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#notify TeamSettings#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#notify TeamSettings#notify}
   */
   readonly notify?: boolean | cdktn.IResolvable;
 }
@@ -190,7 +196,7 @@ export class TeamSettingsReviewRequestDelegationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings github_team_settings}
 */
 export class TeamSettings extends cdktn.TerraformResource {
 
@@ -206,7 +212,7 @@ export class TeamSettings extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TeamSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamSettings to import
-  * @param importFromId The id of the existing TeamSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -218,7 +224,7 @@ export class TeamSettings extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings github_team_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,7 +235,7 @@ export class TeamSettings extends cdktn.TerraformResource {
       terraformResourceType: 'github_team_settings',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.1',
+        providerVersion: '6.12.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
@@ -241,6 +247,7 @@ export class TeamSettings extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._notify = config.notify;
     this._teamId = config.teamId;
     this._reviewRequestDelegation.internalValue = config.reviewRequestDelegation;
   }
@@ -263,6 +270,22 @@ export class TeamSettings extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // notify - computed: false, optional: true, required: false
+  private _notify?: boolean | cdktn.IResolvable; 
+  public get notify() {
+    return this.getBooleanAttribute('notify');
+  }
+  public set notify(value: boolean | cdktn.IResolvable) {
+    this._notify = value;
+  }
+  public resetNotify() {
+    this._notify = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notifyInput() {
+    return this._notify;
   }
 
   // team_id - computed: false, optional: false, required: true
@@ -311,6 +334,7 @@ export class TeamSettings extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktn.stringToTerraform(this._id),
+      notify: cdktn.booleanToTerraform(this._notify),
       team_id: cdktn.stringToTerraform(this._teamId),
       review_request_delegation: teamSettingsReviewRequestDelegationToTerraform(this._reviewRequestDelegation.internalValue),
     };
@@ -323,6 +347,12 @@ export class TeamSettings extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      notify: {
+        value: cdktn.booleanToHclTerraform(this._notify),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       team_id: {
         value: cdktn.stringToHclTerraform(this._teamId),
