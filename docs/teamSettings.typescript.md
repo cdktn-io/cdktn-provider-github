@@ -4,7 +4,7 @@
 
 ### TeamSettings <a name="TeamSettings" id="@cdktn/provider-github.teamSettings.TeamSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings github_team_settings}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings github_team_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamSettings.TeamSettings.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.putReviewRequestDelegation">putReviewRequestDelegation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetNotify">resetNotify</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation">resetReviewRequestDelegation</a></code> | *No description.* |
 
 ---
@@ -407,6 +408,12 @@ public putReviewRequestDelegation(value: TeamSettingsReviewRequestDelegation): v
 public resetId(): void
 ```
 
+##### `resetNotify` <a name="resetNotify" id="@cdktn/provider-github.teamSettings.TeamSettings.resetNotify"></a>
+
+```typescript
+public resetNotify(): void
+```
+
 ##### `resetReviewRequestDelegation` <a name="resetReviewRequestDelegation" id="@cdktn/provider-github.teamSettings.TeamSettings.resetReviewRequestDelegation"></a>
 
 ```typescript
@@ -516,7 +523,7 @@ The construct id used in the generated config for the TeamSettings to import.
 
 The id of the existing TeamSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -550,9 +557,11 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamSlug">teamSlug</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamUid">teamUid</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.notifyInput">notifyInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput">reviewRequestDelegationInput</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamIdInput">teamIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.notify">notify</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettings.property.teamId">teamId</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -739,6 +748,16 @@ public readonly idInput: string;
 
 ---
 
+##### `notifyInput`<sup>Optional</sup> <a name="notifyInput" id="@cdktn/provider-github.teamSettings.TeamSettings.property.notifyInput"></a>
+
+```typescript
+public readonly notifyInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `reviewRequestDelegationInput`<sup>Optional</sup> <a name="reviewRequestDelegationInput" id="@cdktn/provider-github.teamSettings.TeamSettings.property.reviewRequestDelegationInput"></a>
 
 ```typescript
@@ -766,6 +785,16 @@ public readonly id: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `notify`<sup>Required</sup> <a name="notify" id="@cdktn/provider-github.teamSettings.TeamSettings.property.notify"></a>
+
+```typescript
+public readonly notify: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -821,7 +850,8 @@ const teamSettingsConfig: teamSettings.TeamSettingsConfig = { ... }
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.teamId">teamId</a></code> | <code>string</code> | The GitHub team id or the GitHub team slug. |
-| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#id TeamSettings#id}. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#id TeamSettings#id}. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.notify">notify</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to notify the entire team when at least one member is also assigned to the pull request. |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.reviewRequestDelegation">reviewRequestDelegation</a></code> | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation">TeamSettingsReviewRequestDelegation</a></code> | review_request_delegation block. |
 
 ---
@@ -906,7 +936,7 @@ public readonly teamId: string;
 
 The GitHub team id or the GitHub team slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#team_id TeamSettings#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#team_id TeamSettings#team_id}
 
 ---
 
@@ -918,10 +948,24 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#id TeamSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#id TeamSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `notify`<sup>Optional</sup> <a name="notify" id="@cdktn/provider-github.teamSettings.TeamSettingsConfig.property.notify"></a>
+
+```typescript
+public readonly notify: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Whether to notify the entire team when at least one member is also assigned to the pull request.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#notify TeamSettings#notify}
 
 ---
 
@@ -935,7 +979,7 @@ public readonly reviewRequestDelegation: TeamSettingsReviewRequestDelegation;
 
 review_request_delegation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#review_request_delegation TeamSettings#review_request_delegation}
 
 ---
 
@@ -953,7 +997,7 @@ const teamSettingsReviewRequestDelegation: teamSettings.TeamSettingsReviewReques
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm">algorithm</a></code> | <code>string</code> | The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'. |
+| <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.algorithm">algorithm</a></code> | <code>string</code> | The algorithm to use when assigning pull requests to team members. Supported values are ROUND_ROBIN and LOAD_BALANCE. |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.memberCount">memberCount</a></code> | <code>number</code> | The number of team members to assign to a pull request. |
 | <code><a href="#@cdktn/provider-github.teamSettings.TeamSettingsReviewRequestDelegation.property.notify">notify</a></code> | <code>boolean \| cdktn.IResolvable</code> | whether to notify the entire team when at least one member is also assigned to the pull request. |
 
@@ -967,9 +1011,9 @@ public readonly algorithm: string;
 
 - *Type:* string
 
-The algorithm to use when assigning pull requests to team members. Supported values are 'ROUND_ROBIN' and 'LOAD_BALANCE'.
+The algorithm to use when assigning pull requests to team members. Supported values are ROUND_ROBIN and LOAD_BALANCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#algorithm TeamSettings#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#algorithm TeamSettings#algorithm}
 
 ---
 
@@ -983,7 +1027,7 @@ public readonly memberCount: number;
 
 The number of team members to assign to a pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#member_count TeamSettings#member_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#member_count TeamSettings#member_count}
 
 ---
 
@@ -997,7 +1041,7 @@ public readonly notify: boolean | IResolvable;
 
 whether to notify the entire team when at least one member is also assigned to the pull request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/team_settings#notify TeamSettings#notify}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_settings#notify TeamSettings#notify}
 
 ---
 

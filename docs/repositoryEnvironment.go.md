@@ -4,7 +4,7 @@
 
 ### RepositoryEnvironment <a name="RepositoryEnvironment" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment github_repository_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.Initializer"></a>
 
@@ -409,12 +409,12 @@ func PutDeploymentBranchPolicy(value RepositoryEnvironmentDeploymentBranchPolicy
 ##### `PutReviewers` <a name="PutReviewers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.putReviewers"></a>
 
 ```go
-func PutReviewers(value interface{})
+func PutReviewers(value RepositoryEnvironmentReviewers)
 ```
 
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.putReviewers.parameter.value"></a>
 
-- *Type:* interface{}
+- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
 
 ---
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the RepositoryEnvironment to i
 
 The id of the existing RepositoryEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -588,14 +588,15 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.deploymentBranchPolicy">DeploymentBranchPolicy</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference">RepositoryEnvironmentDeploymentBranchPolicyOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewers">Reviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList">RepositoryEnvironmentReviewersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.repositoryId">RepositoryId</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewers">Reviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference">RepositoryEnvironmentReviewersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypassInput">CanAdminsBypassInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.deploymentBranchPolicyInput">DeploymentBranchPolicyInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy">RepositoryEnvironmentDeploymentBranchPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.environmentInput">EnvironmentInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.preventSelfReviewInput">PreventSelfReviewInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.repositoryInput">RepositoryInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewersInput">ReviewersInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewersInput">ReviewersInput</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.waitTimerInput">WaitTimerInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.canAdminsBypass">CanAdminsBypass</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.environment">Environment</a></code> | <code>*string</code> | *No description.* |
@@ -758,13 +759,23 @@ func DeploymentBranchPolicy() RepositoryEnvironmentDeploymentBranchPolicyOutputR
 
 ---
 
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.repositoryId"></a>
+
+```go
+func RepositoryId() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `Reviewers`<sup>Required</sup> <a name="Reviewers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewers"></a>
 
 ```go
-func Reviewers() RepositoryEnvironmentReviewersList
+func Reviewers() RepositoryEnvironmentReviewersOutputReference
 ```
 
-- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList">RepositoryEnvironmentReviewersList</a>
+- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference">RepositoryEnvironmentReviewersOutputReference</a>
 
 ---
 
@@ -831,10 +842,10 @@ func RepositoryInput() *string
 ##### `ReviewersInput`<sup>Optional</sup> <a name="ReviewersInput" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.property.reviewersInput"></a>
 
 ```go
-func ReviewersInput() interface{}
+func ReviewersInput() RepositoryEnvironmentReviewers
 ```
 
-- *Type:* interface{}
+- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
 
 ---
 
@@ -949,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenviro
 	DeploymentBranchPolicy: github.com/cdktn-io/cdktn-provider-github-go/github/v16.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy,
 	Id: *string,
 	PreventSelfReview: interface{},
-	Reviewers: interface{},
+	Reviewers: github.com/cdktn-io/cdktn-provider-github-go/github/v16.repositoryEnvironment.RepositoryEnvironmentReviewers,
 	WaitTimer: *f64,
 }
 ```
@@ -969,9 +980,9 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenviro
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.repository">Repository</a></code> | <code>*string</code> | The repository of the environment. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.canAdminsBypass">CanAdminsBypass</a></code> | <code>interface{}</code> | Can Admins bypass deployment protections. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.deploymentBranchPolicy">DeploymentBranchPolicy</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy">RepositoryEnvironmentDeploymentBranchPolicy</a></code> | deployment_branch_policy block. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#id RepositoryEnvironment#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#id RepositoryEnvironment#id}. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.preventSelfReview">PreventSelfReview</a></code> | <code>interface{}</code> | Prevent users from approving workflows runs that they triggered. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.reviewers">Reviewers</a></code> | <code>interface{}</code> | reviewers block. |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.reviewers">Reviewers</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a></code> | reviewers block. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.waitTimer">WaitTimer</a></code> | <code>*f64</code> | Amount of time to delay a job after the job is initially triggered. |
 
 ---
@@ -1056,7 +1067,7 @@ Environment *string
 
 The name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#environment RepositoryEnvironment#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#environment RepositoryEnvironment#environment}
 
 ---
 
@@ -1070,7 +1081,7 @@ Repository *string
 
 The repository of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#repository RepositoryEnvironment#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#repository RepositoryEnvironment#repository}
 
 ---
 
@@ -1084,7 +1095,7 @@ CanAdminsBypass interface{}
 
 Can Admins bypass deployment protections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#can_admins_bypass RepositoryEnvironment#can_admins_bypass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#can_admins_bypass RepositoryEnvironment#can_admins_bypass}
 
 ---
 
@@ -1098,7 +1109,7 @@ DeploymentBranchPolicy RepositoryEnvironmentDeploymentBranchPolicy
 
 deployment_branch_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#deployment_branch_policy RepositoryEnvironment#deployment_branch_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#deployment_branch_policy RepositoryEnvironment#deployment_branch_policy}
 
 ---
 
@@ -1110,7 +1121,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#id RepositoryEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#id RepositoryEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1127,21 +1138,21 @@ PreventSelfReview interface{}
 
 Prevent users from approving workflows runs that they triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#prevent_self_review RepositoryEnvironment#prevent_self_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#prevent_self_review RepositoryEnvironment#prevent_self_review}
 
 ---
 
 ##### `Reviewers`<sup>Optional</sup> <a name="Reviewers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.property.reviewers"></a>
 
 ```go
-Reviewers interface{}
+Reviewers RepositoryEnvironmentReviewers
 ```
 
-- *Type:* interface{}
+- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
 
 reviewers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#reviewers RepositoryEnvironment#reviewers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#reviewers RepositoryEnvironment#reviewers}
 
 ---
 
@@ -1155,7 +1166,7 @@ WaitTimer *f64
 
 Amount of time to delay a job after the job is initially triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#wait_timer RepositoryEnvironment#wait_timer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#wait_timer RepositoryEnvironment#wait_timer}
 
 ---
 
@@ -1191,7 +1202,7 @@ CustomBranchPolicies interface{}
 
 Whether only branches that match the specified name patterns can deploy to this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#custom_branch_policies RepositoryEnvironment#custom_branch_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#custom_branch_policies RepositoryEnvironment#custom_branch_policies}
 
 ---
 
@@ -1205,7 +1216,7 @@ ProtectedBranches interface{}
 
 Whether only branches with branch protection rules can deploy to this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#protected_branches RepositoryEnvironment#protected_branches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#protected_branches RepositoryEnvironment#protected_branches}
 
 ---
 
@@ -1243,7 +1254,7 @@ Up to 6 IDs for teams who may review jobs that reference the environment.
 
 Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
 
 ---
 
@@ -1259,7 +1270,7 @@ Up to 6 IDs for users who may review jobs that reference the environment.
 
 Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#users RepositoryEnvironment#users}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#users RepositoryEnvironment#users}
 
 ---
 
@@ -1558,166 +1569,6 @@ func InternalValue() RepositoryEnvironmentDeploymentBranchPolicy
 ---
 
 
-### RepositoryEnvironmentReviewersList <a name="RepositoryEnvironmentReviewersList" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList"></a>
-
-#### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer"></a>
-
-```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
-
-repositoryenvironment.NewRepositoryEnvironmentReviewersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryEnvironmentReviewersList
-```
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
-
----
-
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformResource"></a>
-
-- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
-
-The parent resource.
-
----
-
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.terraformAttribute"></a>
-
-- *Type:* *string
-
-The attribute on the parent resource this class is referencing.
-
----
-
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.Initializer.parameter.wrapsSet"></a>
-
-- *Type:* *bool
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
-
----
-
-#### Methods <a name="Methods" id="Methods"></a>
-
-| **Name** | **Description** |
-| --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.get">Get</a></code> | *No description.* |
-
----
-
-##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.allWithMapKey"></a>
-
-```go
-func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
-```
-
-Creating an iterator for this complex list.
-
-The list will be converted into a map with the mapKeyAttributeName as the key.
-
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
-
-- *Type:* *string
-
----
-
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.computeFqn"></a>
-
-```go
-func ComputeFqn() *string
-```
-
-##### `Resolve` <a name="Resolve" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.resolve"></a>
-
-```go
-func Resolve(_context IResolveContext) interface{}
-```
-
-Produce the Token's value at resolution time.
-
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.resolve.parameter._context"></a>
-
-- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
-
----
-
-##### `ToString` <a name="ToString" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.toString"></a>
-
-```go
-func ToString() *string
-```
-
-Return a string representation of this resolvable object.
-
-Returns a reversible string representation.
-
-##### `Get` <a name="Get" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.get"></a>
-
-```go
-func Get(index *f64) RepositoryEnvironmentReviewersOutputReference
-```
-
-###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.get.parameter.index"></a>
-
-- *Type:* *f64
-
-the index of the item to return.
-
----
-
-
-#### Properties <a name="Properties" id="Properties"></a>
-
-| **Name** | **Type** | **Description** |
-| --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
-
----
-
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.creationStack"></a>
-
-```go
-func CreationStack() *[]*string
-```
-
-- *Type:* *[]*string
-
-The creation stack of this resolvable which will be appended to errors thrown during resolution.
-
-If this returns an empty array the stack will not be attached.
-
----
-
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.fqn"></a>
-
-```go
-func Fqn() *string
-```
-
-- *Type:* *string
-
----
-
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersList.property.internalValue"></a>
-
-```go
-func InternalValue() interface{}
-```
-
-- *Type:* interface{}
-
----
-
-
 ### RepositoryEnvironmentReviewersOutputReference <a name="RepositoryEnvironmentReviewersOutputReference" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer"></a>
@@ -1725,15 +1576,13 @@ func InternalValue() interface{}
 ```go
 import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
 
-repositoryenvironment.NewRepositoryEnvironmentReviewersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryEnvironmentReviewersOutputReference
+repositoryenvironment.NewRepositoryEnvironmentReviewersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryEnvironmentReviewersOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
@@ -1750,22 +1599,6 @@ The parent resource.
 - *Type:* *string
 
 The attribute on the parent resource this class is referencing.
-
----
-
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIndex"></a>
-
-- *Type:* *f64
-
-the index of this item in the list.
-
----
-
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
-
-- *Type:* *bool
-
-whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 
 ---
 
@@ -1964,7 +1797,7 @@ func ResetUsers()
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.usersInput">UsersInput</a></code> | <code>*[]*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.teams">Teams</a></code> | <code>*[]*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.users">Users</a></code> | <code>*[]*f64</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a></code> | *No description.* |
 
 ---
 
@@ -2035,10 +1868,10 @@ func Users() *[]*f64
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.property.internalValue"></a>
 
 ```go
-func InternalValue() interface{}
+func InternalValue() RepositoryEnvironmentReviewers
 ```
 
-- *Type:* interface{}
+- *Type:* <a href="#@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers">RepositoryEnvironmentReviewers</a>
 
 ---
 

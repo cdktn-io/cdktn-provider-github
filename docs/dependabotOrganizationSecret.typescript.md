@@ -4,7 +4,7 @@
 
 ### DependabotOrganizationSecret <a name="DependabotOrganizationSecret" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret github_dependabot_organization_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.Initializer"></a>
 
@@ -79,6 +79,8 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetKeyId">resetKeyId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetPlaintextValue">resetPlaintextValue</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetSelectedRepositoryIds">resetSelectedRepositoryIds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetValue">resetValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetValueEncrypted">resetValueEncrypted</a></code> | *No description.* |
 
 ---
 
@@ -421,6 +423,18 @@ public resetPlaintextValue(): void
 public resetSelectedRepositoryIds(): void
 ```
 
+##### `resetValue` <a name="resetValue" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetValue"></a>
+
+```typescript
+public resetValue(): void
+```
+
+##### `resetValueEncrypted` <a name="resetValueEncrypted" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.resetValueEncrypted"></a>
+
+```typescript
+public resetValueEncrypted(): void
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -524,7 +538,7 @@ The construct id used in the generated config for the DependabotOrganizationSecr
 
 The id of the existing DependabotOrganizationSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -563,6 +577,8 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.plaintextValueInput">plaintextValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.secretNameInput">secretNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.selectedRepositoryIdsInput">selectedRepositoryIdsInput</a></code> | <code>number[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueEncryptedInput">valueEncryptedInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.visibilityInput">visibilityInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -570,6 +586,8 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.secretName">secretName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>number[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.value">value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueEncrypted">valueEncrypted</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.visibility">visibility</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -806,6 +824,26 @@ public readonly selectedRepositoryIdsInput: number[];
 
 ---
 
+##### `valueEncryptedInput`<sup>Optional</sup> <a name="valueEncryptedInput" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueEncryptedInput"></a>
+
+```typescript
+public readonly valueEncryptedInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueInput`<sup>Optional</sup> <a name="valueInput" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueInput"></a>
+
+```typescript
+public readonly valueInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `visibilityInput`<sup>Optional</sup> <a name="visibilityInput" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.visibilityInput"></a>
 
 ```typescript
@@ -876,6 +914,26 @@ public readonly selectedRepositoryIds: number[];
 
 ---
 
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueEncrypted`<sup>Required</sup> <a name="valueEncrypted" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.valueEncrypted"></a>
+
+```typescript
+public readonly valueEncrypted: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `visibility`<sup>Required</sup> <a name="visibility" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecret.property.visibility"></a>
 
 ```typescript
@@ -930,10 +988,12 @@ const dependabotOrganizationSecretConfig: dependabotOrganizationSecret.Dependabo
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.secretName">secretName</a></code> | <code>string</code> | Name of the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.visibility">visibility</a></code> | <code>string</code> | Configures the access that repositories have to the organization secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.keyId">keyId</a></code> | <code>string</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | Plaintext value of the secret to be encrypted. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>number[]</code> | An array of repository ids that can access the organization secret. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.value">value</a></code> | <code>string</code> | Plaintext value to be encrypted. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.valueEncrypted">valueEncrypted</a></code> | <code>string</code> | Value encrypted with the GitHub public key, defined by key_id, in Base64 format. |
 
 ---
 
@@ -1017,7 +1077,7 @@ public readonly secretName: string;
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#secret_name DependabotOrganizationSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#secret_name DependabotOrganizationSecret#secret_name}
 
 ---
 
@@ -1033,7 +1093,7 @@ Configures the access that repositories have to the organization secret.
 
 Must be one of 'all', 'private' or 'selected'. 'selected_repository_ids' is required if set to 'selected'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#visibility DependabotOrganizationSecret#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#visibility DependabotOrganizationSecret#visibility}
 
 ---
 
@@ -1047,7 +1107,7 @@ public readonly encryptedValue: string;
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#encrypted_value DependabotOrganizationSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#encrypted_value DependabotOrganizationSecret#encrypted_value}
 
 ---
 
@@ -1059,7 +1119,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#id DependabotOrganizationSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1136,7 @@ public readonly keyId: string;
 
 ID of the public key used to encrypt the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#key_id DependabotOrganizationSecret#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#key_id DependabotOrganizationSecret#key_id}
 
 ---
 
@@ -1090,7 +1150,7 @@ public readonly plaintextValue: string;
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#plaintext_value DependabotOrganizationSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#plaintext_value DependabotOrganizationSecret#plaintext_value}
 
 ---
 
@@ -1104,7 +1164,35 @@ public readonly selectedRepositoryIds: number[];
 
 An array of repository ids that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/dependabot_organization_secret#selected_repository_ids DependabotOrganizationSecret#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#selected_repository_ids DependabotOrganizationSecret#selected_repository_ids}
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+Plaintext value to be encrypted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#value DependabotOrganizationSecret#value}
+
+---
+
+##### `valueEncrypted`<sup>Optional</sup> <a name="valueEncrypted" id="@cdktn/provider-github.dependabotOrganizationSecret.DependabotOrganizationSecretConfig.property.valueEncrypted"></a>
+
+```typescript
+public readonly valueEncrypted: string;
+```
+
+- *Type:* string
+
+Value encrypted with the GitHub public key, defined by key_id, in Base64 format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_organization_secret#value_encrypted DependabotOrganizationSecret#value_encrypted}
 
 ---
 

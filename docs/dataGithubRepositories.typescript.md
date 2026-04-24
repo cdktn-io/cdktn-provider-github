@@ -4,7 +4,7 @@
 
 ### DataGithubRepositories <a name="DataGithubRepositories" id="@cdktn/provider-github.dataGithubRepositories.DataGithubRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories github_repositories}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories github_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositories.DataGithubRepositories.Initializer"></a>
 
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataGithubRepositories to 
 
 The id of the existing DataGithubRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,11 +752,11 @@ const dataGithubRepositoriesConfig: dataGithubRepositories.DataGithubRepositorie
 | <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#query DataGithubRepositories#query}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#id DataGithubRepositories#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.includeRepoId">includeRepoId</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#include_repo_id DataGithubRepositories#include_repo_id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#results_per_page DataGithubRepositories#results_per_page}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.sort">sort</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#sort DataGithubRepositories#sort}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#query DataGithubRepositories#query}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#id DataGithubRepositories#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.includeRepoId">includeRepoId</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#include_repo_id DataGithubRepositories#include_repo_id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#results_per_page DataGithubRepositories#results_per_page}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositories.DataGithubRepositoriesConfig.property.sort">sort</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#sort DataGithubRepositories#sort}. |
 
 ---
 
@@ -838,7 +838,7 @@ public readonly query: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#query DataGithubRepositories#query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#query DataGithubRepositories#query}.
 
 ---
 
@@ -850,7 +850,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#id DataGithubRepositories#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#id DataGithubRepositories#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -865,7 +865,7 @@ public readonly includeRepoId: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#include_repo_id DataGithubRepositories#include_repo_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#include_repo_id DataGithubRepositories#include_repo_id}.
 
 ---
 
@@ -877,7 +877,7 @@ public readonly resultsPerPage: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#results_per_page DataGithubRepositories#results_per_page}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#results_per_page DataGithubRepositories#results_per_page}.
 
 ---
 
@@ -889,7 +889,7 @@ public readonly sort: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/repositories#sort DataGithubRepositories#sort}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repositories#sort DataGithubRepositories#sort}.
 
 ---
 

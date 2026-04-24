@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment
+// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,17 +15,17 @@ export interface RepositoryEnvironmentConfig extends cdktn.TerraformMetaArgument
   /**
   * Can Admins bypass deployment protections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#can_admins_bypass RepositoryEnvironment#can_admins_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#can_admins_bypass RepositoryEnvironment#can_admins_bypass}
   */
   readonly canAdminsBypass?: boolean | cdktn.IResolvable;
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#environment RepositoryEnvironment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#environment RepositoryEnvironment#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#id RepositoryEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#id RepositoryEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,45 +34,45 @@ export interface RepositoryEnvironmentConfig extends cdktn.TerraformMetaArgument
   /**
   * Prevent users from approving workflows runs that they triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#prevent_self_review RepositoryEnvironment#prevent_self_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#prevent_self_review RepositoryEnvironment#prevent_self_review}
   */
   readonly preventSelfReview?: boolean | cdktn.IResolvable;
   /**
   * The repository of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#repository RepositoryEnvironment#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#repository RepositoryEnvironment#repository}
   */
   readonly repository: string;
   /**
   * Amount of time to delay a job after the job is initially triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#wait_timer RepositoryEnvironment#wait_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#wait_timer RepositoryEnvironment#wait_timer}
   */
   readonly waitTimer?: number;
   /**
   * deployment_branch_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#deployment_branch_policy RepositoryEnvironment#deployment_branch_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#deployment_branch_policy RepositoryEnvironment#deployment_branch_policy}
   */
   readonly deploymentBranchPolicy?: RepositoryEnvironmentDeploymentBranchPolicy;
   /**
   * reviewers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#reviewers RepositoryEnvironment#reviewers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#reviewers RepositoryEnvironment#reviewers}
   */
-  readonly reviewers?: RepositoryEnvironmentReviewers[] | cdktn.IResolvable;
+  readonly reviewers?: RepositoryEnvironmentReviewers;
 }
 export interface RepositoryEnvironmentDeploymentBranchPolicy {
   /**
   * Whether only branches that match the specified name patterns can deploy to this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#custom_branch_policies RepositoryEnvironment#custom_branch_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#custom_branch_policies RepositoryEnvironment#custom_branch_policies}
   */
   readonly customBranchPolicies: boolean | cdktn.IResolvable;
   /**
   * Whether only branches with branch protection rules can deploy to this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#protected_branches RepositoryEnvironment#protected_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#protected_branches RepositoryEnvironment#protected_branches}
   */
   readonly protectedBranches: boolean | cdktn.IResolvable;
 }
@@ -181,18 +181,18 @@ export interface RepositoryEnvironmentReviewers {
   /**
   * Up to 6 IDs for teams who may review jobs that reference the environment. Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#teams RepositoryEnvironment#teams}
   */
   readonly teams?: number[];
   /**
   * Up to 6 IDs for users who may review jobs that reference the environment. Reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#users RepositoryEnvironment#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#users RepositoryEnvironment#users}
   */
   readonly users?: number[];
 }
 
-export function repositoryEnvironmentReviewersToTerraform(struct?: RepositoryEnvironmentReviewers | cdktn.IResolvable): any {
+export function repositoryEnvironmentReviewersToTerraform(struct?: RepositoryEnvironmentReviewersOutputReference | RepositoryEnvironmentReviewers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -204,7 +204,7 @@ export function repositoryEnvironmentReviewersToTerraform(struct?: RepositoryEnv
 }
 
 
-export function repositoryEnvironmentReviewersToHclTerraform(struct?: RepositoryEnvironmentReviewers | cdktn.IResolvable): any {
+export function repositoryEnvironmentReviewersToHclTerraform(struct?: RepositoryEnvironmentReviewersOutputReference | RepositoryEnvironmentReviewers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -230,22 +230,16 @@ export function repositoryEnvironmentReviewersToHclTerraform(struct?: Repository
 
 export class RepositoryEnvironmentReviewersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): RepositoryEnvironmentReviewers | cdktn.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
+  public get internalValue(): RepositoryEnvironmentReviewers | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._teams !== undefined) {
@@ -259,20 +253,14 @@ export class RepositoryEnvironmentReviewersOutputReference extends cdktn.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: RepositoryEnvironmentReviewers | cdktn.IResolvable | undefined) {
+  public set internalValue(value: RepositoryEnvironmentReviewers | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this.resolvableValue = undefined;
       this._teams = undefined;
       this._users = undefined;
     }
-    else if (cdktn.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
       this._teams = value.teams;
       this._users = value.users;
     }
@@ -311,28 +299,8 @@ export class RepositoryEnvironmentReviewersOutputReference extends cdktn.Complex
   }
 }
 
-export class RepositoryEnvironmentReviewersList extends cdktn.ComplexList {
-  public internalValue? : RepositoryEnvironmentReviewers[] | cdktn.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): RepositoryEnvironmentReviewersOutputReference {
-    return new RepositoryEnvironmentReviewersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment github_repository_environment}
 */
 export class RepositoryEnvironment extends cdktn.TerraformResource {
 
@@ -348,7 +316,7 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RepositoryEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryEnvironment to import
-  * @param importFromId The id of the existing RepositoryEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -360,7 +328,7 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_environment github_repository_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_environment github_repository_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,7 +339,7 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'github_repository_environment',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.1',
+        providerVersion: '6.12.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
@@ -470,6 +438,11 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
     return this._repository;
   }
 
+  // repository_id - computed: true, optional: false, required: false
+  public get repositoryId() {
+    return this.getNumberAttribute('repository_id');
+  }
+
   // wait_timer - computed: false, optional: true, required: false
   private _waitTimer?: number; 
   public get waitTimer() {
@@ -503,11 +476,11 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
   }
 
   // reviewers - computed: false, optional: true, required: false
-  private _reviewers = new RepositoryEnvironmentReviewersList(this, "reviewers", false);
+  private _reviewers = new RepositoryEnvironmentReviewersOutputReference(this, "reviewers");
   public get reviewers() {
     return this._reviewers;
   }
-  public putReviewers(value: RepositoryEnvironmentReviewers[] | cdktn.IResolvable) {
+  public putReviewers(value: RepositoryEnvironmentReviewers) {
     this._reviewers.internalValue = value;
   }
   public resetReviewers() {
@@ -531,7 +504,7 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
       repository: cdktn.stringToTerraform(this._repository),
       wait_timer: cdktn.numberToTerraform(this._waitTimer),
       deployment_branch_policy: repositoryEnvironmentDeploymentBranchPolicyToTerraform(this._deploymentBranchPolicy.internalValue),
-      reviewers: cdktn.listMapper(repositoryEnvironmentReviewersToTerraform, true)(this._reviewers.internalValue),
+      reviewers: repositoryEnvironmentReviewersToTerraform(this._reviewers.internalValue),
     };
   }
 
@@ -580,7 +553,7 @@ export class RepositoryEnvironment extends cdktn.TerraformResource {
         storageClassType: "RepositoryEnvironmentDeploymentBranchPolicyList",
       },
       reviewers: {
-        value: cdktn.listMapperHcl(repositoryEnvironmentReviewersToHclTerraform, true)(this._reviewers.internalValue),
+        value: repositoryEnvironmentReviewersToHclTerraform(this._reviewers.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "RepositoryEnvironmentReviewersList",

@@ -4,7 +4,7 @@
 
 ### RepositoryPullRequest <a name="RepositoryPullRequest" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request github_repository_pull_request}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request github_repository_pull_request}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequest.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the RepositoryPullRequest to i
 
 The id of the existing RepositoryPullRequest that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ const repositoryPullRequestConfig: repositoryPullRequest.RepositoryPullRequestCo
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.headRef">headRef</a></code> | <code>string</code> | Name of the branch serving as the head of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.title">title</a></code> | <code>string</code> | The title of the Pull Request. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.body">body</a></code> | <code>string</code> | Body of the Pull Request. |
-| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#id RepositoryPullRequest#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#id RepositoryPullRequest#id}. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.maintainerCanModify">maintainerCanModify</a></code> | <code>boolean \| cdktn.IResolvable</code> | Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'. |
 | <code><a href="#@cdktn/provider-github.repositoryPullRequest.RepositoryPullRequestConfig.property.owner">owner</a></code> | <code>string</code> | Owner of the repository. If not provided, the provider's default owner is used. |
 
@@ -1099,7 +1099,7 @@ public readonly baseRef: string;
 
 Name of the branch serving as the base of the Pull Request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#base_ref RepositoryPullRequest#base_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#base_ref RepositoryPullRequest#base_ref}
 
 ---
 
@@ -1113,7 +1113,7 @@ public readonly baseRepository: string;
 
 Name of the base repository to retrieve the Pull Requests from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#base_repository RepositoryPullRequest#base_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#base_repository RepositoryPullRequest#base_repository}
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly headRef: string;
 
 Name of the branch serving as the head of the Pull Request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#head_ref RepositoryPullRequest#head_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#head_ref RepositoryPullRequest#head_ref}
 
 ---
 
@@ -1141,7 +1141,7 @@ public readonly title: string;
 
 The title of the Pull Request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#title RepositoryPullRequest#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#title RepositoryPullRequest#title}
 
 ---
 
@@ -1155,7 +1155,7 @@ public readonly body: string;
 
 Body of the Pull Request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#body RepositoryPullRequest#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#body RepositoryPullRequest#body}
 
 ---
 
@@ -1167,7 +1167,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#id RepositoryPullRequest#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#id RepositoryPullRequest#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1184,7 +1184,7 @@ public readonly maintainerCanModify: boolean | IResolvable;
 
 Controls whether the base repository maintainers can modify the Pull Request. Default: 'false'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#maintainer_can_modify RepositoryPullRequest#maintainer_can_modify}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#maintainer_can_modify RepositoryPullRequest#maintainer_can_modify}
 
 ---
 
@@ -1198,7 +1198,7 @@ public readonly owner: string;
 
 Owner of the repository. If not provided, the provider's default owner is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/repository_pull_request#owner RepositoryPullRequest#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pull_request#owner RepositoryPullRequest#owner}
 
 ---
 

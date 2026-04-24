@@ -4,7 +4,7 @@
 
 ### DataGithubRef <a name="DataGithubRef" id="@cdktn/provider-github.dataGithubRef.DataGithubRef"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref github_ref}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref github_ref}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRef.DataGithubRef.Initializer"></a>
 
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGithubRef to import.
 
 The id of the existing DataGithubRef that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -717,10 +717,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubref"
 | <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.ref">Ref</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#ref DataGithubRef#ref}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.repository">Repository</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#repository DataGithubRef#repository}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#id DataGithubRef#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.owner">Owner</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#owner DataGithubRef#owner}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.ref">Ref</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#ref DataGithubRef#ref}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.repository">Repository</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#repository DataGithubRef#repository}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#id DataGithubRef#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRef.DataGithubRefConfig.property.owner">Owner</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#owner DataGithubRef#owner}. |
 
 ---
 
@@ -802,7 +802,7 @@ Ref *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#ref DataGithubRef#ref}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#ref DataGithubRef#ref}.
 
 ---
 
@@ -814,7 +814,7 @@ Repository *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#repository DataGithubRef#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#repository DataGithubRef#repository}.
 
 ---
 
@@ -826,7 +826,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#id DataGithubRef#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#id DataGithubRef#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -841,7 +841,7 @@ Owner *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ref#owner DataGithubRef#owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ref#owner DataGithubRef#owner}.
 
 ---
 

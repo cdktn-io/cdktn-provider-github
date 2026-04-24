@@ -4,7 +4,7 @@
 
 ### ActionsOrganizationWorkflowPermissions <a name="ActionsOrganizationWorkflowPermissions" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions github_actions_organization_workflow_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the ActionsOrganizationWorkflo
 
 The id of the existing ActionsOrganizationWorkflowPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -817,7 +817,7 @@ const actionsOrganizationWorkflowPermissionsConfig: actionsOrganizationWorkflowP
 | <code><a href="#@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.property.organizationSlug">organizationSlug</a></code> | <code>string</code> | The slug of the Organization. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.property.canApprovePullRequestReviews">canApprovePullRequestReviews</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether GitHub Actions can approve pull request reviews in any repository in the organization. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.property.defaultWorkflowPermissions">defaultWorkflowPermissions</a></code> | <code>string</code> | The default workflow permissions granted to the GITHUB_TOKEN when running workflows in any repository in the organization. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#id ActionsOrganizationWorkflowPermissions#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#id ActionsOrganizationWorkflowPermissions#id}. |
 
 ---
 
@@ -901,7 +901,7 @@ public readonly organizationSlug: string;
 
 The slug of the Organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#organization_slug ActionsOrganizationWorkflowPermissions#organization_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#organization_slug ActionsOrganizationWorkflowPermissions#organization_slug}
 
 ---
 
@@ -915,7 +915,7 @@ public readonly canApprovePullRequestReviews: boolean | IResolvable;
 
 Whether GitHub Actions can approve pull request reviews in any repository in the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#can_approve_pull_request_reviews ActionsOrganizationWorkflowPermissions#can_approve_pull_request_reviews}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#can_approve_pull_request_reviews ActionsOrganizationWorkflowPermissions#can_approve_pull_request_reviews}
 
 ---
 
@@ -931,7 +931,7 @@ The default workflow permissions granted to the GITHUB_TOKEN when running workfl
 
 Can be 'read' or 'write'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#default_workflow_permissions ActionsOrganizationWorkflowPermissions#default_workflow_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#default_workflow_permissions ActionsOrganizationWorkflowPermissions#default_workflow_permissions}
 
 ---
 
@@ -943,7 +943,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_organization_workflow_permissions#id ActionsOrganizationWorkflowPermissions#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_organization_workflow_permissions#id ActionsOrganizationWorkflowPermissions#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

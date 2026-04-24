@@ -40,6 +40,7 @@ Object.defineProperty(exports, 'emuGroupMapping', { get: function () { return re
 Object.defineProperty(exports, 'enterpriseActionsPermissions', { get: function () { return require('./enterprise-actions-permissions'); } });
 Object.defineProperty(exports, 'enterpriseActionsRunnerGroup', { get: function () { return require('./enterprise-actions-runner-group'); } });
 Object.defineProperty(exports, 'enterpriseActionsWorkflowPermissions', { get: function () { return require('./enterprise-actions-workflow-permissions'); } });
+Object.defineProperty(exports, 'enterpriseIpAllowListEntry', { get: function () { return require('./enterprise-ip-allow-list-entry'); } });
 Object.defineProperty(exports, 'enterpriseOrganization', { get: function () { return require('./enterprise-organization'); } });
 Object.defineProperty(exports, 'enterpriseSecurityAnalysisSettings', { get: function () { return require('./enterprise-security-analysis-settings'); } });
 Object.defineProperty(exports, 'issue', { get: function () { return require('./issue'); } });
@@ -74,10 +75,12 @@ Object.defineProperty(exports, 'repositoryEnvironment', { get: function () { ret
 Object.defineProperty(exports, 'repositoryEnvironmentDeploymentPolicy', { get: function () { return require('./repository-environment-deployment-policy'); } });
 Object.defineProperty(exports, 'repositoryFile', { get: function () { return require('./repository-file'); } });
 Object.defineProperty(exports, 'repositoryMilestone', { get: function () { return require('./repository-milestone'); } });
+Object.defineProperty(exports, 'repositoryPages', { get: function () { return require('./repository-pages'); } });
 Object.defineProperty(exports, 'repositoryProject', { get: function () { return require('./repository-project'); } });
 Object.defineProperty(exports, 'repositoryPullRequest', { get: function () { return require('./repository-pull-request'); } });
 Object.defineProperty(exports, 'repositoryRuleset', { get: function () { return require('./repository-ruleset'); } });
 Object.defineProperty(exports, 'repositoryTopics', { get: function () { return require('./repository-topics'); } });
+Object.defineProperty(exports, 'repositoryVulnerabilityAlerts', { get: function () { return require('./repository-vulnerability-alerts'); } });
 Object.defineProperty(exports, 'repositoryWebhook', { get: function () { return require('./repository-webhook'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'teamMembers', { get: function () { return require('./team-members'); } });
@@ -123,6 +126,7 @@ Object.defineProperty(exports, 'dataGithubIpRanges', { get: function () { return
 Object.defineProperty(exports, 'dataGithubIssueLabels', { get: function () { return require('./data-github-issue-labels'); } });
 Object.defineProperty(exports, 'dataGithubMembership', { get: function () { return require('./data-github-membership'); } });
 Object.defineProperty(exports, 'dataGithubOrganization', { get: function () { return require('./data-github-organization'); } });
+Object.defineProperty(exports, 'dataGithubOrganizationAppInstallations', { get: function () { return require('./data-github-organization-app-installations'); } });
 Object.defineProperty(exports, 'dataGithubOrganizationCustomProperties', { get: function () { return require('./data-github-organization-custom-properties'); } });
 Object.defineProperty(exports, 'dataGithubOrganizationCustomRole', { get: function () { return require('./data-github-organization-custom-role'); } });
 Object.defineProperty(exports, 'dataGithubOrganizationExternalIdentities', { get: function () { return require('./data-github-organization-external-identities'); } });
@@ -151,6 +155,7 @@ Object.defineProperty(exports, 'dataGithubRepositoryEnvironmentDeploymentPolicie
 Object.defineProperty(exports, 'dataGithubRepositoryEnvironments', { get: function () { return require('./data-github-repository-environments'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryFile', { get: function () { return require('./data-github-repository-file'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryMilestone', { get: function () { return require('./data-github-repository-milestone'); } });
+Object.defineProperty(exports, 'dataGithubRepositoryPages', { get: function () { return require('./data-github-repository-pages'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryPullRequest', { get: function () { return require('./data-github-repository-pull-request'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryPullRequests', { get: function () { return require('./data-github-repository-pull-requests'); } });
 Object.defineProperty(exports, 'dataGithubRepositoryTeams', { get: function () { return require('./data-github-repository-teams'); } });

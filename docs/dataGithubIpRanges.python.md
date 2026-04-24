@@ -4,7 +4,7 @@
 
 ### DataGithubIpRanges <a name="DataGithubIpRanges" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges github_ip_ranges}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges github_ip_ranges}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer"></a>
 
@@ -36,7 +36,7 @@ dataGithubIpRanges.DataGithubIpRanges(
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -497,7 +497,7 @@ The construct id used in the generated config for the DataGithubIpRanges to impo
 
 The id of the existing DataGithubIpRanges that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -528,6 +528,9 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actions">actions</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv4">actions_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsIpv6">actions_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacos">actions_macos</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacosIpv4">actions_macos_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacosIpv6">actions_macos_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api">api</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv4">api_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.apiIpv6">api_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -535,6 +538,9 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv4">dependabot_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.dependabotIpv6">dependabot_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.git">git</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporter">github_enterprise_importer</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporterIpv4">github_enterprise_importer_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporterIpv6">github_enterprise_importer_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv4">git_ipv4</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.gitIpv6">git_ipv6</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.hooks">hooks</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -709,6 +715,36 @@ actions_ipv6: typing.List[str]
 
 ---
 
+##### `actions_macos`<sup>Required</sup> <a name="actions_macos" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacos"></a>
+
+```python
+actions_macos: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `actions_macos_ipv4`<sup>Required</sup> <a name="actions_macos_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacosIpv4"></a>
+
+```python
+actions_macos_ipv4: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `actions_macos_ipv6`<sup>Required</sup> <a name="actions_macos_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.actionsMacosIpv6"></a>
+
+```python
+actions_macos_ipv6: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `api`<sup>Required</sup> <a name="api" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.api"></a>
 
 ```python
@@ -773,6 +809,36 @@ dependabot_ipv6: typing.List[str]
 
 ```python
 git: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `github_enterprise_importer`<sup>Required</sup> <a name="github_enterprise_importer" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporter"></a>
+
+```python
+github_enterprise_importer: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `github_enterprise_importer_ipv4`<sup>Required</sup> <a name="github_enterprise_importer_ipv4" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporterIpv4"></a>
+
+```python
+github_enterprise_importer_ipv4: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `github_enterprise_importer_ipv6`<sup>Required</sup> <a name="github_enterprise_importer_ipv6" id="@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRanges.property.githubEnterpriseImporterIpv6"></a>
+
+```python
+github_enterprise_importer_ipv6: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
@@ -1019,7 +1085,7 @@ dataGithubIpRanges.DataGithubIpRangesConfig(
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIpRanges.DataGithubIpRangesConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}. |
 
 ---
 
@@ -1101,7 +1167,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/ip_ranges#id DataGithubIpRanges#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

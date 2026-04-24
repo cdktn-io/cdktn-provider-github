@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets
+// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,22 +13,22 @@ import * as cdktn from 'cdktn';
 
 export interface DataGithubActionsEnvironmentSecretsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets#environment DataGithubActionsEnvironmentSecrets#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets#environment DataGithubActionsEnvironmentSecrets#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets#full_name DataGithubActionsEnvironmentSecrets#full_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets#full_name DataGithubActionsEnvironmentSecrets#full_name}
   */
   readonly fullName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets#id DataGithubActionsEnvironmentSecrets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets#id DataGithubActionsEnvironmentSecrets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets#name DataGithubActionsEnvironmentSecrets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets#name DataGithubActionsEnvironmentSecrets#name}
   */
   readonly name?: string;
 }
@@ -106,7 +106,7 @@ export class DataGithubActionsEnvironmentSecretsSecretsList extends cdktn.Comple
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -119,7 +119,7 @@ export class DataGithubActionsEnvironmentSecretsSecretsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets github_actions_environment_secrets}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets github_actions_environment_secrets}
 */
 export class DataGithubActionsEnvironmentSecrets extends cdktn.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataGithubActionsEnvironmentSecrets extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataGithubActionsEnvironmentSecrets resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubActionsEnvironmentSecrets to import
-  * @param importFromId The id of the existing DataGithubActionsEnvironmentSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGithubActionsEnvironmentSecrets that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubActionsEnvironmentSecrets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataGithubActionsEnvironmentSecrets extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_environment_secrets github_actions_environment_secrets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,7 +158,7 @@ export class DataGithubActionsEnvironmentSecrets extends cdktn.TerraformDataSour
       terraformResourceType: 'github_actions_environment_secrets',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.1',
+        providerVersion: '6.12.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

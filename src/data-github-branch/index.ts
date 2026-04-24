@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch
+// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,24 +13,24 @@ import * as cdktn from 'cdktn';
 
 export interface DataGithubBranchConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch#branch DataGithubBranch#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch#branch DataGithubBranch#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch#id DataGithubBranch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch#id DataGithubBranch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch#repository DataGithubBranch#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch#repository DataGithubBranch#repository}
   */
   readonly repository: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch github_branch}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch github_branch}
 */
 export class DataGithubBranch extends cdktn.TerraformDataSource {
 
@@ -46,7 +46,7 @@ export class DataGithubBranch extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataGithubBranch resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubBranch to import
-  * @param importFromId The id of the existing DataGithubBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGithubBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DataGithubBranch extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/branch github_branch} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/branch github_branch} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class DataGithubBranch extends cdktn.TerraformDataSource {
       terraformResourceType: 'github_branch',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.1',
+        providerVersion: '6.12.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

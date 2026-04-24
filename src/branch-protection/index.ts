@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection
+// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface BranchProtectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Setting this to 'true' to allow the branch to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#allows_deletions BranchProtection#allows_deletions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#allows_deletions BranchProtection#allows_deletions}
   */
   readonly allowsDeletions?: boolean | cdktn.IResolvable;
   /**
   * Setting this to 'true' to allow force pushes on the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#allows_force_pushes BranchProtection#allows_force_pushes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#allows_force_pushes BranchProtection#allows_force_pushes}
   */
   readonly allowsForcePushes?: boolean | cdktn.IResolvable;
   /**
   * Setting this to 'true' enforces status checks for repository administrators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#enforce_admins BranchProtection#enforce_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#enforce_admins BranchProtection#enforce_admins}
   */
   readonly enforceAdmins?: boolean | cdktn.IResolvable;
   /**
   * The list of actor Names/IDs that are allowed to bypass force push restrictions. Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#force_push_bypassers BranchProtection#force_push_bypassers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#force_push_bypassers BranchProtection#force_push_bypassers}
   */
   readonly forcePushBypassers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#id BranchProtection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#id BranchProtection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,55 +46,55 @@ export interface BranchProtectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Setting this to 'true' will make the branch read-only and preventing any pushes to it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#lock_branch BranchProtection#lock_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#lock_branch BranchProtection#lock_branch}
   */
   readonly lockBranch?: boolean | cdktn.IResolvable;
   /**
   * Identifies the protection rule pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#pattern BranchProtection#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#pattern BranchProtection#pattern}
   */
   readonly pattern: string;
   /**
   * The name or node ID of the repository associated with this branch protection rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#repository_id BranchProtection#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#repository_id BranchProtection#repository_id}
   */
   readonly repositoryId: string;
   /**
   * Setting this to 'true' requires all conversations on code must be resolved before a pull request can be merged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#require_conversation_resolution BranchProtection#require_conversation_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#require_conversation_resolution BranchProtection#require_conversation_resolution}
   */
   readonly requireConversationResolution?: boolean | cdktn.IResolvable;
   /**
   * Setting this to 'true' requires all commits to be signed with GPG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#require_signed_commits BranchProtection#require_signed_commits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#require_signed_commits BranchProtection#require_signed_commits}
   */
   readonly requireSignedCommits?: boolean | cdktn.IResolvable;
   /**
   * Setting this to 'true' enforces a linear commit Git history, which prevents anyone from pushing merge commits to a branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#required_linear_history BranchProtection#required_linear_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#required_linear_history BranchProtection#required_linear_history}
   */
   readonly requiredLinearHistory?: boolean | cdktn.IResolvable;
   /**
   * required_pull_request_reviews block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#required_pull_request_reviews BranchProtection#required_pull_request_reviews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#required_pull_request_reviews BranchProtection#required_pull_request_reviews}
   */
   readonly requiredPullRequestReviews?: BranchProtectionRequiredPullRequestReviews[] | cdktn.IResolvable;
   /**
   * required_status_checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#required_status_checks BranchProtection#required_status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#required_status_checks BranchProtection#required_status_checks}
   */
   readonly requiredStatusChecks?: BranchProtectionRequiredStatusChecks[] | cdktn.IResolvable;
   /**
   * restrict_pushes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#restrict_pushes BranchProtection#restrict_pushes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#restrict_pushes BranchProtection#restrict_pushes}
   */
   readonly restrictPushes?: BranchProtectionRestrictPushes[] | cdktn.IResolvable;
 }
@@ -102,43 +102,43 @@ export interface BranchProtectionRequiredPullRequestReviews {
   /**
   * Dismiss approved reviews automatically when a new commit is pushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#dismiss_stale_reviews BranchProtection#dismiss_stale_reviews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#dismiss_stale_reviews BranchProtection#dismiss_stale_reviews}
   */
   readonly dismissStaleReviews?: boolean | cdktn.IResolvable;
   /**
   * The list of actor Names/IDs with dismissal access. If not empty, 'restrict_dismissals' is ignored. Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#dismissal_restrictions BranchProtection#dismissal_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#dismissal_restrictions BranchProtection#dismissal_restrictions}
   */
   readonly dismissalRestrictions?: string[];
   /**
   * The list of actor Names/IDs that are allowed to bypass pull request requirements. Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#pull_request_bypassers BranchProtection#pull_request_bypassers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#pull_request_bypassers BranchProtection#pull_request_bypassers}
   */
   readonly pullRequestBypassers?: string[];
   /**
   * Require an approved review in pull requests including files with a designated code owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#require_code_owner_reviews BranchProtection#require_code_owner_reviews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#require_code_owner_reviews BranchProtection#require_code_owner_reviews}
   */
   readonly requireCodeOwnerReviews?: boolean | cdktn.IResolvable;
   /**
   * Require that The most recent push must be approved by someone other than the last pusher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#require_last_push_approval BranchProtection#require_last_push_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#require_last_push_approval BranchProtection#require_last_push_approval}
   */
   readonly requireLastPushApproval?: boolean | cdktn.IResolvable;
   /**
   * Require 'x' number of approvals to satisfy branch protection requirements. If this is specified it must be a number between 0-6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#required_approving_review_count BranchProtection#required_approving_review_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#required_approving_review_count BranchProtection#required_approving_review_count}
   */
   readonly requiredApprovingReviewCount?: number;
   /**
   * Restrict pull request review dismissals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#restrict_dismissals BranchProtection#restrict_dismissals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#restrict_dismissals BranchProtection#restrict_dismissals}
   */
   readonly restrictDismissals?: boolean | cdktn.IResolvable;
 }
@@ -415,7 +415,7 @@ export class BranchProtectionRequiredPullRequestReviewsList extends cdktn.Comple
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -430,13 +430,13 @@ export interface BranchProtectionRequiredStatusChecks {
   /**
   * The list of status checks to require in order to merge into this branch. No status checks are required by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#contexts BranchProtection#contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#contexts BranchProtection#contexts}
   */
   readonly contexts?: string[];
   /**
   * Require branches to be up to date before merging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#strict BranchProtection#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#strict BranchProtection#strict}
   */
   readonly strict?: boolean | cdktn.IResolvable;
 }
@@ -568,7 +568,7 @@ export class BranchProtectionRequiredStatusChecksList extends cdktn.ComplexList 
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -583,13 +583,13 @@ export interface BranchProtectionRestrictPushes {
   /**
   * Restrict pushes that create matching branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#blocks_creations BranchProtection#blocks_creations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#blocks_creations BranchProtection#blocks_creations}
   */
   readonly blocksCreations?: boolean | cdktn.IResolvable;
   /**
   * The list of actor Names/IDs that may push to the branch. Actor names must either begin with a '/' for users or the organization name followed by a '/' for teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#push_allowances BranchProtection#push_allowances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#push_allowances BranchProtection#push_allowances}
   */
   readonly pushAllowances?: string[];
 }
@@ -721,7 +721,7 @@ export class BranchProtectionRestrictPushesList extends cdktn.ComplexList {
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -734,7 +734,7 @@ export class BranchProtectionRestrictPushesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection github_branch_protection}
 */
 export class BranchProtection extends cdktn.TerraformResource {
 
@@ -750,7 +750,7 @@ export class BranchProtection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BranchProtection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchProtection to import
-  * @param importFromId The id of the existing BranchProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -762,7 +762,7 @@ export class BranchProtection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/branch_protection github_branch_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/branch_protection github_branch_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -773,7 +773,7 @@ export class BranchProtection extends cdktn.TerraformResource {
       terraformResourceType: 'github_branch_protection',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.11.1',
+        providerVersion: '6.12.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
