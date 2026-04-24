@@ -4,7 +4,7 @@
 
 ### DataGithubActionsOrganizationRegistrationToken <a name="DataGithubActionsOrganizationRegistrationToken" id="@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_registration_token github_actions_organization_registration_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationToken.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubActionsOrganizat
 
 The id of the existing DataGithubActionsOrganizationRegistrationToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_registration_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_registration_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -641,7 +641,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubaction
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationTokenConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationTokenConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationTokenConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationTokenConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_registration_token#id DataGithubActionsOrganizationRegistrationToken#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationRegistrationToken.DataGithubActionsOrganizationRegistrationTokenConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_registration_token#id DataGithubActionsOrganizationRegistrationToken#id}. |
 
 ---
 
@@ -723,7 +723,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_organization_registration_token#id DataGithubActionsOrganizationRegistrationToken#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_registration_token#id DataGithubActionsOrganizationRegistrationToken#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### DataGithubTree <a name="DataGithubTree" id="@cdktn/provider-github.dataGithubTree.DataGithubTree"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree github_tree}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree github_tree}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubTree.DataGithubTree.Initializer"></a>
 
@@ -401,7 +401,7 @@ The construct id used in the generated config for the DataGithubTree to import.
 
 The id of the existing DataGithubTree that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -694,10 +694,10 @@ const dataGithubTreeConfig: dataGithubTree.DataGithubTreeConfig = { ... }
 | <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#repository DataGithubTree#repository}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.treeSha">treeSha</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#id DataGithubTree#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.recursive">recursive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#recursive DataGithubTree#recursive}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#repository DataGithubTree#repository}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.treeSha">treeSha</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#id DataGithubTree#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubTree.DataGithubTreeConfig.property.recursive">recursive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#recursive DataGithubTree#recursive}. |
 
 ---
 
@@ -779,7 +779,7 @@ public readonly repository: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#repository DataGithubTree#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#repository DataGithubTree#repository}.
 
 ---
 
@@ -791,7 +791,7 @@ public readonly treeSha: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}.
 
 ---
 
@@ -803,7 +803,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#id DataGithubTree#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#id DataGithubTree#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ public readonly recursive: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/tree#recursive DataGithubTree#recursive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#recursive DataGithubTree#recursive}.
 
 ---
 

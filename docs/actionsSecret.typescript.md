@@ -4,7 +4,7 @@
 
 ### ActionsSecret <a name="ActionsSecret" id="@cdktn/provider-github.actionsSecret.ActionsSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret github_actions_secret}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret github_actions_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsSecret.ActionsSecret.Initializer"></a>
 
@@ -79,6 +79,8 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.resetKeyId">resetKeyId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.resetPlaintextValue">resetPlaintextValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.resetValue">resetValue</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.resetValueEncrypted">resetValueEncrypted</a></code> | *No description.* |
 
 ---
 
@@ -421,6 +423,18 @@ public resetKeyId(): void
 public resetPlaintextValue(): void
 ```
 
+##### `resetValue` <a name="resetValue" id="@cdktn/provider-github.actionsSecret.ActionsSecret.resetValue"></a>
+
+```typescript
+public resetValue(): void
+```
+
+##### `resetValueEncrypted` <a name="resetValueEncrypted" id="@cdktn/provider-github.actionsSecret.ActionsSecret.resetValueEncrypted"></a>
+
+```typescript
+public resetValueEncrypted(): void
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -524,7 +538,7 @@ The construct id used in the generated config for the ActionsSecret to import.
 
 The id of the existing ActionsSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -565,6 +579,8 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.plaintextValueInput">plaintextValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.repositoryInput">repositoryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.secretNameInput">secretNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueEncryptedInput">valueEncryptedInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.destroyOnDrift">destroyOnDrift</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -572,6 +588,8 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.repository">repository</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.secretName">secretName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.value">value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueEncrypted">valueEncrypted</a></code> | <code>string</code> | *No description.* |
 
 ---
 
@@ -827,6 +845,26 @@ public readonly secretNameInput: string;
 
 ---
 
+##### `valueEncryptedInput`<sup>Optional</sup> <a name="valueEncryptedInput" id="@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueEncryptedInput"></a>
+
+```typescript
+public readonly valueEncryptedInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueInput`<sup>Optional</sup> <a name="valueInput" id="@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueInput"></a>
+
+```typescript
+public readonly valueInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `destroyOnDrift`<sup>Required</sup> <a name="destroyOnDrift" id="@cdktn/provider-github.actionsSecret.ActionsSecret.property.destroyOnDrift"></a>
 
 ```typescript
@@ -897,6 +935,26 @@ public readonly secretName: string;
 
 ---
 
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.actionsSecret.ActionsSecret.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueEncrypted`<sup>Required</sup> <a name="valueEncrypted" id="@cdktn/provider-github.actionsSecret.ActionsSecret.property.valueEncrypted"></a>
+
+```typescript
+public readonly valueEncrypted: string;
+```
+
+- *Type:* string
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -940,11 +998,13 @@ const actionsSecretConfig: actionsSecret.ActionsSecretConfig = { ... }
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.repository">repository</a></code> | <code>string</code> | Name of the repository. |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.secretName">secretName</a></code> | <code>string</code> | Name of the secret. |
-| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.destroyOnDrift">destroyOnDrift</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#destroy_on_drift ActionsSecret#destroy_on_drift}. |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.destroyOnDrift">destroyOnDrift</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#destroy_on_drift ActionsSecret#destroy_on_drift}. |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.encryptedValue">encryptedValue</a></code> | <code>string</code> | Encrypted value of the secret using the GitHub public key in Base64 format. |
-| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#id ActionsSecret#id}. |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#id ActionsSecret#id}. |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.keyId">keyId</a></code> | <code>string</code> | ID of the public key used to encrypt the secret. |
 | <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.plaintextValue">plaintextValue</a></code> | <code>string</code> | Plaintext value of the secret to be encrypted. |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.value">value</a></code> | <code>string</code> | Plaintext value to be encrypted. |
+| <code><a href="#@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.valueEncrypted">valueEncrypted</a></code> | <code>string</code> | Value encrypted with the GitHub public key, defined by key_id, in Base64 format. |
 
 ---
 
@@ -1028,7 +1088,7 @@ public readonly repository: string;
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#repository ActionsSecret#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#repository ActionsSecret#repository}
 
 ---
 
@@ -1042,7 +1102,7 @@ public readonly secretName: string;
 
 Name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#secret_name ActionsSecret#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#secret_name ActionsSecret#secret_name}
 
 ---
 
@@ -1054,7 +1114,7 @@ public readonly destroyOnDrift: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#destroy_on_drift ActionsSecret#destroy_on_drift}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#destroy_on_drift ActionsSecret#destroy_on_drift}.
 
 ---
 
@@ -1068,7 +1128,7 @@ public readonly encryptedValue: string;
 
 Encrypted value of the secret using the GitHub public key in Base64 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#encrypted_value ActionsSecret#encrypted_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#encrypted_value ActionsSecret#encrypted_value}
 
 ---
 
@@ -1080,7 +1140,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#id ActionsSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#id ActionsSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1097,7 +1157,7 @@ public readonly keyId: string;
 
 ID of the public key used to encrypt the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#key_id ActionsSecret#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#key_id ActionsSecret#key_id}
 
 ---
 
@@ -1111,7 +1171,35 @@ public readonly plaintextValue: string;
 
 Plaintext value of the secret to be encrypted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/actions_secret#plaintext_value ActionsSecret#plaintext_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#plaintext_value ActionsSecret#plaintext_value}
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+Plaintext value to be encrypted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#value ActionsSecret#value}
+
+---
+
+##### `valueEncrypted`<sup>Optional</sup> <a name="valueEncrypted" id="@cdktn/provider-github.actionsSecret.ActionsSecretConfig.property.valueEncrypted"></a>
+
+```typescript
+public readonly valueEncrypted: string;
+```
+
+- *Type:* string
+
+Value encrypted with the GitHub public key, defined by key_id, in Base64 format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/actions_secret#value_encrypted ActionsSecret#value_encrypted}
 
 ---
 

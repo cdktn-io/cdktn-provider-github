@@ -4,7 +4,7 @@
 
 ### DataGithubActionsRegistrationToken <a name="DataGithubActionsRegistrationToken" id="@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token github_actions_registration_token}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token github_actions_registration_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationToken.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubActionsRegistrat
 
 The id of the existing DataGithubActionsRegistrationToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -654,8 +654,8 @@ const dataGithubActionsRegistrationTokenConfig: dataGithubActionsRegistrationTok
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#repository DataGithubActionsRegistrationToken#repository}. |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#id DataGithubActionsRegistrationToken#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.repository">repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token#repository DataGithubActionsRegistrationToken#repository}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsRegistrationToken.DataGithubActionsRegistrationTokenConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token#id DataGithubActionsRegistrationToken#id}. |
 
 ---
 
@@ -737,7 +737,7 @@ public readonly repository: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#repository DataGithubActionsRegistrationToken#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token#repository DataGithubActionsRegistrationToken#repository}.
 
 ---
 
@@ -749,7 +749,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/actions_registration_token#id DataGithubActionsRegistrationToken#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_registration_token#id DataGithubActionsRegistrationToken#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

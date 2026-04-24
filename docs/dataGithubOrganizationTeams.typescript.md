@@ -4,7 +4,7 @@
 
 ### DataGithubOrganizationTeams <a name="DataGithubOrganizationTeams" id="@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams github_organization_teams}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams github_organization_teams}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeams.Initializer"></a>
 
@@ -415,7 +415,7 @@ The construct id used in the generated config for the DataGithubOrganizationTeam
 
 The id of the existing DataGithubOrganizationTeams that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,10 +708,10 @@ const dataGithubOrganizationTeamsConfig: dataGithubOrganizationTeams.DataGithubO
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#id DataGithubOrganizationTeams#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#results_per_page DataGithubOrganizationTeams#results_per_page}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.rootTeamsOnly">rootTeamsOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#root_teams_only DataGithubOrganizationTeams#root_teams_only}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#summary_only DataGithubOrganizationTeams#summary_only}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#id DataGithubOrganizationTeams#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.resultsPerPage">resultsPerPage</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#results_per_page DataGithubOrganizationTeams#results_per_page}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.rootTeamsOnly">rootTeamsOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#root_teams_only DataGithubOrganizationTeams#root_teams_only}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationTeams.DataGithubOrganizationTeamsConfig.property.summaryOnly">summaryOnly</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#summary_only DataGithubOrganizationTeams#summary_only}. |
 
 ---
 
@@ -793,7 +793,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#id DataGithubOrganizationTeams#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#id DataGithubOrganizationTeams#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -808,7 +808,7 @@ public readonly resultsPerPage: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#results_per_page DataGithubOrganizationTeams#results_per_page}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#results_per_page DataGithubOrganizationTeams#results_per_page}.
 
 ---
 
@@ -820,7 +820,7 @@ public readonly rootTeamsOnly: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#root_teams_only DataGithubOrganizationTeams#root_teams_only}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#root_teams_only DataGithubOrganizationTeams#root_teams_only}.
 
 ---
 
@@ -832,7 +832,7 @@ public readonly summaryOnly: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_teams#summary_only DataGithubOrganizationTeams#summary_only}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_teams#summary_only DataGithubOrganizationTeams#summary_only}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### OrganizationRuleset <a name="OrganizationRuleset" id="@cdktn/provider-github.organizationRuleset.OrganizationRuleset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset github_organization_ruleset}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset github_organization_ruleset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer"></a>
 
@@ -48,7 +48,7 @@ organizationRuleset.OrganizationRuleset(
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer.parameter.target">target</a></code> | <code>str</code> | The target of the ruleset. Possible values are branch, tag and push. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer.parameter.bypassActors">bypass_actors</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetBypassActors">OrganizationRulesetBypassActors</a>]</code> | bypass_actors block. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer.parameter.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions">OrganizationRulesetConditions</a></code> | conditions block. |
-| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRuleset.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}. |
 
 ---
 
@@ -120,7 +120,7 @@ The enforcement level of the ruleset.
 
 `evaluate` allows admins to test rules before enforcing them. Possible values are `disabled`, `active`, and `evaluate`. Note: `evaluate` is only available for Enterprise plans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The name of the ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The target of the ruleset. Possible values are branch, tag and push.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#target OrganizationRuleset#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#target OrganizationRuleset#target}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 bypass_actors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -590,7 +590,8 @@ def put_bypass_actors(
 def put_conditions(
   ref_name: OrganizationRulesetConditionsRefName = None,
   repository_id: typing.List[typing.Union[int, float]] = None,
-  repository_name: OrganizationRulesetConditionsRepositoryName = None
+  repository_name: OrganizationRulesetConditionsRepositoryName = None,
+  repository_property: OrganizationRulesetConditionsRepositoryProperty = None
 ) -> None
 ```
 
@@ -600,7 +601,7 @@ def put_conditions(
 
 ref_name block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
 
 ---
 
@@ -608,9 +609,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-The repository IDs that the ruleset applies to. One of these IDs must match for the condition to pass.
+The repository IDs that the ruleset applies to. One of these IDs must match for the ruleset to apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
 
 ---
 
@@ -620,7 +621,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 repository_name block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+
+---
+
+###### `repository_property`<sup>Optional</sup> <a name="repository_property" id="@cdktn/provider-github.organizationRuleset.OrganizationRuleset.putConditions.parameter.repositoryProperty"></a>
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a>
+
+repository_property block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_property OrganizationRuleset#repository_property}
 
 ---
 
@@ -657,7 +668,7 @@ def put_rules(
 
 branch_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
 
 ---
 
@@ -667,7 +678,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 commit_author_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
 
 ---
 
@@ -677,7 +688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 commit_message_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
 
 ---
 
@@ -687,7 +698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 committer_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
 
 ---
 
@@ -697,7 +708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 copilot_code_review block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#copilot_code_review OrganizationRuleset#copilot_code_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#copilot_code_review OrganizationRuleset#copilot_code_review}
 
 ---
 
@@ -707,7 +718,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Only allow users with bypass permission to create matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
 
 ---
 
@@ -717,7 +728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Only allow users with bypass permissions to delete matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
 
 ---
 
@@ -727,7 +738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 file_extension_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
 
 ---
 
@@ -737,7 +748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 file_path_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
 
 ---
 
@@ -747,7 +758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 max_file_path_length block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
 
 ---
 
@@ -757,7 +768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 max_file_size block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
 
 ---
 
@@ -767,7 +778,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Prevent users with push access from force pushing to refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
 
 ---
 
@@ -777,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
 
 ---
 
@@ -787,7 +798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 required_code_scanning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
 
 ---
 
@@ -797,7 +808,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Prevent merge commits from being pushed to matching branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
 
 ---
 
@@ -807,7 +818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Commits pushed to matching branches must have verified signatures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
 
 ---
 
@@ -817,7 +828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 required_status_checks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
 
 ---
 
@@ -827,7 +838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 required_workflows block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
 
 ---
 
@@ -837,7 +848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 tag_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
 
 ---
 
@@ -847,7 +858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Only allow users with bypass permission to update matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#update OrganizationRuleset#update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#update OrganizationRuleset#update}
 
 ---
 
@@ -983,7 +994,7 @@ The construct id used in the generated config for the OrganizationRuleset to imp
 
 The id of the existing OrganizationRuleset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1399,7 +1410,7 @@ actor_type: str
 
 The type of actor that can bypass a ruleset. Can be one of: `Integration`, `OrganizationAdmin`, `RepositoryRole`, `Team`, or `DeployKey`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#actor_type OrganizationRuleset#actor_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#actor_type OrganizationRuleset#actor_type}
 
 ---
 
@@ -1415,7 +1426,7 @@ When the specified actor can bypass the ruleset.
 
 pull_request means that an actor can only bypass rules on pull requests. Can be one of: `always`, `pull_request`, `exempt`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#bypass_mode OrganizationRuleset#bypass_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#bypass_mode OrganizationRuleset#bypass_mode}
 
 ---
 
@@ -1431,7 +1442,7 @@ The ID of the actor that can bypass a ruleset.
 
 When `actor_type` is `OrganizationAdmin`, this should be set to `1`. Some resources such as DeployKey do not have an ID and this should be omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#actor_id OrganizationRuleset#actor_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#actor_id OrganizationRuleset#actor_id}
 
 ---
 
@@ -1445,7 +1456,8 @@ from cdktn_provider_github import organization_ruleset
 organizationRuleset.OrganizationRulesetConditions(
   ref_name: OrganizationRulesetConditionsRefName = None,
   repository_id: typing.List[typing.Union[int, float]] = None,
-  repository_name: OrganizationRulesetConditionsRepositoryName = None
+  repository_name: OrganizationRulesetConditionsRepositoryName = None,
+  repository_property: OrganizationRulesetConditionsRepositoryProperty = None
 )
 ```
 
@@ -1454,8 +1466,9 @@ organizationRuleset.OrganizationRulesetConditions(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.refName">ref_name</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRefName">OrganizationRulesetConditionsRefName</a></code> | ref_name block. |
-| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.repositoryId">repository_id</a></code> | <code>typing.List[typing.Union[int, float]]</code> | The repository IDs that the ruleset applies to. One of these IDs must match for the condition to pass. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.repositoryId">repository_id</a></code> | <code>typing.List[typing.Union[int, float]]</code> | The repository IDs that the ruleset applies to. One of these IDs must match for the ruleset to apply. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.repositoryName">repository_name</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryName">OrganizationRulesetConditionsRepositoryName</a></code> | repository_name block. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.repositoryProperty">repository_property</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a></code> | repository_property block. |
 
 ---
 
@@ -1469,7 +1482,7 @@ ref_name: OrganizationRulesetConditionsRefName
 
 ref_name block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#ref_name OrganizationRuleset#ref_name}
 
 ---
 
@@ -1481,9 +1494,9 @@ repository_id: typing.List[typing.Union[int, float]]
 
 - *Type:* typing.List[typing.Union[int, float]]
 
-The repository IDs that the ruleset applies to. One of these IDs must match for the condition to pass.
+The repository IDs that the ruleset applies to. One of these IDs must match for the ruleset to apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
 
 ---
 
@@ -1497,7 +1510,21 @@ repository_name: OrganizationRulesetConditionsRepositoryName
 
 repository_name block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_name OrganizationRuleset#repository_name}
+
+---
+
+##### `repository_property`<sup>Optional</sup> <a name="repository_property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions.property.repositoryProperty"></a>
+
+```python
+repository_property: OrganizationRulesetConditionsRepositoryProperty
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a>
+
+repository_property block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_property OrganizationRuleset#repository_property}
 
 ---
 
@@ -1533,7 +1560,7 @@ exclude: typing.List[str]
 
 Array of ref names or patterns to exclude. The condition will not pass if any of these patterns match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
 
 ---
 
@@ -1549,7 +1576,7 @@ Array of ref names or patterns to include.
 
 One of these patterns must match for the condition to pass. Also accepts `~DEFAULT_BRANCH` to include the default branch or `~ALL` to include all branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
 
 ---
 
@@ -1587,7 +1614,7 @@ exclude: typing.List[str]
 
 Array of repository names or patterns to exclude. The condition will not pass if any of these patterns match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
 
 ---
 
@@ -1603,7 +1630,7 @@ Array of repository names or patterns to include.
 
 One of these patterns must match for the condition to pass. Also accepts `~ALL` to include all repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
 
 ---
 
@@ -1617,7 +1644,177 @@ protected: bool | IResolvable
 
 Whether renaming of target repositories is prevented.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
+
+---
+
+### OrganizationRulesetConditionsRepositoryProperty <a name="OrganizationRulesetConditionsRepositoryProperty" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryProperty(
+  exclude: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude] = None,
+  include: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty.property.exclude">exclude</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]</code> | The repository properties and values to exclude. The ruleset will not apply if any of these properties match. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty.property.include">include</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]</code> | The repository properties and values to include. All of these properties must match for the condition to pass. |
+
+---
+
+##### `exclude`<sup>Optional</sup> <a name="exclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty.property.exclude"></a>
+
+```python
+exclude: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]
+
+The repository properties and values to exclude. The ruleset will not apply if any of these properties match.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+
+---
+
+##### `include`<sup>Optional</sup> <a name="include" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty.property.include"></a>
+
+```python
+include: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]
+
+The repository properties and values to include. All of these properties must match for the condition to pass.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+
+---
+
+### OrganizationRulesetConditionsRepositoryPropertyExclude <a name="OrganizationRulesetConditionsRepositoryPropertyExclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude(
+  name: str = None,
+  property_values: typing.List[str] = None,
+  source: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.propertyValues">property_values</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#property_values OrganizationRuleset#property_values}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#source OrganizationRuleset#source}. |
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}.
+
+---
+
+##### `property_values`<sup>Optional</sup> <a name="property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.propertyValues"></a>
+
+```python
+property_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#property_values OrganizationRuleset#property_values}.
+
+---
+
+##### `source`<sup>Optional</sup> <a name="source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#source OrganizationRuleset#source}.
+
+---
+
+### OrganizationRulesetConditionsRepositoryPropertyInclude <a name="OrganizationRulesetConditionsRepositoryPropertyInclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude(
+  name: str = None,
+  property_values: typing.List[str] = None,
+  source: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.propertyValues">property_values</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#property_values OrganizationRuleset#property_values}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.source">source</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#source OrganizationRuleset#source}. |
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}.
+
+---
+
+##### `property_values`<sup>Optional</sup> <a name="property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.propertyValues"></a>
+
+```python
+property_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#property_values OrganizationRuleset#property_values}.
+
+---
+
+##### `source`<sup>Optional</sup> <a name="source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#source OrganizationRuleset#source}.
 
 ---
 
@@ -1663,7 +1860,7 @@ organizationRuleset.OrganizationRulesetConfig(
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConfig.property.target">target</a></code> | <code>str</code> | The target of the ruleset. Possible values are branch, tag and push. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConfig.property.bypassActors">bypass_actors</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetBypassActors">OrganizationRulesetBypassActors</a>]</code> | bypass_actors block. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConfig.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions">OrganizationRulesetConditions</a></code> | conditions block. |
-| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}. |
 
 ---
 
@@ -1749,7 +1946,7 @@ The enforcement level of the ruleset.
 
 `evaluate` allows admins to test rules before enforcing them. Possible values are `disabled`, `active`, and `evaluate`. Note: `evaluate` is only available for Enterprise plans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#enforcement OrganizationRuleset#enforcement}
 
 ---
 
@@ -1763,7 +1960,7 @@ name: str
 
 The name of the ruleset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -1777,7 +1974,7 @@ rules: OrganizationRulesetRules
 
 rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#rules OrganizationRuleset#rules}
 
 ---
 
@@ -1791,7 +1988,7 @@ target: str
 
 The target of the ruleset. Possible values are branch, tag and push.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#target OrganizationRuleset#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#target OrganizationRuleset#target}
 
 ---
 
@@ -1805,7 +2002,7 @@ bypass_actors: IResolvable | typing.List[OrganizationRulesetBypassActors]
 
 bypass_actors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#bypass_actors OrganizationRuleset#bypass_actors}
 
 ---
 
@@ -1819,7 +2016,7 @@ conditions: OrganizationRulesetConditions
 
 conditions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#conditions OrganizationRuleset#conditions}
 
 ---
 
@@ -1831,7 +2028,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1906,7 +2103,7 @@ branch_name_pattern: OrganizationRulesetRulesBranchNamePattern
 
 branch_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#branch_name_pattern OrganizationRuleset#branch_name_pattern}
 
 ---
 
@@ -1920,7 +2117,7 @@ commit_author_email_pattern: OrganizationRulesetRulesCommitAuthorEmailPattern
 
 commit_author_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#commit_author_email_pattern OrganizationRuleset#commit_author_email_pattern}
 
 ---
 
@@ -1934,7 +2131,7 @@ commit_message_pattern: OrganizationRulesetRulesCommitMessagePattern
 
 commit_message_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#commit_message_pattern OrganizationRuleset#commit_message_pattern}
 
 ---
 
@@ -1948,7 +2145,7 @@ committer_email_pattern: OrganizationRulesetRulesCommitterEmailPattern
 
 committer_email_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#committer_email_pattern OrganizationRuleset#committer_email_pattern}
 
 ---
 
@@ -1962,7 +2159,7 @@ copilot_code_review: OrganizationRulesetRulesCopilotCodeReview
 
 copilot_code_review block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#copilot_code_review OrganizationRuleset#copilot_code_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#copilot_code_review OrganizationRuleset#copilot_code_review}
 
 ---
 
@@ -1976,7 +2173,7 @@ creation: bool | IResolvable
 
 Only allow users with bypass permission to create matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#creation OrganizationRuleset#creation}
 
 ---
 
@@ -1990,7 +2187,7 @@ deletion: bool | IResolvable
 
 Only allow users with bypass permissions to delete matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#deletion OrganizationRuleset#deletion}
 
 ---
 
@@ -2004,7 +2201,7 @@ file_extension_restriction: OrganizationRulesetRulesFileExtensionRestriction
 
 file_extension_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#file_extension_restriction OrganizationRuleset#file_extension_restriction}
 
 ---
 
@@ -2018,7 +2215,7 @@ file_path_restriction: OrganizationRulesetRulesFilePathRestriction
 
 file_path_restriction block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#file_path_restriction OrganizationRuleset#file_path_restriction}
 
 ---
 
@@ -2032,7 +2229,7 @@ max_file_path_length: OrganizationRulesetRulesMaxFilePathLength
 
 max_file_path_length block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
 
 ---
 
@@ -2046,7 +2243,7 @@ max_file_size: OrganizationRulesetRulesMaxFileSize
 
 max_file_size block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
 
 ---
 
@@ -2060,7 +2257,7 @@ non_fast_forward: bool | IResolvable
 
 Prevent users with push access from force pushing to refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#non_fast_forward OrganizationRuleset#non_fast_forward}
 
 ---
 
@@ -2074,7 +2271,7 @@ pull_request: OrganizationRulesetRulesPullRequest
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pull_request OrganizationRuleset#pull_request}
 
 ---
 
@@ -2088,7 +2285,7 @@ required_code_scanning: OrganizationRulesetRulesRequiredCodeScanning
 
 required_code_scanning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_code_scanning OrganizationRuleset#required_code_scanning}
 
 ---
 
@@ -2102,7 +2299,7 @@ required_linear_history: bool | IResolvable
 
 Prevent merge commits from being pushed to matching branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_linear_history OrganizationRuleset#required_linear_history}
 
 ---
 
@@ -2116,7 +2313,7 @@ required_signatures: bool | IResolvable
 
 Commits pushed to matching branches must have verified signatures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_signatures OrganizationRuleset#required_signatures}
 
 ---
 
@@ -2130,7 +2327,7 @@ required_status_checks: OrganizationRulesetRulesRequiredStatusChecks
 
 required_status_checks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_status_checks OrganizationRuleset#required_status_checks}
 
 ---
 
@@ -2144,7 +2341,7 @@ required_workflows: OrganizationRulesetRulesRequiredWorkflows
 
 required_workflows block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_workflows OrganizationRuleset#required_workflows}
 
 ---
 
@@ -2158,7 +2355,7 @@ tag_name_pattern: OrganizationRulesetRulesTagNamePattern
 
 tag_name_pattern block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#tag_name_pattern OrganizationRuleset#tag_name_pattern}
 
 ---
 
@@ -2172,7 +2369,7 @@ update: bool | IResolvable
 
 Only allow users with bypass permission to update matching refs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#update OrganizationRuleset#update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#update OrganizationRuleset#update}
 
 ---
 
@@ -2212,7 +2409,7 @@ operator: str
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -2226,7 +2423,7 @@ pattern: str
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -2240,7 +2437,7 @@ name: str
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -2254,7 +2451,7 @@ negate: bool | IResolvable
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -2294,7 +2491,7 @@ operator: str
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -2308,7 +2505,7 @@ pattern: str
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -2322,7 +2519,7 @@ name: str
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -2336,7 +2533,7 @@ negate: bool | IResolvable
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -2376,7 +2573,7 @@ operator: str
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -2390,7 +2587,7 @@ pattern: str
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -2404,7 +2601,7 @@ name: str
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -2418,7 +2615,7 @@ negate: bool | IResolvable
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -2458,7 +2655,7 @@ operator: str
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -2472,7 +2669,7 @@ pattern: str
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -2486,7 +2683,7 @@ name: str
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -2500,7 +2697,7 @@ negate: bool | IResolvable
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -2536,7 +2733,7 @@ review_draft_pull_requests: bool | IResolvable
 
 Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#review_draft_pull_requests OrganizationRuleset#review_draft_pull_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#review_draft_pull_requests OrganizationRuleset#review_draft_pull_requests}
 
 ---
 
@@ -2550,7 +2747,7 @@ review_on_push: bool | IResolvable
 
 Copilot automatically reviews each new push to the pull request. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#review_on_push OrganizationRuleset#review_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#review_on_push OrganizationRuleset#review_on_push}
 
 ---
 
@@ -2584,7 +2781,7 @@ restricted_file_extensions: typing.List[str]
 
 The file extensions that are restricted from being pushed to the commit graph.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
 
 ---
 
@@ -2618,7 +2815,7 @@ restricted_file_paths: typing.List[str]
 
 The file paths that are restricted from being pushed to the commit graph.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
 
 ---
 
@@ -2652,7 +2849,7 @@ max_file_path_length: typing.Union[int, float]
 
 The maximum allowed length of a file path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
 
 ---
 
@@ -2686,7 +2883,7 @@ max_file_size: typing.Union[int, float]
 
 The maximum allowed size of a file in megabytes (MB). Valid range is 1-100 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
 
 ---
 
@@ -2732,7 +2929,7 @@ allowed_merge_methods: typing.List[str]
 
 Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#allowed_merge_methods OrganizationRuleset#allowed_merge_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#allowed_merge_methods OrganizationRuleset#allowed_merge_methods}
 
 ---
 
@@ -2746,7 +2943,7 @@ dismiss_stale_reviews_on_push: bool | IResolvable
 
 New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
 
 ---
 
@@ -2760,7 +2957,7 @@ require_code_owner_review: bool | IResolvable
 
 Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
 
 ---
 
@@ -2774,7 +2971,7 @@ required_approving_review_count: typing.Union[int, float]
 
 The number of approving reviews that are required before a pull request can be merged. Defaults to `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
 
 ---
 
@@ -2788,7 +2985,7 @@ required_reviewers: IResolvable | typing.List[OrganizationRulesetRulesPullReques
 
 required_reviewers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_reviewers OrganizationRuleset#required_reviewers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_reviewers OrganizationRuleset#required_reviewers}
 
 ---
 
@@ -2802,7 +2999,7 @@ required_review_thread_resolution: bool | IResolvable
 
 All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
 
 ---
 
@@ -2818,7 +3015,7 @@ Whether the most recent reviewable push must be approved by someone other than t
 
 Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
 
 ---
 
@@ -2856,7 +3053,7 @@ file_patterns: typing.List[str]
 
 File patterns (fnmatch syntax) that this reviewer must approve.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#file_patterns OrganizationRuleset#file_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#file_patterns OrganizationRuleset#file_patterns}
 
 ---
 
@@ -2870,7 +3067,7 @@ minimum_approvals: typing.Union[int, float]
 
 Minimum number of approvals required from this reviewer. Set to 0 to make approval optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#minimum_approvals OrganizationRuleset#minimum_approvals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#minimum_approvals OrganizationRuleset#minimum_approvals}
 
 ---
 
@@ -2884,7 +3081,7 @@ reviewer: OrganizationRulesetRulesPullRequestRequiredReviewersReviewer
 
 reviewer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#reviewer OrganizationRuleset#reviewer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#reviewer OrganizationRuleset#reviewer}
 
 ---
 
@@ -2920,7 +3117,7 @@ id: typing.Union[int, float]
 
 The ID of the reviewer that must review.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2937,7 +3134,7 @@ type: str
 
 The type of reviewer. Currently only `Team` is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#type OrganizationRuleset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#type OrganizationRuleset#type}
 
 ---
 
@@ -2971,7 +3168,7 @@ required_code_scanning_tool: IResolvable | typing.List[OrganizationRulesetRulesR
 
 required_code_scanning_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
 
 ---
 
@@ -3011,7 +3208,7 @@ The severity level at which code scanning results that raise alerts block a refe
 
 Can be one of: `none`, `errors`, `errors_and_warnings`, `all`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#alerts_threshold OrganizationRuleset#alerts_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#alerts_threshold OrganizationRuleset#alerts_threshold}
 
 ---
 
@@ -3027,7 +3224,7 @@ The severity level at which code scanning results that raise security alerts blo
 
 Can be one of: `none`, `critical`, `high_or_higher`, `medium_or_higher`, `all`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#security_alerts_threshold OrganizationRuleset#security_alerts_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#security_alerts_threshold OrganizationRuleset#security_alerts_threshold}
 
 ---
 
@@ -3041,7 +3238,7 @@ tool: str
 
 The name of a code scanning tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#tool OrganizationRuleset#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#tool OrganizationRuleset#tool}
 
 ---
 
@@ -3079,7 +3276,7 @@ required_check: IResolvable | typing.List[OrganizationRulesetRulesRequiredStatus
 
 required_check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
 
 ---
 
@@ -3093,7 +3290,7 @@ do_not_enforce_on_create: bool | IResolvable
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
 
 ---
 
@@ -3109,7 +3306,7 @@ Whether pull requests targeting a matching branch must be tested with the latest
 
 This setting will not take effect unless at least one status check is enabled. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
 
 ---
 
@@ -3145,7 +3342,7 @@ context: str
 
 The status check context name that must be present on the commit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#context OrganizationRuleset#context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#context OrganizationRuleset#context}
 
 ---
 
@@ -3159,7 +3356,7 @@ integration_id: typing.Union[int, float]
 
 The optional integration ID that this status check must originate from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#integration_id OrganizationRuleset#integration_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#integration_id OrganizationRuleset#integration_id}
 
 ---
 
@@ -3195,7 +3392,7 @@ required_workflow: IResolvable | typing.List[OrganizationRulesetRulesRequiredWor
 
 required_workflow block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
 
 ---
 
@@ -3209,7 +3406,7 @@ do_not_enforce_on_create: bool | IResolvable
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
 
 ---
 
@@ -3247,7 +3444,7 @@ path: str
 
 The path to the workflow YAML definition file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#path OrganizationRuleset#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#path OrganizationRuleset#path}
 
 ---
 
@@ -3261,7 +3458,7 @@ repository_id: typing.Union[int, float]
 
 The repository in which the workflow is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#repository_id OrganizationRuleset#repository_id}
 
 ---
 
@@ -3275,7 +3472,7 @@ ref: str
 
 The ref (branch or tag) of the workflow file to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#ref OrganizationRuleset#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#ref OrganizationRuleset#ref}
 
 ---
 
@@ -3315,7 +3512,7 @@ operator: str
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -3329,7 +3526,7 @@ pattern: str
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -3343,7 +3540,7 @@ name: str
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -3357,7 +3554,7 @@ negate: bool | IResolvable
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -3955,9 +4152,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRefName">put_ref_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRepositoryName">put_repository_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRepositoryProperty">put_repository_property</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.resetRefName">reset_ref_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.resetRepositoryId">reset_repository_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.resetRepositoryName">reset_repository_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.resetRepositoryProperty">reset_repository_property</a></code> | *No description.* |
 
 ---
 
@@ -4148,7 +4347,7 @@ def put_ref_name(
 
 Array of ref names or patterns to exclude. The condition will not pass if any of these patterns match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
 
 ---
 
@@ -4160,7 +4359,7 @@ Array of ref names or patterns to include.
 
 One of these patterns must match for the condition to pass. Also accepts `~DEFAULT_BRANCH` to include the default branch or `~ALL` to include all branches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
 
 ---
 
@@ -4180,7 +4379,7 @@ def put_repository_name(
 
 Array of repository names or patterns to exclude. The condition will not pass if any of these patterns match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
 
 ---
 
@@ -4192,7 +4391,7 @@ Array of repository names or patterns to include.
 
 One of these patterns must match for the condition to pass. Also accepts `~ALL` to include all repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#include OrganizationRuleset#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
 
 ---
 
@@ -4202,7 +4401,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Whether renaming of target repositories is prevented.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#protected OrganizationRuleset#protected}
+
+---
+
+##### `put_repository_property` <a name="put_repository_property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRepositoryProperty"></a>
+
+```python
+def put_repository_property(
+  exclude: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude] = None,
+  include: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude] = None
+) -> None
+```
+
+###### `exclude`<sup>Optional</sup> <a name="exclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRepositoryProperty.parameter.exclude"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]
+
+The repository properties and values to exclude. The ruleset will not apply if any of these properties match.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#exclude OrganizationRuleset#exclude}
+
+---
+
+###### `include`<sup>Optional</sup> <a name="include" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.putRepositoryProperty.parameter.include"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]
+
+The repository properties and values to include. All of these properties must match for the condition to pass.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#include OrganizationRuleset#include}
 
 ---
 
@@ -4224,6 +4452,12 @@ def reset_repository_id() -> None
 def reset_repository_name() -> None
 ```
 
+##### `reset_repository_property` <a name="reset_repository_property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.resetRepositoryProperty"></a>
+
+```python
+def reset_repository_property() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -4233,9 +4467,11 @@ def reset_repository_name() -> None
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.refName">ref_name</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRefNameOutputReference">OrganizationRulesetConditionsRefNameOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryName">repository_name</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryNameOutputReference">OrganizationRulesetConditionsRepositoryNameOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryProperty">repository_property</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference">OrganizationRulesetConditionsRepositoryPropertyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.refNameInput">ref_name_input</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRefName">OrganizationRulesetConditionsRefName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryIdInput">repository_id_input</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryNameInput">repository_name_input</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryName">OrganizationRulesetConditionsRepositoryName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryPropertyInput">repository_property_input</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryId">repository_id</a></code> | <code>typing.List[typing.Union[int, float]]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditions">OrganizationRulesetConditions</a></code> | *No description.* |
 
@@ -4285,6 +4521,16 @@ repository_name: OrganizationRulesetConditionsRepositoryNameOutputReference
 
 ---
 
+##### `repository_property`<sup>Required</sup> <a name="repository_property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryProperty"></a>
+
+```python
+repository_property: OrganizationRulesetConditionsRepositoryPropertyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference">OrganizationRulesetConditionsRepositoryPropertyOutputReference</a>
+
+---
+
 ##### `ref_name_input`<sup>Optional</sup> <a name="ref_name_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.refNameInput"></a>
 
 ```python
@@ -4312,6 +4558,16 @@ repository_name_input: OrganizationRulesetConditionsRepositoryName
 ```
 
 - *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryName">OrganizationRulesetConditionsRepositoryName</a>
+
+---
+
+##### `repository_property_input`<sup>Optional</sup> <a name="repository_property_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsOutputReference.property.repositoryPropertyInput"></a>
+
+```python
+repository_property_input: OrganizationRulesetConditionsRepositoryProperty
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a>
 
 ---
 
@@ -4997,6 +5253,1470 @@ internal_value: OrganizationRulesetConditionsRepositoryName
 ```
 
 - *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryName">OrganizationRulesetConditionsRepositoryName</a>
+
+---
+
+
+### OrganizationRulesetConditionsRepositoryPropertyExcludeList <a name="OrganizationRulesetConditionsRepositoryPropertyExcludeList" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]
+
+---
+
+
+### OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference <a name="OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetPropertyValues">reset_property_values</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetSource">reset_source</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetName"></a>
+
+```python
+def reset_name() -> None
+```
+
+##### `reset_property_values` <a name="reset_property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetPropertyValues"></a>
+
+```python
+def reset_property_values() -> None
+```
+
+##### `reset_source` <a name="reset_source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.resetSource"></a>
+
+```python
+def reset_source() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.propertyValuesInput">property_values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.sourceInput">source_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.propertyValues">property_values</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `property_values_input`<sup>Optional</sup> <a name="property_values_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.propertyValuesInput"></a>
+
+```python
+property_values_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `source_input`<sup>Optional</sup> <a name="source_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.sourceInput"></a>
+
+```python
+source_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `property_values`<sup>Required</sup> <a name="property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.propertyValues"></a>
+
+```python
+property_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | OrganizationRulesetConditionsRepositoryPropertyExclude
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>
+
+---
+
+
+### OrganizationRulesetConditionsRepositoryPropertyIncludeList <a name="OrganizationRulesetConditionsRepositoryPropertyIncludeList" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]
+
+---
+
+
+### OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference <a name="OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetPropertyValues">reset_property_values</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetSource">reset_source</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetName"></a>
+
+```python
+def reset_name() -> None
+```
+
+##### `reset_property_values` <a name="reset_property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetPropertyValues"></a>
+
+```python
+def reset_property_values() -> None
+```
+
+##### `reset_source` <a name="reset_source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.resetSource"></a>
+
+```python
+def reset_source() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.propertyValuesInput">property_values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.sourceInput">source_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.propertyValues">property_values</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `property_values_input`<sup>Optional</sup> <a name="property_values_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.propertyValuesInput"></a>
+
+```python
+property_values_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `source_input`<sup>Optional</sup> <a name="source_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.sourceInput"></a>
+
+```python
+source_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `property_values`<sup>Required</sup> <a name="property_values" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.propertyValues"></a>
+
+```python
+property_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | OrganizationRulesetConditionsRepositoryPropertyInclude
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>
+
+---
+
+
+### OrganizationRulesetConditionsRepositoryPropertyOutputReference <a name="OrganizationRulesetConditionsRepositoryPropertyOutputReference" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_github import organization_ruleset
+
+organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putExclude">put_exclude</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putInclude">put_include</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resetExclude">reset_exclude</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resetInclude">reset_include</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_exclude` <a name="put_exclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putExclude"></a>
+
+```python
+def put_exclude(
+  value: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putExclude.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]
+
+---
+
+##### `put_include` <a name="put_include" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putInclude"></a>
+
+```python
+def put_include(
+  value: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.putInclude.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]
+
+---
+
+##### `reset_exclude` <a name="reset_exclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resetExclude"></a>
+
+```python
+def reset_exclude() -> None
+```
+
+##### `reset_include` <a name="reset_include" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.resetInclude"></a>
+
+```python
+def reset_include() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.exclude">exclude</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList">OrganizationRulesetConditionsRepositoryPropertyExcludeList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.include">include</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList">OrganizationRulesetConditionsRepositoryPropertyIncludeList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.excludeInput">exclude_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.includeInput">include_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `exclude`<sup>Required</sup> <a name="exclude" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.exclude"></a>
+
+```python
+exclude: OrganizationRulesetConditionsRepositoryPropertyExcludeList
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExcludeList">OrganizationRulesetConditionsRepositoryPropertyExcludeList</a>
+
+---
+
+##### `include`<sup>Required</sup> <a name="include" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.include"></a>
+
+```python
+include: OrganizationRulesetConditionsRepositoryPropertyIncludeList
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyIncludeList">OrganizationRulesetConditionsRepositoryPropertyIncludeList</a>
+
+---
+
+##### `exclude_input`<sup>Optional</sup> <a name="exclude_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.excludeInput"></a>
+
+```python
+exclude_input: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyExclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyExclude">OrganizationRulesetConditionsRepositoryPropertyExclude</a>]
+
+---
+
+##### `include_input`<sup>Optional</sup> <a name="include_input" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.includeInput"></a>
+
+```python
+include_input: IResolvable | typing.List[OrganizationRulesetConditionsRepositoryPropertyInclude]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyInclude">OrganizationRulesetConditionsRepositoryPropertyInclude</a>]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryPropertyOutputReference.property.internalValue"></a>
+
+```python
+internal_value: OrganizationRulesetConditionsRepositoryProperty
+```
+
+- *Type:* <a href="#@cdktn/provider-github.organizationRuleset.OrganizationRulesetConditionsRepositoryProperty">OrganizationRulesetConditionsRepositoryProperty</a>
 
 ---
 
@@ -8300,7 +10020,7 @@ def put_branch_name_pattern(
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -8310,7 +10030,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -8320,7 +10040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -8330,7 +10050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -8351,7 +10071,7 @@ def put_commit_author_email_pattern(
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -8361,7 +10081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -8371,7 +10091,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -8381,7 +10101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -8402,7 +10122,7 @@ def put_commit_message_pattern(
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -8412,7 +10132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -8422,7 +10142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -8432,7 +10152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -8453,7 +10173,7 @@ def put_committer_email_pattern(
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -8463,7 +10183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -8473,7 +10193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -8483,7 +10203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -8502,7 +10222,7 @@ def put_copilot_code_review(
 
 Copilot automatically reviews draft pull requests before they are marked as ready for review. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#review_draft_pull_requests OrganizationRuleset#review_draft_pull_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#review_draft_pull_requests OrganizationRuleset#review_draft_pull_requests}
 
 ---
 
@@ -8512,7 +10232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Copilot automatically reviews each new push to the pull request. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#review_on_push OrganizationRuleset#review_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#review_on_push OrganizationRuleset#review_on_push}
 
 ---
 
@@ -8530,7 +10250,7 @@ def put_file_extension_restriction(
 
 The file extensions that are restricted from being pushed to the commit graph.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#restricted_file_extensions OrganizationRuleset#restricted_file_extensions}
 
 ---
 
@@ -8548,7 +10268,7 @@ def put_file_path_restriction(
 
 The file paths that are restricted from being pushed to the commit graph.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#restricted_file_paths OrganizationRuleset#restricted_file_paths}
 
 ---
 
@@ -8566,7 +10286,7 @@ def put_max_file_path_length(
 
 The maximum allowed length of a file path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_path_length OrganizationRuleset#max_file_path_length}
 
 ---
 
@@ -8584,7 +10304,7 @@ def put_max_file_size(
 
 The maximum allowed size of a file in megabytes (MB). Valid range is 1-100 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#max_file_size OrganizationRuleset#max_file_size}
 
 ---
 
@@ -8608,7 +10328,7 @@ def put_pull_request(
 
 Array of allowed merge methods. Allowed values include `merge`, `squash`, and `rebase`. At least one option must be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#allowed_merge_methods OrganizationRuleset#allowed_merge_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#allowed_merge_methods OrganizationRuleset#allowed_merge_methods}
 
 ---
 
@@ -8618,7 +10338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 New, reviewable commits pushed will dismiss previous pull request review approvals. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#dismiss_stale_reviews_on_push OrganizationRuleset#dismiss_stale_reviews_on_push}
 
 ---
 
@@ -8628,7 +10348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Require an approving review in pull requests that modify files that have a designated code owner. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#require_code_owner_review OrganizationRuleset#require_code_owner_review}
 
 ---
 
@@ -8638,7 +10358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The number of approving reviews that are required before a pull request can be merged. Defaults to `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_approving_review_count OrganizationRuleset#required_approving_review_count}
 
 ---
 
@@ -8648,7 +10368,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 required_reviewers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_reviewers OrganizationRuleset#required_reviewers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_reviewers OrganizationRuleset#required_reviewers}
 
 ---
 
@@ -8658,7 +10378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 All conversations on code must be resolved before a pull request can be merged. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_review_thread_resolution OrganizationRuleset#required_review_thread_resolution}
 
 ---
 
@@ -8670,7 +10390,7 @@ Whether the most recent reviewable push must be approved by someone other than t
 
 Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#require_last_push_approval OrganizationRuleset#require_last_push_approval}
 
 ---
 
@@ -8688,7 +10408,7 @@ def put_required_code_scanning(
 
 required_code_scanning_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_code_scanning_tool OrganizationRuleset#required_code_scanning_tool}
 
 ---
 
@@ -8708,7 +10428,7 @@ def put_required_status_checks(
 
 required_check block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_check OrganizationRuleset#required_check}
 
 ---
 
@@ -8718,7 +10438,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
 
 ---
 
@@ -8730,7 +10450,7 @@ Whether pull requests targeting a matching branch must be tested with the latest
 
 This setting will not take effect unless at least one status check is enabled. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#strict_required_status_checks_policy OrganizationRuleset#strict_required_status_checks_policy}
 
 ---
 
@@ -8749,7 +10469,7 @@ def put_required_workflows(
 
 required_workflow block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#required_workflow OrganizationRuleset#required_workflow}
 
 ---
 
@@ -8759,7 +10479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Allow repositories and branches to be created if a check would otherwise prohibit it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#do_not_enforce_on_create OrganizationRuleset#do_not_enforce_on_create}
 
 ---
 
@@ -8780,7 +10500,7 @@ def put_tag_name_pattern(
 
 The operator to use for matching. Can be one of: `starts_with`, `ends_with`, `contains`, `regex`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#operator OrganizationRuleset#operator}
 
 ---
 
@@ -8790,7 +10510,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The pattern to match with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#pattern OrganizationRuleset#pattern}
 
 ---
 
@@ -8800,7 +10520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 How this rule will appear to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#name OrganizationRuleset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#name OrganizationRuleset#name}
 
 ---
 
@@ -8810,7 +10530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 If true, the rule will fail if the pattern matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#negate OrganizationRuleset#negate}
 
 ---
 
@@ -10346,7 +12066,7 @@ def put_reviewer(
 
 The ID of the reviewer that must review.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#id OrganizationRuleset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#id OrganizationRuleset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10359,7 +12079,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The type of reviewer. Currently only `Team` is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/resources/organization_ruleset#type OrganizationRuleset#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_ruleset#type OrganizationRuleset#type}
 
 ---
 

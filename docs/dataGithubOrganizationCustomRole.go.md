@@ -4,7 +4,7 @@
 
 ### DataGithubOrganizationCustomRole <a name="DataGithubOrganizationCustomRole" id="@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role github_organization_custom_role}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role github_organization_custom_role}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRole.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubOrganizationCust
 
 The id of the existing DataGithubOrganizationCustomRole that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -675,8 +675,8 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborgani
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#name DataGithubOrganizationCustomRole#name}. |
-| <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#id DataGithubOrganizationCustomRole#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role#name DataGithubOrganizationCustomRole#name}. |
+| <code><a href="#@cdktn/provider-github.dataGithubOrganizationCustomRole.DataGithubOrganizationCustomRoleConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role#id DataGithubOrganizationCustomRole#id}. |
 
 ---
 
@@ -758,7 +758,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#name DataGithubOrganizationCustomRole#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role#name DataGithubOrganizationCustomRole#name}.
 
 ---
 
@@ -770,7 +770,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.11.1/docs/data-sources/organization_custom_role#id DataGithubOrganizationCustomRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/organization_custom_role#id DataGithubOrganizationCustomRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
