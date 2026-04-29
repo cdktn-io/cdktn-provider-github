@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages
+// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface RepositoryPagesAConfig extends cdktn.TerraformMetaArguments {
   /**
   * The type of GitHub Pages site to build. Can be 'legacy' or 'workflow'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#build_type RepositoryPagesA#build_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#build_type RepositoryPagesA#build_type}
   */
   readonly buildType?: string;
   /**
   * The custom domain for the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#cname RepositoryPagesA#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#cname RepositoryPagesA#cname}
   */
   readonly cname?: string;
   /**
   * Whether the rendered GitHub Pages site will only be served over HTTPS. Requires 'cname' to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#https_enforced RepositoryPagesA#https_enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#https_enforced RepositoryPagesA#https_enforced}
   */
   readonly httpsEnforced?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#id RepositoryPagesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#id RepositoryPagesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,19 +40,19 @@ export interface RepositoryPagesAConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether the GitHub Pages site is publicly visible. If set to `true`, the site is accessible to anyone on the internet. If set to `false`, the site will only be accessible to users who have at least `read` access to the repository that published the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#public RepositoryPagesA#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#public RepositoryPagesA#public}
   */
   readonly public?: boolean | cdktn.IResolvable;
   /**
   * The repository name to configure GitHub Pages for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#repository RepositoryPagesA#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#repository RepositoryPagesA#repository}
   */
   readonly repository: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#source RepositoryPagesA#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#source RepositoryPagesA#source}
   */
   readonly source?: RepositoryPagesSourceA;
 }
@@ -60,13 +60,13 @@ export interface RepositoryPagesSourceA {
   /**
   * The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#branch RepositoryPagesA#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#branch RepositoryPagesA#branch}
   */
   readonly branch: string;
   /**
   * The repository directory from which the site publishes (Default: '/')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#path RepositoryPagesA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#path RepositoryPagesA#path}
   */
   readonly path?: string;
 }
@@ -176,7 +176,7 @@ export class RepositoryPagesSourceAOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages github_repository_pages}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages github_repository_pages}
 */
 export class RepositoryPagesA extends cdktn.TerraformResource {
 
@@ -192,7 +192,7 @@ export class RepositoryPagesA extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RepositoryPagesA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryPagesA to import
-  * @param importFromId The id of the existing RepositoryPagesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryPagesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryPagesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -204,7 +204,7 @@ export class RepositoryPagesA extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages github_repository_pages} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages github_repository_pages} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,7 +215,7 @@ export class RepositoryPagesA extends cdktn.TerraformResource {
       terraformResourceType: 'github_repository_pages',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.0',
+        providerVersion: '6.12.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators
+// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,7 @@ import * as cdktn from 'cdktn';
 
 export interface RepositoryCollaboratorsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#id RepositoryCollaborators#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#id RepositoryCollaborators#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,25 +22,25 @@ export interface RepositoryCollaboratorsConfig extends cdktn.TerraformMetaArgume
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#repository RepositoryCollaborators#repository}
   */
   readonly repository: string;
   /**
   * ignore_team block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#ignore_team RepositoryCollaborators#ignore_team}
   */
   readonly ignoreTeam?: RepositoryCollaboratorsIgnoreTeam[] | cdktn.IResolvable;
   /**
   * team block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#team RepositoryCollaborators#team}
   */
   readonly team?: RepositoryCollaboratorsTeam[] | cdktn.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#user RepositoryCollaborators#user}
   */
   readonly user?: RepositoryCollaboratorsUser[] | cdktn.IResolvable;
 }
@@ -48,7 +48,7 @@ export interface RepositoryCollaboratorsIgnoreTeam {
   /**
   * ID or slug of the team to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
   */
   readonly teamId: string;
 }
@@ -161,13 +161,13 @@ export class RepositoryCollaboratorsIgnoreTeamList extends cdktn.ComplexList {
 }
 export interface RepositoryCollaboratorsTeam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}
   */
   readonly permission?: string;
   /**
   * Team ID or slug to add to the repository as a collaborator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#team_id RepositoryCollaborators#team_id}
   */
   readonly teamId: string;
 }
@@ -309,13 +309,13 @@ export class RepositoryCollaboratorsTeamList extends cdktn.ComplexList {
 }
 export interface RepositoryCollaboratorsUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#permission RepositoryCollaborators#permission}
   */
   readonly permission?: string;
   /**
   * (Required) The user to add to the repository as a collaborator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#username RepositoryCollaborators#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#username RepositoryCollaborators#username}
   */
   readonly username: string;
 }
@@ -457,7 +457,7 @@ export class RepositoryCollaboratorsUserList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators github_repository_collaborators}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators github_repository_collaborators}
 */
 export class RepositoryCollaborators extends cdktn.TerraformResource {
 
@@ -473,7 +473,7 @@ export class RepositoryCollaborators extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RepositoryCollaborators resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryCollaborators to import
-  * @param importFromId The id of the existing RepositoryCollaborators that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryCollaborators that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryCollaborators to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -485,7 +485,7 @@ export class RepositoryCollaborators extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_collaborators github_repository_collaborators} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_collaborators github_repository_collaborators} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,7 +496,7 @@ export class RepositoryCollaborators extends cdktn.TerraformResource {
       terraformResourceType: 'github_repository_collaborators',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.0',
+        providerVersion: '6.12.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

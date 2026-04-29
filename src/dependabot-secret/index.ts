@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret
+// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface DependabotSecretConfig extends cdktn.TerraformMetaArguments {
   /**
   * Encrypted value of the secret using the GitHub public key in Base64 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#encrypted_value DependabotSecret#encrypted_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#encrypted_value DependabotSecret#encrypted_value}
   */
   readonly encryptedValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#id DependabotSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#id DependabotSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,43 +28,43 @@ export interface DependabotSecretConfig extends cdktn.TerraformMetaArguments {
   /**
   * ID of the public key used to encrypt the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#key_id DependabotSecret#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#key_id DependabotSecret#key_id}
   */
   readonly keyId?: string;
   /**
   * Plaintext value of the secret to be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#plaintext_value DependabotSecret#plaintext_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#plaintext_value DependabotSecret#plaintext_value}
   */
   readonly plaintextValue?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#repository DependabotSecret#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#repository DependabotSecret#repository}
   */
   readonly repository: string;
   /**
   * Name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#secret_name DependabotSecret#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#secret_name DependabotSecret#secret_name}
   */
   readonly secretName: string;
   /**
   * Plaintext value to be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#value DependabotSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#value DependabotSecret#value}
   */
   readonly value?: string;
   /**
   * Value encrypted with the GitHub public key, defined by key_id, in Base64 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#value_encrypted DependabotSecret#value_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#value_encrypted DependabotSecret#value_encrypted}
   */
   readonly valueEncrypted?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret github_dependabot_secret}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret github_dependabot_secret}
 */
 export class DependabotSecret extends cdktn.TerraformResource {
 
@@ -80,7 +80,7 @@ export class DependabotSecret extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DependabotSecret resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DependabotSecret to import
-  * @param importFromId The id of the existing DependabotSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DependabotSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DependabotSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -92,7 +92,7 @@ export class DependabotSecret extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/dependabot_secret github_dependabot_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_secret github_dependabot_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,7 +103,7 @@ export class DependabotSecret extends cdktn.TerraformResource {
       terraformResourceType: 'github_dependabot_secret',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.0',
+        providerVersion: '6.12.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
