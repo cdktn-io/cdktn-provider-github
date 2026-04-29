@@ -4,7 +4,7 @@
 
 ### AppInstallationRepository <a name="AppInstallationRepository" id="@cdktn/provider-github.appInstallationRepository.AppInstallationRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository github_app_installation_repository}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository github_app_installation_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.appInstallationRepository.AppInstallationRepository.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AppInstallationRepository 
 
 The id of the existing AppInstallationRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ const appInstallationRepositoryConfig: appInstallationRepository.AppInstallation
 | <code><a href="#@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig.property.installationId">installationId</a></code> | <code>string</code> | The GitHub app installation id. |
 | <code><a href="#@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig.property.repository">repository</a></code> | <code>string</code> | The repository to install the app on. |
-| <code><a href="#@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository#id AppInstallationRepository#id}. |
+| <code><a href="#@cdktn/provider-github.appInstallationRepository.AppInstallationRepositoryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository#id AppInstallationRepository#id}. |
 
 ---
 
@@ -875,7 +875,7 @@ public readonly installationId: string;
 
 The GitHub app installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository#installation_id AppInstallationRepository#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository#installation_id AppInstallationRepository#installation_id}
 
 ---
 
@@ -889,7 +889,7 @@ public readonly repository: string;
 
 The repository to install the app on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository#repository AppInstallationRepository#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository#repository AppInstallationRepository#repository}
 
 ---
 
@@ -901,7 +901,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/app_installation_repository#id AppInstallationRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repository#id AppInstallationRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

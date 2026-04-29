@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree
+// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,22 +13,22 @@ import * as cdktn from 'cdktn';
 
 export interface DataGithubTreeConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#id DataGithubTree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree#id DataGithubTree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#recursive DataGithubTree#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree#recursive DataGithubTree#recursive}
   */
   readonly recursive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#repository DataGithubTree#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree#repository DataGithubTree#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree#tree_sha DataGithubTree#tree_sha}
   */
   readonly treeSha: string;
 }
@@ -129,7 +129,7 @@ export class DataGithubTreeEntriesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree github_tree}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree github_tree}
 */
 export class DataGithubTree extends cdktn.TerraformDataSource {
 
@@ -145,7 +145,7 @@ export class DataGithubTree extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataGithubTree resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGithubTree to import
-  * @param importFromId The id of the existing DataGithubTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGithubTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGithubTree to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -157,7 +157,7 @@ export class DataGithubTree extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/tree github_tree} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/tree github_tree} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,7 +168,7 @@ export class DataGithubTree extends cdktn.TerraformDataSource {
       terraformResourceType: 'github_tree',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.0',
+        providerVersion: '6.12.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

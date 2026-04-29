@@ -4,7 +4,7 @@
 
 ### RepositoryDeploymentBranchPolicy <a name="RepositoryDeploymentBranchPolicy" id="@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy github_repository_deployment_branch_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicy.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the RepositoryDeploymentBranch
 
 The id of the existing RepositoryDeploymentBranchPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorydeploy
 | <code><a href="#@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig.property.name">Name</a></code> | <code>*string</code> | The name of the branch. |
 | <code><a href="#@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig.property.repository">Repository</a></code> | <code>*string</code> | The GitHub repository name. |
 | <code><a href="#@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig.property.etag">Etag</a></code> | <code>*string</code> | An etag representing the Branch object. |
-| <code><a href="#@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#id RepositoryDeploymentBranchPolicy#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryDeploymentBranchPolicy.RepositoryDeploymentBranchPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#id RepositoryDeploymentBranchPolicy#id}. |
 
 ---
 
@@ -930,7 +930,7 @@ EnvironmentName *string
 
 The target environment name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#environment_name RepositoryDeploymentBranchPolicy#environment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#environment_name RepositoryDeploymentBranchPolicy#environment_name}
 
 ---
 
@@ -944,7 +944,7 @@ Name *string
 
 The name of the branch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#name RepositoryDeploymentBranchPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#name RepositoryDeploymentBranchPolicy#name}
 
 ---
 
@@ -958,7 +958,7 @@ Repository *string
 
 The GitHub repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#repository RepositoryDeploymentBranchPolicy#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#repository RepositoryDeploymentBranchPolicy#repository}
 
 ---
 
@@ -972,7 +972,7 @@ Etag *string
 
 An etag representing the Branch object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#etag RepositoryDeploymentBranchPolicy#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#etag RepositoryDeploymentBranchPolicy#etag}
 
 ---
 
@@ -984,7 +984,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_deployment_branch_policy#id RepositoryDeploymentBranchPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_deployment_branch_policy#id RepositoryDeploymentBranchPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

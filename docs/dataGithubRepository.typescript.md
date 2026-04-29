@@ -4,7 +4,7 @@
 
 ### DataGithubRepository <a name="DataGithubRepository" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository github_repository}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository github_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepository.DataGithubRepository.Initializer"></a>
 
@@ -422,7 +422,7 @@ The construct id used in the generated config for the DataGithubRepository to im
 
 The id of the existing DataGithubRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1100,11 +1100,11 @@ const dataGithubRepositoryConfig: dataGithubRepository.DataGithubRepositoryConfi
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#description DataGithubRepository#description}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.fullName">fullName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#full_name DataGithubRepository#full_name}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.homepageUrl">homepageUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#homepage_url DataGithubRepository#homepage_url}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#id DataGithubRepository#id}. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#name DataGithubRepository#name}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#description DataGithubRepository#description}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.fullName">fullName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#full_name DataGithubRepository#full_name}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.homepageUrl">homepageUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#homepage_url DataGithubRepository#homepage_url}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#id DataGithubRepository#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepository.DataGithubRepositoryConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#name DataGithubRepository#name}. |
 
 ---
 
@@ -1186,7 +1186,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#description DataGithubRepository#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#description DataGithubRepository#description}.
 
 ---
 
@@ -1198,7 +1198,7 @@ public readonly fullName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#full_name DataGithubRepository#full_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#full_name DataGithubRepository#full_name}.
 
 ---
 
@@ -1210,7 +1210,7 @@ public readonly homepageUrl: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#homepage_url DataGithubRepository#homepage_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#homepage_url DataGithubRepository#homepage_url}.
 
 ---
 
@@ -1222,7 +1222,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#id DataGithubRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#id DataGithubRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1237,7 +1237,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository#name DataGithubRepository#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository#name DataGithubRepository#name}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataGithubRepositoryEnvironmentDeploymentPolicies <a name="DataGithubRepositoryEnvironmentDeploymentPolicies" id="@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies github_repository_environment_deployment_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPolicies.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubRepositoryEnviro
 
 The id of the existing DataGithubRepositoryEnvironmentDeploymentPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -667,7 +667,7 @@ const dataGithubRepositoryEnvironmentDeploymentPoliciesConfig: dataGithubReposit
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesConfig.property.environment">environment</a></code> | <code>string</code> | The name of the environment. |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesConfig.property.repository">repository</a></code> | <code>string</code> | The name of the GitHub repository. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies#id DataGithubRepositoryEnvironmentDeploymentPolicies#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositoryEnvironmentDeploymentPolicies.DataGithubRepositoryEnvironmentDeploymentPoliciesConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies#id DataGithubRepositoryEnvironmentDeploymentPolicies#id}. |
 
 ---
 
@@ -751,7 +751,7 @@ public readonly environment: string;
 
 The name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies#environment DataGithubRepositoryEnvironmentDeploymentPolicies#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies#environment DataGithubRepositoryEnvironmentDeploymentPolicies#environment}
 
 ---
 
@@ -765,7 +765,7 @@ public readonly repository: string;
 
 The name of the GitHub repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies#repository DataGithubRepositoryEnvironmentDeploymentPolicies#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies#repository DataGithubRepositoryEnvironmentDeploymentPolicies#repository}
 
 ---
 
@@ -777,7 +777,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_environment_deployment_policies#id DataGithubRepositoryEnvironmentDeploymentPolicies#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_environment_deployment_policies#id DataGithubRepositoryEnvironmentDeploymentPolicies#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

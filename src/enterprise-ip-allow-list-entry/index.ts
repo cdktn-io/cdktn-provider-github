@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry
+// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface EnterpriseIpAllowListEntryConfig extends cdktn.TerraformMetaArg
   /**
   * The slug of the enterprise to apply the IP allow list entry to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#enterprise_slug EnterpriseIpAllowListEntry#enterprise_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#enterprise_slug EnterpriseIpAllowListEntry#enterprise_slug}
   */
   readonly enterpriseSlug: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,25 +28,25 @@ export interface EnterpriseIpAllowListEntryConfig extends cdktn.TerraformMetaArg
   /**
   * An IP address or range of IP addresses in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#ip EnterpriseIpAllowListEntry#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#ip EnterpriseIpAllowListEntry#ip}
   */
   readonly ip: string;
   /**
   * Whether the entry is currently active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#is_active EnterpriseIpAllowListEntry#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#is_active EnterpriseIpAllowListEntry#is_active}
   */
   readonly isActive?: boolean | cdktn.IResolvable;
   /**
   * An optional name for the IP allow list entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#name EnterpriseIpAllowListEntry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#name EnterpriseIpAllowListEntry#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}
 */
 export class EnterpriseIpAllowListEntry extends cdktn.TerraformResource {
 
@@ -62,7 +62,7 @@ export class EnterpriseIpAllowListEntry extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EnterpriseIpAllowListEntry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseIpAllowListEntry to import
-  * @param importFromId The id of the existing EnterpriseIpAllowListEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnterpriseIpAllowListEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseIpAllowListEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -74,7 +74,7 @@ export class EnterpriseIpAllowListEntry extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,7 @@ export class EnterpriseIpAllowListEntry extends cdktn.TerraformResource {
       terraformResourceType: 'github_enterprise_ip_allow_list_entry',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.0',
+        providerVersion: '6.12.1',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,

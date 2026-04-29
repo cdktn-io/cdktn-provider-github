@@ -4,7 +4,7 @@
 
 ### DataGithubRepositoryPagesA <a name="DataGithubRepositoryPagesA" id="@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_pages github_repository_pages}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages github_repository_pages}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesA.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubRepositoryPagesA
 
 The id of the existing DataGithubRepositoryPagesA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_pages#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -732,7 +732,7 @@ const dataGithubRepositoryPagesAConfig: dataGithubRepositoryPages.DataGithubRepo
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesAConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesAConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesAConfig.property.repository">repository</a></code> | <code>string</code> | The repository name to get GitHub Pages information for. |
-| <code><a href="#@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesAConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_pages#id DataGithubRepositoryPagesA#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRepositoryPages.DataGithubRepositoryPagesAConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages#id DataGithubRepositoryPagesA#id}. |
 
 ---
 
@@ -816,7 +816,7 @@ public readonly repository: string;
 
 The repository name to get GitHub Pages information for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_pages#repository DataGithubRepositoryPagesA#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages#repository DataGithubRepositoryPagesA#repository}
 
 ---
 
@@ -828,7 +828,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/repository_pages#id DataGithubRepositoryPagesA#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/repository_pages#id DataGithubRepositoryPagesA#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
