@@ -4,7 +4,7 @@
 
 ### EnterpriseIpAllowListEntry <a name="EnterpriseIpAllowListEntry" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry github_enterprise_ip_allow_list_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the EnterpriseIpAllowListEntry
 
 The id of the existing EnterpriseIpAllowListEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -860,7 +860,7 @@ const enterpriseIpAllowListEntryConfig: enterpriseIpAllowListEntry.EnterpriseIpA
 | <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.enterpriseSlug">enterpriseSlug</a></code> | <code>string</code> | The slug of the enterprise to apply the IP allow list entry to. |
 | <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.ip">ip</a></code> | <code>string</code> | An IP address or range of IP addresses in CIDR notation. |
-| <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}. |
+| <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}. |
 | <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.isActive">isActive</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether the entry is currently active. |
 | <code><a href="#@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.property.name">name</a></code> | <code>string</code> | An optional name for the IP allow list entry. |
 
@@ -946,7 +946,7 @@ public readonly enterpriseSlug: string;
 
 The slug of the enterprise to apply the IP allow list entry to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#enterprise_slug EnterpriseIpAllowListEntry#enterprise_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#enterprise_slug EnterpriseIpAllowListEntry#enterprise_slug}
 
 ---
 
@@ -960,7 +960,7 @@ public readonly ip: string;
 
 An IP address or range of IP addresses in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#ip EnterpriseIpAllowListEntry#ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#ip EnterpriseIpAllowListEntry#ip}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#id EnterpriseIpAllowListEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -989,7 +989,7 @@ public readonly isActive: boolean | IResolvable;
 
 Whether the entry is currently active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#is_active EnterpriseIpAllowListEntry#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#is_active EnterpriseIpAllowListEntry#is_active}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly name: string;
 
 An optional name for the IP allow list entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/enterprise_ip_allow_list_entry#name EnterpriseIpAllowListEntry#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/enterprise_ip_allow_list_entry#name EnterpriseIpAllowListEntry#name}
 
 ---
 

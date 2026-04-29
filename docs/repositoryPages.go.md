@@ -4,7 +4,7 @@
 
 ### RepositoryPagesA <a name="RepositoryPagesA" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages github_repository_pages}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages github_repository_pages}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the RepositoryPagesA to import
 
 The id of the existing RepositoryPagesA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -988,7 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
 | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.buildType">BuildType</a></code> | <code>*string</code> | The type of GitHub Pages site to build. Can be 'legacy' or 'workflow'. |
 | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.cname">Cname</a></code> | <code>*string</code> | The custom domain for the repository. |
 | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.httpsEnforced">HttpsEnforced</a></code> | <code>interface{}</code> | Whether the rendered GitHub Pages site will only be served over HTTPS. Requires 'cname' to be set. |
-| <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#id RepositoryPagesA#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#id RepositoryPagesA#id}. |
 | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.public">Public</a></code> | <code>interface{}</code> | Whether the GitHub Pages site is publicly visible. |
 | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.property.source">Source</a></code> | <code><a href="#@cdktn/provider-github.repositoryPages.RepositoryPagesSourceA">RepositoryPagesSourceA</a></code> | source block. |
 
@@ -1074,7 +1074,7 @@ Repository *string
 
 The repository name to configure GitHub Pages for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#repository RepositoryPagesA#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#repository RepositoryPagesA#repository}
 
 ---
 
@@ -1088,7 +1088,7 @@ BuildType *string
 
 The type of GitHub Pages site to build. Can be 'legacy' or 'workflow'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#build_type RepositoryPagesA#build_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#build_type RepositoryPagesA#build_type}
 
 ---
 
@@ -1102,7 +1102,7 @@ Cname *string
 
 The custom domain for the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#cname RepositoryPagesA#cname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#cname RepositoryPagesA#cname}
 
 ---
 
@@ -1116,7 +1116,7 @@ HttpsEnforced interface{}
 
 Whether the rendered GitHub Pages site will only be served over HTTPS. Requires 'cname' to be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#https_enforced RepositoryPagesA#https_enforced}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#https_enforced RepositoryPagesA#https_enforced}
 
 ---
 
@@ -1128,7 +1128,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#id RepositoryPagesA#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#id RepositoryPagesA#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1147,7 +1147,7 @@ Whether the GitHub Pages site is publicly visible.
 
 If set to `true`, the site is accessible to anyone on the internet. If set to `false`, the site will only be accessible to users who have at least `read` access to the repository that published the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#public RepositoryPagesA#public}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#public RepositoryPagesA#public}
 
 ---
 
@@ -1161,7 +1161,7 @@ Source RepositoryPagesSourceA
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#source RepositoryPagesA#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#source RepositoryPagesA#source}
 
 ---
 
@@ -1197,7 +1197,7 @@ Branch *string
 
 The repository branch used to publish the site's source files. (i.e. 'main' or 'gh-pages').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#branch RepositoryPagesA#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#branch RepositoryPagesA#branch}
 
 ---
 
@@ -1211,7 +1211,7 @@ Path *string
 
 The repository directory from which the site publishes (Default: '/').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/repository_pages#path RepositoryPagesA#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_pages#path RepositoryPagesA#path}
 
 ---
 

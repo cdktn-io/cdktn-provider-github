@@ -4,7 +4,7 @@
 
 ### DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate <a name="DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate" id="@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_oidc_subject_claim_customization_template github_actions_organization_oidc_subject_claim_customization_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubActionsOrganizat
 
 The id of the existing DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -621,7 +621,7 @@ const dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig: 
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#id DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate.DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#id DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate#id}. |
 
 ---
 
@@ -703,7 +703,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#id DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_organization_oidc_subject_claim_customization_template#id DataGithubActionsOrganizationOidcSubjectClaimCustomizationTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### TeamMembers <a name="TeamMembers" id="@cdktn/provider-github.teamMembers.TeamMembers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members github_team_members}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members github_team_members}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the TeamMembers to import.
 
 The id of the existing TeamMembers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,7 +793,7 @@ const teamMembersConfig: teamMembers.TeamMembersConfig = { ... }
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.members">members</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>[]</code> | members block. |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId">teamId</a></code> | <code>string</code> | The GitHub team id or slug. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#id TeamMembers#id}. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}. |
 
 ---
 
@@ -877,7 +877,7 @@ public readonly members: IResolvable | TeamMembersMembers[];
 
 members block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#members TeamMembers#members}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#members TeamMembers#members}
 
 ---
 
@@ -891,7 +891,7 @@ public readonly teamId: string;
 
 The GitHub team id or slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#team_id TeamMembers#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#team_id TeamMembers#team_id}
 
 ---
 
@@ -903,7 +903,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#id TeamMembers#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -939,7 +939,7 @@ public readonly username: string;
 
 The user to add to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#username TeamMembers#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#username TeamMembers#username}
 
 ---
 
@@ -953,7 +953,7 @@ public readonly role: string;
 
 The role of the user within the team. Must be one of 'member' or 'maintainer'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/team_members#role TeamMembers#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#role TeamMembers#role}
 
 ---
 

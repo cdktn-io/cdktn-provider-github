@@ -4,7 +4,7 @@
 
 ### DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate <a name="DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate" id="@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template github_actions_repository_oidc_subject_claim_customization_template}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template github_actions_repository_oidc_subject_claim_customization_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubActionsRepositor
 
 The id of the existing DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -664,8 +664,8 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubaction
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#name DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#name}. |
-| <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#id DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#name DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#name}. |
+| <code><a href="#@cdktn/provider-github.dataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate.DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplateConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#id DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#id}. |
 
 ---
 
@@ -747,7 +747,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#name DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#name DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#name}.
 
 ---
 
@@ -759,7 +759,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#id DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/actions_repository_oidc_subject_claim_customization_template#id DataGithubActionsRepositoryOidcSubjectClaimCustomizationTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### OrganizationRoleUser <a name="OrganizationRoleUser" id="@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user github_organization_role_user}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user github_organization_role_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRoleUser.OrganizationRoleUser.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the OrganizationRoleUser to im
 
 The id of the existing OrganizationRoleUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -791,7 +791,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationrole
 | <code><a href="#@cdktn/provider-github.organizationRoleUser.OrganizationRoleUserConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRoleUser.OrganizationRoleUserConfig.property.login">Login</a></code> | <code>*string</code> | The login for the GitHub user account. |
 | <code><a href="#@cdktn/provider-github.organizationRoleUser.OrganizationRoleUserConfig.property.roleId">RoleId</a></code> | <code>*f64</code> | The unique identifier of the organization role. |
-| <code><a href="#@cdktn/provider-github.organizationRoleUser.OrganizationRoleUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user#id OrganizationRoleUser#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRoleUser.OrganizationRoleUserConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user#id OrganizationRoleUser#id}. |
 
 ---
 
@@ -875,7 +875,7 @@ Login *string
 
 The login for the GitHub user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user#login OrganizationRoleUser#login}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user#login OrganizationRoleUser#login}
 
 ---
 
@@ -889,7 +889,7 @@ RoleId *f64
 
 The unique identifier of the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user#role_id OrganizationRoleUser#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user#role_id OrganizationRoleUser#role_id}
 
 ---
 
@@ -901,7 +901,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.0/docs/resources/organization_role_user#id OrganizationRoleUser#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_user#id OrganizationRoleUser#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
