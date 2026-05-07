@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembership.TeamMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 teammembership.NewTeamMembership(scope Construct, id *string, config TeamMembershipConfig) TeamMembership
 ```
@@ -414,7 +414,7 @@ func ResetRole()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.teamMembership.TeamMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 teammembership.TeamMembership_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.teamMembership.TeamMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 teammembership.TeamMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ teammembership.TeamMembership_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.teamMembership.TeamMembership.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 teammembership.TeamMembership_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ teammembership.TeamMembership_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.teamMembership.TeamMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 teammembership.TeamMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.teamMembership.TeamMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembership"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembership"
 
 &teammembership.TeamMembershipConfig {
 	Connection: interface{},

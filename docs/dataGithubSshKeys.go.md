@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 datagithubsshkeys.NewDataGithubSshKeys(scope Construct, id *string, config DataGithubSshKeysConfig) DataGithubSshKeys
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeys.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 datagithubsshkeys.DataGithubSshKeys_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeys.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 datagithubsshkeys.DataGithubSshKeys_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithubsshkeys.DataGithubSshKeys_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeys.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 datagithubsshkeys.DataGithubSshKeys_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubsshkeys.DataGithubSshKeys_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeys.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 datagithubsshkeys.DataGithubSshKeys_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubSshKeys.DataGithubSshKeysConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubsshkeys"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubsshkeys"
 
 &datagithubsshkeys.DataGithubSshKeysConfig {
 	Connection: interface{},

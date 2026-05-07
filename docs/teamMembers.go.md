@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.NewTeamMembers(scope Construct, id *string, config TeamMembersConfig) TeamMembers
 ```
@@ -420,7 +420,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.teamMembers.TeamMembers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.TeamMembers_IsConstruct(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.teamMembers.TeamMembers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.TeamMembers_IsTerraformElement(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ teammembers.TeamMembers_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.teamMembers.TeamMembers.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.TeamMembers_IsTerraformResource(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ teammembers.TeamMembers_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.teamMembers.TeamMembers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.TeamMembers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -775,7 +775,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.teamMembers.TeamMembersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 &teammembers.TeamMembersConfig {
 	Connection: interface{},
@@ -926,7 +926,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.teamMembers.TeamMembersMembers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 &teammembers.TeamMembersMembers {
 	Username: *string,
@@ -978,7 +978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembers.TeamMembersMembersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.NewTeamMembersMembersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) TeamMembersMembersList
 ```
@@ -1138,7 +1138,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembers.TeamMembersMembersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/teammembers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/teammembers"
 
 teammembers.NewTeamMembersMembersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) TeamMembersMembersOutputReference
 ```

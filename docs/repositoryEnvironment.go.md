@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.NewRepositoryEnvironment(scope Construct, id *string, config RepositoryEnvironmentConfig) RepositoryEnvironment
 ```
@@ -468,7 +468,7 @@ func ResetWaitTimer()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.RepositoryEnvironment_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.RepositoryEnvironment_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ repositoryenvironment.RepositoryEnvironment_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.RepositoryEnvironment_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ repositoryenvironment.RepositoryEnvironment_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.RepositoryEnvironment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -944,7 +944,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 &repositoryenvironment.RepositoryEnvironmentConfig {
 	Connection: interface{},
@@ -957,10 +957,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenviro
 	Environment: *string,
 	Repository: *string,
 	CanAdminsBypass: interface{},
-	DeploymentBranchPolicy: github.com/cdktn-io/cdktn-provider-github-go/github/v16.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy,
+	DeploymentBranchPolicy: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy,
 	Id: *string,
 	PreventSelfReview: interface{},
-	Reviewers: github.com/cdktn-io/cdktn-provider-github-go/github/v16.repositoryEnvironment.RepositoryEnvironmentReviewers,
+	Reviewers: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryEnvironment.RepositoryEnvironmentReviewers,
 	WaitTimer: *f64,
 }
 ```
@@ -1175,7 +1175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 &repositoryenvironment.RepositoryEnvironmentDeploymentBranchPolicy {
 	CustomBranchPolicies: interface{},
@@ -1225,7 +1225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 &repositoryenvironment.RepositoryEnvironmentReviewers {
 	Teams: *[]*f64,
@@ -1281,7 +1281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentDeploymentBranchPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.NewRepositoryEnvironmentDeploymentBranchPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryEnvironmentDeploymentBranchPolicyOutputReference
 ```
@@ -1574,7 +1574,7 @@ func InternalValue() RepositoryEnvironmentDeploymentBranchPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryEnvironment.RepositoryEnvironmentReviewersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositoryenvironment"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryenvironment"
 
 repositoryenvironment.NewRepositoryEnvironmentReviewersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryEnvironmentReviewersOutputReference
 ```

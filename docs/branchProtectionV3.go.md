@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.NewBranchProtectionV3(scope Construct, id *string, config BranchProtectionV3Config) BranchProtectionV3
 ```
@@ -488,7 +488,7 @@ func ResetRestrictions()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.BranchProtectionV3_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.BranchProtectionV3_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ branchprotectionv3.BranchProtectionV3_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.BranchProtectionV3_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ branchprotectionv3.BranchProtectionV3_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.BranchProtectionV3_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -986,7 +986,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 &branchprotectionv3.BranchProtectionV3Config {
 	Connection: interface{},
@@ -1001,10 +1001,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotection
 	EnforceAdmins: interface{},
 	Id: *string,
 	RequireConversationResolution: interface{},
-	RequiredPullRequestReviews: github.com/cdktn-io/cdktn-provider-github-go/github/v16.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviews,
-	RequiredStatusChecks: github.com/cdktn-io/cdktn-provider-github-go/github/v16.branchProtectionV3.BranchProtectionV3RequiredStatusChecks,
+	RequiredPullRequestReviews: github.com/cdktn-io/cdktn-provider-github-go/github/v17.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviews,
+	RequiredStatusChecks: github.com/cdktn-io/cdktn-provider-github-go/github/v17.branchProtectionV3.BranchProtectionV3RequiredStatusChecks,
 	RequireSignedCommits: interface{},
-	Restrictions: github.com/cdktn-io/cdktn-provider-github-go/github/v16.branchProtectionV3.BranchProtectionV3Restrictions,
+	Restrictions: github.com/cdktn-io/cdktn-provider-github-go/github/v17.branchProtectionV3.BranchProtectionV3Restrictions,
 }
 ```
 
@@ -1233,10 +1233,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviews.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 &branchprotectionv3.BranchProtectionV3RequiredPullRequestReviews {
-	BypassPullRequestAllowances: github.com/cdktn-io/cdktn-provider-github-go/github/v16.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances,
+	BypassPullRequestAllowances: github.com/cdktn-io/cdktn-provider-github-go/github/v17.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances,
 	DismissalApps: *[]*string,
 	DismissalTeams: *[]*string,
 	DismissalUsers: *[]*string,
@@ -1399,7 +1399,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 &branchprotectionv3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances {
 	Apps: *[]*string,
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 &branchprotectionv3.BranchProtectionV3RequiredStatusChecks {
 	Checks: *[]*string,
@@ -1539,7 +1539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3Restrictions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 &branchprotectionv3.BranchProtectionV3Restrictions {
 	Apps: *[]*string,
@@ -1609,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.NewBranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference
 ```
@@ -1945,7 +1945,7 @@ func InternalValue() BranchProtectionV3RequiredPullRequestReviewsBypassPullReque
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredPullRequestReviewsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.NewBranchProtectionV3RequiredPullRequestReviewsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RequiredPullRequestReviewsOutputReference
 ```
@@ -2468,7 +2468,7 @@ func InternalValue() BranchProtectionV3RequiredPullRequestReviews
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RequiredStatusChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.NewBranchProtectionV3RequiredStatusChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RequiredStatusChecksOutputReference
 ```
@@ -2833,7 +2833,7 @@ func InternalValue() BranchProtectionV3RequiredStatusChecks
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchProtectionV3.BranchProtectionV3RestrictionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/branchprotectionv3"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchprotectionv3"
 
 branchprotectionv3.NewBranchProtectionV3RestrictionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) BranchProtectionV3RestrictionsOutputReference
 ```

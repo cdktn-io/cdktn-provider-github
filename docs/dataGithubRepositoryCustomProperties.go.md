@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.NewDataGithubRepositoryCustomProperties(scope Construct, id *string, config DataGithubRepositoryCustomPropertiesConfig) DataGithubRepositoryCustomProperties
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomProperties.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.DataGithubRepositoryCustomProperties_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -627,7 +627,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 &datagithubrepositorycustomproperties.DataGithubRepositoryCustomPropertiesConfig {
 	Connection: interface{},
@@ -762,7 +762,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesProperty.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 &datagithubrepositorycustomproperties.DataGithubRepositoryCustomPropertiesProperty {
 
@@ -777,7 +777,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreposi
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.NewDataGithubRepositoryCustomPropertiesPropertyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryCustomPropertiesPropertyList
 ```
@@ -926,7 +926,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryCustomProperties.DataGithubRepositoryCustomPropertiesPropertyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorycustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorycustomproperties"
 
 datagithubrepositorycustomproperties.NewDataGithubRepositoryCustomPropertiesPropertyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryCustomPropertiesPropertyOutputReference
 ```

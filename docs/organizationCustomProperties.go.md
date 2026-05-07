@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 organizationcustomproperties.NewOrganizationCustomProperties(scope Construct, id *string, config OrganizationCustomPropertiesConfig) OrganizationCustomProperties
 ```
@@ -449,7 +449,7 @@ func ResetValueType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 organizationcustomproperties.OrganizationCustomProperties_IsConstruct(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 organizationcustomproperties.OrganizationCustomProperties_IsTerraformElement(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ organizationcustomproperties.OrganizationCustomProperties_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 organizationcustomproperties.OrganizationCustomProperties_IsTerraformResource(x interface{}) *bool
 ```
@@ -509,7 +509,7 @@ organizationcustomproperties.OrganizationCustomProperties_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomProperties.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 organizationcustomproperties.OrganizationCustomProperties_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -914,7 +914,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.organizationCustomProperties.OrganizationCustomPropertiesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/organizationcustomproperties"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/organizationcustomproperties"
 
 &organizationcustomproperties.OrganizationCustomPropertiesConfig {
 	Connection: interface{},

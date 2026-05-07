@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.NewDataGithubOrganizationSecurityManagers(scope Construct, id *string, config DataGithubOrganizationSecurityManagersConfig) DataGithubOrganizationSecurityManagers
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagers.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagers_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 &datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagersConfig {
 	Connection: interface{},
@@ -724,7 +724,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 &datagithuborganizationsecuritymanagers.DataGithubOrganizationSecurityManagersTeams {
 
@@ -739,7 +739,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborgani
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.NewDataGithubOrganizationSecurityManagersTeamsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationSecurityManagersTeamsList
 ```
@@ -888,7 +888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationSecurityManagers.DataGithubOrganizationSecurityManagersTeamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationsecuritymanagers"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationsecuritymanagers"
 
 datagithuborganizationsecuritymanagers.NewDataGithubOrganizationSecurityManagersTeamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubOrganizationSecurityManagersTeamsOutputReference
 ```

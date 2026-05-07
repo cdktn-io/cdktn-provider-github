@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.NewDataGithubExternalGroups(scope Construct, id *string, config DataGithubExternalGroupsConfig) DataGithubExternalGroups
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.DataGithubExternalGroups_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.DataGithubExternalGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithubexternalgroups.DataGithubExternalGroups_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.DataGithubExternalGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubexternalgroups.DataGithubExternalGroups_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.DataGithubExternalGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 &datagithubexternalgroups.DataGithubExternalGroupsConfig {
 	Connection: interface{},
@@ -724,7 +724,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 &datagithubexternalgroups.DataGithubExternalGroupsExternalGroups {
 
@@ -739,7 +739,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubextern
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.NewDataGithubExternalGroupsExternalGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubExternalGroupsExternalGroupsList
 ```
@@ -888,7 +888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubExternalGroups.DataGithubExternalGroupsExternalGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubexternalgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubexternalgroups"
 
 datagithubexternalgroups.NewDataGithubExternalGroupsExternalGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubExternalGroupsExternalGroupsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.NewDataGithubDependabotSecrets(scope Construct, id *string, config DataGithubDependabotSecretsConfig) DataGithubDependabotSecrets
 ```
@@ -319,7 +319,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.DataGithubDependabotSecrets_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.DataGithubDependabotSecrets_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubdependabotsecrets.DataGithubDependabotSecrets_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.DataGithubDependabotSecrets_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagithubdependabotsecrets.DataGithubDependabotSecrets_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecrets.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.DataGithubDependabotSecrets_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -663,7 +663,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 &datagithubdependabotsecrets.DataGithubDependabotSecretsConfig {
 	Connection: interface{},
@@ -810,7 +810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecrets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 &datagithubdependabotsecrets.DataGithubDependabotSecretsSecrets {
 
@@ -825,7 +825,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdepend
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.NewDataGithubDependabotSecretsSecretsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubDependabotSecretsSecretsList
 ```
@@ -974,7 +974,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubDependabotSecrets.DataGithubDependabotSecretsSecretsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubdependabotsecrets"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubdependabotsecrets"
 
 datagithubdependabotsecrets.NewDataGithubDependabotSecretsSecretsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubDependabotSecretsSecretsOutputReference
 ```

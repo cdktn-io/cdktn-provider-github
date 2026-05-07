@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.NewDataGithubRepositoryPullRequests(scope Construct, id *string, config DataGithubRepositoryPullRequestsConfig) DataGithubRepositoryPullRequests
 ```
@@ -347,7 +347,7 @@ func ResetState()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_IsConstruct(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_IsTerraformElement(x interface{}) *bool
 ```
@@ -393,7 +393,7 @@ datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -407,7 +407,7 @@ datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequests.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.DataGithubRepositoryPullRequests_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -801,7 +801,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 &datagithubrepositorypullrequests.DataGithubRepositoryPullRequestsConfig {
 	Connection: interface{},
@@ -1018,7 +1018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResults.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 &datagithubrepositorypullrequests.DataGithubRepositoryPullRequestsResults {
 
@@ -1033,7 +1033,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreposi
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.NewDataGithubRepositoryPullRequestsResultsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryPullRequestsResultsList
 ```
@@ -1182,7 +1182,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryPullRequests.DataGithubRepositoryPullRequestsResultsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorypullrequests"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorypullrequests"
 
 datagithubrepositorypullrequests.NewDataGithubRepositoryPullRequestsResultsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryPullRequestsResultsOutputReference
 ```

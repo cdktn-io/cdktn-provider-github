@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.NewDataGithubOrganizationRoles(scope Construct, id *string, config DataGithubOrganizationRolesConfig) DataGithubOrganizationRoles
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.DataGithubOrganizationRoles_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.DataGithubOrganizationRoles_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithuborganizationroles.DataGithubOrganizationRoles_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.DataGithubOrganizationRoles_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithuborganizationroles.DataGithubOrganizationRoles_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRoles.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.DataGithubOrganizationRoles_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 &datagithuborganizationroles.DataGithubOrganizationRolesConfig {
 	Connection: interface{},
@@ -724,7 +724,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRoles.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 &datagithuborganizationroles.DataGithubOrganizationRolesRoles {
 
@@ -739,7 +739,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborgani
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.NewDataGithubOrganizationRolesRolesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationRolesRolesList
 ```
@@ -888,7 +888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationRoles.DataGithubOrganizationRolesRolesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationroles"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationroles"
 
 datagithuborganizationroles.NewDataGithubOrganizationRolesRolesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubOrganizationRolesRolesOutputReference
 ```

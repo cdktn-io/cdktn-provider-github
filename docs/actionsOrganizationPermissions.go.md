@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.NewActionsOrganizationPermissions(scope Construct, id *string, config ActionsOrganizationPermissionsConfig) ActionsOrganizationPermissions
 ```
@@ -461,7 +461,7 @@ func ResetShaPinningRequired()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.ActionsOrganizationPermissions_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.ActionsOrganizationPermissions_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ actionsorganizationpermissions.ActionsOrganizationPermissions_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.ActionsOrganizationPermissions_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ actionsorganizationpermissions.ActionsOrganizationPermissions_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.ActionsOrganizationPermissions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -882,7 +882,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 &actionsorganizationpermissions.ActionsOrganizationPermissionsAllowedActionsConfig {
 	GithubOwnedAllowed: interface{},
@@ -952,7 +952,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 &actionsorganizationpermissions.ActionsOrganizationPermissionsConfig {
 	Connection: interface{},
@@ -964,8 +964,8 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizat
 	Provisioners: *[]interface{},
 	EnabledRepositories: *string,
 	AllowedActions: *string,
-	AllowedActionsConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v16.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfig,
-	EnabledRepositoriesConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v16.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig,
+	AllowedActionsConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v17.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfig,
+	EnabledRepositoriesConfig: github.com/cdktn-io/cdktn-provider-github-go/github/v17.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig,
 	Id: *string,
 	ShaPinningRequired: interface{},
 }
@@ -1155,7 +1155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 &actionsorganizationpermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfig {
 	RepositoryIds: *[]*f64,
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsAllowedActionsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.NewActionsOrganizationPermissionsAllowedActionsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ActionsOrganizationPermissionsAllowedActionsConfigOutputReference
 ```
@@ -1520,7 +1520,7 @@ func InternalValue() ActionsOrganizationPermissionsAllowedActionsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationPermissions.ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationpermissions"
 
 actionsorganizationpermissions.NewActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ActionsOrganizationPermissionsEnabledRepositoriesConfigOutputReference
 ```

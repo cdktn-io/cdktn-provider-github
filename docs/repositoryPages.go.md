@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.NewRepositoryPagesA(scope Construct, id *string, config RepositoryPagesAConfig) RepositoryPagesA
 ```
@@ -455,7 +455,7 @@ func ResetSource()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.RepositoryPagesA_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.RepositoryPagesA_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ repositorypages.RepositoryPagesA_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.RepositoryPagesA_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ repositorypages.RepositoryPagesA_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repositoryPages.RepositoryPagesA.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.RepositoryPagesA_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -953,7 +953,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryPages.RepositoryPagesAConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 &repositorypages.RepositoryPagesAConfig {
 	Connection: interface{},
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
 	HttpsEnforced: interface{},
 	Id: *string,
 	Public: interface{},
-	Source: github.com/cdktn-io/cdktn-provider-github-go/github/v16.repositoryPages.RepositoryPagesSourceA,
+	Source: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryPages.RepositoryPagesSourceA,
 }
 ```
 
@@ -1170,7 +1170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryPages.RepositoryPagesSourceA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 &repositorypages.RepositoryPagesSourceA {
 	Branch: *string,
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryPages.RepositoryPagesSourceAOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/repositorypages"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorypages"
 
 repositorypages.NewRepositoryPagesSourceAOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryPagesSourceAOutputReference
 ```
