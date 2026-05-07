@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.NewDataGithubOrganizationTeamSyncGroups(scope Construct, id *string, config DataGithubOrganizationTeamSyncGroupsConfig) DataGithubOrganizationTeamSyncGroups
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroups.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroups.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_IsTerr
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroups.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroups.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroups_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroupsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 &datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroupsConfig {
 	Connection: interface{},
@@ -724,7 +724,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroupsGroups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 &datagithuborganizationteamsyncgroups.DataGithubOrganizationTeamSyncGroupsGroups {
 
@@ -739,7 +739,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborgani
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroupsGroupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.NewDataGithubOrganizationTeamSyncGroupsGroupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationTeamSyncGroupsGroupsList
 ```
@@ -888,7 +888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationTeamSyncGroups.DataGithubOrganizationTeamSyncGroupsGroupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationteamsyncgroups"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationteamsyncgroups"
 
 datagithuborganizationteamsyncgroups.NewDataGithubOrganizationTeamSyncGroupsGroupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubOrganizationTeamSyncGroupsGroupsOutputReference
 ```

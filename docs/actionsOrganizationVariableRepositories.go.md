@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 actionsorganizationvariablerepositories.NewActionsOrganizationVariableRepositories(scope Construct, id *string, config ActionsOrganizationVariableRepositoriesConfig) ActionsOrganizationVariableRepositories
 ```
@@ -407,7 +407,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositories_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -762,7 +762,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationvariablerepositories"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationvariablerepositories"
 
 &actionsorganizationvariablerepositories.ActionsOrganizationVariableRepositoriesConfig {
 	Connection: interface{},

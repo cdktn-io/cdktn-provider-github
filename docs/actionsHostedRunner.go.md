@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunner(scope Construct, id *string, config ActionsHostedRunnerConfig) ActionsHostedRunner
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.ActionsHostedRunner_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.ActionsHostedRunner_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ actionshostedrunner.ActionsHostedRunner_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.ActionsHostedRunner_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ actionshostedrunner.ActionsHostedRunner_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunner.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.ActionsHostedRunner_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1014,7 +1014,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 &actionshostedrunner.ActionsHostedRunnerConfig {
 	Connection: interface{},
@@ -1024,7 +1024,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrun
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	Image: github.com/cdktn-io/cdktn-provider-github-go/github/v16.actionsHostedRunner.ActionsHostedRunnerImage,
+	Image: github.com/cdktn-io/cdktn-provider-github-go/github/v17.actionsHostedRunner.ActionsHostedRunnerImage,
 	Name: *string,
 	RunnerGroupId: *f64,
 	Size: *string,
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrun
 	ImageVersion: *string,
 	MaximumRunners: *f64,
 	PublicIpEnabled: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-github-go/github/v16.actionsHostedRunner.ActionsHostedRunnerTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-github-go/github/v17.actionsHostedRunner.ActionsHostedRunnerTimeouts,
 }
 ```
 
@@ -1262,7 +1262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 &actionshostedrunner.ActionsHostedRunnerImage {
 	Id: *string,
@@ -1315,7 +1315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 &actionshostedrunner.ActionsHostedRunnerMachineSizeDetails {
 
@@ -1328,7 +1328,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrun
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 &actionshostedrunner.ActionsHostedRunnerPublicIps {
 
@@ -1341,7 +1341,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrun
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 &actionshostedrunner.ActionsHostedRunnerTimeouts {
 	Delete: *string,
@@ -1375,7 +1375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ActionsHostedRunnerImageOutputReference
 ```
@@ -1686,7 +1686,7 @@ func InternalValue() ActionsHostedRunnerImage
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerMachineSizeDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ActionsHostedRunnerMachineSizeDetailsList
 ```
@@ -1835,7 +1835,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerMachineSizeDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerMachineSizeDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ActionsHostedRunnerMachineSizeDetailsOutputReference
 ```
@@ -2146,7 +2146,7 @@ func InternalValue() ActionsHostedRunnerMachineSizeDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerPublicIpsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ActionsHostedRunnerPublicIpsList
 ```
@@ -2295,7 +2295,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerPublicIpsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerPublicIpsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ActionsHostedRunnerPublicIpsOutputReference
 ```
@@ -2595,7 +2595,7 @@ func InternalValue() ActionsHostedRunnerPublicIps
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsHostedRunner.ActionsHostedRunnerTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionshostedrunner"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionshostedrunner"
 
 actionshostedrunner.NewActionsHostedRunnerTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ActionsHostedRunnerTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.NewDataGithubRepositoryBranches(scope Construct, id *string, config DataGithubRepositoryBranchesConfig) DataGithubRepositoryBranches
 ```
@@ -319,7 +319,7 @@ func ResetOnlyProtectedBranches()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.DataGithubRepositoryBranches_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.DataGithubRepositoryBranches_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubrepositorybranches.DataGithubRepositoryBranches_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.DataGithubRepositoryBranches_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagithubrepositorybranches.DataGithubRepositoryBranches_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranches.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.DataGithubRepositoryBranches_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -685,7 +685,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranches.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 &datagithubrepositorybranches.DataGithubRepositoryBranchesBranches {
 
@@ -698,7 +698,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreposi
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 &datagithubrepositorybranches.DataGithubRepositoryBranchesConfig {
 	Connection: interface{},
@@ -861,7 +861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.NewDataGithubRepositoryBranchesBranchesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubRepositoryBranchesBranchesList
 ```
@@ -1010,7 +1010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryBranches.DataGithubRepositoryBranchesBranchesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositorybranches"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositorybranches"
 
 datagithubrepositorybranches.NewDataGithubRepositoryBranchesBranchesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubRepositoryBranchesBranchesOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.NewDataGithubActionsEnvironmentVariables(scope Construct, id *string, config DataGithubActionsEnvironmentVariablesConfig) DataGithubActionsEnvironmentVariables
 ```
@@ -319,7 +319,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariables.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariables_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -685,7 +685,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariablesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 &datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariablesConfig {
 	Connection: interface{},
@@ -846,7 +846,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariablesVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 &datagithubactionsenvironmentvariables.DataGithubActionsEnvironmentVariablesVariables {
 
@@ -861,7 +861,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubaction
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariablesVariablesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.NewDataGithubActionsEnvironmentVariablesVariablesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubActionsEnvironmentVariablesVariablesList
 ```
@@ -1010,7 +1010,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubActionsEnvironmentVariables.DataGithubActionsEnvironmentVariablesVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubactionsenvironmentvariables"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubactionsenvironmentvariables"
 
 datagithubactionsenvironmentvariables.NewDataGithubActionsEnvironmentVariablesVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubActionsEnvironmentVariablesVariablesOutputReference
 ```

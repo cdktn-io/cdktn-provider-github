@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.NewDataGithubBranchProtectionRules(scope Construct, id *string, config DataGithubBranchProtectionRulesConfig) DataGithubBranchProtectionRules
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.DataGithubBranchProtectionRules_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.DataGithubBranchProtectionRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithubbranchprotectionrules.DataGithubBranchProtectionRules_IsTerraformEleme
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.DataGithubBranchProtectionRules_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithubbranchprotectionrules.DataGithubBranchProtectionRules_IsTerraformDataS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.DataGithubBranchProtectionRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -627,7 +627,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 &datagithubbranchprotectionrules.DataGithubBranchProtectionRulesConfig {
 	Connection: interface{},
@@ -760,7 +760,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 &datagithubbranchprotectionrules.DataGithubBranchProtectionRulesRules {
 
@@ -775,7 +775,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranch
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.NewDataGithubBranchProtectionRulesRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubBranchProtectionRulesRulesList
 ```
@@ -924,7 +924,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubBranchProtectionRules.DataGithubBranchProtectionRulesRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubbranchprotectionrules"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubbranchprotectionrules"
 
 datagithubbranchprotectionrules.NewDataGithubBranchProtectionRulesRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubBranchProtectionRulesRulesOutputReference
 ```

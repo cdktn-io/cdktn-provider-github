@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 datagithubreleaseasset.NewDataGithubReleaseAsset(scope Construct, id *string, config DataGithubReleaseAssetConfig) DataGithubReleaseAsset
 ```
@@ -312,7 +312,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 datagithubreleaseasset.DataGithubReleaseAsset_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 datagithubreleaseasset.DataGithubReleaseAsset_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagithubreleaseasset.DataGithubReleaseAsset_IsTerraformElement(x interface{}) 
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 datagithubreleaseasset.DataGithubReleaseAsset_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagithubreleaseasset.DataGithubReleaseAsset_IsTerraformDataSource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAsset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 datagithubreleaseasset.DataGithubReleaseAsset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -799,7 +799,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubReleaseAsset.DataGithubReleaseAssetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubreleaseasset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubreleaseasset"
 
 &datagithubreleaseasset.DataGithubReleaseAssetConfig {
 	Connection: interface{},

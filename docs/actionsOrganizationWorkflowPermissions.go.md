@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 actionsorganizationworkflowpermissions.NewActionsOrganizationWorkflowPermissions(scope Construct, id *string, config ActionsOrganizationWorkflowPermissionsConfig) ActionsOrganizationWorkflowPermissions
 ```
@@ -421,7 +421,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissions.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissions_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -798,7 +798,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.actionsOrganizationWorkflowPermissions.ActionsOrganizationWorkflowPermissionsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/actionsorganizationworkflowpermissions"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/actionsorganizationworkflowpermissions"
 
 &actionsorganizationworkflowpermissions.ActionsOrganizationWorkflowPermissionsConfig {
 	Connection: interface{},

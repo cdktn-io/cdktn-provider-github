@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 datagithubrepositoryfile.NewDataGithubRepositoryFile(scope Construct, id *string, config DataGithubRepositoryFileConfig) DataGithubRepositoryFile
 ```
@@ -312,7 +312,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 datagithubrepositoryfile.DataGithubRepositoryFile_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 datagithubrepositoryfile.DataGithubRepositoryFile_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagithubrepositoryfile.DataGithubRepositoryFile_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 datagithubrepositoryfile.DataGithubRepositoryFile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagithubrepositoryfile.DataGithubRepositoryFile_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 datagithubrepositoryfile.DataGithubRepositoryFile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -744,7 +744,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubRepositoryFile.DataGithubRepositoryFileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithubrepositoryfile"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithubrepositoryfile"
 
 &datagithubrepositoryfile.DataGithubRepositoryFileConfig {
 	Connection: interface{},

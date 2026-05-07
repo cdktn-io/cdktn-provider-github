@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.NewDataGithubOrganizationAppInstallations(scope Construct, id *string, config DataGithubOrganizationAppInstallationsConfig) DataGithubOrganizationAppInstallations
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallations.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallations.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallations.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallations.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.DataGithubOrganizationAppInstallations_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -605,7 +605,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallationsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 &datagithuborganizationappinstallations.DataGithubOrganizationAppInstallationsConfig {
 	Connection: interface{},
@@ -724,7 +724,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallationsInstallations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 &datagithuborganizationappinstallations.DataGithubOrganizationAppInstallationsInstallations {
 
@@ -739,7 +739,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborgani
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallationsInstallationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.NewDataGithubOrganizationAppInstallationsInstallationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGithubOrganizationAppInstallationsInstallationsList
 ```
@@ -888,7 +888,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubOrganizationAppInstallations.DataGithubOrganizationAppInstallationsInstallationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/datagithuborganizationappinstallations"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/datagithuborganizationappinstallations"
 
 datagithuborganizationappinstallations.NewDataGithubOrganizationAppInstallationsInstallationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGithubOrganizationAppInstallationsInstallationsOutputReference
 ```

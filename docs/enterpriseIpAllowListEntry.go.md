@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 enterpriseipallowlistentry.NewEnterpriseIpAllowListEntry(scope Construct, id *string, config EnterpriseIpAllowListEntryConfig) EnterpriseIpAllowListEntry
 ```
@@ -421,7 +421,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 enterpriseipallowlistentry.EnterpriseIpAllowListEntry_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 enterpriseipallowlistentry.EnterpriseIpAllowListEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ enterpriseipallowlistentry.EnterpriseIpAllowListEntry_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 enterpriseipallowlistentry.EnterpriseIpAllowListEntry_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ enterpriseipallowlistentry.EnterpriseIpAllowListEntry_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 enterpriseipallowlistentry.EnterpriseIpAllowListEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.enterpriseIpAllowListEntry.EnterpriseIpAllowListEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterpriseipallowlistentry"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterpriseipallowlistentry"
 
 &enterpriseipallowlistentry.EnterpriseIpAllowListEntryConfig {
 	Connection: interface{},

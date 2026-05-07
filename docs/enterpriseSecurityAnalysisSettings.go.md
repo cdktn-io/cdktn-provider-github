@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 enterprisesecurityanalysissettings.NewEnterpriseSecurityAnalysisSettings(scope Construct, id *string, config EnterpriseSecurityAnalysisSettingsConfig) EnterpriseSecurityAnalysisSettings
 ```
@@ -442,7 +442,7 @@ func ResetSecretScanningValidityChecksEnabled()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_IsConstruct(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -502,7 +502,7 @@ enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -885,7 +885,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.enterpriseSecurityAnalysisSettings.EnterpriseSecurityAnalysisSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v16/enterprisesecurityanalysissettings"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/enterprisesecurityanalysissettings"
 
 &enterprisesecurityanalysissettings.EnterpriseSecurityAnalysisSettingsConfig {
 	Connection: interface{},
