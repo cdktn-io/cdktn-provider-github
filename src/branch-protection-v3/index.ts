@@ -86,7 +86,7 @@ export interface BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAl
 export function branchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesToTerraform(struct?: BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference | BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     apps: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.apps),
@@ -99,7 +99,7 @@ export function branchProtectionV3RequiredPullRequestReviewsBypassPullRequestAll
 export function branchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesToHclTerraform(struct?: BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowancesOutputReference | BranchProtectionV3RequiredPullRequestReviewsBypassPullRequestAllowances): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     apps: {
@@ -276,7 +276,7 @@ export interface BranchProtectionV3RequiredPullRequestReviews {
 export function branchProtectionV3RequiredPullRequestReviewsToTerraform(struct?: BranchProtectionV3RequiredPullRequestReviewsOutputReference | BranchProtectionV3RequiredPullRequestReviews): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dismiss_stale_reviews: cdktn.booleanToTerraform(struct!.dismissStaleReviews),
@@ -295,7 +295,7 @@ export function branchProtectionV3RequiredPullRequestReviewsToTerraform(struct?:
 export function branchProtectionV3RequiredPullRequestReviewsToHclTerraform(struct?: BranchProtectionV3RequiredPullRequestReviewsOutputReference | BranchProtectionV3RequiredPullRequestReviews): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dismiss_stale_reviews: {
@@ -608,7 +608,7 @@ export interface BranchProtectionV3RequiredStatusChecks {
 export function branchProtectionV3RequiredStatusChecksToTerraform(struct?: BranchProtectionV3RequiredStatusChecksOutputReference | BranchProtectionV3RequiredStatusChecks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     checks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.checks),
@@ -622,7 +622,7 @@ export function branchProtectionV3RequiredStatusChecksToTerraform(struct?: Branc
 export function branchProtectionV3RequiredStatusChecksToHclTerraform(struct?: BranchProtectionV3RequiredStatusChecksOutputReference | BranchProtectionV3RequiredStatusChecks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     checks: {
@@ -793,7 +793,7 @@ export interface BranchProtectionV3Restrictions {
 export function branchProtectionV3RestrictionsToTerraform(struct?: BranchProtectionV3RestrictionsOutputReference | BranchProtectionV3Restrictions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     apps: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.apps),
@@ -806,7 +806,7 @@ export function branchProtectionV3RestrictionsToTerraform(struct?: BranchProtect
 export function branchProtectionV3RestrictionsToHclTerraform(struct?: BranchProtectionV3RestrictionsOutputReference | BranchProtectionV3Restrictions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     apps: {

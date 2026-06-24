@@ -34,7 +34,7 @@ export interface DataGithubRepositoryTeamsTeams {
 export function dataGithubRepositoryTeamsTeamsToTerraform(struct?: DataGithubRepositoryTeamsTeams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -44,7 +44,7 @@ export function dataGithubRepositoryTeamsTeamsToTerraform(struct?: DataGithubRep
 export function dataGithubRepositoryTeamsTeamsToHclTerraform(struct?: DataGithubRepositoryTeamsTeams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };

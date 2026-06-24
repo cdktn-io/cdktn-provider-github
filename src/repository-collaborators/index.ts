@@ -56,7 +56,7 @@ export interface RepositoryCollaboratorsIgnoreTeam {
 export function repositoryCollaboratorsIgnoreTeamToTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     team_id: cdktn.stringToTerraform(struct!.teamId),
@@ -67,7 +67,7 @@ export function repositoryCollaboratorsIgnoreTeamToTerraform(struct?: Repository
 export function repositoryCollaboratorsIgnoreTeamToHclTerraform(struct?: RepositoryCollaboratorsIgnoreTeam | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     team_id: {
@@ -175,7 +175,7 @@ export interface RepositoryCollaboratorsTeam {
 export function repositoryCollaboratorsTeamToTerraform(struct?: RepositoryCollaboratorsTeam | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     permission: cdktn.stringToTerraform(struct!.permission),
@@ -187,7 +187,7 @@ export function repositoryCollaboratorsTeamToTerraform(struct?: RepositoryCollab
 export function repositoryCollaboratorsTeamToHclTerraform(struct?: RepositoryCollaboratorsTeam | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     permission: {
@@ -323,7 +323,7 @@ export interface RepositoryCollaboratorsUser {
 export function repositoryCollaboratorsUserToTerraform(struct?: RepositoryCollaboratorsUser | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     permission: cdktn.stringToTerraform(struct!.permission),
@@ -335,7 +335,7 @@ export function repositoryCollaboratorsUserToTerraform(struct?: RepositoryCollab
 export function repositoryCollaboratorsUserToHclTerraform(struct?: RepositoryCollaboratorsUser | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     permission: {

@@ -56,7 +56,7 @@ export interface IssueLabelsLabel {
 export function issueLabelsLabelToTerraform(struct?: IssueLabelsLabel | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -69,7 +69,7 @@ export function issueLabelsLabelToTerraform(struct?: IssueLabelsLabel | cdktn.IR
 export function issueLabelsLabelToHclTerraform(struct?: IssueLabelsLabel | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
