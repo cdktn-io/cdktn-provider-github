@@ -78,7 +78,7 @@ export interface RepositoryWebhookConfiguration {
 export function repositoryWebhookConfigurationToTerraform(struct?: RepositoryWebhookConfigurationOutputReference | RepositoryWebhookConfiguration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     content_type: cdktn.stringToTerraform(struct!.contentType),
@@ -92,7 +92,7 @@ export function repositoryWebhookConfigurationToTerraform(struct?: RepositoryWeb
 export function repositoryWebhookConfigurationToHclTerraform(struct?: RepositoryWebhookConfigurationOutputReference | RepositoryWebhookConfiguration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     content_type: {
