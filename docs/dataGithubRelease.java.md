@@ -4,7 +4,7 @@
 
 ### DataGithubRelease <a name="DataGithubRelease" id="@cdktn/provider-github.dataGithubRelease.DataGithubRelease"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release github_release}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release github_release}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer"></a>
 
@@ -42,7 +42,7 @@ DataGithubRelease.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.owner">owner</a></code> | <code>java.lang.String</code> | Owner of the repository. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository to retrieve the release from. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.retrieveBy">retrieveBy</a></code> | <code>java.lang.String</code> | Describes how to fetch the release. Valid values are `id`, `tag`, `latest`. |
-| <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#id DataGithubRelease#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#id DataGithubRelease#id}. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.releaseId">releaseId</a></code> | <code>java.lang.Number</code> | ID of the release to retrieve. Must be specified when `retrieve_by` = `id`. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubRelease.Initializer.parameter.releaseTag">releaseTag</a></code> | <code>java.lang.String</code> | ID of the release to retrieve. Must be specified when `retrieve_by` = `tag`. |
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 Owner of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#owner DataGithubRelease#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#owner DataGithubRelease#owner}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the repository to retrieve the release from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#repository DataGithubRelease#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#repository DataGithubRelease#repository}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Describes how to fetch the release. Valid values are `id`, `tag`, `latest`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#retrieve_by DataGithubRelease#retrieve_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#retrieve_by DataGithubRelease#retrieve_by}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#id DataGithubRelease#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#id DataGithubRelease#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ID of the release to retrieve. Must be specified when `retrieve_by` = `id`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#release_id DataGithubRelease#release_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#release_id DataGithubRelease#release_id}
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 ID of the release to retrieve. Must be specified when `retrieve_by` = `tag`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#release_tag DataGithubRelease#release_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#release_tag DataGithubRelease#release_tag}
 
 ---
 
@@ -531,7 +531,7 @@ The construct id used in the generated config for the DataGithubRelease to impor
 
 The id of the existing DataGithubRelease that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1051,7 +1051,7 @@ DataGithubReleaseConfig.builder()
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.owner">owner</a></code> | <code>java.lang.String</code> | Owner of the repository. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository to retrieve the release from. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.retrieveBy">retrieveBy</a></code> | <code>java.lang.String</code> | Describes how to fetch the release. Valid values are `id`, `tag`, `latest`. |
-| <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#id DataGithubRelease#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#id DataGithubRelease#id}. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.releaseId">releaseId</a></code> | <code>java.lang.Number</code> | ID of the release to retrieve. Must be specified when `retrieve_by` = `id`. |
 | <code><a href="#@cdktn/provider-github.dataGithubRelease.DataGithubReleaseConfig.property.releaseTag">releaseTag</a></code> | <code>java.lang.String</code> | ID of the release to retrieve. Must be specified when `retrieve_by` = `tag`. |
 
@@ -1137,7 +1137,7 @@ public java.lang.String getOwner();
 
 Owner of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#owner DataGithubRelease#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#owner DataGithubRelease#owner}
 
 ---
 
@@ -1151,7 +1151,7 @@ public java.lang.String getRepository();
 
 Name of the repository to retrieve the release from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#repository DataGithubRelease#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#repository DataGithubRelease#repository}
 
 ---
 
@@ -1165,7 +1165,7 @@ public java.lang.String getRetrieveBy();
 
 Describes how to fetch the release. Valid values are `id`, `tag`, `latest`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#retrieve_by DataGithubRelease#retrieve_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#retrieve_by DataGithubRelease#retrieve_by}
 
 ---
 
@@ -1177,7 +1177,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#id DataGithubRelease#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#id DataGithubRelease#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1194,7 +1194,7 @@ public java.lang.Number getReleaseId();
 
 ID of the release to retrieve. Must be specified when `retrieve_by` = `id`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#release_id DataGithubRelease#release_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#release_id DataGithubRelease#release_id}
 
 ---
 
@@ -1208,7 +1208,7 @@ public java.lang.String getReleaseTag();
 
 ID of the release to retrieve. Must be specified when `retrieve_by` = `tag`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/release#release_tag DataGithubRelease#release_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/release#release_tag DataGithubRelease#release_tag}
 
 ---
 

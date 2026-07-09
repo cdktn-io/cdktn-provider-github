@@ -4,7 +4,7 @@
 
 ### DataGithubApp <a name="DataGithubApp" id="@cdktn/provider-github.dataGithubApp.DataGithubApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app github_app}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app github_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer"></a>
 
@@ -68,7 +68,6 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.resetId">ResetId</a></code> | *No description.* |
 
 ---
 
@@ -285,12 +284,6 @@ private IResolvable InterpolationForAttribute(string TerraformAttribute)
 
 ---
 
-##### `ResetId` <a name="ResetId" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.resetId"></a>
-
-```csharp
-private void ResetId()
-```
-
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -394,7 +387,7 @@ The construct id used in the generated config for the DataGithubApp to import.
 
 The id of the existing DataGithubApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -423,11 +416,10 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.description">Description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.nodeId">NodeId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slugInput">SlugInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slug">Slug</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -564,6 +556,16 @@ public string Description { get; }
 
 ---
 
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id"></a>
+
+```csharp
+public string Id { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.name"></a>
 
 ```csharp
@@ -584,30 +586,10 @@ public string NodeId { get; }
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.idInput"></a>
-
-```csharp
-public string IdInput { get; }
-```
-
-- *Type:* string
-
----
-
 ##### `SlugInput`<sup>Optional</sup> <a name="SlugInput" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slugInput"></a>
 
 ```csharp
 public string SlugInput { get; }
-```
-
-- *Type:* string
-
----
-
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id"></a>
-
-```csharp
-public string Id { get; }
 ```
 
 - *Type:* string
@@ -659,8 +641,7 @@ new DataGithubAppConfig {
     TerraformResourceLifecycle Lifecycle = null,
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
-    string Slug,
-    string Id = null
+    string Slug
 };
 ```
 
@@ -675,8 +656,7 @@ new DataGithubAppConfig {
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.slug">Slug</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}. |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.slug">Slug</a></code> | <code>string</code> | The URL-friendly name of your GitHub App. |
 
 ---
 
@@ -758,22 +738,9 @@ public string Slug { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}.
+The URL-friendly name of your GitHub App.
 
----
-
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.id"></a>
-
-```csharp
-public string Id { get; set; }
-```
-
-- *Type:* string
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app#slug DataGithubApp#slug}
 
 ---
 

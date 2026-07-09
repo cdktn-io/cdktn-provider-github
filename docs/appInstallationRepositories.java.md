@@ -4,7 +4,7 @@
 
 ### AppInstallationRepositories <a name="AppInstallationRepositories" id="@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories github_app_installation_repositories}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories github_app_installation_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer"></a>
 
@@ -38,7 +38,7 @@ AppInstallationRepositories.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer.parameter.installationId">installationId</a></code> | <code>java.lang.String</code> | The GitHub app installation id. |
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer.parameter.selectedRepositories">selectedRepositories</a></code> | <code>java.util.List<java.lang.String></code> | A list of repository names to install the app on. |
-| <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}. |
+| <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositories.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The GitHub app installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#installation_id AppInstallationRepositories#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#installation_id AppInstallationRepositories#installation_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 A list of repository names to install the app on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#selected_repositories AppInstallationRepositories#selected_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#selected_repositories AppInstallationRepositories#selected_repositories}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,7 +585,7 @@ The construct id used in the generated config for the AppInstallationRepositorie
 
 The id of the existing AppInstallationRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ AppInstallationRepositoriesConfig.builder()
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositoriesConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositoriesConfig.property.installationId">installationId</a></code> | <code>java.lang.String</code> | The GitHub app installation id. |
 | <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositoriesConfig.property.selectedRepositories">selectedRepositories</a></code> | <code>java.util.List<java.lang.String></code> | A list of repository names to install the app on. |
-| <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositoriesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}. |
+| <code><a href="#@cdktn/provider-github.appInstallationRepositories.AppInstallationRepositoriesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}. |
 
 ---
 
@@ -964,7 +964,7 @@ public java.lang.String getInstallationId();
 
 The GitHub app installation id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#installation_id AppInstallationRepositories#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#installation_id AppInstallationRepositories#installation_id}
 
 ---
 
@@ -978,7 +978,7 @@ public java.util.List<java.lang.String> getSelectedRepositories();
 
 A list of repository names to install the app on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#selected_repositories AppInstallationRepositories#selected_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#selected_repositories AppInstallationRepositories#selected_repositories}
 
 ---
 
@@ -990,7 +990,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/app_installation_repositories#id AppInstallationRepositories#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

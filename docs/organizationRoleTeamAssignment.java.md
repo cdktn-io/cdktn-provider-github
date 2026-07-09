@@ -4,7 +4,7 @@
 
 ### OrganizationRoleTeamAssignment <a name="OrganizationRoleTeamAssignment" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment github_organization_role_team_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer"></a>
 
@@ -38,7 +38,7 @@ OrganizationRoleTeamAssignment.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer.parameter.roleId">roleId</a></code> | <code>java.lang.String</code> | The GitHub organization role id. |
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer.parameter.teamSlug">teamSlug</a></code> | <code>java.lang.String</code> | The GitHub team slug. |
-| <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The GitHub organization role id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#role_id OrganizationRoleTeamAssignment#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#role_id OrganizationRoleTeamAssignment#role_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The GitHub team slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#team_slug OrganizationRoleTeamAssignment#team_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#team_slug OrganizationRoleTeamAssignment#team_slug}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,7 +585,7 @@ The construct id used in the generated config for the OrganizationRoleTeamAssign
 
 The id of the existing OrganizationRoleTeamAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ OrganizationRoleTeamAssignmentConfig.builder()
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.property.roleId">roleId</a></code> | <code>java.lang.String</code> | The GitHub organization role id. |
 | <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.property.teamSlug">teamSlug</a></code> | <code>java.lang.String</code> | The GitHub team slug. |
-| <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRoleTeamAssignment.OrganizationRoleTeamAssignmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}. |
 
 ---
 
@@ -964,7 +964,7 @@ public java.lang.String getRoleId();
 
 The GitHub organization role id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#role_id OrganizationRoleTeamAssignment#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#role_id OrganizationRoleTeamAssignment#role_id}
 
 ---
 
@@ -978,7 +978,7 @@ public java.lang.String getTeamSlug();
 
 The GitHub team slug.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#team_slug OrganizationRoleTeamAssignment#team_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#team_slug OrganizationRoleTeamAssignment#team_slug}
 
 ---
 
@@ -990,7 +990,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role_team_assignment#id OrganizationRoleTeamAssignment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

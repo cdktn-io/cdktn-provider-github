@@ -4,7 +4,7 @@
 
 ### UserSshKey <a name="UserSshKey" id="@cdktn/provider-github.userSshKey.UserSshKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key github_user_ssh_key}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key github_user_ssh_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.userSshKey.UserSshKey.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the UserSshKey to import.
 
 The id of the existing UserSshKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,7 +813,7 @@ new UserSshKeyConfig {
 | <code><a href="#@cdktn/provider-github.userSshKey.UserSshKeyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.userSshKey.UserSshKeyConfig.property.key">Key</a></code> | <code>string</code> | The public SSH key to add to your GitHub account. |
 | <code><a href="#@cdktn/provider-github.userSshKey.UserSshKeyConfig.property.title">Title</a></code> | <code>string</code> | A descriptive name for the new key. |
-| <code><a href="#@cdktn/provider-github.userSshKey.UserSshKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key#id UserSshKey#id}. |
+| <code><a href="#@cdktn/provider-github.userSshKey.UserSshKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key#id UserSshKey#id}. |
 
 ---
 
@@ -897,7 +897,7 @@ public string Key { get; set; }
 
 The public SSH key to add to your GitHub account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key#key UserSshKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key#key UserSshKey#key}
 
 ---
 
@@ -911,7 +911,7 @@ public string Title { get; set; }
 
 A descriptive name for the new key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key#title UserSshKey#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key#title UserSshKey#title}
 
 ---
 
@@ -923,7 +923,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/user_ssh_key#id UserSshKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/user_ssh_key#id UserSshKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

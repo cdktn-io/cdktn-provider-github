@@ -4,7 +4,7 @@
 
 ### DataGithubApp <a name="DataGithubApp" id="@cdktn/provider-github.dataGithubApp.DataGithubApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app github_app}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app github_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer"></a>
 
@@ -21,8 +21,7 @@ dataGithubApp.DataGithubApp(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
-  slug: str,
-  id: str = None
+  slug: str
 )
 ```
 
@@ -37,8 +36,7 @@ dataGithubApp.DataGithubApp(
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.slug">slug</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}. |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.slug">slug</a></code> | <code>str</code> | The URL-friendly name of your GitHub App. |
 
 ---
 
@@ -106,18 +104,9 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}.
+The URL-friendly name of your GitHub App.
 
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.Initializer.parameter.id"></a>
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app#slug DataGithubApp#slug}
 
 ---
 
@@ -143,7 +132,6 @@ If you experience problems setting this value it might not be settable. Please t
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.getStringAttribute">get_string_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.resetId">reset_id</a></code> | *No description.* |
 
 ---
 
@@ -387,12 +375,6 @@ def interpolation_for_attribute(
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.resetId"></a>
-
-```python
-def reset_id() -> None
-```
-
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -507,7 +489,7 @@ The construct id used in the generated config for the DataGithubApp to import.
 
 The id of the existing DataGithubApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -536,11 +518,10 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.nodeId">node_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slugInput">slug_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slug">slug</a></code> | <code>str</code> | *No description.* |
 
 ---
@@ -677,6 +658,16 @@ description: str
 
 ---
 
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.name"></a>
 
 ```python
@@ -697,30 +688,10 @@ node_id: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.idInput"></a>
-
-```python
-id_input: str
-```
-
-- *Type:* str
-
----
-
 ##### `slug_input`<sup>Optional</sup> <a name="slug_input" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.slugInput"></a>
 
 ```python
 slug_input: str
-```
-
-- *Type:* str
-
----
-
-##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.dataGithubApp.DataGithubApp.property.id"></a>
-
-```python
-id: str
 ```
 
 - *Type:* str
@@ -772,8 +743,7 @@ dataGithubApp.DataGithubAppConfig(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
-  slug: str,
-  id: str = None
+  slug: str
 )
 ```
 
@@ -788,8 +758,7 @@ dataGithubApp.DataGithubAppConfig(
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.slug">slug</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}. |
-| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.slug">slug</a></code> | <code>str</code> | The URL-friendly name of your GitHub App. |
 
 ---
 
@@ -871,22 +840,9 @@ slug: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#slug DataGithubApp#slug}.
+The URL-friendly name of your GitHub App.
 
----
-
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-github.dataGithubApp.DataGithubAppConfig.property.id"></a>
-
-```python
-id: str
-```
-
-- *Type:* str
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/app#id DataGithubApp#id}.
-
-Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/app#slug DataGithubApp#slug}
 
 ---
 

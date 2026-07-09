@@ -4,7 +4,7 @@
 
 ### OrganizationRole <a name="OrganizationRole" id="@cdktn/provider-github.organizationRole.OrganizationRole"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role github_organization_role}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role github_organization_role}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.organizationRole.OrganizationRole.Initializer"></a>
 
@@ -42,7 +42,7 @@ OrganizationRole.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRole.Initializer.parameter.permissions">permissions</a></code> | <code>java.util.List<java.lang.String></code> | The permissions for the organization role. |
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRole.Initializer.parameter.baseRole">baseRole</a></code> | <code>java.lang.String</code> | The system role from which this role inherits permissions. |
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRole.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the organization role. |
-| <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRole.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#id OrganizationRole#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRole.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#id OrganizationRole#id}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#name OrganizationRole#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#name OrganizationRole#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The permissions for the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#permissions OrganizationRole#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#permissions OrganizationRole#permissions}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The system role from which this role inherits permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#base_role OrganizationRole#base_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#base_role OrganizationRole#base_role}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 The description of the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#description OrganizationRole#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#description OrganizationRole#description}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#id OrganizationRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#id OrganizationRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -623,7 +623,7 @@ The construct id used in the generated config for the OrganizationRole to import
 
 The id of the existing OrganizationRole that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -977,7 +977,7 @@ OrganizationRoleConfig.builder()
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRoleConfig.property.permissions">permissions</a></code> | <code>java.util.List<java.lang.String></code> | The permissions for the organization role. |
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRoleConfig.property.baseRole">baseRole</a></code> | <code>java.lang.String</code> | The system role from which this role inherits permissions. |
 | <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRoleConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the organization role. |
-| <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRoleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#id OrganizationRole#id}. |
+| <code><a href="#@cdktn/provider-github.organizationRole.OrganizationRoleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#id OrganizationRole#id}. |
 
 ---
 
@@ -1061,7 +1061,7 @@ public java.lang.String getName();
 
 The name of the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#name OrganizationRole#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#name OrganizationRole#name}
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.util.List<java.lang.String> getPermissions();
 
 The permissions for the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#permissions OrganizationRole#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#permissions OrganizationRole#permissions}
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.String getBaseRole();
 
 The system role from which this role inherits permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#base_role OrganizationRole#base_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#base_role OrganizationRole#base_role}
 
 ---
 
@@ -1103,7 +1103,7 @@ public java.lang.String getDescription();
 
 The description of the organization role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#description OrganizationRole#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#description OrganizationRole#description}
 
 ---
 
@@ -1115,7 +1115,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/organization_role#id OrganizationRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/organization_role#id OrganizationRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

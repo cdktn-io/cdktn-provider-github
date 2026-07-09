@@ -4,7 +4,7 @@
 
 ### TeamMembers <a name="TeamMembers" id="@cdktn/provider-github.teamMembers.TeamMembers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members github_team_members}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members github_team_members}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer"></a>
 
@@ -20,8 +20,9 @@ TeamMembers.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .members(IResolvable|java.util.List<TeamMembersMembers>)
-    .teamId(java.lang.String)
 //  .id(java.lang.String)
+//  .teamId(java.lang.String)
+//  .teamSlug(java.lang.String)
     .build();
 ```
 
@@ -37,8 +38,9 @@ TeamMembers.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.members">members</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>></code> | members block. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamId">teamId</a></code> | <code>java.lang.String</code> | The GitHub team id or slug. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#id TeamMembers#id}. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamId">teamId</a></code> | <code>java.lang.String</code> | ID or slug of the GitHub team to manage membership for. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamSlug">teamSlug</a></code> | <code>java.lang.String</code> | Slug of the GitHub team to manage membership for. |
 
 ---
 
@@ -108,17 +110,7 @@ Must be unique amongst siblings in the same scope
 
 members block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#members TeamMembers#members}
-
----
-
-##### `teamId`<sup>Required</sup> <a name="teamId" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamId"></a>
-
-- *Type:* java.lang.String
-
-The GitHub team id or slug.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#team_id TeamMembers#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#members TeamMembers#members}
 
 ---
 
@@ -126,10 +118,30 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#id TeamMembers#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `teamId`<sup>Optional</sup> <a name="teamId" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamId"></a>
+
+- *Type:* java.lang.String
+
+ID or slug of the GitHub team to manage membership for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#team_id TeamMembers#team_id}
+
+---
+
+##### `teamSlug`<sup>Optional</sup> <a name="teamSlug" id="@cdktn/provider-github.teamMembers.TeamMembers.Initializer.parameter.teamSlug"></a>
+
+- *Type:* java.lang.String
+
+Slug of the GitHub team to manage membership for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#team_slug TeamMembers#team_slug}
 
 ---
 
@@ -163,6 +175,8 @@ If you experience problems setting this value it might not be settable. Please t
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.putMembers">putMembers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.resetTeamId">resetTeamId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.resetTeamSlug">resetTeamSlug</a></code> | *No description.* |
 
 ---
 
@@ -495,6 +509,18 @@ public void putMembers(IResolvable|java.util.List<TeamMembersMembers> value)
 public void resetId()
 ```
 
+##### `resetTeamId` <a name="resetTeamId" id="@cdktn/provider-github.teamMembers.TeamMembers.resetTeamId"></a>
+
+```java
+public void resetTeamId()
+```
+
+##### `resetTeamSlug` <a name="resetTeamSlug" id="@cdktn/provider-github.teamMembers.TeamMembers.resetTeamSlug"></a>
+
+```java
+public void resetTeamSlug()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -598,7 +624,7 @@ The construct id used in the generated config for the TeamMembers to import.
 
 The id of the existing TeamMembers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -632,8 +658,10 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.membersInput">membersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamIdInput">teamIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamSlugInput">teamSlugInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamId">teamId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembers.property.teamSlug">teamSlug</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
 
@@ -819,6 +847,16 @@ public java.lang.String getTeamIdInput();
 
 ---
 
+##### `teamSlugInput`<sup>Optional</sup> <a name="teamSlugInput" id="@cdktn/provider-github.teamMembers.TeamMembers.property.teamSlugInput"></a>
+
+```java
+public java.lang.String getTeamSlugInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-github.teamMembers.TeamMembers.property.id"></a>
 
 ```java
@@ -833,6 +871,16 @@ public java.lang.String getId();
 
 ```java
 public java.lang.String getTeamId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `teamSlug`<sup>Required</sup> <a name="teamSlug" id="@cdktn/provider-github.teamMembers.TeamMembers.property.teamSlug"></a>
+
+```java
+public java.lang.String getTeamSlug();
 ```
 
 - *Type:* java.lang.String
@@ -875,8 +923,9 @@ TeamMembersConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .members(IResolvable|java.util.List<TeamMembersMembers>)
-    .teamId(java.lang.String)
 //  .id(java.lang.String)
+//  .teamId(java.lang.String)
+//  .teamSlug(java.lang.String)
     .build();
 ```
 
@@ -892,8 +941,9 @@ TeamMembersConfig.builder()
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.members">members</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers">TeamMembersMembers</a>></code> | members block. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId">teamId</a></code> | <code>java.lang.String</code> | The GitHub team id or slug. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#id TeamMembers#id}. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId">teamId</a></code> | <code>java.lang.String</code> | ID or slug of the GitHub team to manage membership for. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamSlug">teamSlug</a></code> | <code>java.lang.String</code> | Slug of the GitHub team to manage membership for. |
 
 ---
 
@@ -977,21 +1027,7 @@ public IResolvable|java.util.List<TeamMembersMembers> getMembers();
 
 members block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#members TeamMembers#members}
-
----
-
-##### `teamId`<sup>Required</sup> <a name="teamId" id="@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId"></a>
-
-```java
-public java.lang.String getTeamId();
-```
-
-- *Type:* java.lang.String
-
-The GitHub team id or slug.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#team_id TeamMembers#team_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#members TeamMembers#members}
 
 ---
 
@@ -1003,10 +1039,38 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#id TeamMembers#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#id TeamMembers#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `teamId`<sup>Optional</sup> <a name="teamId" id="@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamId"></a>
+
+```java
+public java.lang.String getTeamId();
+```
+
+- *Type:* java.lang.String
+
+ID or slug of the GitHub team to manage membership for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#team_id TeamMembers#team_id}
+
+---
+
+##### `teamSlug`<sup>Optional</sup> <a name="teamSlug" id="@cdktn/provider-github.teamMembers.TeamMembersConfig.property.teamSlug"></a>
+
+```java
+public java.lang.String getTeamSlug();
+```
+
+- *Type:* java.lang.String
+
+Slug of the GitHub team to manage membership for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#team_slug TeamMembers#team_slug}
 
 ---
 
@@ -1027,8 +1091,8 @@ TeamMembersMembers.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers.property.username">username</a></code> | <code>java.lang.String</code> | The user to add to the team. |
-| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers.property.role">role</a></code> | <code>java.lang.String</code> | The role of the user within the team. Must be one of 'member' or 'maintainer'. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers.property.username">username</a></code> | <code>java.lang.String</code> | User to add to the team. |
+| <code><a href="#@cdktn/provider-github.teamMembers.TeamMembersMembers.property.role">role</a></code> | <code>java.lang.String</code> | Role to grant the user within the team; must be one of `member` or `maintainer`. |
 
 ---
 
@@ -1040,9 +1104,9 @@ public java.lang.String getUsername();
 
 - *Type:* java.lang.String
 
-The user to add to the team.
+User to add to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#username TeamMembers#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#username TeamMembers#username}
 
 ---
 
@@ -1054,9 +1118,9 @@ public java.lang.String getRole();
 
 - *Type:* java.lang.String
 
-The role of the user within the team. Must be one of 'member' or 'maintainer'.
+Role to grant the user within the team; must be one of `member` or `maintainer`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/team_members#role TeamMembers#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/team_members#role TeamMembers#role}
 
 ---
 
