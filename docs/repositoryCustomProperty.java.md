@@ -4,7 +4,7 @@
 
 ### RepositoryCustomProperty <a name="RepositoryCustomProperty" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property github_repository_custom_property}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property github_repository_custom_property}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer"></a>
 
@@ -39,10 +39,10 @@ RepositoryCustomProperty.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.propertyName">propertyName</a></code> | <code>java.lang.String</code> | Name of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.propertyType">propertyType</a></code> | <code>java.lang.String</code> | Type of the custom property. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.propertyType">propertyType</a></code> | <code>java.lang.String</code> | Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`. |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.propertyValue">propertyValue</a></code> | <code>java.util.List<java.lang.String></code> | Value of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository which the custom properties should be on. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
 
 ---
 
@@ -120,9 +120,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Type of the custom property.
+Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
 
 ---
 
@@ -132,7 +132,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Value of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
+For `string`, `single_select`, `true_false`, and `url` property types, this should be a single value. For `multi_select` property types, this can be multiple values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
 
 ---
 
@@ -140,9 +142,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Name of the repository which the custom properties should be on.
+Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
 
 ---
 
@@ -150,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -609,7 +611,7 @@ The construct id used in the generated config for the RepositoryCustomProperty t
 
 The id of the existing RepositoryCustomProperty that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -639,6 +641,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.repositoryId">repositoryId</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.propertyNameInput">propertyNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.propertyTypeInput">propertyTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -791,6 +794,16 @@ public java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner
 ```
 
 - *Type:* java.util.List<io.cdktn.cdktn.FileProvisioner|io.cdktn.cdktn.LocalExecProvisioner|io.cdktn.cdktn.RemoteExecProvisioner>
+
+---
+
+##### `repositoryId`<sup>Required</sup> <a name="repositoryId" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.repositoryId"></a>
+
+```java
+public java.lang.Number getRepositoryId();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -949,10 +962,10 @@ RepositoryCustomPropertyConfig.builder()
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyName">propertyName</a></code> | <code>java.lang.String</code> | Name of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyType">propertyType</a></code> | <code>java.lang.String</code> | Type of the custom property. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyType">propertyType</a></code> | <code>java.lang.String</code> | Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`. |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyValue">propertyValue</a></code> | <code>java.util.List<java.lang.String></code> | Value of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository which the custom properties should be on. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.repository">repository</a></code> | <code>java.lang.String</code> | Name of the repository. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
 
 ---
 
@@ -1036,7 +1049,7 @@ public java.lang.String getPropertyName();
 
 Name of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
 
 ---
 
@@ -1048,9 +1061,9 @@ public java.lang.String getPropertyType();
 
 - *Type:* java.lang.String
 
-Type of the custom property.
+Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
 
 ---
 
@@ -1064,7 +1077,9 @@ public java.util.List<java.lang.String> getPropertyValue();
 
 Value of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
+For `string`, `single_select`, `true_false`, and `url` property types, this should be a single value. For `multi_select` property types, this can be multiple values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
 
 ---
 
@@ -1076,9 +1091,9 @@ public java.lang.String getRepository();
 
 - *Type:* java.lang.String
 
-Name of the repository which the custom properties should be on.
+Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
 
 ---
 
@@ -1090,7 +1105,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

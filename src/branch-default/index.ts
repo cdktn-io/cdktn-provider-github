@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default
+// https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,38 +13,46 @@ import * as cdktn from 'cdktn';
 
 export interface BranchDefaultConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The branch (e.g. 'main').
+  * The name of the branch to set as the default (e.g. 'main').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#branch BranchDefault#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#branch BranchDefault#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#etag BranchDefault#etag}
+  * The ETag header for the repository API response.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#etag BranchDefault#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#id BranchDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#id BranchDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Indicate if it should rename the branch rather than use an existing branch. Defaults to 'false'.
+  * If `true` rename the existing branch when the `branch` input is changed. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#rename BranchDefault#rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#rename BranchDefault#rename}
   */
   readonly rename?: boolean | cdktn.IResolvable;
   /**
-  * The GitHub repository.
+  * The name of the GitHub repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#repository BranchDefault#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#repository BranchDefault#repository}
   */
   readonly repository: string;
+  /**
+  * If `true`, poll until GitHub propagates the renamed default branch before proceeding. Only has effect when `rename` is also `true`. Defaults to 'false'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#wait_for_rename BranchDefault#wait_for_rename}
+  */
+  readonly waitForRename?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default}
 */
 export class BranchDefault extends cdktn.TerraformResource {
 
@@ -60,7 +68,7 @@ export class BranchDefault extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BranchDefault resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchDefault to import
-  * @param importFromId The id of the existing BranchDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -72,7 +80,7 @@ export class BranchDefault extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -83,7 +91,7 @@ export class BranchDefault extends cdktn.TerraformResource {
       terraformResourceType: 'github_branch_default',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.12.1',
+        providerVersion: '6.13.0',
         providerVersionConstraint: '~> 6.0'
       },
       provider: config.provider,
@@ -99,6 +107,7 @@ export class BranchDefault extends cdktn.TerraformResource {
     this._id = config.id;
     this._rename = config.rename;
     this._repository = config.repository;
+    this._waitForRename = config.waitForRename;
   }
 
   // ==========
@@ -179,6 +188,27 @@ export class BranchDefault extends cdktn.TerraformResource {
     return this._repository;
   }
 
+  // repository_id - computed: true, optional: false, required: false
+  public get repositoryId() {
+    return this.getNumberAttribute('repository_id');
+  }
+
+  // wait_for_rename - computed: false, optional: true, required: false
+  private _waitForRename?: boolean | cdktn.IResolvable; 
+  public get waitForRename() {
+    return this.getBooleanAttribute('wait_for_rename');
+  }
+  public set waitForRename(value: boolean | cdktn.IResolvable) {
+    this._waitForRename = value;
+  }
+  public resetWaitForRename() {
+    this._waitForRename = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get waitForRenameInput() {
+    return this._waitForRename;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -190,6 +220,7 @@ export class BranchDefault extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       rename: cdktn.booleanToTerraform(this._rename),
       repository: cdktn.stringToTerraform(this._repository),
+      wait_for_rename: cdktn.booleanToTerraform(this._waitForRename),
     };
   }
 
@@ -224,6 +255,12 @@ export class BranchDefault extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      wait_for_rename: {
+        value: cdktn.booleanToHclTerraform(this._waitForRename),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

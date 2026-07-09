@@ -4,7 +4,7 @@
 
 ### ActionsOrganizationVariableRepositories <a name="ActionsOrganizationVariableRepositories" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories github_actions_organization_variable_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer"></a>
 
@@ -38,7 +38,7 @@ ActionsOrganizationVariableRepositories.Builder.create(Construct scope, java.lan
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>java.util.List<java.lang.Number></code> | An array of repository ids that can access the organization variable. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.variableName">variableName</a></code> | <code>java.lang.String</code> | Name of the existing variable. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositories.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 An array of repository ids that can access the organization variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#selected_repository_ids ActionsOrganizationVariableRepositories#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#selected_repository_ids ActionsOrganizationVariableRepositories#selected_repository_ids}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the existing variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#variable_name ActionsOrganizationVariableRepositories#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#variable_name ActionsOrganizationVariableRepositories#variable_name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,7 +585,7 @@ The construct id used in the generated config for the ActionsOrganizationVariabl
 
 The id of the existing ActionsOrganizationVariableRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ ActionsOrganizationVariableRepositoriesConfig.builder()
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.selectedRepositoryIds">selectedRepositoryIds</a></code> | <code>java.util.List<java.lang.Number></code> | An array of repository ids that can access the organization variable. |
 | <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.variableName">variableName</a></code> | <code>java.lang.String</code> | Name of the existing variable. |
-| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}. |
+| <code><a href="#@cdktn/provider-github.actionsOrganizationVariableRepositories.ActionsOrganizationVariableRepositoriesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}. |
 
 ---
 
@@ -964,7 +964,7 @@ public java.util.List<java.lang.Number> getSelectedRepositoryIds();
 
 An array of repository ids that can access the organization variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#selected_repository_ids ActionsOrganizationVariableRepositories#selected_repository_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#selected_repository_ids ActionsOrganizationVariableRepositories#selected_repository_ids}
 
 ---
 
@@ -978,7 +978,7 @@ public java.lang.String getVariableName();
 
 Name of the existing variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#variable_name ActionsOrganizationVariableRepositories#variable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#variable_name ActionsOrganizationVariableRepositories#variable_name}
 
 ---
 
@@ -990,7 +990,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/actions_organization_variable_repositories#id ActionsOrganizationVariableRepositories#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

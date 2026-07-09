@@ -4,7 +4,7 @@
 
 ### DataGithubIssueLabels <a name="DataGithubIssueLabels" id="@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels github_issue_labels}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels github_issue_labels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabels.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGithubIssueLabels to i
 
 The id of the existing DataGithubIssueLabels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -653,8 +653,8 @@ new DataGithubIssueLabelsConfig {
 | <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.repository">Repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels#repository DataGithubIssueLabels#repository}. |
-| <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels#id DataGithubIssueLabels#id}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.repository">Repository</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels#repository DataGithubIssueLabels#repository}. |
+| <code><a href="#@cdktn/provider-github.dataGithubIssueLabels.DataGithubIssueLabelsConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels#id DataGithubIssueLabels#id}. |
 
 ---
 
@@ -736,7 +736,7 @@ public string Repository { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels#repository DataGithubIssueLabels#repository}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels#repository DataGithubIssueLabels#repository}.
 
 ---
 
@@ -748,7 +748,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/data-sources/issue_labels#id DataGithubIssueLabels#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/data-sources/issue_labels#id DataGithubIssueLabels#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

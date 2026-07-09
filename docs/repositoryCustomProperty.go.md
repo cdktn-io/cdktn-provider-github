@@ -4,7 +4,7 @@
 
 ### RepositoryCustomProperty <a name="RepositoryCustomProperty" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property github_repository_custom_property}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property github_repository_custom_property}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the RepositoryCustomProperty t
 
 The id of the existing RepositoryCustomProperty that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -526,6 +526,7 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.repositoryId">RepositoryId</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.propertyNameInput">PropertyNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.propertyTypeInput">PropertyTypeInput</a></code> | <code>*string</code> | *No description.* |
@@ -678,6 +679,16 @@ func Provisioners() *[]interface{}
 ```
 
 - *Type:* *[]interface{}
+
+---
+
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomProperty.property.repositoryId"></a>
+
+```go
+func RepositoryId() *f64
+```
+
+- *Type:* *f64
 
 ---
 
@@ -836,10 +847,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycustom
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyName">PropertyName</a></code> | <code>*string</code> | Name of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyType">PropertyType</a></code> | <code>*string</code> | Type of the custom property. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyType">PropertyType</a></code> | <code>*string</code> | Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`. |
 | <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.propertyValue">PropertyValue</a></code> | <code>*[]*string</code> | Value of the custom property. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.repository">Repository</a></code> | <code>*string</code> | Name of the repository which the custom properties should be on. |
-| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.repository">Repository</a></code> | <code>*string</code> | Name of the repository. |
+| <code><a href="#@cdktn/provider-github.repositoryCustomProperty.RepositoryCustomPropertyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}. |
 
 ---
 
@@ -923,7 +934,7 @@ PropertyName *string
 
 Name of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_name RepositoryCustomProperty#property_name}
 
 ---
 
@@ -935,9 +946,9 @@ PropertyType *string
 
 - *Type:* *string
 
-Type of the custom property.
+Type of the custom property. Valid values are `string`, `single_select`, `multi_select`, `true_false`, and `url`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_type RepositoryCustomProperty#property_type}
 
 ---
 
@@ -951,7 +962,9 @@ PropertyValue *[]*string
 
 Value of the custom property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
+For `string`, `single_select`, `true_false`, and `url` property types, this should be a single value. For `multi_select` property types, this can be multiple values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#property_value RepositoryCustomProperty#property_value}
 
 ---
 
@@ -963,9 +976,9 @@ Repository *string
 
 - *Type:* *string
 
-Name of the repository which the custom properties should be on.
+Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#repository RepositoryCustomProperty#repository}
 
 ---
 
@@ -977,7 +990,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/repository_custom_property#id RepositoryCustomProperty#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

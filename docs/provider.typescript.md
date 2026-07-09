@@ -4,7 +4,7 @@
 
 ### GithubProvider <a name="GithubProvider" id="@cdktn/provider-github.provider.GithubProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs github}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs github}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.provider.GithubProvider.Initializer"></a>
 
@@ -61,7 +61,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetAlias">resetAlias</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetAppAuth">resetAppAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetBaseUrl">resetBaseUrl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetCachePath">resetCachePath</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetInsecure">resetInsecure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetLegacyClient">resetLegacyClient</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetMaxPerPage">resetMaxPerPage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetMaxRetries">resetMaxRetries</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.resetOrganization">resetOrganization</a></code> | *No description.* |
@@ -184,10 +186,22 @@ public resetAppAuth(): void
 public resetBaseUrl(): void
 ```
 
+##### `resetCachePath` <a name="resetCachePath" id="@cdktn/provider-github.provider.GithubProvider.resetCachePath"></a>
+
+```typescript
+public resetCachePath(): void
+```
+
 ##### `resetInsecure` <a name="resetInsecure" id="@cdktn/provider-github.provider.GithubProvider.resetInsecure"></a>
 
 ```typescript
 public resetInsecure(): void
+```
+
+##### `resetLegacyClient` <a name="resetLegacyClient" id="@cdktn/provider-github.provider.GithubProvider.resetLegacyClient"></a>
+
+```typescript
+public resetLegacyClient(): void
 ```
 
 ##### `resetMaxPerPage` <a name="resetMaxPerPage" id="@cdktn/provider-github.provider.GithubProvider.resetMaxPerPage"></a>
@@ -353,7 +367,7 @@ The construct id used in the generated config for the GithubProvider to import.
 
 The id of the existing GithubProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -381,7 +395,9 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuthInput">appAuthInput</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrlInput">baseUrlInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.cachePathInput">cachePathInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecureInput">insecureInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.legacyClientInput">legacyClientInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPageInput">maxPerPageInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetriesInput">maxRetriesInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organizationInput">organizationInput</a></code> | <code>string</code> | *No description.* |
@@ -394,7 +410,9 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.writeDelayMsInput">writeDelayMsInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.appAuth">appAuth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.baseUrl">baseUrl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.cachePath">cachePath</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.insecure">insecure</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.legacyClient">legacyClient</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxPerPage">maxPerPage</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.maxRetries">maxRetries</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.provider.GithubProvider.property.organization">organization</a></code> | <code>string</code> | *No description.* |
@@ -530,10 +548,30 @@ public readonly baseUrlInput: string;
 
 ---
 
+##### `cachePathInput`<sup>Optional</sup> <a name="cachePathInput" id="@cdktn/provider-github.provider.GithubProvider.property.cachePathInput"></a>
+
+```typescript
+public readonly cachePathInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `insecureInput`<sup>Optional</sup> <a name="insecureInput" id="@cdktn/provider-github.provider.GithubProvider.property.insecureInput"></a>
 
 ```typescript
 public readonly insecureInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `legacyClientInput`<sup>Optional</sup> <a name="legacyClientInput" id="@cdktn/provider-github.provider.GithubProvider.property.legacyClientInput"></a>
+
+```typescript
+public readonly legacyClientInput: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktn.IResolvable
@@ -660,10 +698,30 @@ public readonly baseUrl: string;
 
 ---
 
+##### `cachePath`<sup>Optional</sup> <a name="cachePath" id="@cdktn/provider-github.provider.GithubProvider.property.cachePath"></a>
+
+```typescript
+public readonly cachePath: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `insecure`<sup>Optional</sup> <a name="insecure" id="@cdktn/provider-github.provider.GithubProvider.property.insecure"></a>
 
 ```typescript
 public readonly insecure: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `legacyClient`<sup>Optional</sup> <a name="legacyClient" id="@cdktn/provider-github.provider.GithubProvider.property.legacyClient"></a>
+
+```typescript
+public readonly legacyClient: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktn.IResolvable
@@ -804,9 +862,9 @@ const githubProviderAppAuth: provider.GithubProviderAppAuth = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.id">id</a></code> | <code>string</code> | The GitHub App ID. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.installationId">installationId</a></code> | <code>string</code> | The GitHub App installation instance ID. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.pemFile">pemFile</a></code> | <code>string</code> | The GitHub App PEM file contents. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.id">id</a></code> | <code>string</code> | The GitHub App's identifier. This can also be set by the `GITHUB_APP_ID` environment variable. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.installationId">installationId</a></code> | <code>string</code> | The GitHub App's installation identifier. This can also be set by the `GITHUB_APP_INSTALLATION_ID` environment variable. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth.property.pemFile">pemFile</a></code> | <code>string</code> | The GitHub App's PEM file content; |
 
 ---
 
@@ -818,9 +876,9 @@ public readonly id: string;
 
 - *Type:* string
 
-The GitHub App ID.
+The GitHub App's identifier. This can also be set by the `GITHUB_APP_ID` environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#id GithubProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#id GithubProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -835,9 +893,9 @@ public readonly installationId: string;
 
 - *Type:* string
 
-The GitHub App installation instance ID.
+The GitHub App's installation identifier. This can also be set by the `GITHUB_APP_INSTALLATION_ID` environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#installation_id GithubProvider#installation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#installation_id GithubProvider#installation_id}
 
 ---
 
@@ -849,9 +907,11 @@ public readonly pemFile: string;
 
 - *Type:* string
 
-The GitHub App PEM file contents.
+The GitHub App's PEM file content;
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#pem_file GithubProvider#pem_file}
+`\n` can be used for newlines. This can also be set by the `GITHUB_APP_PEM_FILE` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#pem_file GithubProvider#pem_file}
 
 ---
 
@@ -871,18 +931,20 @@ const githubProviderConfig: provider.GithubProviderConfig = { ... }
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.alias">alias</a></code> | <code>string</code> | Alias name. |
 | <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.appAuth">appAuth</a></code> | <code><a href="#@cdktn/provider-github.provider.GithubProviderAppAuth">GithubProviderAppAuth</a></code> | app_auth block. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.baseUrl">baseUrl</a></code> | <code>string</code> | The GitHub Base API URL. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>boolean \| cdktn.IResolvable</code> | Enable `insecure` mode for testing purposes. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxPerPage">maxPerPage</a></code> | <code>number</code> | Number of items per page for paginationDefaults to 100. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxRetries">maxRetries</a></code> | <code>number</code> | Number of times to retry a request after receiving an error status codeDefaults to 3. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.organization">organization</a></code> | <code>string</code> | The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.owner">owner</a></code> | <code>string</code> | The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktn.IResolvable</code> | Allow the provider to make parallel API calls to GitHub. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.readDelayMs">readDelayMs</a></code> | <code>number</code> | Amount of time in milliseconds to sleep in between non-write requests to GitHub API. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryableErrors">retryableErrors</a></code> | <code>number[]</code> | Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504]. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryDelayMs">retryDelayMs</a></code> | <code>number</code> | Amount of time in milliseconds to sleep in between requests to GitHub API after an error response. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.token">token</a></code> | <code>string</code> | The OAuth token used to connect to GitHub. |
-| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.writeDelayMs">writeDelayMs</a></code> | <code>number</code> | Amount of time in milliseconds to sleep in between writes to GitHub API. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.baseUrl">baseUrl</a></code> | <code>string</code> | The base URL for the GitHub API; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.cachePath">cachePath</a></code> | <code>string</code> | The path to the cache directory for persisting GitHub API requests between runs; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.insecure">insecure</a></code> | <code>boolean \| cdktn.IResolvable</code> | Allow insecure server connections when using SSL. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.legacyClient">legacyClient</a></code> | <code>boolean \| cdktn.IResolvable</code> | Use the legacy GitHub client implementation; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxPerPage">maxPerPage</a></code> | <code>number</code> | The maximum number of results per page for paginated API requests; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.maxRetries">maxRetries</a></code> | <code>number</code> | The maximum number of retries for failed requests; this defaults to `3`. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.organization">organization</a></code> | <code>string</code> | GitHub organization to manage. This can also be set by the `GITHUB_ORGANIZATION` environment variable. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.owner">owner</a></code> | <code>string</code> | GitHub organization or user account to manage; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.parallelRequests">parallelRequests</a></code> | <code>boolean \| cdktn.IResolvable</code> | Allow the provider to make parallel API calls; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.readDelayMs">readDelayMs</a></code> | <code>number</code> | The delay in milliseconds between read operations; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryableErrors">retryableErrors</a></code> | <code>number[]</code> | List of HTTP status codes that should be retried; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.retryDelayMs">retryDelayMs</a></code> | <code>number</code> | The delay in milliseconds between retry attempts; |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.token">token</a></code> | <code>string</code> | GitHub OAuth or Personal Access Token (PAT) to use for authentication. |
+| <code><a href="#@cdktn/provider-github.provider.GithubProviderConfig.property.writeDelayMs">writeDelayMs</a></code> | <code>number</code> | The delay in milliseconds between write operations; |
 
 ---
 
@@ -896,7 +958,7 @@ public readonly alias: string;
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#alias GithubProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#alias GithubProvider#alias}
 
 ---
 
@@ -910,7 +972,7 @@ public readonly appAuth: GithubProviderAppAuth;
 
 app_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#app_auth GithubProvider#app_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#app_auth GithubProvider#app_auth}
 
 ---
 
@@ -922,9 +984,27 @@ public readonly baseUrl: string;
 
 - *Type:* string
 
-The GitHub Base API URL.
+The base URL for the GitHub API;
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#base_url GithubProvider#base_url}
+this defaults to the GitHub API URL. If you are using GitHub Enterprise Server (GHES) or GitHub Enterprise Cloud with Data Residency (GHEC-DR), this is required. This can also be set by the `GITHUB_BASE_URL` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#base_url GithubProvider#base_url}
+
+---
+
+##### `cachePath`<sup>Optional</sup> <a name="cachePath" id="@cdktn/provider-github.provider.GithubProviderConfig.property.cachePath"></a>
+
+```typescript
+public readonly cachePath: string;
+```
+
+- *Type:* string
+
+The path to the cache directory for persisting GitHub API requests between runs;
+
+if not set there will be no caching between runs. This can also be set by the `GITHUB_CACHE_PATH` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#cache_path GithubProvider#cache_path}
 
 ---
 
@@ -936,9 +1016,25 @@ public readonly insecure: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Enable `insecure` mode for testing purposes.
+Allow insecure server connections when using SSL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#insecure GithubProvider#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#insecure GithubProvider#insecure}
+
+---
+
+##### `legacyClient`<sup>Optional</sup> <a name="legacyClient" id="@cdktn/provider-github.provider.GithubProviderConfig.property.legacyClient"></a>
+
+```typescript
+public readonly legacyClient: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Use the legacy GitHub client implementation;
+
+if set to `false`, the new client implementation is used. This can also be set by the `GITHUB_LEGACY_CLIENT` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#legacy_client GithubProvider#legacy_client}
 
 ---
 
@@ -950,9 +1046,11 @@ public readonly maxPerPage: number;
 
 - *Type:* number
 
-Number of items per page for paginationDefaults to 100.
+The maximum number of results per page for paginated API requests;
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#max_per_page GithubProvider#max_per_page}
+this defaults to `100`. This can also be set by the `GITHUB_MAX_PER_PAGE` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#max_per_page GithubProvider#max_per_page}
 
 ---
 
@@ -964,9 +1062,9 @@ public readonly maxRetries: number;
 
 - *Type:* number
 
-Number of times to retry a request after receiving an error status codeDefaults to 3.
+The maximum number of retries for failed requests; this defaults to `3`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#max_retries GithubProvider#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#max_retries GithubProvider#max_retries}
 
 ---
 
@@ -978,9 +1076,9 @@ public readonly organization: string;
 
 - *Type:* string
 
-The GitHub organization name to manage. Use this field instead of `owner` when managing organization accounts.
+GitHub organization to manage. This can also be set by the `GITHUB_ORGANIZATION` environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#organization GithubProvider#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#organization GithubProvider#organization}
 
 ---
 
@@ -992,9 +1090,11 @@ public readonly owner: string;
 
 - *Type:* string
 
-The GitHub owner name to manage. Use this field instead of `organization` when managing individual accounts.
+GitHub organization or user account to manage;
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#owner GithubProvider#owner}
+this is required when authenticating using a GitHub App. If the owner is not provided and a token is provided, the provider will attempt to auto-detect the owner associated with the token. This can also be set by the `GITHUB_OWNER` environment variable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#owner GithubProvider#owner}
 
 ---
 
@@ -1006,11 +1106,11 @@ public readonly parallelRequests: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Allow the provider to make parallel API calls to GitHub.
+Allow the provider to make parallel API calls;
 
-You may want to set it to true when you have a private Github Enterprise without strict rate limits. While it is possible to enable this setting on github.com, github.com's best practices recommend using serialization to avoid hitting abuse rate limitsDefaults to false if not set
+this is experimental and may cause concurrency and rate limiting issues. This is ignored for the REST API when `legacy_client` is `false` since the new client implementation is designed to safely handle parallel requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#parallel_requests GithubProvider#parallel_requests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#parallel_requests GithubProvider#parallel_requests}
 
 ---
 
@@ -1022,11 +1122,11 @@ public readonly readDelayMs: number;
 
 - *Type:* number
 
-Amount of time in milliseconds to sleep in between non-write requests to GitHub API.
+The delay in milliseconds between read operations;
 
-Defaults to 0ms if not set.
+this defaults to `0`. This can be used to mitigate rate limiting issues when performing a large number of read operations. This is ignored for the REST API when `legacy_client` is `false` since the new client implementation is GitHub rate limit aware.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#read_delay_ms GithubProvider#read_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#read_delay_ms GithubProvider#read_delay_ms}
 
 ---
 
@@ -1038,9 +1138,11 @@ public readonly retryableErrors: number[];
 
 - *Type:* number[]
 
-Allow the provider to retry after receiving an error status code, the max_retries should be set for this to workDefaults to [500, 502, 503, 504].
+List of HTTP status codes that should be retried;
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#retryable_errors GithubProvider#retryable_errors}
+if not set this uses the provider defaults. This setting only applies when `max_retries` is greater than `0`. This is ignored for the REST API when `legacy_client` is `false` since the new client implementation handles the retry logic.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#retryable_errors GithubProvider#retryable_errors}
 
 ---
 
@@ -1052,11 +1154,11 @@ public readonly retryDelayMs: number;
 
 - *Type:* number
 
-Amount of time in milliseconds to sleep in between requests to GitHub API after an error response.
+The delay in milliseconds between retry attempts;
 
-Defaults to 1000ms or 1s if not set, the max_retries must be set to greater than zero.
+this defaults to `1000`. This setting only applies when `max_retries` is greater than `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#retry_delay_ms GithubProvider#retry_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#retry_delay_ms GithubProvider#retry_delay_ms}
 
 ---
 
@@ -1068,11 +1170,11 @@ public readonly token: string;
 
 - *Type:* string
 
-The OAuth token used to connect to GitHub.
+GitHub OAuth or Personal Access Token (PAT) to use for authentication.
 
-Anonymous mode is enabled if both `token` and `app_auth` are not set.
+This can also be set by the `GITHUB_TOKEN` environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#token GithubProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#token GithubProvider#token}
 
 ---
 
@@ -1084,11 +1186,11 @@ public readonly writeDelayMs: number;
 
 - *Type:* number
 
-Amount of time in milliseconds to sleep in between writes to GitHub API.
+The delay in milliseconds between write operations;
 
-Defaults to 1000ms or 1s if not set.
+this defaults to `1000`. This is used to mitigate the GitHub API's abuse rate limits when writing. Note that **ALL** requests to the GraphQL API are implemented as `POST` requests under the hood, so this setting affects those calls as well. This is ignored for the REST API when `legacy_client` is `false` since the new client implementation is GitHub rate limit aware.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs#write_delay_ms GithubProvider#write_delay_ms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs#write_delay_ms GithubProvider#write_delay_ms}
 
 ---
 

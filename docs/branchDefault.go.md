@@ -4,7 +4,7 @@
 
 ### BranchDefault <a name="BranchDefault" id="@cdktn/provider-github.branchDefault.BranchDefault"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default github_branch_default}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default github_branch_default}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.branchDefault.BranchDefault.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.resetEtag">ResetEtag</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.resetRename">ResetRename</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.resetWaitForRename">ResetWaitForRename</a></code> | *No description.* |
 
 ---
 
@@ -407,6 +408,12 @@ func ResetId()
 func ResetRename()
 ```
 
+##### `ResetWaitForRename` <a name="ResetWaitForRename" id="@cdktn/provider-github.branchDefault.BranchDefault.resetWaitForRename"></a>
+
+```go
+func ResetWaitForRename()
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -510,7 +517,7 @@ The construct id used in the generated config for the BranchDefault to import.
 
 The id of the existing BranchDefault that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -540,16 +547,19 @@ Refer to the {@link https://registry.terraform.io/providers/integrations/github/
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.repositoryId">RepositoryId</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.branchInput">BranchInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.etagInput">EtagInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.renameInput">RenameInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.repositoryInput">RepositoryInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.waitForRenameInput">WaitForRenameInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.branch">Branch</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.rename">Rename</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.repository">Repository</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefault.property.waitForRename">WaitForRename</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
 
@@ -695,6 +705,16 @@ func Provisioners() *[]interface{}
 
 ---
 
+##### `RepositoryId`<sup>Required</sup> <a name="RepositoryId" id="@cdktn/provider-github.branchDefault.BranchDefault.property.repositoryId"></a>
+
+```go
+func RepositoryId() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `BranchInput`<sup>Optional</sup> <a name="BranchInput" id="@cdktn/provider-github.branchDefault.BranchDefault.property.branchInput"></a>
 
 ```go
@@ -742,6 +762,16 @@ func RepositoryInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `WaitForRenameInput`<sup>Optional</sup> <a name="WaitForRenameInput" id="@cdktn/provider-github.branchDefault.BranchDefault.property.waitForRenameInput"></a>
+
+```go
+func WaitForRenameInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -795,6 +825,16 @@ func Repository() *string
 
 ---
 
+##### `WaitForRename`<sup>Required</sup> <a name="WaitForRename" id="@cdktn/provider-github.branchDefault.BranchDefault.property.waitForRename"></a>
+
+```go
+func WaitForRename() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -835,6 +875,7 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchdefault"
 	Etag: *string,
 	Id: *string,
 	Rename: interface{},
+	WaitForRename: interface{},
 }
 ```
 
@@ -849,11 +890,12 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/branchdefault"
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.branch">Branch</a></code> | <code>*string</code> | The branch (e.g. 'main'). |
-| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.repository">Repository</a></code> | <code>*string</code> | The GitHub repository. |
-| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.etag">Etag</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#etag BranchDefault#etag}. |
-| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#id BranchDefault#id}. |
-| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.rename">Rename</a></code> | <code>interface{}</code> | Indicate if it should rename the branch rather than use an existing branch. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.branch">Branch</a></code> | <code>*string</code> | The name of the branch to set as the default (e.g. 'main'). |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.repository">Repository</a></code> | <code>*string</code> | The name of the GitHub repository. |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.etag">Etag</a></code> | <code>*string</code> | The ETag header for the repository API response. |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#id BranchDefault#id}. |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.rename">Rename</a></code> | <code>interface{}</code> | If `true` rename the existing branch when the `branch` input is changed. Defaults to 'false'. |
+| <code><a href="#@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.waitForRename">WaitForRename</a></code> | <code>interface{}</code> | If `true`, poll until GitHub propagates the renamed default branch before proceeding. |
 
 ---
 
@@ -935,9 +977,9 @@ Branch *string
 
 - *Type:* *string
 
-The branch (e.g. 'main').
+The name of the branch to set as the default (e.g. 'main').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#branch BranchDefault#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#branch BranchDefault#branch}
 
 ---
 
@@ -949,9 +991,9 @@ Repository *string
 
 - *Type:* *string
 
-The GitHub repository.
+The name of the GitHub repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#repository BranchDefault#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#repository BranchDefault#repository}
 
 ---
 
@@ -963,7 +1005,9 @@ Etag *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#etag BranchDefault#etag}.
+The ETag header for the repository API response.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#etag BranchDefault#etag}
 
 ---
 
@@ -975,7 +1019,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#id BranchDefault#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#id BranchDefault#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -990,9 +1034,25 @@ Rename interface{}
 
 - *Type:* interface{}
 
-Indicate if it should rename the branch rather than use an existing branch. Defaults to 'false'.
+If `true` rename the existing branch when the `branch` input is changed. Defaults to 'false'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/branch_default#rename BranchDefault#rename}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#rename BranchDefault#rename}
+
+---
+
+##### `WaitForRename`<sup>Optional</sup> <a name="WaitForRename" id="@cdktn/provider-github.branchDefault.BranchDefaultConfig.property.waitForRename"></a>
+
+```go
+WaitForRename interface{}
+```
+
+- *Type:* interface{}
+
+If `true`, poll until GitHub propagates the renamed default branch before proceeding.
+
+Only has effect when `rename` is also `true`. Defaults to 'false'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/branch_default#wait_for_rename BranchDefault#wait_for_rename}
 
 ---
 

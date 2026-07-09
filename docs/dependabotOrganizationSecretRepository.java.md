@@ -4,7 +4,7 @@
 
 ### DependabotOrganizationSecretRepository <a name="DependabotOrganizationSecretRepository" id="@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository}.
+Represents a {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository github_dependabot_organization_secret_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer"></a>
 
@@ -38,7 +38,7 @@ DependabotOrganizationSecretRepository.Builder.create(Construct scope, java.lang
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer.parameter.repositoryId">repositoryId</a></code> | <code>java.lang.Number</code> | The repository ID that can access the organization secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer.parameter.secretName">secretName</a></code> | <code>java.lang.String</code> | Name of the existing secret. |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The repository ID that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 Name of the existing secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,7 +585,7 @@ The construct id used in the generated config for the DependabotOrganizationSecr
 
 The id of the existing DependabotOrganizationSecretRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ DependabotOrganizationSecretRepositoryConfig.builder()
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepositoryConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepositoryConfig.property.repositoryId">repositoryId</a></code> | <code>java.lang.Number</code> | The repository ID that can access the organization secret. |
 | <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepositoryConfig.property.secretName">secretName</a></code> | <code>java.lang.String</code> | Name of the existing secret. |
-| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}. |
+| <code><a href="#@cdktn/provider-github.dependabotOrganizationSecretRepository.DependabotOrganizationSecretRepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}. |
 
 ---
 
@@ -964,7 +964,7 @@ public java.lang.Number getRepositoryId();
 
 The repository ID that can access the organization secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#repository_id DependabotOrganizationSecretRepository#repository_id}
 
 ---
 
@@ -978,7 +978,7 @@ public java.lang.String getSecretName();
 
 Name of the existing secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#secret_name DependabotOrganizationSecretRepository#secret_name}
 
 ---
 
@@ -990,7 +990,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.12.1/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.13.0/docs/resources/dependabot_organization_secret_repository#id DependabotOrganizationSecretRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
