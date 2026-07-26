@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRuleset(scope Construct, id *string, config RepositoryRulesetConfig) RepositoryRuleset
 ```
@@ -460,7 +460,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.RepositoryRuleset_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.RepositoryRuleset_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ repositoryruleset.RepositoryRuleset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.RepositoryRuleset_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ repositoryruleset.RepositoryRuleset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repositoryRuleset.RepositoryRuleset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.RepositoryRuleset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -958,7 +958,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetBypassActors {
 	ActorType: *string,
@@ -1030,10 +1030,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetConditions {
-	RefName: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetConditionsRefName,
+	RefName: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetConditionsRefName,
 }
 ```
 
@@ -1064,7 +1064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefName.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetConditionsRefName {
 	Exclude: *[]*string,
@@ -1116,7 +1116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetConfig {
 	Connection: interface{},
@@ -1129,10 +1129,10 @@ import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryrulese
 	Enforcement: *string,
 	Name: *string,
 	Repository: *string,
-	Rules: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRules,
+	Rules: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRules,
 	Target: *string,
 	BypassActors: interface{},
-	Conditions: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetConditions,
+	Conditions: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetConditions,
 	Id: *string,
 }
 ```
@@ -1347,29 +1347,29 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRules {
-	BranchNamePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern,
-	CommitAuthorEmailPattern: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern,
-	CommitMessagePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern,
-	CommitterEmailPattern: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern,
-	CopilotCodeReview: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview,
+	BranchNamePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern,
+	CommitAuthorEmailPattern: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern,
+	CommitMessagePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern,
+	CommitterEmailPattern: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern,
+	CopilotCodeReview: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview,
 	Creation: interface{},
 	Deletion: interface{},
-	FileExtensionRestriction: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction,
-	FilePathRestriction: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction,
-	MaxFilePathLength: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength,
-	MaxFileSize: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesMaxFileSize,
-	MergeQueue: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesMergeQueue,
+	FileExtensionRestriction: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction,
+	FilePathRestriction: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction,
+	MaxFilePathLength: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength,
+	MaxFileSize: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesMaxFileSize,
+	MergeQueue: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesMergeQueue,
 	NonFastForward: interface{},
-	PullRequest: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesPullRequest,
-	RequiredCodeScanning: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning,
-	RequiredDeployments: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments,
+	PullRequest: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesPullRequest,
+	RequiredCodeScanning: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning,
+	RequiredDeployments: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments,
 	RequiredLinearHistory: interface{},
 	RequiredSignatures: interface{},
-	RequiredStatusChecks: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks,
-	TagNamePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesTagNamePattern,
+	RequiredStatusChecks: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks,
+	TagNamePattern: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesTagNamePattern,
 	Update: interface{},
 	UpdateAllowsFetchAndMerge: interface{},
 }
@@ -1719,7 +1719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesBranchNamePattern {
 	Operator: *string,
@@ -1801,7 +1801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesCommitAuthorEmailPattern {
 	Operator: *string,
@@ -1883,7 +1883,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesCommitMessagePattern {
 	Operator: *string,
@@ -1965,7 +1965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesCommitterEmailPattern {
 	Operator: *string,
@@ -2047,7 +2047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReview.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesCopilotCodeReview {
 	ReviewDraftPullRequests: interface{},
@@ -2097,7 +2097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestriction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesFileExtensionRestriction {
 	RestrictedFileExtensions: *[]*string,
@@ -2131,7 +2131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestriction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesFilePathRestriction {
 	RestrictedFilePaths: *[]*string,
@@ -2165,7 +2165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLength.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesMaxFilePathLength {
 	MaxFilePathLength: *f64,
@@ -2199,7 +2199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSize.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesMaxFileSize {
 	MaxFileSize: *f64,
@@ -2233,7 +2233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesMergeQueue {
 	CheckResponseTimeoutMinutes: *f64,
@@ -2371,7 +2371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesPullRequest {
 	AllowedMergeMethods: *[]*string,
@@ -2503,12 +2503,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewers.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesPullRequestRequiredReviewers {
 	FilePatterns: *[]*string,
 	MinimumApprovals: *f64,
-	Reviewer: github.com/cdktn-io/cdktn-provider-github-go/github/v17.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer,
+	Reviewer: github.com/cdktn-io/cdktn-provider-github-go/github/v18.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer,
 }
 ```
 
@@ -2569,7 +2569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewer {
 	Id: *f64,
@@ -2622,7 +2622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanning.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesRequiredCodeScanning {
 	RequiredCodeScanningTool: interface{},
@@ -2656,7 +2656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningTool {
 	AlertsThreshold: *string,
@@ -2726,7 +2726,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeployments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesRequiredDeployments {
 	RequiredDeploymentEnvironments: *[]*string,
@@ -2760,7 +2760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesRequiredStatusChecks {
 	RequiredCheck: interface{},
@@ -2828,7 +2828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheck {
 	Context: *string,
@@ -2878,7 +2878,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePattern.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 &repositoryruleset.RepositoryRulesetRulesTagNamePattern {
 	Operator: *string,
@@ -2962,7 +2962,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetBypassActorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryRulesetBypassActorsList
 ```
@@ -3122,7 +3122,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetBypassActorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetBypassActorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryRulesetBypassActorsOutputReference
 ```
@@ -3462,7 +3462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetConditionsOutputReference
 ```
@@ -3746,7 +3746,7 @@ func InternalValue() RepositoryRulesetConditions
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetConditionsRefNameOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetConditionsRefNameOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetConditionsRefNameOutputReference
 ```
@@ -4039,7 +4039,7 @@ func InternalValue() RepositoryRulesetConditionsRefName
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesBranchNamePatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesBranchNamePatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesBranchNamePatternOutputReference
 ```
@@ -4390,7 +4390,7 @@ func InternalValue() RepositoryRulesetRulesBranchNamePattern
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesCommitAuthorEmailPatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesCommitAuthorEmailPatternOutputReference
 ```
@@ -4741,7 +4741,7 @@ func InternalValue() RepositoryRulesetRulesCommitAuthorEmailPattern
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitMessagePatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesCommitMessagePatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesCommitMessagePatternOutputReference
 ```
@@ -5092,7 +5092,7 @@ func InternalValue() RepositoryRulesetRulesCommitMessagePattern
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCommitterEmailPatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesCommitterEmailPatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesCommitterEmailPatternOutputReference
 ```
@@ -5443,7 +5443,7 @@ func InternalValue() RepositoryRulesetRulesCommitterEmailPattern
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesCopilotCodeReviewOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesCopilotCodeReviewOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesCopilotCodeReviewOutputReference
 ```
@@ -5750,7 +5750,7 @@ func InternalValue() RepositoryRulesetRulesCopilotCodeReview
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFileExtensionRestrictionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesFileExtensionRestrictionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesFileExtensionRestrictionOutputReference
 ```
@@ -6021,7 +6021,7 @@ func InternalValue() RepositoryRulesetRulesFileExtensionRestriction
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesFilePathRestrictionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesFilePathRestrictionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesFilePathRestrictionOutputReference
 ```
@@ -6292,7 +6292,7 @@ func InternalValue() RepositoryRulesetRulesFilePathRestriction
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFilePathLengthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesMaxFilePathLengthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesMaxFilePathLengthOutputReference
 ```
@@ -6563,7 +6563,7 @@ func InternalValue() RepositoryRulesetRulesMaxFilePathLength
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMaxFileSizeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesMaxFileSizeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesMaxFileSizeOutputReference
 ```
@@ -6834,7 +6834,7 @@ func InternalValue() RepositoryRulesetRulesMaxFileSize
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesMergeQueueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesMergeQueueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesMergeQueueOutputReference
 ```
@@ -7286,7 +7286,7 @@ func InternalValue() RepositoryRulesetRulesMergeQueue
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesOutputReference
 ```
@@ -8368,7 +8368,7 @@ func InternalValue() RepositoryRulesetRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesPullRequestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesPullRequestOutputReference
 ```
@@ -8833,7 +8833,7 @@ func InternalValue() RepositoryRulesetRulesPullRequest
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesPullRequestRequiredReviewersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryRulesetRulesPullRequestRequiredReviewersList
 ```
@@ -8993,7 +8993,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesPullRequestRequiredReviewersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryRulesetRulesPullRequestRequiredReviewersOutputReference
 ```
@@ -9339,7 +9339,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesPullRequestRequiredReviewersReviewerOutputReference
 ```
@@ -9632,7 +9632,7 @@ func InternalValue() RepositoryRulesetRulesPullRequestRequiredReviewersReviewer
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredCodeScanningOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesRequiredCodeScanningOutputReference
 ```
@@ -9916,7 +9916,7 @@ func InternalValue() RepositoryRulesetRulesRequiredCodeScanning
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolList
 ```
@@ -10076,7 +10076,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryRulesetRulesRequiredCodeScanningRequiredCodeScanningToolOutputReference
 ```
@@ -10409,7 +10409,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredDeploymentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredDeploymentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesRequiredDeploymentsOutputReference
 ```
@@ -10680,7 +10680,7 @@ func InternalValue() RepositoryRulesetRulesRequiredDeployments
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredStatusChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesRequiredStatusChecksOutputReference
 ```
@@ -11022,7 +11022,7 @@ func InternalValue() RepositoryRulesetRulesRequiredStatusChecks
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredStatusChecksRequiredCheckList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryRulesetRulesRequiredStatusChecksRequiredCheckList
 ```
@@ -11182,7 +11182,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryRulesetRulesRequiredStatusChecksRequiredCheckOutputReference
 ```
@@ -11500,7 +11500,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryRuleset.RepositoryRulesetRulesTagNamePatternOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositoryruleset"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositoryruleset"
 
 repositoryruleset.NewRepositoryRulesetRulesTagNamePatternOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) RepositoryRulesetRulesTagNamePatternOutputReference
 ```
