@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.provider.GithubProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 provider.NewGithubProvider(scope Construct, id *string, config GithubProviderConfig) GithubProvider
 ```
@@ -278,7 +278,7 @@ func ResetWriteDelayMs()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.provider.GithubProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 provider.GithubProvider_IsConstruct(x interface{}) *bool
 ```
@@ -310,7 +310,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.provider.GithubProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 provider.GithubProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -324,7 +324,7 @@ provider.GithubProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-github.provider.GithubProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 provider.GithubProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -338,7 +338,7 @@ provider.GithubProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.provider.GithubProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 provider.GithubProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -853,7 +853,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.provider.GithubProviderAppAuth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 &provider.GithubProviderAppAuth {
 	Id: *string,
@@ -924,11 +924,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.provider.GithubProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/provider"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/provider"
 
 &provider.GithubProviderConfig {
 	Alias: *string,
-	AppAuth: github.com/cdktn-io/cdktn-provider-github-go/github/v18.provider.GithubProviderAppAuth,
+	AppAuth: github.com/cdktn-io/cdktn-provider-github-go/github/v17.provider.GithubProviderAppAuth,
 	BaseUrl: *string,
 	CachePath: *string,
 	Insecure: interface{},

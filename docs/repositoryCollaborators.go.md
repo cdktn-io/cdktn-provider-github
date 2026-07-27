@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/integrations/github/
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaborators(scope Construct, id *string, config RepositoryCollaboratorsConfig) RepositoryCollaborators
 ```
@@ -467,7 +467,7 @@ func ResetUser()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.RepositoryCollaborators_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.RepositoryCollaborators_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ repositorycollaborators.RepositoryCollaborators_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.RepositoryCollaborators_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ repositorycollaborators.RepositoryCollaborators_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaborators.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.RepositoryCollaborators_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -899,7 +899,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 &repositorycollaborators.RepositoryCollaboratorsConfig {
 	Connection: interface{},
@@ -1082,7 +1082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 &repositorycollaborators.RepositoryCollaboratorsIgnoreTeam {
 	TeamId: *string,
@@ -1116,7 +1116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeam.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 &repositorycollaborators.RepositoryCollaboratorsTeam {
 	TeamId: *string,
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializer <a name="Initializer" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUser.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 &repositorycollaborators.RepositoryCollaboratorsUser {
 	Username: *string,
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integ
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsIgnoreTeamList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryCollaboratorsIgnoreTeamList
 ```
@@ -1382,7 +1382,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsIgnoreTeamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsIgnoreTeamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryCollaboratorsIgnoreTeamOutputReference
 ```
@@ -1671,7 +1671,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsTeamList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryCollaboratorsTeamList
 ```
@@ -1831,7 +1831,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsTeamOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsTeamOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryCollaboratorsTeamOutputReference
 ```
@@ -2149,7 +2149,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsUserList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RepositoryCollaboratorsUserList
 ```
@@ -2309,7 +2309,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-github.repositoryCollaborators.RepositoryCollaboratorsUserOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-github-go/github/v18/repositorycollaborators"
+import "github.com/cdktn-io/cdktn-provider-github-go/github/v17/repositorycollaborators"
 
 repositorycollaborators.NewRepositoryCollaboratorsUserOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) RepositoryCollaboratorsUserOutputReference
 ```
